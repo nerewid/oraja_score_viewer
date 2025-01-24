@@ -4,8 +4,10 @@ let songdataDbData;
 let sqlPromise;
 
 document.addEventListener('DOMContentLoaded', async () => {
+    const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
+    const repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/';
     sqlPromise = initSqlJs({
-        locateFile: filename => `/js/lib/${filename}`
+        locateFile: filename => `${repoName}js/lib/${filename}`
     });
 });
 
