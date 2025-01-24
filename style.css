@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #333; /* ダークな背景色 */
+    color: #eee; /* 文字色を明るく */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.date-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.title-list {
+    list-style: none; /* リストマーカーを非表示 */
+    padding-left: 0;
+}
+
+.title-item {
+    margin-bottom: 5px;
+    display: flex; /* flexbox を有効化 */
+    align-items: center; /* 垂直方向中央揃え */
+    justify-content: space-between; /* 両端揃え */
+}
+
+.bp-list {
+    list-style: none;
+    padding-left: 20px; /* 必要に応じて調整 */
+    font-size: 0.9em;
+    color: #777; /* 元の色に戻すか、必要に応じて変更 */
+    margin-left: auto; /* BPリストを右端に寄せる */
+}
+
+.bp-only-section {
+    margin-top: 10px;
+}
