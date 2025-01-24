@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Player Clear Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>更新履歴</h1>
+    {% set notes_data_map = {} %} {# ループの外で初期化 #}
+    {% for date_data in clear_info %}
+        <div class="date-section">
+            <h2 class="date-title">{{ date_data.date }} {{  notes[date_data.date] }}Notes</h2>
+            {% set displayed_clear_lamps = [] %}
+            {% for title_data in date_data.titles %}
+                {% set data = title_data.data %}
+                {% set title = title_data.title %}
+                {% if data.clear not in displayed_clear_lamps %}
+                    <h3 style="color: {{ clear_status[data.clear]['color'] }};">新規{{ clear_status[data.clear]['name'] }}</h3>
+                    <ul class="title-list">
+                    {% set displayed_clear_lamps = displayed_clear_lamps + [data.clear] %}
+                {% endif %}
+                <li class="title-item">{{ title }}
+                    <ul class="bp-list">
+                    <li>BP: {% if data.old_bp != 2147483647 %}{{ data.old_bp }}{% else %}NoPlay{% endif %} -> {{ data.new_bp }}</li>
+                    </ul>
+                </li>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</body>
+</html>

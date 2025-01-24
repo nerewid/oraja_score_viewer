@@ -1,0 +1,26 @@
+[
+  {
+      "siteName": "Satellite難易度表",
+      "internalFileName": "satellite",
+      "shortName": "sl",
+      "url": "https://stellabms.xyz/sl/score.json"
+  },
+  {
+      "siteName": "Stella難易度表",
+      "internalFileName": "stella",
+      "shortName": "st",
+      "url": "https://stellabms.xyz/st/score.json"
+  },
+  {
+      "siteName": "発狂難易度表",
+      "internalFileName": "insane",
+      "shortName": "★",
+      "url": "https://miraiscarlet.github.io/bms/table/genocide_insane/data_insane.json"
+  },
+  {
+      "siteName": "NEW GENERATION難易度表",
+      "internalFileName": "new_generation",
+      "shortName": "▼",
+      "url": "https://rattoto10.github.io/second_table/insane_data.json"
+  }
+]
