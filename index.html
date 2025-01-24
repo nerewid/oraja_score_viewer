@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>beatorajaスコアツール</title>
+    <script>
+        const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
+        const repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/'; // リポジトリ名を取得
+        document.write('<base href="' + repoName + '">'); // baseタグを動的に挿入
+      </script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/cal-heatmap/dist/cal-heatmap.css">
+    <link rel="stylesheet" href="cal-heatmap.css">
 </head>
 <body>
     <div id="upload-area"> 
