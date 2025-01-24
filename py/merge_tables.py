@@ -60,8 +60,6 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
                         "table": internal_file_name,
                         "shortName": short_name
                     })
-                    if not existing_song.get("url") and song.get("url"):
-                        existing_song["url"] = song["url"]
                     if not existing_song.get("artist") and song.get("artist"):
                         existing_song["artist"] = song["artist"]
                     if not existing_song.get("title") and song.get("title"):
@@ -74,7 +72,6 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
                         "md5": md5,
                         "sha256": sha256,
                         "title": song.get("title"),
-                        "url": song.get("url"),
                         "artist": song.get("artist"),
                         "levels": [{
                             "level": song.get("level"),
@@ -90,8 +87,6 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
                         "table": internal_file_name,
                         "shortName": short_name
                     })
-                    if not existing_song.get("url") and song.get("url"):
-                        existing_song["url"] = song["url"]
                     if not existing_song.get("artist") and song.get("artist"):
                         existing_song["artist"] = song["artist"]
                     if not existing_song.get("title") and song.get("title"):
@@ -103,7 +98,6 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
                         "md5": md5,
                         "sha256": sha256,
                         "title": song.get("title"),
-                        "url": song.get("url"),
                         "artist": song.get("artist"),
                         "levels": [{
                             "level": song.get("level"),

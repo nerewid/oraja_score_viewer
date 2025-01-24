@@ -30,7 +30,7 @@ document.getElementById("processData").addEventListener("click", async () => {
             return;
         }
         console.timeEnd("prepation");
-
+        console.log(mergedDifficultyTables);
         const songDataMap = createSongDataMap(mergedDifficultyTables.songs);
 
         const sha256ToMd5Map = await createSha256ToMd5Map(songdataDb, mergedDifficultyTables.songs);

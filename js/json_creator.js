@@ -65,29 +65,29 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                 // 曲ごとのデータが存在しない場合は作成（初期値を設定）
                 if (!jsonOutput.get(formattedDate).has(entry.title)) {
                     jsonOutput.get(formattedDate).set(entry.title, {
-                        clear: parsedClear,
+                        clear: "-1",
                         old_bp: parsedOldBp,
                         new_bp: parsedNewBp
                     });
-                } else {
-                    // 既存のデータを更新
-                    const existingData = jsonOutput.get(formattedDate).get(entry.title);
+                } 
+                // 既存のデータを更新
+                const existingData = jsonOutput.get(formattedDate).get(entry.title);
 
-                    // clearを更新（oldclear != clearの場合のみ、より大きい値で更新）
-                    if (parsedOldClear !== parsedClear && parseInt(parsedClear) > parseInt(existingData.clear)) {
-                        existingData.clear = parsedClear;
+                // clearを更新（oldclear != clearの場合のみ、より大きい値で更新）
+                if (parsedOldClear !== parsedClear && parseInt(parsedClear) > parseInt(existingData.clear)) {
+                    existingData.clear = parsedClear;
+                }
+
+                // old_bpとnew_bpを更新（oldminbp != minbpの場合のみ、old_bpはより大きい値、new_bpはより小さい値で更新）
+                if (parsedOldBp !== parsedNewBp) {
+                    if (parsedOldBp > existingData.old_bp) {
+                        existingData.old_bp = parsedOldBp;
                     }
-
-                    // old_bpとnew_bpを更新（oldminbp != minbpの場合のみ、old_bpはより大きい値、new_bpはより小さい値で更新）
-                    if (parsedOldBp !== parsedNewBp) {
-                        if (parsedOldBp > existingData.old_bp) {
-                            existingData.old_bp = parsedOldBp;
-                        }
-                        if (parsedNewBp < existingData.new_bp) {
-                            existingData.new_bp = parsedNewBp;
-                        }
+                    if (parsedNewBp < existingData.new_bp) {
+                        existingData.new_bp = parsedNewBp;
                     }
                 }
+                
             } else {
                 console.warn(`sha256: ${entry.sha256}, date: ${entry.date} に対応するscorelogが見つかりません。`);
             }

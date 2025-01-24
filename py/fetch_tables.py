@@ -64,7 +64,7 @@ def main():
     project_root = os.path.dirname(script_dir)
     
 
-    difficulty_table_dir = os.path.join(project_root, "difficulty_table_data")
+    difficulty_table_dir = os.path.join(project_root, "raw_difficulty_table_data")
 
     data = load_json_data(os.path.join(difficulty_table_dir, "difficulty_tables.json"))
     if data is None:

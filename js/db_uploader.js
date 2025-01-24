@@ -5,7 +5,7 @@ let sqlPromise;
 
 document.addEventListener('DOMContentLoaded', async () => {
     sqlPromise = initSqlJs({
-        locateFile: filename => `/js/${filename}`
+        locateFile: filename => `/js/lib/${filename}`
     });
 });
 
