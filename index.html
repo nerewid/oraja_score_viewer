@@ -5,8 +5,11 @@
     <title>beatorajaスコアツール</title>
     <script>
         const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
-        const repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/'; // リポジトリ名を取得
-        document.write('<base href="' + repoName + '">'); // baseタグを動的に挿入
+        const repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/';
+        const baseTag = document.createElement('base');
+        baseTag.href = repoName;
+        console.log(repoName);
+        document.head.appendChild(baseTag);
       </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cal-heatmap.css">
