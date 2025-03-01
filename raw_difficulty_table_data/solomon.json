@@ -318,6 +318,15 @@
         },
         {
             "level": "15",
+            "title": "陥穽糸 [蜘蛛糸10000メートル]",
+            "artist": "",
+            "charter": "-",
+            "song_artist": "Utuka",
+            "md5": "0a8567c8e3175d315fac9a3818454b7f",
+            "comment": ""
+        },
+        {
+            "level": "15",
             "title": "現世発、希望行。[CNother]",
             "artist": "",
             "charter": "ClassICNooB",
@@ -359,6 +368,15 @@
             "charter": "C4 & monaka",
             "song_artist": "暮狛",
             "md5": "f9456617257b3e367bb5b04ae2933f01",
+            "comment": ""
+        },
+        {
+            "level": "16",
+            "title": "8.1TB [深層Web10000メートル]",
+            "artist": "",
+            "charter": "-",
+            "song_artist": "Utuka",
+            "md5": "c3257748488ae08a04e649d9d56be1f3",
             "comment": ""
         },
         {
@@ -543,6 +561,15 @@
         },
         {
             "level": "16",
+            "title": "Smile Delivery [@ピザ]",
+            "artist": "",
+            "charter": "どくだみ草",
+            "song_artist": "ぴゅーれ",
+            "md5": "1278b278d568d427241c117addfb5bdc",
+            "comment": ""
+        },
+        {
+            "level": "16",
             "title": "Trahison [Li]",
             "artist": "",
             "charter": "LIEF",
@@ -665,6 +692,15 @@
             "charter": "black train",
             "song_artist": "-45",
             "md5": "dd99972264eeab7e4cd22d9a64ccb569",
+            "comment": ""
+        },
+        {
+            "level": "17",
+            "title": "BAMBOO TWIST [my treat]",
+            "artist": "",
+            "charter": "MOMORIA",
+            "song_artist": "Ras vs Nankumo",
+            "md5": "1fda5d1c3600b1278688ba1f73286cf6",
             "comment": ""
         },
         {
@@ -894,6 +930,15 @@
         },
         {
             "level": "17",
+            "title": "TransientTears [ForTiTude]",
+            "artist": "",
+            "charter": "69 de 74 & Fender",
+            "song_artist": "69 de 74",
+            "md5": "52183bda5aab8ea30f668226610a9ada",
+            "comment": ""
+        },
+        {
+            "level": "17",
             "title": "Unit:Squash! [New Game+]",
             "artist": "",
             "charter": "3830",
@@ -1020,11 +1065,11 @@
         },
         {
             "level": "18",
-            "title": "Espresso Shots [Another+]",
-            "artist": "Chino(litmus*)",
-            "charter": "-",
-            "song_artist": "litmus*",
-            "md5": "6ac4a7d3a047e307ce12272d4f6a7751",
+            "title": "exists Uniquely",
+            "artist": "",
+            "charter": "Reiaki",
+            "song_artist": "Lipschitz",
+            "md5": "da46bf8523d03708f7c3e0bdc1fb731c",
             "comment": ""
         },
         {
@@ -1070,6 +1115,15 @@
             "charter": "th",
             "song_artist": "源屋",
             "md5": "407c8e043a446c9dc99fc1ca97eb2fb5",
+            "comment": ""
+        },
+        {
+            "level": "18",
+            "title": "MARENOL -Xe-",
+            "artist": "",
+            "charter": "LindBlum",
+            "song_artist": "LeaF",
+            "md5": "7d556eb7ec3cff5680c70c165dd81358",
             "comment": ""
         },
         {
@@ -1160,6 +1214,15 @@
             "charter": "swa",
             "song_artist": "gmtn.",
             "md5": "cfdba30490af2e20c74244d1c43da3ec",
+            "comment": ""
+        },
+        {
+            "level": "18",
+            "title": "サプレッサ -Sonata-",
+            "artist": "",
+            "charter": "七海",
+            "song_artist": "ルゼ",
+            "md5": "6d7bc9cabb8db24f9d7590ee41d218ba",
             "comment": ""
         },
         {
@@ -1286,6 +1349,15 @@
             "charter": "れもんるり",
             "song_artist": "[IX]",
             "md5": "3af44a84b4056de45d95fe23d5bf1a95",
+            "comment": ""
+        },
+        {
+            "level": "19",
+            "title": "Espresso Shots [Another+]",
+            "artist": "Chino(litmus*)",
+            "charter": "-",
+            "song_artist": "litmus*",
+            "md5": "6ac4a7d3a047e307ce12272d4f6a7751",
             "comment": ""
         },
         {
@@ -1502,6 +1574,15 @@
             "charter": "C4",
             "song_artist": "TaW",
             "md5": "f2450547591c75699478e9d178f58d76",
+            "comment": ""
+        },
+        {
+            "level": "20",
+            "title": "ABYSSAL // COSMOS [HYBRID // CHAOS]",
+            "artist": "",
+            "charter": "Holy & Lyricia",
+            "song_artist": "C.miler & Juka_Box",
+            "md5": "9bd956a907182dcfb1a44fdda7caf733",
             "comment": ""
         },
         {
@@ -1757,6 +1838,15 @@
             "comment": ""
         },
         {
+            "level": "20",
+            "title": "彗星譚 ～待ち焦がれた彗星の旅～",
+            "artist": "",
+            "charter": "LindBlum",
+            "song_artist": "Juka_Box",
+            "md5": "b1b1eba92b96602ec5372c6e9bf29620",
+            "comment": ""
+        },
+        {
             "level": "21",
             "title": "$trange Attraktor [$cramble]",
             "artist": "schwarzekugel(ROKINA) BGA:出前",
@@ -1898,6 +1988,15 @@
             "charter": "hex",
             "song_artist": "MoVIIkA",
             "md5": "45b6a94349443e21fcc2b9c542c1fe50",
+            "comment": ""
+        },
+        {
+            "level": "21",
+            "title": "New Order[ForNewBeginning] ",
+            "artist": "",
+            "charter": "tsukisaka",
+            "song_artist": "kanoryo",
+            "md5": "1c966ecc99884f693141ff9253a28bb4",
             "comment": ""
         },
         {
@@ -2729,6 +2828,15 @@
             "comment": ""
         },
         {
+            "level": "23",
+            "title": "τ [Torque]",
+            "artist": "",
+            "charter": "rainy",
+            "song_artist": "Wooden",
+            "md5": "1cc2d39f6518bcdd08ca92d1ff5fbe53",
+            "comment": ""
+        },
+        {
             "level": "24",
             "title": "\"Alice in Wonderland\" : crazy apple could not live in real life [7 EX-INSANE]",
             "artist": "",
@@ -2766,6 +2874,15 @@
         },
         {
             "level": "24",
+            "title": "Always Feel the Same [I don't even know what happens]",
+            "artist": "",
+            "charter": "BKwind",
+            "song_artist": "VeetaCrush & KeiuO",
+            "md5": "96c226a0c3cfd6af8632f450e0f5bceb",
+            "comment": ""
+        },
+        {
+            "level": "24",
             "title": "Angel dust -Abyss-",
             "artist": "",
             "charter": "xki",
@@ -2780,6 +2897,24 @@
             "charter": "垢伴次郎",
             "song_artist": "taqumi",
             "md5": "5026c88dc5986a429a869495528ade14",
+            "comment": ""
+        },
+        {
+            "level": "24",
+            "title": "Corgito Ergosum [a'nrakor]",
+            "artist": "",
+            "charter": "Lyricia",
+            "song_artist": "Raimukun",
+            "md5": "171288a3cfbedd43dc93ef9e0fbef05f",
+            "comment": ""
+        },
+        {
+            "level": "24",
+            "title": "DAYBREAK -夜明けの花のように- ",
+            "artist": "",
+            "charter": "IBARAGI_YOSHIMI",
+            "song_artist": "Lime",
+            "md5": "3d45cbd1106042e7e9a0fa8ab24d42af",
             "comment": ""
         },
         {
@@ -2928,11 +3063,29 @@
         },
         {
             "level": "24",
+            "title": "The Last Page [Reminiscence]",
+            "artist": "",
+            "charter": "Stellaおばさん",
+            "song_artist": "ARForest",
+            "md5": "c1cfa9b0aaeab4526e263f5fc13d44e6",
+            "comment": ""
+        },
+        {
+            "level": "24",
             "title": "tinnitus -Genocide-",
             "artist": "",
             "charter": "selene.",
             "song_artist": "SP-#",
             "md5": "d49874c9835571a8d892e6ed6a0dcaef",
+            "comment": ""
+        },
+        {
+            "level": "24",
+            "title": "TURN ON THE WOTERWORKS [SP / DROWNING]",
+            "artist": "",
+            "charter": "Mary_Sue",
+            "song_artist": "東風屋 梓",
+            "md5": "72e2fb11660924328f202565c50300fb",
             "comment": ""
         },
         {
@@ -3072,6 +3225,15 @@
         },
         {
             "level": "25",
+            "title": "BASS KICK YAKUZA [STREAM YAKUZA] ",
+            "artist": "",
+            "charter": "IBARAGI_YOSHIMI",
+            "song_artist": "くっちー & scytheleg",
+            "md5": "b418c8999fa3284debe7470d2e52c4ae",
+            "comment": ""
+        },
+        {
+            "level": "25",
             "title": "BATHALA [vaca]",
             "artist": "",
             "charter": "EGRET.",
@@ -3144,6 +3306,24 @@
         },
         {
             "level": "25",
+            "title": "Fuzzy-Navel [Alcoholic] ",
+            "artist": "",
+            "charter": "IBARAGI_YOSHIMI",
+            "song_artist": "わかどり",
+            "md5": "3cd27433beb5190f51e13f74d2d6412c",
+            "comment": ""
+        },
+        {
+            "level": "25",
+            "title": "GlassyHeart. [MASTER]",
+            "artist": "",
+            "charter": "BKwind / 敵人",
+            "song_artist": "ILusMin",
+            "md5": "9d1ef910504fb3f7928908d4d3b81aa5",
+            "comment": ""
+        },
+        {
+            "level": "25",
             "title": "Gypsy gets the Tek [Scramble!!]",
             "artist": "Neun_jack / mov:squidboy",
             "charter": "onmaco",
@@ -3185,15 +3365,6 @@
             "charter": "EGRET.",
             "song_artist": "Reku Mochizuki",
             "md5": "3d52d8d819c96798d2a629879f20410b",
-            "comment": ""
-        },
-        {
-            "level": "25",
-            "title": "Lost Petal's Wander [SP RAMPAGE]",
-            "artist": "RB.H × lixound × 薛南 mov:Keizou",
-            "charter": "Criyajuh",
-            "song_artist": "RB.H & lixound",
-            "md5": "2c5ef2df3026b801b18a5be39ab97a77",
             "comment": ""
         },
         {
@@ -3270,6 +3441,15 @@
         },
         {
             "level": "25",
+            "title": "SPILL da BEANS [HOURGLASS of da MIND]",
+            "artist": "",
+            "charter": "Criyajuh",
+            "song_artist": "U-ske",
+            "md5": "76e5687a1aa8d47dbf86c61ec1691878",
+            "comment": ""
+        },
+        {
+            "level": "25",
             "title": "starlove [uncaring]",
             "artist": "+TEK",
             "charter": "(作者不明)",
@@ -3288,6 +3468,15 @@
         },
         {
             "level": "25",
+            "title": "Time to beat the odds [LONER]",
+            "artist": "",
+            "charter": "Criyajuh",
+            "song_artist": "影虎。",
+            "md5": "5e16b55e777e3ca200b7ddad101edd36",
+            "comment": ""
+        },
+        {
+            "level": "25",
             "title": "Valkyrie Revolutia [Super Hexagon]",
             "artist": "Sakamiya",
             "charter": "hex",
@@ -3302,6 +3491,15 @@
             "charter": "EGRET.",
             "song_artist": "ああああ",
             "md5": "967cd9bf08be896e08f0a9c68e93c71b",
+            "comment": ""
+        },
+        {
+            "level": "25",
+            "title": "YUME-IRO MILKY WAY [STAR TWINKLE]",
+            "artist": "",
+            "charter": "fuko",
+            "song_artist": "Y.W & kotomi",
+            "md5": "b8be1af0629be0113618702d8c22679b",
             "comment": ""
         },
         {
@@ -3401,6 +3599,15 @@
             "charter": "-",
             "song_artist": "Lian",
             "md5": "c30aebe4b6de570cb4139a30072970d5",
+            "comment": ""
+        },
+        {
+            "level": "26",
+            "title": "BE-MUSiC⇒STORY [SP BE-MUSIC⇒SPECIAL]",
+            "artist": "",
+            "charter": "И",
+            "song_artist": "tkqn14 & NIKANON",
+            "md5": "4f0e31075b1b947c1dd970493e563066",
             "comment": ""
         },
         {
@@ -3531,11 +3738,11 @@
         },
         {
             "level": "26",
-            "title": "Legend of Seeker [FULL]",
-            "artist": "celas",
-            "charter": "cieu",
-            "song_artist": "celas",
-            "md5": "cfad3baadce9e02c45021963453d7c94",
+            "title": "Lost Petal's Wander [SP RAMPAGE]",
+            "artist": "RB.H × lixound × 薛南 mov:Keizou",
+            "charter": "Criyajuh",
+            "song_artist": "RB.H & lixound",
+            "md5": "2c5ef2df3026b801b18a5be39ab97a77",
             "comment": ""
         },
         {
@@ -3644,6 +3851,15 @@
             "charter": "firi.",
             "song_artist": "Yosk!",
             "md5": "ae9b5e367d53f7f5018a3cb3e17f3788",
+            "comment": ""
+        },
+        {
+            "level": "26",
+            "title": "いせきのなかにいる [HEARTLESS]",
+            "artist": "",
+            "charter": "魔女",
+            "song_artist": "Micelle",
+            "md5": "ea0170a72fa988710746b9bdf950fe61",
             "comment": ""
         },
         {
@@ -3837,6 +4053,15 @@
         },
         {
             "level": "27",
+            "title": "Hear Me Out [HEARTLESS]",
+            "artist": "",
+            "charter": "魔女",
+            "song_artist": "Sobrem",
+            "md5": "577a7bcb11475a94e64a5bf518a7293c",
+            "comment": ""
+        },
+        {
+            "level": "27",
             "title": "Icicle Stinger -Solar Eclipse-",
             "artist": "ROKINA / Illust:出前",
             "charter": "selene. & 1/8",
@@ -3860,6 +4085,15 @@
             "charter": "-",
             "song_artist": "qfeileadh & AYhaz",
             "md5": "7b120f62df2da69ec06f2321d1969f67",
+            "comment": ""
+        },
+        {
+            "level": "27",
+            "title": "Legend of Seeker [FULL]",
+            "artist": "celas",
+            "charter": "cieu",
+            "song_artist": "celas",
+            "md5": "cfad3baadce9e02c45021963453d7c94",
             "comment": ""
         },
         {
@@ -4080,6 +4314,15 @@
         },
         {
             "level": "28",
+            "title": "4th Hyper Pressure [Pulverize]",
+            "artist": "",
+            "charter": "homare",
+            "song_artist": "原木シィタケ",
+            "md5": "aaa1f9dfc45e07cc2311c3efb036f5a0",
+            "comment": ""
+        },
+        {
+            "level": "28",
             "title": "Anima Mundi -Incipiens Finis- [Ewigkeit]",
             "artist": "Limstella BGA:アカツキユウ",
             "charter": "homare",
@@ -4094,6 +4337,15 @@
             "charter": "e842",
             "song_artist": "EBIMAYO",
             "md5": "b8359b62d1dc04632f9cbf12bd39dbb6",
+            "comment": ""
+        },
+        {
+            "level": "28",
+            "title": "Breakcore WTF!? [HEARTLESS]",
+            "artist": "",
+            "charter": "魔女",
+            "song_artist": "LeaF",
+            "md5": "81861feb62324616292072ea9d210bd5",
             "comment": ""
         },
         {
@@ -4157,6 +4409,15 @@
             "charter": "魔女",
             "song_artist": "paraneumann",
             "md5": "d4fbc1984065d8e8e10f093714875dfe",
+            "comment": ""
+        },
+        {
+            "level": "28",
+            "title": "HYPER HYPED HYPERION(HYPER \"HYPER\" MIX) [HYPERBAKA]",
+            "artist": "",
+            "charter": "PiPiNeko",
+            "song_artist": "MSMcorp.",
+            "md5": "e26a99dcc0261fa957ed4adc0a3b2041",
             "comment": ""
         },
         {
@@ -4242,6 +4503,15 @@
         },
         {
             "level": "28",
+            "title": "Unleashed World [FATALISMO]",
+            "artist": "",
+            "charter": "PiPiNeko",
+            "song_artist": "sak",
+            "md5": "9992dca1cd1f1f010ba0557959e0fdf6",
+            "comment": ""
+        },
+        {
+            "level": "28",
             "title": "Weaponhuman [HEARTLESS]",
             "artist": "",
             "charter": "魔女",
@@ -4256,6 +4526,15 @@
             "charter": "Criyajuh",
             "song_artist": "CYLTIE.",
             "md5": "a0374d816bce0b8e41e2eb13ec12cf72",
+            "comment": ""
+        },
+        {
+            "level": "28",
+            "title": "あかず []",
+            "artist": "",
+            "charter": "…",
+            "song_artist": "かたぎり",
+            "md5": "7399fcbef8216e541ee340ba9c86ce17",
             "comment": ""
         },
         {
@@ -4319,6 +4598,141 @@
             "charter": "魔女",
             "song_artist": "Micelle",
             "md5": "a03a6fb99314771b5f408e1556b1d124",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "DAE [SP INSANE]",
+            "artist": "",
+            "charter": "-",
+            "song_artist": "k",
+            "md5": "074d907232f41d2d829eed403716bc8a",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Chainsaw NINJA vs ALIEN [BBBB]",
+            "artist": "",
+            "charter": "Atharnal",
+            "song_artist": "kas_0120 & hard",
+            "md5": "eac0898f88ec4e0178a978e63af9754e",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "アンタイムカプセル [BEYOND]",
+            "artist": "",
+            "charter": "Mono.",
+            "song_artist": "Mono.",
+            "md5": "0ba5e5113ed4f82beaac845af0998ac5",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "assemblage -IR-",
+            "artist": "",
+            "charter": "hex",
+            "song_artist": "czardas",
+            "md5": "54983990c9fab723813cea42feb65b20",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "妖鬼山脈 [INSANE]",
+            "artist": "",
+            "charter": "-",
+            "song_artist": "かたぎり",
+            "md5": "7e4296c4979f4eebb07f19d6221dae90",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Stargaze Station [Septentriones] ",
+            "artist": "",
+            "charter": "toraji",
+            "song_artist": "seatrus",
+            "md5": "a89c86a36a02109b8ab06a6deb26be55",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "HYPER☆MEGA★COASTER [SP LEGGENDARIA]",
+            "artist": "",
+            "charter": "nye",
+            "song_artist": "Mono. & Halv",
+            "md5": "432a28b296202c14f39fc19f126829a7",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Asphalt Crack [Acrobatic Chart]",
+            "artist": "",
+            "charter": "EGRET.",
+            "song_artist": "ASA",
+            "md5": "dc6a23b1626ccacdcdd87fddfe4e2f71",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "ADONIS [a'nrakor]",
+            "artist": "",
+            "charter": "Lyricia",
+            "song_artist": "Seagull",
+            "md5": "d7465a2e1794f67037f107e6b399e7b4",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Signal [Forlornness]",
+            "artist": "",
+            "charter": "tyrcs",
+            "song_artist": "Ludicin",
+            "md5": "514e944bfd86b3dd6d380b88ba0cf9cb",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Aqua Regia Squall [Annihilation]",
+            "artist": "",
+            "charter": "Guanacoite",
+            "song_artist": "xi",
+            "md5": "1cfef37e819d8fd0a8ee50e6b55986b9",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Prominence [EXPLOSION]",
+            "artist": "",
+            "charter": "IBARAGI_YOSHIMI",
+            "song_artist": "KaKi",
+            "md5": "107b4c2148da8b6222e1b8b0fe63dd95",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "CyberGarden -Digital Butterfly-",
+            "artist": "",
+            "charter": "Tristan97",
+            "song_artist": "Qga",
+            "md5": "cbcf5a8b7c7b92f5af53f4702286872d",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "サプレッサ -UI-",
+            "artist": "",
+            "charter": "1s2",
+            "song_artist": "ルゼ",
+            "md5": "5799a9be7d093e551f349a8589112f26",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Vlll -Lachesis- [Vlll番出口]",
+            "artist": "",
+            "charter": "垢伴次郎",
+            "song_artist": "Yusuke Takeuchi",
+            "md5": "808449e30ffa662e916ff6addbaf545a",
             "comment": ""
         }
     ]

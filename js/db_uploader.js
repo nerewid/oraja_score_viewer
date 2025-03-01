@@ -64,12 +64,12 @@ function handleFileSelect(expectedFileName) {
               if (scoreDbData && scorelogDbData && songdataDbData) {
                   document.getElementById("processData").disabled = false;
               }
-              messageArea.textContent = "アップロードに成功しました。";
+              messageArea.textContent = "読み込みに成功しました。";
               messageArea.style.color = "green";
 
           } catch (e) {
               console.error(expectedFileName + "の読み込みに失敗しました:" + e);
-              messageArea.textContent = "アップロードに失敗しました: " + e.message;
+              messageArea.textContent = "読み込みに失敗しました: " + e.message;
               messageArea.style.color = "red";
           }
       };
