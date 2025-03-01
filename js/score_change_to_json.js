@@ -54,7 +54,7 @@ document.getElementById("processData").addEventListener("click", async () => {
         // HTMLを画面に表示
         document.getElementById("results-area").innerHTML = html;
 
-        document.getElementById("downloadJson").style.display = "block"; // ダウンロードボタンを表示
+        //document.getElementById("downloadJson").style.display = "block"; // ダウンロードボタンを表示
         document.getElementById("downloadJson").addEventListener("click", () => {
             downloadJson(jsonOutput); // JSONダウンロードを実行
         });

@@ -3,20 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>oraja_score_viewer</title>
-    <style>
-        button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 5px;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
     <script>
         // github.ioのルートディレクトリがリポジトリのトップにならない問題を解消する
         const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
@@ -62,7 +48,6 @@
     <div id="cal-heatmap-notes"></div>
     <div id="cal-heatmap-progress-pre"></div>
     <div id="cal-heatmap-progress"></div>
-    <button id="downloadJson" style="display: none;">JSONダウンロード</button>
     <div id="results-area"></div>
 
     <script src="./js/lib/sql-wasm.js"></script>

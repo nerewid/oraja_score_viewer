@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>更新履歴</h1>
+    <div style="display: inline-flex; justify-content: space-between;">
+        <span style="font-size: 1.5em; font-weight: bold;">更新履歴    </span>
+        <button id="downloadJson" style="margin-left: 10px;">JSONダウンロード</button>
+    </div>
     {% set notes_data_map = {} %} {# ループの外で初期化 #}
     {% for date_data in clear_info %}
         <div class="date-section">
