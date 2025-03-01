@@ -15,6 +15,7 @@ https://nerewid.github.io/oraja_score_viewer/
 ## 難易度表を最新化してツール用にマージ
 
 $ python3 py/fetch_tables.py
+
 $ python3 py/merge_tables.py
 
 ## httpサーバを起動してアクセス
