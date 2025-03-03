@@ -3387,6 +3387,18 @@
             "submission": 1786
         },
         {
+            "title": "HARDHOME feat.Megpoid [INSANE]",
+            "artist": "DJ ARASHI illust:En, Amado",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/19",
+            "url_diff": "",
+            "md5": "cd2fbc9f031f3c8af21a73f0acbd8f0a",
+            "sha256": "928fb5dc32bfdf952eb45e6674c48578b0368310ae6432f6f8ae235b1e6acdbf",
+            "level": "1",
+            "proposer": "mikado",
+            "comment": "Bた作25 同梱 BPM140 横に広い同時押し、乱打",
+            "submission": 3400
+        },
+        {
             "title": "holy night celebration [White Christmas]",
             "artist": "Ym1024 feat. lamie* / obj: かに Movie : Milk_tya / 恋々",
             "url": "http://yellowmapleleaf.com/",
@@ -4630,6 +4642,18 @@
             "submission": 38,
             "sha256": "256de8762ae0732beeb3d1f6894bbc409b980473374b1e66b0a61a11ad688f10",
             "proposerLr2id": 46122
+        },
+        {
+            "title": "ティアラメンツ [ルルカロス]",
+            "artist": "SpadeK Illust:Lim obj:SpadeK",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/92",
+            "url_diff": "",
+            "md5": "8f7885bdcc880ee8a06bde920ba29c38",
+            "sha256": "1ba17a0d3020fbd4cec1e3e650cd755fbfa50fc3d4553cdfb36e0040b35f0b68",
+            "level": "1",
+            "proposer": "potechang",
+            "comment": "BPM124 微ズレ",
+            "submission": 3395
         },
         {
             "title": "テキトウInfinite love(BMS edit) [EX]",
@@ -9305,18 +9329,6 @@
             "submission": 3308
         },
         {
-            "title": "#B2FFFF [SP INSANE]",
-            "artist": "tkqn14 mov. WIC / obj. 七海",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=146",
-            "url_diff": "",
-            "md5": "8c5e52719646a027b4d832ce115d98c2",
-            "sha256": "5934338bfd5492a6b916c1d9a9d2b040e0d4cd1614722b2e28aa8c2e3551e8a6",
-            "level": "4",
-            "proposer": "ABKAOD",
-            "comment": "BPM155 物量乱打",
-            "submission": 3348
-        },
-        {
             "title": "5.1.1(ReMix) [73Another]",
             "artist": "猫蟹丸 / obj:NASA",
             "url": "https://web.archive.org/web/20070107082819/http://yoshinoya.dnsalias.com:8888/knm/2005_511.lzh",
@@ -10101,6 +10113,18 @@
             "level": "4",
             "proposer": "Mallow♪",
             "submission": 1966
+        },
+        {
+            "title": "KRAKEN [EXTRA (fixed)]",
+            "artist": "HEXAHEDRA obj.Mallow♪",
+            "url": "http://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21390&ithint=file,zip&authkey=!AGPAXusmRMWjV8s",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04090.zip",
+            "md5": "fb828a50261c68d1d2f883739a2d4d00",
+            "sha256": "7c3bdfe53b6472f9f9f5d66620b6d0015aac929059135f975523445110d25625",
+            "level": "4",
+            "proposer": "ABKAOD",
+            "comment": "BPM172 同時押し、乱打",
+            "submission": 3394
         },
         {
             "title": "Krave [Insane]",
@@ -11071,6 +11095,18 @@
             "submission": 3275
         },
         {
+            "title": "藍刹 [INSANE]",
+            "artist": "Lian",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/85",
+            "url_diff": "",
+            "md5": "85f5b85f746e9ebd8c40825299d08f2d",
+            "sha256": "243a17ba28864bb2ac748a9c8a3401979e87ee564e3c05792b9b95c0c39bff96",
+            "level": "4",
+            "proposer": "ABKAOD",
+            "comment": "BPM152 乱打",
+            "submission": 3409
+        },
+        {
             "title": "赤 [W]",
             "artist": "Columba (Daily vs Roon_kun) obj. w",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=129",
@@ -11154,6 +11190,18 @@
             "comment": "修正版",
             "submission": 345,
             "proposerLr2id": 23110
+        },
+        {
+            "title": "#B2FFFF [SP INSANE]",
+            "artist": "tkqn14 mov. WIC / obj. 七海",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=146",
+            "url_diff": "",
+            "md5": "8c5e52719646a027b4d832ce115d98c2",
+            "sha256": "5934338bfd5492a6b916c1d9a9d2b040e0d4cd1614722b2e28aa8c2e3551e8a6",
+            "level": "5",
+            "proposer": "ABKAOD",
+            "comment": "BPM155 物量乱打",
+            "submission": 3348
         },
         {
             "title": "5億円が欲しいRENAISSANCE [ZOI]",
@@ -12486,6 +12534,18 @@
             "proposer": "siron",
             "comment": "同梱譜面　物量",
             "submission": 1816
+        },
+        {
+            "title": "ニルヴの心臓 [Seeds of Rebellion]",
+            "artist": "TJ.hangneil+Atomic Sphere feat.Annabel Illust:MON / Movie:MiyazawaEsora / Object:nozomi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=440&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4630",
+            "md5": "715b40104c8bd843460ddba18600d95e",
+            "sha256": "fe86147f81085a92a0e233cf533efb7d14b5fe316c049b7e0e9fb3628d4806d3",
+            "level": "5",
+            "proposer": "SHAX.",
+            "comment": "BPM256 多要素",
+            "submission": 3377
         },
         {
             "title": "ハイパーミラクルシューティングスター [大車輪山嵐]",
@@ -15454,6 +15514,18 @@
             "proposerLr2id": 111239
         },
         {
+            "title": "ハカナイユメ、ユメノサカイ [want game]",
+            "artist": "望月真白 BGA:TARA#376 obj:MOMORIA",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=147&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4605",
+            "md5": "c4a189836846761bd8ac4a4acd6d555e",
+            "sha256": "6d6380dd3056ef378bc667c0306d5635eb77b3dda36ec5a5855aed437659d521",
+            "level": "7",
+            "proposer": "SHAX.",
+            "comment": "BPM190 横に広い乱打",
+            "submission": 3398
+        },
+        {
             "title": "ハッピーフェイクショー [ホントノシアワセ]",
             "artist": "Ponchi♪ feat.はぁち obj.nozomi",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=189&event=137",
@@ -15800,6 +15872,18 @@
             "proposer": "なつ",
             "comment": "",
             "submission": 887
+        },
+        {
+            "title": "Edge of bravery [Excel Breaker]",
+            "artist": "みーに feat. 初音ミク obj:monaka",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=127",
+            "url_diff": "https://darksabun.github.io/bceg/event/bofxv/",
+            "md5": "03011390e41cd48e9e543f3a5e41442a",
+            "sha256": "4e35794bc0f0bfacb4f05ec2b673138910671599a3456cfe215a07394caad012",
+            "level": "8",
+            "proposer": "野上菜月",
+            "comment": "同時押し　乱打　",
+            "submission": 3393
         },
         {
             "title": "Empress of Raizze [ストレッチ]",
@@ -17124,6 +17208,18 @@
             "submission": 3189
         },
         {
+            "title": "black opal [ugdther]",
+            "artist": "TAK vs General / Jeff obj:ugd",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=49",
+            "url_diff": "https://stellabms.xyz/upload/3684",
+            "md5": "c0ddfa9b0d26eb38c614ff65bc0cc326",
+            "sha256": "9d40b53e01be27fa83e2ad09538ae34286ba571583be71b7dafbd89a39f76c36",
+            "level": "9",
+            "proposer": "百地たまて",
+            "comment": "休憩が挟まる200BPMの乱打，同時押し sl9～10? / 200BPM, total575(0.23%/note)",
+            "submission": 3390
+        },
+        {
             "title": "Blooming!! [Insane]",
             "artist": "こはのん(kohaxy+Hanon) obj:Rian",
             "url": "https://venue.bmssearch.net/3/73",
@@ -17302,6 +17398,18 @@
             "level": "9",
             "proposer": "かに",
             "submission": 520
+        },
+        {
+            "title": "Fly☆High! [天皇賞(春)]",
+            "artist": "MiKaDo /BGI:LLRK",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/18",
+            "url_diff": "",
+            "md5": "202eeece54dfb3ff8b756bed0298d868",
+            "sha256": "a13cffcd3b0aeeaa3290e9da706a24da50ddf92a62eea989b1931d2878b5667a",
+            "level": "9",
+            "proposer": "E‎",
+            "comment": "総合力譜面  BPM184 TOTAL732(0.228T/N)",
+            "submission": 3403
         },
         {
             "title": "fragments J-CoreRemix -Luna-",
@@ -17609,6 +17717,18 @@
             "level": "9",
             "proposer": "파이어",
             "submission": 1003
+        },
+        {
+            "title": "Strawberry Mint Chocolate [Marble]",
+            "artist": "Yu^ta feat. みずにんじん obj:monaka",
+            "url": "http://yuinore.net/2017/02/smc-package/",
+            "url_diff": "http://ux.getuploader.com/monaka_sabun_2/download/118/Strawberry+Mint+Chocolate.zip",
+            "md5": "c9c4444fbb502cfdb750dd3ef30b52ea",
+            "sha256": "02bcea57ead5bfa72dd44082400bc022c1d2109b7a524f0d58595d616e6d731c",
+            "level": "9",
+            "proposer": "野上菜月",
+            "comment": "BPM192 ディレイ乱打 sl8~9?",
+            "submission": 3392
         },
         {
             "title": "Subterranean Blastoff -Stellar Overhaul-",
@@ -18116,18 +18236,6 @@
             "proposer": "Mary_Sue",
             "comment": "동봉패턴 기준 키음 분할로 인한 즈레가 있음",
             "submission": 2976
-        },
-        {
-            "title": "black opal [ugdther]",
-            "artist": "TAK vs General / Jeff obj:ugd",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=49",
-            "url_diff": "https://stellabms.xyz/upload/3684",
-            "md5": "c0ddfa9b0d26eb38c614ff65bc0cc326",
-            "sha256": "9d40b53e01be27fa83e2ad09538ae34286ba571583be71b7dafbd89a39f76c36",
-            "level": "10",
-            "proposer": "百地たまて",
-            "comment": "休憩が挟まる200BPMの乱打，同時押し sl9～10? / 200BPM, total575(0.23%/note)",
-            "submission": 3390
         },
         {
             "title": "Candy & Baguette [HARDEST]",
@@ -18977,6 +19085,18 @@
             "proposer": "qtp13",
             "comment": "SPA base, removed soft landings",
             "submission": 2302
+        },
+        {
+            "title": "クナイ☆フィーバー [Invincible]",
+            "artist": "Tiv / BGI:よまお",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/15",
+            "url_diff": "",
+            "md5": "372f51d4cdf3601f7c888a3909dde76f",
+            "sha256": "4e86cfffcc5766314bed21a275f230c4c457fa86a73cb5c9242ddbbff399c279",
+            "level": "10",
+            "proposer": "E‎",
+            "comment": "16分乱打メイン BPM183 TOTAL620(0.225T/N)",
+            "submission": 3404
         },
         {
             "title": "シレノ [CATACLYSM]",
@@ -20323,6 +20443,18 @@
             "submission": 1392
         },
         {
+            "title": "take me to the fiji",
+            "artist": "uma feat. ましろ obj:viti",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=34&event=129",
+            "url_diff": "https://stellabms.xyz/upload/5039",
+            "md5": "afb8ebeab9b2d0f96f4687716008d063",
+            "sha256": "61e35138263b6c51cdb84b52dd7ae6021a4c49eab01ea405cfdbfc1694e39374",
+            "level": "11",
+            "proposer": "E‎",
+            "comment": "BPM152　フィジ横",
+            "submission": 3428
+        },
+        {
             "title": "Terminal Ray [INSANE]",
             "artist": "Lian",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=121&event=127",
@@ -20753,18 +20885,6 @@
             "proposer": "fuko",
             "comment": "BPM177 微連打",
             "submission": 3311
-        },
-        {
-            "title": "音碧のマギア・オムニア [蒼穹]",
-            "artist": "Midnight Shift illus. Skugga obj. Guanacoite",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=145",
-            "url_diff": "https://stellabms.xyz/upload/4909",
-            "md5": "0428101248f61b844c9fff12078c67de",
-            "sha256": "a9add15d8d97fc01a18ae482b37a4264d2270c4f9d028b4371b3ae214839805a",
-            "level": "11",
-            "proposer": "fuko",
-            "comment": "BPM205 乱打 同時押し",
-            "submission": 3405
         },
         {
             "title": "黄昏のメロディア [トワイライト]",
@@ -22208,6 +22328,18 @@
             "proposerLr2id": 61713
         },
         {
+            "title": "ラスティゲート [Nebula]",
+            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス / obj:mirume",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/65",
+            "url_diff": "https://mega.nz/file/GWBlRALJ#SyyMBVvPj5TMQ_N04GxQb1ifeXy4zm_Cf54RWuDeiEg",
+            "md5": "e6a70c30e73d164e028a02f83bfd0eaa",
+            "sha256": "e1616d607ffbe4385f8c1bc9c8ceaf4f87a593948980d7488b475e29b6dbcf2c",
+            "level": "12",
+            "proposer": "E‎",
+            "comment": "BPM159　4-2乱打メイン",
+            "submission": 3427
+        },
+        {
             "title": "レシュノルティア [あなたの横に]",
             "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス obj. meta",
             "url": "https://venue.bmssearch.net/hanadayori/21",
@@ -22425,6 +22557,18 @@
             "proposer": "turtle",
             "comment": "体力",
             "submission": 517
+        },
+        {
+            "title": "音碧のマギア・オムニア [蒼穹]",
+            "artist": "Midnight Shift illus. Skugga obj. Guanacoite",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=145",
+            "url_diff": "https://stellabms.xyz/upload/4909",
+            "md5": "0428101248f61b844c9fff12078c67de",
+            "sha256": "a9add15d8d97fc01a18ae482b37a4264d2270c4f9d028b4371b3ae214839805a",
+            "level": "12",
+            "proposer": "fuko",
+            "comment": "BPM205 乱打 同時押し",
+            "submission": 3405
         },
         {
             "title": "馴鹿之骸 [x2]",

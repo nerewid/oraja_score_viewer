@@ -1,5 +1,5 @@
 {
-    "Last Update": "2025-03-01 14:19:51",
+    "Last Update": "2025-03-03 14:25:10",
     "tables": [
         "satellite",
         "stella",
@@ -251,7 +251,7 @@
             "artist": "tkqn14 mov. WIC / obj. 七海",
             "levels": [
                 {
-                    "level": "4",
+                    "level": "5",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -3284,6 +3284,19 @@
                     "level": "2",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "be349c430e4dfacf790f016e2540ec48",
+            "sha256": "4dc4417430e75e16fb7a637cb1bda435c1d11fa7bff0aa6a84cc6509adcf4ba7",
+            "title": "Agilion [Avoidance]",
+            "artist": "LeaF obj. tyrcs",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -19040,6 +19053,19 @@
             ]
         },
         {
+            "md5": "8759e8d2a520f3e5d8a3434bc5c6b153",
+            "sha256": "e70ef4a3a780b3903b23d4f9d7c8215d0dddda48a22ebd60bd094bf6a3953563",
+            "title": "ECKESACHS [EX]",
+            "artist": "SOMON obj:BAECON",
+            "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "2f43ee53a1b602c797a395e5f49b17ba",
             "sha256": "9348d6c7a959eef7706d2c20eb324f9c8acd596c22624e14fcb072f9e5ef9c89",
             "title": "ECKESACHS [GOTT]",
@@ -19961,6 +19987,19 @@
             ]
         },
         {
+            "md5": "03011390e41cd48e9e543f3a5e41442a",
+            "sha256": "4e35794bc0f0bfacb4f05ec2b673138910671599a3456cfe215a07394caad012",
+            "title": "Edge of bravery [Excel Breaker]",
+            "artist": "みーに feat. 初音ミク obj:monaka",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "41683e94df20635d83a42b2c03a55e45",
             "sha256": "40a3ced064eb84591c57ebe3337d58c31380d26118ea93c8e97103aa498661e6",
             "title": "Edge of bravery [Persist in Devastation]",
@@ -20144,6 +20183,19 @@
                     "level": "10",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "83fcac8572f37a4e8c6253975645c09f",
+            "sha256": "27de08d4b7c8b9d1fb3a6fb6f2dea37228cc7c8460a9dc538b3ad0e35cee84db",
+            "title": "Electric Revolution! [100万ボルト]",
+            "artist": "MiKaDo",
+            "levels": [
+                {
+                    "level": "4",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -24291,6 +24343,19 @@
             ]
         },
         {
+            "md5": "202eeece54dfb3ff8b756bed0298d868",
+            "sha256": "a13cffcd3b0aeeaa3290e9da706a24da50ddf92a62eea989b1931d2878b5667a",
+            "title": "Fly☆High! [天皇賞(春)]",
+            "artist": "MiKaDo /BGI:LLRK",
+            "levels": [
+                {
+                    "level": "9",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "102e8e86f6716a2d75321d254b77f7b6",
             "sha256": null,
             "title": "For No Reason [Wander]",
@@ -27915,6 +27980,19 @@
             ]
         },
         {
+            "md5": "cd2fbc9f031f3c8af21a73f0acbd8f0a",
+            "sha256": "928fb5dc32bfdf952eb45e6674c48578b0368310ae6432f6f8ae235b1e6acdbf",
+            "title": "HARDHOME feat.Megpoid [INSANE]",
+            "artist": "DJ ARASHI illust:En, Amado",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "d558a4602d484ad00b857c1d62fd79f8",
             "sha256": "91cff0b33d03b526a24e565d4dce6d881bfe1aa8a3fa9996a43c150bfed66d12",
             "title": "HE is an Energizer (7keys sarather)",
@@ -30341,6 +30419,19 @@
             ]
         },
         {
+            "md5": "f2bba8fd59b29034194c19cbbbe0c893",
+            "sha256": "9326822a028363af602272d42b343a3dc26aaaab624da9f3d7d4b03bcc1fdcc6",
+            "title": "INSANER [DELAYER]",
+            "artist": "saaa obj: qtp13",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "21f413901b10b720cf5d9b287c914659",
             "sha256": "66b84370532df6088673ca235a20b0a0c16a5cd1ca0d1a1dba56289f7a9efe39",
             "title": "INSANER [Snother]",
@@ -32367,6 +32458,19 @@
                     "level": "16",
                     "table": "solomon",
                     "shortName": "✡"
+                }
+            ]
+        },
+        {
+            "md5": "fb828a50261c68d1d2f883739a2d4d00",
+            "sha256": "7c3bdfe53b6472f9f9f5d66620b6d0015aac929059135f975523445110d25625",
+            "title": "KRAKEN [EXTRA (fixed)]",
+            "artist": "HEXAHEDRA obj.Mallow♪",
+            "levels": [
+                {
+                    "level": "4",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -34950,7 +35054,7 @@
             "artist": "Juka_Box feat.可不 / obj:Criyajuh",
             "levels": [
                 {
-                    "level": "1",
+                    "level": "2",
                     "table": "stella",
                     "shortName": "st"
                 },
@@ -37494,6 +37598,32 @@
             ]
         },
         {
+            "md5": "08f05f4a70d1e98e8f381fd17a7163e7",
+            "sha256": "cb71972d841893b7d4b32472b83dad45d4f0791794995d8aea44636cd84ced57",
+            "title": "Luv 5 Dancer [Last Dancer]",
+            "artist": "The Dear Sexys obj.Mallow♪",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
+            "md5": "04e71234b0ae37587c6725ada4179c08",
+            "sha256": "b9aa918f5944db705f7970fe3d67ca6ced42bc33b5b1ba28031cf8222dc78278",
+            "title": "Luv of Magical Delay",
+            "artist": "Naukorin / obj. Tristan97",
+            "levels": [
+                {
+                    "level": "2",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "0be4d1d469fab7326850e5273200f855",
             "sha256": "e6020873351e754d3aadb92ea1d79814e462e73cd857216062ae8c355715fd72",
             "title": "Luv of Magical Synth [LuvTek's Magical Sabun]",
@@ -38255,6 +38385,19 @@
                     "level": "6",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "205499b7687552afcc58541d017ade2b",
+            "sha256": "6b757eae04488acad4855f538e1c76d5b018a11d81104b3bcec057ceac835cad",
+            "title": "MINUS-INFINITY [EARTH POWER]",
+            "artist": "P4koo obj:IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -46148,6 +46291,19 @@
                     "level": "1",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "fd315ea0be65ac4731ca2f8805b155ae",
+            "sha256": "aa10ca99f20f6cba6ce86e4abe930b577532de934c252682c39a392a065b4d31",
+            "title": "Primo Magic [Sparkle]",
+            "artist": "kooridori Feat.猫柳なぎ BGA:MUSH.T ILLUST:コトバッチ obj:BAECON",
+            "levels": [
+                {
+                    "level": "2",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -55230,6 +55386,19 @@
                     "level": "7",
                     "table": "stella",
                     "shortName": "st"
+                }
+            ]
+        },
+        {
+            "md5": "c9c4444fbb502cfdb750dd3ef30b52ea",
+            "sha256": "02bcea57ead5bfa72dd44082400bc022c1d2109b7a524f0d58595d616e6d731c",
+            "title": "Strawberry Mint Chocolate [Marble]",
+            "artist": "Yu^ta feat. みずにんじん obj:monaka",
+            "levels": [
+                {
+                    "level": "9",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -65021,7 +65190,7 @@
             "artist": "TAK vs General / Jeff obj:ugd",
             "levels": [
                 {
-                    "level": "10",
+                    "level": "9",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -72508,6 +72677,19 @@
             ]
         },
         {
+            "md5": "dd98dc6533e49ed63d50192112bb6a67",
+            "sha256": "4eaeced18b914b85cea4e58cdf56fbb53272ccb3232c73a3df65d54e5e39b6cb",
+            "title": "split second [S_Maniac]",
+            "artist": "nmk feat.nayuta / 妖夢 BMS:OYAKI BGA:ジンジャー塚原",
+            "levels": [
+                {
+                    "level": "4",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "73a36e3bab8f48fc8d664ff578861048",
             "sha256": null,
             "title": "split second［LUNATIC］",
@@ -73278,6 +73460,19 @@
             "levels": [
                 {
                     "level": "5",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "afb8ebeab9b2d0f96f4687716008d063",
+            "sha256": "61e35138263b6c51cdb84b52dd7ae6021a4c49eab01ea405cfdbfc1694e39374",
+            "title": "take me to the fiji",
+            "artist": "uma feat. ましろ obj:viti",
+            "levels": [
+                {
+                    "level": "11",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -75358,10 +75553,15 @@
         },
         {
             "md5": "1cc2d39f6518bcdd08ca92d1ff5fbe53",
-            "sha256": null,
+            "sha256": "21ca9366c192a6201b08e34556deb76eb90278c50d8d9bdd6db8bf525611710e",
             "title": "τ [Torque]",
-            "artist": "",
+            "artist": "Wooden obj: rainy",
             "levels": [
+                {
+                    "level": "3",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "23",
                     "table": "solomon",
@@ -76367,7 +76567,7 @@
             "artist": "TOMA/さ",
             "levels": [
                 {
-                    "level": "0",
+                    "level": "1",
                     "table": "stella",
                     "shortName": "st"
                 }
@@ -77832,6 +78032,19 @@
                     "level": "5",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "b935aed1fbf3b74730435c5fd811f65b",
+            "sha256": "af698ced2b1e7735318ffce49c8c155969fcffe0bd25dec83cca2b3aebb3e260",
+            "title": "はなびのうた [ふつう]",
+            "artist": "takehirotei illust : 深海魚 / design : Harith Spicy / obj:IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -80551,6 +80764,19 @@
             ]
         },
         {
+            "md5": "372f51d4cdf3601f7c888a3909dde76f",
+            "sha256": "4e86cfffcc5766314bed21a275f230c4c457fa86a73cb5c9242ddbbff399c279",
+            "title": "クナイ☆フィーバー [Invincible]",
+            "artist": "Tiv / BGI:よまお",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "4543bd1c662804f3b76f349026fc4a22",
             "sha256": null,
             "title": "クロノトリガー [Another＋]",
@@ -82606,6 +82832,19 @@
             ]
         },
         {
+            "md5": "8f7885bdcc880ee8a06bde920ba29c38",
+            "sha256": "1ba17a0d3020fbd4cec1e3e650cd755fbfa50fc3d4553cdfb36e0040b35f0b68",
+            "title": "ティアラメンツ [ルルカロス]",
+            "artist": "SpadeK Illust:Lim obj:SpadeK",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "40158096b8842e0c44f99a77951f032f",
             "sha256": "cebaa5fb8fe8f0a393c0b802e83bd33eb537ab03966c14fce2f515048f981278",
             "title": "テウメッサ",
@@ -83191,10 +83430,15 @@
         },
         {
             "md5": "715b40104c8bd843460ddba18600d95e",
-            "sha256": null,
+            "sha256": "fe86147f81085a92a0e233cf533efb7d14b5fe316c049b7e0e9fb3628d4806d3",
             "title": "ニルヴの心臓 [Seeds of Rebellion]",
-            "artist": "TJ.hangneil+Atomic Sphere feat.Annabel Illust:MON / Movie:MiyazawaEsora",
+            "artist": "TJ.hangneil+Atomic Sphere feat.Annabel Illust:MON / Movie:MiyazawaEsora / Object:nozomi",
             "levels": [
+                {
+                    "level": "5",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "9",
                     "table": "new_generation",
@@ -83425,6 +83669,19 @@
             "levels": [
                 {
                     "level": "0",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "c4a189836846761bd8ac4a4acd6d555e",
+            "sha256": "6d6380dd3056ef378bc667c0306d5635eb77b3dda36ec5a5855aed437659d521",
+            "title": "ハカナイユメ、ユメノサカイ [want game]",
+            "artist": "望月真白 BGA:TARA#376 obj:MOMORIA",
+            "levels": [
+                {
+                    "level": "7",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -85973,6 +86230,32 @@
             ]
         },
         {
+            "md5": "e6a70c30e73d164e028a02f83bfd0eaa",
+            "sha256": "e1616d607ffbe4385f8c1bc9c8ceaf4f87a593948980d7488b475e29b6dbcf2c",
+            "title": "ラスティゲート [Nebula]",
+            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス / obj:mirume",
+            "levels": [
+                {
+                    "level": "12",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "55c632d7d0b3e4ae531fbe0be8e3400e",
+            "sha256": "8bccab54b39240963771e6798eb1e1337313202711b7e767d4b8137e14649175",
+            "title": "ラスティゲート [SAVIOR]",
+            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス / obj:Lian",
+            "levels": [
+                {
+                    "level": "3",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "c22797ce6e4476f0cdd06407cb4f7d94",
             "sha256": "a776064fe102354f0f6091199d2badc15d36877d702332f3e20dc05d374869c5",
             "title": "ラストワード [Deflation world]",
@@ -86197,6 +86480,19 @@
                     "level": "12",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "4d293c7365bbb96dd48ad08c0eaaa573",
+            "sha256": "8cdc2770f0f83c741f08d59b45081833c7033268a7d1f0e30752cdad566a762a",
+            "title": "レシュノルティア [キズナ]",
+            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス obj:Guanacoite",
+            "levels": [
+                {
+                    "level": "12",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -93964,7 +94260,7 @@
             "artist": "kei_iwata feat.Noa movie:tolz / obj:1mi",
             "levels": [
                 {
-                    "level": "2",
+                    "level": "3",
                     "table": "stella",
                     "shortName": "st"
                 }
@@ -97702,10 +97998,15 @@
         },
         {
             "md5": "85f5b85f746e9ebd8c40825299d08f2d",
-            "sha256": null,
+            "sha256": "243a17ba28864bb2ac748a9c8a3401979e87ee564e3c05792b9b95c0c39bff96",
             "title": "藍刹 [INSANE]",
             "artist": "Lian",
             "levels": [
+                {
+                    "level": "4",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "8",
                     "table": "new_generation",
@@ -98826,10 +99127,15 @@
         },
         {
             "md5": "1ef62e6a2f394038ac95c1b093e83288",
-            "sha256": null,
+            "sha256": "f7865db24b310a5b8345a433da87d69969f39f6470d23bcb807b7e6757212d00",
             "title": "鏡花水月の宵 [INSANE]",
             "artist": "/指紋",
             "levels": [
+                {
+                    "level": "0",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "0",
                     "table": "gachimijoy",
@@ -99054,6 +99360,19 @@
                     "level": "4",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "10b4f116f4f4140ee977e0bdf788e55a",
+            "sha256": "f22dc7446105e708c01c4c00907b8793b860c8610669cb89ee149c61fe57b7ae",
+            "title": "雪色夜望（BMS Edit） [whitest]",
+            "artist": "NASA / obj:Criyajuh",
+            "levels": [
+                {
+                    "level": "3",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -99360,7 +99679,7 @@
             "artist": "Midnight Shift illus. Skugga obj. Guanacoite",
             "levels": [
                 {
-                    "level": "11",
+                    "level": "12",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -99609,10 +99928,15 @@
         },
         {
             "md5": "254a3ee4b73412c40f609107353487f6",
-            "sha256": null,
+            "sha256": "06c770a9540fc4dd33eb3979486b4720ea9959f8cdcd65f18fb445478ccb559d",
             "title": "飛翔するG [Leaping T]",
-            "artist": "",
+            "artist": "HALLPBE.S obj. LuvTek",
             "levels": [
+                {
+                    "level": "4",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "24",
                     "table": "solomon",
