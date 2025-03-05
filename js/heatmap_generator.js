@@ -77,7 +77,6 @@ function displayCalHeatmap(data, elementId, title, limit, color) {
         const cal = new CalHeatmap();
         let startDate = new Date(); // 現在の日時を取得
         startDate.setFullYear(startDate.getFullYear() - 1);
-        console.log(data, elementId);
         cal.paint({
             itemSelector: document.getElementById(elementId),
             range: 13,

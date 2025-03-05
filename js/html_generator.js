@@ -46,11 +46,11 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) { // heatma
                 accumulator[currentItem.date] = currentItem.value;
                 return accumulator;
             }, {});
-            console.log(notesMap); // 生成された辞書の内容を確認（デバッグ用）
+            //console.log(notesMap); // 生成された辞書の内容を確認
             //console.log("clear_info (before template.render):", JSON.stringify(sortedJsonOutputWithKeys, null, 2)); // 追加
 
-            console.dir(sortedJsonOutputWithKeys, { depth: null }); // 追加
-            console.log(formattedNoteData, typeof formattedNoteData[0].date);
+            //console.dir(sortedJsonOutputWithKeys, { depth: null }); // 追加
+            //console.log(formattedNoteData, typeof formattedNoteData[0].date);
             const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: clear_status, notes: notesMap });
             return html;
         } catch (nunjucksError) {

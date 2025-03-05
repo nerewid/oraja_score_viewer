@@ -14,6 +14,40 @@
     </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cal-heatmap.css">
+    <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            display: none; /* 初期状態で非表示 */
+        }
+
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            width: 50%; /* 横幅を等分 */
+        }
+
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        .tab button.active {
+            background-color: #7171e0;
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
 </head>
 <body>
     <h1>oraja_score_viewer</h1>
@@ -44,19 +78,31 @@
         <hr>
         本ツールの詳細については<a href="https://github.com/nerewid/oraja_score_viewer">こちら</a>。
     </div>
-    <div id="cal-heatmap-notes-pre"></div>
-    <div id="cal-heatmap-notes"></div>
-    <div id="cal-heatmap-progress-pre"></div>
-    <div id="cal-heatmap-progress"></div>
-    <div id="results-area"></div>
+
+    <div class="tab" id="tab-buttons">
+        <button class="tablinks active" data-tab="tabA">Score Log Viewer</button>
+        <button class="tablinks" data-tab="tabB">Lamp viewer</button>
+    </div>
+
+    <div id="tabA" class="tabcontent" style="display: block;">
+        <div id="cal-heatmap-notes-pre"></div>
+        <div id="cal-heatmap-notes"></div>
+        <div id="cal-heatmap-progress-pre"></div>
+        <div id="cal-heatmap-progress"></div>
+        <div id="results-area"></div>
+    </div>
+
+    <div id="tabB" class="tabcontent">
+        タブBのコンテンツ
+    </div>
 
     <script src="./js/lib/sql-wasm.js"></script>
     <script>
-    locateFile: filename => {
-        const path = `/js/lib/${filename}`;
-        console.log("Locate file:", path); // 追加
-        return path;
-    }
+        locateFile: filename => {
+            const path = `/js/lib/${filename}`;
+            console.log("Locate file:", path); // 追加
+            return path;
+        }
     </script>
     <script src="./js/lib/nunjucks.js"></script>
     <script type="text/javascript" src="./js/lib/d3.v7.min.js"></script>
@@ -67,5 +113,24 @@
     <script type="module" src="./js/db_uploader.js"></script>
     <script type="module" src="./js/score_change_to_json.js"></script>
     <script type="module" src="./js/heatmap_generator.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabButtons = document.querySelectorAll('.tablinks');
+            const tabContents = document.querySelectorAll('.tabcontent');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const tabId = button.dataset.tab;
+
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.style.display = 'none');
+
+                    button.classList.add('active');
+                    document.getElementById(tabId).style.display = 'block';
+                });
+            });
+        });
+    </script>
 </body>
 </html>

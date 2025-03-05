@@ -48,13 +48,15 @@ document.getElementById("processData").addEventListener("click", async () => {
         scorelogDb.close();
         songdataDb.close();
 
+
+        showTabButtons();
+
         // JSONからHTMLを生成
         const html = await generateHtmlFromJson(jsonOutput, 'js/template.njk');
 
         // HTMLを画面に表示
         document.getElementById("results-area").innerHTML = html;
 
-        //document.getElementById("downloadJson").style.display = "block"; // ダウンロードボタンを表示
         document.getElementById("downloadJson").addEventListener("click", () => {
             downloadJson(jsonOutput); // JSONダウンロードを実行
         });
@@ -132,4 +134,13 @@ function downloadJson(jsonData) {
     link.click(); // リンクをクリックしてダウンロード
 
     URL.revokeObjectURL(url); // URLを解放
+}
+
+function showTabButtons() {
+    console.log("show tab button");
+    const tabButtons = document.getElementById('tab-buttons');
+    if (tabButtons) {
+        console.log(tabButtons);
+        tabButtons.style.display = 'block';
+    }
 }
