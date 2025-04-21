@@ -3353,6 +3353,17 @@
             "submission": 311
         },
         {
+            "title": "marine snow [R之術]",
+            "artist": "LaValse obj:R054",
+            "url": "http://web.archive.org/web/20060215101559/http://bof.nothing.sh/bof2005/LaValse_marinesnow.rar",
+            "url_diff": "https://stellabms.xyz/upload/4363",
+            "md5": "812dd39094ae618eaa0e9ab698b47654",
+            "sha256": "992b3f883144fe07440e4928bb5470313cde133574e8a7a9c78b25a7a6df50d9",
+            "level": "1",
+            "comment": "BPM 145 乱打",
+            "submission": 3469
+        },
+        {
             "title": "Mekhtalef [INSANE]",
             "artist": "Miloudi / movie: Ratif obj.onzonium",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=127",
@@ -9913,6 +9924,17 @@
             "submission": 775
         },
         {
+            "title": "妖鬼山脈 [ANOTHER]",
+            "artist": "かたぎり BGA: mst",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/34",
+            "url_diff": "",
+            "md5": "e84111d76822f3e082bf8fbbc5a0f778",
+            "sha256": "ea71682e6ee2b09a9fa0be9838d8786b082c8688c0235f752984c1cf0eb5e2a5",
+            "level": "4",
+            "comment": "Bた作25同梱 BPM221 同時多めの乱打",
+            "submission": 3432
+        },
+        {
             "title": "少女監獄ヴァンパイアフィリア -ANOTHER-",
             "artist": "LiA",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=359&event=110",
@@ -10548,6 +10570,17 @@
             "submission": 1892
         },
         {
+            "title": "Farewell, sunset clouds. [E]",
+            "artist": "SKY. obj:Fender",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=288&event=146",
+            "url_diff": "",
+            "md5": "4c6b83d01a07901da835c387bdbd4dfc",
+            "sha256": "952eb434954d65eecb49427e435cd8be6fbfcd7b408a5a515ede9b3b78d22fb6",
+            "level": "5",
+            "comment": "BPM174 乱打",
+            "submission": 3448
+        },
+        {
             "title": "Fireball -Hopeless-",
             "artist": "tarolabo obj:七海",
             "url": "https://bms.kyouko.moe/torrent/BMS_Library/Fireball%20(by%20tarolabo).rar",
@@ -10893,6 +10926,17 @@
             "level": "5",
             "comment": "BGAが重いので環境によってBGAオフ推奨",
             "submission": 427
+        },
+        {
+            "title": "Oracle [Cute]",
+            "artist": "Utuka obj:PiPiNeko",
+            "url": "https://venue.bmssearch.net/freebattle/25",
+            "url_diff": "https://stellabms.xyz/upload/4784",
+            "md5": "16ce3a83a1e33743812cc59ffac21623",
+            "sha256": "cc71aff815eb86a7d50d6bd7495992f04b424c34797d9902555124c7aeb407d2",
+            "level": "5",
+            "comment": "BPM208 乱打 同時押し",
+            "submission": 3425
         },
         {
             "title": "perfume of reunion [old's cool]",
@@ -11399,17 +11443,6 @@
             "level": "5",
             "comment": "同梱譜面　物量",
             "submission": 1816
-        },
-        {
-            "title": "ニルヴの心臓 [Seeds of Rebellion]",
-            "artist": "TJ.hangneil+Atomic Sphere feat.Annabel Illust:MON / Movie:MiyazawaEsora / Object:nozomi",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=440&event=146",
-            "url_diff": "https://stellabms.xyz/upload/4630",
-            "md5": "715b40104c8bd843460ddba18600d95e",
-            "sha256": "fe86147f81085a92a0e233cf533efb7d14b5fe316c049b7e0e9fb3628d4806d3",
-            "level": "5",
-            "comment": "BPM256 多要素",
-            "submission": 3377
         },
         {
             "title": "ハイパーミラクルシューティングスター [大車輪山嵐]",
@@ -12838,6 +12871,17 @@
             "sha256": "e7e9b2d88c93fd3e50aeabb30b42cd9f1480beb018705a073cc4f4e5e516e0ff",
             "level": "6",
             "submission": 469
+        },
+        {
+            "title": "ニルヴの心臓 [Seeds of Rebellion]",
+            "artist": "TJ.hangneil+Atomic Sphere feat.Annabel Illust:MON / Movie:MiyazawaEsora / Object:nozomi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=440&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4630",
+            "md5": "715b40104c8bd843460ddba18600d95e",
+            "sha256": "fe86147f81085a92a0e233cf533efb7d14b5fe316c049b7e0e9fb3628d4806d3",
+            "level": "6",
+            "comment": "BPM256 多要素",
+            "submission": 3377
         },
         {
             "title": "ピアノ連弾的「You」～ひぐらしのなく頃に～ [ LEVEL 4 ]",
@@ -16617,17 +16661,6 @@
             "submission": 566
         },
         {
-            "title": "Crazy Watermelon [Nemesis]",
-            "artist": "かむちゃうらる Obj.Triforce",
-            "url": "https://drive.google.com/file/d/1cYi45CfTsHbaUAi-QL4DlmU-RFN63EMn/view",
-            "url_diff": "https://venue.bmssearch.net/bcel_final/8",
-            "md5": "e4f99528f22d64c9c2827bd62ac6d08f",
-            "sha256": "d3c18bf5ee80a2ae596152261fadbf7f08b87e33691663d932704d94904dc6aa",
-            "level": "10",
-            "comment": "BPM190 多要素",
-            "submission": 2572
-        },
-        {
             "title": "Cross Galaxy [microcosmos]",
             "artist": "kanone / mov:deadblue238 obj.Mallow♪",
             "url": "http://uploader.bms.ms/data/bof2011okfquh83/%5BSERENDIPITY-kanone%5DCross_Galaxy_ogg.rar",
@@ -16985,6 +17018,17 @@
             "submission": 2517
         },
         {
+            "title": "Magical Love Words [マジカル横認識]",
+            "artist": "源屋feat.ユスラ obj:trainer",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=36",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02657.zip",
+            "md5": "e18550050e4ee6008798111d4a63e81a",
+            "sha256": "a887dfb194ac4598bc6be774219f8668d3fea39cd7b1632b0ea3ef594ec282a6",
+            "level": "10",
+            "comment": "stream",
+            "submission": 2530
+        },
+        {
             "title": "Marion [Gothic*]",
             "artist": "kozato / obj:nono22",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=326&event=110",
@@ -17070,6 +17114,17 @@
             "level": "10",
             "comment": "皿複合",
             "submission": 1088
+        },
+        {
+            "title": "orbitalgazer (FINESSE)",
+            "artist": "qfeileadh Illust:linglvz",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=23&num=38&order=reg&odtype=a",
+            "url_diff": "",
+            "md5": "023415328aa43c6557e0b6ee6656d16f",
+            "sha256": "7a1a11b07cf1b0de4f09c6559c5758acc06e02a2d234579330fc5b292b69fce1",
+            "level": "10",
+            "comment": "BPM192? 乱打 PABAT2023 同梱",
+            "submission": 3456
         },
         {
             "title": "PEACE BREAKER [HARDEST]",
@@ -17375,6 +17430,17 @@
             "sha256": "eaf17ffb54c40968a655e4c1a72e9606455dbd2a5d2e0174499cbc4b6ee48851",
             "level": "10",
             "submission": 1912
+        },
+        {
+            "title": "タンザナイトと旅路の車窓 [SP JEWELRY]",
+            "artist": "MiKaDo feat. ROSE / BGI:Roise",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/14",
+            "url_diff": "",
+            "md5": "02963a512dec995af0a9ff6e54193f6b",
+            "sha256": "2b5000d458100eab0d20a2786a0503c839f7418e235c75ec266e7751f6ed1f4c",
+            "level": "10",
+            "comment": "Bた作25 同梱譜面",
+            "submission": 3426
         },
         {
             "title": "ハッピーフェイクショー [SP INSANE]",
@@ -17909,6 +17975,17 @@
             "level": "11",
             "comment": "11~12?",
             "submission": 2663
+        },
+        {
+            "title": "Crazy Watermelon [Nemesis]",
+            "artist": "かむちゃうらる Obj.Triforce",
+            "url": "https://drive.google.com/file/d/1cYi45CfTsHbaUAi-QL4DlmU-RFN63EMn/view",
+            "url_diff": "https://venue.bmssearch.net/bcel_final/8",
+            "md5": "e4f99528f22d64c9c2827bd62ac6d08f",
+            "sha256": "d3c18bf5ee80a2ae596152261fadbf7f08b87e33691663d932704d94904dc6aa",
+            "level": "11",
+            "comment": "BPM190 多要素",
+            "submission": 2572
         },
         {
             "title": "Curtain Of Secrecy [INSANE]",
@@ -19255,6 +19332,17 @@
             "submission": 606
         },
         {
+            "title": "cheerful forest [H]",
+            "artist": "parakeet 41 /obj.laner BGA:yuru",
+            "url": "https://drive.google.com/uc?export=download&id=17_xK_md3Um4MHTgp2aerV-JKXPQvEP7w",
+            "url_diff": "https://web.archive.org/web/20190322230138/https://www.hyper-laner.com/sabun/all201807_laner.rar",
+            "md5": "0e2d518ad287ad974167f00c5028bd74",
+            "sha256": "33909c0b8114988288ba4aeef204a280d277f5e83c5a543d6ebbf14273c6e24c",
+            "level": "12",
+            "comment": "from Stella",
+            "submission": 3458
+        },
+        {
             "title": "cold planet (HOT COCOA)",
             "artist": "knot / И",
             "url": "https://web.archive.org/web/20110625181433/http://www.geocities.jp/panda_bms/cold_planet.zip",
@@ -19460,6 +19548,17 @@
             "level": "12",
             "comment": "sl12~st0? 物量",
             "submission": 1805
+        },
+        {
+            "title": "exists Uniquely",
+            "artist": "Lipschitz / Weierstrass",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=88",
+            "url_diff": "https://stellabms.xyz/upload/5063",
+            "md5": "da46bf8523d03708f7c3e0bdc1fb731c",
+            "sha256": "ded0347c495c18e95c1de016a78899289ac6292d170df0f98f8cd49a223a4732",
+            "level": "12",
+            "comment": "BPM174 物量乱打 existsu_00temp.bms基準",
+            "submission": 3444
         },
         {
             "title": "Faurie [unmeasured]",

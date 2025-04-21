@@ -408,15 +408,6 @@
         },
         {
             "level": "16",
-            "title": "Back Around [Rei-S]",
-            "song_artist": "hu-zin & kohaxy",
-            "charter": "ReiOW",
-            "md5": "8298874784b55adf0f8531c046a85f6a",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "16",
             "title": "Cat_ch [SP Sabother]",
             "song_artist": "しるい",
             "charter": "さぼてんの人",
@@ -579,15 +570,6 @@
         },
         {
             "level": "16",
-            "title": "Philadelphia Xperiment [SP HORIZONTAL]",
-            "song_artist": "Xacla",
-            "charter": "nbunnyuwu",
-            "md5": "2ab7813a4fd20444da7351d25a05bb96",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "16",
             "title": "Q33B [SJ]",
             "song_artist": "Lamanya",
             "charter": "seojoon",
@@ -646,6 +628,15 @@
             "song_artist": "litmus*",
             "charter": "meta",
             "md5": "848fcafdb11413ad90c2348690f4cb3c",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "16",
+            "title": "グリーングリーンズのアカペラ",
+            "song_artist": "9-zen",
+            "charter": "fuko",
+            "md5": "23ab171ae8c6465c8c67934fca07af10",
             "artist": "",
             "comment": ""
         },
@@ -737,6 +728,15 @@
             "charter": "black train",
             "md5": "dd99972264eeab7e4cd22d9a64ccb569",
             "artist": "裏 吉 川(-45)",
+            "comment": ""
+        },
+        {
+            "level": "17",
+            "title": "Back Around [Rei-S]",
+            "song_artist": "hu-zin & kohaxy",
+            "charter": "ReiOW",
+            "md5": "8298874784b55adf0f8531c046a85f6a",
+            "artist": "",
             "comment": ""
         },
         {
@@ -903,6 +903,15 @@
         },
         {
             "level": "17",
+            "title": "Philadelphia Xperiment [SP HORIZONTAL]",
+            "song_artist": "Xacla",
+            "charter": "nbunnyuwu",
+            "md5": "2ab7813a4fd20444da7351d25a05bb96",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "17",
             "title": "Poppin' Shower -sugarless-",
             "song_artist": "P*Light",
             "charter": "あーさん",
@@ -1052,6 +1061,15 @@
             "charter": "",
             "md5": "34d94660c2d8232b8339703543a9343c",
             "artist": "schwarzekugel(ROKINA) BGA:出前",
+            "comment": ""
+        },
+        {
+            "level": "18",
+            "title": "Acacia [Redacted]",
+            "song_artist": "punchhh",
+            "charter": "Acacia",
+            "md5": "3c9e3bc618aad5166d8fed46c018018d",
+            "artist": "",
             "comment": ""
         },
         {
@@ -1249,6 +1267,15 @@
             "song_artist": "かんざきしおん",
             "charter": "",
             "md5": "00eb28ff2ca8920b7695f86e3c5ac649",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "18",
+            "title": "Rainforest [IRREGULAR]",
+            "song_artist": "白羽",
+            "charter": "meta",
+            "md5": "fd319545bc6bdd17691a6ddeb5b61bb5",
             "artist": "",
             "comment": ""
         },
@@ -1582,6 +1609,15 @@
             "song_artist": "黒皇帝 & Sobrem",
             "charter": "nozomi",
             "md5": "4b992f384462fa759d0de08f6b0dc469",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "19",
+            "title": "Sophia [yumether]",
+            "song_artist": "きこにゃん",
+            "charter": "夢瑠",
+            "md5": "c0273fa45c92ed53d497482c8e3e0558",
             "artist": "",
             "comment": ""
         },
@@ -2402,6 +2438,15 @@
             "charter": "七海",
             "md5": "7766a195676f3b41cc3bbd80a2894a07",
             "artist": "COWBELL MASTER 心愛 -COCOA-(tkqn14) BGA: w",
+            "comment": ""
+        },
+        {
+            "level": "22",
+            "title": "HYP3RXONIK [Sanic]",
+            "song_artist": "NIKANON",
+            "charter": "tsukisaka",
+            "md5": "187a9f960409b0d3e2122f0733f53de8",
+            "artist": "",
             "comment": ""
         },
         {
@@ -3900,6 +3945,15 @@
         },
         {
             "level": "26",
+            "title": "LIFE [最大往生]",
+            "song_artist": "大前 司 & Reku Mochizuki",
+            "charter": "Criyajuh",
+            "md5": "2355780fef426145e88742863b5f9d50",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "26",
             "title": "Lost Petal's Wander [SP RAMPAGE]",
             "song_artist": "RB.H & lixound",
             "charter": "Criyajuh",
@@ -4827,82 +4881,100 @@
         },
         {
             "level": "提案",
-            "title": "グリーングリーンズのアカペラ",
+            "title": "CROSSFIRE [生死流転斬]",
+            "song_artist": "fmy.",
+            "charter": "妖夢",
+            "md5": "ca2f16162a9472bed501b019dd77ccc0",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "L.D.2025 [HEARTFUL]",
+            "song_artist": "hapi⇒ & Gun-SEKI",
+            "charter": "魔女",
+            "md5": "e8f0887867b337d687c159d8a152f217",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "adabana [HEARTFUL]",
+            "song_artist": "Kyuzo Sameura",
+            "charter": "魔女",
+            "md5": "c3c99394db35ed28295a589bafebbf5e",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "VEZZELiX [OVERCLOCK]",
+            "song_artist": "Reku Mochizuki",
+            "charter": "baza-ru",
+            "md5": "d6825e02dd096d66917d0384eaca3b15",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Altostratus [EXOSPHERE]",
+            "song_artist": "syatten",
+            "charter": "Criyajuh",
+            "md5": "cb9bc42bee80043aa39c1ad17689b6e8",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "Hanky-Panky [EnJoY]",
+            "song_artist": "TRIAL",
+            "charter": "Zethiwo",
+            "md5": "3fd827fd2ab25b5618de6d9a74305528",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "フロートアイランズのアカペラ [EXTRA]",
             "song_artist": "9-zen",
             "charter": "fuko",
-            "md5": "23ab171ae8c6465c8c67934fca07af10",
+            "md5": "d75df2476812f42876bb7882f23ddfb6",
             "artist": "",
             "comment": ""
         },
         {
             "level": "提案",
-            "title": "Acacia [Redacted]",
-            "song_artist": "punchhh",
-            "charter": "Acacia",
-            "md5": "3c9e3bc618aad5166d8fed46c018018d",
+            "title": "Kung-fu Liberation -メスガキの穴RE-",
+            "song_artist": "utzbo",
+            "charter": "メスガキに分からせられたい",
+            "md5": "e774ea7bfe6176503ffe7fe411775183",
             "artist": "",
             "comment": ""
         },
         {
             "level": "提案",
-            "title": "Rainforest [IRREGULAR]",
-            "song_artist": "白羽",
-            "charter": "meta",
-            "md5": "fd319545bc6bdd17691a6ddeb5b61bb5",
+            "title": "ROBITA 3404 [Hexagon]",
+            "song_artist": "Bitplane",
+            "charter": "hex",
+            "md5": "30f8b2d7fa7a3d8700e372b10cca0cd6",
             "artist": "",
             "comment": ""
         },
         {
             "level": "提案",
-            "title": "Sophia [yumether]",
-            "song_artist": "きこにゃん",
-            "charter": "夢瑠",
-            "md5": "c0273fa45c92ed53d497482c8e3e0558",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "提案",
-            "title": "Funny Funky Freaky [Filthy]",
-            "song_artist": "mommy",
-            "charter": "И",
-            "md5": "da5dbb5260d9f5fe5f8f41091ade49cd",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "提案",
-            "title": "HYP3RXONIK [Sanic]",
-            "song_artist": "NIKANON",
-            "charter": "tsukisaka",
-            "md5": "187a9f960409b0d3e2122f0733f53de8",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "提案",
-            "title": "colorful disease [STERVEN]",
-            "song_artist": "SP-#",
-            "charter": "VINYL",
-            "md5": "ea0dfecbd64fa49f870223e21c021e1a",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "提案",
-            "title": "Neurotoxin (Full length)",
-            "song_artist": "削除",
-            "charter": "И",
-            "md5": "15b9d7f3049b903481bfb44f34432afd",
-            "artist": "",
-            "comment": ""
-        },
-        {
-            "level": "提案",
-            "title": "LIFE [最大往生]",
-            "song_artist": "大前 司 & Reku Mochizuki",
+            "title": "psychic disconnection [SEPULCHER]",
+            "song_artist": "鈎兎(KagiUsagi)",
             "charter": "Criyajuh",
-            "md5": "2355780fef426145e88742863b5f9d50",
+            "md5": "c320a2bc423bf99d4e9e3beb44dd19c3",
+            "artist": "",
+            "comment": ""
+        },
+        {
+            "level": "提案",
+            "title": "This Club is not 4 U",
+            "song_artist": "EmoCo.",
+            "charter": "おさげ & Lapis",
+            "md5": "156783da7d59f7ddfb2543890eceb3c5",
             "artist": "",
             "comment": ""
         }
