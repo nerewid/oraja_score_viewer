@@ -15,8 +15,8 @@ let Md5Tosha256Map;
 // クリアランプの定義
 const clear_status = {
     "10": { "name": "Max", "color": "rgba(255, 215, 0, 0.5)" },
-    "9": { "name": "Perfect", "color": "rgba(0, 255, 255, 0.5)" },
-    "8": { "name": "FullCombo", "color": "rgba(173, 255, 47, 0.5)" },
+    "9": { "name": "Perfect", "color": "rgba(173, 255, 47, 0.5)" },
+    "8": { "name": "FullCombo", "color": "rgba(0, 255, 255, 0.5)" },
     "7": { "name": "ExHard", "color": "rgba(255, 165, 0, 0.5)" },
     "6": { "name": "Hard", "color": "rgba(192, 0, 0, 0.5)" },
     "5": { "name": "Normal", "color": "rgba(135, 206, 235, 0.5)" },
@@ -60,55 +60,99 @@ function createMd5ToSha256Map() {
 // --- データ取得・処理関数 ---
 
 /**
- * 指定されたSHA256ハッシュに対応するスコアデータをscoreDbData(Uint8Array)から取得する
- * @param {string} sha256 - 検索するSHA256ハッシュ
- * @returns {Promise<object | null>} スコアデータオブジェクト { clear: number, minbp: number | null }、またはnull
+ * 指定された複数のSHA256ハッシュに対応するスコアデータをscoreDbData(Uint8Array)から一括取得する
+ * SQLiteのIN句を使用し、パフォーマンスを向上させる。
+ * SQL.jsの prepare -> bind -> step -> getAsObject -> free パターンを使用します。
+ * @param {Array<string>} sha256List - 取得したいスコアのSHA256ハッシュ値の配列
+ * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
  */
-async function getScoreBySha256(sha256) {
+async function getScoresBySha256s(sha256List) {
+    const scoresMap = new Map(); // 結果を格納するMap<sha256, scoreData>
+
     if (!scoreDbData || !(scoreDbData instanceof Uint8Array)) {
-        // console.warn("scoreDbData が Uint8Array としてロードされていません。");
-        return null;
+        console.error("scoreDbData が Uint8Array としてロードされていません。");
+        return scoresMap; // 空のMapを返す
     }
     if (!SQL) {
         console.error("SQL.jsが初期化されていません。");
-        // ユーザーにフィードバックが必要な場合、ここでエラーを投げるかUIに表示
-        return null;
+        return scoresMap; // 空のMapを返す
     }
 
+    // 取得対象のSHA256リストが空の場合は処理不要
+    if (!sha256List || sha256List.length === 0) {
+        return scoresMap;
+    }
+
+    const BATCH_SIZE = 999; // SQLiteのIN句の一般的な制限数 (環境により異なる可能性あり)
     let db = null;
+
     try {
-        // Uint8Arrayからデータベースを開く
+        // Uint8Arrayからデータベースを開く（この関数呼び出し中は開いたままにする）
         db = new SQL.Database(scoreDbData);
 
-        // クエリを準備して実行 (mode=0 固定)
-        // テーブルやカラムが存在しない場合にエラーになる可能性があるため注意
-        const stmt = db.prepare("SELECT clear, minbp FROM score WHERE sha256 = :sha256 AND mode = 0");
+        // SHA256リストをバッチサイズで分割して処理
+        for (let i = 0; i < sha256List.length; i += BATCH_SIZE) {
+            const batch = sha256List.slice(i, i + BATCH_SIZE);
 
-        // getAsObjectは結果がない場合 {} を返すことがある
-        const result = stmt.getAsObject({ ':sha256': sha256 });
+            // バッチが空の場合はスキップ
+            if (batch.length === 0) {
+                continue;
+            }
 
-        stmt.free(); // ステートメントを解放
+            // IN句のためのプレースホルダ文字列を生成 (例: ?, ?, ?)
+            const placeholders = batch.map(() => '?').join(',');
 
-        // 結果オブジェクトにsha256キーが存在するか、または他の必須キーで結果の有無を確認
-        if (result && result.clear !== undefined) {
-             // Number型に変換し、minbpがnullやundefinedの可能性を考慮
-            const clearValue = Number(result.clear);
-            const minbpValue = result.minbp !== undefined && result.minbp !== null ? Number(result.minbp) : null;
-            return {
-                clear: isNaN(clearValue) ? 0 : clearValue, // NaNの場合は0扱い
-                minbp: isNaN(minbpValue) ? null : minbpValue // NaNの場合はnull扱い
-            };
-        } else {
-            // console.log(`Score not found for sha256: ${sha256}`);
-            return null; // 見つからない場合はnull
+            // クエリ文字列を作成
+            // sha256カラムも取得する必要がある点に注意
+            const query = `SELECT sha256, clear, minbp FROM score WHERE mode = 0 AND sha256 IN (${placeholders})`;
+
+            let stmt = null;
+            try {
+                // --- 修正点: prepare, bind, step, getAsObject を使用 ---
+                // クエリを準備
+                stmt = db.prepare(query);
+
+                // バッチ内のSHA256値をバインド
+                stmt.bind(batch);
+
+                // 結果セットを一行ずつ処理
+                while (stmt.step()) {
+                    // 現在の行をオブジェクトとして取得
+                    const row = stmt.getAsObject();
+
+                    // 元の getScoreBySha256 と同様に型変換とnull/undefined/NaN対応を行う
+                    const clearValue = Number(row.clear);
+                     // minbpがDBでNULLの場合、SQL.jsはnullまたはundefinedを返す可能性があるため両方チェック
+                    const minbpValue = row.minbp !== undefined && row.minbp !== null ? Number(row.minbp) : null;
+
+                    // 取得した結果をMapに格納
+                    scoresMap.set(row.sha256, {
+                        clear: isNaN(clearValue) ? 0 : clearValue, // NaNの場合は0扱い
+                        minbp: isNaN(minbpValue) ? null : minbpValue // NaNの場合はnull扱い
+                    });
+                }
+
+            } catch (batchQueryError) {
+                // バッチクエリ実行中のエラー
+                console.error(`スコア一括取得クエリの実行中にエラーが発生しました (バッチ ${i}-${Math.min(i + BATCH_SIZE - 1, sha256List.length - 1)}):`, batchQueryError);
+                // このバッチはスキップされますが、他のバッチは続行します。
+            } finally {
+                // 使用済みステートメントを解放
+                // エラー発生時も解放されるように finally で囲む
+                if (stmt) {
+                    try { stmt.free(); } catch(e) { console.error("Statement free中にエラー:", e); }
+                }
+            }
         }
 
-    } catch (error) {
-        // テーブル/カラム不存在などのエラーもここでキャッチされる
-        console.error(`SHA256 (${sha256}) のスコア取得中にエラーが発生しました:`, error);
-        return null; // エラー時もnull
+    } catch (dbError) {
+        // データベースを開く際のエラー
+        console.error("データベースを開く際にエラーが発生しました:", dbError);
+        // ここでエラーが発生した場合、処理を中断し、取得済みのMapを返します (通常は空)。
+        return scoresMap;
     } finally {
         // データベース接続を閉じる
+        // エラー発生時も確実に閉じるように finally で囲む
         if (db) {
             try {
                 db.close();
@@ -117,7 +161,12 @@ async function getScoreBySha256(sha256) {
             }
         }
     }
+
+    // 処理が完了したMapを返す
+    console.log(`スコア一括取得完了。取得できたスコア数: ${scoresMap.size}`);
+    return scoresMap;
 }
+
 
 /**
  * internalFileNameに基づいて楽曲データを読み込む
@@ -177,66 +226,95 @@ async function loadDifficultyTables() {
  */
 async function processSongScores(songs) {
     const aggregatedData = new Map(); // Map<level, Map<clearStatus, { count: number, songs: [] }>>
-    const songDetails = []; // 処理後の楽曲情報を格納する配列 (今回は未使用)
+    const songDetails = []; // 処理後の楽曲情報を格納する配列
+    const sha256ToFetch = new Set(); // スコアを取得する必要があるユニークなSHA256のセット
+    const tempSongInfos = []; // 一時的に楽曲情報を保持する配列
 
     if (!Md5Tosha256Map) {
         console.error("Md5Tosha256Mapが初期化されていません。");
-        // エラー処理、または空データを返す
         return { songDetails: [], aggregatedData: new Map() };
     }
 
+    // --- フェーズ1: SHA256の特定と収集 ---
+    console.log("フェーズ1: SHA256の特定と収集を開始...");
     for (const song of songs) {
-        let currentSha256 = song.sha256; // 楽曲データ内のSHA256
+        let currentSha256 = song.sha256;
         const md5 = song.md5;
-        const level = String(song.level); // レベルを文字列として扱う
+        const level = String(song.level);
         const title = song.title;
 
         // sha256 がない場合、md5 から変換を試みる
         if (!currentSha256 && md5 && Md5Tosha256Map.has(md5)) {
             currentSha256 = Md5Tosha256Map.get(md5);
-            // console.log(`MD5 (${md5}) から SHA256 (${currentSha256}) を取得しました: ${title}`);
+            // console.log(`MD5 (<span class="math-inline">\{md5\}\) から SHA256 \(</span>{currentSha256}) を取得しました: ${title}`);
         }
 
-        let clear = 0; // デフォルトは NoPlay
-        let minbp = null; // BP不明
-
-        if (currentSha256) {
-            // scoreDBData からスコア情報を取得 (mode=0 固定)
-            const scoreRecord = await getScoreBySha256(currentSha256);
-            if (scoreRecord) {
-                clear = scoreRecord.clear; // getScoreBySha256 が number を返すように修正済み
-                minbp = scoreRecord.minbp; // getScoreBySha256 が number | null を返すように修正済み
-            }
-            // スコアレコードが見つからない場合はデフォルト値(clear=0, minbp=null)のまま
-        }
-        // SHA256 が特定できない場合もデフォルト値のまま
-
-        const songInfo = {
+        // 一時的な楽曲情報を保存
+        tempSongInfos.push({
+            originalSong: song, // 元の楽曲オブジェクトへの参照 (必要なら)
             level: level,
             title: title,
             md5: md5,
-            sha256: currentSha256, // 特定できたsha256も保持
+            sha256: currentSha256 // 特定できたsha256も保持
+        });
+
+        // スコア取得が必要なSHA256リストに追加
+        if (currentSha256) {
+            sha256ToFetch.add(currentSha256);
+        }
+    }
+    console.log(`フェーズ1完了。スコア取得対象のユニークなSHA256数: ${sha256ToFetch.size}`);
+
+
+    // --- フェーズ2: スコアデータの一括取得 ---
+    console.log("フェーズ2: スコアデータの一括取得を開始...");
+    // sha256ToFetch セットを配列に変換し、一括取得関数に渡す
+    const sha256List = Array.from(sha256ToFetch);
+    const scoresMap = await getScoresBySha256s(sha256List); // <-- ここで一括DBアクセス！
+    console.log("フェーズ2完了。");
+
+    // --- フェーズ3: スコアデータのマージと集計 ---
+    console.log("フェーズ3: スコアデータのマージと集計を開始...");
+    for (const songInfo of tempSongInfos) {
+        let clear = 0; // デフォルトは NoPlay
+        let minbp = null; // BP不明
+
+        // 一括取得したスコアデータを参照
+        if (songInfo.sha256 && scoresMap.has(songInfo.sha256)) {
+            const scoreRecord = scoresMap.get(songInfo.sha256);
+            clear = scoreRecord.clear;
+            minbp = scoreRecord.minbp;
+        }
+        // SHA256が特定できなかった場合、またはスコアが見つからなかった場合はデフォルト値のまま
+
+        // songDetails に追加する最終的な楽曲情報オブジェクトを作成
+        const finalSongInfo = {
+            level: songInfo.level,
+            title: songInfo.title,
+            md5: songInfo.md5,
+            sha256: songInfo.sha256, // 特定できたsha256
             clear: String(clear), // クリア状態を文字列として扱う
             minbp: minbp
         };
-        songDetails.push(songInfo); // 詳細リストにも追加
+        songDetails.push(finalSongInfo); // 詳細リストに追加
 
         // --- 集計処理 ---
         // レベル別に集計
-        if (!aggregatedData.has(level)) {
-            aggregatedData.set(level, new Map());
+        if (!aggregatedData.has(finalSongInfo.level)) {
+            aggregatedData.set(finalSongInfo.level, new Map());
         }
-        const levelData = aggregatedData.get(level);
+        const levelData = aggregatedData.get(finalSongInfo.level);
 
         // クリア状態別に集計
-        const clearStr = String(clear);
+        const clearStr = finalSongInfo.clear; // すでに文字列
         if (!levelData.has(clearStr)) {
             levelData.set(clearStr, { count: 0, songs: [] });
         }
         const clearData = levelData.get(clearStr);
         clearData.count++;
-        clearData.songs.push(songInfo); // 集計データにも楽曲情報を格納
+        clearData.songs.push(finalSongInfo); // 集計データにも楽曲情報を格納
     }
+    console.log("フェーズ3完了。");
 
     return { songDetails, aggregatedData };
 }

@@ -11,8 +11,8 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
     // クリアステータスとそれに対応する名前と色を定義したオブジェクト
     const clear_status = {
         "10": { "name": "Max", "color": "rgba(255, 215, 0, 0.5)" },
-        "9": { "name": "Perfect", "color": "rgba(0, 255, 255, 0.5)" },
-        "8": { "name": "FullCombo", "color": "rgba(173, 255, 47, 0.5)" },
+        "9": { "name": "Perfect", "color": "rgba(173, 255, 47, 0.5)" },
+        "8": { "name": "FullCombo", "color": "rgba(0, 255, 255, 0.5)" },
         "7": { "name": "ExHard", "color": "rgba(255, 165, 0, 0.5)" },
         "6": { "name": "Hard", "color": "rgba(192, 0, 0, 0.5)" },
         "5": { "name": "Normal", "color": "rgba(135, 206, 235, 0.5)" },
@@ -22,7 +22,7 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
         "1": { "name": "Failed", "color": "rgba(128, 0, 0, 0.5)" },
         "0": { "name": "NoPlay", "color": "rgba(0, 0, 0, 0.5)" }
     };
-
+    
     try {
         // テンプレートファイル取得
         const templateResponse = await fetch(templateFile);
