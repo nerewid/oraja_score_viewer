@@ -65,6 +65,7 @@ document.getElementById("processData").addEventListener("click", async () => {
 
         // HTMLを画面に表示
         document.getElementById("results-area").innerHTML = html;
+        document.getElementById('tabA').style.display = 'block';
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
         document.getElementById("downloadJson").addEventListener("click", () => {
