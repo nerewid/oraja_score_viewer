@@ -54,3 +54,48 @@ h3 {
 .bp-only-section {
     margin-top: 10px;
 }
+
+.level-item {
+    display: flex; /* Flexbox を適用 */
+    align-items: center; /* 縦方向中央揃え */
+    margin-bottom: 5px; /* レベル間の間隔 */
+}
+
+.level-item > div:first-child { /* レベルラベル */
+    width: 80px; /* 固定幅 */
+    font-weight: bold;
+    margin-right: 10px; /* グラフとの間隔 */
+    text-align: left; /* 右寄せで見やすく */
+}
+
+.level-item > div.lamp-graph-bar { /* グラフバー */
+    flex-grow: 1; /* 残りの幅を占める */
+    height: 20px; /* 高さを調整 */
+    border: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+    display: flex; /* 子要素の配置を制御する場合 */
+}
+
+.lamp-graph-segment {
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex; /* 内側のテキストを中央揃えにする場合 */
+    justify-content: center; /* 水平方向中央揃え */
+    align-items: center; /* 垂直方向中央揃え */
+    font-size: 0.7em;
+    font-weight: bold;
+    color: white; /* デフォルトのテキスト色 */
+}
+
+.lamp-graph-segment span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7em;
+    font-weight: bold;
+    /* color は JavaScript で設定 */
+}
