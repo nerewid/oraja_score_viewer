@@ -94,6 +94,9 @@
 
     <div id="tabB" class="tabcontent">
         ランプグラフ実装予定
+        <select id="difficulty-table-select"></select>
+        <div id="lamp-graph-area"></div>
+        <div id="song-list-area"></div>
     </div>
 
     <script src="./js/lib/sql-wasm.js"></script>
@@ -109,10 +112,11 @@
     <script src="./js/lib/cal-heatmap.min.js"></script>
     <script src="./js/lib/FileSaver.min.js"></script>
 
-    <script type="module" src="./js/json_creator.js"></script>
     <script type="module" src="./js/db_uploader.js"></script>
     <script type="module" src="./js/score_change_to_json.js"></script>
+    <script type="module" src="./js/json_creator.js"></script>
     <script type="module" src="./js/heatmap_generator.js"></script>
+    <script type="module" src="./js/lamp_graph_generator.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
