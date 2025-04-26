@@ -304,31 +304,34 @@ function displayLampGraphs(aggregatedData) {
 
         if (totalSongsInLevel === 0) continue; // 曲数が0のレベルは表示しない
 
-        const levelGraphContainer = document.createElement('div');
-        levelGraphContainer.classList.add('level-graph-container');
-        levelGraphContainer.style.marginBottom = '10px';
+        const levelContainer = document.createElement('div');
+        levelContainer.classList.add('level-item'); // 新しいクラスを追加
+        levelContainer.style.display = 'flex'; // Flexbox を適用
+        levelContainer.style.alignItems = 'center'; // 縦方向中央揃え
+        levelContainer.style.marginBottom = '5px'; // 間隔を調整
 
         const levelLabel = document.createElement('div');
-        levelLabel.textContent = `Level ${level} (${totalSongsInLevel} songs)`;
+        levelLabel.textContent = `Lv${level} (${totalSongsInLevel})`; // 短縮した表記
         levelLabel.style.fontWeight = 'bold';
-        levelGraphContainer.appendChild(levelLabel);
+        levelLabel.style.width = '90px'; // ラベルの固定幅
+        levelLabel.style.marginRight = '10px'; // ラベルとグラフの間隔
+        levelContainer.appendChild(levelLabel);
 
         const graphBar = document.createElement('div');
         graphBar.classList.add('lamp-graph-bar');
         graphBar.style.display = 'flex';
-        graphBar.style.position = 'relative'; // 相対配置の基準
-        graphBar.style.height = '25px';
-        graphBar.style.width = '100%';
+        graphBar.style.position = 'relative';
+        graphBar.style.height = '20px'; // 高さを調整
+        graphBar.style.width = '100%'; // 残りの幅を占める
         graphBar.style.border = '1px solid #ccc';
-        graphBar.style.cursor = 'pointer'; // バー全体をクリック可能に
-        graphBar.dataset.level = level; // レベル情報を保持 (イベント委譲用)
+        graphBar.style.cursor = 'pointer';
+        graphBar.dataset.level = level;
 
         let currentPercentage = 0;
 
-        // 10 -> 0 の順で帯グラフセグメントを作成
         for (const clearCode of clear_status_order) {
-            const clearData = levelData.get(clearCode); // Mapになくてもundefinedが返る
-            if (clearData && clearData.count > 0) { // データが存在し、数が1以上
+            const clearData = levelData.get(clearCode);
+            if (clearData && clearData.count > 0) {
                 const percentage = (clearData.count / totalSongsInLevel) * 100;
 
                 const segment = document.createElement('div');
@@ -337,11 +340,12 @@ function displayLampGraphs(aggregatedData) {
                 segment.style.backgroundColor = clear_status[clearCode]?.color || '#888';
                 segment.style.height = '100%';
                 segment.style.boxSizing = 'border-box';
-                segment.style.overflow = 'hidden'; // はみ出し防止
-                segment.style.position = 'absolute'; // 絶対配置
+                segment.style.overflow = 'hidden';
+                segment.style.position = 'absolute';
                 segment.style.left = `${currentPercentage}%`;
-                
-                // 件数を文字列として追加
+                segment.dataset.clearStatus = clearCode;
+                segment.title = `${clear_status[clearCode]?.name || 'Unknown'}: ${clearData.count} songs (${percentage.toFixed(1)}%)`;
+
                 const countSpan = document.createElement('span');
                 countSpan.textContent = clearData.count;
                 countSpan.style.position = 'absolute';
@@ -349,22 +353,16 @@ function displayLampGraphs(aggregatedData) {
                 countSpan.style.top = '50%';
                 countSpan.style.transform = 'translate(-50%, -50%)';
                 countSpan.style.color = getContrastColor(clear_status[clearCode]?.color || '#888');
-                countSpan.style.fontSize = '0.8em';
+                countSpan.style.fontSize = '0.7em'; // サイズを調整
                 countSpan.style.fontWeight = 'bold';
                 segment.appendChild(countSpan);
 
-                // クリックイベントのためにデータを付与
-                segment.dataset.clearStatus = clearCode;
-                // ツールチップ
-                segment.title = `${clear_status[clearCode]?.name || 'Unknown'}: ${clearData.count} songs (${percentage.toFixed(1)}%)`;
-
                 graphBar.appendChild(segment);
-
                 currentPercentage += percentage;
             }
         }
-        levelGraphContainer.appendChild(graphBar);
-        lampGraphArea.appendChild(levelGraphContainer);
+        levelContainer.appendChild(graphBar);
+        lampGraphArea.appendChild(levelContainer); // levelGraphContainer の代わりに levelContainer を追加
     }
 }
 
