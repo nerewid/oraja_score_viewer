@@ -159,16 +159,55 @@ async function createSha256ToMd5Map(db, songs) {
  * @param {object} jsonData - ダウンロードするJSONデータ
  */
 function downloadJson(jsonData) {
-    const jsonString = JSON.stringify(jsonData, null, 2); // JSONオブジェクトを整形された文字列に変換
+    // データを加工してからソート
+    const processedData = processAndSortData(jsonData);
+
+    const jsonString = JSON.stringify(processedData, null, 2);
     const blob = new Blob([jsonString], { type: "application/json" }); // JSON文字列からBlobオブジェクトを作成
     const url = URL.createObjectURL(blob); // BlobオブジェクトのURLを作成
-
+  
+    // 現在の日付を取得してファイル名に含める
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0'); // 月は0から始まるので+1、2桁表示
+    const day = String(now.getDate()).padStart(2, '0'); // 日を2桁表示
+    const filename = `score_data_${year}-${month}-${day}.json`;
+  
     const link = document.createElement("a"); // 新しい<a>要素を作成
     link.href = url; // ダウンロードURLを設定
-    link.download = "score_data.json"; // ダウンロードするファイル名を指定
+    link.download = filename; // ダウンロードするファイル名を指定
     link.click(); // リンクをプログラム的にクリックしてダウンロードを開始
-
+  
     URL.revokeObjectURL(url); // 作成したURLを解放
+  }
+
+function processAndSortData(data) {
+const processedEntries = Object.entries(data).map(([date, songData]) => {
+    const processedSongData = {};
+    for (const songTitle in songData) {
+    const entry = { ...songData[songTitle] }; // Shallow copy
+
+    if (entry.old_bp === 2147483647) {
+        entry.old_bp = "Not Played";
+    }
+    if (entry.clear === "-1") {
+        entry.clear = "Unchanged";
+    }
+    processedSongData[songTitle] = entry;
+    }
+    return [date, processedSongData];
+});
+
+// 日付でソート
+processedEntries.sort(([dateA], [dateB]) => new Date(dateA) - new Date(dateB));
+
+// ソートされたデータを元のJSONのようなオブジェクトに戻す
+const sortedAndProcessedData = {};
+processedEntries.forEach(([date, songData]) => {
+    sortedAndProcessedData[date] = songData;
+});
+
+return sortedAndProcessedData;
 }
 
 /**
