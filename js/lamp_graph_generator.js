@@ -278,12 +278,20 @@ async function processSongScores(songs) {
     for (const songInfo of tempSongInfos) {
         let clear = 0; // デフォルトは NoPlay
         let minbp = null; // BP不明
+        let notes = null
+        let exscore = null;
 
         // 一括取得したスコアデータを参照
         if (songInfo.sha256 && scoresMap.has(songInfo.sha256)) {
             const scoreRecord = scoresMap.get(songInfo.sha256);
             clear = scoreRecord.clear;
             minbp = scoreRecord.minbp;
+            notes = scoreRecord.notes;
+            let epg = Number(scoreRecord.epg);
+            let lpg = Number(scoreRecord.lpg);
+            let egr = Number(scoreRecord.egr);
+            let lgr = Number(scoreRecord.lgr);
+            exscore =  epg + lpg + egr + lgr;
         }
         // SHA256が特定できなかった場合、またはスコアが見つからなかった場合はデフォルト値のまま
 
@@ -294,7 +302,9 @@ async function processSongScores(songs) {
             md5: songInfo.md5,
             sha256: songInfo.sha256, // 特定できたsha256
             clear: String(clear), // クリア状態を文字列として扱う
-            minbp: minbp
+            minbp: minbp,
+            notes: notes,
+            exscore: exscore
         };
         songDetails.push(finalSongInfo); // 詳細リストに追加
 
@@ -349,7 +359,7 @@ function populateDifficultySelect(tablesData) {
  * 集計データに基づいて帯グラフのHTMLを生成し表示する
  * @param {Map<string, Map<string, { count: number, songs: Array<object> }>>} aggregatedData - 集計データ
  */
-function displayLampGraphs(aggregatedData) {
+function displayLampGraphs(aggregatedData, shortName) {
     lampGraphArea.innerHTML = ''; // 既存のグラフをクリア
     lampGraphArea.style.cursor = 'default'; // デフォルトカーソルに戻す
 
@@ -389,7 +399,7 @@ function displayLampGraphs(aggregatedData) {
         levelContainer.style.marginBottom = '5px'; // 間隔を調整
 
         const levelLabel = document.createElement('div');
-        levelLabel.textContent = `Lv${level} (${totalSongsInLevel})`; // 短縮した表記
+        levelLabel.textContent = `${shortName}${level} (${totalSongsInLevel})`; // 短縮した表記
         levelLabel.style.fontWeight = 'bold';
         levelLabel.style.width = '90px'; // ラベルの固定幅
         levelLabel.style.marginRight = '10px'; // ラベルとグラフの間隔
@@ -463,7 +473,7 @@ function getContrastColor(hexcolor) {
  * @param {string} clearStatus - 選択されたクリア状態
  * @param {Map<string, Map<string, { count: number, songs: Array<object> }>>} aggregatedData - 集計データ
  */
-function displaySongList(level, clearStatus, aggregatedData) {
+function displaySongList(level, clearStatus, aggregatedData, shortName) {
     songListArea.innerHTML = ''; // 既存のリストをクリア
 
     const levelData = aggregatedData.get(level);
@@ -484,7 +494,7 @@ function displaySongList(level, clearStatus, aggregatedData) {
 
     const listTitle = document.createElement('h3');
     const clearName = clear_status[clearStatus]?.name || `Status ${clearStatus}`;
-    listTitle.textContent = `Level ${level} - ${clearName} (${sortedSongs.length} songs)`;
+    listTitle.textContent = `${shortName}${level} - ${clearName} (${sortedSongs.length} songs)`;
     songListArea.appendChild(listTitle);
 
     const ul = document.createElement('ul');
@@ -493,13 +503,13 @@ function displaySongList(level, clearStatus, aggregatedData) {
 
     sortedSongs.forEach(song => {
         const li = document.createElement('li');
-        li.style.marginBottom = '5px';
-        li.style.borderBottom = '1px dashed #eee';
-        li.style.paddingBottom = '5px';
+        //li.style.marginBottom = '5px';
+        //li.style.borderBottom = '1px dashed #eee';
+        //li.style.paddingBottom = '5px';
 
         // BPが存在し、かつ数値である場合のみ表示 (nullチェックとNaNチェック)
         const bpText = (song.minbp !== null && !isNaN(song.minbp)) ? ` / BP: ${song.minbp}` : '';
-        li.textContent = `Lv.${song.level}: ${song.title}${bpText}`;
+        li.textContent = `${song.title}${bpText}`;
         // SHA256やMD5などのデバッグ情報を追加したい場合
         // li.title = `SHA256: ${song.sha256 || 'N/A'}\nMD5: ${song.md5 || 'N/A'}`;
         ul.appendChild(li);
@@ -542,6 +552,7 @@ difficultyTableSelect.addEventListener('change', async (event) => {
 
         // songs 配列が存在するか確認
         const songs = songListData?.songs;
+        const shortName = songListData?.shortName;
         if (!Array.isArray(songs)) {
              throw new Error(`読み込んだJSONに 'songs' 配列が含まれていません (${selectedInternalFileName}.json)`);
         }
@@ -552,10 +563,11 @@ difficultyTableSelect.addEventListener('change', async (event) => {
         const { aggregatedData } = await processSongScores(songs);
 
         // 3. 集計結果を帯グラフとして表示
-        displayLampGraphs(aggregatedData);
+        displayLampGraphs(aggregatedData, shortName);
 
         // 4. クリック時に参照する集計データを保持 (より安全な方法を検討しても良い)
         window.currentAggregatedData = aggregatedData;
+        window.currentShortName = shortName;
 
     } catch (error) {
         console.error('難易度表データの処理中にエラーが発生しました:', error);
@@ -576,7 +588,7 @@ lampGraphArea.addEventListener('click', (event) => {
         const clearStatus = segment.dataset.clearStatus;
 
         if (level && clearStatus && window.currentAggregatedData) {
-            displaySongList(level, clearStatus, window.currentAggregatedData);
+            displaySongList(level, clearStatus, window.currentAggregatedData, window.currentShortName);
         } else {
              console.warn("クリックされたセグメントから level または clearStatus を取得できませんでした。");
              songListArea.innerHTML = '<p>曲リストの表示に失敗しました。</p>';
