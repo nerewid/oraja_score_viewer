@@ -99,3 +99,49 @@ h3 {
     font-weight: bold;
     /* color は JavaScript で設定 */
 }
+
+.horizontal-container {
+    display: flex;
+    align-items: center; /* 必要に応じて垂直方向の中央揃え */
+  }
+  
+  .horizontal-container > * {
+    margin-right: 10px; /* 子要素間の余白 */
+  }
+  
+  .horizontal-container > *:last-child {
+    margin-right: 0; /* 最後の要素の右余白をなくす */
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: none; /* 初期状態で非表示 */
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 50%; /* 横幅を等分 */
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #7171e0;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}

@@ -30,6 +30,7 @@ const clear_status_order = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "
 
 // HTML要素への参照
 const difficultyTableSelect = document.getElementById('difficulty-table-select');
+const lnModeRadios = document.querySelectorAll('input[type="radio"][name="ln-mode"]');
 const lampGraphArea = document.getElementById('lamp-graph-area');
 const songListArea = document.getElementById('song-list-area');
 
@@ -66,7 +67,7 @@ function createMd5ToSha256Map() {
  * @param {Array<string>} sha256List - 取得したいスコアのSHA256ハッシュ値の配列
  * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
  */
-async function getScoresBySha256s(sha256List) {
+async function getScoresBySha256s(sha256List, selectedLnModeValue) {
     const scoresMap = new Map(); // 結果を格納するMap<sha256, scoreData>
 
     if (!scoreDbData || !(scoreDbData instanceof Uint8Array)) {
@@ -104,7 +105,7 @@ async function getScoresBySha256s(sha256List) {
 
             // クエリ文字列を作成
             // sha256カラムも取得する必要がある点に注意
-            const query = `SELECT sha256, clear, minbp FROM score WHERE mode = 0 AND sha256 IN (${placeholders})`;
+            const query = `SELECT sha256, clear, minbp FROM score WHERE mode = ${selectedLnModeValue} AND sha256 IN (${placeholders})`;
 
             let stmt = null;
             try {
@@ -124,11 +125,20 @@ async function getScoresBySha256s(sha256List) {
                     const clearValue = Number(row.clear);
                      // minbpがDBでNULLの場合、SQL.jsはnullまたはundefinedを返す可能性があるため両方チェック
                     const minbpValue = row.minbp !== undefined && row.minbp !== null ? Number(row.minbp) : null;
-
+                    const notes =  Number(row.notes);
+                    const mode =  Number(row.mode);
+                    let epg = Number(row.epg);
+                    let lpg = Number(row.lpg);
+                    let egr = Number(row.egr);
+                    let lgr = Number(row.lgr);
+                    let exscore =  epg + lpg + egr + lgr;
                     // 取得した結果をMapに格納
                     scoresMap.set(row.sha256, {
                         clear: isNaN(clearValue) ? 0 : clearValue, // NaNの場合は0扱い
-                        minbp: isNaN(minbpValue) ? null : minbpValue // NaNの場合はnull扱い
+                        minbp: isNaN(minbpValue) ? null : minbpValue, // NaNの場合はnull扱い
+                        notes: notes,
+                        mode: mode,
+                        exscore: exscore
                     });
                 }
 
@@ -224,7 +234,7 @@ async function loadDifficultyTables() {
  * @param {Array<object>} songs - 楽曲データの配列
  * @returns {Promise<{ songDetails: Array<object>, aggregatedData: Map<string, Map<string, { count: number, songs: Array<object> }>> }>}
  */
-async function processSongScores(songs) {
+async function processSongScores(songs, selectedLnModeValue) {
     const aggregatedData = new Map(); // Map<level, Map<clearStatus, { count: number, songs: [] }>>
     const songDetails = []; // 処理後の楽曲情報を格納する配列
     const sha256ToFetch = new Set(); // スコアを取得する必要があるユニークなSHA256のセット
@@ -270,7 +280,11 @@ async function processSongScores(songs) {
     console.log("フェーズ2: スコアデータの一括取得を開始...");
     // sha256ToFetch セットを配列に変換し、一括取得関数に渡す
     const sha256List = Array.from(sha256ToFetch);
-    const scoresMap = await getScoresBySha256s(sha256List); // <-- ここで一括DBアクセス！
+    const scoresMap = await getScoresBySha256s(sha256List, 0); // <-- ここで一括DBアクセス！
+    let scoresMapXn = null
+    if (selectedLnModeValue !== 0) {
+        scoresMapXn = await getScoresBySha256s(sha256List, selectedLnModeValue)
+    }
     console.log("フェーズ2完了。");
 
     // --- フェーズ3: スコアデータのマージと集計 ---
@@ -279,19 +293,26 @@ async function processSongScores(songs) {
         let clear = 0; // デフォルトは NoPlay
         let minbp = null; // BP不明
         let notes = null
+        let mode = null;
         let exscore = null;
 
-        // 一括取得したスコアデータを参照
+        // LNなし&LNmodeで一括取得したスコアデータを参照
         if (songInfo.sha256 && scoresMap.has(songInfo.sha256)) {
             const scoreRecord = scoresMap.get(songInfo.sha256);
             clear = scoreRecord.clear;
             minbp = scoreRecord.minbp;
+            mode = scoreRecord.mode;
             notes = scoreRecord.notes;
-            let epg = Number(scoreRecord.epg);
-            let lpg = Number(scoreRecord.lpg);
-            let egr = Number(scoreRecord.egr);
-            let lgr = Number(scoreRecord.lgr);
-            exscore =  epg + lpg + egr + lgr;
+            exscore = scoreRecord.exscore;
+        }
+        // CN or HCNmodeで一括取得したスコアデータを参照し上書き
+        if (songInfo.sha256 && scoresMapXn.has(songInfo.sha256)) {
+            const scoreRecordXn = scoresMapXn.get(songInfo.sha256);
+            clear = scoreRecordXn.clear;
+            minbp = scoreRecordXn.minbp;
+            mode = scoreRecordXn.mode;
+            notes = scoreRecordXn.notes;
+            exscore = scoreRecordXn.exscore;
         }
         // SHA256が特定できなかった場合、またはスコアが見つからなかった場合はデフォルト値のまま
 
@@ -454,6 +475,66 @@ function displayLampGraphs(aggregatedData, shortName) {
     }
 }
 
+
+async function processDifficultyTableSelection(selectedInternalFileName, selectedLnModeValue) {
+    const lampGraphArea = document.getElementById('lamp-graph-area');
+    const songListArea = document.getElementById('song-list-area');
+    const difficultyTableSelect = document.getElementById('difficultyTableSelect'); // 必要に応じて取得
+
+    lampGraphArea.innerHTML = '<p>読み込み中...</p>'; // ローディング表示
+    songListArea.innerHTML = ''; // 曲リストをクリア
+
+    if (!selectedInternalFileName) {
+        lampGraphArea.innerHTML = ''; // 未選択状態ならクリア
+        return;
+    }
+
+    // score.db が読み込まれているか確認
+    if (!scoreDbData) {
+        lampGraphArea.innerHTML = '<p style="color: red;">score.db を先に読み込んでください。</p>';
+        if (difficultyTableSelect) {
+            difficultyTableSelect.value = ''; // プルダウンの選択をリセット
+        }
+        return;
+    }
+    // SQL.jsが初期化されているか確認
+    if (!SQL) {
+        lampGraphArea.innerHTML = '<p style="color: red;">データベースライブラリが初期化されていません。</p>';
+        if (difficultyTableSelect) {
+            difficultyTableSelect.value = ''; // プルダウンの選択をリセット
+        }
+        return;
+    }
+
+    try {
+        // 1. 選択された難易度表に対応する楽曲リストJSONを読み込む
+        const songListData = await loadSongData(selectedInternalFileName);
+
+        // songs 配列が存在するか確認
+        const songs = songListData?.songs;
+        const shortName = songListData?.shortName;
+        if (!Array.isArray(songs)) {
+            throw new Error(`読み込んだJSONに 'songs' 配列が含まれていません (${selectedInternalFileName}.json)`);
+        }
+
+        // 2. 楽曲リストとスコアDBを突き合わせて処理・集計
+        //    (Md5Tosha256Mapは初期化時に作成済み)
+        const { aggregatedData } = await processSongScores(songs, selectedLnModeValue);
+
+        // 3. 集計結果を帯グラフとして表示
+        displayLampGraphs(aggregatedData, shortName);
+
+        // 4. クリック時に参照する集計データを保持 (より安全な方法を検討しても良い)
+        window.currentAggregatedData = aggregatedData;
+        window.currentShortName = shortName;
+
+    } catch (error) {
+        console.error('難易度表データの処理中にエラーが発生しました:', error);
+        lampGraphArea.innerHTML = `<p style="color: red;">データの処理中にエラーが発生しました: ${error.message}</p>`;
+        window.currentAggregatedData = null; // エラー時はデータもクリア
+    }
+}
+
 /**
  * 背景色に基づいてコントラストの高いテキストの色（白または黒）を返す
  * @param {string} hexcolor - 16進数の色コード (#rrggbb形式)
@@ -524,57 +605,31 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
 // プルダウンリスト変更時の処理
 difficultyTableSelect.addEventListener('change', async (event) => {
     const selectedInternalFileName = event.target.value;
-    lampGraphArea.innerHTML = '<p>読み込み中...</p>'; // ローディング表示
-    songListArea.innerHTML = ''; // 曲リストをクリア
-
-    if (!selectedInternalFileName) {
-        lampGraphArea.innerHTML = ''; // 未選択状態ならクリア
-        return;
-    }
-
-    // score.db が読み込まれているか確認
-    if (!scoreDbData) {
-        lampGraphArea.innerHTML = '<p style="color: red;">score.db を先に読み込んでください。</p>';
-        difficultyTableSelect.value = ''; // プルダウンの選択をリセット
-        return;
-    }
-    // SQL.jsが初期化されているか確認
-    if (!SQL) {
-         lampGraphArea.innerHTML = '<p style="color: red;">データベースライブラリが初期化されていません。</p>';
-         difficultyTableSelect.value = ''; // プルダウンの選択をリセット
-        return;
-    }
-
-
-    try {
-        // 1. 選択された難易度表に対応する楽曲リストJSONを読み込む
-        const songListData = await loadSongData(selectedInternalFileName);
-
-        // songs 配列が存在するか確認
-        const songs = songListData?.songs;
-        const shortName = songListData?.shortName;
-        if (!Array.isArray(songs)) {
-             throw new Error(`読み込んだJSONに 'songs' 配列が含まれていません (${selectedInternalFileName}.json)`);
+    let selectedLnModeValue;
+    // 選択されているラジオボタンを見つける
+    for (const radio of lnModeRadios) {
+        if (radio.checked) {
+        selectedLnModeValue = radio.value;
+        break; // 最初に見つかったらループを抜ける
         }
-
-
-        // 2. 楽曲リストとスコアDBを突き合わせて処理・集計
-        //    (Md5Tosha256Mapは初期化時に作成済み)
-        const { aggregatedData } = await processSongScores(songs);
-
-        // 3. 集計結果を帯グラフとして表示
-        displayLampGraphs(aggregatedData, shortName);
-
-        // 4. クリック時に参照する集計データを保持 (より安全な方法を検討しても良い)
-        window.currentAggregatedData = aggregatedData;
-        window.currentShortName = shortName;
-
-    } catch (error) {
-        console.error('難易度表データの処理中にエラーが発生しました:', error);
-        lampGraphArea.innerHTML = `<p style="color: red;">データの処理中にエラーが発生しました: ${error.message}</p>`;
-        window.currentAggregatedData = null; // エラー時はデータもクリア
     }
+    await processDifficultyTableSelection(selectedInternalFileName, selectedLnModeValue);
 });
+
+// LN mode変更時の処理
+lnModeRadios.forEach(radio => {
+    radio.addEventListener('change', async (event) => { // ここを async に変更
+      const selectedLnModeValue = event.target.value;
+      const selectedInternalFileName = difficultyTableSelect.value; // 現在選択されているプルダウンリストの値を取得
+
+      console.log(`LNモードが変更されました: ${selectedLnModeValue}`);
+      console.log(`現在の難易度ファイル名: ${selectedInternalFileName}`);
+
+      // ここで、選択されたLNモードと難易度ファイル名を使って処理を実行
+      await processDifficultyTableSelection(selectedInternalFileName, selectedLnModeValue);
+    });
+});
+
 
 // 帯グラフエリアでのクリックイベント処理 (イベント委譲)
 lampGraphArea.addEventListener('click', (event) => {
@@ -683,7 +738,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       console.error("data-tab='tabB' を持つボタン要素が見つかりません。");
     }
-  });
+});
 
 // scoreDbData をエクスポートする必要があれば (通常は不要かも)
 // export { scoreDbData };

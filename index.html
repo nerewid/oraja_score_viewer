@@ -14,40 +14,6 @@
     </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cal-heatmap.css">
-    <style>
-        .tab {
-            overflow: hidden;
-            border: 1px solid #ccc;
-            background-color: #f1f1f1;
-            display: none; /* 初期状態で非表示 */
-        }
-
-        .tab button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-            width: 50%; /* 横幅を等分 */
-        }
-
-        .tab button:hover {
-            background-color: #ddd;
-        }
-
-        .tab button.active {
-            background-color: #7171e0;
-        }
-
-        .tabcontent {
-            display: none;
-            padding: 6px 12px;
-            border: 1px solid #ccc;
-            border-top: none;
-        }
-    </style>
 </head>
 <body>
     <h1>oraja_score_viewer</h1>
@@ -93,8 +59,20 @@
     </div>
 
     <div id="tabB" class="tabcontent">
-        表示したい難易度表を選択してください
-        <select id="difficulty-table-select"></select>
+        <div class="horizontal-container">
+            <select id="difficulty-table-select"></select>
+            <div>
+                <label>
+                <input type="radio" name="ln-mode" value="0" checked> LN
+                </label>
+                <label>
+                <input type="radio" name="ln-mode" value="1" > CN
+                </label>
+                <label>
+                <input type="radio" name="ln-mode" value="2"> HCN
+                </label>
+            </div>
+        </div>
         <div id="lamp-graph-area"></div>
         <div id="song-list-area"></div>
     </div>
