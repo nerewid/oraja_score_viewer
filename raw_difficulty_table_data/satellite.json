@@ -587,6 +587,18 @@
             "submission": 960
         },
         {
+            "title": "Deifixa [SP ANOTHER]",
+            "artist": "Reku Mochizuki",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=1",
+            "url_diff": "",
+            "md5": "e0df51d8c6d17a5bedcfa71feeef0fde",
+            "sha256": "bb4775f86c26b63601033f1e568981ad4568805215f904f5b493cd7fd2fd4d9d",
+            "level": "0",
+            "proposer": "hecando",
+            "comment": "PABAT! 2025 同梱譜面",
+            "submission": 3477
+        },
+        {
             "title": "Disco Balls -Twilight-",
             "artist": "roop × Mentalstock / selene.",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=183&event=60",
@@ -10085,6 +10097,18 @@
             "submission": 3082
         },
         {
+            "title": "結ばれる奇跡の願い [EX]",
+            "artist": "宮水 三葉 / obj.うに",
+            "url": "https://drive.google.com/u/0/uc?id=0B3ZcNZMch7-QM0NzS05PZW54Zms&export=download&resourcekey=0-aL-RfVsGnKfVSKofb-hKrQ",
+            "url_diff": "https://stellabms.xyz/upload/4311",
+            "md5": "4349017f3a7fd5d4ca818d3a6cee9c84",
+            "sha256": "82419b5f70053eca70b95302b7388a97887a33fccec46756a0286737add7e602",
+            "level": "4",
+            "proposer": "重野葵",
+            "comment": "BPM96 ズレ同時",
+            "submission": 3468
+        },
+        {
             "title": "聖戦ものがたり [yumether]",
             "artist": "otokaz/obj:夢瑠",
             "url": "http://kbwnk.net/data/oto11_fekp_mq.rar",
@@ -10409,6 +10433,18 @@
             "level": "5",
             "comment": "",
             "submission": 1974
+        },
+        {
+            "title": "Cosmogazer [rainother]",
+            "artist": "翡乃イスカ obj: rainy",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=439&event=110",
+            "url_diff": "https://stellabms.xyz/upload/5225",
+            "md5": "5e9dcfae52da50bc072e88eb1162684b",
+            "sha256": "6ffdf6bfb6f2de021cd368321a16b1df6a672ff66b8cd0cfffff0b7346027e54",
+            "level": "5",
+            "proposer": "重野葵",
+            "comment": "BPM200 乱打，軸，同時",
+            "submission": 3467
         },
         {
             "title": "Dance Doll Dream [Antoinette]",
@@ -10796,6 +10832,18 @@
             "level": "5",
             "comment": "GENOCIDE REINTERPARETATION 出身差分 ★9~10?",
             "submission": 1845
+        },
+        {
+            "title": "Little Guardian [EXTRA]",
+            "artist": "69 de 74 obj:monaka",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=117&event=110",
+            "url_diff": "https://ux.getuploader.com/monaka_sabun_2/download/138",
+            "md5": "ac46a9866f68423831d240ca0119e367",
+            "sha256": "cfe9c9c9fa5e161c6e80f628a6a8478db1cc6e4c0e05f85937107d7cfb9193f8",
+            "level": "6",
+            "proposer": "ABKAOD",
+            "comment": "BPM170 乱打",
+            "submission": 3484
         },
         {
             "title": "LivedaM (imagination)",
@@ -13683,6 +13731,17 @@
             "submission": 710
         },
         {
+            "title": "Lyrith -迷宮リリス- [HARD]",
+            "artist": "ユメミド Movie:テンソル / Illust:遥壱朗 / Arrange:LeaF/obj:赤い人",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=218&event=116",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/yume_Lyrith-HARD.bms",
+            "md5": "d8a783bf7161ddca27b74e6037cc188b",
+            "sha256": "ee8d5334984d0f0eb31e28690f3f8b297a564eecfe44608658bcfe837e42c0cb",
+            "level": "7",
+            "proposer": "Naｚ",
+            "submission": 3474
+        },
+        {
             "title": "Materialize Anything [Almighty]",
             "artist": "anubasu-anubasu obj.B_K",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=153&event=110",
@@ -14557,6 +14616,18 @@
             "submission": 2619
         },
         {
+            "title": "Gale of Viridian [MONOCHROME]",
+            "artist": "白羽",
+            "url": "https://drive.google.com/file/d/1qiuatgV400Kroj6QQ_k0FJ1VkfT6PLOx/view?usp=sharing",
+            "url_diff": "",
+            "md5": "de4824f6b8b740c468bb592016cc7d8e",
+            "sha256": "2c52398e01fa4ca1b0813e28d4456eefd0990bed433baf0a89c28e30fa435a6a",
+            "level": "8",
+            "proposer": "ABKAOD",
+            "comment": "BOF:TT 乱打、ズレ",
+            "submission": 3471
+        },
+        {
             "title": "gazer [MANIAQ]",
             "artist": "scytheleg Remixed by くっちー obj.BAECON",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=292&event=140",
@@ -14857,17 +14928,6 @@
             "sha256": "ca3d4bb955f0a333d07b65180dfa37b4245e713cba0968aa98e80586231699bc",
             "level": "8",
             "submission": 1045
-        },
-        {
-            "title": "Misdirection [Black children]",
-            "artist": "enxel vs D.J.Nero obj:HNNK",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=425&event=88",
-            "url_diff": "http://absolute.pv.land.to/bof/src/up1168.zip",
-            "md5": "b43131e9629cb9a403b9d68cac794a0e",
-            "sha256": "580658e8b1dd14969da2f97775da5091bf02db9c3c19186a844456d0c472f75a",
-            "level": "8",
-            "comment": "",
-            "submission": 158
         },
         {
             "title": "moonlife (7key insane)",
@@ -15816,6 +15876,18 @@
             "submission": 3170
         },
         {
+            "title": "ELECTRiCiTY -illumination-",
+            "artist": "NIKITA / misokabocha obj:BAECON",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=96",
+            "url_diff": "http://absolute.pv.land.to/bof/upload.html",
+            "md5": "aaa34f005a196fb7511133fa8e58c6fb",
+            "sha256": "89cf48938d0fea024fd4be2c1d23d47ce5115948d84de21fae4fd3df2d4e63df",
+            "level": "9",
+            "proposer": "ABKAOD",
+            "comment": "▼15 乱打",
+            "submission": 3472
+        },
+        {
             "title": "ENERGY SYNERGY MATRIX [Nemesis]",
             "artist": "Tanchiky Obj.Triforce",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=484&event=116",
@@ -16040,6 +16112,17 @@
             "level": "9",
             "comment": "！？",
             "submission": 757
+        },
+        {
+            "title": "Misdirection [Black children]",
+            "artist": "enxel vs D.J.Nero obj:HNNK",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=425&event=88",
+            "url_diff": "http://absolute.pv.land.to/bof/src/up1168.zip",
+            "md5": "b43131e9629cb9a403b9d68cac794a0e",
+            "sha256": "580658e8b1dd14969da2f97775da5091bf02db9c3c19186a844456d0c472f75a",
+            "level": "9",
+            "comment": "",
+            "submission": 158
         },
         {
             "title": "Moon-gate",
@@ -16725,6 +16808,18 @@
             "level": "10",
             "comment": "BPM178 多要素",
             "submission": 1263
+        },
+        {
+            "title": "deep blue sunrise [Dark Blue]",
+            "artist": "Xacla a.k.a. fen / iimode-do obj:berimetros",
+            "url": "http://iimode-do.jp/?p=60",
+            "url_diff": "https://stellabms.xyz/upload/5368",
+            "md5": "964450bb7d528820f7f2a3aa932aaaee",
+            "sha256": "45a38fac5c57d5af5a794ef06e9a8654859df746fdef2b7d573462ee2eb58c78",
+            "level": "10",
+            "proposer": "berimetros",
+            "comment": "BPM135 乱打、ガチ押し、同時押し　終盤から全て6個押し",
+            "submission": 3483
         },
         {
             "title": "Defeat awaken battle ship (SP AWAKEN)",
@@ -17430,17 +17525,6 @@
             "sha256": "eaf17ffb54c40968a655e4c1a72e9606455dbd2a5d2e0174499cbc4b6ee48851",
             "level": "10",
             "submission": 1912
-        },
-        {
-            "title": "タンザナイトと旅路の車窓 [SP JEWELRY]",
-            "artist": "MiKaDo feat. ROSE / BGI:Roise",
-            "url": "https://venue.bmssearch.net/bmstukuru2025/14",
-            "url_diff": "",
-            "md5": "02963a512dec995af0a9ff6e54193f6b",
-            "sha256": "2b5000d458100eab0d20a2786a0503c839f7418e235c75ec266e7751f6ed1f4c",
-            "level": "10",
-            "comment": "Bた作25 同梱譜面",
-            "submission": 3426
         },
         {
             "title": "ハッピーフェイクショー [SP INSANE]",
@@ -18539,17 +18623,6 @@
             "submission": 2929
         },
         {
-            "title": "REWD \"B159 mix\" [Rising]",
-            "artist": "wint / obj.hex",
-            "url": "https://web.archive.org/web/20031006164221/http://www.bmsjournal.net/lvo/rewd.rar",
-            "url_diff": "https://darksabun.github.io/event/renewal/",
-            "md5": "df995b9011a93b66ed1ad182faff8096",
-            "sha256": "208ef96c0efbcf174b5c4819e6da54f2c7e934a0d819a82103ec82cd208febaf",
-            "level": "11",
-            "comment": "BPM159 微連打",
-            "submission": 1873
-        },
-        {
             "title": "Rhadamanthys [7A]",
             "artist": "風鈴奏 obj: qtp13",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=100",
@@ -18884,6 +18957,17 @@
             "level": "11",
             "comment": "ガチ押し",
             "submission": 596
+        },
+        {
+            "title": "タンザナイトと旅路の車窓 [SP JEWELRY]",
+            "artist": "MiKaDo feat. ROSE / BGI:Roise",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/14",
+            "url_diff": "",
+            "md5": "02963a512dec995af0a9ff6e54193f6b",
+            "sha256": "2b5000d458100eab0d20a2786a0503c839f7418e235c75ec266e7751f6ed1f4c",
+            "level": "11",
+            "comment": "Bた作25 同梱譜面",
+            "submission": 3426
         },
         {
             "title": "テウメッサ [にゃーん]",
@@ -19933,6 +20017,17 @@
             "submission": 796
         },
         {
+            "title": "REWD \"B159 mix\" [Rising]",
+            "artist": "wint / obj.hex",
+            "url": "https://web.archive.org/web/20031006164221/http://www.bmsjournal.net/lvo/rewd.rar",
+            "url_diff": "https://darksabun.github.io/event/renewal/",
+            "md5": "df995b9011a93b66ed1ad182faff8096",
+            "sha256": "208ef96c0efbcf174b5c4819e6da54f2c7e934a0d819a82103ec82cd208febaf",
+            "level": "12",
+            "comment": "BPM159 微連打",
+            "submission": 1873
+        },
+        {
             "title": "Rigel [laner]",
             "artist": "ridis /obj. laner",
             "url": "https://onedrive.live.com/?authkey=%21AJleBqQEnxtF%2DuQ&id=B34BD1F8ACE93FD7%21138&cid=B34BD1F8ACE93FD7",
@@ -19974,6 +20069,18 @@
             "sha256": "c7b614e232a6727aca4b8b84b1d56cd2a286d86a03bf06a9368ea2aa1ab0dffa",
             "level": "12",
             "submission": 2851
+        },
+        {
+            "title": "Shining Stage #Physicalized",
+            "artist": "nmk feat.橘花音 BGA:アカツキユウ 差分：Decimal(フィジカル深夜テンション)",
+            "url": "https://venue.bmssearch.net/3/72",
+            "url_diff": "https://stellabms.xyz/upload/5320",
+            "md5": "5a466754ae1eff3741dcf58b4d22d0a0",
+            "sha256": "e48b46cc29d5448e5be854467152389dc77200ed6ef67dcebf147f750980be08",
+            "level": "12",
+            "proposer": "ABKAOD",
+            "comment": "BPM156 微連打、フィジカル",
+            "submission": 3487
         },
         {
             "title": "Sigmoid [Analytic]",
