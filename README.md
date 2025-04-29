@@ -22,7 +22,11 @@ https://nerewid.github.io/oraja_score_viewer/
 - 16分乱打難易度表(仮)
 - 腕ガチ難易度表
 - Dystopia難易度表
-
+- δ難易度表
+- 発狂DP難易度表
+- DP Overjoy
+- DP Satellite
+- DP Stella
 
 実装予定
 - 表示する難易度を選択する機能
