@@ -68,13 +68,13 @@
   {
     "tableFullName": "発狂DP難易度表",
     "internalFileName": "dpinsane",
-    "shortName": "★",
+    "shortName": "DP★",
     "url": "https://deltabms.yaruki0.net/table/data/insane_data.json"
   },
   {
     "tableFullName": "DP Overjoy",
     "internalFileName": "dpoverjoy",
-    "shortName": "★★",
+    "shortName": "DP★★",
     "url": "http://ereter.net/static/analyzer/json/overjoy.json"
   },
   {
