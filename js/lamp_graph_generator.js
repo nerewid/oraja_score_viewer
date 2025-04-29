@@ -424,6 +424,8 @@ function displayLampGraphs(aggregatedData, shortName) {
         levelLabel.style.fontWeight = 'bold';
         levelLabel.style.width = '90px'; // ラベルの固定幅
         levelLabel.style.marginRight = '10px'; // ラベルとグラフの間隔
+        levelLabel.style.fontSize = '12px'
+        
         levelContainer.appendChild(levelLabel);
 
         const graphBar = document.createElement('div');
