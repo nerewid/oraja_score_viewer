@@ -58,5 +58,35 @@
       "internalFileName": "dystopia",
       "shortName": "dy",
       "url": "https://script.google.com/macros/s/AKfycbzzrbIKEmIHQNrt2t0_FiTCGLTzDL9Fo0IlBvV1CJxzvuDaaDmUpRTfnf_lPTu5riUs6Q/exec"
+  },
+  {
+    "tableFullName": "δ難易度表",
+    "internalFileName": "delta",
+    "shortName": "δ",
+    "url": "https://deltabms.yaruki0.net/table/data/dpdelta_data.json"
+  },
+  {
+    "tableFullName": "発狂DP難易度表",
+    "internalFileName": "dpinsane",
+    "shortName": "★",
+    "url": "https://deltabms.yaruki0.net/table/data/insane_data.json"
+  },
+  {
+    "tableFullName": "DP Overjoy",
+    "internalFileName": "dpoverjoy",
+    "shortName": "★★",
+    "url": "http://ereter.net/static/analyzer/json/overjoy.json"
+  },
+  {
+    "tableFullName": "DP Satellite",
+    "internalFileName": "dpsatellite",
+    "shortName": "DPsl",
+    "url": "https://stellabms.xyz/dp/score.json"
+  },
+  {
+    "tableFullName": "DP Stella",
+    "internalFileName": "dpstella",
+    "shortName": "DPst",
+    "url": "https://stellabms.xyz/dpst/score.json"
   }
 ]
