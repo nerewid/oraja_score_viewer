@@ -354,6 +354,7 @@ async function processSongScores(songs, selectedLnModeValue) {
         const md5 = song.md5;
         const level = String(song.level);
         const title = song.title;
+        const cite_url = song.cite_url ? song.cite_url : null;
 
         // sha256 がない場合、md5 から変換を試みる
         if (!currentSha256 && md5 && Md5Tosha256Map.has(md5)) {
@@ -367,7 +368,8 @@ async function processSongScores(songs, selectedLnModeValue) {
             level: level,
             title: title,
             md5: md5,
-            sha256: currentSha256 // 特定できたsha256も保持
+            sha256: currentSha256, // 特定できたsha256も保持
+            cite_url: cite_url
         });
 
         // スコア取得が必要なSHA256リストに追加
@@ -434,6 +436,7 @@ async function processSongScores(songs, selectedLnModeValue) {
         const finalSongInfo = {
             level: songInfo.level,
             title: songInfo.title,
+            cite_url: songInfo.cite_url,
             md5: songInfo.md5,
             sha256: songInfo.sha256, // 特定できたsha256
             clear: String(clear), // クリア状態を文字列として扱う
@@ -700,15 +703,28 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
 
     sortedSongs.forEach(song => {
         const li = document.createElement('li');
+        const titleElement = document.createElement('span'); // タイトル部分の要素
         //li.style.marginBottom = '5px';
         //li.style.borderBottom = '1px dashed #eee';
         //li.style.paddingBottom = '5px';
 
         // BPが存在し、かつ数値である場合のみ表示 (nullチェックとNaNチェック)
         const bpText = (song.minbp !== null && !isNaN(song.minbp)) ? ` / BP: ${song.minbp}` : '';
-        li.textContent = `${song.title}${bpText}`;
-        // SHA256やMD5などのデバッグ情報を追加したい場合
-        // li.title = `SHA256: ${song.sha256 || 'N/A'}\nMD5: ${song.md5 || 'N/A'}`;
+        titleElement.textContent = `${song.title}`;
+
+        if (song.cite_url) {
+            const link = document.createElement('a');
+            link.href = song.cite_url;
+            link.textContent = titleElement.textContent; // リンクのテキストは元のタイトル
+            link.target = '_blank';
+            link.style.color = 'inherit';
+            li.appendChild(link);
+        } else {
+            li.appendChild(titleElement); // cite_url がない場合はそのままテキストを追加
+        }
+
+        li.appendChild(document.createTextNode(bpText)); // BPテキストはタイトル要素の後に追加
+
         ul.appendChild(li);
     });
 

@@ -10,7 +10,8 @@
             "sha256": "8a84e29419cc8e575147e188ef27312a0f8c36980218d18ce1b26eecf4f110e9",
             "level": "0",
             "comment": "★10~★★1? 高速階段、連皿",
-            "submission": 22
+            "submission": 22,
+            "cite_url": "https://stellabms.xyz/s/dpst/22"
         },
         {
             "title": "* Crow Solace * [DPA]",
@@ -21,7 +22,8 @@
             "sha256": "eb583606e4df53c7d5e113f6fb8d672901859947761972fbc110bc36ec9454ad",
             "level": "0",
             "comment": "(音抜け修正,差分作者名追記) 高速階段",
-            "submission": 10
+            "submission": 10,
+            "cite_url": "https://stellabms.xyz/s/dpst/10"
         },
         {
             "title": "ALICE IN PICOPICO NIGHT (DP ANOTHER)",
@@ -32,7 +34,8 @@
             "sha256": "c2280dcca0e1d0f162092eb481601b0b6313c2fcfdf4bcefa731e6eb960a6daa",
             "level": "0",
             "comment": "同梱譜面 ★11(★★2~3?) 超高速、同時押し、ズレ",
-            "submission": 31
+            "submission": 31,
+            "cite_url": "https://stellabms.xyz/s/dpst/31"
         },
         {
             "title": "Anti Function -DP INSANE-",
@@ -43,7 +46,8 @@
             "sha256": "f25961a32cc682ab8564ad7b693f81d0d9adb2251c60e5a1c7337aab5666cc24",
             "level": "0",
             "comment": "★★2?、同梱譜面",
-            "submission": 28
+            "submission": 28,
+            "cite_url": "https://stellabms.xyz/s/dpst/28"
         },
         {
             "title": "Chatblanc [blache]",
@@ -53,7 +57,8 @@
             "md5": "5f5be91b44b0108d91c48e01b0e27c41",
             "sha256": "50d869b82a4db6a36b6d82dc25e34b867c1c667d269f1972be95af7a5e77b479",
             "level": "0",
-            "submission": 6
+            "submission": 6,
+            "cite_url": "https://stellabms.xyz/s/dpst/6"
         },
         {
             "title": "Cinderella Story -XX o'clock-",
@@ -64,7 +69,8 @@
             "sha256": "d98521d8428457303cce5f0ce5b5cbb802ffd3668d3e60e6933d3e34254b3af4",
             "level": "0",
             "comment": "★★2? 片手乱打、LN ※分割加工キー音差分を使用（SP★6もしくは同梱のtxtにURLあり）",
-            "submission": 32
+            "submission": 32,
+            "cite_url": "https://stellabms.xyz/s/dpst/32"
         },
         {
             "title": "Danse de Romani",
@@ -75,7 +81,8 @@
             "sha256": "56aa264516930fda7651d997914025fe051f1004b6d137550395fcbd2d24afdb",
             "level": "0",
             "comment": "ズレ、認識難、片手発狂",
-            "submission": 27
+            "submission": 27,
+            "cite_url": "https://stellabms.xyz/s/dpst/27"
         },
         {
             "title": "ELIMINATOR [DP INSANE]",
@@ -86,7 +93,8 @@
             "sha256": "b0518b2a1b8b1658fea7277a52aaa87226f569a99c04d8140d7e60f951c8168f",
             "level": "0",
             "comment": "from DP Satellite",
-            "submission": 155
+            "submission": 155,
+            "cite_url": "https://stellabms.xyz/s/dpst/155"
         },
         {
             "title": "EXTRAPHANTASM [DP INSANE]",
@@ -97,7 +105,8 @@
             "sha256": "962381167521d972289fec1db365317389ef98dce40f957051c022f5e652deeb",
             "level": "0",
             "comment": "11? 片手発狂、連打、LN",
-            "submission": 35
+            "submission": 35,
+            "cite_url": "https://stellabms.xyz/s/dpst/35"
         },
         {
             "title": "FREAKOUT [14KEYS ANOTHER]",
@@ -108,7 +117,8 @@
             "sha256": "01208e57b2387e5a0e287c524f1f182dc05728abfc14504fda9637c03ded6dfa",
             "level": "0",
             "comment": "",
-            "submission": 41
+            "submission": 41,
+            "cite_url": "https://stellabms.xyz/s/dpst/41"
         },
         {
             "title": "fushigichan [DP LEGGENDARIA]",
@@ -119,7 +129,8 @@
             "sha256": "abdcc466447bd96ff5e0caadaf6f3136eb47330681e1336bda7d6d93006e365e",
             "level": "0",
             "comment": "11~12? BPM185 同時押し多め",
-            "submission": 61
+            "submission": 61,
+            "cite_url": "https://stellabms.xyz/s/dpst/61"
         },
         {
             "title": "Gale of Viridian [POLYCHROME]",
@@ -130,7 +141,8 @@
             "sha256": "c9f59078c320c08180a774be7a007c32bacb0c1f31bfc7ad8185b92775260175",
             "level": "0",
             "comment": "st0? 同梱譜面 階段 連皿",
-            "submission": 175
+            "submission": 175,
+            "cite_url": "https://stellabms.xyz/s/dpst/175"
         },
         {
             "title": "GIRIMECHALA Reflects! (Chefei)",
@@ -140,7 +152,8 @@
             "md5": "f2f65790b1ff8d4fa269826c5f3c9a1f",
             "sha256": "18fc8658b00339b71fde207e267d967114d9db16156ccf2279ff11e93bed210f",
             "level": "0",
-            "submission": 60
+            "submission": 60,
+            "cite_url": "https://stellabms.xyz/s/dpst/60"
         },
         {
             "title": "God-free [DP-soijoy]",
@@ -151,7 +164,8 @@
             "sha256": "961499286ecc956ea01866393b9126b707a5b61f268a8b4ed590a0abab8f780c",
             "level": "0",
             "comment": "★10 同時押し 階段",
-            "submission": 172
+            "submission": 172,
+            "cite_url": "https://stellabms.xyz/s/dpst/172"
         },
         {
             "title": "L9",
@@ -162,7 +176,8 @@
             "sha256": "a9d2652c36e8956534853b47e2bcb16c1e832eb7886695b63dedd39138a8ffd6",
             "level": "0",
             "comment": "低速二中階段、正常なL9",
-            "submission": 7
+            "submission": 7,
+            "cite_url": "https://stellabms.xyz/s/dpst/7"
         },
         {
             "title": "Mandragora [Cry Out]",
@@ -173,7 +188,8 @@
             "sha256": "0d05b3ee58c43ddc30243c15c9f205c52f80cfb3e906ba3141c9732b0021d392",
             "level": "0",
             "comment": "高速同時押しなど 神譜面",
-            "submission": 42
+            "submission": 42,
+            "cite_url": "https://stellabms.xyz/s/dpst/42"
         },
         {
             "title": "myste`re　 [18keys]",
@@ -183,7 +199,8 @@
             "md5": "b7244f66328a360a34a6d6a66028fed9",
             "sha256": "b11e966330238a27f9868c8d58523d57f60a5ee9e0549e96f887a3e74adcef63",
             "level": "0",
-            "submission": 24
+            "submission": 24,
+            "cite_url": "https://stellabms.xyz/s/dpst/24"
         },
         {
             "title": "napaeae [14B SC]",
@@ -194,7 +211,8 @@
             "sha256": "1d1acd77c82701a7211bd4d1b1f7cd56adf14684cdb43f21203ef1c56eca3d57",
             "level": "0",
             "comment": "地力を上げる人はこれやってみたらいいね",
-            "submission": 139
+            "submission": 139,
+            "cite_url": "https://stellabms.xyz/s/dpst/139"
         },
         {
             "title": "Philadelphia Xperiment [Pennsylvania]",
@@ -204,7 +222,8 @@
             "md5": "d3471f6236851445722f361cc3943d4c",
             "sha256": "1e2576231c8b373cd3b9b200b17139e5b228eb8322accd4a995fa5bc2b57fdd0",
             "level": "0",
-            "submission": 39
+            "submission": 39,
+            "cite_url": "https://stellabms.xyz/s/dpst/39"
         },
         {
             "title": "Picaresque & Burlesque",
@@ -215,7 +234,8 @@
             "sha256": "1b65f35c935adee6f6c96ee32a7e7a31fb2c8549a2bd00ac3ca4414caac23c72",
             "level": "0",
             "comment": "一昔前のボス曲を彷彿させる良差分",
-            "submission": 123
+            "submission": 123,
+            "cite_url": "https://stellabms.xyz/s/dpst/123"
         },
         {
             "title": "QUARTZ [BLACK ANOTHER]",
@@ -226,7 +246,8 @@
             "sha256": "c6df82e8011c9a06c0226dcb99392ec84c323e073a333fdf414dfa85153a9545",
             "level": "0",
             "comment": "11? 楽曲パッケージ同梱譜面",
-            "submission": 46
+            "submission": 46,
+            "cite_url": "https://stellabms.xyz/s/dpst/46"
         },
         {
             "title": "QUESTING",
@@ -237,7 +258,8 @@
             "sha256": "28e45f2be4c952fc5c4f80d9f14d7fe626f02c66c6c9e5b0bfa1b817adfaa18f",
             "level": "0",
             "comment": "11?",
-            "submission": 45
+            "submission": 45,
+            "cite_url": "https://stellabms.xyz/s/dpst/45"
         },
         {
             "title": "Rechronize [Real14]",
@@ -248,7 +270,8 @@
             "sha256": "a10bdb60d940ae70a721a7e504aa686f127d395e39c5108bb47f66e9d78f23b9",
             "level": "0",
             "comment": "11で練習になりそう",
-            "submission": 53
+            "submission": 53,
+            "cite_url": "https://stellabms.xyz/s/dpst/53"
         },
         {
             "title": "SHINKA [14KEYS ANOTHER]",
@@ -258,7 +281,8 @@
             "md5": "ed9595f5c3fe0c970b78bc1e9b0d2392",
             "sha256": "07e810f556c7ed0e9fbbc1a2e2c6a1fa6b4127309a3ce3bc310c4216b7dd03b3",
             "level": "0",
-            "submission": 67
+            "submission": 67,
+            "cite_url": "https://stellabms.xyz/s/dpst/67"
         },
         {
             "title": "STAGER [ONE MORE EXTRA]",
@@ -269,7 +293,8 @@
             "sha256": "8f7d261afac10afbe896692cb070800086e8ae919f97f3f9cbd18beee562c35c",
             "level": "0",
             "comment": "★11(★★2~3?)",
-            "submission": 2
+            "submission": 2,
+            "cite_url": "https://stellabms.xyz/s/dpst/2"
         },
         {
             "title": "Stars Keep on Illuminating [DP Insane]",
@@ -279,7 +304,8 @@
             "md5": "e7c0ff5e14b93344eb93f5b3b584d827",
             "sha256": "3d9694806623f97090998e108f8a8d06cbe95f54fb5e570fc53c377515c8499f",
             "level": "0",
-            "submission": 68
+            "submission": 68,
+            "cite_url": "https://stellabms.xyz/s/dpst/68"
         },
         {
             "title": "Sweet Little Chocolate [DP-soijoy]",
@@ -290,7 +316,8 @@
             "sha256": "699b09bd03dafbd2e87af89d6584b994d07efed0b97f96d4ee57da6873bb498a",
             "level": "0",
             "comment": "BGAあり版同梱DPNと比較してズレ抜け無し",
-            "submission": 47
+            "submission": 47,
+            "cite_url": "https://stellabms.xyz/s/dpst/47"
         },
         {
             "title": "The sinking world [DP EXTREME 2]",
@@ -301,7 +328,8 @@
             "sha256": "51dd6d99698340db39a351ea57c309571cafa58a89f9f8f25c589257ca34d0c2",
             "level": "0",
             "comment": "12、低速、同時、縦連",
-            "submission": 21
+            "submission": 21,
+            "cite_url": "https://stellabms.xyz/s/dpst/21"
         },
         {
             "title": "キマグレ☆テキトウ・ポップミュージック！ [DP ANOTHER]",
@@ -312,7 +340,8 @@
             "sha256": "eeeb7a8e522378cab7fbf0c6a1fa49862c8be25e47ab6276d6d57071d0a4b2b1",
             "level": "0",
             "comment": "sl10~st0? 同梱譜面 高速 着地 休憩なし",
-            "submission": 174
+            "submission": 174,
+            "cite_url": "https://stellabms.xyz/s/dpst/174"
         },
         {
             "title": "プナイプナイげんそう [DP ☆NOTHER ~ 無限の彼方までおやすみプナイ ~]",
@@ -323,7 +352,8 @@
             "sha256": "e2d4bda5596baf2aaf295f842b95d133ac09f86d24baa19c9bed0a1c6330a27a",
             "level": "0",
             "comment": "★11(★★1~2?)、BOFXV",
-            "submission": 1
+            "submission": 1,
+            "cite_url": "https://stellabms.xyz/s/dpst/1"
         },
         {
             "title": "マッドメチャクチャニズム [DP ANOTHER]",
@@ -334,7 +364,8 @@
             "sha256": "07961f6e16aa7ea954954a737219b299e6836dcab0c83997f08410eee3ac731e",
             "level": "0",
             "comment": "同梱譜面　前後のノーツに干渉しない全押しあり",
-            "submission": 18
+            "submission": 18,
+            "cite_url": "https://stellabms.xyz/s/dpst/18"
         },
         {
             "title": "夏色海風 [DP-soijoy]",
@@ -345,7 +376,8 @@
             "sha256": "ac59a1dd47107b3ab8f1eceb749cc1e71f9de32ba784e2091592a1ae3a92da7d",
             "level": "0",
             "comment": "同梱の無配置ファイル(_00_natsu_blank.bm_)と比較してズレ抜け無し",
-            "submission": 71
+            "submission": 71,
+            "cite_url": "https://stellabms.xyz/s/dpst/71"
         },
         {
             "title": "夢の地図と僕らの旅 [DP-soijoy]",
@@ -356,7 +388,8 @@
             "sha256": "d993e781f10d662eb3982eda435a92280016cabbc639974bf38343c8f232c45d",
             "level": "0",
             "comment": "同時系",
-            "submission": 134
+            "submission": 134,
+            "cite_url": "https://stellabms.xyz/s/dpst/134"
         },
         {
             "title": "少女監獄ヴァンパイアフィリア -DP ANOTHER-",
@@ -367,7 +400,8 @@
             "sha256": "3ede6ea033d71ad4ba577b8657dec17b893dd165dc302682ee67c899c5c1b980",
             "level": "0",
             "comment": "10～11 高bpm、同時、階段",
-            "submission": 16
+            "submission": 16,
+            "cite_url": "https://stellabms.xyz/s/dpst/16"
         },
         {
             "title": "摩訶幻想マジトリク [DP INSANE]",
@@ -378,7 +412,8 @@
             "sha256": "570703b74b5c30448a27023d19b7d1e0efb647c7e5cb433e0456a24a793185b7",
             "level": "0",
             "comment": "同梱譜面",
-            "submission": 37
+            "submission": 37,
+            "cite_url": "https://stellabms.xyz/s/dpst/37"
         },
         {
             "title": "星屑アポトーシス",
@@ -389,7 +424,8 @@
             "sha256": "6d22868d4d659a8d573b4e41d635479e1ace27c1cfc5dbe5948bb9e4861b9de1",
             "level": "0",
             "comment": "★★3? 物量、ソフランカットによるズレあり",
-            "submission": 29
+            "submission": 29,
+            "cite_url": "https://stellabms.xyz/s/dpst/29"
         },
         {
             "title": "玉響サーチライト [DP INSANE]",
@@ -399,7 +435,8 @@
             "md5": "27a6ac517eb18cd3105be73818bc656b",
             "sha256": "34f8a4eb713a1df663f354b4cb737c71f7439c90d7ce235ab9625411ccf61cb6",
             "level": "0",
-            "submission": 38
+            "submission": 38,
+            "cite_url": "https://stellabms.xyz/s/dpst/38"
         },
         {
             "title": "現実をカットアップしてみた [DPINSA.NE+]",
@@ -409,7 +446,8 @@
             "md5": "dd78b0eee7d1651f383bef8978f17653",
             "sha256": "694e4ac29cc93b7d8c876b81bdab7019dfadcbddbda4515553dcd9678016a77f",
             "level": "0",
-            "submission": 82
+            "submission": 82,
+            "cite_url": "https://stellabms.xyz/s/dpst/82"
         },
         {
             "title": "花嵐、空に溶けて [零れ桜]",
@@ -420,7 +458,8 @@
             "sha256": "b8333205e5e2a87bd9ddfcb6cf0f0b5dfd11ed827d4680a13a9c0ad9571552ee",
             "level": "0",
             "comment": "st0?, blank차분과 비교시 이상없음.",
-            "submission": 133
+            "submission": 133,
+            "cite_url": "https://stellabms.xyz/s/dpst/133"
         },
         {
             "title": "零廻転生",
@@ -431,7 +470,8 @@
             "sha256": "a8b46bf9ffe66775243ffc50df822415a5e4258a2bfc64a1e60f3b38407e5989",
             "level": "0",
             "comment": "高速系の基礎力",
-            "submission": 122
+            "submission": 122,
+            "cite_url": "https://stellabms.xyz/s/dpst/122"
         },
         {
             "title": "adolescent person -Summer14-",
@@ -442,7 +482,8 @@
             "sha256": "48ff99e4738fbd69974b107661ed7509a85b96b6093bba937879565c5a12eae9",
             "level": "1",
             "comment": "★★3~4(st1) notes",
-            "submission": 129
+            "submission": 129,
+            "cite_url": "https://stellabms.xyz/s/dpst/129"
         },
         {
             "title": "Angel dust",
@@ -453,7 +494,8 @@
             "sha256": "0780c60312cdde5f0d25f9117e2a0ed20a447348acfec5b456488ea5061a59f5",
             "level": "1",
             "comment": "★12(★★5?)、物量、体力、dpbms_1350.zip、感じられないノートズレ５つあり",
-            "submission": 4
+            "submission": 4,
+            "cite_url": "https://stellabms.xyz/s/dpst/4"
         },
         {
             "title": "Angel's Salad [CataStr0phE / DP譜面]",
@@ -464,7 +506,8 @@
             "sha256": "885791d8db47370f3a582d5802dc68a4691d2bfee33f0d4370be9e517a0d9a39",
             "level": "1",
             "comment": "高BPMでの基本的な配置の練習譜面",
-            "submission": 51
+            "submission": 51,
+            "cite_url": "https://stellabms.xyz/s/dpst/51"
         },
         {
             "title": "Angelic Photon [DP INSANE]",
@@ -476,7 +519,8 @@
             "level": "1",
             "proposer": "anco",
             "comment": "st1? 同梱譜面 乱打 ラスト回復",
-            "submission": 176
+            "submission": 176,
+            "cite_url": "https://stellabms.xyz/s/dpst/176"
         },
         {
             "title": "ceu [DP MIYATHER]",
@@ -487,7 +531,8 @@
             "sha256": "086f561cf655a81429cb4271cdc1e6ac571ffe9dee237579416fd2b90837fb80",
             "level": "1",
             "comment": "★★3? Notes, stamina",
-            "submission": 99
+            "submission": 99,
+            "cite_url": "https://stellabms.xyz/s/dpst/99"
         },
         {
             "title": "Cong＊Chu＊Jelly [DP-soijoy]",
@@ -498,7 +543,8 @@
             "sha256": "13b2e4d4954bae8b9f89342e0da992c7702b8609c9dd2d2f624c907ce1daa016",
             "level": "1",
             "comment": "同梱の_0notes.bmxと比較してズレ抜け無し",
-            "submission": 43
+            "submission": 43,
+            "cite_url": "https://stellabms.xyz/s/dpst/43"
         },
         {
             "title": "E.V.E [peccatum]",
@@ -509,7 +555,8 @@
             "sha256": "67538f06bc1d06446139fa1dbbfedd3a222a1d54cba05095265bc1d5f475c8c1",
             "level": "1",
             "comment": "★★3~4 ※동봉무키음(_No_pattern.bmsss)과 비교시 이상없음.",
-            "submission": 145
+            "submission": 145,
+            "cite_url": "https://stellabms.xyz/s/dpst/145"
         },
         {
             "title": "Elixir [TYPE_λ.exs]",
@@ -520,7 +567,8 @@
             "sha256": "8ff21ba1d216e3f913fe05a9593dddf0f567ca47e3ba538072b0d3ac11004890",
             "level": "1",
             "comment": "様々なLN要素の詰め合わせ",
-            "submission": 101
+            "submission": 101,
+            "cite_url": "https://stellabms.xyz/s/dpst/101"
         },
         {
             "title": "Eternal calm [同時押しの天国]",
@@ -531,7 +579,8 @@
             "sha256": "eff21f791ed83f27f0e77326f95d38badcd9fbfaf413646e148dc493d4013d6b",
             "level": "1",
             "comment": "st1 chord",
-            "submission": 154
+            "submission": 154,
+            "cite_url": "https://stellabms.xyz/s/dpst/154"
         },
         {
             "title": "eth剣 (DP激)",
@@ -542,7 +591,8 @@
             "sha256": "6adb103a5048a8a2e4a11feff95bae827f05a96ecdc36139ffb08aaaef6626d5",
             "level": "1",
             "comment": "総合力　",
-            "submission": 57
+            "submission": 57,
+            "cite_url": "https://stellabms.xyz/s/dpst/57"
         },
         {
             "title": "FELYS",
@@ -553,7 +603,8 @@
             "sha256": "fd4a2c8db6bf593c2d9d3d9ff1a8a22aca2d5492ffdedfd527aca09b5bdc804c",
             "level": "1",
             "comment": "トリル　低速　ズレはキー音追加の為",
-            "submission": 117
+            "submission": 117,
+            "cite_url": "https://stellabms.xyz/s/dpst/117"
         },
         {
             "title": "FIONA [Enjoy]",
@@ -564,7 +615,8 @@
             "sha256": "040296157cd792ef5b48e0f4152000cbc5b0e33f184623dd35367cf18b0b7a2e",
             "level": "1",
             "comment": "元dp stelaで投票数不足により入らなかった譜面です。",
-            "submission": 5
+            "submission": 5,
+            "cite_url": "https://stellabms.xyz/s/dpst/5"
         },
         {
             "title": "Freja -Royal Flare-",
@@ -575,7 +627,8 @@
             "sha256": "667f28fa4795b6460a75f8cd7357d8ca749b92ed3075146b7d77befcfb8ea9e5",
             "level": "1",
             "comment": "3連の重発狂、ソフラン(半減)、CN",
-            "submission": 12
+            "submission": 12,
+            "cite_url": "https://stellabms.xyz/s/dpst/12"
         },
         {
             "title": "HOPE [あなたの健康を損なうおそれがあります]",
@@ -586,7 +639,8 @@
             "sha256": "74268d846a68b337bd6af05dfda36fec8de10acbb9f7ba1c09e775a9c59387c4",
             "level": "1",
             "comment": "",
-            "submission": 72
+            "submission": 72,
+            "cite_url": "https://stellabms.xyz/s/dpst/72"
         },
         {
             "title": "Lacrimosa [DP Insane]",
@@ -597,7 +651,8 @@
             "sha256": "4aa8d998b95965609a628ebc1bdd8c85ebb93565643efb570dd175f7e6e63b25",
             "level": "1",
             "comment": "高速譜面練習向け",
-            "submission": 56
+            "submission": 56,
+            "cite_url": "https://stellabms.xyz/s/dpst/56"
         },
         {
             "title": "Magus Logos [DP-soijoy]",
@@ -608,7 +663,8 @@
             "sha256": "6a611227826de02da93c99fa2c82d23e801793570f30d7afa6fccb375c18abaa",
             "level": "1",
             "comment": "st1~2",
-            "submission": 151
+            "submission": 151,
+            "cite_url": "https://stellabms.xyz/s/dpst/151"
         },
         {
             "title": "Midnight Driving [DP hututher]",
@@ -619,7 +675,8 @@
             "sha256": "822494e21527e1c470a53de3576134619f578c1bea2538ff77cc795537237a4a",
             "level": "1",
             "comment": "★11(★★2~3?) 片手発狂、同時押し 1P隣接皿あり",
-            "submission": 23
+            "submission": 23,
+            "cite_url": "https://stellabms.xyz/s/dpst/23"
         },
         {
             "title": "new earth -dp stella-",
@@ -630,7 +687,8 @@
             "sha256": "f7eeff7c0ca52c37e774bba03fcdb9cbf220c4bdbfdc214dc05ad5924486a6f7",
             "level": "1",
             "comment": "低速物量",
-            "submission": 19
+            "submission": 19,
+            "cite_url": "https://stellabms.xyz/s/dpst/19"
         },
         {
             "title": "orbitalgazer [DP INSANE]",
@@ -641,7 +699,8 @@
             "sha256": "e95948a356438df2b0666244dda4698d0ff3d09845f321ca4e11002f08826f65",
             "level": "1",
             "comment": "総合力",
-            "submission": 135
+            "submission": 135,
+            "cite_url": "https://stellabms.xyz/s/dpst/135"
         },
         {
             "title": "RE:START [DP-soijoy]",
@@ -652,7 +711,8 @@
             "sha256": "61eada944cca0393bc1a24b92695fd9c6480b6098cf83eb6ef5cedfc6d947126",
             "level": "1",
             "comment": "同梱SPAと比較してズレ抜け無し",
-            "submission": 44
+            "submission": 44,
+            "cite_url": "https://stellabms.xyz/s/dpst/44"
         },
         {
             "title": "scualee [DP MIYATHER]",
@@ -663,7 +723,8 @@
             "sha256": "1b1a3529f58dce1aece27aa6c6b33da19a2b68810b10f7dd33a390b8d7723e92",
             "level": "1",
             "comment": "st1, ※동봉무키음_scualee_差分制作用.bms과 비교시 이상없음",
-            "submission": 153
+            "submission": 153,
+            "cite_url": "https://stellabms.xyz/s/dpst/153"
         },
         {
             "title": "take me to the moon [DP Disaster]",
@@ -674,7 +735,8 @@
             "sha256": "8f185a0f360d88a32e97f8b000214604eb0f82153e6b970c2a5b863faa46a709",
             "level": "1",
             "comment": "11～12？難しいけど楽しかったので",
-            "submission": 26
+            "submission": 26,
+            "cite_url": "https://stellabms.xyz/s/dpst/26"
         },
         {
             "title": "Tears of the Sunrise [DP-soijoy]",
@@ -685,7 +747,8 @@
             "sha256": "c5b0b318b8015b9307a963a8802ec0e412b5d58ecb1d8517d9d52ab680eb5bdf",
             "level": "1",
             "comment": "同梱Anotherと比較してズレ抜け無し",
-            "submission": 74
+            "submission": 74,
+            "cite_url": "https://stellabms.xyz/s/dpst/74"
         },
         {
             "title": "Twin☆kle Snowglobe [DP INSANE]",
@@ -696,7 +759,8 @@
             "sha256": "a2ac8a233a9fdbe9d602c03185fc7e0c09b56940cdcd4892179b0732c0b9649c",
             "level": "1",
             "comment": "★★3程度？高速階段",
-            "submission": 92
+            "submission": 92,
+            "cite_url": "https://stellabms.xyz/s/dpst/92"
         },
         {
             "title": "タマモッチ -ダイエット-",
@@ -707,7 +771,8 @@
             "sha256": "10a0d4eeeed7ecd875bcb9295a553f473487e75a6fa12a0b6a1c2b88e2e48632",
             "level": "1",
             "comment": "12か11で悩んだのでとりあえず高い方で。同梱SPAと比較してズレ抜け無し",
-            "submission": 50
+            "submission": 50,
+            "cite_url": "https://stellabms.xyz/s/dpst/50"
         },
         {
             "title": "ハードルネッサンバ -DP MID BOSS-",
@@ -718,7 +783,8 @@
             "sha256": "e4483bcf9bcd09f5ac489070ed12d0b17953d4d8c3b78a8abb44bc5801401d2d",
             "level": "1",
             "comment": "DD,DEキー音ズレ12個は同じキー音だから問題なし",
-            "submission": 25
+            "submission": 25,
+            "cite_url": "https://stellabms.xyz/s/dpst/25"
         },
         {
             "title": "夜間飛行トラベラー [DP MANIAC]",
@@ -729,7 +795,8 @@
             "sha256": "9c1326cd262a970475d94b2f3fb3411a1249d64d6ead9a91caee25573f13d7ce",
             "level": "1",
             "comment": "★11~12?(★★3~4?) 片手乱打",
-            "submission": 9
+            "submission": 9,
+            "cite_url": "https://stellabms.xyz/s/dpst/9"
         },
         {
             "title": "新 漢江水打令 [新COVID-19祭り/ DP譜面]",
@@ -739,7 +806,8 @@
             "md5": "365759761f28a29729fa0012c899ef0a",
             "sha256": "f224b921f913aa2e96547563cca12dc48b5e24c653179fce57b8eb3f923324a0",
             "level": "1",
-            "submission": 40
+            "submission": 40,
+            "cite_url": "https://stellabms.xyz/s/dpst/40"
         },
         {
             "level": "1",
@@ -750,7 +818,8 @@
             "artist": "Yosk!",
             "url_diff": "",
             "url": "http://yosk.ojaru.jp/bmsyosk.html",
-            "submission": 3
+            "submission": 3,
+            "cite_url": "https://stellabms.xyz/s/dpst/3"
         },
         {
             "title": "私のヒトミ",
@@ -761,7 +830,8 @@
             "sha256": "3a4b41faea5543a804894828dd50e3c18d7ed37c8c5038d8aade2d44b6cbd2bb",
             "level": "1",
             "comment": "★★4~5? 中速物量、同時押し",
-            "submission": 30
+            "submission": 30,
+            "cite_url": "https://stellabms.xyz/s/dpst/30"
         },
         {
             "title": "5th Drop Shooter [HYBRID ULTIMATE HYPER CORE+]",
@@ -772,7 +842,8 @@
             "sha256": "a0f33eb240f18646ab71d032397538a5b17c158c1f821aa39e6f654ad76a47ab",
             "level": "2",
             "comment": "★★4~5? Chord, ※41번째 마디 스크래치 키노트추가(2개), 112번째마디 투명노트 존재",
-            "submission": 115
+            "submission": 115,
+            "cite_url": "https://stellabms.xyz/s/dpst/115"
         },
         {
             "title": "::AbnormalityPurificator:: [DP INSANE]",
@@ -783,7 +854,8 @@
             "sha256": "9e65a532bf7b29339c60b49d305b9b9212aca6786ca1ac14e80911c60622e24a",
             "level": "2",
             "comment": "sl11~12 中盤超発狂　sl12入門から卒業までの地力上げに",
-            "submission": 81
+            "submission": 81,
+            "cite_url": "https://stellabms.xyz/s/dpst/81"
         },
         {
             "title": "Across the Sky [DP Stratosphere]",
@@ -794,7 +866,8 @@
             "sha256": "147d5c2f18cb8dc327c186b3a998ec3a47e85dce159db9a6c8efe805fe2c307a",
             "level": "2",
             "comment": "神曲神譜面 後半ずっと片手二重乱打",
-            "submission": 69
+            "submission": 69,
+            "cite_url": "https://stellabms.xyz/s/dpst/69"
         },
         {
             "title": "Apollo [1970.04.11]",
@@ -805,7 +878,8 @@
             "sha256": "fa3b9fb3314a23d229c433273a8d0f6d32e21c6c8e9bc4a7f9fce4aa26859030",
             "level": "2",
             "comment": "★★4~5?",
-            "submission": 11
+            "submission": 11,
+            "cite_url": "https://stellabms.xyz/s/dpst/11"
         },
         {
             "title": "Azure Rays [DP MIYATHER]",
@@ -817,7 +891,8 @@
             "level": "2",
             "proposer": "anco",
             "comment": "st0~1? 同時押し+ゴミ付き階段 認識難のLN地帯あり(イージー影響なし)",
-            "submission": 178
+            "submission": 178,
+            "cite_url": "https://stellabms.xyz/s/dpst/178"
         },
         {
             "title": "Bouquet colore [Fatalism]",
@@ -828,7 +903,8 @@
             "sha256": "9776ec8268383e2714f2a261ed221f52b25f7f9478958b0084ec292c7a4ddbe2",
             "level": "2",
             "comment": "同梱SPAと比較してズレ抜け無し 回復込みでsl12",
-            "submission": 75
+            "submission": 75,
+            "cite_url": "https://stellabms.xyz/s/dpst/75"
         },
         {
             "title": "CYCLONE [Gravity Distorting Module]",
@@ -839,7 +915,8 @@
             "sha256": "b21d9bc2b7ef40fde68d0f740a118d89fee4530ae7f8ecb05a233e2306fb297c",
             "level": "2",
             "comment": "★12(★★5~6?) BPM154 中速物量",
-            "submission": 62
+            "submission": 62,
+            "cite_url": "https://stellabms.xyz/s/dpst/62"
         },
         {
             "title": "Fragments [DP ULTIMATE fixed]",
@@ -850,7 +927,8 @@
             "sha256": "f90d71eb43621e714e25e644aa07e9032e3d811bc2d74c5f67526aace9d45431",
             "level": "2",
             "comment": "総合力　安定と信頼のにぇ差分　",
-            "submission": 80
+            "submission": 80,
+            "cite_url": "https://stellabms.xyz/s/dpst/80"
         },
         {
             "title": "Illusion of Mind [DP NIGHTMARE]",
@@ -861,7 +939,8 @@
             "sha256": "66a8a4377f18410e9c4fb1210c9a3c24c1d08fda519cef703c87d5663f10cb37",
             "level": "2",
             "comment": "ズレはソフランと演出の為",
-            "submission": 65
+            "submission": 65,
+            "cite_url": "https://stellabms.xyz/s/dpst/65"
         },
         {
             "title": "Kaleidoscope [Eden]",
@@ -872,7 +951,8 @@
             "sha256": "05f31b6eed1a50cfea2bc2de1e9d122754e50b9f403a046adb798888b8aedcad",
             "level": "2",
             "comment": "",
-            "submission": 86
+            "submission": 86,
+            "cite_url": "https://stellabms.xyz/s/dpst/86"
         },
         {
             "title": "N - flat waves -",
@@ -883,7 +963,8 @@
             "sha256": "0e660e43a9b909ff6154d5e4a96e231df660184446800e3788297a9e31321a77",
             "level": "2",
             "comment": "同梱の無配置ファイル(_n_none.xxx)と比較してズレ抜け無し",
-            "submission": 78
+            "submission": 78,
+            "cite_url": "https://stellabms.xyz/s/dpst/78"
         },
         {
             "title": "suffruti",
@@ -894,7 +975,8 @@
             "sha256": "72b63450a9891cfa2debdb0fc42e7c0e0a67e4b7e13a6bb92cafe368fb5701f6",
             "level": "2",
             "comment": "★★5~6? 物量、隣接配置、低速あり",
-            "submission": 33
+            "submission": 33,
+            "cite_url": "https://stellabms.xyz/s/dpst/33"
         },
         {
             "title": "Time to beat the odds [DP ULTIMATE]",
@@ -905,7 +987,8 @@
             "sha256": "69adf5fd1c936402bd59e34d29998f1be501871b811ec76eed09b51f30d2c3b5",
             "level": "2",
             "comment": "★★4~5　様々な要素を含んだ良譜面",
-            "submission": 77
+            "submission": 77,
+            "cite_url": "https://stellabms.xyz/s/dpst/77"
         },
         {
             "title": "whence [DP FingerDance]",
@@ -916,7 +999,8 @@
             "sha256": "757feaad13f80ae6468a0038fb89d4e638be74058fcecd41d64b847c80f7c286",
             "level": "2",
             "comment": "",
-            "submission": 34
+            "submission": 34,
+            "cite_url": "https://stellabms.xyz/s/dpst/34"
         },
         {
             "title": "WHIRLWIND [Twin Blast]",
@@ -927,7 +1011,8 @@
             "sha256": "a258144dc76242398aea272c75e6e670669b357a5a3a9a881219f70fe5b6071e",
             "level": "2",
             "comment": "★★5?",
-            "submission": 15
+            "submission": 15,
+            "cite_url": "https://stellabms.xyz/s/dpst/15"
         },
         {
             "title": "Assault TAXI [頭文字TAXI]",
@@ -939,7 +1024,8 @@
             "level": "3",
             "proposer": "anco",
             "comment": "st2? 二重乱打 微縦連 連皿",
-            "submission": 177
+            "submission": 177,
+            "cite_url": "https://stellabms.xyz/s/dpst/177"
         },
         {
             "title": "DAYBREAK [DP ULTIMATE]",
@@ -950,7 +1036,8 @@
             "sha256": "ee135119571c9ef653ac5ad8a69d60395b56d6513726a3535bc82784e75dcbb8",
             "level": "3",
             "comment": "★★6",
-            "submission": 161
+            "submission": 161,
+            "cite_url": "https://stellabms.xyz/s/dpst/161"
         },
         {
             "title": "HUGEAXE",
@@ -961,7 +1048,8 @@
             "sha256": "06e6c2a2db5e24eadbb33dd8dc1e4e0eb501b6610aa53bde7c6e4b289d4e5e67",
             "level": "3",
             "comment": "★★7? ",
-            "submission": 147
+            "submission": 147,
+            "cite_url": "https://stellabms.xyz/s/dpst/147"
         },
         {
             "title": "La souvenir [DPYoitherAdjust]",
@@ -972,7 +1060,8 @@
             "sha256": "796eeac09b717f3d89b4ac1463caaa9a4e3b2983058303872ba6487ef574341d",
             "level": "3",
             "comment": "変わった形の同時　二重階段　",
-            "submission": 97
+            "submission": 97,
+            "cite_url": "https://stellabms.xyz/s/dpst/97"
         },
         {
             "title": "Melotte 333 -MANIAC14-",
@@ -983,7 +1072,8 @@
             "sha256": "28942ac3398ece18d383e040f32383a0515895710d2dddbacba82a980a9231fe",
             "level": "3",
             "comment": "★★5쯤? 어쩌면 ★★6일지도 모른다.",
-            "submission": 110
+            "submission": 110,
+            "cite_url": "https://stellabms.xyz/s/dpst/110"
         },
         {
             "title": "Misdirection",
@@ -994,7 +1084,8 @@
             "sha256": "a21ae95bf9aa0cf72e363b3af92f2daea089fc4954be7a832c091a8220c81a8a",
             "level": "3",
             "comment": "二重階段、軸系多重乱打",
-            "submission": 106
+            "submission": 106,
+            "cite_url": "https://stellabms.xyz/s/dpst/106"
         },
         {
             "title": "Ophelia",
@@ -1005,7 +1096,8 @@
             "sha256": "a8cef634f120053eb6bc5e364ed01ab71d470c2d18167948b40e869e503d06fa",
             "level": "3",
             "comment": "★★5~6?, bpm180 16分",
-            "submission": 119
+            "submission": 119,
+            "cite_url": "https://stellabms.xyz/s/dpst/119"
         },
         {
             "title": "Save the Water",
@@ -1016,7 +1108,8 @@
             "sha256": "a45da2e4ec08d86ba948c42fc5e42205a9f60e0553d2a34dec22b87e64044ad2",
             "level": "3",
             "comment": "★★6",
-            "submission": 148
+            "submission": 148,
+            "cite_url": "https://stellabms.xyz/s/dpst/148"
         },
         {
             "title": "The Ray of Sunlight [DP-soijoy]",
@@ -1027,7 +1120,8 @@
             "sha256": "0940ff2a411344ccfc841c3cd2454df4ff017bb8a5b4d4f2eaa3063fd56876ed",
             "level": "3",
             "comment": "★★3～4",
-            "submission": 173
+            "submission": 173,
+            "cite_url": "https://stellabms.xyz/s/dpst/173"
         },
         {
             "title": "テウメッサ [matrix]",
@@ -1038,7 +1132,8 @@
             "sha256": "64c1c106943535c016b31845f6486e5708455eb6093f565935cb02c9625906d0",
             "level": "3",
             "comment": "同梱SPAと比較してズレ抜け無し",
-            "submission": 48
+            "submission": 48,
+            "cite_url": "https://stellabms.xyz/s/dpst/48"
         },
         {
             "title": "ニニ [DP INS☆NE]",
@@ -1049,7 +1144,8 @@
             "sha256": "c9f151a6c2324d375e05d149f676c5ec245ac957b4b3e1224ec787153f3ab472",
             "level": "3",
             "comment": "★★5~6?",
-            "submission": 8
+            "submission": 8,
+            "cite_url": "https://stellabms.xyz/s/dpst/8"
         },
         {
             "title": "真火機星HOLIDAYスペシャルバトル0xFF [DP BroGamer]",
@@ -1060,7 +1156,8 @@
             "sha256": "61075a24279d2864327e0893157b2a3f7eae9507c5a6b6e5a770dba610ab7173",
             "level": "3",
             "comment": "★★4~5　認識力　アップに適した良譜面　",
-            "submission": 85
+            "submission": 85,
+            "cite_url": "https://stellabms.xyz/s/dpst/85"
         },
         {
             "title": "AXION [OVERLORD]",
@@ -1071,7 +1168,8 @@
             "sha256": "4d27369438ee607a8f5876c2f710658db5ac2882eb6ea415291297e099fccd40",
             "level": "4",
             "comment": "ずれ抜け4つ",
-            "submission": 107
+            "submission": 107,
+            "cite_url": "https://stellabms.xyz/s/dpst/107"
         },
         {
             "title": "ceu",
@@ -1082,7 +1180,8 @@
             "sha256": "7ebc9a04ab869f99c4edfab6bada0c092a2571acdd956bcbcee8185957491380",
             "level": "4",
             "comment": "★★7~8 ひたすら押しにくい3999ノーツ",
-            "submission": 90
+            "submission": 90,
+            "cite_url": "https://stellabms.xyz/s/dpst/90"
         },
         {
             "title": "Empress of Raizze(14A)†leggendaria",
@@ -1093,7 +1192,8 @@
             "sha256": "38b0d3470e3a295835590b54b37118b9ade239bf251f6c0487ba5f6ed353d2b2",
             "level": "4",
             "comment": "★★5~6",
-            "submission": 170
+            "submission": 170,
+            "cite_url": "https://stellabms.xyz/s/dpst/170"
         },
         {
             "title": "New York Back Raise [破産]",
@@ -1104,7 +1204,8 @@
             "sha256": "2f25881820623564f6398869f8bc3e4a9c9aafcc248e6f1870316f706a9ffe2d",
             "level": "4",
             "comment": "★★7~8 ",
-            "submission": 143
+            "submission": 143,
+            "cite_url": "https://stellabms.xyz/s/dpst/143"
         },
         {
             "title": "REZIDUAL MiND [Farewell]",
@@ -1115,7 +1216,8 @@
             "sha256": "39a981100b7694f4a52f62e1964e92556a4596fc62c19a2309e1254a15983bb4",
             "level": "4",
             "comment": "二重乱打入門",
-            "submission": 112
+            "submission": 112,
+            "cite_url": "https://stellabms.xyz/s/dpst/112"
         },
         {
             "title": "Scarlet Double Dance [DP SWEET NIGHTMARE]",
@@ -1126,7 +1228,8 @@
             "sha256": "6e62689add0719237f5e2efc2e3c2b5f4902b2293ef43b36d40a56219ccb05a1",
             "level": "4",
             "comment": "st4の基準として★★7から導入",
-            "submission": 96
+            "submission": 96,
+            "cite_url": "https://stellabms.xyz/s/dpst/96"
         },
         {
             "title": "Stellaria [空から同時に落ちる2555個の星]",
@@ -1137,7 +1240,8 @@
             "sha256": "067865b8fdc44de7be4379d54ccfbf3735d0b2f1452394f0c9ebdb1888290d13",
             "level": "4",
             "comment": "High-speed Stair notes. ",
-            "submission": 118
+            "submission": 118,
+            "cite_url": "https://stellabms.xyz/s/dpst/118"
         },
         {
             "title": "VALLISTA [STELLA14]",
@@ -1148,7 +1252,8 @@
             "sha256": "9ac66d79c6862e342aff43e6f8726dbd631586ca9e04d78f2c154ac5737f184f",
             "level": "4",
             "comment": "노트만보면 st4, TOTAL값을 고려하면 st3上",
-            "submission": 109
+            "submission": 109,
+            "cite_url": "https://stellabms.xyz/s/dpst/109"
         },
         {
             "title": "ダークサンバランド -DP LAST BOSS-",
@@ -1159,7 +1264,8 @@
             "sha256": "30dc284673b5e31331dacbd7a51cb02d69390bc89a7d4a2d84b75c1af16873e4",
             "level": "4",
             "comment": "同梱無配置ファイル(_dark_sambaland_.xxx)と比較してズレ抜け無し",
-            "submission": 113
+            "submission": 113,
+            "cite_url": "https://stellabms.xyz/s/dpst/113"
         },
         {
             "title": "ハニエルのうた [うまくなる]",
@@ -1170,7 +1276,8 @@
             "sha256": "3ce20c0cb9cdb1fc49a015e7f373a0002a8e6ca7550a87dccc5c711eeba71478",
             "level": "4",
             "comment": "高速系　",
-            "submission": 95
+            "submission": 95,
+            "cite_url": "https://stellabms.xyz/s/dpst/95"
         },
         {
             "title": "図書室のエルザ -L'adieu-",
@@ -1181,7 +1288,8 @@
             "sha256": "1468c2900f8bc4c54f526e3423a3d9ad228b0ab3a32ff89eacf73b79e0f2c0d9",
             "level": "4",
             "comment": "直球地力勝負",
-            "submission": 91
+            "submission": 91,
+            "cite_url": "https://stellabms.xyz/s/dpst/91"
         },
         {
             "title": "adolescent person -Nostalgia14-",
@@ -1192,7 +1300,8 @@
             "sha256": "8676f243025df7b760714d8313b60c363254417b75126ad945fefff16df8f659",
             "level": "5",
             "comment": "★★8 ",
-            "submission": 140
+            "submission": 140,
+            "cite_url": "https://stellabms.xyz/s/dpst/140"
         },
         {
             "title": "Beyond [Comprehension]",
@@ -1203,7 +1312,8 @@
             "sha256": "bd0182ce27eb76fba98cbc0a6893eeb68c3ae6ec619a2143a51bd83a762c5f63",
             "level": "5",
             "comment": "低速高密度",
-            "submission": 166
+            "submission": 166,
+            "cite_url": "https://stellabms.xyz/s/dpst/166"
         },
         {
             "title": "Blue Shock [DPINSA.NE+]",
@@ -1214,7 +1324,8 @@
             "sha256": "5218703c591cf888e4905f1e6712dd2117872c223a6d120a308918201a43254f",
             "level": "5",
             "comment": "★★8, 後殺",
-            "submission": 169
+            "submission": 169,
+            "cite_url": "https://stellabms.xyz/s/dpst/169"
         },
         {
             "title": "c.s.q.n. [Luma14]",
@@ -1225,7 +1336,8 @@
             "sha256": "5d335ea3f2438b8b9d825f5c8287dcf05be76b6de86de5b0f456145916f1f068",
             "level": "5",
             "comment": "★★7~8 후반부가 어렵다",
-            "submission": 141
+            "submission": 141,
+            "cite_url": "https://stellabms.xyz/s/dpst/141"
         },
         {
             "title": "Celestial Axes [True End]",
@@ -1236,7 +1348,8 @@
             "sha256": "1f75d5115c75e36d7b7618470a5bb518762de1ba248a09aac45c1d6d6ce46dce",
             "level": "5",
             "comment": "★★7",
-            "submission": 168
+            "submission": 168,
+            "cite_url": "https://stellabms.xyz/s/dpst/168"
         },
         {
             "title": "Dull Blade [HIGHWAY TO HELL]",
@@ -1247,7 +1360,8 @@
             "sha256": "993da07dbefbeab4b693d63568593f78feeb563be2a1bd014cbf292347634022",
             "level": "5",
             "comment": "★★8~",
-            "submission": 165
+            "submission": 165,
+            "cite_url": "https://stellabms.xyz/s/dpst/165"
         },
         {
             "title": "FREAKOUT [14KEYS INSANE]",
@@ -1257,7 +1371,8 @@
             "md5": "5e4de85e8f8cf8809409fd20fdce7c98",
             "sha256": "f23cf951c5e040461575ee3c41a73ff512633c4d73aaf5db47d0d44a3fcca681",
             "level": "5",
-            "submission": 111
+            "submission": 111,
+            "cite_url": "https://stellabms.xyz/s/dpst/111"
         },
         {
             "title": "Icicle Mountain [DP -65℃]",
@@ -1268,7 +1383,8 @@
             "sha256": "48c69ac3907358ece68ef3ec4d8a06368b38d6b603889063c6548b1ec9a95f67",
             "level": "5",
             "comment": "★★8 ↑",
-            "submission": 163
+            "submission": 163,
+            "cite_url": "https://stellabms.xyz/s/dpst/163"
         },
         {
             "title": "lifework [片手の過負荷エラー]",
@@ -1279,7 +1395,8 @@
             "sha256": "5a4d2e8f35b4dfc6ab95e3114e7060d2a1fd739d592a5856f815f7893c860fec",
             "level": "5",
             "comment": "★★7",
-            "submission": 120
+            "submission": 120,
+            "cite_url": "https://stellabms.xyz/s/dpst/120"
         },
         {
             "title": "NightTheater [DPYoither]",
@@ -1290,7 +1407,8 @@
             "sha256": "00c0d93cc7e7c2f319329ddcffcfc15c39bfc9ca79cc5551785adc4b4712093e",
             "level": "5",
             "comment": "中速乱打",
-            "submission": 105
+            "submission": 105,
+            "cite_url": "https://stellabms.xyz/s/dpst/105"
         },
         {
             "title": "Outernoid [Asterism]",
@@ -1301,7 +1419,8 @@
             "sha256": "5eba51c791d1e1caf1fc2728f7a2da9e95c5839b0a49fd5ba1f91519ab119864",
             "level": "5",
             "comment": "st5(★★8)",
-            "submission": 131
+            "submission": 131,
+            "cite_url": "https://stellabms.xyz/s/dpst/131"
         },
         {
             "title": "Poison AND÷OR Affection [Affection 200%]",
@@ -1312,7 +1431,8 @@
             "sha256": "7ffb31f11b9d0bb4c1899f16a00ce38fbac6a9b7edef8b6f563c48bc1edf8967",
             "level": "5",
             "comment": "個人差 st5?(★★7~8)",
-            "submission": 125
+            "submission": 125,
+            "cite_url": "https://stellabms.xyz/s/dpst/125"
         },
         {
             "title": "Psalms [ユートピアとディストピアの境界]",
@@ -1323,7 +1443,8 @@
             "sha256": "745c97a89a8160887a513775ee70db977c02bea068f59fff25991714b1a134ba",
             "level": "5",
             "comment": "sl12最上位への足掛かりに",
-            "submission": 64
+            "submission": 64,
+            "cite_url": "https://stellabms.xyz/s/dpst/64"
         },
         {
             "title": "SAKIGAKE [ Build × UP！ ]",
@@ -1334,7 +1455,8 @@
             "sha256": "cc97c74087e37045c4ee5a391ee196367def2bef619608ea4993a9dfddd29a3b",
             "level": "5",
             "comment": "★★8? ",
-            "submission": 152
+            "submission": 152,
+            "cite_url": "https://stellabms.xyz/s/dpst/152"
         },
         {
             "title": "Valkyrie Revolutia [Gram†LEGGENDARIA]",
@@ -1345,7 +1467,8 @@
             "sha256": "3b20caadeffcfceb10dc15cf3f33b2cdf25f072774d0db63bcdbca54c752d255",
             "level": "5",
             "comment": "細かい動きの練習差分",
-            "submission": 102
+            "submission": 102,
+            "cite_url": "https://stellabms.xyz/s/dpst/102"
         },
         {
             "title": "We are the xxxx DP F",
@@ -1356,7 +1479,8 @@
             "sha256": "fddb3763b9792d813801812f04c52399001ec06cdd3f8519cda9ecc86005d859",
             "level": "5",
             "comment": "st5(★★8), zure fix",
-            "submission": 126
+            "submission": 126,
+            "cite_url": "https://stellabms.xyz/s/dpst/126"
         },
         {
             "title": "さよならコスモノート [NGC 224]",
@@ -1367,7 +1491,8 @@
             "sha256": "4b41260190928a868262fb12a53d3a787495444065ec6635ac25fc26c7ba1491",
             "level": "5",
             "comment": "★★7~8",
-            "submission": 157
+            "submission": 157,
+            "cite_url": "https://stellabms.xyz/s/dpst/157"
         },
         {
             "title": "タマモッチ -タマゴパン-",
@@ -1378,7 +1503,8 @@
             "sha256": "438b122b22bc0f39cc7280450e381d37951451f81616b7eb61f0f2a3095577f2",
             "level": "5",
             "comment": "★★7くらい？同梱SPAと比較してズレ抜け無し",
-            "submission": 89
+            "submission": 89,
+            "cite_url": "https://stellabms.xyz/s/dpst/89"
         },
         {
             "title": "事象の地平 [平行世界：事件の終結]",
@@ -1389,7 +1515,8 @@
             "sha256": "ad30db8400742fca2254160022e7f348b0b8e4b90eb17ec5e316c88809f821bb",
             "level": "5",
             "comment": "★★8?",
-            "submission": 121
+            "submission": 121,
+            "cite_url": "https://stellabms.xyz/s/dpst/121"
         },
         {
             "title": "B e l i - R [Demonic]",
@@ -1400,7 +1527,8 @@
             "sha256": "5d3d7e362645a03bf95dca29e0f00d1b94d23fe75fdd01de09a7885586fb30b3",
             "level": "6",
             "comment": "★★10, 二重乱打",
-            "submission": 171
+            "submission": 171,
+            "cite_url": "https://stellabms.xyz/s/dpst/171"
         },
         {
             "title": "BEYOND",
@@ -1411,7 +1539,8 @@
             "sha256": "56d1134c4253e6233b07f984084bd57b255e80726b517fa60eb22e3582f2910e",
             "level": "6",
             "comment": "★★8~9 High-speed stair notes.",
-            "submission": 144
+            "submission": 144,
+            "cite_url": "https://stellabms.xyz/s/dpst/144"
         },
         {
             "title": "E.V.E [FORBIDDEN]",
@@ -1421,7 +1550,8 @@
             "md5": "006f75334ee9468b4e5d85658544fa29",
             "sha256": "2084ac6568562c5bdb07412234b890fdd6e7cbcf7ea9cafb5e08ad0b33d45eb5",
             "level": "6",
-            "submission": 128
+            "submission": 128,
+            "cite_url": "https://stellabms.xyz/s/dpst/128"
         },
         {
             "title": "endemize [hell]",
@@ -1432,7 +1562,8 @@
             "sha256": "6723d3c5d15d1876e360552c99d6d581b7f6ca6d1e49e444df798a4abb17c796",
             "level": "6",
             "comment": "definitely st6(★★9)",
-            "submission": 124
+            "submission": 124,
+            "cite_url": "https://stellabms.xyz/s/dpst/124"
         },
         {
             "title": "Kaleidoscope [DP Dystopia]",
@@ -1443,7 +1574,8 @@
             "sha256": "94b988355106e85714626790a15611aec2ee13e9a4b310c38789d9e4e58cb389",
             "level": "6",
             "comment": "★★9 ※동봉무키음과 비교함",
-            "submission": 159
+            "submission": 159,
+            "cite_url": "https://stellabms.xyz/s/dpst/159"
         },
         {
             "title": "Love's Rebirth '06 [Lovers14]",
@@ -1454,7 +1586,8 @@
             "sha256": "442e0c02d6d85c20480c2bdba8fe550d6844f49d68cc4d7a8575fb3c0b7e1770",
             "level": "6",
             "comment": "★★10, st7",
-            "submission": 164
+            "submission": 164,
+            "cite_url": "https://stellabms.xyz/s/dpst/164"
         },
         {
             "title": "Weaponhuman [Fullarmor]",
@@ -1465,7 +1598,8 @@
             "sha256": "5bf00c3928a50194f456c8f77e7a5614d16f38c6c00e70198adbd622e574e79b",
             "level": "6",
             "comment": "★★10, st7 ",
-            "submission": 158
+            "submission": 158,
+            "cite_url": "https://stellabms.xyz/s/dpst/158"
         },
         {
             "title": "インドア系ならトラックメイカー 199024club mix [鍵盤系ならDBRer]",
@@ -1476,7 +1610,8 @@
             "sha256": "9fd2f273a56e48165075ea3d0b0a93c7a1b2926ca525ce3ccc0876e92b911c70",
             "level": "6",
             "comment": "★★10, st7 ",
-            "submission": 160
+            "submission": 160,
+            "cite_url": "https://stellabms.xyz/s/dpst/160"
         },
         {
             "title": "キミとボクへの葬送歌 (maybe kill)",
@@ -1487,7 +1622,8 @@
             "sha256": "0b80fe9bef66b932b24352acc45d91d0cbe7c88cd4a7695dcf1674565fb492f3",
             "level": "6",
             "comment": "st7(★★10), ※anzudifftool을 사용하여 동봉채보 _05_exc_a.bms와 비교시 difference check 없음, 이하 엇갈림노트 54개는 모두 LNOBJ 할당인 ZZ노트의 위치조절에 의한것.",
-            "submission": 127
+            "submission": 127,
+            "cite_url": "https://stellabms.xyz/s/dpst/127"
         },
         {
             "title": "ヒュブリスの頂に聳えるのは [さよなら世界]",
@@ -1498,7 +1634,8 @@
             "sha256": "4b27fa72ca674fa181cba3c0e88801d4530ab5d5449bcd752055e73f8d4042d0",
             "level": "6",
             "comment": "★★10　二重乱打を中心とした中速物量",
-            "submission": 108
+            "submission": 108,
+            "cite_url": "https://stellabms.xyz/s/dpst/108"
         }
     ]
 }
