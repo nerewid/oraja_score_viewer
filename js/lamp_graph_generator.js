@@ -3,6 +3,7 @@
 import { sqlPromise } from './db_uploader.js'; 
 import { getSha256ToMd5Map } from './score_change_to_json.js';
 import { scoreDbData } from './db_uploader.js';
+import { songdataDbData } from './db_uploader.js';
 
 // --- グローバル変数・定数 ---
 
@@ -24,9 +25,10 @@ const clear_status = {
     "3": { "name": "LightAssistEasy", "color": "rgba(255, 192, 203, 0.5)" },
     "2": { "name": "AssistEasy", "color": "rgba(128, 0, 128, 0.5)" },
     "1": { "name": "Failed", "color": "rgba(128, 0, 0, 0.5)" },
-    "0": { "name": "NoPlay", "color": "rgba(0, 0, 0, 0.5)" }
+    "0": { "name": "Not Played", "color": "rgba(32, 32, 32, 0.5)" },
+    "-1": { "name": "No Chart", "color": "rgba(0, 0, 0, 0.5)" }
 };
-const clear_status_order = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"]; // 描画順
+const clear_status_order = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "-1"]; // 描画順
 
 // HTML要素への参照
 const difficultyTableSelect = document.getElementById('difficulty-table-select');
@@ -44,7 +46,6 @@ const songListArea = document.getElementById('song-list-area');
 function createMd5ToSha256Map() {
     const sha256ToMd5Map = getSha256ToMd5Map();
     const md5Map = new Map();
-    console.log(sha256ToMd5Map);
     if (sha256ToMd5Map instanceof Map) {
         for (const [sha256, md5] of sha256ToMd5Map.entries()) {
             if (md5) { // md5が存在する場合のみ登録
@@ -59,6 +60,59 @@ function createMd5ToSha256Map() {
 }
 
 // --- データ取得・処理関数 ---
+
+/**
+ * 難易度表一覧のデータを読み込む
+ * @returns {Promise<Array<object>>} 難易度表データの配列
+ */
+async function loadDifficultyTables() {
+    // パスは実際のファイル配置に合わせて調整してください
+    const url = './raw_difficulty_table_data/difficulty_tables.json';
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status} for ${url}`);
+        }
+        const data = await response.json();
+        // difficulty_tables.json が直接配列か、特定のキーの下にあるかで調整
+        if (Array.isArray(data)) {
+            return data;
+        } else if (data && Array.isArray(data.tables)) { // 例: { "tables": [...] } の形式
+             return data.tables;
+        } else {
+            console.warn(`予期しない形式の難易度表一覧データです (${url})`);
+            return [];
+        }
+    } catch (error) {
+        console.error(`難易度表一覧データ(${url})の読み込みに失敗しました:`, error);
+        throw error; // エラーを呼び出し元に伝える
+        // return []; // またはデフォルト値を返す
+    }
+}
+
+
+/**
+ * internalFileNameに基づいて難易度表データを読み込む
+ * @param {string} internalFileName - 読み込むJSONファイル名 (拡張子なし)
+ * @returns {Promise<object>} 楽曲データオブジェクト ({ songs: [...] })
+ */
+async function loadSongData(internalFileName) {
+    // パスは実際のファイル配置に合わせて調整してください
+    const url = `./raw_difficulty_table_data/${internalFileName}.json`;
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status} for ${url}`);
+        }
+        return await response.json();
+    } catch (error) {
+        console.error(`楽曲データ(${url})の読み込みに失敗しました:`, error);
+        // エラーが発生した場合、空のデータを返すか、例外を再スローするなど、適切に処理
+        throw error; // エラーを呼び出し元に伝える
+        // return { songs: [] }; // またはデフォルト値を返す
+    }
+}
+
 
 /**
  * 指定された複数のSHA256ハッシュに対応するスコアデータをscoreDbData(Uint8Array)から一括取得する
@@ -179,55 +233,103 @@ async function getScoresBySha256s(sha256List, selectedLnModeValue) {
 
 
 /**
- * internalFileNameに基づいて楽曲データを読み込む
- * @param {string} internalFileName - 読み込むJSONファイル名 (拡張子なし)
- * @returns {Promise<object>} 楽曲データオブジェクト ({ songs: [...] })
+ * 指定された複数のSHA256ハッシュに対応する楽曲データがsongdataに存在するか判定する
+ * SQLiteのIN句を使用し、パフォーマンスを向上させる。
+ * SQL.jsの prepare -> bind -> step -> getAsObject -> free パターンを使用します。
+ * @param {Array<string>} sha256List - 取得したいスコアのSHA256ハッシュ値の配列
+ * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
  */
-async function loadSongData(internalFileName) {
-    // パスは実際のファイル配置に合わせて調整してください
-    const url = `./raw_difficulty_table_data/${internalFileName}.json`;
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status} for ${url}`);
-        }
-        return await response.json();
-    } catch (error) {
-        console.error(`楽曲データ(${url})の読み込みに失敗しました:`, error);
-        // エラーが発生した場合、空のデータを返すか、例外を再スローするなど、適切に処理
-        throw error; // エラーを呼び出し元に伝える
-        // return { songs: [] }; // またはデフォルト値を返す
+async function checkExistSongsBySha256s(sha256List) {
+    const scoresMap = new Array(); // 結果を格納する[sha256]
+
+    if (!songdataDbData || !(songdataDbData instanceof Uint8Array)) {
+        console.error("songdataDbData が Uint8Array としてロードされていません。");
+        return scoresMap; // 空のMapを返す
     }
+    if (!SQL) {
+        console.error("SQL.jsが初期化されていません。");
+        return scoresMap; // 空のMapを返す
+    }
+
+    // 取得対象のSHA256リストが空の場合は処理不要
+    if (!sha256List || sha256List.length === 0) {
+        return scoresMap;
+    }
+
+    const BATCH_SIZE = 999; // SQLiteのIN句の一般的な制限数 (環境により異なる可能性あり)
+    let db = null;
+
+    try {
+        // Uint8Arrayからデータベースを開く（この関数呼び出し中は開いたままにする）
+        db = new SQL.Database(songdataDbData);
+
+        // SHA256リストをバッチサイズで分割して処理
+        for (let i = 0; i < sha256List.length; i += BATCH_SIZE) {
+            const batch = sha256List.slice(i, i + BATCH_SIZE);
+
+            // バッチが空の場合はスキップ
+            if (batch.length === 0) {
+                continue;
+            }
+
+            // IN句のためのプレースホルダ文字列を生成 (例: ?, ?, ?)
+            const placeholders = batch.map(() => '?').join(',');
+
+            // クエリ文字列を作成
+            // sha256カラムも取得する必要がある点に注意
+            const query = `SELECT sha256 FROM song WHERE sha256 IN (${placeholders})`;
+
+            let stmt = null;
+            try {
+                // --- 修正点: prepare, bind, step, getAsObject を使用 ---
+                // クエリを準備
+                stmt = db.prepare(query);
+
+                // バッチ内のSHA256値をバインド
+                stmt.bind(batch);
+
+                // 結果セットを一行ずつ処理
+                while (stmt.step()) {
+                    // 現在の行をオブジェクトとして取得
+                    const row = stmt.getAsObject();
+                    scoresMap.push(row.sha256);
+                }
+
+            } catch (batchQueryError) {
+                // バッチクエリ実行中のエラー
+                console.error(`楽曲データ取得クエリの実行中にエラーが発生しました (バッチ ${i}-${Math.min(i + BATCH_SIZE - 1, sha256List.length - 1)}):`, batchQueryError);
+                // このバッチはスキップされますが、他のバッチは続行します。
+            } finally {
+                // 使用済みステートメントを解放
+                // エラー発生時も解放されるように finally で囲む
+                if (stmt) {
+                    try { stmt.free(); } catch(e) { console.error("Statement free中にエラー:", e); }
+                }
+            }
+        }
+
+    } catch (dbError) {
+        // データベースを開く際のエラー
+        console.error("データベースを開く際にエラーが発生しました:", dbError);
+        // ここでエラーが発生した場合、処理を中断し、取得済みのMapを返します (通常は空)。
+        return scoresMap;
+    } finally {
+        // データベース接続を閉じる
+        // エラー発生時も確実に閉じるように finally で囲む
+        if (db) {
+            try {
+                db.close();
+            } catch (closeError) {
+                console.error("データベースのクローズ中にエラーが発生しました:", closeError);
+            }
+        }
+    }
+
+    // 処理が完了したMapを返す
+    console.log(`楽曲データ一括取得完了。取得できた譜面数: ${scoresMap.size}`);
+    return scoresMap;
 }
 
-/**
- * 難易度表のデータを読み込む
- * @returns {Promise<Array<object>>} 難易度表データの配列
- */
-async function loadDifficultyTables() {
-    // パスは実際のファイル配置に合わせて調整してください
-    const url = './raw_difficulty_table_data/difficulty_tables.json';
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status} for ${url}`);
-        }
-        const data = await response.json();
-        // difficulty_tables.json が直接配列か、特定のキーの下にあるかで調整
-        if (Array.isArray(data)) {
-            return data;
-        } else if (data && Array.isArray(data.tables)) { // 例: { "tables": [...] } の形式
-             return data.tables;
-        } else {
-            console.warn(`予期しない形式の難易度表データです (${url})`);
-            return [];
-        }
-    } catch (error) {
-        console.error(`難易度表データ(${url})の読み込みに失敗しました:`, error);
-        throw error; // エラーを呼び出し元に伝える
-        // return []; // またはデフォルト値を返す
-    }
-}
 
 /**
  * 楽曲リストとスコアデータを処理し、レベル別・クリア状況別に集計する
@@ -280,7 +382,11 @@ async function processSongScores(songs, selectedLnModeValue) {
     console.log("フェーズ2: スコアデータの一括取得を開始...");
     // sha256ToFetch セットを配列に変換し、一括取得関数に渡す
     const sha256List = Array.from(sha256ToFetch);
-    const scoresMap = await getScoresBySha256s(sha256List, 0); // <-- ここで一括DBアクセス！
+    // 所持している曲のsha256リスト
+    const songsMap = await checkExistSongsBySha256s(sha256List);
+    // ロングノーツなし または LNモードのスコア取得
+    const scoresMap = await getScoresBySha256s(sha256List, 0);
+    // CN, HCNモードのスコア取得
     let scoresMapXn = null
     if (selectedLnModeValue !== 0) {
         scoresMapXn = await getScoresBySha256s(sha256List, selectedLnModeValue)
@@ -289,16 +395,24 @@ async function processSongScores(songs, selectedLnModeValue) {
 
     // --- フェーズ3: スコアデータのマージと集計 ---
     console.log("フェーズ3: スコアデータのマージと集計を開始...");
+    //for (const songInfo of tempSongInfos) {
     for (const songInfo of tempSongInfos) {
-        let clear = 0; // デフォルトは NoPlay
+        let clear = -1; // デフォルトは No Chart
         let minbp = null; // BP不明
         let notes = null
         let mode = null;
         let exscore = null;
+        let sha256 = null;
+
+        // 譜面を所持しているか判定
+        if (songInfo.sha256 && songsMap.includes(songInfo.sha256)){
+            clear = 0; // Not Played
+            sha256 = songInfo.sha256
+        }
 
         // LNなし&LNmodeで一括取得したスコアデータを参照
-        if (songInfo.sha256 && scoresMap.has(songInfo.sha256)) {
-            const scoreRecord = scoresMap.get(songInfo.sha256);
+        if (sha256 && scoresMap.has(sha256)) {
+            const scoreRecord = scoresMap.get(sha256);
             clear = scoreRecord.clear;
             minbp = scoreRecord.minbp;
             mode = scoreRecord.mode;
@@ -306,16 +420,16 @@ async function processSongScores(songs, selectedLnModeValue) {
             exscore = scoreRecord.exscore;
         }
         // CN or HCNmodeで一括取得したスコアデータを参照し上書き
-        if (songInfo.sha256 && scoresMapXn.has(songInfo.sha256)) {
-            const scoreRecordXn = scoresMapXn.get(songInfo.sha256);
+        if (sha256 && scoresMapXn.has(sha256)) {
+            const scoreRecordXn = scoresMapXn.get(sha256);
             clear = scoreRecordXn.clear;
             minbp = scoreRecordXn.minbp;
             mode = scoreRecordXn.mode;
             notes = scoreRecordXn.notes;
             exscore = scoreRecordXn.exscore;
         }
-        // SHA256が特定できなかった場合、またはスコアが見つからなかった場合はデフォルト値のまま
 
+        // SHA256が特定できなかった場合、またはスコアが見つからなかった場合はデフォルト値のまま
         // songDetails に追加する最終的な楽曲情報オブジェクトを作成
         const finalSongInfo = {
             level: songInfo.level,
