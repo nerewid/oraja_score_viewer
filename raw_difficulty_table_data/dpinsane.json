@@ -1275,6 +1275,18 @@
         },
         {
             "level": "2",
+            "md5": "c6e3e6d0be72fd5a35d733cfe8f16574",
+            "sha256": "344bbb9b553df59bc115d995f285e0aabb06cae530d78a0bdee51e8e9fceb199",
+            "genre": "UNREAL DIGITAL FUSION",
+            "title": "Sugar Torture [DP INSANE]",
+            "artist": "りょくちゃくん / obj:marquee",
+            "url": "https://venue.bmssearch.net/fantasybms/9",
+            "url_diff": "https://hpx.getonpictochat.com/bmss/2022/",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c6e3e6d0be72fd5a35d733cfe8f16574"
+        },
+        {
+            "level": "2",
             "md5": "b58eaa7d467f1bda7154e5e46a078652",
             "sha256": "46953fcf514ded7eebfec11690f31d40121c8e02d5f028b5298ae03b67c00d9e",
             "genre": "Cooling Trance",
@@ -1695,6 +1707,18 @@
         },
         {
             "level": "3",
+            "md5": "b3d3f7e711ac41b4f8acec3d90142739",
+            "sha256": "9d47512564ec597fd13e1d5c3acb4106452e0c96d8acadd4acb14e6ee3f0d379",
+            "genre": "Ultrafunk/Artcore",
+            "title": "E.V.E.R[DP ANOTHER]",
+            "artist": "SOMON obj:Lian",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=445&event=146",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b3d3f7e711ac41b4f8acec3d90142739"
+        },
+        {
+            "level": "3",
             "md5": "c03c1e706eef27febb91f4b1aab195ed",
             "sha256": "e4a91e69612661a85ad3a1314272be7769b67dd52f05d748038647d846aa2f18",
             "genre": "Progressive Trance",
@@ -1899,18 +1923,6 @@
         },
         {
             "level": "3",
-            "md5": "210b7039367cb4d3a7dbaee33e8d0ec5",
-            "sha256": "b350aa4eedc4488451df6708b00b1b16b41be0dbfe0d97fadd21395e78993dc8",
-            "genre": "psychedelic trance",
-            "title": "osmosis (Another14)",
-            "artist": "narve // dp131 obj:NEPIA",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=124",
-            "url_diff": "http://dpbms.at-ninja.jp/nepia/nepia.html",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=210b7039367cb4d3a7dbaee33e8d0ec5"
-        },
-        {
-            "level": "3",
             "md5": "797b8e86b9b6ff2237076b825c9dd194",
             "sha256": "c18fd0aa083c54e10efe0e8079f43375ba5174e891a64eebd603d7ee843d93b3",
             "genre": "彼女たちの流儀",
@@ -2079,6 +2091,18 @@
         },
         {
             "level": "3",
+            "md5": "5e44a97a065f148abca9e128396f5528",
+            "sha256": "e33a9053ae33daae1d228f12f4259bc599ddfda62a8309e0dbb1dbe5f2abb10d",
+            "genre": "Furi Furi Pop",
+            "title": "ふりんとどっとらいん [DP ANOTHER]",
+            "artist": "鈎兎(KagiUsagi) obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=119&event=146",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5e44a97a065f148abca9e128396f5528"
+        },
+        {
+            "level": "3",
             "md5": "16883227fcf0cae5023c641d0fdfca58",
             "sha256": "d9256d5d5b796a4e5230e4bc2ffda6b6e6c7a187ea8bfe49217d48ac13b0fb48",
             "genre": "Electronic Fusion Pop",
@@ -2136,6 +2160,18 @@
             "url_diff": null,
             "comment": "2014/03/18 本体、差分ともに入手可能。本体URLはhttp://www.nicovideo.jp/watch/sm10566283より確認することができます。2018/07/27 差分入手不可、アーカイブも無し",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a6948dc9f994d51f226a4a93f470c1e7"
+        },
+        {
+            "level": "3",
+            "md5": "a54eb00d57417261e25e26b212cb3dfc",
+            "sha256": "129386050a825db7b62489582258c1c2818fa87b95a172f31779b07cdaf694fa",
+            "genre": "DANCE POP",
+            "title": "人魚電台 (BOF.ver) [DP LEGGENDALIA]",
+            "artist": "iKz feat. 蘭音Reine obj:ka2o",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=411&event=140",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1486",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a54eb00d57417261e25e26b212cb3dfc"
         },
         {
             "level": "3",
@@ -4095,18 +4131,6 @@
         },
         {
             "level": "6",
-            "md5": "d9e6487a3b01714569b4a4369f08db11",
-            "sha256": "e7f6e184c613c990eea2d2c61dd6f888181724b31545636cd56c1eca65b1ed5c",
-            "genre": "Euro Rave",
-            "title": "Imperishable Night 2006 [14A]",
-            "artist": "篠螺悠那 feat. 鯛の小骨obj.係長",
-            "url": "https://web.archive.org/web/20111107054222/http://tsubu.ath.cx/~electrogic/bms/imp_bga_mq.rar",
-            "url_diff": "http://dpbms.at-ninja.jp/hokan/%5Brise%5Dimp_a.zip",
-            "comment": "差分はURL直入力でDL可",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d9e6487a3b01714569b4a4369f08db11"
-        },
-        {
-            "level": "6",
             "md5": "e1dc420eb5fe525ed4fc2234c51260ad",
             "sha256": "7de4ee5861f2b9b88d9bdddb6d6a2ef389e27d2b85051b01d8319fcbf7ba8738",
             "genre": "FORTISSIMO",
@@ -4138,7 +4162,7 @@
             "artist": "polysha / Obj:ゆ〜兎",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=92",
             "url_diff": "http://flowermaster.web.fc2.com/",
-            "comment": "kikaku8.zip内It's ”alice” dream/alice_dpi_YH.bms",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b77bbd67da65788b15484cfb987d68a2"
         },
         {
@@ -5991,6 +6015,18 @@
         },
         {
             "level": "8",
+            "md5": "cc067eab6e9960218679ec1eaf56ceb5",
+            "sha256": "4cf0cfd320559cc0f1f1d0bd6a850ded324068ed15b5393e55a79199c928a016",
+            "genre": "Progressive Electro Fusion",
+            "title": "ヒュブリスの頂に聳えるのは [DP INSANE]",
+            "artist": "qfeileadh feat.のあ Movie:Maeus / Illust:linglvz",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=140",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=cc067eab6e9960218679ec1eaf56ceb5"
+        },
+        {
+            "level": "8",
             "md5": "0ecd2b46afbb1a3f853a7211f9bfbb91",
             "sha256": "8cfad70ac809732d7710f24873810ccaf39e94804bdf7788b0747a81d0df4089",
             "genre": "kirby dirge",
@@ -7143,18 +7179,6 @@
         },
         {
             "level": "11",
-            "md5": "93d080e4b70da264f18d371169e7e20f",
-            "sha256": "9776ec8268383e2714f2a261ed221f52b25f7f9478958b0084ec292c7a4ddbe2",
-            "genre": "Caprice",
-            "title": "Bouquet colore [Fatalism]",
-            "artist": "Nego_tiator Obj. 0ne",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=270&event=127",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/1520",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=93d080e4b70da264f18d371169e7e20f"
-        },
-        {
-            "level": "11",
             "md5": "ede197e2138d85d5c24edfc4db37c843",
             "sha256": "08d2a77b1ac8c7c4eb480a80826d543a1ba76ecf5c7cffc0b083669e242e31bb",
             "genre": "TRANCE",
@@ -7680,6 +7704,18 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/341",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=caf7a8ea6e9568cfce60b258b7a9b7a6"
+        },
+        {
+            "level": "12",
+            "md5": "93d080e4b70da264f18d371169e7e20f",
+            "sha256": "9776ec8268383e2714f2a261ed221f52b25f7f9478958b0084ec292c7a4ddbe2",
+            "genre": "Caprice",
+            "title": "Bouquet colore [Fatalism]",
+            "artist": "Nego_tiator Obj. 0ne",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=270&event=127",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1520",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=93d080e4b70da264f18d371169e7e20f"
         },
         {
             "level": "12",
