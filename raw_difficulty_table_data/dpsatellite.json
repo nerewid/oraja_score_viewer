@@ -909,7 +909,6 @@
             "md5": "fcd17ae529362f1c3e4c1f73072fedc0",
             "sha256": "c39b2eab9f95fb9533c73e33309271ea3ad33cd182c7431e726b16d3d50074b1",
             "level": "1",
-            "proposer": "Zris",
             "submission": 926,
             "cite_url": "https://stellabms.xyz/s/dp/926"
         },
@@ -1627,7 +1626,6 @@
             "md5": "0066662a365b510b00d52b29d278ca8e",
             "sha256": "fb3192ab9d3533e66b560c70ec2f3d1c8cb9b65775451b2192a8b61b410161d0",
             "level": "2",
-            "proposer": "anco",
             "comment": "sl1? 同梱譜面 乱打 中盤に高速階段",
             "submission": 928,
             "cite_url": "https://stellabms.xyz/s/dp/928"
@@ -1687,7 +1685,6 @@
             "md5": "b3d3f7e711ac41b4f8acec3d90142739",
             "sha256": "9d47512564ec597fd13e1d5c3acb4106452e0c96d8acadd4acb14e6ee3f0d379",
             "level": "2",
-            "proposer": "anco",
             "comment": "sl2~3? 同梱譜面 LN 乱打",
             "submission": 917,
             "cite_url": "https://stellabms.xyz/s/dp/917"
@@ -1761,6 +1758,19 @@
             "comment": "0~1? 階段",
             "submission": 337,
             "cite_url": "https://stellabms.xyz/s/dp/337"
+        },
+        {
+            "title": "Fungus Dance [DP]",
+            "artist": "paraneumann mov:FGD obj:ka2o",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=10&event=137",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1289",
+            "md5": "7c9008aee31f1c46c8441d2f82b67504",
+            "sha256": "815bbc00a7d0d13d24c502d06c1984ba99cfc2daa2011c5907c4256bec5c95a5",
+            "level": "2",
+            "proposer": "Kirr12",
+            "comment": "Stamina + reading",
+            "submission": 935,
+            "cite_url": "https://stellabms.xyz/s/dp/935"
         },
         {
             "title": "GIN TONIC FLAVOR",
@@ -3094,7 +3104,6 @@
             "md5": "c91530b76ec10e4ea06bc2b1b2f15b16",
             "sha256": "abf272f6a71a2838fe6fad1933a37062d0ad1ca0d871033486b90eed0e08f82a",
             "level": "4",
-            "proposer": "anco",
             "comment": "sl4? 同梱譜面 階段 乱打",
             "submission": 918,
             "cite_url": "https://stellabms.xyz/s/dp/918"
@@ -3322,6 +3331,19 @@
             "comment": "爽やかな曲でいい練習を",
             "submission": 752,
             "cite_url": "https://stellabms.xyz/s/dp/752"
+        },
+        {
+            "title": "Superluminality -Another14-",
+            "artist": "橙ミャオ / BGA:Black obj:pt",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=145&event=146",
+            "url_diff": "",
+            "md5": "a9013005618b0aab2717a9671c5d6d01",
+            "sha256": "bdcc40a6d1e68b1aa30b53882f29d47be7352bfda7cb221bedb0fce4cf1ed20a",
+            "level": "4",
+            "proposer": "Kirr12",
+            "comment": "sl4-5? Hard ending",
+            "submission": 936,
+            "cite_url": "https://stellabms.xyz/s/dp/936"
         },
         {
             "title": "Take Me Away [DPH]",
@@ -3826,7 +3848,6 @@
             "md5": "43c3af5024c48b14bbc98eb0c90db250",
             "sha256": "5e2b1fb0f3d9379e7b9221d822c05ba1390bd433aaae01f5399d20d7d0a0a146",
             "level": "5",
-            "proposer": "anco",
             "comment": "sl4~5? 同梱譜面 乱打 序盤難",
             "submission": 919,
             "cite_url": "https://stellabms.xyz/s/dp/919"
@@ -4100,7 +4121,6 @@
             "md5": "6762dcf97a438f22f65aed41300d0b9b",
             "sha256": "12ecf0bc41d8662e450190689eaa6bb4ab503d97e027736b7fd120f93f88df55",
             "level": "5",
-            "proposer": "にゃむ",
             "comment": "5? BPM200 同時押し",
             "submission": 922,
             "cite_url": "https://stellabms.xyz/s/dp/922"
@@ -4233,6 +4253,19 @@
             "comment": "5~6? 同梱譜面",
             "submission": 548,
             "cite_url": "https://stellabms.xyz/s/dp/548"
+        },
+        {
+            "title": "ZundaVPN [DP NAGAHAMAther]",
+            "artist": "litmus* ft. ずんだもん&春日部つむぎ obj:アクション長浜",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=19&order=reg&odtype=a",
+            "url_diff": "https://uu.getuploader.com/dpbms/download/1717",
+            "md5": "57e533f7c38a0d705f735efefed49d9d",
+            "sha256": "1ccbf7ae81fa1b96116b2fad39c63ce3ffdf2bc4d2fbf9a9d96170f115139fbf",
+            "level": "5",
+            "proposer": "Kirr12",
+            "comment": "Earth power",
+            "submission": 934,
+            "cite_url": "https://stellabms.xyz/s/dp/934"
         },
         {
             "title": "あずぅる!! -双鍵難-",
@@ -4510,7 +4543,6 @@
             "md5": "90c1d334f3bb5fd00eedf243eac214fe",
             "sha256": "5f52c46cf2dede485a3757457586ba85e68b1a6a6e8dc54d770aff5354400c3a",
             "level": "6",
-            "proposer": "Zris",
             "submission": 931,
             "cite_url": "https://stellabms.xyz/s/dp/931"
         },
@@ -4835,6 +4867,19 @@
             "cite_url": "https://stellabms.xyz/s/dp/299"
         },
         {
+            "title": "SYNCLiNC [DP SHD]",
+            "artist": "Reku Mochizuki obj:hi-low",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=146",
+            "url_diff": "",
+            "md5": "d4ff488ca0f43f38c346bcd8c15b6162",
+            "sha256": "acc602d8566a60aa00de2f0434296b6a1731cdd65a7ddf2172caab367021eb1e",
+            "level": "6",
+            "proposer": "anco",
+            "comment": "sl6~7? 同時押し ラス殺し",
+            "submission": 937,
+            "cite_url": "https://stellabms.xyz/s/dp/937"
+        },
+        {
             "title": "take me to the moon [DP Insane]",
             "artist": "uma feat. ましろ obj:JHS",
             "url": "https://dl.dropboxusercontent.com/s/nueah4vl998bujc/takemetothemoon_bms_ogg.zip",
@@ -4930,6 +4975,18 @@
             "cite_url": "https://stellabms.xyz/s/dp/683"
         },
         {
+            "title": "ヒメタイプ [MG]",
+            "artist": "ノクティス・江口・チェラム obj:みすげ～",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=96",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04282.zip",
+            "md5": "7e4ba12362bced1950dd4ba13c9d66f8",
+            "sha256": "568162ef63e5f0689ab24656f0448ce8f8a937dfed5372eb92e929cbfde54b0b",
+            "level": "6",
+            "comment": "7~8?、連皿、階段",
+            "submission": 356,
+            "cite_url": "https://stellabms.xyz/s/dp/356"
+        },
+        {
             "title": "プラネット [DP FAIRTHER]",
             "artist": "あまつち探検隊 Arkplot + 杠葉えりか / obj:plum",
             "url": "https://venue.bmssearch.net/bmsshuin3/80",
@@ -5010,19 +5067,6 @@
             "comment": "片手乱打、同時押し",
             "submission": 369,
             "cite_url": "https://stellabms.xyz/s/dp/369"
-        },
-        {
-            "title": "Ayame In Wonderland [14keys]",
-            "artist": "SpadeK / obj:sagoo BGA:数字1528君 Illust:Lim/数字1528君/Otaku_宅",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=146",
-            "url_diff": "https://darksabun.github.io/event/boftt/table.html",
-            "md5": "6bf5065875b724ca15d81125e406487a",
-            "sha256": "f5fb9b152bcf88bfa09ae234620c8b19fa7a71bc06494f1dfa851f0f0fdf7070",
-            "level": "7",
-            "proposer": "anco",
-            "comment": "sl8 乱打 階段",
-            "submission": 929,
-            "cite_url": "https://stellabms.xyz/s/dp/929"
         },
         {
             "title": "Bad Apple!! -YH mix-",
@@ -5209,7 +5253,6 @@
             "md5": "d171b6827d2ad0ee7ca5793a86eba51b",
             "sha256": "2870e9047d03549d8058c52d61bf1f0487c21835dbe923b45d8bda7b7ef97545",
             "level": "7",
-            "proposer": "Zris",
             "submission": 925,
             "cite_url": "https://stellabms.xyz/s/dp/925"
         },
@@ -5600,18 +5643,6 @@
             "cite_url": "https://stellabms.xyz/s/dp/175"
         },
         {
-            "title": "ヒメタイプ [MG]",
-            "artist": "ノクティス・江口・チェラム obj:みすげ～",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=96",
-            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04282.zip",
-            "md5": "7e4ba12362bced1950dd4ba13c9d66f8",
-            "sha256": "568162ef63e5f0689ab24656f0448ce8f8a937dfed5372eb92e929cbfde54b0b",
-            "level": "7",
-            "comment": "7~8?、連皿、階段",
-            "submission": 356,
-            "cite_url": "https://stellabms.xyz/s/dp/356"
-        },
-        {
             "title": "プナイプナイたいそう [DP HYP☆R]",
             "artist": "立秋 feat.ちょこ obj:Starfish",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=227&event=116",
@@ -5631,7 +5662,6 @@
             "md5": "45b10ffb0e42fd5c4254ad16fd8c17f9",
             "sha256": "94140e0f2f6487d1172a0f002503e8f4bc574eb6678b1403b7a23aeda1969596",
             "level": "7",
-            "proposer": "にゃむ",
             "comment": "BPM182 階段",
             "submission": 924,
             "cite_url": "https://stellabms.xyz/s/dp/924"
@@ -5755,6 +5785,18 @@
             "cite_url": "https://stellabms.xyz/s/dp/525"
         },
         {
+            "title": "Ayame In Wonderland [14keys]",
+            "artist": "SpadeK / obj:sagoo BGA:数字1528君 Illust:Lim/数字1528君/Otaku_宅",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=146",
+            "url_diff": "https://darksabun.github.io/event/boftt/table.html",
+            "md5": "6bf5065875b724ca15d81125e406487a",
+            "sha256": "f5fb9b152bcf88bfa09ae234620c8b19fa7a71bc06494f1dfa851f0f0fdf7070",
+            "level": "8",
+            "comment": "sl8 乱打 階段",
+            "submission": 929,
+            "cite_url": "https://stellabms.xyz/s/dp/929"
+        },
+        {
             "title": "Beyond the Lightning -King's tragedy- [DP INSANE]",
             "artist": "King Rear / obj:marquee Original by Kimitaka Matsumae & Manami Matsumae",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=84",
@@ -5846,7 +5888,6 @@
             "md5": "6eb311ce9ffa0a337813037b3d59aa45",
             "sha256": "2d4587ab3ab4becd7f2d8194c77e4168aafd515908909373fb470232ce069b3e",
             "level": "8",
-            "proposer": "Zris",
             "submission": 927,
             "cite_url": "https://stellabms.xyz/s/dp/927"
         },
@@ -6131,7 +6172,6 @@
             "md5": "8ca05197451f6b4b1b1315f3a51a1da2",
             "sha256": "87ae4f174c081225f5a6977bd49a9decd983384931fea7c0ca9f8826321d5e0b",
             "level": "8",
-            "proposer": "Zris",
             "submission": 933,
             "cite_url": "https://stellabms.xyz/s/dp/933"
         },
@@ -6155,7 +6195,6 @@
             "md5": "90a19481968717479eab9f7ee1fbad30",
             "sha256": "03b1acca056c51730a0c284fdafd048a9500eb9efa07b5290e3920705a49f125",
             "level": "8",
-            "proposer": "にゃむ",
             "comment": "7~8?",
             "submission": 923,
             "cite_url": "https://stellabms.xyz/s/dp/923"
@@ -6218,6 +6257,19 @@
             "comment": "7~8?",
             "submission": 504,
             "cite_url": "https://stellabms.xyz/s/dp/504"
+        },
+        {
+            "title": "夢ここに在らず [14keys Another]",
+            "artist": "Yosk!",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=352&event=146",
+            "url_diff": "",
+            "md5": "b8dd3c4dc0a206f4cfb656c2788d0bcf",
+            "sha256": "2bfe066c631953fd6af25cac05daeed0f95eb1cf99878de2ad5545ab395a5584",
+            "level": "8",
+            "proposer": "anco",
+            "comment": "sl8~9? 階段 ズレ",
+            "submission": 938,
+            "cite_url": "https://stellabms.xyz/s/dp/938"
         },
         {
             "title": "月時計 Last・Dial (DoubleLunatic+)",
@@ -6689,7 +6741,6 @@
             "md5": "14416f644a8ce6b2843f92cb2b96c052",
             "sha256": "ae2d2d5e503177d8a530fdd2a42497061167c587cc291007a6c7fcb3d87ed71d",
             "level": "10",
-            "proposer": "anco",
             "comment": "sl10? 同時押し 乱打 着地 連皿",
             "submission": 930,
             "cite_url": "https://stellabms.xyz/s/dp/930"
@@ -7142,7 +7193,6 @@
             "md5": "5aad4ac350401297b15e92c4d7267c43",
             "sha256": "a16d9528859b8cc31df1c33cdb0cd85794dcb9cebc64983d6006ac7fbef7b561",
             "level": "10",
-            "proposer": "Koky",
             "comment": "★9~10",
             "submission": 921,
             "cite_url": "https://stellabms.xyz/s/dp/921"

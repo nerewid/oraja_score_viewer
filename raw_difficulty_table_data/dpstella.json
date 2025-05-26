@@ -517,7 +517,6 @@
             "md5": "a1e1a3904b1823e35290ca0ab7cde264",
             "sha256": "2ea3c30284b75d78dd1cfb04f7632864df41b1ab005684fcb16475d7329ce7a4",
             "level": "1",
-            "proposer": "anco",
             "comment": "st1? 同梱譜面 乱打 ラスト回復",
             "submission": 176,
             "cite_url": "https://stellabms.xyz/s/dpst/176"
@@ -889,10 +888,22 @@
             "md5": "f69d34f26811cd858eccae2d1db64cbd",
             "sha256": "8498f6a944f3554b2b07a9b9e7846b5ae87efd1d1f20126a415d773f37932e15",
             "level": "2",
-            "proposer": "anco",
             "comment": "st0~1? 同時押し+ゴミ付き階段 認識難のLN地帯あり(イージー影響なし)",
             "submission": 178,
             "cite_url": "https://stellabms.xyz/s/dpst/178"
+        },
+        {
+            "title": "Berry Go!! [sweet and tiny apocalypse]",
+            "artist": "Freezer feat. 妃苺 obj: shiba",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=23&event=116",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1044",
+            "md5": "ba49b51f4e07cb03c47b78bb08164b62",
+            "sha256": "f76db7f3541698b79683de448dabe4876a60c639e2caa6ff364e191bb2e189ae",
+            "level": "2",
+            "proposer": "anco",
+            "comment": "st2~3? 同時押し 隣接皿",
+            "submission": 185,
+            "cite_url": "https://stellabms.xyz/s/dpst/185"
         },
         {
             "title": "Bouquet colore [Fatalism]",
@@ -905,6 +916,19 @@
             "comment": "同梱SPAと比較してズレ抜け無し 回復込みでsl12",
             "submission": 75,
             "cite_url": "https://stellabms.xyz/s/dpst/75"
+        },
+        {
+            "title": "Critical Cannonball [DP MIYATHER]",
+            "artist": "SEPHID mov LankaNIK / obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=129",
+            "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpihTubgMTX30XJ8bbI?e=RCCsZJ",
+            "md5": "6b0c2de562462a6b73e5a42a9841f2f4",
+            "sha256": "78aea08d31820ab15f164fa79b8afced44fbb8ef9b5e46842535ddb6117b2086",
+            "level": "2",
+            "proposer": "anco",
+            "comment": "st1~2? 乱打 連皿",
+            "submission": 184,
+            "cite_url": "https://stellabms.xyz/s/dpst/184"
         },
         {
             "title": "CYCLONE [Gravity Distorting Module]",
@@ -1022,7 +1046,6 @@
             "md5": "90355714387c892aa6a2ce1b704c52f7",
             "sha256": "09145c4c19b4cdaf2c7437de21201169cfdf49ea713c4198def1a0a5bbb2fa83",
             "level": "3",
-            "proposer": "anco",
             "comment": "st2? 二重乱打 微縦連 連皿",
             "submission": 177,
             "cite_url": "https://stellabms.xyz/s/dpst/177"
@@ -1047,7 +1070,6 @@
             "md5": "fef9c8cc45f119fcb963ab0c5109fbf5",
             "sha256": "4c62df7cca8c748e42310a35a5faf1d0510421e082dfa4f31ffaa5d869198d5d",
             "level": "3",
-            "proposer": "P.ACiD",
             "comment": "★★5~6",
             "submission": 179,
             "cite_url": "https://stellabms.xyz/s/dpst/179"
@@ -1419,7 +1441,6 @@
             "md5": "e0fcfcd747dffafe727b16edea8c3cbd",
             "sha256": "b0b61e1cf8586f9c6603713f29d1af713f5ce5cf959a37828d8c544ff2e2bd20",
             "level": "5",
-            "proposer": "P.ACiD",
             "comment": "★★8, 노트에러 수정본",
             "submission": 180,
             "cite_url": "https://stellabms.xyz/s/dpst/180"
@@ -1623,7 +1644,6 @@
             "md5": "cb3a82bb726fb910139f2a2647d4540e",
             "sha256": "484216b0bb4a7d940f245ff5d2f2f860d76155e2b9e47ebf159591c85adca098",
             "level": "6",
-            "proposer": "P.ACiD",
             "comment": "★★9",
             "submission": 183,
             "cite_url": "https://stellabms.xyz/s/dpst/183"

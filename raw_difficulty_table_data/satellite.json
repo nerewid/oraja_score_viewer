@@ -648,7 +648,6 @@
             "md5": "e0df51d8c6d17a5bedcfa71feeef0fde",
             "sha256": "bb4775f86c26b63601033f1e568981ad4568805215f904f5b493cd7fd2fd4d9d",
             "level": "0",
-            "proposer": "hecando",
             "comment": "PABAT! 2025 同梱譜面",
             "submission": 3477,
             "cite_url": "https://stellabms.xyz/s/sl/3477"
@@ -2304,6 +2303,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/3112"
         },
         {
+            "title": "エヴァネセント [Moonlight]",
+            "artist": "stuv + qfeileadh BGA:kazari / OBJ:hecando",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=23&event=142",
+            "url_diff": "https://stellabms.xyz/upload/5533",
+            "md5": "335d1a46f3d01d2a0a97b4eec3c1c2a0",
+            "sha256": "93fd47c5c64e261a1223d9e6e4cde0b149f8360317d7ebc40b30c12fa371df48",
+            "level": "0",
+            "proposer": "hecando",
+            "comment": "自薦 / BPM142 stream, jacks, LN",
+            "submission": 3514,
+            "cite_url": "https://stellabms.xyz/s/sl/3514"
+        },
+        {
             "title": "カウガールとおもちゃの拳銃 [Another]",
             "artist": "ああああ obj:0war1a",
             "url": "https://drive.google.com/file/d/0B8GwtzMj7C4gTEZ2aDF0M0RtWFk/view",
@@ -2453,7 +2465,6 @@
             "md5": "ac5962ee223690f039d9865d85f2d1ea",
             "sha256": "42153406b937925c3288479b9bc53070b1aba6b0cc411b54306e0d1cadc1e813",
             "level": "0",
-            "proposer": "七海",
             "submission": 3506,
             "cite_url": "https://stellabms.xyz/s/sl/3506"
         },
@@ -3375,7 +3386,6 @@
             "md5": "b3a5c942d242068ba9b64482a7287287",
             "sha256": "e220d39da2c073b3c6c03973f8f99ddca702f95bd0bd5d4a3384358d0ae6f15e",
             "level": "1",
-            "proposer": "Zris",
             "submission": 3481,
             "cite_url": "https://stellabms.xyz/s/sl/3481"
         },
@@ -5273,7 +5283,6 @@
             "md5": "5cc414b867abf4689ffe5cb259ef2460",
             "sha256": "f154821812fd62b9c67531878f23e7ca99bc74f473ae3c1e5be4d07c377ac199",
             "level": "2",
-            "proposer": "Seori",
             "comment": "PABAT! 2025 同梱譜面",
             "submission": 3475,
             "cite_url": "https://stellabms.xyz/s/sl/3475"
@@ -5286,7 +5295,6 @@
             "md5": "8b9a07d86a130da1b8cd98b255886618",
             "sha256": "38c07d8a9d19986ed29a6ae7dbc8d95362521dc6f8b8ff23b1f461d96ff52047",
             "level": "2",
-            "proposer": "SHAX.",
             "comment": "乱打+α",
             "submission": 3485,
             "cite_url": "https://stellabms.xyz/s/sl/3485"
@@ -5396,6 +5404,18 @@
             "level": "2",
             "submission": 1175,
             "cite_url": "https://stellabms.xyz/s/sl/1175"
+        },
+        {
+            "title": "Breakcore WTF!? [ZOI]",
+            "artist": "潤羽LeaFあ obj:SUZUKAZEΛ",
+            "url": "https://drive.usercontent.google.com/download?id=1OBDEf4HylKWztTz-G032Ojz6WGbzDPk2&export=download",
+            "url_diff": "https://x.com/suzukaze_ramuda/status/1873279212075008213",
+            "md5": "eb0bbc41a9fc25399c31cb3e210574b2",
+            "sha256": "e58572f124a5bfd459878fddd5186b3d9d18dd53ad021b88e9ea5bd5b10b0817",
+            "level": "2",
+            "comment": "ズレ抜け確認済み",
+            "submission": 3505,
+            "cite_url": "https://stellabms.xyz/s/sl/3505"
         },
         {
             "title": "Calamity Fortune [F]",
@@ -5821,7 +5841,6 @@
             "md5": "08d9d4851d165ab7275150026f6fafed",
             "sha256": "2a986208a53985f8b80dbeb896b28f702abaf74270b06baddc37b7cb4368dcd9",
             "level": "2",
-            "proposer": "Miyako",
             "comment": "BOF:TT差分 BPM138 微纵连",
             "submission": 3496,
             "cite_url": "https://stellabms.xyz/s/sl/3496"
@@ -6021,7 +6040,6 @@
             "md5": "959582443c05bc6cf06d6ff81a1f812a",
             "sha256": "022e3d38dbdc823a3f4c266d4b72fc0d0d1099c8a7080fe2e678feb3d3997f01",
             "level": "2",
-            "proposer": "重野葵",
             "comment": "BPM128 ハネ，同時，NORMAL判定",
             "submission": 3494,
             "cite_url": "https://stellabms.xyz/s/sl/3494"
@@ -6245,7 +6263,6 @@
             "md5": "0862a9ce0662a2feb967e3670d94089c",
             "sha256": "26f2701aa5331141f2fce3c0956c386caaebeadb36e5c378331b2a98855c0cb4",
             "level": "2",
-            "proposer": "Miyako",
             "comment": "BPM180 乱打 双楼梯 同捆表=>3",
             "submission": 3492,
             "cite_url": "https://stellabms.xyz/s/sl/3492"
@@ -7757,19 +7774,6 @@
             "cite_url": "https://stellabms.xyz/s/sl/593"
         },
         {
-            "title": "Breakcore WTF!? [ZOI]",
-            "artist": "潤羽LeaFあ obj:SUZUKAZEΛ",
-            "url": "https://drive.usercontent.google.com/download?id=1OBDEf4HylKWztTz-G032Ojz6WGbzDPk2&export=download",
-            "url_diff": "https://x.com/suzukaze_ramuda/status/1873279212075008213",
-            "md5": "eb0bbc41a9fc25399c31cb3e210574b2",
-            "sha256": "e58572f124a5bfd459878fddd5186b3d9d18dd53ad021b88e9ea5bd5b10b0817",
-            "level": "3",
-            "proposer": "七海",
-            "comment": "ズレ抜け確認済み",
-            "submission": 3505,
-            "cite_url": "https://stellabms.xyz/s/sl/3505"
-        },
-        {
             "title": "Breeze [BITTER7]",
             "artist": "Kankitsu",
             "url": "https://venue.bmssearch.net/bmsshuin2/92",
@@ -7789,7 +7793,6 @@
             "md5": "02facb6787e7d8e85e9043a323a2d231",
             "sha256": "b1d85d3b4078623ccd1cc1b34ef339a955dd99fdb1e43768a7db06f3fb127c54",
             "level": "3",
-            "proposer": "ABKAOD",
             "comment": "BPM140 乱打",
             "submission": 3501,
             "cite_url": "https://stellabms.xyz/s/sl/3501"
@@ -8583,7 +8586,6 @@
             "md5": "021ef33f351f758e3f7a0325a03db35f",
             "sha256": "8b4dc1aaf3ea3a53d7dd0659a832b45e3b79916cb9430b3acf72654651c54742",
             "level": "3",
-            "proposer": "ABKAOD",
             "comment": "BPM145 微縦、乱打",
             "submission": 3488,
             "cite_url": "https://stellabms.xyz/s/sl/3488"
@@ -9352,7 +9354,6 @@
             "md5": "4349017f3a7fd5d4ca818d3a6cee9c84",
             "sha256": "82419b5f70053eca70b95302b7388a97887a33fccec46756a0286737add7e602",
             "level": "3",
-            "proposer": "重野葵",
             "comment": "BPM96 ズレ同時",
             "submission": 3468,
             "cite_url": "https://stellabms.xyz/s/sl/3468"
@@ -10055,6 +10056,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/2902"
         },
         {
+            "title": "GIFT [rather]",
+            "artist": "Notorious(Nota & TRIAL) BGA:inukoro / obj.rat",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=76&event=133",
+            "url_diff": "",
+            "md5": "48857de13c679962134bede85d8f1999",
+            "sha256": "10bd58f638b5bbc5b170bac728cbc329577fff93c2625869a29159ee8541f279",
+            "level": "4",
+            "proposer": "mikado",
+            "comment": "BPM200 乱打 ▼7",
+            "submission": 3495,
+            "cite_url": "https://stellabms.xyz/s/sl/3495"
+        },
+        {
             "title": "GOODRUSH [I]",
             "artist": "EBIMAYO obj:Lian",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=313&event=140",
@@ -10724,6 +10738,18 @@
             "cite_url": "https://stellabms.xyz/s/sl/373"
         },
         {
+            "title": "Unwelcome School (MSHC-MIX) [SP ANOTHER]",
+            "artist": "69 de 74 a.k.a. Sheena Ed Crow BGI:はしたかさん",
+            "url": "https://venue.bmssearch.net/kivotos/13",
+            "url_diff": "",
+            "md5": "832c4e2dccd3b3b485de2e4095a2ae92",
+            "sha256": "e5a6099063d6ed56d2bf803d0eb1956f0025f2fcdeb140d4257248b36baa418f",
+            "level": "4",
+            "proposer": "qtp13",
+            "submission": 3521,
+            "cite_url": "https://stellabms.xyz/s/sl/3521"
+        },
+        {
             "title": "Verktix [SP INSANE]",
             "artist": "RicoLys BGA : raii  obj : 「B」",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=222&event=127",
@@ -11144,7 +11170,6 @@
             "md5": "3c8bc677ac41123d3778986265b47f7f",
             "sha256": "601e301b26f489a18a00af630d36f1209702038f5b35b7e3b462ba3c56277835",
             "level": "4",
-            "proposer": "Seori",
             "comment": "PABAT! 2025 同梱譜面, BPM174 同時押し",
             "submission": 3476,
             "cite_url": "https://stellabms.xyz/s/sl/3476"
@@ -11501,7 +11526,6 @@
             "md5": "8a686cbf0baac8736554680ca095ef0e",
             "sha256": "33e39e911002b45ec8cdda641df2da8a7e3a01c5d055119ae5a6a19e9a6f3d7d",
             "level": "5",
-            "proposer": "mikado",
             "comment": "BPM190 同時押しメイン",
             "submission": 3504,
             "cite_url": "https://stellabms.xyz/s/sl/3504"
@@ -11561,7 +11585,6 @@
             "md5": "5e9dcfae52da50bc072e88eb1162684b",
             "sha256": "6ffdf6bfb6f2de021cd368321a16b1df6a672ff66b8cd0cfffff0b7346027e54",
             "level": "5",
-            "proposer": "重野葵",
             "comment": "BPM200 乱打，軸，同時",
             "submission": 3467,
             "cite_url": "https://stellabms.xyz/s/sl/3467"
@@ -12331,6 +12354,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/3133"
         },
         {
+            "title": "Teravolt [Volt Tackle]",
+            "artist": "かんざきしおん obj:MiKaDo",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=45&event=135",
+            "url_diff": "https://stellabms.xyz/upload/5493",
+            "md5": "c52c84fbbab7e81c093383814febf3bd",
+            "sha256": "63d486169a2a056566e8ec31fa5f21e9dc5e63229538e7c75b6eabe8f9a28fa7",
+            "level": "5",
+            "proposer": "ねふ",
+            "comment": "MA2021 同時押し系乱打 連皿",
+            "submission": 3511,
+            "cite_url": "https://stellabms.xyz/s/sl/3511"
+        },
+        {
             "title": "Term of Atrophy [ANOTHER]",
             "artist": "mrt",
             "url": "https://venue.bmssearch.net/ippaitukuru2019/25",
@@ -12881,7 +12917,6 @@
             "md5": "0cdbaf3106bf3ee4391e7415d74262d4",
             "sha256": "3ae91ef17fa2301f071fea1ef62b1596ee0d8a8e5b718143fab5bb3a63899679",
             "level": "5",
-            "proposer": "蕺草(LR2)",
             "comment": "自薦。BPM114のフィジ横系",
             "submission": 3510,
             "cite_url": "https://stellabms.xyz/s/sl/3510"
@@ -12953,7 +12988,6 @@
             "md5": "e599ee4bc40c5d950f6d0f82b88bfd2c",
             "sha256": "a63371cc72a90b5dd8a5b2aaad4808def7023ca3dafa2c5a1c08e5477ce72d73",
             "level": "5",
-            "proposer": "Naｚ",
             "comment": "sl5? bpm160 正規乱打 ラス殺し",
             "submission": 3498,
             "cite_url": "https://stellabms.xyz/s/sl/3498"
@@ -13344,7 +13378,6 @@
             "md5": "2463ee293a812825590257c17d02f86b",
             "sha256": "63840fdda1cbd07825bb736131610549856ed08ff1729253133e8a65bc53166d",
             "level": "6",
-            "proposer": "qtp13",
             "submission": 3491,
             "cite_url": "https://stellabms.xyz/s/sl/3491"
         },
@@ -13666,6 +13699,17 @@
             "submission": 109,
             "sha256": "b9f1823d9bcac78f0b982c9a871ad00d8c93ff7f5144ce2720510e6201be6574",
             "cite_url": "https://stellabms.xyz/s/sl/109"
+        },
+        {
+            "title": "Lyrith -迷宮リリス- [HARD]",
+            "artist": "ユメミド Movie:テンソル / Illust:遥壱朗 / Arrange:LeaF/obj:赤い人",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=218&event=116",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/yume_Lyrith-HARD.bms",
+            "md5": "d8a783bf7161ddca27b74e6037cc188b",
+            "sha256": "ee8d5334984d0f0eb31e28690f3f8b297a564eecfe44608658bcfe837e42c0cb",
+            "level": "6",
+            "submission": 3474,
+            "cite_url": "https://stellabms.xyz/s/sl/3474"
         },
         {
             "title": "Maxi [Citrulline]",
@@ -14692,7 +14736,6 @@
             "md5": "354fde4fd39f40af7760a9284995e2cc",
             "sha256": "a8d8ecff430af467b4fa8988e335b7980add1a72db67352a21484f7cb869e429",
             "level": "7",
-            "proposer": "밍대",
             "comment": "145 jack",
             "submission": 3489,
             "cite_url": "https://stellabms.xyz/s/sl/3489"
@@ -15176,7 +15219,6 @@
             "md5": "ac46a9866f68423831d240ca0119e367",
             "sha256": "cfe9c9c9fa5e161c6e80f628a6a8478db1cc6e4c0e05f85937107d7cfb9193f8",
             "level": "7",
-            "proposer": "ABKAOD",
             "comment": "BPM170 乱打",
             "submission": 3484,
             "cite_url": "https://stellabms.xyz/s/sl/3484"
@@ -15204,18 +15246,6 @@
             "comment": "sl6~7",
             "submission": 710,
             "cite_url": "https://stellabms.xyz/s/sl/710"
-        },
-        {
-            "title": "Lyrith -迷宮リリス- [HARD]",
-            "artist": "ユメミド Movie:テンソル / Illust:遥壱朗 / Arrange:LeaF/obj:赤い人",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=218&event=116",
-            "url_diff": "http://akred.web.fc2.com/bmsfile/yume_Lyrith-HARD.bms",
-            "md5": "d8a783bf7161ddca27b74e6037cc188b",
-            "sha256": "ee8d5334984d0f0eb31e28690f3f8b297a564eecfe44608658bcfe837e42c0cb",
-            "level": "7",
-            "proposer": "Naｚ",
-            "submission": 3474,
-            "cite_url": "https://stellabms.xyz/s/sl/3474"
         },
         {
             "title": "Materialize Anything [Almighty]",
@@ -15922,6 +15952,19 @@
             "level": "8",
             "submission": 178,
             "cite_url": "https://stellabms.xyz/s/sl/178"
+        },
+        {
+            "title": "After School Dessert(Uzawa&Kazusa HardCore Remix) [SP Cath Palug]",
+            "artist": "KARUT(Remixed by nekomimi_STRaw)  / BGA: MUSH.T / obj.rat",
+            "url": "https://venue.bmssearch.net/kivotos/3",
+            "url_diff": "",
+            "md5": "abf32a38d7f8bc98f57742e212938355",
+            "sha256": "bfb43200a3a70af578b34bde796a8b882a2895777262b2f13a6c147b6e1a18aa",
+            "level": "8",
+            "proposer": "重野葵",
+            "comment": "BPM192 緩急のついた乱打、同時押し",
+            "submission": 3515,
+            "cite_url": "https://stellabms.xyz/s/sl/3515"
         },
         {
             "title": "Alitatrieb [Insanity]",
@@ -17221,7 +17264,6 @@
             "md5": "935c7123beea775db997595c9fd4adaa",
             "sha256": "26c3189080ce5629cb257f3c2b811d44acf544c49b1d84db8f1a964768182371",
             "level": "8",
-            "proposer": "ClassICNooB",
             "comment": "Sl8? / bpm 170(127.5) 乱打",
             "submission": 3482,
             "cite_url": "https://stellabms.xyz/s/sl/3482"
@@ -17442,6 +17484,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/980"
         },
         {
+            "title": "Canon (blazing summer mix) [Hanon]",
+            "artist": "上杉うた with 星明 obj:trainer",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=54",
+            "url_diff": "https://stellabms.xyz/upload/5514",
+            "md5": "5c265d92d25f34b230074b912527b3a3",
+            "sha256": "d3b34db8f6d403b64eec8460a80c0ef8554694fe9d19db98a4d136ac6effc515",
+            "level": "9",
+            "proposer": "ABKAOD",
+            "comment": "BPM145 乱打 misalignments by arrange",
+            "submission": 3522,
+            "cite_url": "https://stellabms.xyz/s/sl/3522"
+        },
+        {
             "title": "Chasing Stars [LIMITLESS]",
             "artist": "lixound mov:Xquid",
             "url": "http://k-bms.com/party_pabat/party.jsp?board_num=21&num=39&order=reg&odtype=a",
@@ -17520,7 +17575,6 @@
             "md5": "964450bb7d528820f7f2a3aa932aaaee",
             "sha256": "45a38fac5c57d5af5a794ef06e9a8654859df746fdef2b7d573462ee2eb58c78",
             "level": "9",
-            "proposer": "berimetros",
             "comment": "BPM135 乱打、ガチ押し、同時押し　終盤から全て6個押し",
             "submission": 3483,
             "cite_url": "https://stellabms.xyz/s/sl/3483"
@@ -17569,7 +17623,6 @@
             "md5": "aaa34f005a196fb7511133fa8e58c6fb",
             "sha256": "89cf48938d0fea024fd4be2c1d23d47ce5115948d84de21fae4fd3df2d4e63df",
             "level": "9",
-            "proposer": "ABKAOD",
             "comment": "▼15 乱打",
             "submission": 3472,
             "cite_url": "https://stellabms.xyz/s/sl/3472"
@@ -17676,7 +17729,6 @@
             "md5": "de4824f6b8b740c468bb592016cc7d8e",
             "sha256": "2c52398e01fa4ca1b0813e28d4456eefd0990bed433baf0a89c28e30fa435a6a",
             "level": "9",
-            "proposer": "ABKAOD",
             "comment": "BOF:TT 乱打、ズレ",
             "submission": 3471,
             "cite_url": "https://stellabms.xyz/s/sl/3471"
@@ -18248,6 +18300,18 @@
             "comment": "総合力",
             "submission": 818,
             "cite_url": "https://stellabms.xyz/s/sl/818"
+        },
+        {
+            "title": "星月トラジコメディー [Magical Astronomy]",
+            "artist": "Yonder Voice obj:toraji",
+            "url": "https://venue.bmssearch.net/tohobmsr/27",
+            "url_diff": "https://stellabms.xyz/upload/5445",
+            "md5": "16a6f638b0070ab576d2d3d95893fe7a",
+            "sha256": "148852c6ffe4ab1002ab5b4ac695a14914ef0e2e0be00356af433ba4b4a2af3b",
+            "level": "9",
+            "comment": "BPM155 乱打",
+            "submission": 3508,
+            "cite_url": "https://stellabms.xyz/s/sl/3508"
         },
         {
             "title": "時架け -Luna-",
@@ -19056,18 +19120,6 @@
             "cite_url": "https://stellabms.xyz/s/sl/3281"
         },
         {
-            "title": "Q.E.D. [scarlet]",
-            "artist": "ZUN(Arr.きこにゃん) BGI:らりる Original:魔法少女たちの百年祭 obj:あかり",
-            "url": "https://venue.bmssearch.net/tohobmsr/4",
-            "url_diff": "https://stellabms.xyz/upload/4270",
-            "md5": "88684968568f1499a9f0cd68098a6935",
-            "sha256": "78c4483b4e73fb96ddb75c80739d194be09bb91d4fc171b066d3f301ef5e7893",
-            "level": "10",
-            "comment": "BPM196 同時押し",
-            "submission": 3247,
-            "cite_url": "https://stellabms.xyz/s/sl/3247"
-        },
-        {
             "title": "RAKUGAKI NOTE",
             "artist": "kas_0120",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=84&event=131",
@@ -19505,19 +19557,6 @@
             "comment": "150 微縦",
             "submission": 3273,
             "cite_url": "https://stellabms.xyz/s/sl/3273"
-        },
-        {
-            "title": "星月トラジコメディー [Magical Astronomy]",
-            "artist": "Yonder Voice obj:toraji",
-            "url": "https://venue.bmssearch.net/tohobmsr/27",
-            "url_diff": "https://stellabms.xyz/upload/5445",
-            "md5": "16a6f638b0070ab576d2d3d95893fe7a",
-            "sha256": "148852c6ffe4ab1002ab5b4ac695a14914ef0e2e0be00356af433ba4b4a2af3b",
-            "level": "10",
-            "proposer": "fuko",
-            "comment": "BPM155 乱打",
-            "submission": 3508,
-            "cite_url": "https://stellabms.xyz/s/sl/3508"
         },
         {
             "title": "煉情ミスティフィリア [Purgatory]",
@@ -20326,6 +20365,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/3289"
         },
         {
+            "title": "Let me go Seaside (Sao-Sao Brilliance Mix) [yumether]",
+            "artist": "KARUT(Arr.アリスク大好きクン） / obj:夢瑠",
+            "url": "https://venue.bmssearch.net/kivotos/10",
+            "url_diff": "https://dl.dropboxusercontent.com/scl/fi/mblnadfc1g2scgd10edkt/_saosao_yume.zip?rlkey=cqnbh60h5hpyizjv529vej93x&st=9bj4d38h",
+            "md5": "955351c82863ee05c155698bd969f31a",
+            "sha256": "b3670ec50a26d46a9bbd907021dc4432c8df59191902388bceba9ed114f92730",
+            "level": "11",
+            "proposer": "fuko",
+            "comment": "BPM172 乱打 微連打",
+            "submission": 3520,
+            "cite_url": "https://stellabms.xyz/s/sl/3520"
+        },
+        {
             "title": "LIGHTNING STAIRWAY [SPIRAL++]",
             "artist": "shimizushi BGA : karoeya & a.a / obj : monaka",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=268&event=104",
@@ -20513,6 +20565,18 @@
             "comment": "物量、体力",
             "submission": 869,
             "cite_url": "https://stellabms.xyz/s/sl/869"
+        },
+        {
+            "title": "Q.E.D. [scarlet]",
+            "artist": "ZUN(Arr.きこにゃん) BGI:らりる Original:魔法少女たちの百年祭 obj:あかり",
+            "url": "https://venue.bmssearch.net/tohobmsr/4",
+            "url_diff": "https://stellabms.xyz/upload/4270",
+            "md5": "88684968568f1499a9f0cd68098a6935",
+            "sha256": "78c4483b4e73fb96ddb75c80739d194be09bb91d4fc171b066d3f301ef5e7893",
+            "level": "11",
+            "comment": "BPM196 同時押し",
+            "submission": 3247,
+            "cite_url": "https://stellabms.xyz/s/sl/3247"
         },
         {
             "title": "R.I.P. [GOD]",
@@ -22151,7 +22215,6 @@
             "md5": "5a466754ae1eff3741dcf58b4d22d0a0",
             "sha256": "e48b46cc29d5448e5be854467152389dc77200ed6ef67dcebf147f750980be08",
             "level": "12",
-            "proposer": "ABKAOD",
             "comment": "BPM156 微連打、フィジカル",
             "submission": 3487,
             "cite_url": "https://stellabms.xyz/s/sl/3487"
@@ -22579,7 +22642,6 @@
             "md5": "6d7bc9cabb8db24f9d7590ee41d218ba",
             "sha256": "ebd21c9d7b621ea10f98dce9ff1620d3517b0f8bcd2cfffcd0769736fccc9843",
             "level": "12",
-            "proposer": "fuko",
             "comment": "キー音定義の並べ替えあり",
             "submission": 3509,
             "cite_url": "https://stellabms.xyz/s/sl/3509"
@@ -22893,18 +22955,6 @@
             "comment": "体力",
             "submission": 517,
             "cite_url": "https://stellabms.xyz/s/sl/517"
-        },
-        {
-            "title": "音碧のマギア・オムニア [蒼穹]",
-            "artist": "Midnight Shift illus. Skugga obj. Guanacoite",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=145",
-            "url_diff": "https://stellabms.xyz/upload/4909",
-            "md5": "0428101248f61b844c9fff12078c67de",
-            "sha256": "a9add15d8d97fc01a18ae482b37a4264d2270c4f9d028b4371b3ae214839805a",
-            "level": "12",
-            "comment": "BPM205 乱打 同時押し",
-            "submission": 3405,
-            "cite_url": "https://stellabms.xyz/s/sl/3405"
         },
         {
             "title": "馴鹿之骸 [x2]",
