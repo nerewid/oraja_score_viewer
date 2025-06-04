@@ -1,0 +1,73 @@
+name: Weekly Tables Update
+
+on:
+  schedule:
+    # 毎週日曜日、協定世界時(UTC)の午後1時 (JSTの午後10時) に実行
+    - cron: '0 13 * * 0'
+  workflow_dispatch:
+
+jobs:
+  run-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # リポジトリへの書き込み権限を付与
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 全てのブランチとコミット履歴を取得 (マージに必要)
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies (if any)
+        run: |
+          pip install requests
+
+      - name: Run Python script 1
+        run: |
+          echo "Fetching tables..."
+          python py/fetch_tables.py
+
+      - name: Run Python script 2
+        run: |
+          echo "Merging tables..."
+          python py/merge_tables.py
+
+      - name: Update file date 1
+        run: |
+          FILE_TO_UPDATE="./README.md"
+          CURRENT_DATE=$(TZ='Asia/Tokyo' date "+%Y/%m/%d") # JSTで現在の日付を取得 (例: 2025/06/05)
+
+          # '難易度表情報更新日' を含む行の 'YYYY/MM/DD' 形式の日付を置換
+          # s|...|...|g の部分は、'...' を検索し、'...' に置換し、行内の全てのマッチを置換する
+          # 正規表現 '[0-9]{4}/[0-9]{2}/[0-9]{2}' は 'YYYY/MM/DD' 形式にマッチ
+          sed -i "s|\(難易度表情報更新日.*\)[0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}|\1${CURRENT_DATE}|g" "${FILE_TO_UPDATE}"
+
+          echo "Updated date in ${FILE_TO_UPDATE} to ${CURRENT_DATE}"
+
+      - name: Update file date 2
+        run: |
+          FILE_TO_UPDATE="./index.html"
+          CURRENT_DATE=$(TZ='Asia/Tokyo' date "+%Y/%m/%d") # JSTで現在の日付を取得 (例: 2025/06/05)
+
+          # '難易度表情報更新日' を含む行の 'YYYY/MM/DD' 形式の日付を置換
+          # s|...|...|g の部分は、'...' を検索し、'...' に置換し、行内の全てのマッチを置換する
+          # 正規表現 '[0-9]{4}/[0-9]{2}/[0-9]{2}' は 'YYYY/MM/DD' 形式にマッチ
+          sed -i "s|\(難易度表情報更新日.*\)[0-9]\{4\}/[0-9]\{2\}/[0-9]\{2\}|\1${CURRENT_DATE}|g" "${FILE_TO_UPDATE}"
+
+          echo "Updated date in ${FILE_TO_UPDATE} to ${CURRENT_DATE}"
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create commit and push changes
+        run: |
+          git add . # 変更があった全てのファイルを追加
+          git commit -m "Automated update: Run script and update file date" || echo "No changes to commit"
+          git push
