@@ -411,6 +411,18 @@
         },
         {
             "level": "1",
+            "md5": "951f09aa0dcb7dbf074c7bfd95cb2d3d",
+            "sha256": "9e1b5e0aa0b9ce64fc036f7eca6977a560c618ca5ebae5c027d843875e74af24",
+            "genre": "TRANCE",
+            "title": "Lapis",
+            "artist": "SHIKI obj : Fairy",
+            "url": "http://shiki2.sakura.ne.jp/fohs.html",
+            "url_diff": "http://fairy213.exout.net/",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=951f09aa0dcb7dbf074c7bfd95cb2d3d"
+        },
+        {
+            "level": "1",
             "md5": "bc386751014decd338694cfa10b75772",
             "sha256": "cc28ddd1acea27e95913d6c6a5215bc935959f14c99e8234eff890d0ec604b74",
             "genre": "House",
@@ -3420,6 +3432,18 @@
             "url_diff": "http://dpbms.at-ninja.jp/hokan/[NONAME]Pangaea_a14.zip",
             "comment": "差分はURL直入力でDL可",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a59c594e4a0af84b378e26eda6190926"
+        },
+        {
+            "level": "5",
+            "md5": "695a80dc652d1085bd862ca100305bae",
+            "sha256": "55710651e6fd121fdf08c784102147785e0395bf8e74e551e890951bbbfec811",
+            "genre": "kawaiicore",
+            "title": "Pixel Princess",
+            "artist": "Lime / Limite feat.制限",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=418&event=137",
+            "url_diff": "https://bms.limiteknj.net/dp/Pixel%20Princess.rar",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=695a80dc652d1085bd862ca100305bae"
         },
         {
             "level": "5",

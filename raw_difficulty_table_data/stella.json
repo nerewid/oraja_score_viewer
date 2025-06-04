@@ -3837,7 +3837,6 @@
             "md5": "ded1c8b0ebe574a443670e768d4912c5",
             "sha256": "583e5a739aa709e8cb23d9b2455aa5d5d2e8ba882ce0457ce79ce9831f74930d",
             "level": "1",
-            "proposer": "百地たまて",
             "comment": "166BPM 5-1主体の乱打,微縦複合 st1～2? / total625(0.17%/note) *ズレ抜けは差分同梱のreadme参照",
             "submission": 2703,
             "cite_url": "https://stellabms.xyz/s/st/2703"
@@ -5596,7 +5595,6 @@
             "md5": "7ff064848e40cb1ee9301e839a8df9a2",
             "sha256": "0c5ec8b425f67c1c68dd7f134ed07484a5fad3939e27cb7728756924a479f19c",
             "level": "2",
-            "proposer": "potechang",
             "comment": "BPM152 連打複合",
             "submission": 2696,
             "cite_url": "https://stellabms.xyz/s/st/2696"
@@ -5870,7 +5868,6 @@
             "md5": "2198ea5652f3fcac3589bebcae0417c5",
             "sha256": "136df5236fe64e09890667d7f4bce05cefe711e27d3533fdfd2908e68de46ec4",
             "level": "2",
-            "proposer": "potechang",
             "comment": "BPM185 乱打 1-2?",
             "submission": 2695,
             "cite_url": "https://stellabms.xyz/s/st/2695"
@@ -6751,7 +6748,6 @@
             "md5": "77bafbba1eea24fa9774830eae5bdbb3",
             "sha256": "d18473ad90bcbd9759a626a392bb85ff9694ad92896d60a9c51a20358f2f08a3",
             "level": "2",
-            "proposer": "SHAX.",
             "comment": "161 多要素",
             "submission": 2693,
             "cite_url": "https://stellabms.xyz/s/st/2693"
@@ -7990,7 +7986,6 @@
             "md5": "8a2722913af2134d51b40e4e9ef3b094",
             "sha256": "04404116d9c1b25c5440b99743ffc3f689226eeaf6486ebea730b228e75cdd2f",
             "level": "2",
-            "proposer": "qtp13",
             "submission": 2685,
             "cite_url": "https://stellabms.xyz/s/st/2685"
         },
@@ -9136,7 +9131,6 @@
             "md5": "84cdb7b7bf9a2c8b3f1b7fc02791a855",
             "sha256": "d32b6d7083cfe6387d6ea340c421e898833082a5a47a62a1b87042bb8485c934",
             "level": "3",
-            "proposer": "ABKAOD",
             "comment": "BPM194 乱打",
             "submission": 2692,
             "cite_url": "https://stellabms.xyz/s/st/2692"
@@ -11324,7 +11318,6 @@
             "md5": "caa6f94b0fcbf1296ff5061af708190b",
             "sha256": "544e129f55a7a783113fe7f4835e19cc924ca348b72058de8d89b7daef2b46c4",
             "level": "4",
-            "proposer": "fuko",
             "comment": "BPM192 乱打",
             "submission": 2688,
             "cite_url": "https://stellabms.xyz/s/st/2688"
@@ -15186,7 +15179,6 @@
             "md5": "7da23847d77b96985612f40332cf5865",
             "sha256": "82eab7de9b108762f526f77ef96816b0a6393347a0becd3aafbd57cee182ba60",
             "level": "5",
-            "proposer": "potechang",
             "comment": "BPM130 ガチ押し",
             "submission": 2697,
             "cite_url": "https://stellabms.xyz/s/st/2697"
@@ -15689,7 +15681,6 @@
             "md5": "c4684f75549bda4e02040e5413c35bc2",
             "sha256": "f9351eefe17bf494ae671cfd55ad4043fa35f268a097518e82d444a6f24206b3",
             "level": "5",
-            "proposer": "qtp13",
             "comment": "",
             "submission": 2689,
             "cite_url": "https://stellabms.xyz/s/st/2689"
@@ -16853,7 +16844,6 @@
             "md5": "2ee452a5d99cc92919d66dd10ca9dd6c",
             "sha256": "f8473ca4ffc92342b2f39079107260c5fd0266a904f13c4ff898663134ccee28",
             "level": "6",
-            "proposer": "ABKAOD",
             "comment": "BPM212 同時押し、乱打",
             "submission": 2690,
             "cite_url": "https://stellabms.xyz/s/st/2690"
@@ -17822,7 +17812,6 @@
             "md5": "44fa89a69bc51bfe01bb95bdd479170d",
             "sha256": "60aa9f2e76b245efe93cb09ad3d2fd165639d603eb05834702a9fcf9bae0bcef",
             "level": "7",
-            "proposer": "伊原木ﾖｼﾐ",
             "comment": "ガチ押し",
             "submission": 2702,
             "cite_url": "https://stellabms.xyz/s/st/2702"
@@ -19424,7 +19413,6 @@
             "md5": "b6d618d2772297553214949804f0767f",
             "sha256": "a52c3bbe4c87877cf3818e07a8b8d318dfceaaa92bfadcd4a49a41d5281ff00f",
             "level": "8",
-            "proposer": "SHAX.",
             "submission": 2694,
             "cite_url": "https://stellabms.xyz/s/st/2694"
         },
@@ -19542,7 +19530,6 @@
             "md5": "43b152056ba31c443108b8fcfdb66b60",
             "sha256": "3e26783933750369fe371d5d66e2454ee49f7ac06fd21c4b58fb667d5b0d6eb2",
             "level": "8",
-            "proposer": "伊原木ﾖｼﾐ",
             "comment": "3連打",
             "submission": 2700,
             "cite_url": "https://stellabms.xyz/s/st/2700"
@@ -19937,7 +19924,6 @@
             "md5": "275affeeb7f434ea721f5af639cc5f62",
             "sha256": "342294641b9f1d87fc44249e3619ebfb1e971141d8f79fe2d45f5178ea9f08d8",
             "level": "8",
-            "proposer": "伊原木ﾖｼﾐ",
             "comment": "ガチ押し",
             "submission": 2699,
             "cite_url": "https://stellabms.xyz/s/st/2699"
@@ -20929,7 +20915,6 @@
             "md5": "c2b40100c831fa703795e425fc96db70",
             "sha256": "430aad9d88f30fd54f77cb87bbb72b5c294332ff5dd89bdafee7dfd3f985ae60",
             "level": "10",
-            "proposer": "qtp13",
             "submission": 2684,
             "cite_url": "https://stellabms.xyz/s/st/2684"
         },

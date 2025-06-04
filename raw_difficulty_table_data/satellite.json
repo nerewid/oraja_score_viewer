@@ -2310,7 +2310,6 @@
             "md5": "335d1a46f3d01d2a0a97b4eec3c1c2a0",
             "sha256": "93fd47c5c64e261a1223d9e6e4cde0b149f8360317d7ebc40b30c12fa371df48",
             "level": "0",
-            "proposer": "hecando",
             "comment": "自薦 / BPM142 stream, jacks, LN",
             "submission": 3514,
             "cite_url": "https://stellabms.xyz/s/sl/3514"
@@ -10063,7 +10062,6 @@
             "md5": "48857de13c679962134bede85d8f1999",
             "sha256": "10bd58f638b5bbc5b170bac728cbc329577fff93c2625869a29159ee8541f279",
             "level": "4",
-            "proposer": "mikado",
             "comment": "BPM200 乱打 ▼7",
             "submission": 3495,
             "cite_url": "https://stellabms.xyz/s/sl/3495"
@@ -10745,7 +10743,6 @@
             "md5": "832c4e2dccd3b3b485de2e4095a2ae92",
             "sha256": "e5a6099063d6ed56d2bf803d0eb1956f0025f2fcdeb140d4257248b36baa418f",
             "level": "4",
-            "proposer": "qtp13",
             "submission": 3521,
             "cite_url": "https://stellabms.xyz/s/sl/3521"
         },
@@ -12361,7 +12358,6 @@
             "md5": "c52c84fbbab7e81c093383814febf3bd",
             "sha256": "63d486169a2a056566e8ec31fa5f21e9dc5e63229538e7c75b6eabe8f9a28fa7",
             "level": "5",
-            "proposer": "ねふ",
             "comment": "MA2021 同時押し系乱打 連皿",
             "submission": 3511,
             "cite_url": "https://stellabms.xyz/s/sl/3511"
@@ -15961,7 +15957,6 @@
             "md5": "abf32a38d7f8bc98f57742e212938355",
             "sha256": "bfb43200a3a70af578b34bde796a8b882a2895777262b2f13a6c147b6e1a18aa",
             "level": "8",
-            "proposer": "重野葵",
             "comment": "BPM192 緩急のついた乱打、同時押し",
             "submission": 3515,
             "cite_url": "https://stellabms.xyz/s/sl/3515"
@@ -17491,7 +17486,6 @@
             "md5": "5c265d92d25f34b230074b912527b3a3",
             "sha256": "d3b34db8f6d403b64eec8460a80c0ef8554694fe9d19db98a4d136ac6effc515",
             "level": "9",
-            "proposer": "ABKAOD",
             "comment": "BPM145 乱打 misalignments by arrange",
             "submission": 3522,
             "cite_url": "https://stellabms.xyz/s/sl/3522"
@@ -20372,7 +20366,6 @@
             "md5": "955351c82863ee05c155698bd969f31a",
             "sha256": "b3670ec50a26d46a9bbd907021dc4432c8df59191902388bceba9ed114f92730",
             "level": "11",
-            "proposer": "fuko",
             "comment": "BPM172 乱打 微連打",
             "submission": 3520,
             "cite_url": "https://stellabms.xyz/s/sl/3520"

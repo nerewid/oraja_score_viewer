@@ -2619,6 +2619,18 @@
         },
         {
             "level": "5",
+            "md5": "90c353a2937ba298dc5331627701eb08",
+            "sha256": "274c3185683bdcc6bb0d76d770f3bc3e1ca077de857c636b4839585bc596052f",
+            "genre": "超地獄式歌葬曲",
+            "title": "地獄の業火で焼肉大会！？ [双・乃憂魔流]",
+            "artist": "さかみりと img:しぐれぷに子 notes:おさら",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=110",
+            "url_diff": "",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=90c353a2937ba298dc5331627701eb08"
+        },
+        {
+            "level": "5",
             "md5": "dc4fb8bdea50b8ed91c827c61712b300",
             "sha256": "27183696c7bd50289d5bb95939c1b89d96160089109e8cd65bb482de77e50843",
             "genre": "Grand Finale",
@@ -3435,18 +3447,6 @@
         },
         {
             "level": "6",
-            "md5": "90c353a2937ba298dc5331627701eb08",
-            "sha256": "274c3185683bdcc6bb0d76d770f3bc3e1ca077de857c636b4839585bc596052f",
-            "genre": "超地獄式歌葬曲",
-            "title": "地獄の業火で焼肉大会！？ [双・乃憂魔流]",
-            "artist": "さかみりと img:しぐれぷに子 notes:おさら",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=110",
-            "url_diff": "",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=90c353a2937ba298dc5331627701eb08"
-        },
-        {
-            "level": "6",
             "md5": "3ce722a2b12535b90cd1939c38d40aa9",
             "sha256": "dc3baf903ef230179b4a9d9630d0d4ef91fbaf58f09ad2b30974a5356fdd0919",
             "genre": "IDM",
@@ -3531,18 +3531,6 @@
         },
         {
             "level": "7",
-            "md5": "64d069958c03c641d95019dcca3aeaef",
-            "sha256": "195040563d583958dd8b387431a57e811f144ef6bf746d52a0897fbc9febf9bc",
-            "genre": "ELECTRONIC DANCE",
-            "title": "Another [Normal14]",
-            "artist": "polycube / obj:epics- mov : レク",
-            "url": "https://dropbox.bms.ms/u/86971081/bmsfiles/bof2013/plcb_another_ogg[bof2013][LAD].zip",
-            "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
-            "comment": "dpbms_0905.zip",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=64d069958c03c641d95019dcca3aeaef"
-        },
-        {
-            "level": "7",
             "md5": "2018d3137dd08f4b734b0fe3d8c9a9ef",
             "sha256": "c3bb2cd2bd4565d2e5670330628534d9091b0b6bbeb7fe93f9301f4a0e68fd93",
             "genre": "OLDSKOOL TECH*TRICK",
@@ -3564,6 +3552,18 @@
             "url_diff": "",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5973cc3dc32feb774176195fe61ead16"
+        },
+        {
+            "level": "7",
+            "md5": "0a596274ff258316787ea6962dbbace9",
+            "sha256": "32b6b36295bc07f5833e21292944f505c17dd624e7fbc0ed623b6d024642d715",
+            "genre": "Digi Rock",
+            "title": "Atomic Bomb [14KEY]",
+            "artist": "Mad-Script",
+            "url": "https://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
+            "url_diff": "",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0a596274ff258316787ea6962dbbace9"
         },
         {
             "level": "7",
@@ -3780,18 +3780,6 @@
             "url_diff": "",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e632b10ead6458c106bd16f5c0af932a"
-        },
-        {
-            "level": "7",
-            "md5": "f584eec959bce18315aeccabab4928f5",
-            "sha256": "0703d2e9bc9afefa49c9d9d22170f108fd16b76abeefec874464a5bc8f64ced6",
-            "genre": "HANDS UP",
-            "title": "Ms.Naive Princess [DP HYPER]",
-            "artist": "xenothium / Obj:ゆ〜兎",
-            "url": "https://nekokan.dyndns.info/~lobsak/genoside/#",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/117",
-            "comment": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/xenothium_mnp_YH.zip",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f584eec959bce18315aeccabab4928f5"
         },
         {
             "level": "7",
@@ -4155,15 +4143,15 @@
         },
         {
             "level": "8",
-            "md5": "0a596274ff258316787ea6962dbbace9",
-            "sha256": "32b6b36295bc07f5833e21292944f505c17dd624e7fbc0ed623b6d024642d715",
-            "genre": "Digi Rock",
-            "title": "Atomic Bomb [14KEY]",
-            "artist": "Mad-Script",
-            "url": "https://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
-            "url_diff": "",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0a596274ff258316787ea6962dbbace9"
+            "md5": "64d069958c03c641d95019dcca3aeaef",
+            "sha256": "195040563d583958dd8b387431a57e811f144ef6bf746d52a0897fbc9febf9bc",
+            "genre": "ELECTRONIC DANCE",
+            "title": "Another [Normal14]",
+            "artist": "polycube / obj:epics- mov : レク",
+            "url": "https://dropbox.bms.ms/u/86971081/bmsfiles/bof2013/plcb_another_ogg[bof2013][LAD].zip",
+            "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
+            "comment": "dpbms_0905.zip",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=64d069958c03c641d95019dcca3aeaef"
         },
         {
             "level": "8",
@@ -4500,6 +4488,18 @@
             "url_diff": "",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=eef125f63c3a66d108e6ab8d359510f1"
+        },
+        {
+            "level": "8",
+            "md5": "f584eec959bce18315aeccabab4928f5",
+            "sha256": "0703d2e9bc9afefa49c9d9d22170f108fd16b76abeefec874464a5bc8f64ced6",
+            "genre": "HANDS UP",
+            "title": "Ms.Naive Princess [DP HYPER]",
+            "artist": "xenothium / Obj:ゆ〜兎",
+            "url": "https://nekokan.dyndns.info/~lobsak/genoside/#",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/117",
+            "comment": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/xenothium_mnp_YH.zip",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f584eec959bce18315aeccabab4928f5"
         },
         {
             "level": "8",
@@ -6255,6 +6255,18 @@
         },
         {
             "level": "10",
+            "md5": "c8f052ee833f9f6e504a4f194a0aa466",
+            "sha256": "bca2caef754d9a36c90c94d8d467ff491200bdc483a4e59b7da36725f30bba6a",
+            "genre": "THE LAST HOPE",
+            "title": "Cryonix[DP HYPER]",
+            "artist": "sky_delta //obj:MIST",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=205&event=104",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1230",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c8f052ee833f9f6e504a4f194a0aa466"
+        },
+        {
+            "level": "10",
             "md5": "032f2470cdd02273a64a0aaa24d9a07f",
             "sha256": "5dd55873ce58ce69fb742dd30a0276cd565ac1d29925524268eb33d7d43786f9",
             "genre": "Mental Health",
@@ -6840,18 +6852,6 @@
             "url_diff": "",
             "comment": null,
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=3189f24b19e375d38d076850aaa3de9a"
-        },
-        {
-            "level": "10",
-            "md5": "903d24467122f911eeef98920b8d654a",
-            "sha256": "111510984b97221e0ceab2b335154a41fa45c89a4a41fa8bb8e890b1c9955bc8",
-            "genre": "SPECIAL FANFARE /// 14KEYS ANOTHER LN",
-            "title": "NEXT STAGE!!",
-            "artist": "Arranged by Y.W bga:山吹紗々",
-            "url": "http://www.yw-works.com/bms_pms.htm",
-            "url_diff": "",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=903d24467122f911eeef98920b8d654a"
         },
         {
             "level": "10",
@@ -8067,18 +8067,6 @@
         },
         {
             "level": "11",
-            "md5": "951f09aa0dcb7dbf074c7bfd95cb2d3d",
-            "sha256": "9e1b5e0aa0b9ce64fc036f7eca6977a560c618ca5ebae5c027d843875e74af24",
-            "genre": "TRANCE",
-            "title": "Lapis",
-            "artist": "SHIKI obj : Fairy",
-            "url": "http://shiki2.sakura.ne.jp/fohs.html",
-            "url_diff": "http://fairy213.exout.net/",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=951f09aa0dcb7dbf074c7bfd95cb2d3d"
-        },
-        {
-            "level": "11",
             "md5": "db6bc6a5067458b781516fbe5fe9800e",
             "sha256": "ad378f210899e23a9026f39ab5cbda52b4dbc413931c644b822f1a9d48c7fd9d",
             "genre": "Uplifting Trance",
@@ -8160,6 +8148,18 @@
             "url_diff": "https://mega.nz/folder/OdIkhSjJ#9QOnWaphRecXu18rC5V8mQ/folder/uJZShQQT",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2d513ee0299689fdc9b76bca523f88b2"
+        },
+        {
+            "level": "11",
+            "md5": "903d24467122f911eeef98920b8d654a",
+            "sha256": "111510984b97221e0ceab2b335154a41fa45c89a4a41fa8bb8e890b1c9955bc8",
+            "genre": "SPECIAL FANFARE /// 14KEYS ANOTHER LN",
+            "title": "NEXT STAGE!!",
+            "artist": "Arranged by Y.W bga:山吹紗々",
+            "url": "http://www.yw-works.com/bms_pms.htm",
+            "url_diff": "",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=903d24467122f911eeef98920b8d654a"
         },
         {
             "level": "11",
