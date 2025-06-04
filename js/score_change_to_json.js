@@ -38,7 +38,7 @@ document.getElementById("processData").addEventListener("click", async () => {
             return;
         }
         console.timeEnd("prepation"); // 処理時間の計測終了（準備）
-        console.log(mergedDifficultyTables); // 読み込まれた難易度テーブルのログ出力
+        //console.log(mergedDifficultyTables); // 読み込まれた難易度テーブルのログ出力
         const songDataMap = createSongDataMap(mergedDifficultyTables.songs); // 楽曲データをMD5ハッシュをキーとするMapに変換
 
         // SHA256ハッシュをキーとし、対応するMD5ハッシュを値とするMapを作成
@@ -46,7 +46,7 @@ document.getElementById("processData").addEventListener("click", async () => {
 
         console.time("find scores"); // 処理時間の計測を開始（スコア検索）
         let results = await findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap); // SHA256ハッシュに基づいてスコアログデータベースからスコアを検索
-        console.log(results); // 検索結果のログ出力
+        //console.log(results); // 検索結果のログ出力
         console.timeEnd("find scores"); // 処理時間の計測終了（スコア検索）
 
         console.time("create json"); // 処理時間の計測を開始（JSON作成）
@@ -65,6 +65,7 @@ document.getElementById("processData").addEventListener("click", async () => {
 
         // HTMLを画面に表示
         document.getElementById("results-area").innerHTML = html;
+        document.getElementById('tabA').style.display = 'block';
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
         document.getElementById("downloadJson").addEventListener("click", () => {
@@ -149,7 +150,7 @@ async function createSha256ToMd5Map(db, songs) {
     for (const [md5, sha256] of missingSha256Map) {
         newSha256ToMd5Map.set(sha256, md5); // SHA256ハッシュをキーとして、対応するMD5ハッシュをMapに登録
     }
-    console.log(newSha256ToMd5Map); // 作成されたSHA256ToMd5Mapのログ出力
+    //console.log(newSha256ToMd5Map); // 作成されたSHA256ToMd5Mapのログ出力
     console.timeEnd("append songdatamap"); // 処理時間の計測終了（楽曲データMap追加）
     return newSha256ToMd5Map; // 作成したMapを返す
 }
