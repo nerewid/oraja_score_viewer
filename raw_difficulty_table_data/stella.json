@@ -13224,6 +13224,19 @@
             "cite_url": "https://stellabms.xyz/s/st/2127"
         },
         {
+            "title": "TheFLEX2 [FL-EX]",
+            "artist": "ocogamas SubAtrist",
+            "url": "https://pupuly.nekokan.dyndns.info/bms/v/213",
+            "url_diff": "https://fsrs.github.io/table.html",
+            "md5": "97eab4608c426aa59d7dbee541ba389d",
+            "sha256": "d5118d8a9aaaabb464a669eecce6df942792007698419c5f30f9885bd17d3737",
+            "level": "4",
+            "proposer": "Mary_Sue（休止）",
+            "comment": "templateファイル基準ずれ抜けなし",
+            "submission": 2704,
+            "cite_url": "https://stellabms.xyz/s/st/2704"
+        },
+        {
             "title": "Thrill Trigger [Tune Tinker]",
             "artist": "K4Y5 BGA: FJA映像プロダクション / obj: qtp13",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=68&event=131",
@@ -13913,18 +13926,6 @@
             "comment": "st3~4 BPM120 ハネてるガチ押し",
             "submission": 1520,
             "cite_url": "https://stellabms.xyz/s/st/1520"
-        },
-        {
-            "title": "点、線、面、立体 [Hexachoron]",
-            "artist": "sound piercer / mov : kkkfff2 obj:trainer",
-            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=1&num=49&ckattempt=1",
-            "url_diff": "https://stellabms.xyz/upload/5434",
-            "md5": "663b7829418b2edbdf9b9c16d30435f9",
-            "sha256": "3e0d5460fc341445daf3d03c92c300b102d7a507b4b904623346e4666f263712",
-            "level": "4",
-            "comment": "BPM124 ガチ押し",
-            "submission": 2673,
-            "cite_url": "https://stellabms.xyz/s/st/2673"
         },
         {
             "title": "玉響サーチライト [陽溜ファーストステップ]",
@@ -16223,6 +16224,18 @@
             "submission": 290,
             "sha256": "de6bde347cdc114ffb596cbbcd827783b175d45c1792b87bf111ea6dae7ae503",
             "cite_url": "https://stellabms.xyz/s/st/290"
+        },
+        {
+            "title": "点、線、面、立体 [Hexachoron]",
+            "artist": "sound piercer / mov : kkkfff2 obj:trainer",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=1&num=49&ckattempt=1",
+            "url_diff": "https://stellabms.xyz/upload/5434",
+            "md5": "663b7829418b2edbdf9b9c16d30435f9",
+            "sha256": "3e0d5460fc341445daf3d03c92c300b102d7a507b4b904623346e4666f263712",
+            "level": "5",
+            "comment": "BPM124 ガチ押し",
+            "submission": 2673,
+            "cite_url": "https://stellabms.xyz/s/st/2673"
         },
         {
             "title": "煉獄-Purgatorium- [死ぬがよい]",

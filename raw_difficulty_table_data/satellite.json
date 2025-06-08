@@ -2126,6 +2126,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/2831"
         },
         {
+            "title": "Toccatina [SP ANOTHER]",
+            "artist": "Sobrem / Limite",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=398&event=146",
+            "url_diff": "",
+            "md5": "86a102b14c98f237312200d8059d489e",
+            "sha256": "64ec02c998e73d47dbe0ca9ad64f408841e2b0a2e218e14e62113291087b8916",
+            "level": "0",
+            "proposer": "ИиИ",
+            "comment": "BOF:TT 同梱譜面",
+            "submission": 3519,
+            "cite_url": "https://stellabms.xyz/s/sl/3519"
+        },
+        {
             "title": "TURNDOWN [PIETHER]",
             "artist": "Ras obj:YOURI",
             "url": "https://dropbox.bms.ms/u/63612044/TURNDOWN_bms.rar",
@@ -7560,6 +7573,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/2889"
         },
         {
+            "title": "隕石の降らない街 -another-",
+            "artist": "Lanait",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/94",
+            "url_diff": "",
+            "md5": "cceb04c9f4f78ab9d3fdf46592ed5784",
+            "sha256": "bc345687e7a64465bfd8cc25b4a797c1b9adeced4ee2d73ed587c969396a5f6b",
+            "level": "2",
+            "proposer": "mikado",
+            "comment": "BPM80 横に広い乱打",
+            "submission": 3512,
+            "cite_url": "https://stellabms.xyz/s/sl/3512"
+        },
+        {
             "title": "1000 Colored NeonRain [MiKather]",
             "artist": "月夜見 feat.小竹かなえ obj.MiKaDo",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=28&event=145",
@@ -10524,6 +10550,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/2788"
         },
         {
+            "title": "Red -reduction division- [EXTRA+]",
+            "artist": "nmk feat.かなえゆめ obj:monaka",
+            "url": "http://www1.axfc.net/uploader/H/so/117222.zip",
+            "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=03332",
+            "md5": "cdf91341bffa3db8bcaa09c836df552f",
+            "sha256": "7c80c38336c0b3a01a250d0404e5d2ccab28cab48e6a10cd3f9a6326166d1944",
+            "level": "4",
+            "proposer": "Lollipop",
+            "comment": "BPM135 chordstream",
+            "submission": 3517,
+            "cite_url": "https://stellabms.xyz/s/sl/3517"
+        },
+        {
             "title": "Romantic Children [SP ANOTHER2]",
             "artist": "ZUN / BMS:average BGA:のりろー",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=73&event=102",
@@ -10675,6 +10714,18 @@
             "comment": "乱打、同時押し / 180BPM, total520(0.22%/note)",
             "submission": 2894,
             "cite_url": "https://stellabms.xyz/s/sl/2894"
+        },
+        {
+            "title": "THEY'RE COMING!! #ムズイ！！",
+            "artist": "ですワ obj なのちゃん",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=146",
+            "url_diff": "https://stellabms.xyz/upload/5049",
+            "md5": "f7e5e1f84f704d5abf8eb4f6bfffc880",
+            "sha256": "b2fc4329bb28ca271c7a70a556b84675f86a34bccbd4dadd01430bfed6ffaf53",
+            "level": "4",
+            "comment": "BPM154 微縦",
+            "submission": 3464,
+            "cite_url": "https://stellabms.xyz/s/sl/3464"
         },
         {
             "title": "tinnitus -7 another-",
@@ -11715,6 +11766,18 @@
             "cite_url": "https://stellabms.xyz/s/sl/331"
         },
         {
+            "title": "Eureka [7_ex]",
+            "artist": "sasakure.UK x ArmyTom  w/z Bitplane / nbunnyuwu Movie:pam x HDLV",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=423&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4685",
+            "md5": "a55ff0f078a984e0834ee637e19e9be8",
+            "sha256": "1297a9c47543a00668f97ed01cf5e0bc55b60d9c5923c6509bd2dee84f8e768c",
+            "level": "5",
+            "proposer": "SHAX.",
+            "submission": 3534,
+            "cite_url": "https://stellabms.xyz/s/sl/3534"
+        },
+        {
             "title": "EVERLASTING HAPPiNESS↑ [ZOI]",
             "artist": "psi obj:SUZUKAZEΛ",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=109",
@@ -11866,18 +11929,6 @@
             "comment": "★9, 神譜面",
             "submission": 2913,
             "cite_url": "https://stellabms.xyz/s/sl/2913"
-        },
-        {
-            "title": "HOPE -Hopeful-",
-            "artist": "Notorious(Nota & TRIAL) BGA：出前 / obj : 七海",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=209&event=140",
-            "url_diff": "https://egosa0424.github.io/sabun/hope_nanami.zip",
-            "md5": "7e1419a9ce6ce67c76154e7b3ee805ca",
-            "sha256": "91dc865c62b9e41c3482d85085e4d3a8b4ea6c4b30b90db9ecad5a4c5fc3103c",
-            "level": "5",
-            "comment": "高速乱打",
-            "submission": 2674,
-            "cite_url": "https://stellabms.xyz/s/sl/2674"
         },
         {
             "title": "Horizon of Eternity",
@@ -13215,6 +13266,18 @@
             "cite_url": "https://stellabms.xyz/s/sl/1590"
         },
         {
+            "title": "Argentite [M1NG]",
+            "artist": "REVLIS obj:M1NG",
+            "url": "https://horie.synology.me:1048/BMS%20Library/Song/[REVLIS]%20Argentite.zip",
+            "url_diff": "https://stellabms.xyz/upload/5399",
+            "md5": "354fde4fd39f40af7760a9284995e2cc",
+            "sha256": "a8d8ecff430af467b4fa8988e335b7980add1a72db67352a21484f7cb869e429",
+            "level": "6",
+            "comment": "145 jack",
+            "submission": 3489,
+            "cite_url": "https://stellabms.xyz/s/sl/3489"
+        },
+        {
             "title": "Awaking Beat-From the next generation- [W]",
             "artist": "nmk feat.橘花音 obj. w",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=189&event=127",
@@ -13552,6 +13615,18 @@
             "comment": "BPM155 横に広い",
             "submission": 2864,
             "cite_url": "https://stellabms.xyz/s/sl/2864"
+        },
+        {
+            "title": "HOPE -Hopeful-",
+            "artist": "Notorious(Nota & TRIAL) BGA：出前 / obj : 七海",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=209&event=140",
+            "url_diff": "https://egosa0424.github.io/sabun/hope_nanami.zip",
+            "md5": "7e1419a9ce6ce67c76154e7b3ee805ca",
+            "sha256": "91dc865c62b9e41c3482d85085e4d3a8b4ea6c4b30b90db9ecad5a4c5fc3103c",
+            "level": "6",
+            "comment": "高速乱打",
+            "submission": 2674,
+            "cite_url": "https://stellabms.xyz/s/sl/2674"
         },
         {
             "title": "IDOLL [DOLLISH]",
@@ -14723,18 +14798,6 @@
             "comment": "Beneath the waves, I find another day... (高TOTAL)",
             "submission": 1158,
             "cite_url": "https://stellabms.xyz/s/sl/1158"
-        },
-        {
-            "title": "Argentite [M1NG]",
-            "artist": "REVLIS obj:M1NG",
-            "url": "https://horie.synology.me:1048/BMS%20Library/Song/[REVLIS]%20Argentite.zip",
-            "url_diff": "https://stellabms.xyz/upload/5399",
-            "md5": "354fde4fd39f40af7760a9284995e2cc",
-            "sha256": "a8d8ecff430af467b4fa8988e335b7980add1a72db67352a21484f7cb869e429",
-            "level": "7",
-            "comment": "145 jack",
-            "submission": 3489,
-            "cite_url": "https://stellabms.xyz/s/sl/3489"
         },
         {
             "title": "astral.exe [Insane]",
@@ -19720,6 +19783,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/1848"
         },
         {
+            "title": "514nm(Kucchi☆mix) [HARDEST]",
+            "artist": "Another Infinity vs ZUN Remixed by くっちー/ 差分 赤い人 BGA:chiArosCuro",
+            "url": "https://drive.google.com/file/d/1ByUtYyVXXDOgVWYmWZQsAhMQTn_Bm91T/view",
+            "url_diff": "",
+            "md5": "ef0871523302c3413d0ae100eda73bde",
+            "sha256": "5323ba3476cbe47e91740c57d9d8a3684351441c28d24a617d76bef490b2058c",
+            "level": "11",
+            "proposer": "Naｚ",
+            "comment": "乱打 sl11? BPM177",
+            "submission": 3527,
+            "cite_url": "https://stellabms.xyz/s/sl/3527"
+        },
+        {
             "title": "7 colors* -To The Future-",
             "artist": "Ym1024 feat. lamie* obj:七海千秋",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=390&event=88",
@@ -21248,6 +21324,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/1421"
         },
         {
+            "title": "\"Fresco\" [Type 38]",
+            "artist": "Lemi. obj:toraji",
+            "url": "https://venue.bmssearch.net/bmsshuin3/75",
+            "url_diff": "https://stellabms.xyz/upload/5505",
+            "md5": "d6e41bb94bf90bb014772838295b658f",
+            "sha256": "3c20f5aecb60bf480505e0093e7973ca6dfbca3367bd2b78615a8fd37eff7717",
+            "level": "12",
+            "proposer": "ABKAOD",
+            "comment": "BPM220 高速",
+            "submission": 3523,
+            "cite_url": "https://stellabms.xyz/s/sl/3523"
+        },
+        {
             "title": "-+　 -EX-",
             "artist": "daisan/さ",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=88",
@@ -21736,6 +21825,19 @@
             "cite_url": "https://stellabms.xyz/s/sl/1805"
         },
         {
+            "title": "evidence [Anti-Intellectualism]",
+            "artist": "Yusuke Takeuchi Object by И",
+            "url": "https://web.archive.org/web/20120109085440/http://www.commonsense.nu/songs/evidence_hq.rar",
+            "url_diff": "https://darksabun.github.io/event/bbbb/venue/",
+            "md5": "d5b87f434c5c1c16b8ab01862313426e",
+            "sha256": "226aac80989a9ef76374c64f9de0e0307f32cf3898e8f00887df86271cfc2db6",
+            "level": "12",
+            "proposer": "SHAX.",
+            "comment": "112 同時押し",
+            "submission": 3525,
+            "cite_url": "https://stellabms.xyz/s/sl/3525"
+        },
+        {
             "title": "exists Uniquely",
             "artist": "Lipschitz / Weierstrass",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=88",
@@ -21937,6 +22039,18 @@
             "comment": "BPM195 乱打",
             "submission": 3347,
             "cite_url": "https://stellabms.xyz/s/sl/3347"
+        },
+        {
+            "title": "LeVeL uP! [SP MAX]",
+            "artist": "YuKa",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=141",
+            "url_diff": "",
+            "md5": "4df72bea3b49d95f74cfea82f3e0b119",
+            "sha256": "c4bb86e3fee44c073dd99658a3519e7b3e32b71a2f8ca405f205dc90e566fe38",
+            "level": "12",
+            "comment": "BPM200の乱打　同梱譜面",
+            "submission": 2848,
+            "cite_url": "https://stellabms.xyz/s/sl/2848"
         },
         {
             "title": "Lucifuge Rofocale [EX+]",

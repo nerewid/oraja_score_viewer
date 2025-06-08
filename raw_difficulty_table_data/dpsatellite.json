@@ -4418,6 +4418,18 @@
             "cite_url": "https://stellabms.xyz/s/dp/363"
         },
         {
+            "title": "田中 -KATAKATA-",
+            "artist": "立秋 feat.ちょこ obj:ka2o",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=361&event=137",
+            "url_diff": "https://yaruki0.net/sabun/dp2021.html?s=09",
+            "md5": "24479651932a5b101b055744d32ba529",
+            "sha256": "e53870e6f34d427add32babcf41f3b8b27e80c37bd34e50f6a18e7e60305f58b",
+            "level": "5",
+            "comment": "同色多め 地雷ノーツあり",
+            "submission": 715,
+            "cite_url": "https://stellabms.xyz/s/dp/715"
+        },
+        {
             "title": "虹のわすれもの [DP INSANE]",
             "artist": "鈎兎(KagiUsagi) mov:朧烏 obj:Yosk!",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=354&event=142",
@@ -4509,6 +4521,18 @@
             "level": "6",
             "submission": 842,
             "cite_url": "https://stellabms.xyz/s/dp/842"
+        },
+        {
+            "title": "alive [DOUBLE]",
+            "artist": "くるぶっこちゃん",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=41&event=79",
+            "url_diff": "",
+            "md5": "9e96c901c34a99387768eda66fc15584",
+            "sha256": "ea89742c1b0fa8ddff42ddb8bb46ba7be4a3310c166061a4fd1db788aea6fd11",
+            "level": "6",
+            "proposer": "Zris",
+            "submission": 939,
+            "cite_url": "https://stellabms.xyz/s/dp/939"
         },
         {
             "level": "6",
@@ -4696,6 +4720,18 @@
             "comment": "同梱譜面",
             "submission": 520,
             "cite_url": "https://stellabms.xyz/s/dp/520"
+        },
+        {
+            "title": "How to make 音ゲ～曲! [DP 202THER+]",
+            "artist": "F Rabbeat / BMS: Nakaiankow BGA by もうり / obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=89&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3449",
+            "md5": "fc140a4f3e7a69467a00e6442bc3fcbf",
+            "sha256": "ffc6e4a9d3ebac0508d8a0327a4fb6ac684b130f5acdf1e91c50d954602bc73b",
+            "level": "6",
+            "proposer": "Zris",
+            "submission": 941,
+            "cite_url": "https://stellabms.xyz/s/dp/941"
         },
         {
             "title": "La souvenir [DPYoitherEASY]",
@@ -4992,18 +5028,6 @@
             "level": "6",
             "submission": 899,
             "cite_url": "https://stellabms.xyz/s/dp/899"
-        },
-        {
-            "title": "田中 -KATAKATA-",
-            "artist": "立秋 feat.ちょこ obj:ka2o",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=361&event=137",
-            "url_diff": "https://yaruki0.net/sabun/dp2021.html?s=09",
-            "md5": "24479651932a5b101b055744d32ba529",
-            "sha256": "e53870e6f34d427add32babcf41f3b8b27e80c37bd34e50f6a18e7e60305f58b",
-            "level": "6",
-            "comment": "同色多め 地雷ノーツあり",
-            "submission": 715,
-            "cite_url": "https://stellabms.xyz/s/dp/715"
         },
         {
             "title": "霖風 [14KEYS-Insane]",
