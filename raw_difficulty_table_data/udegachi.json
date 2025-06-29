@@ -3483,14 +3483,6 @@
         },
         {
             "level": "7",
-            "title": "Nextreme Generation [Beyond Generations]",
-            "md5": "4251fa62f82a3fabf6151ea004a473d3",
-            "comment": "",
-            "artist": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4251fa62f82a3fabf6151ea004a473d3"
-        },
-        {
-            "level": "7",
             "title": "NightTheater [ミラノ風ドリア]",
             "md5": "5c80ee45513849b75b586ffd2e74206f",
             "comment": "",
@@ -4331,6 +4323,14 @@
         },
         {
             "level": "9",
+            "title": "Nextreme Generation [Beyond Generations]",
+            "md5": "4251fa62f82a3fabf6151ea004a473d3",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4251fa62f82a3fabf6151ea004a473d3"
+        },
+        {
+            "level": "9",
             "title": "Noah's Ark [robo+]",
             "md5": "0911d013e4f3d903292418ef07b4e3c4",
             "comment": "",
@@ -4448,14 +4448,6 @@
             "comment": "",
             "artist": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=acad0e6529944c60e3c195102a984991"
-        },
-        {
-            "level": "9",
-            "title": "split second [Phantasm_Easy]",
-            "md5": "923bfe553214a3d46bdd153d3737e8a1",
-            "comment": "stろだに差分あるよ",
-            "artist": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=923bfe553214a3d46bdd153d3737e8a1"
         },
         {
             "level": "9",
@@ -4696,6 +4688,14 @@
             "comment": "",
             "artist": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2d3565fe28f0b42b4539247e06a7bed3"
+        },
+        {
+            "level": "10",
+            "title": "split second [Phantasm_Easy]",
+            "md5": "923bfe553214a3d46bdd153d3737e8a1",
+            "comment": "stろだに差分あるよ",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=923bfe553214a3d46bdd153d3737e8a1"
         },
         {
             "level": "10",
