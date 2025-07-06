@@ -4179,18 +4179,6 @@
         },
         {
             "level": "6",
-            "md5": "b77bbd67da65788b15484cfb987d68a2",
-            "sha256": "74fea82fddb65aae4692cd4808e775d7fc136b59d3061b2ec1bef0f4cf394b7d",
-            "genre": "HARDCORE",
-            "title": "It's \"alice\" dream [DP INSANE]",
-            "artist": "polysha / Obj:ゆ〜兎",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=92",
-            "url_diff": "http://flowermaster.web.fc2.com/",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b77bbd67da65788b15484cfb987d68a2"
-        },
-        {
-            "level": "6",
             "md5": "a267ea913718e363071f52c94890f516",
             "sha256": "3826610cbf520e4dfe416468c84aee343955cae2701d52e9b6cd96e81b27d178",
             "genre": "Pop / Her Story II",
@@ -5100,6 +5088,18 @@
             "url_diff": "http://objlr.kirara.st/",
             "comment": "14/04/17 BMS本体・差分共に入手可能。発狂DPBMS難易度表補完庫に曲及び差分ありhttps://onedrive.live.com/?id=863934608D908CD0%21105&cid=863934608D908CD0「plugout」フォルダ内",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=67a3e5a1c8885ea544cb688f77d7cb28"
+        },
+        {
+            "level": "7",
+            "md5": "b77bbd67da65788b15484cfb987d68a2",
+            "sha256": "74fea82fddb65aae4692cd4808e775d7fc136b59d3061b2ec1bef0f4cf394b7d",
+            "genre": "HARDCORE",
+            "title": "It's \"alice\" dream [DP INSANE]",
+            "artist": "polysha / Obj:ゆ〜兎",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=92",
+            "url_diff": "http://flowermaster.web.fc2.com/",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b77bbd67da65788b15484cfb987d68a2"
         },
         {
             "level": "7",

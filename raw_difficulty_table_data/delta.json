@@ -3,6 +3,18 @@
     "songs": [
         {
             "level": "1",
+            "md5": "4174adf043cd4b36073f80e91de31bc2",
+            "sha256": "f994755b6b4f7e14399b00a687714b3d4ef400176c82ecf14fa0250911d263bb",
+            "genre": "lofi/chill",
+            "title": "Aitai [DP NORMAL]",
+            "artist": "ESPITZ",
+            "url": "http://k-bms.com/party_pabat/party.jsp?board_num=23&num=28",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4174adf043cd4b36073f80e91de31bc2"
+        },
+        {
+            "level": "1",
             "md5": "fe4618268d5207532c9a6efb0f1509af",
             "sha256": "7aadb8384f1fe45f378e7656078d46f21830ecf16e26f1b5f6a2e58da85daf81",
             "genre": "Trance Hop",
@@ -156,6 +168,18 @@
             "url_diff": "",
             "comment": "2018/05/07 現在リンク切り",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=54405d1655eff7fe3362e67efde54206"
+        },
+        {
+            "level": "1",
+            "md5": "296270f569c91586a06771f3db6d2327",
+            "sha256": "46ae98eba83213de0753dd9eb51a0ad59be1f1d6ffcf65f75d0c8a7fb16e5cae",
+            "genre": "WALTZ",
+            "title": "XALICE [DP BEGINNER]",
+            "artist": "ShiraiC4 obj: misty.ls04",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=355&event=127",
+            "url_diff": "https://yaruki0.net/sabun/dp2019.html",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=296270f569c91586a06771f3db6d2327"
         },
         {
             "level": "1",
@@ -540,6 +564,18 @@
             "url_diff": "",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8bc87d5d91b283d179ae000518095117"
+        },
+        {
+            "level": "2",
+            "md5": "f808ec727c64c39a373e7013ab0bad11",
+            "sha256": "834e989a626a7d6b63b80f43101a38209ccecb37177c9c930da52699e51bca6a",
+            "genre": "Psybass",
+            "title": "茶室 [DP BEGINNER]",
+            "artist": "paraneumann mov:もじゃらむ / Obj:わかば",
+            "url": "https://venue.bmssearch.net/bmskanji2/2",
+            "url_diff": "http://wakaba-shirasu.velvet.jp/index.html",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f808ec727c64c39a373e7013ab0bad11"
         },
         {
             "level": "2",
