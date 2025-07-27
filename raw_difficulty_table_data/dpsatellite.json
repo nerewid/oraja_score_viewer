@@ -522,16 +522,6 @@
             "level": "0"
         },
         {
-            "id": 7019,
-            "md5": "b8cfc1f35a49c30610b3e7ae54bf9ec4",
-            "sha256": "eeeb7a8e522378cab7fbf0c6a1fa49862c8be25e47ab6276d6d57071d0a4b2b1",
-            "title": "キマグレ☆テキトウ・ポップミュージック！ [DP ANOTHER]",
-            "artist": "CYLTIE. Vo:初音ミク",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=135",
-            "url_diff": "",
-            "level": "0"
-        },
-        {
             "id": 3084,
             "md5": "2afacbc7bb2786a748d366fe4da62014",
             "sha256": "35fb7a59f16d9c6eaf3b5a366461477dabdd45d590009aad0cdfda24badb9fb1",
@@ -608,16 +598,6 @@
             "title": "ハッピーフェイクショー [DP Another]",
             "artist": "Ponchi♪ feat.はぁち obj:mathath",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=189&event=137",
-            "url_diff": "",
-            "level": "0"
-        },
-        {
-            "id": 3002,
-            "md5": "17e065f48caca8af9374dc953c9b06d4",
-            "sha256": "07961f6e16aa7ea954954a737219b299e6836dcab0c83997f08410eee3ac731e",
-            "title": "マッドメチャクチャニズム [DP ANOTHER]",
-            "artist": "69 de 74 BGI:れおん",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=127",
             "url_diff": "",
             "level": "0"
         },
@@ -6199,6 +6179,26 @@
             "artist": "Nakaiankow feat. 流音ヨゾラ Movie:MUICHIGO / obj:dogdog",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=127",
             "url_diff": "https://drive.google.com/file/d/1Wz9Qk9x6heVB6YujvFBgoIlder2Xevke/view?usp=drive_link",
+            "level": "10"
+        },
+        {
+            "id": 7019,
+            "md5": "b8cfc1f35a49c30610b3e7ae54bf9ec4",
+            "sha256": "eeeb7a8e522378cab7fbf0c6a1fa49862c8be25e47ab6276d6d57071d0a4b2b1",
+            "title": "キマグレ☆テキトウ・ポップミュージック！ [DP ANOTHER]",
+            "artist": "CYLTIE. Vo:初音ミク",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=135",
+            "url_diff": "",
+            "level": "10"
+        },
+        {
+            "id": 3002,
+            "md5": "17e065f48caca8af9374dc953c9b06d4",
+            "sha256": "07961f6e16aa7ea954954a737219b299e6836dcab0c83997f08410eee3ac731e",
+            "title": "マッドメチャクチャニズム [DP ANOTHER]",
+            "artist": "69 de 74 BGI:れおん",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=127",
+            "url_diff": "",
             "level": "10"
         }
     ]
