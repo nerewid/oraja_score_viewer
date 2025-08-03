@@ -1515,6 +1515,18 @@
         },
         {
             "level": "4",
+            "md5": "27ed3df37dab9fce1a535073262a36fb",
+            "sha256": "f5e2707b4b78e823aed3454c39f1404d5c2be31e6d7692643bd647fc47b75e25",
+            "genre": "Lily-TECHNOPOP",
+            "title": "Star Lily",
+            "artist": "あさり",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=164&event=142",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=27ed3df37dab9fce1a535073262a36fb"
+        },
+        {
+            "level": "4",
             "md5": "9b88d38befc0ce185da0ef2dbaff5e8e",
             "sha256": "e8dd0e62ab699cb44d9b274c3f400e6e85f7a26e3f42bd0cce0141ed90495505",
             "genre": "Progressive Trance / J-Trance",
@@ -1656,6 +1668,18 @@
             "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
             "comment": "-差分URL Mirrorhttp://dl.dropbox.com/s/v0wdrnwozvnzlna/%5BDP%20BMS%E5%B7%AE%E5%88%86%5D%20Eventhorizon%20DP%20Set.zip?dl=0",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=eaeb61fb74d9d7b7b35250109daff6e7"
+        },
+        {
+            "level": "4",
+            "md5": "931c1f82dd1ae5105572c848e61bd774",
+            "sha256": "fb2932ebbd8c7bb48ab058ed9a6f0f7e5b837909758e90c6d672dbefaf68b7ed",
+            "genre": "Closed Future",
+            "title": "呼無のカミサマ [DP NORMAL]",
+            "artist": "Se-U-Ra obj:RaiN",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=120",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1333",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=931c1f82dd1ae5105572c848e61bd774"
         },
         {
             "level": "4",
@@ -2391,6 +2415,18 @@
         },
         {
             "level": "5",
+            "md5": "baf0cd5950cd5c2a137f8169c44a28ad",
+            "sha256": "6ffa125cf73daffa9428cce893d5562568895c5f65f368889557beba5cdf9b8b",
+            "genre": "Bossa pop/Crossover",
+            "title": "route #10 [DP NORMAL]",
+            "artist": "punchhh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=114&event=131",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=baf0cd5950cd5c2a137f8169c44a28ad"
+        },
+        {
+            "level": "5",
             "md5": "112a44dd3ec1ef3139518700ebecf852",
             "sha256": "c300250920390b31c86c2203579dc5dfea84967487d787e2c3bfc072ab7eb876",
             "genre": "Progressive House",
@@ -2412,6 +2448,18 @@
             "url_diff": "http://dpbms.at-ninja.jp/hokan/",
             "comment": "差分URLの「BOF2013 DP差分パッケージ」より",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d5f0c3c48521d1d1e13a8973f431136c"
+        },
+        {
+            "level": "5",
+            "md5": "0acd45dab3b9bc82697a6ad6c5d1d7b8",
+            "sha256": "acbf9533f8b878e99dfa71eddc8cd0ff47ace2ec92bb7af6b654181ca6003c09",
+            "genre": "Recontextualized Hi-tech",
+            "title": "Stream Amalgamate [DP NORMAL]",
+            "artist": "yusi. / Limite",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=383&event=137",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0acd45dab3b9bc82697a6ad6c5d1d7b8"
         },
         {
             "level": "5",
@@ -2676,6 +2724,18 @@
             "url_diff": "http://nekokan.dyndns.info/~lobsak/genocide/grade.html",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dc4fb8bdea50b8ed91c827c61712b300"
+        },
+        {
+            "level": "5",
+            "md5": "b8ce6699ccca0d0dd0d6c22fab90d1ed",
+            "sha256": "a7586be2311de47afe44fe3435b816911f2d06240f3efab3446ecd4b2df2ebfe",
+            "genre": "POPS",
+            "title": "桜風パレット [DP NORMAL]",
+            "artist": "リジィ vo. さとうささら / BGI:mado obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=147",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b8ce6699ccca0d0dd0d6c22fab90d1ed"
         },
         {
             "level": "5",
@@ -3252,6 +3312,18 @@
             "url_diff": "",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=aa48dcf2d9e1255d486b68cf4ab7030c"
+        },
+        {
+            "level": "6",
+            "md5": "4c5cdfdc262ddb3442bb2af931a32c3c",
+            "sha256": "df914e02960fa5fb1137a0e6ecd0a7950a97f51739d8a5a991363dad0855d22a",
+            "genre": "SWING WALTZ /// 14KEYS HYPER",
+            "title": "pretty kitty, yes?",
+            "artist": "Y.W BGA: kotomi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=142",
+            "url_diff": "",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4c5cdfdc262ddb3442bb2af931a32c3c"
         },
         {
             "level": "6",
