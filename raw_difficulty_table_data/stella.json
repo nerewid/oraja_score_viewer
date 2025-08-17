@@ -932,6 +932,16 @@
             "level": "0"
         },
         {
+            "id": 7450,
+            "md5": "5cb6d937178c27e0bf3f9ced0537a597",
+            "sha256": "bf20e49a7038e3a07c64b4815bcabcab10ff3dbf6440fb2cfc47fc2a475b51d2",
+            "title": "orangegirl sentiment [EX]",
+            "artist": "recognize m. ;bgaparty obj.うに",
+            "url": "http://www.pixellife.x0.to/event/revival/",
+            "url_diff": "https://stellabms.xyz/upload/5980",
+            "level": "0"
+        },
+        {
             "id": 497,
             "md5": "17b5d2500efe034ab377e85ee7a929c7",
             "sha256": "7b9bf627f90fcb1f8cd6e6f1e157f27a9de587e179be731c66651d6ea8eaf40c",
@@ -3132,16 +3142,6 @@
             "level": "1"
         },
         {
-            "id": 6625,
-            "md5": "ebf75354a4bd0f8bfb8d1702a4a67bb6",
-            "sha256": "ebbc80f7feda47aad921b32c034d38131648f416dc2b7b801554d664e4dd126c",
-            "title": "Neo Side [Run Away]",
-            "artist": "Harunao, Kanna obj:E BGI: LiZiO",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=332&event=140",
-            "url_diff": "https://stellabms.xyz/upload/4435",
-            "level": "1"
-        },
-        {
             "id": 6046,
             "md5": "e6315fbea415eb4432b2dfdcb82cb724",
             "sha256": "fc76588750155723bb780d655cb044d0d5f296dd2ea3c7d00926763939423206",
@@ -3199,6 +3199,16 @@
             "artist": "SHIKI / obj:Lian",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=276&event=123",
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05511.zip",
+            "level": "1"
+        },
+        {
+            "id": 839,
+            "md5": "7f1623b119446641b90ed9ac88396566",
+            "sha256": "a219f4db0372d641ee8e5334b15fddd6767e8e8f92121683e0e6ac9888157f68",
+            "title": "P8107 -Paramount-",
+            "artist": "onoken obj: qtp13",
+            "url": "http://web.archive.org/web/20070111193502/www107.sakura.ne.jp/~onoken/htmls/bms.html",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02247.zip",
             "level": "1"
         },
         {
@@ -4462,6 +4472,16 @@
             "level": "1"
         },
         {
+            "id": 7434,
+            "md5": "720fc53ff356b25372d018d32cebde3a",
+            "sha256": "3ba06ed2029de1d91b664c723cce79df17a191a59b5b5c025c8c1921ca05e32e",
+            "title": "裁きの鐘 [Heaven]",
+            "artist": "ビタミンc Original:Lizst obj:IBARAGI_YOSHIMI",
+            "url": "https://venue.bmssearch.net/bms-classic/4",
+            "url_diff": "https://stellabms.xyz/upload/5860",
+            "level": "1"
+        },
+        {
             "id": 3265,
             "md5": "d00e7d9111ad2bd2bba587616627fc69",
             "sha256": "c14c371ae9e082cbfa352a6340d9c4389c96353f678db41e8129e766140a636d",
@@ -5629,6 +5649,16 @@
             "artist": "vPhos obj:k",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=53&event=147",
             "url_diff": "https://stellabms.xyz/upload/5723",
+            "level": "2"
+        },
+        {
+            "id": 6625,
+            "md5": "ebf75354a4bd0f8bfb8d1702a4a67bb6",
+            "sha256": "ebbc80f7feda47aad921b32c034d38131648f416dc2b7b801554d664e4dd126c",
+            "title": "Neo Side [Run Away]",
+            "artist": "Harunao, Kanna obj:E BGI: LiZiO",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=332&event=140",
+            "url_diff": "https://stellabms.xyz/upload/4435",
             "level": "2"
         },
         {
@@ -6922,6 +6952,16 @@
             "level": "2"
         },
         {
+            "id": 7468,
+            "md5": "69a0d0d8f0e0037a8b02f12d4457705f",
+            "sha256": "cb4a6d6a28889a404fd07f9d6a9cf417daff9a5997552f41043818985e10ce2d",
+            "title": "音毛本線美蒸酢行 [INSANE]",
+            "artist": "Frs1pw",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=147",
+            "url_diff": "",
+            "level": "2"
+        },
+        {
             "id": 2159,
             "md5": "54188c995465c15a0e0f44c719cf09d1",
             "sha256": "24e6eda5e66bc0f9c643b5e3ab9373240e543a4c6ff16300dd887f08f6d76900",
@@ -7739,6 +7779,16 @@
             "artist": "kanoryo / obj:marquee BGA:Nectoroune",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=382&event=133",
             "url_diff": "https://darksabun.github.io/event/bofxvi/",
+            "level": "3"
+        },
+        {
+            "id": 7429,
+            "md5": "23183acd8e69e56a8c702aab24fc8e8d",
+            "sha256": "adfbab7030d4df9fcd5f31b6c4e2536e897e8eb36f5de85853ee9d688b90c3b7",
+            "title": "Guiding Star",
+            "artist": "cittan* feat. YUNA",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=71&event=65",
+            "url_diff": "https://web.archive.org/web/20190322230328id_/https://www.hyper-laner.com/sabun/Guiding_Star_SPlaner.bme",
             "level": "3"
         },
         {
@@ -10709,6 +10759,16 @@
             "artist": "TAK / 140 obj.hex",
             "url": "https://web.archive.org/web/20070627015638/http://www.geocities.jp/inthesilentdream/bms/levitation.zip",
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
+            "level": "4"
+        },
+        {
+            "id": 7453,
+            "md5": "247ce8284027d584018aa1d0503e7dd3",
+            "sha256": "2cb691bba109e2843b1862ad7678aeb57a8aa7bf18d352ae1f2e34ca14a73f97",
+            "title": "LuminousAttack [yumether]",
+            "artist": "かんざきしおん / obj:夢瑠",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=4&event=142",
+            "url_diff": "https://dl.dropboxusercontent.com/scl/fi/roqc23rp67cijvzdlkcq1/_LuminousAttack_yume.zip?rlkey=8xv56ngyec4qbntki439cw75x&",
             "level": "4"
         },
         {
@@ -14112,6 +14172,16 @@
             "level": "6"
         },
         {
+            "id": 7359,
+            "md5": "72a8de505fd71b9e211e56361bd04353",
+            "sha256": "2d7d1b6644c361b7a4176abcc2e7e4c4624ff6eb20f2c58820cb5517c3c0c812",
+            "title": "adolescent person [dark past]",
+            "artist": "Is-m / obj. laner BGA:yuru",
+            "url": "https://drive.google.com/file/d/19JE3CCif_aDVuGlV7Ecmll-UTGKdZ81-/view?usp=drive_link",
+            "url_diff": "https://web.archive.org/web/20190322230138/http://www.hyper-laner.com/sabun/all201807_laner.rar",
+            "level": "6"
+        },
+        {
             "id": 140,
             "md5": "6551b257fe865e84593d40ab62956ac3",
             "sha256": "16d762b327d97efed26fb59b542dd02264ac0240f10d341459ebaf2c6050a337",
@@ -14279,6 +14349,16 @@
             "artist": "BMS Sound Team\"DJ 筆箱\" / BMS Designers\"VJ 牛乳パック\" / BMS objecter \"バス地獄\"",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=128",
             "url_diff": "",
+            "level": "6"
+        },
+        {
+            "id": 7428,
+            "md5": "11966ecbd7a2bced3fd97aebf22086c9",
+            "sha256": "0e66de249fe0a487173a6c8f06a642999a854c228f044bbc1c8c693782107e65",
+            "title": "Defeat awaken battle ship [STREAM]",
+            "artist": "有賀 澪 BGA:しらたき Illust:Cleome obj:SNN",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=112",
+            "url_diff": "https://stellabms.xyz/upload/5897",
             "level": "6"
         },
         {
@@ -14499,6 +14579,16 @@
             "artist": "Lime / obj.fuko",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=137",
             "url_diff": "https://stellabms.xyz/upload/1778",
+            "level": "6"
+        },
+        {
+            "id": 7358,
+            "md5": "04964ada8963377eeedfe8446c08c94b",
+            "sha256": "bc928d0e82183e881b4ee08a7c169599b26ffc5ca811f2d678b0ad35a68a0348",
+            "title": "MA.DA.KA.NA. MAKAIWARS (いくらマスター)(fix)",
+            "artist": "SECRET HEROINE 朝霧-ASAGI- / obj:Criyajuh",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=140&event=83",
+            "url_diff": "https://stellabms.xyz/upload/5302",
             "level": "6"
         },
         {
@@ -15592,6 +15682,16 @@
             "level": "7"
         },
         {
+            "id": 7295,
+            "md5": "c1a9374fa3190ff595377079770d6468",
+            "sha256": "a402063ac3e4cdf3f3fed7c543a51a3b801dd32c8bd2136ebbd88bed38dc81fd",
+            "title": "Hypersurface [HEARTFUL]",
+            "artist": "Grigori Poincare obj:魔女",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=26&event=133",
+            "url_diff": "https://stellabms.xyz/upload/5350",
+            "level": "7"
+        },
+        {
             "id": 111,
             "md5": "38503c10766176c398e7ffbccfd4b6af",
             "sha256": "b343170410ef9fdbd60e555c1ffa85161a7cd8c29ccb39283ec92efbcf637c93",
@@ -15832,6 +15932,16 @@
             "level": "7"
         },
         {
+            "id": 7471,
+            "md5": "889d0237d0c9bc501e0d3157b77192cb",
+            "sha256": "d54a63636190edd2f2ecf511b0907b30663a1d9904e86963d85de990c00172bb",
+            "title": "SIREN OF DAWN -Genocide-",
+            "artist": "イズミケイ BGA : BKANOTHER / selene.",
+            "url": "https://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/4F9mCZ5Z",
+            "url_diff": "https://stellabms.xyz/upload/1189",
+            "level": "7"
+        },
+        {
             "id": 5415,
             "md5": "4fa32b9ef9b0eea82a9816bc9323250a",
             "sha256": "6c943ac457d1daf426bf89fb8478f2b82cd4a9c3098ae6597297e419b1b2ade8",
@@ -16069,6 +16179,16 @@
             "artist": "stuv feat. kei_iwata, saaa, *wakadori bms:stuv bga:KeiuO+内村徹 / obj:Criyajuh",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=60&event=146",
             "url_diff": "https://stellabms.xyz/upload/4729",
+            "level": "7"
+        },
+        {
+            "id": 7470,
+            "md5": "accbdd6b05199efff2d654f2384b9cd6",
+            "sha256": "509daa953ee699625a43a6afc16af84c92b998753c9f9e0ebce04554fdf11b37",
+            "title": "ドキドキ☆ココロ☆フレーバー [Sucre]",
+            "artist": "榊原ゆい/Team-OZ/山下慎一狼 remixed by Lemon beads obj.TBJ",
+            "url": "http://yaruki0.sakura.ne.jp/event/A1_6th/impression.cgi?no=13",
+            "url_diff": "https://stellabms.xyz/upload/2855",
             "level": "7"
         },
         {
@@ -16389,6 +16509,16 @@
             "artist": "Vector27 vs Blue-J",
             "url": "https://dropbox.bms.ms/u/51977836/Vector27vsBlue-J_Complex%20path.rar",
             "url_diff": "http://stairway.sakura.ne.jp/dosukoi/sabun/complex%20path.rar",
+            "level": "8"
+        },
+        {
+            "id": 7474,
+            "md5": "e5fda3b05890107f88a29531f3cba7ca",
+            "sha256": "28a1eeb7b2a13eecd5fa3566ca5ebf03259ce7e84ac7653a712868d3be75dcf6",
+            "title": "COSMIC INVITATION(BMS edit) [HEARTLESS]",
+            "artist": "hard obj:魔女",
+            "url": "https://venue.bmssearch.net/bmstukuru2022/43",
+            "url_diff": "https://drive.usercontent.google.com/u/0/uc?id=1FSxdX2lnD0vwxUXzBaZWBup06iM0OOTl&export=download",
             "level": "8"
         },
         {
@@ -16832,6 +16962,16 @@
             "level": "8"
         },
         {
+            "id": 7373,
+            "md5": "e10cf77b955e039cf885107c4d7ddc67",
+            "sha256": "0b60d4416a8414fca6ba38e85f7879d29e948f4152314fd49cdb6936eb443c35",
+            "title": "Springbloom [Luondu]",
+            "artist": "Spehs bgi. HJMT / obj:1mi",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=37&order=reg&odtype=a",
+            "url_diff": "https://stellabms.xyz/upload/5892",
+            "level": "8"
+        },
+        {
             "id": 3451,
             "md5": "8b56f71a2c636e7bf94191e874f1f854",
             "sha256": "1b2ff1e4a4a132176e8210b449061dd0e00cec0a0a6fd66a336e90e8a575b5f3",
@@ -16849,6 +16989,16 @@
             "artist": "梅干茶漬け obj:1008",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=341&event=123",
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05125.zip",
+            "level": "8"
+        },
+        {
+            "id": 4496,
+            "md5": "938ad8d7108fe9a5fa83f9f62dc46018",
+            "sha256": "adcb48596d1ff8ac31dcb7e2cecf71f6f1e41146b47f2fbf03208a10ad73a59b",
+            "title": "The infant daughter Frandle's -Genocide-",
+            "artist": "celas / selene.",
+            "url": "https://web.archive.org/web/20140612155001/http://creation-records.info/bms/c_oen_ogg.rar",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04683.zip",
             "level": "8"
         },
         {
@@ -16899,6 +17049,16 @@
             "artist": "sak feat.みゅい Movie: げ～むばか Illust: 球根 / selene.",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=123",
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02346.zip",
+            "level": "8"
+        },
+        {
+            "id": 7430,
+            "md5": "9f86e66f77f8e9fd0669cf3b01dc4580",
+            "sha256": "289698d275ee4ce431951c8f94f170577207198cdb37da3e56452f51010f61c2",
+            "title": "VampiЯ [MYTH]",
+            "artist": "Tiv / BGI:焦げポテト / obj.fuko",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/10",
+            "url_diff": "https://stellabms.xyz/upload/5200",
             "level": "8"
         },
         {

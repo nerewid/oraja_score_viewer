@@ -192,6 +192,16 @@
             "level": "0"
         },
         {
+            "id": 7423,
+            "md5": "b75b33d1c32e579e85405deb4fe0f432",
+            "sha256": "e8090fa30a776b24f7d704878147f745e5d599b135f55a2a203d8e43d0001a09",
+            "title": "Parousia [Day of Judgment]",
+            "artist": "xi / obj:Louis",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=281&event=74",
+            "url_diff": "http://slash24th.web.fc2.com/",
+            "level": "0"
+        },
+        {
             "id": 4691,
             "md5": "d3471f6236851445722f361cc3943d4c",
             "sha256": "1e2576231c8b373cd3b9b200b17139e5b228eb8322accd4a995fa5bc2b57fdd0",
@@ -218,6 +228,16 @@
             "title": "QUARTZ [BLACK ANOTHER]",
             "artist": "YUKI",
             "url": "http://www.land3939.info/nongenre3/",
+            "url_diff": "",
+            "level": "0"
+        },
+        {
+            "id": 7422,
+            "md5": "8bfca4f9f113066b2f0152041632ea6d",
+            "sha256": "0750dd6422980fc671066261687c0378b5fdb30eb7610d0d5cdcd0f5a6395788",
+            "title": "Qubit [Q.14]",
+            "artist": "aki BGA:ちゃば",
+            "url": "https://bms.wrigglebug.xyz/download/qubit.7z",
             "url_diff": "",
             "level": "0"
         },
