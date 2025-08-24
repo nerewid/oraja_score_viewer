@@ -2061,6 +2061,17 @@
         {
             "": "",
             "level": "乱打1",
+            "title": "桜戦線 -front of cherry blossom- [Sakura]",
+            "artist": "Tokky / beatMARIO obj. Atharnal",
+            "url": "http://cool-create.cc/bms/btm_saku.html",
+            "url_diff": "https://atharnal.github.io/diff/table.html",
+            "md5": "2481532f5ef46dbe15c609aba16c2cf6",
+            "comment": "sl1",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2481532f5ef46dbe15c609aba16c2cf6"
+        },
+        {
+            "": "",
+            "level": "乱打1",
             "title": "雪月風花 ～Silver Moon -Hard-",
             "artist": "おみー obj : monaka",
             "url": "http://yaruki0.sakura.ne.jp/event/A1_6th/impression.cgi?no=4",
@@ -2728,6 +2739,17 @@
             "md5": "4f60d60fb3195fbc0e198bdc08e64aac",
             "comment": "sl2/160",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4f60d60fb3195fbc0e198bdc08e64aac"
+        },
+        {
+            "": "",
+            "level": "乱打2",
+            "title": "Out Land ( radio edit ) - maniac -",
+            "artist": "wirel:yourl obj.うに",
+            "url": "https://web.archive.org/web/20030720071454/http://www.sound.jp/wirel-yourl/data/outland.rar",
+            "url_diff": "https://stellabms.xyz/upload/6127",
+            "md5": "f351b302af4a5d8e9284ff8f277f7cd4",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f351b302af4a5d8e9284ff8f277f7cd4"
         },
         {
             "": "",
@@ -4008,17 +4030,6 @@
         {
             "": "",
             "level": "乱打3",
-            "title": "Xhroria[HARD]",
-            "artist": "AcuticNotes(An/レク） /差分 赤い人",
-            "url": "http://dl.dropbox.com/u/34035220/Xhroria.rarhttps://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/cI8VUR5C",
-            "url_diff": "http://akred.web.fc2.com/bmsfile/Xhroria.HARD.bms",
-            "md5": "9e9493fdcb5fc66db496bab9acc6b641",
-            "comment": "sl3",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9e9493fdcb5fc66db496bab9acc6b641"
-        },
-        {
-            "": "",
-            "level": "乱打3",
             "title": "Xhroria [Veil]",
             "artist": "AcuticNotes(An/レク） obj : dfsty",
             "url": "https://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/8cNBib7D",
@@ -4554,17 +4565,6 @@
             "md5": "a8fcbea5d6357cbb69f3827ed0dfcdd3",
             "comment": "sl4/140",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a8fcbea5d6357cbb69f3827ed0dfcdd3"
-        },
-        {
-            "": "",
-            "level": "乱打4",
-            "title": "DistortedIntelligence [AntiArea]",
-            "artist": "Sound piercer Obj.Triforce",
-            "url": "https://venue.bmssearch.net/bmsshuin2/57",
-            "url_diff": "https://trfce.github.io/sabun/DistortedIntelligence_triforce.zip",
-            "md5": "7ad9ee05094d6bd4e64ed4f65ad2476c",
-            "comment": "sl4/160",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7ad9ee05094d6bd4e64ed4f65ad2476c"
         },
         {
             "": "",
@@ -5438,12 +5438,23 @@
         {
             "": "",
             "level": "乱打4",
+            "title": "Xhroria[HARD]",
+            "artist": "AcuticNotes(An/レク） /差分 赤い人",
+            "url": "http://dl.dropbox.com/u/34035220/Xhroria.rarhttps://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/cI8VUR5C",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/Xhroria.HARD.bms",
+            "md5": "9e9493fdcb5fc66db496bab9acc6b641",
+            "comment": "sl4",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9e9493fdcb5fc66db496bab9acc6b641"
+        },
+        {
+            "": "",
+            "level": "乱打4",
             "title": "your wind, my blind [ZOI]",
             "artist": "Puella Voice : 結崎有理 / Illustration : Violpa / obj:SUZUKAZEΛ",
             "url": "https://venue.bmssearch.net/bmsshuin2/38",
             "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=03150",
             "md5": "f06660c61e2db1da1e3b2e6853c5bdd2",
-            "comment": "sl4/171",
+            "comment": "sl4",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f06660c61e2db1da1e3b2e6853c5bdd2"
         },
         {
@@ -5900,12 +5911,23 @@
         {
             "": "",
             "level": "乱打5",
+            "title": "DistortedIntelligence [AntiArea]",
+            "artist": "Sound piercer Obj.Triforce",
+            "url": "https://venue.bmssearch.net/bmsshuin2/57",
+            "url_diff": "https://trfce.github.io/sabun/DistortedIntelligence_triforce.zip",
+            "md5": "7ad9ee05094d6bd4e64ed4f65ad2476c",
+            "comment": "sl4/160",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7ad9ee05094d6bd4e64ed4f65ad2476c"
+        },
+        {
+            "": "",
+            "level": "乱打5",
             "title": "Ena (Radio edit) [rather]",
             "artist": "-45 / obj.rat",
             "url": "http://skydrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
             "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=00761",
             "md5": "f6c3d0c4e49b4cc2285faecca188c653",
-            "comment": "",
+            "comment": "sl5",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f6c3d0c4e49b4cc2285faecca188c653"
         },
         {
@@ -6226,6 +6248,17 @@
             "md5": "5dda8688e245ec4dfd377a44fe6cc6c5",
             "comment": "sl5/180",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5dda8688e245ec4dfd377a44fe6cc6c5"
+        },
+        {
+            "": "",
+            "level": "乱打5",
+            "title": "Name of oath [HARD]",
+            "artist": "void feat. コツキミヤ , Gt. えば /差分 赤い人 BGA : Photonskyto",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=231&event=65",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/Name-of-oath-HARD.bme",
+            "md5": "bc5d6b511313284a60a035f8019387ab",
+            "comment": "sl5",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bc5d6b511313284a60a035f8019387ab"
         },
         {
             "": "",
@@ -6686,8 +6719,19 @@
             "url": "https://drive.google.com/uc?id=0B7qCw4hNijr4eV9rdHVqMlZuVWc",
             "url_diff": "https://obju.web.fc2.com/BMS/_souzou_1to24bms_U_go.zip",
             "md5": "e219229b34600e4aca4a963889c78de4",
-            "comment": "200",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e219229b34600e4aca4a963889c78de4"
+        },
+        {
+            "": "",
+            "level": "乱打5",
+            "title": "ラスティゲート [INSANE]",
+            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス / obj:Lian",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/65",
+            "url_diff": "同梱譜面",
+            "md5": "7e8138a072007fa7bf95265d8f9073b2",
+            "comment": "sl5",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7e8138a072007fa7bf95265d8f9073b2"
         },
         {
             "": "",
@@ -7051,6 +7095,17 @@
             "md5": "350779325d2f1a7f8b9afd6a86d18f5d",
             "comment": "sl5/180",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=350779325d2f1a7f8b9afd6a86d18f5d"
+        },
+        {
+            "": "",
+            "level": "乱打6",
+            "title": "Calamity Fortune [MASTER]",
+            "artist": "ZUN remixed by LeaF Movie:Optie / obj:monaka",
+            "url": "http://leafbms.web.fc2.com/song.html",
+            "url_diff": "https://ux.getuploader.com/monaka_sabun_2/download/181",
+            "md5": "b8d9488923de28377d9fea70e9d0e15c",
+            "comment": "sl6",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b8d9488923de28377d9fea70e9d0e15c"
         },
         {
             "": "",
@@ -7517,17 +7572,6 @@
         {
             "": "",
             "level": "乱打6",
-            "title": "ハローワールド [Welcome to Physical World!]",
-            "artist": "koushirou（卑屈P） obj:1834356",
-            "url": "http://jirai8.web.fc2.com/music.html",
-            "url_diff": "https://stellabms.xyz/upload/5824",
-            "md5": "63c57e41fb11eca107728c3fbc689539",
-            "comment": "sl6",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=63c57e41fb11eca107728c3fbc689539"
-        },
-        {
-            "": "",
-            "level": "乱打6",
             "title": "ベストフレンド [B80]",
             "artist": "渋谷凛 / 差分:棟方愛海",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=227&event=88",
@@ -7535,17 +7579,6 @@
             "md5": "56bc45dc0e0ad10ae448fba3a8af8f9f",
             "comment": "sl6",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=56bc45dc0e0ad10ae448fba3a8af8f9f"
-        },
-        {
-            "": "",
-            "level": "乱打6",
-            "title": "ラスティゲート [INSANE]",
-            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス / obj:Lian",
-            "url": "https://venue.bmssearch.net/bmstukuru2025/65",
-            "url_diff": "同梱譜面",
-            "md5": "7e8138a072007fa7bf95265d8f9073b2",
-            "comment": "sl6",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7e8138a072007fa7bf95265d8f9073b2"
         },
         {
             "": "",
@@ -7836,17 +7869,6 @@
         {
             "": "",
             "level": "乱打7",
-            "title": "Calamity Fortune [MASTER]",
-            "artist": "ZUN remixed by LeaF Movie:Optie / obj:monaka",
-            "url": "http://leafbms.web.fc2.com/song.html",
-            "url_diff": "https://ux.getuploader.com/monaka_sabun_2/download/181",
-            "md5": "b8d9488923de28377d9fea70e9d0e15c",
-            "comment": "sl7/200",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b8d9488923de28377d9fea70e9d0e15c"
-        },
-        {
-            "": "",
-            "level": "乱打7",
             "title": "Critical Cannonball [ZOI]",
             "artist": "SEPHID mov LankaNIK / obj:SUZUKAZEΛ",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=129",
@@ -7920,6 +7942,17 @@
             "md5": "38d2cd6c20a759a4e120b993f1dc0d0a",
             "comment": "sl7",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=38d2cd6c20a759a4e120b993f1dc0d0a"
+        },
+        {
+            "": "",
+            "level": "乱打7",
+            "title": "Death Opera -Luna-",
+            "artist": "Irish Kappa / selene. BGA: Rinser",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=137&event=104",
+            "url_diff": "https://darksabun.github.io/bceg/event/atoz2019/",
+            "md5": "d5d29b974ac89d7a6c75e7e5ac9578fc",
+            "comment": "sl7",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d5d29b974ac89d7a6c75e7e5ac9578fc"
         },
         {
             "": "",
@@ -8672,12 +8705,23 @@
         {
             "": "",
             "level": "乱打7",
+            "title": "ハローワールド [Welcome to Physical World!]",
+            "artist": "koushirou（卑屈P） obj:1834356",
+            "url": "http://jirai8.web.fc2.com/music.html",
+            "url_diff": "https://stellabms.xyz/upload/5824",
+            "md5": "63c57e41fb11eca107728c3fbc689539",
+            "comment": "sl7",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=63c57e41fb11eca107728c3fbc689539"
+        },
+        {
+            "": "",
+            "level": "乱打7",
             "title": "フロンティア↑↑エクスプローラー [Heliopause]",
             "artist": "kei_iwata Illust:morph / BGA:qfeileadh / obj:83929",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=87&event=132",
             "url_diff": "https://stellabms.xyz/upload/1958",
             "md5": "57f34b07c061a98a7d922bfe4e064bf0",
-            "comment": "sl7/200",
+            "comment": "sl7",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=57f34b07c061a98a7d922bfe4e064bf0"
         },
         {
@@ -8837,6 +8881,17 @@
         {
             "": "",
             "level": "乱打8",
+            "title": "Antipode [Polarity]",
+            "artist": "satie obj:でっていう99",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=28&event=137",
+            "url_diff": "https://stellabms.xyz/upload/6062",
+            "md5": "451c45be73eea69bf5d270c30d6cb046",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=451c45be73eea69bf5d270c30d6cb046"
+        },
+        {
+            "": "",
+            "level": "乱打8",
             "title": "Artemis　 -SABOTHER-",
             "artist": "MONO/さ",
             "url": "http://web.archive.org/web/20170501004220/http://monochrome-world.sakura.ne.jp/artemis_mono.zip",
@@ -8925,17 +8980,6 @@
         {
             "": "",
             "level": "乱打8",
-            "title": "Close the Lights (EX)",
-            "artist": "カラフル・サウンズ・ポート/さ",
-            "url": "https://pupuly.nekokan.dyndns.info/bms/v/24",
-            "url_diff": "http://web.archive.org/web/20190917071620/http://sabosabun.tank.jp//",
-            "md5": "60b382221191302b26014563b168be27",
-            "comment": "sl8",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=60b382221191302b26014563b168be27"
-        },
-        {
-            "": "",
-            "level": "乱打8",
             "title": "Creamy Sky [BRIGHT]",
             "artist": "BTB Mov : mzet :-p & OLB / obj:BAECON",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=96",
@@ -8987,17 +9031,6 @@
             "md5": "a5b7d15d759b7eaac414a555654b0c49",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a5b7d15d759b7eaac414a555654b0c49"
-        },
-        {
-            "": "",
-            "level": "乱打8",
-            "title": "Death Opera -Luna-",
-            "artist": "Irish Kappa / selene. BGA: Rinser",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=137&event=104",
-            "url_diff": "https://darksabun.github.io/bceg/event/atoz2019/",
-            "md5": "d5d29b974ac89d7a6c75e7e5ac9578fc",
-            "comment": "sl8",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d5d29b974ac89d7a6c75e7e5ac9578fc"
         },
         {
             "": "",
@@ -10014,6 +10047,17 @@
         {
             "": "",
             "level": "乱打9",
+            "title": "Close the Lights (EX)",
+            "artist": "カラフル・サウンズ・ポート/さ",
+            "url": "https://pupuly.nekokan.dyndns.info/bms/v/24",
+            "url_diff": "http://web.archive.org/web/20190917071620/http://sabosabun.tank.jp//",
+            "md5": "60b382221191302b26014563b168be27",
+            "comment": "sl9",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=60b382221191302b26014563b168be27"
+        },
+        {
+            "": "",
+            "level": "乱打9",
             "title": "Daybreak [AM 6:00]",
             "artist": "DusK / И",
             "url": "https://drive.google.com/file/d/0B5sLPIyox3GENUhiUFFBSmZSbzg/view?usp=sharing&resourcekey=0-YVbIj6LLHkeF7NfsRqhC8Q",
@@ -10883,6 +10927,17 @@
         {
             "": "",
             "level": "乱打10",
+            "title": "CYCLONE [nerither]",
+            "artist": "MINT BGA : Can.D-mtmrw obj:noren",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=96",
+            "url_diff": "https://stellabms.xyz/upload/6131",
+            "md5": "9a847751e1ebeaf51928c041001ece54",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9a847751e1ebeaf51928c041001ece54"
+        },
+        {
+            "": "",
+            "level": "乱打10",
             "title": "Dance of The Fool [13Another]",
             "artist": "Nakuya Obj: qtp13 / Illust: Divergo",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=428&event=146",
@@ -11697,6 +11752,17 @@
         {
             "": "",
             "level": "乱打11",
+            "title": "Aeropolis [dnps]",
+            "artist": "ビタミンc obj:1mi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=147",
+            "url_diff": "https://stellabms.xyz/upload/6149",
+            "md5": "062fda6990fa853ecf0d83920ac0ab5f",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=062fda6990fa853ecf0d83920ac0ab5f"
+        },
+        {
+            "": "",
+            "level": "乱打11",
             "title": "Amnehilesie [Etude]",
             "artist": "MisomyL",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=362&event=123",
@@ -12287,6 +12353,17 @@
             "md5": "b142278d297ff2a5988b4e33687a24ab",
             "comment": "sl11",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b142278d297ff2a5988b4e33687a24ab"
+        },
+        {
+            "": "",
+            "level": "乱打11",
+            "title": "Pure White † Crimson Coffin [Self-awakening]",
+            "artist": "Flat:nique Dolls Orchestra Illustration : まど/obj.Zethiwo",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=22&event=116",
+            "url_diff": "https://stellabms.xyz/upload/6083",
+            "md5": "244a648b5350b3db08c0b23327c5b529",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=244a648b5350b3db08c0b23327c5b529"
         },
         {
             "": "",
@@ -13891,7 +13968,7 @@
             "url": "https://venue.bmssearch.net/bmstukuru2025/17",
             "url_diff": "https://stellabms.xyz/upload/5546",
             "md5": "8ba600b05bc0d54de2516c1abfed778a",
-            "comment": "",
+            "comment": "sl12",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8ba600b05bc0d54de2516c1abfed778a"
         },
         {
@@ -13948,6 +14025,17 @@
             "md5": "c7840e6e47d41f833771d6392ada364d",
             "comment": "sl12",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c7840e6e47d41f833771d6392ada364d"
+        },
+        {
+            "": "",
+            "level": "乱打12",
+            "title": "トルコ行進曲 (Hd-NRG mix) [Sapphire]",
+            "artist": "celas respect for W.A.Mozart / obj:tun0307",
+            "url": "https://web.archive.org/web/20140612154923/http://creation-records.info/bms/turkeymarch_r-hqbga.rar",
+            "url_diff": "https://stellabms.xyz/upload/6121",
+            "md5": "dcbeb8042a3b9293b7f99536eefa8804",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dcbeb8042a3b9293b7f99536eefa8804"
         },
         {
             "": "",
@@ -14113,6 +14201,17 @@
             "md5": "9af0353882897252567c09b0844543c5",
             "comment": "sl12",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9af0353882897252567c09b0844543c5"
+        },
+        {
+            "": "",
+            "level": "乱打12",
+            "title": "花嵐、空に溶けて [Commonsense]",
+            "artist": "DJ Raisei vs. Setca. feat. 咲良ゆの obj:ayane Movie:蒼",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=142",
+            "url_diff": "https://stellabms.xyz/upload/6145",
+            "md5": "6d3974267bab1499fc0d6fee72289ad8",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6d3974267bab1499fc0d6fee72289ad8"
         },
         {
             "": "",
@@ -14826,7 +14925,7 @@
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=383&event=116",
             "url_diff": "http://ameria3141.web.fc2.com/bmssabun.html",
             "md5": "730118f9bf142d9170ce46bedd37f96a",
-            "comment": "",
+            "comment": "st0",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=730118f9bf142d9170ce46bedd37f96a"
         },
         {
@@ -14839,6 +14938,17 @@
             "md5": "acb300af338f3fd83aa733952aed6261",
             "comment": "元st0",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=acb300af338f3fd83aa733952aed6261"
+        },
+        {
+            "": "",
+            "level": "重発狂0",
+            "title": "P8107 -Paramount-",
+            "artist": "onoken obj: qtp13",
+            "url": "http://web.archive.org/web/20070111193502/www107.sakura.ne.jp/~onoken/htmls/bms.html",
+            "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=02247",
+            "md5": "7f1623b119446641b90ed9ac88396566",
+            "comment": "st0",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7f1623b119446641b90ed9ac88396566"
         },
         {
             "": "",
@@ -16174,6 +16284,17 @@
         {
             "": "",
             "level": "重発狂1",
+            "title": "SCARLET NIGHT RESIDENT [Nightmare]",
+            "artist": "lixound mov:AiLANE / obj:ugd",
+            "url": "https://9domu46i.com/yuruyuru/package/YURUYURU_Phase_25.zip",
+            "url_diff": "https://stellabms.xyz/upload/6147",
+            "md5": "8e5d3a8fe5b5b61462973db1dc63d5b2",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8e5d3a8fe5b5b61462973db1dc63d5b2"
+        },
+        {
+            "": "",
+            "level": "重発狂1",
             "title": "Schlaflosigkeitnacht -SP AMETHER-",
             "artist": "DJ角煮 vs B.E. / obj:AMERIA",
             "url": "https://web.archive.org/web/20190225081511/http://music.geocities.jp/dj_kakuni_is_still_alive/lexiks_dj-kakuni_schlaflosigkeitnacht.zip",
@@ -16416,6 +16537,17 @@
         {
             "": "",
             "level": "重発狂1",
+            "title": "XX - Judgement ~Voyageuse~ [Polar-Lunar]",
+            "artist": "Pooh5821 Illust: Divergo / obj: kurekoduki",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=458&event=146",
+            "url_diff": "https://stellabms.xyz/upload/6144",
+            "md5": "f84159e4d9fa11e1dd251b024b3c3136",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f84159e4d9fa11e1dd251b024b3c3136"
+        },
+        {
+            "": "",
+            "level": "重発狂1",
             "title": "Y [yumether]",
             "artist": "ヲルバ＝田中・ヴァニラ / obj:夢瑠",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=172&event=96",
@@ -16489,6 +16621,17 @@
             "md5": "def82f22d8d933fa769c4c4848f08d9b",
             "comment": "st1",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=def82f22d8d933fa769c4c4848f08d9b"
+        },
+        {
+            "": "",
+            "level": "重発狂1",
+            "title": "トルコ行進曲 (Hd-NRG mix) [Sapphire+]",
+            "artist": "celas respect for W.A.Mozart / obj:tun0307",
+            "url": "https://web.archive.org/web/20140612154923/http://creation-records.info/bms/turkeymarch_r-hqbga.rar",
+            "url_diff": "https://stellabms.xyz/upload/6122",
+            "md5": "f025814cc5d8ac1682327d5dfe5ed1e6",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f025814cc5d8ac1682327d5dfe5ed1e6"
         },
         {
             "": "",
@@ -16674,7 +16817,7 @@
             "url": "https://venue.bmssearch.net/bms-classic/4",
             "url_diff": "https://stellabms.xyz/upload/5860",
             "md5": "720fc53ff356b25372d018d32cebde3a",
-            "comment": "",
+            "comment": "st1",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=720fc53ff356b25372d018d32cebde3a"
         },
         {
@@ -17037,7 +17180,7 @@
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=109",
             "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up7075.zip",
             "md5": "57f73c0e9f95b2babf222fcf66e7b4de",
-            "comment": "195",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=57f73c0e9f95b2babf222fcf66e7b4de"
         },
         {
@@ -17070,7 +17213,7 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=44&event=142",
             "url_diff": "https://atharnal.github.io/diff/table.html",
             "md5": "9e82862547712edfb0e3cd5e96871fe1",
-            "comment": "195",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9e82862547712edfb0e3cd5e96871fe1"
         },
         {
@@ -17092,8 +17235,19 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=480&event=137",
             "url_diff": "https://stellabms.xyz/upload/1411",
             "md5": "36bb255cee12973b5a599b6b384c39a4",
-            "comment": "222",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=36bb255cee12973b5a599b6b384c39a4"
+        },
+        {
+            "": "",
+            "level": "重発狂2",
+            "title": "CODE-F -soar to the Frontier- [Aestar]",
+            "artist": "kei iwata/xenothium obj:1mi",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=66&event=64",
+            "url_diff": "https://stellabms.xyz/upload/6105",
+            "md5": "ef50a62188e21374d19ae73b8efb866e",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ef50a62188e21374d19ae73b8efb866e"
         },
         {
             "": "",
@@ -17103,7 +17257,7 @@
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=66&event=64",
             "url_diff": "",
             "md5": "b46496c1b4a5e52a14d5f9b63c369248",
-            "comment": "215",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b46496c1b4a5e52a14d5f9b63c369248"
         },
         {
@@ -17202,7 +17356,7 @@
             "url": "http://skydrive.live.com/?cid=578814acc2bd5a74&sc=documents&uc=1&id=578814ACC2BD5A74%21140#",
             "url_diff": "http://akred.web.fc2.com/bmsfile/dreamin_happycore-INFERNO.bms",
             "md5": "960d994d0f433ba8c1806f6cb442b9ea",
-            "comment": "★22/190",
+            "comment": "★22",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=960d994d0f433ba8c1806f6cb442b9ea"
         },
         {
@@ -17257,7 +17411,7 @@
             "url": "https://9domu46i.com/yuruyuru/phase18.html",
             "url_diff": "https://stellabms.xyz/upload/3866",
             "md5": "32ad21183e8af0f0673f47be3ab7cbe8",
-            "comment": "200",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=32ad21183e8af0f0673f47be3ab7cbe8"
         },
         {
@@ -17281,6 +17435,17 @@
             "md5": "a76e440491797451b441beb6c1258b13",
             "comment": "200",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a76e440491797451b441beb6c1258b13"
+        },
+        {
+            "": "",
+            "level": "重発狂2",
+            "title": "Faraway Sky (All I C Is U) [Nebula]",
+            "artist": "Kyuzo Sameura / obj:mirume",
+            "url": "https://9domu46i.com/yuruyuru/phase23.html",
+            "url_diff": "https://mega.nz/file/HGwgkbiI#JXQbwWyaTB9iV1IEMEcFdeYqunn9SI46bw1KRJRvRgs",
+            "md5": "ef49bdace23abc0a2a89219a1f9ddf84",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ef49bdace23abc0a2a89219a1f9ddf84"
         },
         {
             "": "",
@@ -17433,8 +17598,19 @@
             "url": "http://llllllllllll.sakura.ne.jp/djtakuan/b_BMS/happyluckybaby.zip",
             "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=01929",
             "md5": "1e4d9aed8a07b42f56747a3ed2263401",
-            "comment": "175",
+            "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1e4d9aed8a07b42f56747a3ed2263401"
+        },
+        {
+            "": "",
+            "level": "重発狂2",
+            "title": "Hiding Tears in the Sun [Ain't too proud to rely on!]",
+            "artist": "スーパー(21)(21)ハンターズ obj:IBARAGI_YOSHIMI",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=148",
+            "url_diff": "https://stellabms.xyz/upload/6095",
+            "md5": "c75fd717e0c4d56438059e95d9d9ae1b",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c75fd717e0c4d56438059e95d9d9ae1b"
         },
         {
             "": "",
@@ -17615,6 +17791,17 @@
         {
             "": "",
             "level": "重発狂2",
+            "title": "Lovey-Dovey-Devil [Love-Trap]",
+            "artist": "litmus* ft. 夜想といき obj:IBARAGI_YOSHIMI",
+            "url": "https://9domu46i.com/yuruyuru/phase24.html",
+            "url_diff": "https://stellabms.xyz/upload/6048",
+            "md5": "645e581638528c7ae25d759a07fb3a5e",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=645e581638528c7ae25d759a07fb3a5e"
+        },
+        {
+            "": "",
+            "level": "重発狂2",
             "title": "Milly Barll",
             "artist": "\t㍊ゼ / obj:SRKR",
             "url": "http://www.luzeria.net/?p=387",
@@ -17721,6 +17908,17 @@
             "md5": "e86ea1da5895178a49f1f42b57ba245c",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e86ea1da5895178a49f1f42b57ba245c"
+        },
+        {
+            "": "",
+            "level": "重発狂2",
+            "title": "phyla [FTT]",
+            "artist": "Est obj:1mi",
+            "url": "https://skydrive.live.com/?cid=F61C1F8825F0CF46&id=F61C1F8825F0CF46%21159",
+            "url_diff": "https://stellabms.xyz/upload/6150",
+            "md5": "f81e4bb87b65a148db3456b655f44085",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f81e4bb87b65a148db3456b655f44085"
         },
         {
             "": "",
@@ -20409,6 +20607,17 @@
         {
             "": "",
             "level": "重発狂4",
+            "title": "MACHALIEN [Nebula]",
+            "artist": "ZUN Remixed by Tiv / BGI:雨水 / obj:mirume",
+            "url": "https://venue.bmssearch.net/ondanre2/4",
+            "url_diff": "https://stellabms.xyz/upload/6124",
+            "md5": "54da27b8d344c8dac55faea793e570a1",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=54da27b8d344c8dac55faea793e570a1"
+        },
+        {
+            "": "",
+            "level": "重発狂4",
             "title": "N - flat waves - [\\]",
             "artist": "\ter obj:1008",
             "url": "http://nekokan.dyndns.info/file/log/review/pupuly_2/bms/43.html",
@@ -20860,6 +21069,17 @@
         {
             "": "",
             "level": "重発狂4",
+            "title": "逃げるな！マスター -これは「乱打」です。-",
+            "artist": "litmus* ft. 初音ミク&重音テト&可不 obj:IBARAGI_YOSHIMI",
+            "url": "https://9domu46i.com/yuruyuru/phase25.html",
+            "url_diff": "https://stellabms.xyz/upload/6073",
+            "md5": "9cd8388e43cf33314fb48e005ab267f7",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9cd8388e43cf33314fb48e005ab267f7"
+        },
+        {
+            "": "",
+            "level": "重発狂4",
             "title": "人形楽団　～ Puppet Ensemble ・∀・ ～",
             "artist": "Yu^ta / obj:Monsta",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=154&event=60",
@@ -20964,7 +21184,7 @@
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=532&event=110",
             "url_diff": "https://gnqg.rosx.net/upload/upload.cgi?get=2520",
             "md5": "96084ab00c312f1e9ab0124b88f56f56",
-            "comment": "dy0/193",
+            "comment": "dy0",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=96084ab00c312f1e9ab0124b88f56f56"
         },
         {
@@ -22411,6 +22631,17 @@
         {
             "": "",
             "level": "重発狂6",
+            "title": "Reminiscent Dream [SPELL PRACTICE]",
+            "artist": "ビタミンc / obj:potechang Original: ZUN",
+            "url": "https://venue.bmssearch.net/ondanre2/14",
+            "url_diff": "https://stellabms.xyz/upload/6139",
+            "md5": "cf18148562d31c84cc6abbef7c9d03bc",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=cf18148562d31c84cc6abbef7c9d03bc"
+        },
+        {
+            "": "",
+            "level": "重発狂6",
             "title": "Run,Curry,Run -北極-",
             "artist": "yellow program obj:hoi2",
             "url": "https://onedrive.live.com/?authkey=%21AHXNigSGRDZ6G8w&id=40805CD20B6241C6%211917&cid=40805CD20B6241C6",
@@ -22451,6 +22682,28 @@
             "md5": "60fdf3c1b1ce72ab08b42e726a89f2b1",
             "comment": "st5,dy0",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=60fdf3c1b1ce72ab08b42e726a89f2b1"
+        },
+        {
+            "": "",
+            "level": "重発狂6",
+            "title": "sunlit power stone [あの場所は約束の最中]",
+            "artist": "dj sept-em obj:TAKANASHI_HOSHINO",
+            "url": "http://web.archive.org/web/20030819153752/http://www.cmo.jp/users/e-my/bms/tc_sunlit.rar",
+            "url_diff": "https://stellabms.xyz/upload/6125",
+            "md5": "c730fb1573fe61c17e9345d623c6a253",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c730fb1573fe61c17e9345d623c6a253"
+        },
+        {
+            "": "",
+            "level": "重発狂6",
+            "title": "sunlit power stone [たそがれからみなもへと]",
+            "artist": "dj sept-em obj:TAKANASHI_HOSHINO",
+            "url": "http://web.archive.org/web/20030819153752/http://www.cmo.jp/users/e-my/bms/tc_sunlit.rar",
+            "url_diff": "https://stellabms.xyz/upload/6125",
+            "md5": "ea77234e8164db5bad0215c67e9005f4",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ea77234e8164db5bad0215c67e9005f4"
         },
         {
             "": "",
@@ -23835,7 +24088,7 @@
             "url": "http://onedrive.live.com/?cid=40805CD20B6241C6&id=40805CD20B6241C6%21190",
             "url_diff": "https://web.archive.org/web/20200306165639/http://3228monsta.web.fc2.com/",
             "md5": "6e4ecc69bdef0ed46450b4f1d0773b96",
-            "comment": "st8/210",
+            "comment": "st8",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6e4ecc69bdef0ed46450b4f1d0773b96"
         },
         {
@@ -23846,7 +24099,7 @@
             "url": "http://sunaneko.iptime.org/BMS_Library/Pastel%20Galaxy%20%28by%20pan%29.rar",
             "url_diff": "http://kanki2.net/bme.html",
             "md5": "b9d10fae126860b2c23518b8c0b84214",
-            "comment": "dy3/240",
+            "comment": "dy3",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b9d10fae126860b2c23518b8c0b84214"
         },
         {
@@ -23857,8 +24110,19 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=165&event=123",
             "url_diff": "https://stellabms.xyz/upload/2489",
             "md5": "54d3c489f587136b7593597451349fd6",
-            "comment": "dy3/215",
+            "comment": "dy3",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=54d3c489f587136b7593597451349fd6"
+        },
+        {
+            "": "",
+            "level": "重発狂8",
+            "title": "SCARLET NIGHT RESIDENT [Intense]",
+            "artist": "lixound mov:AiLANE / obj:potechang",
+            "url": "https://9domu46i.com/yuruyuru/package/YURUYURU_Phase_25.zip",
+            "url_diff": "https://stellabms.xyz/upload/6074",
+            "md5": "57477d7df9883fd3137f41e336806629",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=57477d7df9883fd3137f41e336806629"
         },
         {
             "": "",
@@ -24893,6 +25157,17 @@
             "md5": "71c66f60c86458980925db0c4bdb6976",
             "comment": "dy(sub)7/250",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=71c66f60c86458980925db0c4bdb6976"
+        },
+        {
+            "": "",
+            "level": "重発狂12",
+            "title": "オーバーサンプリング・ネクストゲーマーズ！ [RE:BEYOND MAXBEAT]",
+            "artist": "CYLTIE. / obj:Criyajuh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=9&event=148",
+            "url_diff": "https://stellabms.xyz/upload/6137",
+            "md5": "2b4f79ab0d1f04d8b0556b6446d2d6fb",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2b4f79ab0d1f04d8b0556b6446d2d6fb"
         },
         {
             "": "",
