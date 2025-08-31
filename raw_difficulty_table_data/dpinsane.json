@@ -411,18 +411,6 @@
         },
         {
             "level": "1",
-            "md5": "951f09aa0dcb7dbf074c7bfd95cb2d3d",
-            "sha256": "9e1b5e0aa0b9ce64fc036f7eca6977a560c618ca5ebae5c027d843875e74af24",
-            "genre": "TRANCE",
-            "title": "Lapis",
-            "artist": "SHIKI obj : Fairy",
-            "url": "http://shiki2.sakura.ne.jp/fohs.html",
-            "url_diff": "http://fairy213.exout.net/",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=951f09aa0dcb7dbf074c7bfd95cb2d3d"
-        },
-        {
-            "level": "1",
             "md5": "bc386751014decd338694cfa10b75772",
             "sha256": "cc28ddd1acea27e95913d6c6a5215bc935959f14c99e8234eff890d0ec604b74",
             "genre": "House",
@@ -6399,6 +6387,18 @@
         },
         {
             "level": "9",
+            "md5": "2ab6860593032f42339ec05c275fc5c3",
+            "sha256": "42924f2daf97facc268fb984b68db59390d9ec270799ee0613347ab64c641a7e",
+            "genre": "RAVE BREAKS",
+            "title": "Prestige [DP INSANE]",
+            "artist": "litmus* obj:marquee",
+            "url": "https://venue.bmssearch.net/genreshuffle4/3",
+            "url_diff": "https://hpx.getonpictochat.com/bmss/2024/bmss2024_patterns.zip",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2ab6860593032f42339ec05c275fc5c3"
+        },
+        {
+            "level": "9",
             "md5": "c8dc214003898e6ace09d3341701fc01",
             "sha256": "d473f742cf15f35844d4ce28acc026f1a757cccdf77c831d458972b8411c00d4",
             "genre": "フラワーステップ",
@@ -6540,6 +6540,18 @@
             "url_diff": "https://1drv.ms/f/s!AhTuCFLHGy4lcDKQC1Yl6rV4p40",
             "comment": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=05d569d03ea95e757d512cf19ba3507d"
+        },
+        {
+            "level": "9",
+            "md5": "43a1e8beaf36ce9d9ddbf6b5862a3926",
+            "sha256": "9139e2df1115e467c5f57593699e0d19aefa0160e7f68c3db9bb7986931b729a",
+            "genre": "SPACE IDOL DAYBREAK HARDCORE",
+            "title": "ミライトコネクト [DP-sagINSANE]",
+            "artist": "Sound piercer & ginkiha (feat.柚子花 & NeLiME) / obj:sagoo",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=414&event=137",
+            "url_diff": "https://yaruki0.net/sabun/dp2021.html",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=43a1e8beaf36ce9d9ddbf6b5862a3926"
         },
         {
             "level": "9",
