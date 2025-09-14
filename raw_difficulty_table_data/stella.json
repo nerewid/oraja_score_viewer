@@ -12,6 +12,16 @@
             "level": "0"
         },
         {
+            "id": 1005,
+            "md5": "2f8beb8e0b2472121ec9c5f774f8fcef",
+            "sha256": "7bc3dc5ae2d50f1f8f04927e02836df971b0bacaee3fd073ebdb75e1f1308188",
+            "title": "A D D i c T i O N 4 5 0 0 0 0 0 -L u N A-",
+            "artist": "- 4 5 /  s e l e n e .",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=121&event=116",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01162.zip",
+            "level": "0"
+        },
+        {
             "id": 627,
             "md5": "a35134b89ac127ad89b96169828ed1e7",
             "sha256": "9281b9d91c17b92420bfe8ebb67fe5e990b1dcfec58a3e8f7a7cb9c81e8e1b61",
@@ -642,6 +652,16 @@
             "level": "0"
         },
         {
+            "id": 7432,
+            "md5": "f67c98373d90681a3ae0e5cea2776e31",
+            "sha256": "051297829aabadf16ce39a6200a46bc4addc5717583977e2d9eb0f452c17b673",
+            "title": "hello,again. [Candy]",
+            "artist": "dj.a meets TEA obj:berimetros",
+            "url": "https://drive.google.com/file/d/1ywnrH_dLS0OEz-zlNz8QokoHKKndOKrL/view",
+            "url_diff": "https://stellabms.xyz/upload/5960",
+            "level": "0"
+        },
+        {
             "id": 3653,
             "md5": "72b1ce4b2051bd2a396dfa11a2d785ee",
             "sha256": "20f37dc62287e8bdc7bee5427d76193d32894830a0bd09ffbbaa46d5daaf60f8",
@@ -652,16 +672,6 @@
             "level": "0"
         },
         {
-            "id": 7318,
-            "md5": "e3af2588c8466479e0b23fc17d2a990b",
-            "sha256": "05517ae88548cf98b73ad95381a2d8e470443078dbba2daae05ac5f1e71d8a1a",
-            "title": "Hi-Speed Stream!! [さくっと手軽な高速乱打]",
-            "artist": "BMチ obj:1834356",
-            "url": "https://venue.bmssearch.net/bmstukuru2024/6",
-            "url_diff": "https://stellabms.xyz/upload/5847",
-            "level": "0"
-        },
-        {
             "id": 5544,
             "md5": "a9836a058515f67ec778fa257440b125",
             "sha256": "f9f3373293bf0cfd864f74068eeeaf72778a8bc2ef3986352b7a51549e1a39fd",
@@ -669,6 +679,16 @@
             "artist": "桐藤ナギサ obj.Tetra",
             "url": "https://venue.bmssearch.net/bmstukuru2023/73",
             "url_diff": "https://stellabms.xyz/upload/2697",
+            "level": "0"
+        },
+        {
+            "id": 7546,
+            "md5": "3d15513611732b1461b2b808bcf9e533",
+            "sha256": "5ea97a9220c712ba81ce063bb4724d6083ed71b37d0e591390a86fb353124f74",
+            "title": "HIGHRISE [Goodbye, SATELLITE]",
+            "artist": "MM (feat. shishishiena) / &#9829;",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=445&event=142",
+            "url_diff": "https://darksabun.github.io/event/mf2/venue/",
             "level": "0"
         },
         {
@@ -1002,6 +1022,16 @@
             "level": "0"
         },
         {
+            "id": 7231,
+            "md5": "57878960c99a93486812d59b024511de",
+            "sha256": "7070e24760bc5ac638115978da441d39df3eb10868a7809f6c652878a81a11a6",
+            "title": "positive 3rd \"LV mix\" -BGA Remake-",
+            "artist": "cranky / Acacia",
+            "url": "http://web.archive.org/web/20021228234425/http://pal.mydns.to/cranky/bms/7key/posi3rd.exe",
+            "url_diff": "https://stellabms.xyz/upload/5395",
+            "level": "0"
+        },
+        {
             "id": 3421,
             "md5": "b7806afd42bfcd2a91dcfeb3b2b80361",
             "sha256": "03df7766ae76c006588b636e0c38e147985da17bac608e7027aa71ca3beaea76",
@@ -1152,13 +1182,13 @@
             "level": "0"
         },
         {
-            "id": 7549,
-            "md5": "d2e4632857e150d7c55e6147c0651f6f",
-            "sha256": "5e3143d03f758dbab2542ab6561d3aa451c3ff16f9faf15b6ffdf34f978e2122",
-            "title": "Stella Story [Welcome to Stella]",
-            "artist": "azu / &#9829;",
-            "url": "https://drive.google.com/file/d/1SuDVtZNb0o8WyFim2LtCfvq0mply8_ZY/view",
-            "url_diff": "https://darksabun.github.io/event/mf2/venue/",
+            "id": 7587,
+            "md5": "2530a4b692c47be9fd1b16aab5752b38",
+            "sha256": "f0e4e73d7d6adbd4dfc51bcf483a5af84b1a45b4333e8f6919591460b72e1ca1",
+            "title": "Stella Story(2012 Summer End Remix) [Stella]",
+            "artist": "azu remixed by s-don / azu obj:berimetros",
+            "url": "https://drive.google.com/file/d/1zaj8sT1KKagNgbNiWneQL0akTEVtqIE4/view",
+            "url_diff": "https://stellabms.xyz/upload/6040",
             "level": "0"
         },
         {
@@ -1329,6 +1359,16 @@
             "artist": "篠螺悠那 obj.hex",
             "url": "http://manbow.nothing.sh/event/explus/ex_r2/download.html",
             "url_diff": "https://drive.google.com/drive/folders/0B-jo3hSmNHFaSUNPanhQQ3VINUU",
+            "level": "0"
+        },
+        {
+            "id": 7365,
+            "md5": "6037f6542a71a552f173b591330c7b0e",
+            "sha256": "2e3d313eb69ae4b5614cc142fe86c5c9fdd85a02154aafd1ab9465ab6f7e00d7",
+            "title": "x-Aria [Snother]",
+            "artist": "ridis / obj:スノート",
+            "url": "http://web.archive.org/web/20060305103446/http://bof.nothing.sh:8080/file/catnap_ridis_x_aria_hq.rar",
+            "url_diff": "https://web.archive.org/web/20200306161944/http://gnqg.rosx.net/upload/upl/L5LhwOkStzV5IRw_DOk3/03284.zip",
             "level": "0"
         },
         {
@@ -1709,6 +1749,16 @@
             "artist": "Arishima_Caprico + うまるつふり obj:うまるつふり",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=127",
             "url_diff": "",
+            "level": "0"
+        },
+        {
+            "id": 7580,
+            "md5": "9854ad594f24e492febe2400e9e55a26",
+            "sha256": "6c033458c2b0b80335a221dc9a1d17be0b5a3a2ce27ae92b01f96d73cf3dee68",
+            "title": "太れコア [100キロ]",
+            "artist": "momo★yama (VOCAL:重音テトSV・Ryo) obj:見習い太らせ魔法使い",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/3",
+            "url_diff": "https://stellabms.xyz/upload/6156",
             "level": "0"
         },
         {
@@ -3582,6 +3632,16 @@
             "level": "1"
         },
         {
+            "id": 7549,
+            "md5": "d2e4632857e150d7c55e6147c0651f6f",
+            "sha256": "5e3143d03f758dbab2542ab6561d3aa451c3ff16f9faf15b6ffdf34f978e2122",
+            "title": "Stella Story [Welcome to Stella]",
+            "artist": "azu / &#9829;",
+            "url": "https://drive.google.com/file/d/1SuDVtZNb0o8WyFim2LtCfvq0mply8_ZY/view",
+            "url_diff": "https://darksabun.github.io/event/mf2/venue/",
+            "level": "1"
+        },
+        {
             "id": 4567,
             "md5": "38e8eec9831456f09e51ef1f89a4035e",
             "sha256": "01105631efb0194ee312c6900248f2227c7480b599219b9fce57effaf0f15834",
@@ -3669,6 +3729,16 @@
             "artist": "Euphoria guru with Sobrem obj. Mary_Sue",
             "url": "https://drive.google.com/file/d/1aq3bUerUpHc1myFOWxxeaTDkBBAQKSJu/view",
             "url_diff": "https://hpx.getonpictochat.com/bmss/2023/",
+            "level": "1"
+        },
+        {
+            "id": 3279,
+            "md5": "392f0d62335823a2f9709d272e07bc0d",
+            "sha256": "1c6db5cff1d205c60e1bd539f34d3743460633377c65349e12703d82cf48e171",
+            "title": "tinnitus [Nyannurs]",
+            "artist": "SP-# / obj. Tristan97",
+            "url": "https://onedrive.live.com/?cid=578814ACC2BD5A74&id=578814ACC2BD5A74!140",
+            "url_diff": "https://drive.google.com/file/d/1JmkmTVy-9Li7HKsNq4ye6-q3X0Tzqx2F/view?usp=sharing",
             "level": "1"
         },
         {
@@ -3829,6 +3899,16 @@
             "artist": "ヲルバ＝田中・ヴァニラ / obj:夢瑠",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=172&event=96",
             "url_diff": "http://yumerusabun.web.fc2.com/nue.html",
+            "level": "1"
+        },
+        {
+            "id": 7622,
+            "md5": "3e2db01a2b5c4f82d8bca4589089f0fc",
+            "sha256": "2253c00103738ad40f716cb9bf43062bf3db1126f5592d0f7b26b4de87fee7b9",
+            "title": "YAMAXANADU OF TWO [Harether]",
+            "artist": "nmk feat.Salita obj.小鈎ハレ",
+            "url": "https://yaruki0.sakura.ne.jp/event/ondanyugi5/impression.cgi?no=19",
+            "url_diff": "https://stellabms.xyz/upload/6265",
             "level": "1"
         },
         {
@@ -4739,6 +4819,16 @@
             "artist": "Freezer feat. 妃苺 obj:Omino",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=23&event=116",
             "url_diff": "http://gnqg.rosx.net/upload/?pg=0",
+            "level": "2"
+        },
+        {
+            "id": 7599,
+            "md5": "92d393a060978c73317e2f47578e32a2",
+            "sha256": "0738b7066f37b5f17672a4c7ca34f812e6744eb13906dbfd599d01c6b1435124",
+            "title": "BIG LOVE [nerither]",
+            "artist": "Alkome BGA: zukutya / obj: noren",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=127&event=142",
+            "url_diff": "https://stellabms.xyz/upload/6241",
             "level": "2"
         },
         {
@@ -6262,16 +6352,6 @@
             "level": "2"
         },
         {
-            "id": 7550,
-            "md5": "b566416b7ded173490296f8650c07491",
-            "sha256": "fe299c24c427c33ec51050c7209e2e7416ba937720465d48f5ce6fe2f652f092",
-            "title": "Tiny Leda [TailSeeker]",
-            "artist": "Zris Ctrl+Z Generation",
-            "url": "https://starkey.ivory.ne.jp/bjcup/anotherbjc3/detail/view/2/",
-            "url_diff": "https://darksabun.github.io/event/mf2/venue/",
-            "level": "2"
-        },
-        {
             "id": 209,
             "md5": "de559c618ad8702be93e40bd51f21388",
             "sha256": "4356d638b83eb7222c1deebed06af54bae45d8e75e20f8c614e368d9395d6dee",
@@ -6359,6 +6439,16 @@
             "artist": "Sakamiya obj.hex",
             "url": "https://dl.dropboxusercontent.com/s/089dnr0szei2z7d/ValkyrieRevolutia_sakamiya.zip",
             "url_diff": "https://dl.dropboxusercontent.com/s/hxi8nsfh9oq68gd/%E2%98%85%E2%98%852%20%E2%98%85%E2%98%855%20Valkyrie%20Revolutia%20%5BHexagon%5D%20%2B%20%5BSuper%20Hexagon%5D.zip",
+            "level": "2"
+        },
+        {
+            "id": 7591,
+            "md5": "439d3d9186e86047647be6baf60b9493",
+            "sha256": "0c5ebf8a92ff24bff5de80f4485602f63ca998bbcaed49c9721197152d16586a",
+            "title": "Verre -Sunset, ibiza Mix- [P]",
+            "artist": "TAK / ke / obj. laner",
+            "url": "https://onedrive.live.com/?authkey=%21ANyZD9QeOV1qq4k&cid=3078649C19F9CDD6&id=3078649C19F9CDD6%21898&parId=3078649C19F9CDD6%21105&action=locate",
+            "url_diff": "https://web.archive.org/web/20190322230138/http://www.hyper-laner.com/sabun/all201807_laner.rar",
             "level": "2"
         },
         {
@@ -7712,6 +7802,16 @@
             "level": "3"
         },
         {
+            "id": 7597,
+            "md5": "934ce1581be01ad8d9649388e7bb09a6",
+            "sha256": "1cae9eecae5777925bc0a3f52badf630a1e60af5fee6f635c10f0ffa1995ca16",
+            "title": "Faraway Sky (All I C Is U) [Fly Away]",
+            "artist": "Kyuzo Sameura obj:E",
+            "url": "https://9domu46i.com/yuruyuru/phase23.html",
+            "url_diff": "https://stellabms.xyz/upload/6240",
+            "level": "3"
+        },
+        {
             "id": 6503,
             "md5": "67bda620ee654c23deaac4f99b1b6333",
             "sha256": "b89fe966a26200c33e330df681805ae83351f958fe7eca54a862b5907c47ce2c",
@@ -8942,6 +9042,16 @@
             "level": "3"
         },
         {
+            "id": 7550,
+            "md5": "b566416b7ded173490296f8650c07491",
+            "sha256": "fe299c24c427c33ec51050c7209e2e7416ba937720465d48f5ce6fe2f652f092",
+            "title": "Tiny Leda [TailSeeker]",
+            "artist": "Zris Ctrl+Z Generation",
+            "url": "https://starkey.ivory.ne.jp/bjcup/anotherbjc3/detail/view/2/",
+            "url_diff": "https://darksabun.github.io/event/mf2/venue/",
+            "level": "3"
+        },
+        {
             "id": 5272,
             "md5": "e244b7bca9376240c3640a1c9abe9378",
             "sha256": "483c00e7262e7f972e1497d07a10568e84f2d9262f64f2e920c9aa659a3e9927",
@@ -9239,6 +9349,16 @@
             "artist": "Luv Strawberry's Delta",
             "url": "https://onedrive.live.com/?cid=F881BCC298BA2E47&id=F881BCC298BA2E47%21104",
             "url_diff": "https://web.archive.org/web/20190211031819/http://sabosabun.tank.jp/",
+            "level": "3"
+        },
+        {
+            "id": 7586,
+            "md5": "579881301fc659907e760385b7f88e5b",
+            "sha256": "e30f95f1367d85fad70a997c1037f2996a208400b3d090155ae9f4883c8e02fe",
+            "title": "シャンハイレイヴ！ [SP LUNATIC]",
+            "artist": "MiKaDo (Original:ZUN)",
+            "url": "https://venue.bmssearch.net/ondanre2/2",
+            "url_diff": "",
             "level": "3"
         },
         {
@@ -10872,6 +10992,16 @@
             "level": "4"
         },
         {
+            "id": 7590,
+            "md5": "54da27b8d344c8dac55faea793e570a1",
+            "sha256": "acec05b8909652a89a6c783774a820528fad2c3489c0cedf9d1945e70f9dea70",
+            "title": "MACHALIEN [Nebula]",
+            "artist": "ZUN Remixed by Tiv / BGI:雨水 / obj:mirume",
+            "url": "https://venue.bmssearch.net/ondanre2/4",
+            "url_diff": "https://stellabms.xyz/upload/6124",
+            "level": "4"
+        },
+        {
             "id": 537,
             "md5": "e332debea050f1700fd92aa40dfc8e0b",
             "sha256": "ca5cf948fb0574f39899a135e39471d18cf00a07573b4ac30d18f38ea8462566",
@@ -11469,16 +11599,6 @@
             "artist": "軍人与作しきみ obj. Tiwa Pudpichya",
             "url": "http://web.archive.org/web/20140901161525/http://plugout4.com/plugout/AtomicSphere%5B2004-2009%5D.zip",
             "url_diff": "https://venue.bmssearch.net/sd_black/19",
-            "level": "4"
-        },
-        {
-            "id": 7174,
-            "md5": "97eab4608c426aa59d7dbee541ba389d",
-            "sha256": "d5118d8a9aaaabb464a669eecce6df942792007698419c5f30f9885bd17d3737",
-            "title": "TheFLEX2 [FL-EX]",
-            "artist": "ocogamas SubAtrist",
-            "url": "https://pupuly.nekokan.dyndns.info/bms/v/213",
-            "url_diff": "https://fsrs.github.io/table.html",
             "level": "4"
         },
         {
@@ -13512,6 +13632,16 @@
             "level": "5"
         },
         {
+            "id": 7174,
+            "md5": "97eab4608c426aa59d7dbee541ba389d",
+            "sha256": "d5118d8a9aaaabb464a669eecce6df942792007698419c5f30f9885bd17d3737",
+            "title": "TheFLEX2 [FL-EX]",
+            "artist": "ocogamas SubAtrist",
+            "url": "https://pupuly.nekokan.dyndns.info/bms/v/213",
+            "url_diff": "https://fsrs.github.io/table.html",
+            "level": "5"
+        },
+        {
             "id": 4274,
             "md5": "e5d9c4094ab7c6790e655ed95550a6ba",
             "sha256": "eefae46c38d1530c51d69730184a6b3862d393d2a6b9524a162b07a59c58e48a",
@@ -13609,6 +13739,16 @@
             "artist": "ねこみりん / Apollo Sampling Machine feat.ilder×焔すばる Obj:И",
             "url": "https://www.nekomirin.com/bms/nekomirin_vg_HQogg.zip",
             "url_diff": "https://bms.parksulab.xyz",
+            "level": "5"
+        },
+        {
+            "id": 7614,
+            "md5": "39810385e78d71802c8016b8bc84fde0",
+            "sha256": "11172bf39410b564c30f28b25821c5e3635e23d202b6da9baf2186c5673d2310",
+            "title": "War in the Mirrorworld [Rebel]",
+            "artist": "Aoi mov:SELDO/obj:PiPiNeko",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=389&event=133",
+            "url_diff": "https://stellabms.xyz/upload/4992",
             "level": "5"
         },
         {
@@ -13872,6 +14012,16 @@
             "level": "5"
         },
         {
+            "id": 7579,
+            "md5": "5664e22f25d7c1810a9ef00dcc2f96f8",
+            "sha256": "a8a2ab9a07efb6f4ace15358ea7aadf4b5b57953364c751acd69f53f74e05498",
+            "title": "タンザナイトと旅路の車窓 [STARLIT NIGHT]",
+            "artist": "MiKaDo feat. ROSE / BGI:Roise / obj:Criyajuh",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/14",
+            "url_diff": "https://stellabms.xyz/upload/6192",
+            "level": "5"
+        },
+        {
             "id": 6840,
             "md5": "47f7ee82250b34fe6c9dcba6acb110ef",
             "sha256": "fbbb02bbd112fabc6572473b3f9eb960c2c564c72f4387ca7a2c187ac6ec8a2b",
@@ -13989,6 +14139,16 @@
             "artist": "みーに feat. 初音ミク / obj:potechang",
             "url": "https://k-bms.com/party_pabat/party.jsp?board_num=20&num=3&order=reg&odtype=a&ckattempt=1",
             "url_diff": "https://stellabms.xyz/upload/5822",
+            "level": "5"
+        },
+        {
+            "id": 7602,
+            "md5": "6eba30d1342374789fa2f96cb75e598a",
+            "sha256": "83e2bf2def70a3f15dd5e1d66cdc0a90ec492fc1df33e22191656c572be49e78",
+            "title": "口人間 [腕人間]",
+            "artist": "空読無 白眼 / obj:fuko vs Criyajuh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=226&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3817",
             "level": "5"
         },
         {
@@ -14412,6 +14572,16 @@
             "level": "6"
         },
         {
+            "id": 7577,
+            "md5": "01a33369a9994a6f459e18266fd18a7f",
+            "sha256": "2b034c03774e756d6a43ab82054f1bca7afbc76390837270bb4120f25fd9cf07",
+            "title": "Brain Analysis [BENCHMARK]",
+            "artist": "BACO / bga : kody obj:SNN",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=52",
+            "url_diff": "https://stellabms.xyz/upload/6201",
+            "level": "6"
+        },
+        {
             "id": 2144,
             "md5": "bd97bff3356c5d85dd3490c15d25035b",
             "sha256": "eae0da72bcd6d08631dab30718c4bc44887e7fa0e30f3c704673a508f241dc83",
@@ -14762,6 +14932,16 @@
             "level": "6"
         },
         {
+            "id": 7578,
+            "md5": "76cc8083cd6d0c782fe265c675befc3d",
+            "sha256": "00559ef24d16f8f19a0e7f41317cd47f8684b33709b550e552d49c3101899c98",
+            "title": "Midnight Flux [Neon Sign]",
+            "artist": "ProjectG / И",
+            "url": "https://avocado-projectg.github.io/bmsworks.html",
+            "url_diff": "https://stellabms.xyz/upload/6143",
+            "level": "6"
+        },
+        {
             "id": 5396,
             "md5": "db56731c65cfe9e60e77b9da1aa8f1a1",
             "sha256": "f0bad9994fb219fb64883f9c04853a34ca0a2124ba05b7ad14eab87fb87d32c9",
@@ -14899,6 +15079,16 @@
             "artist": "暮狛 obj. Tiwa Pudpichya",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=252&event=133",
             "url_diff": "https://venue.bmssearch.net/sd_gray/13",
+            "level": "6"
+        },
+        {
+            "id": 7581,
+            "md5": "cf18148562d31c84cc6abbef7c9d03bc",
+            "sha256": "4f12ba5950a4caaf9501a1c24bebf50c5ade792011542b7f97ee08e6ae7b4b66",
+            "title": "Reminiscent Dream [SPELL PRACTICE]",
+            "artist": "ビタミンc / obj:potechang Original: ZUN",
+            "url": "https://venue.bmssearch.net/ondanre2/14",
+            "url_diff": "https://stellabms.xyz/upload/6139",
             "level": "6"
         },
         {
@@ -15522,6 +15712,16 @@
             "level": "7"
         },
         {
+            "id": 6931,
+            "md5": "1347a9c627b3edc7033452426c94cc20",
+            "sha256": "3bd9a5af5473682ebb816005044463e7d9fa3864e72377e277bd206c1cf3618a",
+            "title": "Alone [2玉盛り]",
+            "artist": "void /obj. laner",
+            "url": "https://onedrive.live.com/?authkey=%21AAk3D8zYrdkDtyY&cid=3078649C19F9CDD6&id=3078649C19F9CDD6%21511&parId=3078649C19F9CDD6%21105&action=locate",
+            "url_diff": "https://web.archive.org/web/20180708120948/http://www.hyper-laner.com:80/sabun/all201807_laner.rar",
+            "level": "7"
+        },
+        {
             "id": 642,
             "md5": "1bcf005067e17e5da4c23a08eb19cbdd",
             "sha256": "886a01d7ea00e7dd0ed102530077fe73f77b64335f04243690b2a6e006394277",
@@ -15759,6 +15959,16 @@
             "artist": "sukuramu42 Illust:恋々/ obj:numuto",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=39&event=101",
             "url_diff": "https://ux.getuploader.com/numuther/download/15",
+            "level": "7"
+        },
+        {
+            "id": 7574,
+            "md5": "02982672dc0c32365ee7eb3624f949f5",
+            "sha256": "4ffc197a9159b8dff14b0a68c991fae94b70c3fd91a0a210d900115376230def",
+            "title": "Faraway Sky (All I C Is U) [碧天]",
+            "artist": "Kyuzo Sameura obj:IBARAGI_YOSHIMI",
+            "url": "https://9domu46i.com/yuruyuru/phase23.html",
+            "url_diff": "https://stellabms.xyz/upload/6046",
             "level": "7"
         },
         {
@@ -16679,6 +16889,16 @@
             "artist": "hard obj:魔女",
             "url": "https://venue.bmssearch.net/bmstukuru2022/43",
             "url_diff": "https://drive.usercontent.google.com/u/0/uc?id=1FSxdX2lnD0vwxUXzBaZWBup06iM0OOTl&export=download",
+            "level": "8"
+        },
+        {
+            "id": 7525,
+            "md5": "eaf2d60852532117f8b3986dd0f45e79",
+            "sha256": "7fc658dddcd479d512e8f2906eb9837a790cec20d37100efe8c7202d03cb0bab",
+            "title": "Dark Candy [HEARTLESS]",
+            "artist": "Aspid Cat (BGA Kusanegi & Cattohato / obj:魔女 / BMS Aspid Cat)",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=29&event=146",
+            "url_diff": "https://stellabms.xyz/upload/5994",
             "level": "8"
         },
         {
@@ -17919,6 +18139,16 @@
             "artist": "srask obj: qtp13",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=426&event=116",
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02265.zip",
+            "level": "9"
+        },
+        {
+            "id": 7603,
+            "md5": "eea5d6b7c98ae051bec6a42d5e23d27d",
+            "sha256": "d5bd2153a0867b409e2a11e960c157d78bad1959e9af47671f732036259aafca",
+            "title": "Replace [heavy]",
+            "artist": "Heavysnow obj. strongman",
+            "url": "http://ssl.k-bms.com/party_pabat/party.jsp?board_num=21&num=54&order=reg&odtype=a",
+            "url_diff": "https://gnqg.rosx.net/upload/upload.cgi?get=5559",
             "level": "9"
         },
         {

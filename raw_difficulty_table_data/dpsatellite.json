@@ -812,6 +812,16 @@
             "level": "1"
         },
         {
+            "id": 7558,
+            "md5": "4bbc5a3a636d3821b8c5e14f9b529a4d",
+            "sha256": "9d4ebd0781466f00f0a6562f2598044faddccfd3b1f25edeb834ef56b176b93e",
+            "title": "Endless Journey [14A]",
+            "artist": "LV.4",
+            "url": "https://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
+            "url_diff": "https://w.atwiki.jp/14key/pages/23.html",
+            "level": "1"
+        },
+        {
             "id": 2182,
             "md5": "5dedb908c2d0fc61a09a2499ace14ee7",
             "sha256": "cd8a96fe9e6830fa68398afd541dfa97c309bafecce27198a1437266b4251791",
@@ -2192,16 +2202,6 @@
             "level": "3"
         },
         {
-            "id": 3549,
-            "md5": "e255f2454ad464f042b2ea6f83d143ab",
-            "sha256": "3a8557753356b07916a3bd654c5faf90ee7ec8404fb542aadb76d092f3e32df2",
-            "title": "Loki [Trickster]",
-            "artist": "しらいし obj:けろりん",
-            "url": "http://www1.axfc.net/uploader/He/so/354752&key=sage",
-            "url_diff": "http://favo.kitchen/bms/",
-            "level": "3"
-        },
-        {
             "id": 3558,
             "md5": "c92c96e406e2f19ab4f5164a3ad895d2",
             "sha256": "7aa40689f93bb7ff4c2d9620fae39c96c7cbcc40b368c3b90d63ffc9dd93b698",
@@ -2389,6 +2389,16 @@
             "artist": "Leroy Anderson MIDI:Akira BMS:krg",
             "url": "http://iroirokiba.web.fc2.com/bms.html",
             "url_diff": "",
+            "level": "3"
+        },
+        {
+            "id": 7608,
+            "md5": "a4b4b85685cdfa44882cffab54ec1f19",
+            "sha256": "e44ee87415f83289488ac54bf7b1cf50786c863064e56211bf0a06caaaaa5f2f",
+            "title": "unripe [DP Hard]",
+            "artist": "YuKa feat.宮舞モカ obj:ka2o",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=147",
+            "url_diff": "https://uu.getuploader.com/dpbms/download/1753",
             "level": "3"
         },
         {
@@ -2712,6 +2722,16 @@
             "level": "4"
         },
         {
+            "id": 7609,
+            "md5": "0b43e26c0a7d68fa3fd097f513865978",
+            "sha256": "23022917982aaf170338330668837cf2576058bc5cdfd3ad71f84df793f6f2e2",
+            "title": "GREAT GREAT [DPA]",
+            "artist": "Zris / obj.にゃむ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=428&event=123",
+            "url_diff": "https://stellabms.xyz/upload/6245",
+            "level": "4"
+        },
+        {
             "id": 5358,
             "md5": "2e20d9726feb8fba2563a3af6b4ce17c",
             "sha256": "6b64321c93f4aab95c74ae7adf946e1230c63735bab218b2a4a55f8fcefe3984",
@@ -2749,6 +2769,16 @@
             "artist": "Junk / obj:十六夜",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=375&event=123",
             "url_diff": "https://ux.getuploader.com/dpbms/download/572",
+            "level": "4"
+        },
+        {
+            "id": 3549,
+            "md5": "e255f2454ad464f042b2ea6f83d143ab",
+            "sha256": "3a8557753356b07916a3bd654c5faf90ee7ec8404fb542aadb76d092f3e32df2",
+            "title": "Loki [Trickster]",
+            "artist": "しらいし obj:けろりん",
+            "url": "http://www1.axfc.net/uploader/He/so/354752&key=sage",
+            "url_diff": "http://favo.kitchen/bms/",
             "level": "4"
         },
         {
@@ -3219,6 +3249,16 @@
             "artist": "Seibin obj:17",
             "url": "http://skydrive.live.com/?cid=6580dd8662a42efd&id=6580DD8662A42EFD%21105",
             "url_diff": "https://w.atwiki.jp/14key/pages/23.html",
+            "level": "5"
+        },
+        {
+            "id": 7537,
+            "md5": "ff38d6a227f2e04640bd722b2940f543",
+            "sha256": "cae6f9a5d5a314d0bef37e8e41daab8fcdd1d7b7a557915458c16f1e99fbd85a",
+            "title": "BS-Liner [DP INSANE]",
+            "artist": "Tiv / BGI:殲ちゃん obj:plum",
+            "url": "https://sukestonepyua.wixsite.com/bmspackprimitiv",
+            "url_diff": "",
             "level": "5"
         },
         {
@@ -4032,6 +4072,16 @@
             "level": "6"
         },
         {
+            "id": 7538,
+            "md5": "fa2f67b379ff6ed90019e652738ecb8a",
+            "sha256": "e3209a5ba9edf2d223c5d8f406ba370e93781c0e593297132a692eb407b2b946",
+            "title": "Deifixa [DP]",
+            "artist": "Reku Mochizuki obj:ka2o",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=1",
+            "url_diff": "https://stellabms.xyz/upload/6123",
+            "level": "6"
+        },
+        {
             "id": 3797,
             "md5": "11c50f76c098e858c2b61e04db177ecc",
             "sha256": "446351f3aa332476df8918165261c7c13853129631874b8d2fd956f6fc65c221",
@@ -4382,13 +4432,13 @@
             "level": "6"
         },
         {
-            "id": 7489,
-            "md5": "c7bd496f715fd3e3da6ee571a8aa0926",
-            "sha256": "a70a043461875cc1a614648d93cc4a620f3cc1260c1f74f2cdc232e0da7f59f0",
-            "title": "自強號 [換骨奪胎]",
-            "artist": "痛男次郎 / obj:Hersh spaaaark・∀・",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=395&event=88",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/195",
+            "id": 7533,
+            "md5": "0f9d1e704c0217403b5f90221675414f",
+            "sha256": "6c2ce3f20ed864cf72d537deff1c324d61564ebd0a0f1cd7714ef784c7c2805f",
+            "title": "聖戦の輪舞 [DPA]",
+            "artist": "カラフル・サウンズ・ポート/mov:むらしん obj:肴",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=515&event=110",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/149",
             "level": "6"
         },
         {
@@ -4402,6 +4452,16 @@
             "level": "6"
         },
         {
+            "id": 6510,
+            "md5": "32d0eee7348154193a85449db38ce765",
+            "sha256": "bb3d66d61abe30325c247b09701ee337b46796443937f97e9a2d2dfe110e1e28",
+            "title": "音碧のマギア・オムニア [DP ANOTHER]",
+            "artist": "Midnight Shift illus. Skugga //obj:MIST",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=145",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1665",
+            "level": "6"
+        },
+        {
             "id": 1884,
             "md5": "64bbf6a68a454762754d7d7f03611780",
             "sha256": "42d32bb33482c2774617a219faddf0d1f562e6f9bb378501a22f14fafbde46b1",
@@ -4409,6 +4469,16 @@
             "artist": "eoll Visual : HEART OF MIND  obj. 深海",
             "url": "http://sdrv.ms/1bdMj6h",
             "url_diff": "http://dpbmsdelta.web.fc2.com/info/links.html",
+            "level": "7"
+        },
+        {
+            "id": 7593,
+            "md5": "dd5b77e878bca0f46b47598f878f8e93",
+            "sha256": "e76911b5fb7641324722cb0fee03f81bd1232f9cbdac6eee06781f9aa652563f",
+            "title": "adabana [14KEYS ANOTHER]",
+            "artist": "Kyuzo Sameura/obj.libra",
+            "url": "https://venue.bmssearch.net/genreshuffle4/88",
+            "url_diff": "https://uu.getuploader.com/dpbms/download/1743",
             "level": "7"
         },
         {
@@ -5012,6 +5082,16 @@
             "level": "7"
         },
         {
+            "id": 7489,
+            "md5": "c7bd496f715fd3e3da6ee571a8aa0926",
+            "sha256": "a70a043461875cc1a614648d93cc4a620f3cc1260c1f74f2cdc232e0da7f59f0",
+            "title": "自強號 [換骨奪胎]",
+            "artist": "痛男次郎 / obj:Hersh spaaaark・∀・",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=395&event=88",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/195",
+            "level": "7"
+        },
+        {
             "id": 3701,
             "md5": "9efd3a958f5f34ddbbe9068262673652",
             "sha256": "f5592b36470ce4b00156879e777dc7b289e64e11306312a5c7c3a843a5131946",
@@ -5259,6 +5339,16 @@
             "artist": "Zris feat. Katie / Limite",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=354&event=127",
             "url_diff": "https://1drv.ms/x/s!Aoi5esJwIYCChk0BTx_U1KkswzSf",
+            "level": "8"
+        },
+        {
+            "id": 7437,
+            "md5": "da85236c483061c2959208463ac199e9",
+            "sha256": "b3933380a221b5aa67d7eb18cc1e80637115fed9dc890f9a3c484d70478e9537",
+            "title": "In a dream [DP-sagINSANE]",
+            "artist": "Team Shanghai Alice (Remixed by Est) / obj:sagoo",
+            "url": "https://onedrive.live.com/?cid=F61C1F8825F0CF46&id=F61C1F8825F0CF46%21159",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/920",
             "level": "8"
         },
         {
@@ -5649,16 +5739,6 @@
             "artist": "ginkiha (obj:k)",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=397&event=83",
             "url_diff": "http://dpbms.at-ninja.jp/bms/fadingstar.zip",
-            "level": "9"
-        },
-        {
-            "id": 7437,
-            "md5": "da85236c483061c2959208463ac199e9",
-            "sha256": "b3933380a221b5aa67d7eb18cc1e80637115fed9dc890f9a3c484d70478e9537",
-            "title": "In a dream [DP-sagINSANE]",
-            "artist": "Team Shanghai Alice (Remixed by Est) / obj:sagoo",
-            "url": "https://onedrive.live.com/?cid=F61C1F8825F0CF46&id=F61C1F8825F0CF46%21159",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/920",
             "level": "9"
         },
         {
