@@ -7839,6 +7839,18 @@
         },
         {
             "level": "11",
+            "md5": "ea02403f5861c479255a11755925eaad",
+            "sha256": "ea0f604841def192d3173cf18a160204408909424ea9ab6418b36800d76edadc",
+            "genre": "GLITCH HOP",
+            "title": "burned down the ghost house and escaped spooks [Kiss Me!!]",
+            "artist": "cybermiso / おぶじぇ優ちゃんと春香",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=127&event=93",
+            "url_diff": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=94",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ea02403f5861c479255a11755925eaad"
+        },
+        {
+            "level": "11",
             "md5": "dc4adbbf11b5a6868aa73abecc629c3e",
             "sha256": "6c45bc6f95ab1b5d4076e8ccca1f73409295403914e6f7724540720adc4fea9b",
             "genre": "Kill Kill",

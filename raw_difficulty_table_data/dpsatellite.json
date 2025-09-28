@@ -2522,6 +2522,16 @@
             "level": "3"
         },
         {
+            "id": 7634,
+            "md5": "e8a0a4289877b8653e917ee09c301f24",
+            "sha256": "f5eda0f23e9906583a858b382f72fade18c7037cceb737d87ccf03b1381ca654",
+            "title": "論理ロンリー [Extra_14key]",
+            "artist": "三角コナ feat.重音テト BMS:Chart_Generator/obj:plum",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/27",
+            "url_diff": "",
+            "level": "3"
+        },
+        {
             "id": 4647,
             "md5": "5c1c97a00af7b108e2a53afecba82cc3",
             "sha256": "8efd8615e1f1f87816d15fc187485793e9f837ad64c187e9772af2395f9035c7",
@@ -2539,6 +2549,16 @@
             "artist": "Lemi. obj:鈎兎(KagiUsagi)",
             "url": "https://drive.google.com/file/d/1dQCBrs3wAGHmri3fHa90mCst2JC3wQGE/view?usp=drive_link",
             "url_diff": "https://stellabms.xyz/upload/2871",
+            "level": "4"
+        },
+        {
+            "id": 7633,
+            "md5": "2dc02c533cffc74a448155bfc9b49a4b",
+            "sha256": "85fd7b52e11ab988559fd08610c86c95989fb3b3a307edc1a458390740dd3033",
+            "title": "7colors memories [Best friend_14key]",
+            "artist": "Reku Mochizuki feat. せやかて硝酸太郎 / illust:きち BMS:Chart_Generator/obj:フォルティッシモ",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/23",
+            "url_diff": "",
             "level": "4"
         },
         {
@@ -3369,6 +3389,16 @@
             "artist": "Nego_tiator/BGA:Fiz / obj.LetsOTL",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=104",
             "url_diff": "https://www.dropbox.com/s/o436tq9egp4ylyb/Grisaille_DP.zip?dl=0",
+            "level": "5"
+        },
+        {
+            "id": 7632,
+            "md5": "5467a24c55bea502af0dd624ec5ce19a",
+            "sha256": "eba738d7cdb6c79f34d8b4cf93ba28930522a8829586cee1860a6fd1edcec3a8",
+            "title": "grode (decoherence) [DP ANOTHER]",
+            "artist": "dandeless rmx. frums obj:Telperion",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/22",
+            "url_diff": "",
             "level": "5"
         },
         {

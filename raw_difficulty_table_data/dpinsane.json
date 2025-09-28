@@ -159,6 +159,18 @@
         },
         {
             "level": "1",
+            "md5": "dd0ea3f8e8357e0ce8ca70c2ccd71238",
+            "sha256": "a89f4073e0ce9966af1c6a3f1f19706ad3ca2d747267acfb9756bb6b05954e4b",
+            "genre": "HOUSE",
+            "title": "Cinderella Story [DP ANOTHER]",
+            "artist": "adumac/objEPICS-",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=60",
+            "url_diff": "http://epics.client.jp/",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dd0ea3f8e8357e0ce8ca70c2ccd71238"
+        },
+        {
+            "level": "1",
             "md5": "f077712c8a6b2ffada6a275ee90639ee",
             "sha256": "76a6ce5bfd942419107479497a1be4dab6dbb7095bd162d439e67764c5be7737",
             "genre": "TRANCE",
@@ -864,18 +876,6 @@
             "url_diff": "https://isopod.web.fc2.com/BMS/dp.html",
             "comment": "HQ版 http://goo.gl/mstWT2014/03/17 本体、差分ともに入手可能。",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=88b451d8196bf4759e14e50a1507edd8"
-        },
-        {
-            "level": "2",
-            "md5": "dd0ea3f8e8357e0ce8ca70c2ccd71238",
-            "sha256": "a89f4073e0ce9966af1c6a3f1f19706ad3ca2d747267acfb9756bb6b05954e4b",
-            "genre": "HOUSE",
-            "title": "Cinderella Story [DP ANOTHER]",
-            "artist": "adumac/objEPICS-",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=60",
-            "url_diff": "http://epics.client.jp/",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dd0ea3f8e8357e0ce8ca70c2ccd71238"
         },
         {
             "level": "2",
@@ -2595,6 +2595,18 @@
         },
         {
             "level": "4",
+            "md5": "f97aa620c4c8644361cfa3aab4c6cc58",
+            "sha256": "1ceb4be74ac6f563b324cf88b14b1af453883d6563d1b3944ff858288373f895",
+            "genre": "Emotional Arcade Core",
+            "title": "Farewell, sunset clouds. [Fading Day]",
+            "artist": "SKY. obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=288&event=146",
+            "url_diff": "",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f97aa620c4c8644361cfa3aab4c6cc58"
+        },
+        {
+            "level": "4",
             "md5": "c952e27ac89db77883ef0c87029182ac",
             "sha256": "27cebd70bb066d2b9cf44a066618a6fe03280443153b7d11b61af177b2e41eb0",
             "genre": "CELTIC STYLE BREAKS",
@@ -3192,18 +3204,6 @@
             "url_diff": "http://dpbms.at-ninja.jp/index.html",
             "comment": "(2014/04/20)本体差分共に入手可",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4626e0e807fb353ca3c5230ae3a341b7"
-        },
-        {
-            "level": "5",
-            "md5": "f97aa620c4c8644361cfa3aab4c6cc58",
-            "sha256": "1ceb4be74ac6f563b324cf88b14b1af453883d6563d1b3944ff858288373f895",
-            "genre": "Emotional Arcade Core",
-            "title": "Farewell, sunset clouds. [Fading Day]",
-            "artist": "SKY. obj:フォルティッシモ",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=288&event=146",
-            "url_diff": "",
-            "comment": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f97aa620c4c8644361cfa3aab4c6cc58"
         },
         {
             "level": "5",
@@ -4959,6 +4959,18 @@
         },
         {
             "level": "7",
+            "md5": "fa2f67b379ff6ed90019e652738ecb8a",
+            "sha256": "e3209a5ba9edf2d223c5d8f406ba370e93781c0e593297132a692eb407b2b946",
+            "genre": "After Journey",
+            "title": "Deifixa [DP]",
+            "artist": "Reku Mochizuki obj:ka2o",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=1&order=reg&odtype=a",
+            "url_diff": "https://stellabms.xyz/upload/6123",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fa2f67b379ff6ed90019e652738ecb8a"
+        },
+        {
+            "level": "7",
             "md5": "66bdc07d1645b2c148fa3c7cc0fe6e9a",
             "sha256": "f9a59ee86ded41a2465959ac36bb800ab943e720081f02b40fd2e96e3edb919a",
             "genre": "TRANCE",
@@ -6339,6 +6351,18 @@
         },
         {
             "level": "9",
+            "md5": "659ebd85b522dd0d5818183f5913fd1d",
+            "sha256": "29abd628fc06765e4b68c0ae892ea665db8e429956220f9ec438d86348087f57",
+            "genre": "Jarring techno",
+            "title": "Kitty guy",
+            "artist": "Red hood",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=126&event=44",
+            "url_diff": "",
+            "comment": "Skydriveにて原曲補完https://skydrive.live.com/#cid=863934608D908CD0&id=863934608D908CD0%21105",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=659ebd85b522dd0d5818183f5913fd1d"
+        },
+        {
+            "level": "9",
             "md5": "4d0916ec8afc93e0879829736ef58556",
             "sha256": "e2eb09926d5613313604b5aa50f7031f5ac54e7483ed718a32f14d8d33b89fdc",
             "genre": "零式RAVE[14ANOTHER]",
@@ -6864,18 +6888,6 @@
             "url_diff": "https://mega.nz/folder/OdIkhSjJ#9QOnWaphRecXu18rC5V8mQ/folder/uJZShQQT",
             "comment": "本体:http://web.archive.org/web/20110911074519/http://tsubu.ath.cx/~electrogic/bms/imp_bga_mq.rar",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d15316fa98cb0a9486a1a2fdf08ea3c5"
-        },
-        {
-            "level": "10",
-            "md5": "659ebd85b522dd0d5818183f5913fd1d",
-            "sha256": "29abd628fc06765e4b68c0ae892ea665db8e429956220f9ec438d86348087f57",
-            "genre": "Jarring techno",
-            "title": "Kitty guy",
-            "artist": "Red hood",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=126&event=44",
-            "url_diff": "",
-            "comment": "Skydriveにて原曲補完https://skydrive.live.com/#cid=863934608D908CD0&id=863934608D908CD0%21105",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=659ebd85b522dd0d5818183f5913fd1d"
         },
         {
             "level": "10",
@@ -7476,6 +7488,18 @@
             "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
             "comment": "【加古川DP難易度表】http://www.bb.banban.jp/oglover/BMS/kakogawa_dpbms.html",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1ca2890c5dda6834168a071d6d9e8463"
+        },
+        {
+            "level": "11",
+            "md5": "a40ee9ce409b7b8ad3a6462843c6950a",
+            "sha256": "36ceda97dd33c282118e3e6d2161a67d8c3e67109b77220db75deaa79410fc84",
+            "genre": "Rezive Out",
+            "title": "Strahv -DP INFINITY-",
+            "artist": "Feryquitous obj:kuro Sennzai / Dazzle / Cymby",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=327&event=104",
+            "url_diff": "https://cdn.discordapp.com/attachments/322902777749831680/329925969840177154/Strahv_react3_ki.bms",
+            "comment": null,
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a40ee9ce409b7b8ad3a6462843c6950a"
         },
         {
             "level": "11",

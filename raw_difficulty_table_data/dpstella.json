@@ -42,6 +42,16 @@
             "level": "0"
         },
         {
+            "id": 7610,
+            "md5": "82bdb9f2e47d8785852e504b93bd0c4e",
+            "sha256": "1fb53f3b403dc40b115a29ce33e747bf44cc203aa3b84d1574021f39d6bbd68f",
+            "title": "Azure Rays [DP FAIRTHER]",
+            "artist": "SKY. obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=139",
+            "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpih2Q-1VYDH5eDAaLR?e=UWdPcQ",
+            "level": "0"
+        },
+        {
             "id": 2757,
             "md5": "5f5be91b44b0108d91c48e01b0e27c41",
             "sha256": "50d869b82a4db6a36b6d82dc25e34b867c1c667d269f1972be95af7a5e77b479",
@@ -262,6 +272,16 @@
             "level": "0"
         },
         {
+            "id": 7667,
+            "md5": "0c2756cac74e3880856f27b295b9e951",
+            "sha256": "afdd07f8042950717d3310ec51db69f5ca0028bdc52282854545772fbbc80626",
+            "title": "SAKIGAKE [DP MIYATHER]",
+            "artist": "kas_0120 × 原木シィタケ BGA:かんてん / obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=276&event=140",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1474",
+            "level": "0"
+        },
+        {
             "id": 5486,
             "md5": "ed9595f5c3fe0c970b78bc1e9b0d2392",
             "sha256": "07e810f556c7ed0e9fbbc1a2e2c6a1fa6b4127309a3ce3bc310c4216b7dd03b3",
@@ -449,6 +469,16 @@
             "artist": "VXΛ / μyaZz obj:plum",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=39&event=142",
             "url_diff": "",
+            "level": "1"
+        },
+        {
+            "id": 5846,
+            "md5": "0e553ed4f420fab55f68e2d42e0ce808",
+            "sha256": "d343905faaf250a1b082f587960ecd1bf1734af5881e3111aa4595488346daf3",
+            "title": "Assault TAXI [DP LEGGENDARIA]",
+            "artist": "∀S∀ / obj. 0ne",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=214&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3268",
             "level": "1"
         },
         {
@@ -882,6 +912,16 @@
             "level": "2"
         },
         {
+            "id": 7612,
+            "md5": "cb385a50753a3c006c622994c8f55196",
+            "sha256": "6e202f21c923011e70fcec9d86aa4a7f5e8a67ffc2a988301e1fc8037aeacbb8",
+            "title": "多重極展開[FRACTAL 14]",
+            "artist": "Rocky / obj:Fruit",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=62&event=88",
+            "url_diff": "https://stellabms.xyz/upload/6270",
+            "level": "2"
+        },
+        {
             "id": 6705,
             "md5": "352c32fc9f349c71c4b730708544bdc9",
             "sha256": "ee135119571c9ef653ac5ad8a69d60395b56d6513726a3535bc82784e75dcbb8",
@@ -999,6 +1039,16 @@
             "artist": "テヅカ ? Qayo BGI: MUSH.T ? PHage / obj:Starfish",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=253&event=123",
             "url_diff": "https://ux.getuploader.com/dpbms/download/539",
+            "level": "3"
+        },
+        {
+            "id": 7613,
+            "md5": "6a85c84a514184f636f34111fc0d3ffd",
+            "sha256": "e390ce017f29491cbf2575e2dddd2de8d70b21bfbf9cfa276c53c3a7e7f333f3",
+            "title": "平衡世界 [galaxy 14]",
+            "artist": "daisan OBJ:Fruit",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=83",
+            "url_diff": "https://stellabms.xyz/upload/6269",
             "level": "3"
         },
         {

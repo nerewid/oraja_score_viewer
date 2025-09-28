@@ -346,6 +346,14 @@
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=97794d0cb7a2d192655a13cc803e1d16"
         },
         {
+            "level": "0",
+            "title": "太れコア [100キロ]",
+            "md5": "9854ad594f24e492febe2400e9e55a26",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9854ad594f24e492febe2400e9e55a26"
+        },
+        {
             "level": "1",
             "title": "！？ -Despair-",
             "md5": "a597752081cb02d716d0ed1e16f6a158",
@@ -3355,6 +3363,14 @@
         },
         {
             "level": "6",
+            "title": "Trahison [アルティメット音頭]",
+            "md5": "19f74efc23c5c50bca99e1bac9ba2171",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=19f74efc23c5c50bca99e1bac9ba2171"
+        },
+        {
+            "level": "6",
             "title": "twinkle white* [7645]",
             "md5": "e66ef182a5b6e824f03a85da5643d280",
             "comment": "",
@@ -3408,6 +3424,14 @@
             "comment": "",
             "artist": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=3c981695b8e2106c4e8d484d3bf708c1"
+        },
+        {
+            "level": "6",
+            "title": "プナイプナイせんそう [CATACLYSM]",
+            "md5": "2922f4ba6282f47889dd9b41313db346",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2922f4ba6282f47889dd9b41313db346"
         },
         {
             "level": "6",
@@ -3616,6 +3640,14 @@
             "comment": "",
             "artist": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9038ce325e832fa38f16f7f3b247d620"
+        },
+        {
+            "level": "7",
+            "title": "Once in my life [life]",
+            "md5": "e1e5c55fe6087415c0077870b72fe3c8",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e1e5c55fe6087415c0077870b72fe3c8"
         },
         {
             "level": "7",
@@ -4339,6 +4371,14 @@
         },
         {
             "level": "8",
+            "title": "parachute [stylus]",
+            "md5": "b1600612689dfa02fe2e11e39e7e52a7",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b1600612689dfa02fe2e11e39e7e52a7"
+        },
+        {
+            "level": "8",
             "title": "Radiata [Lycoris]",
             "md5": "64e373fe182c8deca4753e3b8481dcc3",
             "comment": "",
@@ -4659,6 +4699,14 @@
         },
         {
             "level": "9",
+            "title": "Full of Tears [ぴえん]",
+            "md5": "d106a7d8ec7e2d786b0a8cfa32270db4",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d106a7d8ec7e2d786b0a8cfa32270db4"
+        },
+        {
+            "level": "9",
             "title": "Guiding Star [Ain't too proud to rely on!]",
             "md5": "682bea840c5c62fc8898e3e9f9d012ff",
             "comment": "",
@@ -4923,14 +4971,6 @@
         },
         {
             "level": "9",
-            "title": "カードロボトル [合意と見てよろしいですね？]",
-            "md5": "d9b5c752a741a385f70f976c818b5903",
-            "comment": "",
-            "artist": "",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d9b5c752a741a385f70f976c818b5903"
-        },
-        {
-            "level": "9",
             "title": "サンバランド -LEMON-",
             "md5": "02bd95b7d7b1ab7779723459bd67f600",
             "comment": "",
@@ -5115,6 +5155,22 @@
         },
         {
             "level": "10",
+            "title": "Fleeing Sunlight [High]",
+            "md5": "",
+            "comment": "2bf4254b837aac7e71848177770f7fc5",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
+        },
+        {
+            "level": "10",
+            "title": "Fuzzy-Navel [metaphor]",
+            "md5": "",
+            "comment": "a7612089f9e488f853ccc4e061dfc153",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
+        },
+        {
+            "level": "10",
             "title": "Kaleidoscope [SUPERCOLORFUL]",
             "md5": "7b120f62df2da69ec06f2321d1969f67",
             "comment": "",
@@ -5155,6 +5211,22 @@
         },
         {
             "level": "10",
+            "title": "Qualia [robo]",
+            "md5": "",
+            "comment": "87f03cba5395bde5e3af39f097a9eab0",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
+        },
+        {
+            "level": "10",
+            "title": "Radiata [Acheron]",
+            "md5": "",
+            "comment": "31b0858a2318f69293def3f3402c4734",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
+        },
+        {
+            "level": "10",
             "title": "Ripple Field 2 [フェスといえばマッチョ]",
             "md5": "2d3565fe28f0b42b4539247e06a7bed3",
             "comment": "",
@@ -5171,11 +5243,35 @@
         },
         {
             "level": "10",
+            "title": "The Panorama [robo]",
+            "md5": "",
+            "comment": "cd561cb8b16c286e061ac898e71c1b26",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
+        },
+        {
+            "level": "10",
             "title": "TRiNITITE [FALL0UT]",
             "md5": "74b5100ff01c533315e3738d3f2bd605",
             "comment": "",
             "artist": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=74b5100ff01c533315e3738d3f2bd605"
+        },
+        {
+            "level": "10",
+            "title": "You're My Shining Star [robo]",
+            "md5": "",
+            "comment": "854a2f46326e2ca055c6252178b04717",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
+        },
+        {
+            "level": "10",
+            "title": "Wayra pacha [GOD:Shadow]",
+            "md5": "",
+            "comment": "716fb3ed7d6477a30413d544614c9841",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5="
         },
         {
             "level": "10",
@@ -5208,6 +5304,14 @@
             "comment": "",
             "artist": "",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=506856daa69d1828156579ec049b8a57"
+        },
+        {
+            "level": "10",
+            "title": "カードロボトル [合意と見てよろしいですね？]",
+            "md5": "d9b5c752a741a385f70f976c818b5903",
+            "comment": "",
+            "artist": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d9b5c752a741a385f70f976c818b5903"
         },
         {
             "level": "10",
