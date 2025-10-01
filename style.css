@@ -185,3 +185,14 @@ h3 {
 .song-list a {
     color: inherit;
 }
+
+/* results-area: リサイズ時のレイアウト再計算を最小化 */
+#results-area {
+    contain: layout style; /* レイアウトとスタイル再計算を分離 */
+}
+
+/* date-section: 画面外要素のレンダリングを遅延 */
+.date-section {
+    content-visibility: auto; /* 可視範囲外は描画スキップ */
+    contain-intrinsic-size: auto 300px; /* 予想高さ */
+}
