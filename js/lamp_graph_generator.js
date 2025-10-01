@@ -499,7 +499,7 @@ function populateDifficultySelect(tablesData) {
  */
 function displayLampGraphs(aggregatedData, shortName) {
     lampGraphArea.innerHTML = ''; // 既存のグラフをクリア
-    lampGraphArea.style.cursor = 'default'; // デフォルトカーソルに戻す
+    lampGraphArea.classList.add('default-cursor'); // デフォルトカーソルに戻す
 
     if (aggregatedData.size === 0) {
         lampGraphArea.innerHTML = '<p>表示するデータがありません。</p>';
@@ -532,27 +532,15 @@ function displayLampGraphs(aggregatedData, shortName) {
 
         const levelContainer = document.createElement('div');
         levelContainer.classList.add('level-item'); // 新しいクラスを追加
-        levelContainer.style.display = 'flex'; // Flexbox を適用
-        levelContainer.style.alignItems = 'center'; // 縦方向中央揃え
-        levelContainer.style.marginBottom = '5px'; // 間隔を調整
 
         const levelLabel = document.createElement('div');
+        levelLabel.classList.add('level-label');
         levelLabel.textContent = `${shortName}${level} (${totalSongsInLevel})`; // 短縮した表記
-        levelLabel.style.fontWeight = 'bold';
-        levelLabel.style.width = '90px'; // ラベルの固定幅
-        levelLabel.style.marginRight = '10px'; // ラベルとグラフの間隔
-        levelLabel.style.fontSize = '12px'
         
         levelContainer.appendChild(levelLabel);
 
         const graphBar = document.createElement('div');
         graphBar.classList.add('lamp-graph-bar');
-        graphBar.style.display = 'flex';
-        graphBar.style.position = 'relative';
-        graphBar.style.height = '20px'; // 高さを調整
-        graphBar.style.width = '100%'; // 残りの幅を占める
-        graphBar.style.border = '1px solid #ccc';
-        graphBar.style.cursor = 'pointer';
         graphBar.dataset.level = level;
 
         let currentPercentage = 0;
@@ -566,23 +554,13 @@ function displayLampGraphs(aggregatedData, shortName) {
                 segment.classList.add('lamp-graph-segment');
                 segment.style.width = `${percentage}%`;
                 segment.style.backgroundColor = clear_status[clearCode]?.color || '#888';
-                segment.style.height = '100%';
-                segment.style.boxSizing = 'border-box';
-                segment.style.overflow = 'hidden';
-                segment.style.position = 'absolute';
                 segment.style.left = `${currentPercentage}%`;
                 segment.dataset.clearStatus = clearCode;
                 segment.title = `${clear_status[clearCode]?.name || 'Unknown'}: ${clearData.count} songs (${percentage.toFixed(1)}%)`;
 
                 const countSpan = document.createElement('span');
                 countSpan.textContent = clearData.count;
-                countSpan.style.position = 'absolute';
-                countSpan.style.left = '50%';
-                countSpan.style.top = '50%';
-                countSpan.style.transform = 'translate(-50%, -50%)';
                 countSpan.style.color = getContrastColor(clear_status[clearCode]?.color || '#888');
-                countSpan.style.fontSize = '0.7em'; // サイズを調整
-                countSpan.style.fontWeight = 'bold';
                 segment.appendChild(countSpan);
 
                 graphBar.appendChild(segment);
@@ -698,15 +676,11 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
     songListArea.appendChild(listTitle);
 
     const ul = document.createElement('ul');
-    ul.style.listStyleType = 'none';
-    ul.style.paddingLeft = '0';
+    ul.classList.add('song-list');
 
     sortedSongs.forEach(song => {
         const li = document.createElement('li');
         const titleElement = document.createElement('span'); // タイトル部分の要素
-        //li.style.marginBottom = '5px';
-        //li.style.borderBottom = '1px dashed #eee';
-        //li.style.paddingBottom = '5px';
 
         // BPが存在し、かつ数値である場合のみ表示 (nullチェックとNaNチェック)
         const bpText = (song.minbp !== null && !isNaN(song.minbp)) ? ` / BP: ${song.minbp}` : '';
@@ -717,7 +691,6 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
             link.href = song.cite_url;
             link.textContent = titleElement.textContent; // リンクのテキストは元のタイトル
             link.target = '_blank';
-            link.style.color = 'inherit';
             li.appendChild(link);
         } else {
             li.appendChild(titleElement); // cite_url がない場合はそのままテキストを追加

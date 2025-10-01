@@ -13,7 +13,7 @@ document.getElementById("processData").addEventListener("click", async () => {
         return;
     }
     // ファイルアップロード領域を非表示にする
-    document.getElementById("upload-area").style.display = "none";
+    document.getElementById("upload-area").classList.add("hidden");
 
     try {
         console.time("prepation"); // 処理時間の計測を開始（準備）
@@ -65,7 +65,7 @@ document.getElementById("processData").addEventListener("click", async () => {
 
         // HTMLを画面に表示
         document.getElementById("results-area").innerHTML = html;
-        document.getElementById('tabA').style.display = 'block';
+        document.getElementById('tabA').style.display = 'block'; // タブ切り替え機能のため維持
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
         document.getElementById("downloadJson").addEventListener("click", () => {
@@ -74,7 +74,7 @@ document.getElementById("processData").addEventListener("click", async () => {
 
     } catch (error) {
         console.error("データ処理エラー:", error); // エラー内容をコンソールに出力
-        document.getElementById("upload-area").style.display = "block"; // ファイルアップロード領域を再度表示
+        document.getElementById("upload-area").classList.remove("hidden"); // ファイルアップロード領域を再度表示
         alert("データ処理中にエラーが発生しました。"); // エラーメッセージをアラート表示
     }
 });
@@ -219,7 +219,7 @@ function showTabButtons() {
     const tabButtons = document.getElementById('tab-buttons'); // 'tab-buttons'というIDを持つ要素を取得
     if (tabButtons) { // 要素が存在する場合
         console.log(tabButtons); // 取得した要素のログ出力
-        tabButtons.style.display = 'block'; // 要素のdisplayスタイルを'block'に設定し、表示する
+        tabButtons.style.display = 'block'; // タブ切り替え機能のため維持
     }
 }
 

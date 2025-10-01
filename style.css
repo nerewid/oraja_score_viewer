@@ -145,3 +145,43 @@ h3 {
     border: 1px solid #ccc;
     border-top: none;
 }
+
+/* ユーティリティクラス */
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.default-cursor {
+    cursor: default;
+}
+
+/* メッセージカラー */
+.message-success {
+    color: green;
+}
+
+.message-error {
+    color: red;
+}
+
+/* レベルラベル */
+.level-label {
+    font-weight: bold;
+    width: 90px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+/* 曲リスト */
+.song-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.song-list a {
+    color: inherit;
+}
