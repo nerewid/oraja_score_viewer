@@ -302,3 +302,65 @@ h3 {
     margin: 0;
     font-size: 0.9em;
 }
+
+/* エラー表示エリア */
+.error-container {
+    background-color: #d32f2f;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 5px solid #b71c1c;
+}
+
+.error-container h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.error-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.error-container details {
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.error-container summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.error-container summary:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.error-container pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+}
+
+.error-close-btn {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.error-close-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}

@@ -79,7 +79,10 @@ document.getElementById("processData").addEventListener("click", async () => {
     } catch (error) {
         console.error("データ処理エラー:", error); // エラー内容をコンソールに出力
         document.getElementById("upload-area").classList.remove("hidden"); // ファイルアップロード領域を再度表示
-        alert("データ処理中にエラーが発生しました。"); // エラーメッセージをアラート表示
+        showError(
+            error.message || "データ処理中にエラーが発生しました。ファイルが正しいか確認してください。",
+            error.stack
+        );
     }
 });
 
@@ -230,6 +233,38 @@ function showTabButtons() {
 
 function getSha256ToMd5Map() {
     return sha256ToMd5Map;
+}
+
+/**
+ * エラーメッセージを表示する関数
+ * @param {string} message - エラーメッセージ
+ * @param {string} stack - スタックトレース（オプション）
+ */
+function showError(message, stack) {
+    const errorDisplay = document.getElementById("error-display");
+    const errorMessage = document.getElementById("error-message");
+    const errorStack = document.getElementById("error-stack");
+    const errorDetails = document.getElementById("error-details");
+
+    errorMessage.textContent = message;
+
+    if (stack) {
+        errorStack.textContent = stack;
+        errorDetails.style.display = 'block';
+    } else {
+        errorDetails.style.display = 'none';
+    }
+
+    errorDisplay.classList.remove("hidden");
+
+    // 閉じるボタンのイベントリスナー（既存があれば削除してから追加）
+    const closeBtn = document.getElementById("error-close");
+    const newCloseBtn = closeBtn.cloneNode(true);
+    closeBtn.parentNode.replaceChild(newCloseBtn, closeBtn);
+
+    newCloseBtn.addEventListener("click", () => {
+        errorDisplay.classList.add("hidden");
+    });
 }
 
 export { getSha256ToMd5Map };
