@@ -1,5 +1,6 @@
 # oraja_score_viewer
 scorelog viewer for beatoraja
+- 難易度表を閲覧できます
 - 日毎のランプ更新とBP更新を確認できます
 - 難易度表別にランプグラフを閲覧できます
 
@@ -7,7 +8,7 @@ scorelog viewer for beatoraja
 
 https://nerewid.github.io/oraja_score_viewer/
 
-最終機能更新日: 2025/04/27
+最終機能更新日: 2025/10/03
 
 最終難易度表情報更新日: 2025/09/28
 
