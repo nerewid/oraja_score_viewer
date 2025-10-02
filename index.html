@@ -48,6 +48,15 @@
 
         <button id="processData" disabled>データ処理開始</button>
 
+        <div id="loading-display" class="loading-container hidden">
+            <div class="loading-spinner"></div>
+            <h3 id="loading-title">処理中...</h3>
+            <p id="loading-message">データベースを読み込んでいます</p>
+            <div class="loading-progress-bar">
+                <div id="loading-progress" class="loading-progress-fill"></div>
+            </div>
+        </div>
+
         <div id="error-display" class="error-container hidden">
             <h3>❌ エラーが発生しました</h3>
             <p id="error-message"></p>

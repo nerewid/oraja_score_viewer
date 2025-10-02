@@ -16,18 +16,24 @@ document.getElementById("processData").addEventListener("click", async () => {
     // ファイルアップロード領域を非表示にする
     document.getElementById("upload-area").classList.add("hidden");
 
+    // ローディング表示
+    showLoading("データベースを初期化中...", 10);
+
     try {
         console.time("prepation"); // 処理時間の計測を開始（準備）
         const SQL = await sqlPromise; // SQL.jsの初期化を待つ
+        updateLoading("データベースを読み込み中...", 20);
         const scorelogDb = new SQL.Database(scorelogDbData); // スコアログデータベースのインスタンスを作成
         const songdataDb = new SQL.Database(songdataDbData); // 楽曲データベースのインスタンスを作成
 
         // 統合された難易度テーブルのJSONファイルをロード
+        updateLoading("難易度表を読み込み中...", 30);
         const mergedDifficultyTables = await loadJsonFile('difficulty_table_data/merged_difficulty_tables.json');
 
         // 難易度テーブルの読み込みに失敗した場合
         if (!mergedDifficultyTables) {
             console.error("merged_difficulty_tables.jsonの読み込みに失敗しました。");
+            hideLoading();
             alert("データ処理中にエラーが発生しました。merged_difficulty_tables.jsonの読み込みに失敗しました。");
             return;
         }
@@ -35,22 +41,27 @@ document.getElementById("processData").addEventListener("click", async () => {
         // 難易度テーブルのsongsプロパティが存在しない、または配列でない場合
         if (!mergedDifficultyTables.songs || !Array.isArray(mergedDifficultyTables.songs)) {
             console.error("merged_difficulty_tables.jsonのsongsプロパティの形式が不正です。");
+            hideLoading();
             alert("データ処理中にエラーが発生しました。merged_difficulty_tables.jsonの形式が不正です。");
             return;
         }
         console.timeEnd("prepation"); // 処理時間の計測終了（準備）
         //console.log(mergedDifficultyTables); // 読み込まれた難易度テーブルのログ出力
+        updateLoading("楽曲データを準備中...", 40);
         const songDataMap = createSongDataMap(mergedDifficultyTables.songs); // 楽曲データをMD5ハッシュをキーとするMapに変換
 
         // SHA256ハッシュをキーとし、対応するMD5ハッシュを値とするMapを作成
+        updateLoading("ハッシュマッピングを作成中...", 50);
         sha256ToMd5Map = await createSha256ToMd5Map(songdataDb, mergedDifficultyTables.songs);
 
         console.time("find scores"); // 処理時間の計測を開始（スコア検索）
+        updateLoading("スコアを検索中...", 60);
         let results = await findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap); // SHA256ハッシュに基づいてスコアログデータベースからスコアを検索
         //console.log(results); // 検索結果のログ出力
         console.timeEnd("find scores"); // 処理時間の計測終了（スコア検索）
 
         console.time("create json"); // 処理時間の計測を開始（JSON作成）
+        updateLoading("JSONデータを作成中...", 70);
         const jsonOutput = await createJsonFromScoreLogs(scorelogDb, results); // 検索されたスコアログからJSON形式のデータを作成
         //console.log(JSON.stringify(jsonOutput, null, 2));
         console.timeEnd("create json"); // 処理時間の計測終了（JSON作成）
@@ -62,14 +73,19 @@ document.getElementById("processData").addEventListener("click", async () => {
         showTabButtons(); // タブ切り替えボタンを表示する関数を呼び出す
 
         // JSONからHTMLを生成
+        updateLoading("HTMLを生成中...", 85);
         const html = await generateHtmlFromJson(jsonOutput, 'js/template.njk');
 
         // HTMLを画面に表示
+        updateLoading("画面を表示中...", 95);
         document.getElementById("results-area").innerHTML = html;
         document.getElementById('tabA').style.display = 'block'; // タブ切り替え機能のため維持
 
         // ページネーションを初期化
         initializePagination();
+
+        updateLoading("完了しました！", 100);
+        setTimeout(hideLoading, 500);
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
         document.getElementById("downloadJson").addEventListener("click", () => {
@@ -78,6 +94,7 @@ document.getElementById("processData").addEventListener("click", async () => {
 
     } catch (error) {
         console.error("データ処理エラー:", error); // エラー内容をコンソールに出力
+        hideLoading(); // ローディング表示を非表示
         document.getElementById("upload-area").classList.remove("hidden"); // ファイルアップロード領域を再度表示
         showError(
             error.message || "データ処理中にエラーが発生しました。ファイルが正しいか確認してください。",
@@ -265,6 +282,44 @@ function showError(message, stack) {
     newCloseBtn.addEventListener("click", () => {
         errorDisplay.classList.add("hidden");
     });
+}
+
+/**
+ * ローディング表示を開始する関数
+ * @param {string} message - 表示するメッセージ
+ * @param {number} progress - 進捗率（0-100）
+ */
+function showLoading(message, progress = 0) {
+    const loadingDisplay = document.getElementById("loading-display");
+    const loadingMessage = document.getElementById("loading-message");
+    const loadingProgress = document.getElementById("loading-progress");
+
+    loadingMessage.textContent = message;
+    loadingProgress.style.width = `${progress}%`;
+    loadingDisplay.classList.remove("hidden");
+}
+
+/**
+ * ローディング表示を更新する関数
+ * @param {string} message - 表示するメッセージ
+ * @param {number} progress - 進捗率（0-100）
+ */
+function updateLoading(message, progress) {
+    const loadingMessage = document.getElementById("loading-message");
+    const loadingProgress = document.getElementById("loading-progress");
+
+    if (loadingMessage) loadingMessage.textContent = message;
+    if (loadingProgress) loadingProgress.style.width = `${progress}%`;
+}
+
+/**
+ * ローディング表示を非表示にする関数
+ */
+function hideLoading() {
+    const loadingDisplay = document.getElementById("loading-display");
+    if (loadingDisplay) {
+        loadingDisplay.classList.add("hidden");
+    }
 }
 
 export { getSha256ToMd5Map };
