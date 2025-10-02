@@ -45,7 +45,14 @@
       "tableFullName": "16分乱打難易度表(仮)",
       "internalFileName": "16thranda",
       "shortName": "",
-      "url": "https://script.googleusercontent.com/macros/echo?user_content_key=yQ81HtldNqO7x50SBMxrERwJIN4XAaultIf_RlV44XbMAj4hvZ14kEr-wbAjtjjl2eIgO7X69Jz0NleBfLNRwfMlYJmx-xqzm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnCAj3aWieAacqQmuefyMCLVB3qwUpm8qL83Ox_d_5e8d0dsDBu6GpNukiousci_cm122CfpxH3qAMvU7VPpBzWzBk7qPSqYjUg&lib=MaCuaL_B-6BIjPIN6-LoGkpXvWRuAoVU2"
+      "url": "https://script.googleusercontent.com/macros/echo?user_content_key=yQ81HtldNqO7x50SBMxrERwJIN4XAaultIf_RlV44XbMAj4hvZ14kEr-wbAjtjjl2eIgO7X69Jz0NleBfLNRwfMlYJmx-xqzm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnCAj3aWieAacqQmuefyMCLVB3qwUpm8qL83Ox_d_5e8d0dsDBu6GpNukiousci_cm122CfpxH3qAMvU7VPpBzWzBk7qPSqYjUg&lib=MaCuaL_B-6BIjPIN6-LoGkpXvWRuAoVU2",
+      "levels": [
+          "乱打0", "乱打1", "乱打2", "乱打3", "乱打4", "乱打5", "乱打6", "乱打7", "乱打8", "乱打9", "乱打10", "乱打11", "乱打12",
+          "重発狂0", "重発狂1", "重発狂2", "重発狂3", "重発狂4", "重発狂5", "重発狂6", "重発狂7", "重発狂8", "重発狂9", "重発狂10", "重発狂11", "重発狂12",
+          "sub 乱打4", "sub 乱打5", "sub 乱打6", "sub 乱打7", "sub 乱打8", "sub 乱打11", "sub 乱打12",
+          "sub 重発狂0", "sub 重発狂1", "sub 重発狂2", "sub 重発狂3", "sub 重発狂4", "sub 重発狂5", "sub 重発狂6", "sub 重発狂7", "sub 重発狂8", "sub 重発狂9",
+          "査定中"
+      ]
   },
   {
       "tableFullName": "腕ガチ難易度表",

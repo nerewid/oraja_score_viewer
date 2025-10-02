@@ -13,6 +13,9 @@ let SQL;
 // Md5 -> Sha256 の逆引きMap (初期化後に設定)
 let Md5Tosha256Map;
 
+// 難易度表の定義一覧（levels配列を含む）
+let difficultyTablesConfig = [];
+
 // クリアランプの定義
 const clear_status = {
     "10": { "name": "Max", "color": "rgba(255, 215, 0, 0.5)" },
@@ -75,14 +78,20 @@ async function loadDifficultyTables() {
         }
         const data = await response.json();
         // difficulty_tables.json が直接配列か、特定のキーの下にあるかで調整
+        let tables = [];
         if (Array.isArray(data)) {
-            return data;
+            tables = data;
         } else if (data && Array.isArray(data.tables)) { // 例: { "tables": [...] } の形式
-             return data.tables;
+             tables = data.tables;
         } else {
             console.warn(`予期しない形式の難易度表一覧データです (${url})`);
-            return [];
+            tables = [];
         }
+
+        // グローバル変数に保存（levels配列を保持）
+        difficultyTablesConfig = tables;
+
+        return tables;
     } catch (error) {
         console.error(`難易度表一覧データ(${url})の読み込みに失敗しました:`, error);
         throw error; // エラーを呼び出し元に伝える
@@ -497,7 +506,7 @@ function populateDifficultySelect(tablesData) {
  * 集計データに基づいて帯グラフのHTMLを生成し表示する
  * @param {Map<string, Map<string, { count: number, songs: Array<object> }>>} aggregatedData - 集計データ
  */
-function displayLampGraphs(aggregatedData, shortName) {
+function displayLampGraphs(aggregatedData, shortName, predefinedLevels) {
     lampGraphArea.innerHTML = ''; // 既存のグラフをクリア
     lampGraphArea.classList.add('default-cursor'); // デフォルトカーソルに戻す
 
@@ -506,20 +515,30 @@ function displayLampGraphs(aggregatedData, shortName) {
         return;
     }
 
-    // レベルでソート (数値として比較)
-    const sortedLevels = Array.from(aggregatedData.keys()).sort((a, b) => {
-        const numA = parseInt(a, 10);
-        const numB = parseInt(b, 10);
-        // 数値として比較できる場合は数値でソート
-        if (!isNaN(numA) && !isNaN(numB)) {
-            return numA - numB;
-        }
-        // どちらか一方でも数値でない場合は文字列として比較 (数値が先に来るように)
-        if (isNaN(numA) && !isNaN(numB)) return 1;
-        if (!isNaN(numA) && isNaN(numB)) return -1;
-        // 両方数値でない場合は文字列として比較
-        return a.localeCompare(b);
-    });
+    // レベルでソート
+    let sortedLevels;
+
+    if (predefinedLevels && Array.isArray(predefinedLevels)) {
+        // predefinedLevelsが定義されている場合、その順序を使用
+        // aggregatedDataに存在するレベルのみをフィルタリング
+        sortedLevels = predefinedLevels.filter(level => aggregatedData.has(level));
+        console.log(`Using predefined level order: ${sortedLevels.join(', ')}`);
+    } else {
+        // predefinedLevelsが未定義の場合、従来のソートロジックを使用
+        sortedLevels = Array.from(aggregatedData.keys()).sort((a, b) => {
+            const numA = parseInt(a, 10);
+            const numB = parseInt(b, 10);
+            // 数値として比較できる場合は数値でソート
+            if (!isNaN(numA) && !isNaN(numB)) {
+                return numA - numB;
+            }
+            // どちらか一方でも数値でない場合は文字列として比較 (数値が先に来るように)
+            if (isNaN(numA) && !isNaN(numB)) return 1;
+            if (!isNaN(numA) && isNaN(numB)) return -1;
+            // 両方数値でない場合は文字列として比較
+            return a.localeCompare(b);
+        });
+    }
 
     for (const level of sortedLevels) {
         const levelData = aggregatedData.get(level);
@@ -618,8 +637,12 @@ async function processDifficultyTableSelection(selectedInternalFileName, selecte
         //    (Md5Tosha256Mapは初期化時に作成済み)
         const { aggregatedData } = await processSongScores(songs, selectedLnModeValue);
 
+        // 2.5. 選択された難易度表のlevels配列を取得
+        const tableConfig = difficultyTablesConfig.find(t => t.internalFileName === selectedInternalFileName);
+        const predefinedLevels = tableConfig?.levels;
+
         // 3. 集計結果を帯グラフとして表示
-        displayLampGraphs(aggregatedData, shortName);
+        displayLampGraphs(aggregatedData, shortName, predefinedLevels);
 
         // 4. クリック時に参照する集計データを保持 (より安全な方法を検討しても良い)
         window.currentAggregatedData = aggregatedData;
