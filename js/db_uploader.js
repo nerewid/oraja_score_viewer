@@ -5,7 +5,9 @@ let sqlPromise;
 
 document.addEventListener('DOMContentLoaded', async () => {
     const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
-    const repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/';
+    // HTMLファイル名を除外してベースパスを取得
+    const filteredSegments = pathSegments.filter(segment => !segment.endsWith('.html'));
+    const repoName = filteredSegments.length > 0 ? '/' + filteredSegments[0] + '/' : '/';
     sqlPromise = initSqlJs({
         locateFile: filename => `${repoName}js/lib/${filename}`
     });

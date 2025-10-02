@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>各BMS難易度表を閲覧する - oraja_score_viewer</title>
+    <script>
+        // github.ioのルートディレクトリがリポジトリのトップにならない問題を解消する
+        const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
+        // HTMLファイル名を除外してベースパスを取得
+        const filteredSegments = pathSegments.filter(segment => !segment.endsWith('.html'));
+        const repoName = filteredSegments.length > 0 ? '/' + filteredSegments[0] + '/' : '/';
+        const baseTag = document.createElement('base');
+        baseTag.href = repoName;
+        console.log('Base path:', repoName);
+        document.head.appendChild(baseTag);
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>各BMS難易度表を閲覧する</h1>
+    <nav style="margin-bottom: 20px;">
+        <a href="index.html" style="color: #4db5ff; font-size: 1.1em;">← メインページに戻る</a>
+    </nav>
+
+    <div id="table-viewer-container">
+        <div class="controls">
+            <label for="table-select">難易度表を選択:</label>
+            <select id="table-select">
+                <option value="">-- 難易度表を選択してください --</option>
+            </select>
+        </div>
+
+        <div id="loading-area" class="loading-container hidden">
+            <div class="loading-spinner"></div>
+            <p>難易度表を読み込み中...</p>
+        </div>
+
+        <div id="error-area" class="error-container hidden">
+            <h3>❌ エラーが発生しました</h3>
+            <p id="error-message"></p>
+        </div>
+
+        <div id="table-info" class="hidden">
+            <h2 id="table-title"></h2>
+            <p id="table-stats"></p>
+        </div>
+
+        <div id="table-container"></div>
+    </div>
+
+    <script type="module" src="./js/table_viewer.js"></script>
+</body>
+</html>

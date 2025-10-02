@@ -6,10 +6,12 @@
     <script>
         // github.ioのルートディレクトリがリポジトリのトップにならない問題を解消する
         const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
-        const repoName = pathSegments.length > 0 ? '/' + pathSegments[0] + '/' : '/';
+        // HTMLファイル名を除外してベースパスを取得
+        const filteredSegments = pathSegments.filter(segment => !segment.endsWith('.html'));
+        const repoName = filteredSegments.length > 0 ? '/' + filteredSegments[0] + '/' : '/';
         const baseTag = document.createElement('base');
         baseTag.href = repoName;
-        console.log(repoName);
+        console.log('Base path:', repoName);
         document.head.appendChild(baseTag);
     </script>
     <link rel="stylesheet" href="style.css">
@@ -68,7 +70,10 @@
         </div>
 
         <hr>
-        本ツールの詳細、対応している難易度表については<a href="https://github.com/nerewid/oraja_score_viewer">こちら</a>。
+        本ツールの詳細、対応している難易度表については<a href="https://github.com/nerewid/oraja_score_viewer">こちら</a>。<br>
+        <a href="table_viewer.html" style="color: #4db5ff; font-size: 1.1em; margin-top: 10px; display: inline-block;">
+            📊 難易度表を閲覧する
+        </a>
     </div>
 
     <div class="tab" id="tab-buttons">
