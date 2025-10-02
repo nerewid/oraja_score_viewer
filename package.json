@@ -1,0 +1,25 @@
+{
+  "name": "oraja_score_viewer",
+  "version": "1.0.0",
+  "description": "beatorajaスコアログビューアー - 日毎のランプ更新とBP更新を確認できるWebアプリケーション",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python3 -m http.server",
+    "fetch-tables": "python3 py/fetch_tables.py",
+    "merge-tables": "python3 py/merge_tables.py",
+    "update-tables": "python3 py/fetch_tables.py && python3 py/merge_tables.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerewid/oraja_score_viewer"
+  },
+  "keywords": [
+    "beatoraja",
+    "bms",
+    "score-viewer",
+    "music-game"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://nerewid.github.io/oraja_score_viewer/"
+}

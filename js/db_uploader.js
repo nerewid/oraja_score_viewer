@@ -65,12 +65,14 @@ function handleFileSelect(expectedFileName) {
                   document.getElementById("processData").disabled = false;
               }
               messageArea.textContent = "読み込みに成功しました。";
-              messageArea.style.color = "green";
+              messageArea.classList.remove("message-error");
+              messageArea.classList.add("message-success");
 
           } catch (e) {
               console.error(expectedFileName + "の読み込みに失敗しました:" + e);
               messageArea.textContent = "読み込みに失敗しました: " + e.message;
-              messageArea.style.color = "red";
+              messageArea.classList.remove("message-success");
+              messageArea.classList.add("message-error");
           }
       };
       reader.readAsArrayBuffer(file);

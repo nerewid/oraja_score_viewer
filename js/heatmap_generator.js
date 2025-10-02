@@ -84,7 +84,7 @@ function displayCalHeatmap(data, elementId, title, limit, color) {
             type: 'month',
             gutter: 4,
             padding: [0, 0, 0, 0],
-            dynamicDimension: true,
+            dynamicDimension: false,
             sort: 'asc',
             label: {text: 'YYYY/MM'}
             },

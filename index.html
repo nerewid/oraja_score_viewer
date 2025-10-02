@@ -25,22 +25,48 @@
         beatorajaフォルダの中にあるdbファイルを選択してください。<br>
         score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに<br>
         songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。<br>
-        <button id="uploadscoredb">score.db を読み込む</button>
-        <input type="file" id="fileInputscore" accept=".db" style="display: none;">
-        <div id="fileinfoscore"></div>
-        <div id="message-score" class="message"></div>
+        <div class="upload-row">
+            <button id="uploadscoredb">score.db を読み込む</button>
+            <input type="file" id="fileInputscore" accept=".db" style="display: none;">
+            <div id="fileinfoscore"></div>
+            <div id="message-score" class="message"></div>
+        </div>
 
-        <button id="uploadscorelogdb">scorelog.db を読み込む</button>
-        <input type="file" id="fileInputscorelog" accept=".db" style="display: none;">
-        <div id="fileinfoscorelog"></div>
-        <div id="message-scorelog" class="message"></div>
+        <div class="upload-row">
+            <button id="uploadscorelogdb">scorelog.db を読み込む</button>
+            <input type="file" id="fileInputscorelog" accept=".db" style="display: none;">
+            <div id="fileinfoscorelog"></div>
+            <div id="message-scorelog" class="message"></div>
+        </div>
 
-        <button id="uploadsongdatadb">songdata.db を読み込む</button>
-        <input type="file" id="fileInputsongdata" accept=".db" style="display: none;">
-        <div id="fileinfosongdata"></div>
-        <div id="message-songdata" class="message"></div>
+        <div class="upload-row">
+            <button id="uploadsongdatadb">songdata.db を読み込む</button>
+            <input type="file" id="fileInputsongdata" accept=".db" style="display: none;">
+            <div id="fileinfosongdata"></div>
+            <div id="message-songdata" class="message"></div>
+        </div>
 
         <button id="processData" disabled>データ処理開始</button>
+
+        <div id="loading-display" class="loading-container hidden">
+            <div class="loading-spinner"></div>
+            <h3 id="loading-title">処理中...</h3>
+            <p id="loading-message">データベースを読み込んでいます</p>
+            <div class="loading-progress-bar">
+                <div id="loading-progress" class="loading-progress-fill"></div>
+            </div>
+        </div>
+
+        <div id="error-display" class="error-container hidden">
+            <h3>❌ エラーが発生しました</h3>
+            <p id="error-message"></p>
+            <details id="error-details">
+                <summary>詳細情報を表示</summary>
+                <pre id="error-stack"></pre>
+            </details>
+            <button id="error-close" class="error-close-btn">閉じる</button>
+        </div>
+
         <hr>
         本ツールの詳細、対応している難易度表については<a href="https://github.com/nerewid/oraja_score_viewer">こちら</a>。
     </div>
@@ -78,14 +104,7 @@
     </div>
 
     <script src="./js/lib/sql-wasm.js"></script>
-    <script>
-        locateFile: filename => {
-            const path = `/js/lib/${filename}`;
-            console.log("Locate file:", path); // 追加
-            return path;
-        }
-    </script>
-    <script src="./js/lib/nunjucks.js"></script>
+    <script src="./js/lib/nunjucks.min.js"></script>
     <script type="text/javascript" src="./js/lib/d3.v7.min.js"></script>
     <script src="./js/lib/cal-heatmap.min.js"></script>
     <script src="./js/lib/FileSaver.min.js"></script>

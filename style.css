@@ -145,3 +145,274 @@ h3 {
     border: 1px solid #ccc;
     border-top: none;
 }
+
+/* ユーティリティクラス */
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.default-cursor {
+    cursor: default;
+}
+
+/* メッセージカラー */
+.message-success {
+    color: green;
+}
+
+.message-error {
+    color: red;
+}
+
+/* レベルラベル */
+.level-label {
+    font-weight: bold;
+    width: 90px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+/* 曲リスト */
+.song-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.song-list a {
+    color: inherit;
+}
+
+/* results-area: リサイズ時のレイアウト再計算を最小化 */
+#results-area {
+    contain: layout style; /* レイアウトとスタイル再計算を分離 */
+}
+
+/* date-section: 画面外要素のレンダリングを遅延 */
+.date-section {
+    content-visibility: auto; /* 可視範囲外は描画スキップ */
+    contain-intrinsic-size: auto 300px; /* 予想高さ */
+}
+
+/* ページネーション */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.pagination-info {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.pagination-controls {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.pagination-controls button {
+    padding: 8px 12px;
+    background-color: #555;
+    color: #eee;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+    background-color: #666;
+}
+
+.pagination-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-controls button.active {
+    background-color: #7171e0;
+    border-color: #7171e0;
+}
+
+.pagination-controls select {
+    padding: 6px 10px;
+    background-color: #555;
+    color: #eee;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* upload-areaとdownloadJsonボタンのスタイル（style_v2.cssから流用） */
+#upload-area button,
+#downloadJson {
+    background: #4db5ff;
+    color: #1a1a1a;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#upload-area .upload-row button {
+    min-width: 200px;
+}
+
+#upload-area button:hover,
+#downloadJson:hover {
+    background: #3aa0d9;
+    transform: translateY(-2px);
+}
+
+#upload-area button:disabled,
+#downloadJson:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#processData {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* アップロードボタンとメッセージを横並びに */
+.upload-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.upload-row .message {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* エラー表示エリア */
+.error-container {
+    background-color: #d32f2f;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 5px solid #b71c1c;
+}
+
+.error-container h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.error-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.error-container details {
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.error-container summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.error-container summary:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.error-container pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+}
+
+.error-close-btn {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.error-close-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* ローディング表示エリア */
+.loading-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-container h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+}
+
+.loading-container p {
+    margin: 10px 0;
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+.loading-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.loading-progress-fill {
+    height: 100%;
+    background: white;
+    border-radius: 4px;
+    width: 0%;
+    transition: width 0.3s ease;
+}
