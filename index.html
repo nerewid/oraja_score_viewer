@@ -25,20 +25,26 @@
         beatorajaフォルダの中にあるdbファイルを選択してください。<br>
         score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに<br>
         songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。<br>
-        <button id="uploadscoredb">score.db を読み込む</button>
-        <input type="file" id="fileInputscore" accept=".db" style="display: none;">
-        <div id="fileinfoscore"></div>
-        <div id="message-score" class="message"></div>
+        <div class="upload-row">
+            <button id="uploadscoredb">score.db を読み込む</button>
+            <input type="file" id="fileInputscore" accept=".db" style="display: none;">
+            <div id="fileinfoscore"></div>
+            <div id="message-score" class="message"></div>
+        </div>
 
-        <button id="uploadscorelogdb">scorelog.db を読み込む</button>
-        <input type="file" id="fileInputscorelog" accept=".db" style="display: none;">
-        <div id="fileinfoscorelog"></div>
-        <div id="message-scorelog" class="message"></div>
+        <div class="upload-row">
+            <button id="uploadscorelogdb">scorelog.db を読み込む</button>
+            <input type="file" id="fileInputscorelog" accept=".db" style="display: none;">
+            <div id="fileinfoscorelog"></div>
+            <div id="message-scorelog" class="message"></div>
+        </div>
 
-        <button id="uploadsongdatadb">songdata.db を読み込む</button>
-        <input type="file" id="fileInputsongdata" accept=".db" style="display: none;">
-        <div id="fileinfosongdata"></div>
-        <div id="message-songdata" class="message"></div>
+        <div class="upload-row">
+            <button id="uploadsongdatadb">songdata.db を読み込む</button>
+            <input type="file" id="fileInputsongdata" accept=".db" style="display: none;">
+            <div id="fileinfosongdata"></div>
+            <div id="message-songdata" class="message"></div>
+        </div>
 
         <button id="processData" disabled>データ処理開始</button>
         <hr>
