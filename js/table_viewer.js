@@ -226,13 +226,13 @@ function generateTable(songs, tableConfig) {
             // Title（LR2IRランキングページへのリンク）
             if (song.md5) {
                 const lr2irUrl = `http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=${song.md5}`;
-                html += `<td><a href="${lr2irUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(song.title)}</a></td>`;
+                html += `<td class="title-cell"><a href="${lr2irUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(song.title)}</a></td>`;
             } else {
-                html += `<td>${escapeHtml(song.title)}</td>`;
+                html += `<td class="title-cell">${escapeHtml(song.title)}</td>`;
             }
 
             // Artist
-            html += `<td>${escapeHtml(song.artist || '')}</td>`;
+            html += `<td class="artist-cell">${escapeHtml(song.artist || '')}</td>`;
 
             // BMS URL
             if (song.url) {
