@@ -196,3 +196,58 @@ h3 {
     content-visibility: auto; /* 可視範囲外は描画スキップ */
     contain-intrinsic-size: auto 300px; /* 予想高さ */
 }
+
+/* ページネーション */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.pagination-info {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.pagination-controls {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.pagination-controls button {
+    padding: 8px 12px;
+    background-color: #555;
+    color: #eee;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+    background-color: #666;
+}
+
+.pagination-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-controls button.active {
+    background-color: #7171e0;
+    border-color: #7171e0;
+}
+
+.pagination-controls select {
+    padding: 6px 10px;
+    background-color: #555;
+    color: #eee;
+    border: 1px solid #666;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -10,9 +10,11 @@
         <span style="font-size: 1.5em; font-weight: bold;">更新履歴    </span>
         <button id="downloadJson" style="margin-left: 10px;">JSONダウンロード</button>
     </div>
+
+    <div id="paginated-content">
     {% set notes_data_map = {} %} {# ループの外で初期化 #}
     {% for date_data in clear_info %}
-        <div class="date-section">
+        <div class="date-section" data-page-item>
             <h2 class="date-title">{{ date_data.date }} {{  notes[date_data.date] }}Notes</h2>
             {% set displayed_clear_lamps = [] %}
             {% for title_data in date_data.titles %}
@@ -37,5 +39,26 @@
             {% endfor %}
         </div>
     {% endfor %}
+    </div>
+
+    <!-- ページネーション（下部のみ） -->
+    <div class="pagination-container" id="results-pagination">
+        <div class="pagination-controls">
+            <button id="results-first-page">&lt;&lt;</button>
+            <button id="results-prev-page">&lt;</button>
+            <span id="results-page-numbers"></span>
+            <button id="results-next-page">&gt;</button>
+            <button id="results-last-page">&gt;&gt;</button>
+        </div>
+        <div class="pagination-info">
+            <select id="results-items-per-page">
+                <option value="10">10日/ページ</option>
+                <option value="20">20日/ページ</option>
+                <option value="50">50日/ページ</option>
+                <option value="100" selected>100日/ページ</option>
+            </select>
+            <span id="results-page-info"></span>
+        </div>
+    </div>
 </body>
 </html>

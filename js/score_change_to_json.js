@@ -2,6 +2,7 @@ import { scorelogDbData, songdataDbData, sqlPromise } from './db_uploader.js'; /
 import { createJsonFromScoreLogs } from './json_creator.js'; // スコアログデータからJSONを作成する関数をインポート
 import { findScoresBySha256s,findMissingSha256sByMd5s } from './score_data_processor.js'; // SHA256ハッシュに基づいてスコアを検索する関数と、MD5ハッシュに基づいて不足しているSHA256ハッシュを検索する関数をインポート
 import { generateHtmlFromJson } from './html_generator.js'; // JSONデータからHTMLを生成する関数をインポート
+import { initializePagination } from './pagination.js'; // ページネーション機能をインポート
 
 let sha256ToMd5Map = null;
 
@@ -66,6 +67,9 @@ document.getElementById("processData").addEventListener("click", async () => {
         // HTMLを画面に表示
         document.getElementById("results-area").innerHTML = html;
         document.getElementById('tabA').style.display = 'block'; // タブ切り替え機能のため維持
+
+        // ページネーションを初期化
+        initializePagination();
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
         document.getElementById("downloadJson").addEventListener("click", () => {
