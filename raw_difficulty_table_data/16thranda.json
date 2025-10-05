@@ -6593,17 +6593,6 @@
         {
             "": "",
             "level": "乱打5",
-            "title": "squartatrice -Massacre-",
-            "artist": "美樹さやか vs. 美樹さやか (fw. 美樹さやか)　// Note:美樹さやか",
-            "url": "https://extrose.stoicsounds.jp/_data/bms/gmtn/%2319%20%5BHARD%20RENAISSAYAKA%5D%20squartatrice.zip",
-            "url_diff": "http://lalha.web.fc2.com/index.html",
-            "md5": "bc3213c72beabbe505736e32bc83ccf7",
-            "comment": "180",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bc3213c72beabbe505736e32bc83ccf7"
-        },
-        {
-            "": "",
-            "level": "乱打5",
             "title": "Strahv -Encore-",
             "artist": "Feryquitous Sennzai / Dazzle / Cymby",
             "url": "http://www.dropbox.com/s/14sbfaq70lsr2ev/%5BFeryquitous%5DStrahv.zip?dl=1",
@@ -8551,6 +8540,17 @@
         {
             "": "",
             "level": "乱打7",
+            "title": "squartatrice -Massacre-",
+            "artist": "美樹さやか vs. 美樹さやか (fw. 美樹さやか)　// Note:美樹さやか",
+            "url": "https://extrose.stoicsounds.jp/_data/bms/gmtn/%2319%20%5BHARD%20RENAISSAYAKA%5D%20squartatrice.zip",
+            "url_diff": "http://lalha.web.fc2.com/index.html",
+            "md5": "bc3213c72beabbe505736e32bc83ccf7",
+            "comment": "",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bc3213c72beabbe505736e32bc83ccf7"
+        },
+        {
+            "": "",
+            "level": "乱打7",
             "title": "Synthesizer M.H. [消失]",
             "artist": "dj Extrose with Miku Hatsune obj: qtp13",
             "url": "http://nekokan.dyndns.info/~anonymous/beat_vocaloids/beatvocaloids_bmspack.rar",
@@ -9937,17 +9937,6 @@
         {
             "": "",
             "level": "乱打8",
-            "title": "星の器～STAR OF ANDROMEDA [ALITHER]",
-            "artist": "ZUN (Arr.sun3) / ALICE*",
-            "url": "http://web.archive.org/web/20071112063319/http://www14.plala.or.jp/sun3_bms/Re_final.rar",
-            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up0294.zip",
-            "md5": "fd3f8c99bd2a261f56f18dc8da650a79",
-            "comment": "★15/155",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fd3f8c99bd2a261f56f18dc8da650a79"
-        },
-        {
-            "": "",
-            "level": "乱打8",
             "title": "歪んだ神 (DistorteD)",
             "artist": "次元大介 /obj:L",
             "url": "http://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9!201&authkey=!AKRI_LJWCFUbDrg",
@@ -10010,17 +9999,6 @@
             "md5": "1e8a560a0488f10924a22332c5be2ca1",
             "comment": "sl9",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1e8a560a0488f10924a22332c5be2ca1"
-        },
-        {
-            "": "",
-            "level": "乱打9",
-            "title": "APOLLON (INSANE7)",
-            "artist": "sun3 / Add Sounds+Obj:???",
-            "url": "https://web.archive.org/web/20190330075243/http://www.geocities.jp/sun3_bms/apollon_bms.rar",
-            "url_diff": "https://stellabms.xyz/upload/1714",
-            "md5": "cfa1448798e0ba86386505d4f304ac8f",
-            "comment": "sub sl9/180",
-            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=cfa1448798e0ba86386505d4f304ac8f"
         },
         {
             "": "",
@@ -10882,6 +10860,17 @@
         },
         {
             "": "",
+            "level": "乱打9",
+            "title": "星の器～STAR OF ANDROMEDA [ALITHER]",
+            "artist": "ZUN (Arr.sun3) / ALICE*",
+            "url": "http://web.archive.org/web/20071112063319/http://www14.plala.or.jp/sun3_bms/Re_final.rar",
+            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up0294.zip",
+            "md5": "fd3f8c99bd2a261f56f18dc8da650a79",
+            "comment": "★15",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fd3f8c99bd2a261f56f18dc8da650a79"
+        },
+        {
+            "": "",
             "level": "乱打10",
             "title": "07xx1999 complete [SJ Hard]",
             "artist": "cranky with Queen P.A.L. obj.seojoon",
@@ -10956,6 +10945,17 @@
             "md5": "b976caab8aba1c023ba191bd1e1942d8",
             "comment": "sub sl12/180",
             "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b976caab8aba1c023ba191bd1e1942d8"
+        },
+        {
+            "": "",
+            "level": "乱打10",
+            "title": "APOLLON (INSANE7)",
+            "artist": "sun3 / Add Sounds+Obj:???",
+            "url": "https://web.archive.org/web/20190330075243/http://www.geocities.jp/sun3_bms/apollon_bms.rar",
+            "url_diff": "https://stellabms.xyz/upload/1714",
+            "md5": "cfa1448798e0ba86386505d4f304ac8f",
+            "comment": "sub sl9",
+            "cite_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=cfa1448798e0ba86386505d4f304ac8f"
         },
         {
             "": "",
