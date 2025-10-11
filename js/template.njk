@@ -22,11 +22,11 @@
                 {% set title = title_data.title %}
                 {% if data.clear not in displayed_clear_lamps %}
                     {% if data.clear == "-1" %}
-                        <h3 >BP更新のみ</h3>
+                        <h3 style="background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">BP更新のみ</h3>
                         <ul class="title-list">
                         {% set displayed_clear_lamps = displayed_clear_lamps + [data.clear] %}
                     {% else %}
-                        <h3 style="color: {{ clear_status[data.clear]['color'] }};">新規{{ clear_status[data.clear]['name'] }}</h3>
+                        <h3 style="color: {{ clear_status[data.clear]['color'] }}; background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">新規{{ clear_status[data.clear]['name'] }}</h3>
                         <ul class="title-list">
                         {% set displayed_clear_lamps = displayed_clear_lamps + [data.clear] %}
                     {% endif %}
