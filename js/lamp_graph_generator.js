@@ -431,7 +431,7 @@ async function processSongScores(songs, selectedLnModeValue) {
             exscore = scoreRecord.exscore;
         }
         // CN or HCNmodeで一括取得したスコアデータを参照し上書き
-        if (sha256 && scoresMapXn.has(sha256)) {
+        if (sha256 && scoresMapXn && scoresMapXn.has(sha256)) {
             const scoreRecordXn = scoresMapXn.get(sha256);
             clear = scoreRecordXn.clear;
             minbp = scoreRecordXn.minbp;
