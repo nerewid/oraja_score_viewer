@@ -25,6 +25,11 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
     errors = []
 
     for table in table_info:
+        # skipMergeフラグをチェック
+        if table.get("skipMerge", False):
+            print(f"情報：'{table['tableFullName']}'はskipMergeフラグによりスキップされました。")
+            continue
+
         internal_file_name = table["internalFileName"]
         short_name = table["shortName"]
         file_path = f"raw_difficulty_table_data/{internal_file_name}.json"
