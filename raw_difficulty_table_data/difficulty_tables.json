@@ -1,15 +1,29 @@
 [
   {
-      "tableFullName": "Satellite難易度表",
+      "tableFullName": "Satellite 難易度表",
       "internalFileName": "satellite",
       "shortName": "sl",
       "url": "https://stellabms.xyz/sl/score.json"
   },
   {
-      "tableFullName": "Stella難易度表",
+      "tableFullName": "Satellite 推薦難易度表",
+      "internalFileName": "satellite_rec",
+      "shortName": "sl_rec",
+      "url": "https://stellabms.xyz/sl/score_rec.json",
+      "skipMerge": true
+  },
+  {
+      "tableFullName": "Stella 難易度表",
       "internalFileName": "stella",
       "shortName": "st",
       "url": "https://stellabms.xyz/st/score.json"
+  },
+  {
+      "tableFullName": "Stella 推薦難易度表",
+      "internalFileName": "stella_rec",
+      "shortName": "st_rec",
+      "url": "https://stellabms.xyz/st/score_rec.json",
+      "skipMerge": true
   },
   {
       "tableFullName": "発狂難易度表",
@@ -18,13 +32,13 @@
       "url": "https://miraiscarlet.github.io/bms/table/genocide_insane/data_insane.json"
   },
   {
-      "tableFullName": "NEW GENERATION難易度表",
+      "tableFullName": "NEW GENERATION 発狂難易度表",
       "internalFileName": "new_generation",
       "shortName": "▼",
       "url": "https://rattoto10.github.io/second_table/insane_data.json"
   },
   {
-      "tableFullName": "Overjoy",
+      "tableFullName": "第3期Overjoy",
       "internalFileName": "overjoy",
       "shortName": "★★",
       "url": "https://rattoto10.github.io/second_table/overjoy_score.json"
@@ -39,7 +53,7 @@
       "tableFullName": "Solomon難易度表",
       "internalFileName": "solomon",
       "shortName": "✡",
-      "url": "https://script.googleusercontent.com/macros/echo?user_content_key=x2zOgR8HfNkQ6TnHzlkKoE8JMb9woyjKa3y0pNIXZ3_iotueZbKCpXT5y-ynE4e6Y2NuPtRtXYeLuPwBqkSstrJoHCalajdIm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMR7cNnV8a75NGjQBtxNujoGdV-7j3JVfESX37ULYcQWh9bFtzDGgxbcrb2L2XezaHdukmdRA5GrHySAa7uIkNOjCM1Dfljq_w&lib=MznwyjOlysIhmj79D6u027f-2qzvq4NmQ"
+      "url": "https://script.google.com/macros/s/AKfycbwiOBS9SVaKHurq1oKyFUoNbFQPq_0jRO1wAAi2z05dat3zCHo46axefE9im1DFh24P/exec"
   },
   {
       "tableFullName": "16分乱打難易度表(仮)",
