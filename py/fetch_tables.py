@@ -67,16 +67,13 @@ def download_and_save_json(item, difficulty_table_dir, session=None):
 
         json_data_from_url = response.json()
 
-        if internalFileName == "satellite":
-            json_data_from_url = add_cite_url_to_json(json_data_from_url, "https://stellabms.xyz/s/sl/", "submission")
-        elif internalFileName == "stella":
-            json_data_from_url = add_cite_url_to_json(json_data_from_url, "https://stellabms.xyz/s/st/", "submission")
-        elif internalFileName == "dpsatellite":
-            json_data_from_url = add_cite_url_to_json(json_data_from_url, "https://stellabms.xyz/s/dp/", "submission")
-        elif internalFileName == "dpstella":
-            json_data_from_url = add_cite_url_to_json(json_data_from_url, "https://stellabms.xyz/s/dpst/", "submission")
+        # URLベースで判定（stellabms.xyzドメインかどうか）
+        if url.startswith("https://stellabms.xyz/"):
+            # stellabms.xyzの場合、internalFileNameに応じてsite_urlのプレフィックスを設定
+            json_data_from_url = add_site_url_to_json(json_data_from_url, "https://stellabms.xyz/song/", "id")
         else:
-            json_data_from_url = add_cite_url_to_json(json_data_from_url,
+            # それ以外のドメインはLR2IRを使用
+            json_data_from_url = add_site_url_to_json(json_data_from_url,
                                                       "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=",
                                                       "md5")
 
@@ -97,28 +94,28 @@ def download_and_save_json(item, difficulty_table_dir, session=None):
     except Exception as e:
         print(f"エラー: 予期せぬエラーが発生しました: {e}")
 
-def add_cite_url_to_json(json_data, prefix, key):
+def add_site_url_to_json(json_data, prefix, key):
     """
     受け取ったJSONデータ内の各要素に対して、"key" キーが存在する場合、
-    その値を使用して "cite_url" キーと値を新たに追加します。
+    その値を使用して "site_url" キーと値を新たに追加します。
 
     Args:
         json_data (list or dict): requests.get().json() で取得したJSONデータ。
-        prefix (str): "cite_url" のプレフィックス文字列。
+        prefix (str): "site_url" のプレフィックス文字列。
 
     Returns:
-        list or dict: "cite_url" が追加されたJSONデータ。
+        list or dict: "site_url" が追加されたJSONデータ。
     """
     if isinstance(json_data, list):
         updated_data = []
         for item in json_data:
             if isinstance(item, dict) and key in item:
-                item["cite_url"] = f"{prefix}{item[key]}"
+                item["site_url"] = f"{prefix}{item[key]}"
             updated_data.append(item)
         return updated_data
     elif isinstance(json_data, dict):
         if key in json_data:
-            json_data["cite_url"] = f"{prefix}{json_data[key]}"
+            json_data["site_url"] = f"{prefix}{json_data[key]}"
         return json_data
     else:
         return json_data  # JSONデータでない場合はそのまま返す
