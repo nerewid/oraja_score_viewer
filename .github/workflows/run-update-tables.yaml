@@ -28,14 +28,42 @@ jobs:
           pip install requests
 
       - name: Run Python script 1
+        id: fetch_tables
+        continue-on-error: true
         run: |
           echo "Fetching tables..."
-          python py/fetch_tables.py
+          python py/fetch_tables.py 2>&1 | tee fetch_tables.log
 
       - name: Run Python script 2
+        id: merge_tables
+        continue-on-error: true
         run: |
           echo "Merging tables..."
-          python py/merge_tables.py
+          python py/merge_tables.py 2>&1 | tee merge_tables.log
+
+      - name: Upload error logs
+        if: steps.fetch_tables.outcome == 'failure' || steps.merge_tables.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-logs
+          path: |
+            fetch_tables.log
+            merge_tables.log
+
+      - name: Check for errors
+        if: steps.fetch_tables.outcome == 'failure' || steps.merge_tables.outcome == 'failure'
+        run: |
+          echo "::error::難易度表の更新処理でエラーが発生しました。"
+          echo "エラー詳細:"
+          if [ -f fetch_tables.log ]; then
+            echo "=== fetch_tables.py のエラー ==="
+            cat fetch_tables.log
+          fi
+          if [ -f merge_tables.log ]; then
+            echo "=== merge_tables.py のエラー ==="
+            cat merge_tables.log
+          fi
+          exit 1
 
       - name: Update file date 1
         run: |

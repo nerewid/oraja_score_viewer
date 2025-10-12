@@ -2,6 +2,9 @@ import requests
 import json
 import os
 import configparser
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 def load_json_data(json_file_path):
     """JSONファイルを読み込む。"""
@@ -18,7 +21,25 @@ def load_json_data(json_file_path):
         print(f"エラー: JSONファイルの読み込みで予期せぬエラーが発生しました: {e}")
         return None
 
-def download_and_save_json(item, difficulty_table_dir):
+def create_session_with_retries():
+    """リトライ機能付きのセッションを作成する。"""
+    session = requests.Session()
+
+    # リトライ戦略を設定
+    retry_strategy = Retry(
+        total=3,  # 最大3回リトライ
+        backoff_factor=1,  # リトライ間隔: 1秒, 2秒, 4秒
+        status_forcelist=[429, 500, 502, 503, 504],  # リトライ対象のHTTPステータス
+        allowed_methods=["GET"]  # GETリクエストのみリトライ
+    )
+
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+
+    return session
+
+def download_and_save_json(item, difficulty_table_dir, session=None):
     """URLからJSONをダウンロードして保存する。"""
     internalFileName = item.get("internalFileName")
     url = item.get("url")
@@ -32,8 +53,13 @@ def download_and_save_json(item, difficulty_table_dir):
         print(f"警告: shortNameが不足しています: {item}。空文字列として処理します。")
         shortName = "" # shortNameがなくても処理を続行
 
+    # セッションが渡されていない場合は新規作成
+    if session is None:
+        session = create_session_with_retries()
+
     try:
-        response = requests.get(url)
+        # タイムアウト: 接続30秒、読み取り60秒
+        response = session.get(url, timeout=(30, 60))
         response.raise_for_status()
 
         file_name = f"{internalFileName}.json"
@@ -102,7 +128,7 @@ def main():
     """メイン関数。"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
-    
+
 
     difficulty_table_dir = os.path.join(project_root, "raw_difficulty_table_data")
 
@@ -110,8 +136,13 @@ def main():
     if data is None:
         return
 
+    # リトライ機能付きセッションを作成（全ダウンロードで共有）
+    session = create_session_with_retries()
+
     for item in data:
-        download_and_save_json(item, difficulty_table_dir)
+        download_and_save_json(item, difficulty_table_dir, session)
+        # サーバー負荷軽減のため、リクエスト間に短い待機時間を追加
+        time.sleep(0.5)
 
 if __name__ == "__main__":
     main()
