@@ -923,14 +923,6 @@
         },
         {
             "level": "1",
-            "title": "少女の舞葬 -ダンシングトリニク-",
-            "md5": "613b597c64902be4fd4e183eb9c7f076",
-            "comment": "",
-            "artist": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=613b597c64902be4fd4e183eb9c7f076"
-        },
-        {
-            "level": "1",
             "title": "真・千年女王 [NOVA]",
             "md5": "48b468de8ac53d46fc230784d887d942",
             "comment": "",
@@ -960,14 +952,6 @@
             "comment": "",
             "artist": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=28253851610ee2b7da4cd07bd8ffb0b3"
-        },
-        {
-            "level": "2",
-            "title": "A Summer of Memories [Raker]",
-            "md5": "ae4f78cd3b6cc24ba551e0f83107664e",
-            "comment": "",
-            "artist": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ae4f78cd3b6cc24ba551e0f83107664e"
         },
         {
             "level": "2",
@@ -1328,6 +1312,14 @@
             "comment": "",
             "artist": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1479fbee2f573c03555dd7cd3b438386"
+        },
+        {
+            "level": "2",
+            "title": "少女の舞葬 -ダンシングトリニク-",
+            "md5": "613b597c64902be4fd4e183eb9c7f076",
+            "comment": "",
+            "artist": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=613b597c64902be4fd4e183eb9c7f076"
         },
         {
             "level": "2",
@@ -1883,6 +1875,14 @@
         },
         {
             "level": "4",
+            "title": "A Summer of Memories [Raker]",
+            "md5": "ae4f78cd3b6cc24ba551e0f83107664e",
+            "comment": "",
+            "artist": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ae4f78cd3b6cc24ba551e0f83107664e"
+        },
+        {
+            "level": "4",
             "title": "ametsuchi [Hexagon]",
             "md5": "0fe38c3c1a7b5f341555dc9180e30471",
             "comment": "",
@@ -2256,14 +2256,6 @@
             "comment": "",
             "artist": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9fd9efcd6a4de3716eceef82d44b640f"
-        },
-        {
-            "level": "4",
-            "title": "Song for Denim",
-            "md5": "01fe7d00f4aeb61afc4ba900d7a2c1e4",
-            "comment": "",
-            "artist": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=01fe7d00f4aeb61afc4ba900d7a2c1e4"
         },
         {
             "level": "4",
@@ -2680,14 +2672,6 @@
             "comment": "",
             "artist": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=31f21e6c211f8ba54d211831695ea556"
-        },
-        {
-            "level": "5",
-            "title": "Hazuki [Hexagon]",
-            "md5": "d9c3f164e7d1be6de7a00f638854d169",
-            "comment": "",
-            "artist": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d9c3f164e7d1be6de7a00f638854d169"
         },
         {
             "level": "5",
@@ -4200,14 +4184,6 @@
             "comment": "",
             "artist": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6c6a66565aed72bf10a57fa60007db34"
-        },
-        {
-            "level": "8",
-            "title": "comfort of your WARMTH [Anather7]",
-            "md5": "0c859de43e22038ecb3d88596f87bbf5",
-            "comment": "",
-            "artist": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0c859de43e22038ecb3d88596f87bbf5"
         },
         {
             "level": "8",
