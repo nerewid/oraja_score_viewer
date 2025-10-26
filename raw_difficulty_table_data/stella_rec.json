@@ -365,6 +365,17 @@
             "site_url": "https://stellabms.xyz/song/274"
         },
         {
+            "id": 424,
+            "md5": "efd638a9e9ff35f6a9f4d10fc24f45b5",
+            "sha256": "889e4890e72f70d3d566b4b92cb48767bc649762be3095e0d68ba4d888f259be",
+            "title": "ZERODAY [Heartbleed]",
+            "artist": "Lunatic Sounds / Yusi. obj.Lapis",
+            "url": "http://k-bms.com/party_pabat/party2017.jsp?board_num=17&num=51",
+            "url_diff": "http://lapisbms.web.fc2.com/",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/424"
+        },
+        {
             "id": 450,
             "md5": "985e91ac0ba1460509416ad164e793db",
             "sha256": "0712b2c6cf6088080fbb2373e8bdb54529efc664d9ed74cbb5eaf586b0fbc34c",
@@ -420,6 +431,17 @@
             "site_url": "https://stellabms.xyz/song/1109"
         },
         {
+            "id": 266,
+            "md5": "d06f7121bc12c8bdab9097c936d84ba9",
+            "sha256": "b4ba66dc2eaf3034b6a164e1fa0ff50ec2a20c9f7c8b99bc29d8bcc70494e6f6",
+            "title": "7SP:雪の少女-MorningDash!Mix- [GOD]",
+            "artist": "猫蟹丸 / obj: black train",
+            "url": "http://wayback.archive.org/web/20090309205500/http://knm.sakura.ne.jp/pms/index.html",
+            "url_diff": "http://absolute.pv.land.to/Anotherbms.html",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/266"
+        },
+        {
             "id": 3408,
             "md5": "0d6e7a4bb86fc4019f91e177309c1d61",
             "sha256": "6fe4fb4268e5e6eedac99ceb26dd5b7672ae5adb0069d391514d64a5ae75ebad",
@@ -473,6 +495,17 @@
             "url_diff": "https://stellabms.xyz/upload/3027",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/5705"
+        },
+        {
+            "id": 6562,
+            "md5": "8977c24fdbeb001574e1066b7e4195e8",
+            "sha256": "ffebf761482fc20e4d1b0180ee334d59362462ae96b30a6bb50c6ad88b3d65f4",
+            "title": "Flandre, sister of insanity [7key Cranberry]",
+            "artist": "SANY-ON BGA by AsaEhn obj:potechang",
+            "url": "http://onedrive.live.com/?cid=6FFE918F74B836BD&id=6FFE918F74B836BD%21175",
+            "url_diff": "https://stellabms.xyz/upload/3960",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/6562"
         },
         {
             "id": 469,
@@ -638,6 +671,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02181.zip",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/653"
+        },
+        {
+            "id": 491,
+            "md5": "1e9c2d49a28494f5db6541e3bf1c2eae",
+            "sha256": "8ce2f21d8c8c82b72de9240252f5adc5f04d0443f0b3fff59e0ede1364fd788c",
+            "title": "JULIAN \"for B.O.F. 2009\"",
+            "artist": "Queen P.A.L. VJ KINTA / obj.7zs",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=123&event=60",
+            "url_diff": "http://gnqg.rosx.net/upload/",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/491"
         },
         {
             "id": 6546,

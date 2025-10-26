@@ -57,17 +57,6 @@
             "site_url": "https://stellabms.xyz/song/2091"
         },
         {
-            "id": 1900,
-            "md5": "ef8eb19116682827916ad353294f30c8",
-            "sha256": "e8ea92114e46b472ec0514bbc00c3d2782b5b4dafa2595559d99798903beb6e7",
-            "title": "Bogus of True (DPH)",
-            "artist": "polysha feat.Eir&Sasara",
-            "url": "http://sdrv.ms/18yFb36",
-            "url_diff": "https://www8.atwiki.jp/14key/pages/23.html",
-            "level": "0",
-            "site_url": "https://stellabms.xyz/song/1900"
-        },
-        {
             "id": 3538,
             "md5": "dc4adbbf11b5a6868aa73abecc629c3e",
             "sha256": "6c45bc6f95ab1b5d4076e8ccca1f73409295403914e6f7724540720adc4fea9b",
@@ -363,6 +352,17 @@
             "url_diff": "",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/2069"
+        },
+        {
+            "id": 7803,
+            "md5": "ed3e7e3c86641b037e16ba6c5f9ac43f",
+            "sha256": "6639b1ad2a94a3dbc2108384c236ea3386042fd6cc5812c6997f62b9a987c17c",
+            "title": "napaeae [14B MX]",
+            "artist": "Makou (BMS: Zris)",
+            "url": "https://venue.bmssearch.net/letsbmsedit2/1",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/7803"
         },
         {
             "id": 4252,
@@ -814,6 +814,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/280",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/2068"
+        },
+        {
+            "id": 1900,
+            "md5": "ef8eb19116682827916ad353294f30c8",
+            "sha256": "e8ea92114e46b472ec0514bbc00c3d2782b5b4dafa2595559d99798903beb6e7",
+            "title": "Bogus of True (DPH)",
+            "artist": "polysha feat.Eir&Sasara",
+            "url": "http://sdrv.ms/18yFb36",
+            "url_diff": "https://www8.atwiki.jp/14key/pages/23.html",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/1900"
         },
         {
             "id": 3518,
@@ -3742,6 +3753,17 @@
             "site_url": "https://stellabms.xyz/song/4425"
         },
         {
+            "id": 7769,
+            "md5": "4a366011d175cf8ed9b4022c1d9fc374",
+            "sha256": "a19a33df221b7b016a1bee672f4e86be3cce105414bdac5e93c9ed14cfa7d5f8",
+            "title": "horizon [DP_Li]",
+            "artist": "しらいし obj:LIEF",
+            "url": "https://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/Yd1ySS7S",
+            "url_diff": "https://stellabms.xyz/upload/6391",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7769"
+        },
+        {
             "id": 2127,
             "md5": "f4da0cf3f1f3e7783c7fde34e24a5897",
             "sha256": "48efcbca7fde754a54abbbb415717b1292678fbf219e012dfda5d947570a1721",
@@ -5865,17 +5887,6 @@
             "site_url": "https://stellabms.xyz/song/2671"
         },
         {
-            "id": 7668,
-            "md5": "9b1ebde666b0a82c3426ff1974265a11",
-            "sha256": "607cbfe7d86179149d6f99cdbdf9f9bcb0d224e7f8cebc428712755abc786507",
-            "title": "eclipse[14A]",
-            "artist": "darkvirus bga- L.A.D.F. obj:R1N",
-            "url": "https://web.archive.org/web/20010920154337/http://kuri.sakura.ne.jp/~d-virus/dv0003.rar",
-            "url_diff": "https://stellabms.xyz/upload/6154",
-            "level": "8",
-            "site_url": "https://stellabms.xyz/song/7668"
-        },
-        {
             "id": 1898,
             "md5": "09ddc29dfc8ac70ceba82c7755efd84f",
             "sha256": "3dd5c2b1364047e776e590c02a50fb073d9b18197064738ef91a8113af18e70f",
@@ -6380,6 +6391,17 @@
             "url_diff": "",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/3251"
+        },
+        {
+            "id": 7668,
+            "md5": "9b1ebde666b0a82c3426ff1974265a11",
+            "sha256": "607cbfe7d86179149d6f99cdbdf9f9bcb0d224e7f8cebc428712755abc786507",
+            "title": "eclipse[14A]",
+            "artist": "darkvirus bga- L.A.D.F. obj:R1N",
+            "url": "https://web.archive.org/web/20010920154337/http://kuri.sakura.ne.jp/~d-virus/dv0003.rar",
+            "url_diff": "https://stellabms.xyz/upload/6154",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/7668"
         },
         {
             "id": 4306,
@@ -6996,6 +7018,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/353",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/2200"
+        },
+        {
+            "id": 7749,
+            "md5": "8d37fd5fefd10d0852c74a7a67e68299",
+            "sha256": "0227cdd6d0f2664d8282770349a7fc9d92220cefcf4f1c0bbf2f1d32777de656",
+            "title": "プラネット [DP MIYATHER]",
+            "artist": "あまつち探検隊 Arkplot + 杠葉えりか / obj:plum",
+            "url": "https://venue.bmssearch.net/bmsshuin3/80",
+            "url_diff": "https://stellabms.xyz/upload/688",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/7749"
         },
         {
             "id": 2738,
