@@ -233,6 +233,17 @@
             "site_url": "https://stellabms.xyz/song/705"
         },
         {
+            "id": 6559,
+            "md5": "1dc971be21838442098a3143787c86c5",
+            "sha256": "b32d37ceed071a51ff85942f2b46be7c96f4143999d8549c22643dbc2342f554",
+            "title": "Under the starry sky [Disghitect]",
+            "artist": "sukuramu42 / BGI:恋々 obj:1mi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=502&event=110",
+            "url_diff": "https://stellabms.xyz/upload/4386",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/6559"
+        },
+        {
             "id": 4393,
             "md5": "635c5caa8da5bdbb712e35b5f564a11c",
             "sha256": "8bd9ef6b9e00b096f14649fe299aeb6bf8c9dbd5513f0759185710839d05e249",
@@ -321,6 +332,28 @@
             "site_url": "https://stellabms.xyz/song/1331"
         },
         {
+            "id": 2833,
+            "md5": "e065513d6b16c941c9d540e2cf20d7d7",
+            "sha256": "21de851ca6bd47f619107b0ce87f8629b716d4d6020b44c0282a4add3e04f7cb",
+            "title": "Critical Cannonball -Xe-",
+            "artist": "SEPHID mov LankaNIK / obj : LindBlum",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=129",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04206.zip",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/2833"
+        },
+        {
+            "id": 5076,
+            "md5": "035eec9c7964ebea27c4163def2453d1",
+            "sha256": "ff923c98d8d7707fab65514c843532fab5ee77db21681a41dfc6dca9b7bb274c",
+            "title": "Lapis -The Heavens Remix- [Reminiscence]",
+            "artist": "arranged by Yamajet obj : LindBlum",
+            "url": "http://www.yamajet.com/music/list.html",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04247.zip",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/5076"
+        },
+        {
             "id": 2062,
             "md5": "dc0c62e5c809c1a75460edb5f4640006",
             "sha256": "7a3cbd82f7e33addf20d7d2ca8041a5b659e636b9d68956fbd50368c1ac4fdff",
@@ -374,6 +407,17 @@
             "url_diff": "http://lapisbms.web.fc2.com/",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/424"
+        },
+        {
+            "id": 4430,
+            "md5": "d81df4fcdc04d38a65c948a95a30911f",
+            "sha256": "413310869276be72ed8711d87a2477ad1e3e065902cf3ebf4ed98e2042bfd78f",
+            "title": "カタバミ [CLOVER]",
+            "artist": "qfeileadh",
+            "url": "https://event.yaruki0.net/BMSquare/impression/24",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/4430"
         },
         {
             "id": 450,
@@ -508,6 +552,17 @@
             "site_url": "https://stellabms.xyz/song/6562"
         },
         {
+            "id": 414,
+            "md5": "24ffc0e42b4c0aa1b7f43232e777201b",
+            "sha256": "4056cacc7bbffae372c37f225d3a91b7115888a94a2f75cc379f14be4d3acc15",
+            "title": "Illusion of Mind [kerother]",
+            "artist": "P4koo / OBJ:けろささ",
+            "url": "http://k-bms.com/party_pabat/party2014.jsp?board_num=11&num=24&order=reg&odtype=a",
+            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up5227.rar",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/414"
+        },
+        {
             "id": 469,
             "md5": "d64cec814932a61db780978273c493cc",
             "sha256": "3d053c9371e22675da09e2b8f61c4f62b17a72ce8b5922a08c1d8599a0d7ba19",
@@ -616,6 +671,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/4820"
+        },
+        {
+            "id": 7655,
+            "md5": "8ec3e6decff42fd308471a7daec51cc2",
+            "sha256": "25b7eb06205dbc6cef36ee231939dba1cbe167b16849bb86e75fd5b1dcdb08d5",
+            "title": "pink orca [Aerlie]",
+            "artist": "ぴゅーれ obj:1mi",
+            "url": "https://drive.google.com/file/d/1B7TfIkz0fO6IzTDZKo_HXEtkbg6meJi1/view",
+            "url_diff": "https://stellabms.xyz/upload/6313",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7655"
         },
         {
             "id": 239,

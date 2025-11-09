@@ -9882,17 +9882,6 @@
         {
             "": "",
             "level": "乱打8",
-            "title": "天空の城ヴェリエル [RUSH]",
-            "artist": "うえつ氏 / obj_じゃっこ氏",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=156&event=83",
-            "url_diff": "http://www.dropbox.com/s/j47ha5per5bj4tr/veriel%20rush.lzh",
-            "md5": "ef950ae2fefba3c6c4c2055ccf648189",
-            "comment": "★15/222",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ef950ae2fefba3c6c4c2055ccf648189"
-        },
-        {
-            "": "",
-            "level": "乱打8",
             "title": "透明すぎた僕らの夏は。 [KEI.]",
             "artist": "Setca. feat. 音崎リタ mov:tolz obj:Nitta_KEI",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=370&event=133",
@@ -11851,6 +11840,17 @@
         {
             "": "",
             "level": "乱打10",
+            "title": "天空の城ヴェリエル [RUSH]",
+            "artist": "うえつ氏 / obj_じゃっこ氏",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=156&event=83",
+            "url_diff": "http://www.dropbox.com/s/j47ha5per5bj4tr/veriel%20rush.lzh",
+            "md5": "ef950ae2fefba3c6c4c2055ccf648189",
+            "comment": "★15,sl10",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ef950ae2fefba3c6c4c2055ccf648189"
+        },
+        {
+            "": "",
+            "level": "乱打10",
             "title": "爆走中年 ～ENDLESS RUN～ (かっとべ♂マグナム)",
             "artist": "クロウ＆ヤイバ BGA：クロウ ILLUST：アイオーン LYRICS：ロム obj：進化の超譜面",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=443&event=104",
@@ -11911,7 +11911,7 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=147",
             "url_diff": "https://stellabms.xyz/upload/6149",
             "md5": "062fda6990fa853ecf0d83920ac0ab5f",
-            "comment": "",
+            "comment": "sl11",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=062fda6990fa853ecf0d83920ac0ab5f"
         },
         {
@@ -12566,17 +12566,6 @@
         {
             "": "",
             "level": "乱打11",
-            "title": "Rechronize [Waking from Stasis]",
-            "artist": "あとぅす feat.咲良ゆの BGI:りーふぱいザウルス obj:toraji",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=21&event=140",
-            "url_diff": "https://stellabms.xyz/upload/6200",
-            "md5": "9fe1937e32b7e8964044f260d9d93947",
-            "comment": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9fe1937e32b7e8964044f260d9d93947"
-        },
-        {
-            "": "",
-            "level": "乱打11",
             "title": "REWD \"B159 mix\" // (kei-unmeasured 7)",
             "artist": "wint",
             "url": "http://web.archive.org/web/20031006164221/http://www.bmsjournal.net/lvo/rewd.rar",
@@ -12868,7 +12857,7 @@
             "url": "http://dl.dropbox.com/u/34035220/Xhroria.rarhttps://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/cI8VUR5C",
             "url_diff": "https://web.archive.org/web/20190325223637/http://sabosabun.tank.jp/sabun/Xhroria%20sabun.zip",
             "md5": "30be46ce18ac096eef24bd919e6ce478",
-            "comment": "200",
+            "comment": "sl11",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=30be46ce18ac096eef24bd919e6ce478"
         },
         {
@@ -13083,23 +13072,12 @@
         {
             "": "",
             "level": "乱打11",
-            "title": "花嵐、空に溶けて [Commonsense]",
-            "artist": "DJ Raisei vs. Setca. feat. 咲良ゆの obj:ayane Movie:蒼",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=142",
-            "url_diff": "https://stellabms.xyz/upload/6145",
-            "md5": "6d3974267bab1499fc0d6fee72289ad8",
-            "comment": "sl11",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6d3974267bab1499fc0d6fee72289ad8"
-        },
-        {
-            "": "",
-            "level": "乱打11",
             "title": "花嵐、空に溶けて [Commonsense_f]",
             "artist": "DJ Raisei vs. Setca. feat. 咲良ゆの Movie:蒼 obj:ayane",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=142",
             "url_diff": "https://stellabms.xyz/upload/6287",
             "md5": "f7e959c25f5aee907cc2a1eacd1f36af",
-            "comment": "",
+            "comment": "sl11",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f7e959c25f5aee907cc2a1eacd1f36af"
         },
         {
@@ -13981,6 +13959,17 @@
             "md5": "bf1e76aa6268151547ab31cfcfccb4e0",
             "comment": "sub s12",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bf1e76aa6268151547ab31cfcfccb4e0"
+        },
+        {
+            "": "",
+            "level": "乱打12",
+            "title": "Rechronize [Waking from Stasis]",
+            "artist": "あとぅす feat.咲良ゆの BGI:りーふぱいザウルス obj:toraji",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=21&event=140",
+            "url_diff": "https://stellabms.xyz/upload/6200",
+            "md5": "9fe1937e32b7e8964044f260d9d93947",
+            "comment": "sl12",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9fe1937e32b7e8964044f260d9d93947"
         },
         {
             "": "",
@@ -25927,6 +25916,17 @@
             "md5": "4c4e384172c5eb1cdea72752430bebae",
             "comment": "sl11",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4c4e384172c5eb1cdea72752430bebae"
+        },
+        {
+            "": "",
+            "level": "sub 乱打11",
+            "title": "花嵐、空に溶けて [Commonsense]",
+            "artist": "DJ Raisei vs. Setca. feat. 咲良ゆの obj:ayane Movie:蒼",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=142",
+            "url_diff": "https://stellabms.xyz/upload/6145",
+            "md5": "6d3974267bab1499fc0d6fee72289ad8",
+            "comment": "sub sl11",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6d3974267bab1499fc0d6fee72289ad8"
         },
         {
             "": "",

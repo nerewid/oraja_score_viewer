@@ -244,6 +244,17 @@
             "site_url": "https://stellabms.xyz/song/6437"
         },
         {
+            "id": 7202,
+            "md5": "843e88268a449b08a1e76a5320ef9a4f",
+            "sha256": "419633189fcaca8579dc6ac0e82ecfcac40683b8430ef8ec36d32572e141db7b",
+            "title": "A c i - L - - t w i  l i g h t -",
+            "artist": "裏 吉 川 / selene.",
+            "url": "http://malie.noor.jp/",
+            "url_diff": "https://stellabms.xyz/upload/5755",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/7202"
+        },
+        {
             "id": 4737,
             "md5": "393690659885f5d73e838b43a6345333",
             "sha256": "53931623aa8c8099346d34318022a28c38db14d58906550950b44f3132776457",
@@ -959,6 +970,17 @@
             "site_url": "https://stellabms.xyz/song/1568"
         },
         {
+            "id": 6030,
+            "md5": "7f2c714acbbec0bf9ec83e6e90677838",
+            "sha256": "46a93dfa4d6a53a679d1a1185c2e26d155cb7898dc169e1276590f69fedd7582",
+            "title": "Hi-Speed Stream!! [NORMAL]",
+            "artist": "BMチ",
+            "url": "https://venue.bmssearch.net/bmstukuru2024/6",
+            "url_diff": "",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/6030"
+        },
+        {
             "id": 1191,
             "md5": "b31d63e8f79e8655fc461a9202a6f93c",
             "sha256": "59aff0c27d04f9419fd2aecf049ddfc3fc6d7e4eafc4a2d1817abbffdf1e3ddf",
@@ -979,6 +1001,17 @@
             "url_diff": "http://absolute.pv.land.to/bmsuploader.html",
             "level": "8",
             "site_url": "https://stellabms.xyz/song/1028"
+        },
+        {
+            "id": 4677,
+            "md5": "04358a9776ed6fb81fe30eaa930e6eb7",
+            "sha256": "3a9f6db4d78cba35bddf6ec7b4d93c1b7363533a5a26fc7d74e5fed369575e10",
+            "title": "イナリッチ [MONEY]",
+            "artist": "LisicA movie : 自動車原付 / illust : Orphee / obj: Lennon",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=141&event=137",
+            "url_diff": "https://stellabms.xyz/upload/1502",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/4677"
         },
         {
             "id": 3118,
@@ -1111,17 +1144,6 @@
             "url_diff": "https://stellabms.xyz/upload/177",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/2952"
-        },
-        {
-            "id": 4677,
-            "md5": "04358a9776ed6fb81fe30eaa930e6eb7",
-            "sha256": "3a9f6db4d78cba35bddf6ec7b4d93c1b7363533a5a26fc7d74e5fed369575e10",
-            "title": "イナリッチ [MONEY]",
-            "artist": "LisicA movie : 自動車原付 / illust : Orphee / obj: Lennon",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=141&event=137",
-            "url_diff": "https://stellabms.xyz/upload/1502",
-            "level": "9",
-            "site_url": "https://stellabms.xyz/song/4677"
         },
         {
             "id": 7121,

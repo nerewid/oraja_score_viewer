@@ -541,6 +541,17 @@
             "site_url": "https://stellabms.xyz/song/5846"
         },
         {
+            "id": 7858,
+            "md5": "c6eace749cfccffd399fbb08914d3674",
+            "sha256": "e97c7307b74979b843eed00b6fe07d85b8c29cb8670500d014c0ad9740458e2a",
+            "title": "baby blue blanket -DP EX-",
+            "artist": "Sora / Lab14_Adder",
+            "url": "http://web.archive.org/web/20130316151554/http://www.planetoid.biz/bms/bbb.rar",
+            "url_diff": "https://stellabms.xyz/upload/6575",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/7858"
+        },
+        {
             "id": 5675,
             "md5": "6dadbb815f61a7da345e01941c12fe45",
             "sha256": "086f561cf655a81429cb4271cdc1e6ac571ffe9dee237579416fd2b90837fb80",
@@ -871,6 +882,17 @@
             "site_url": "https://stellabms.xyz/song/7068"
         },
         {
+            "id": 7859,
+            "md5": "1b754ccc8db3f1414335e3fb7f4f8e59",
+            "sha256": "e3275e131915e4c46e17256824e1d5010f6dc817daf8150aef64a4f5039adba6",
+            "title": "baby blue blanket -DP Maniac-",
+            "artist": "Sora / Lab14_Adder",
+            "url": "http://web.archive.org/web/20130316151554/http://www.planetoid.biz/bms/bbb.rar",
+            "url_diff": " https://stellabms.xyz/upload/6575",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/7859"
+        },
+        {
             "id": 7167,
             "md5": "ba49b51f4e07cb03c47b78bb08164b62",
             "sha256": "f76db7f3541698b79683de448dabe4876a60c639e2caa6ff364e191bb2e189ae",
@@ -913,6 +935,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/954",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/5438"
+        },
+        {
+            "id": 7860,
+            "md5": "4d3ef50df6a87b13c8bd8b6f7a6c7868",
+            "sha256": "7f18aecc07cb29b25bd98a79ae358e16f17f846615f661321a9deecfc5f65875",
+            "title": "Die Zukunft, um sich zu verandern [Future Walker]",
+            "artist": "nya_n/BGA:zit/Lab14",
+            "url": "https://drive.google.com/drive/folders/1pJGq49KrF5St2Yfgp493oOKoDEIyZ6Hq",
+            "url_diff": "https://stellabms.xyz/upload/6612",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/7860"
         },
         {
             "id": 5547,
@@ -1606,6 +1639,17 @@
             "url_diff": "https://uu.getuploader.com/dpbms/download/1730",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/7611"
+        },
+        {
+            "id": 7857,
+            "md5": "10d0197f0165440399aee41aa630d8dd",
+            "sha256": "a5dcfe5407c40dc12972a4fe588af9e5005e379f00732fd8d7b37fac9397b1bf",
+            "title": "T",
+            "artist": "7olzo obj:nBel",
+            "url": "https://venue.bmssearch.net/ondanre2/10",
+            "url_diff": "https://uu.getuploader.com/dpbms/download/1754",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7857"
         },
         {
             "id": 6578,
