@@ -3939,6 +3939,18 @@
         },
         {
             "level": "6",
+            "md5": "9184e9c59cb4e62fb9ad93173f6e21bb",
+            "sha256": "12253cb2cafb99d6ac9d6d2d5886152e29349314809dd27aba61f97cabfb59bd",
+            "genre": "STG",
+            "title": "BULLET HELL",
+            "artist": "はがね",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=476&event=110",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9184e9c59cb4e62fb9ad93173f6e21bb"
+        },
+        {
+            "level": "6",
             "md5": "6dbf56981018048d7ebb3be324a4ec75",
             "sha256": "bdd90cc317ad6ab137b5b74118268aae7da8b57c5a071fc9c58256064ae1af48",
             "genre": "TRANCE",
@@ -4008,6 +4020,18 @@
             "url_diff": "http://www.dropbox.com/s/ahf8j22p5n9hbm4/_daydreamer_dp_fancy.zip?dl=0",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b5ddceb7aacb23de173a08c9a35d23ac"
+        },
+        {
+            "level": "6",
+            "md5": "fa2f67b379ff6ed90019e652738ecb8a",
+            "sha256": "e3209a5ba9edf2d223c5d8f406ba370e93781c0e593297132a692eb407b2b946",
+            "genre": "After Journey",
+            "title": "Deifixa [DP]",
+            "artist": "Reku Mochizuki obj:ka2o",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=1&order=reg&odtype=a",
+            "url_diff": "https://stellabms.xyz/upload/6123",
+            "comment": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fa2f67b379ff6ed90019e652738ecb8a"
         },
         {
             "level": "6",
@@ -4779,18 +4803,6 @@
         },
         {
             "level": "7",
-            "md5": "052d61fdf07cd9b0562c481f93b60aa2",
-            "sha256": "04ce66cdca6ec0cc7358527b346bef9f85a1c221e9cf1653f72eacbb1f86054d",
-            "genre": "TRANCE CORE(14key)",
-            "title": "Air ANOTHER",
-            "artist": "SHIKI+-",
-            "url": "http://shiki2.sakura.ne.jp/fohs.html",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/1207",
-            "comment": "14/04/17 本体入手可。差分入手困難。14/04/27　差分はIAから入手可https://web.archive.org/web/20110424083058/http://www.scn-net.ne.jp/~pons58/sabun/air14sp.rar",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=052d61fdf07cd9b0562c481f93b60aa2"
-        },
-        {
-            "level": "7",
             "md5": "44c6283ff029cbdeabee84fe253aaff9",
             "sha256": "a065295108bdd1d9c29fbd23446b63535b23b424913a6aeaf0364bd18e98f0cf",
             "genre": "La soletude",
@@ -4968,18 +4980,6 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1156",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5b911957a5f920ef8871599ced312872"
-        },
-        {
-            "level": "7",
-            "md5": "fa2f67b379ff6ed90019e652738ecb8a",
-            "sha256": "e3209a5ba9edf2d223c5d8f406ba370e93781c0e593297132a692eb407b2b946",
-            "genre": "After Journey",
-            "title": "Deifixa [DP]",
-            "artist": "Reku Mochizuki obj:ka2o",
-            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=1&order=reg&odtype=a",
-            "url_diff": "https://stellabms.xyz/upload/6123",
-            "comment": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fa2f67b379ff6ed90019e652738ecb8a"
         },
         {
             "level": "7",
@@ -5652,6 +5652,18 @@
             "url_diff": "https://isopod.web.fc2.com/BMS/dp.html",
             "comment": "14/04/17 BMS本体・差分共に入手可能。",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0fa0e9b8cbd12261b158c0a838d10ff6"
+        },
+        {
+            "level": "8",
+            "md5": "052d61fdf07cd9b0562c481f93b60aa2",
+            "sha256": "04ce66cdca6ec0cc7358527b346bef9f85a1c221e9cf1653f72eacbb1f86054d",
+            "genre": "TRANCE CORE(14key)",
+            "title": "Air ANOTHER",
+            "artist": "SHIKI+-",
+            "url": "http://shiki2.sakura.ne.jp/fohs.html",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1207",
+            "comment": "14/04/17 本体入手可。差分入手困難。14/04/27　差分はIAから入手可https://web.archive.org/web/20110424083058/http://www.scn-net.ne.jp/~pons58/sabun/air14sp.rar",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=052d61fdf07cd9b0562c481f93b60aa2"
         },
         {
             "level": "8",

@@ -409,6 +409,17 @@
             "site_url": "https://stellabms.xyz/song/6003"
         },
         {
+            "id": 7873,
+            "md5": "1d838a1ccf6e8c925649a811bff291fd",
+            "sha256": "8c284584256093503c01d667ef46ca53be3ae9054b2d093ab321f067cb9d3cd1",
+            "title": "少女が夢見た約束の明星 [DP MIYATHER]",
+            "artist": "nmk feat.かなえゆめ BMS:Chart_Generator BGA:自動車 原付 イラスト:ambasa☆ obj:plum",
+            "url": "https://venue.bmssearch.net/ondanre2/13",
+            "url_diff": "https://stellabms.xyz/upload/6600",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/7873"
+        },
+        {
             "id": 2982,
             "md5": "23a2dc41098afccba3f4e207fa4f8bb1",
             "sha256": "3ede6ea033d71ad4ba577b8657dec17b893dd165dc302682ee67c899c5c1b980",
@@ -990,6 +1001,17 @@
             "url_diff": "https://stellabms.xyz/upload/2405",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/5545"
+        },
+        {
+            "id": 7900,
+            "md5": "82662bd8ea5cef6bc03970b9e5ceea23",
+            "sha256": "ca52cbe43751e8b665839a7b4a3e9732f6af0321f6120590bf32f81d994f2fac",
+            "title": "Nyan-Nyan Naughty Night [平成PARTY]",
+            "artist": "かたぎり/Lab14 BGI: morph",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=127&event=133",
+            "url_diff": "https://stellabms.xyz/upload/6670",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/7900"
         },
         {
             "id": 4269,

@@ -981,6 +981,17 @@
             "site_url": "https://stellabms.xyz/song/1975"
         },
         {
+            "id": 7875,
+            "md5": "e27a9b29955381cbc43977919d80f329",
+            "sha256": "33007926c0177357e84b6bd1fdbb9e172e736c4b5ed8f92b9cc63e20cd82363a",
+            "title": "flow",
+            "artist": "ミク / obj:lichtr",
+            "url": "http://tm2.toymusical.net/",
+            "url_diff": "http://objlr.kirara.st/",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/7875"
+        },
+        {
             "id": 6056,
             "md5": "f73235c86d6d5ec66838df22e9f8602b",
             "sha256": "138da3febc94f3dbf4e67f7ef2956302717295be2b49509e01a421e388853802",
@@ -1474,6 +1485,17 @@
             "url_diff": "",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/4212"
+        },
+        {
+            "id": 3215,
+            "md5": "03028a53619420a7318f76c1c04f5cf1",
+            "sha256": "02ebf783b56773fb9e5ce8c7e658bcad06f843bc2031c74778495e4473c08c83",
+            "title": "Anthemizer [DP ANOTHER]",
+            "artist": "gya9 vs anubasu-anubasu BGA by KG / Obj:ゆ～兎",
+            "url": "https://drive.google.com/file/d/1_o9jYBvAlxPRue5zpi9f3pkaaQvZBr0n/view?usp=sharing",
+            "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/gyanubasu_YH.zip",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/3215"
         },
         {
             "id": 3216,
@@ -2983,6 +3005,17 @@
             "site_url": "https://stellabms.xyz/song/2480"
         },
         {
+            "id": 7848,
+            "md5": "35f88add0ba887f74bbc0c61fcda82e9",
+            "sha256": "21151121b96a1294a8f93de2b25283af97fe4dbfed0cd20e553ca844fe5d8c21",
+            "title": "Dreamchaser [DP Daydreaming+]",
+            "artist": "Dolphin feat. Amalie bga: 140/fth / obj.jigokuhenn",
+            "url": "https://starkey.ivory.ne.jp/bemusicwest/bmw2/detail/view/13/",
+            "url_diff": "https://stellabms.xyz/upload/6446",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7848"
+        },
+        {
             "id": 5925,
             "md5": "2ea293c3ef95853c05399a9df78f8c00",
             "sha256": "da92de9065eae0b747d395386774ab62a522b424a3e4c70ba299a5e6beee36e8",
@@ -3476,6 +3509,17 @@
             "url_diff": "https://w.atwiki.jp/14key/pages/23.html",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/4352"
+        },
+        {
+            "id": 7850,
+            "md5": "5e2db280954d81c904ab3e252813a4e0",
+            "sha256": "92e3be74a4eae17d788ee14bbc25da8cba4cbaeec8141dd0aab38131edebcec4",
+            "title": "白の魔法の光 -}l{ykuther-",
+            "artist": "こどものなみだ / obj.juuqi",
+            "url": "https://tm1.toymusical.net/dl.html",
+            "url_diff": "https://stellabms.xyz/upload/5706",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7850"
         },
         {
             "id": 4970,
@@ -4983,6 +5027,17 @@
             "url_diff": "https://stellabms.xyz/upload/688",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/6914"
+        },
+        {
+            "id": 5084,
+            "md5": "29795d9e9d470675490831c40e16a552",
+            "sha256": "f7963bb2c9513e07c433c75c81766d39db360df3a173fb99e6699330a79d93aa",
+            "title": "事象の地平 [平行世界：事件の始作]",
+            "artist": "wa. / Limite",
+            "url": "https://mega.nz/#F!FNFDCQaT!wfv-iI4UuSIaGpP0oFZdtQ?0V9DDTKD",
+            "url_diff": "https://www.limiteknj.net/BMS/",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/5084"
         },
         {
             "id": 7533,

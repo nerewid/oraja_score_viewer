@@ -156,6 +156,17 @@
             "site_url": "https://stellabms.xyz/song/650"
         },
         {
+            "id": 1431,
+            "md5": "496cbb0d0f6b3b7287fb360944124e85",
+            "sha256": "9ab50bfe2a5bf1c8e586c5605cdf0f4e0618cf0896059e88232dc7563b364c07",
+            "title": "Hazy moon [雷雨]",
+            "artist": "Chitose / obj:Rian",
+            "url": "http://yaruki0.sakura.ne.jp/event/ondanyugi5/impression.cgi?no=6",
+            "url_diff": "https://drive.google.com/open?id=1u1NTkaIfkAalc4F3a-0xiw9bCj1muBg_",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/1431"
+        },
+        {
             "id": 6011,
             "md5": "22143dd25f50b2b5e76fa3e59e6d204e",
             "sha256": "9773a7fa7e1dfb511faf6b6c031741bd0699561865bfa4b174fdf6dfaa38dac6",
@@ -627,6 +638,17 @@
             "url_diff": "https://stellabms.xyz/upload/4284",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/6487"
+        },
+        {
+            "id": 6859,
+            "md5": "5946cac7c7e5442098b9deb7c2c04a8b",
+            "sha256": "cb4e062bca5c0cf7dc56e886b204180d844ef6046e88fc05cf11f6c104e17d99",
+            "title": "溶けたアイス、キミの声 [MARy]",
+            "artist": "kei_iwata feat.Noa movie:tolz / obj:1mi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=403&event=133",
+            "url_diff": "https://stellabms.xyz/upload/4600",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/6859"
         },
         {
             "id": 100,

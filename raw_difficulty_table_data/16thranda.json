@@ -11433,17 +11433,6 @@
         {
             "": "",
             "level": "乱打10",
-            "title": "Ophelia [HARDEST]",
-            "artist": "Lime /差分　赤い人",
-            "url": "https://onedrive.live.com/?authkey=%21ABujNi4gfNgXVUs&id=B32C1D1F5C2CC841%21111&cid=B32C1D1F5C2CC841#authkey=%21ABujNi4gfNgXVUs&cid=B32C1D1F5C2CC841&id=B32C1D1F5C2CC841%21134&parId=B32C1D1F5C2CC841%21111&action=defaultclickk",
-            "url_diff": "http://akred.web.fc2.com/bmsfile/ophelia-HARDEST.bme",
-            "md5": "f625a63c71b41860e1ff302f515700cd",
-            "comment": "★16",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f625a63c71b41860e1ff302f515700cd"
-        },
-        {
-            "": "",
-            "level": "乱打10",
             "title": "Pleasure of Being [10周年おめでとう]",
             "artist": "Yu^ta / obj:岡部うすにごり",
             "url": "https://web.archive.org/web/20200107085506/http://grooverise.sakura.ne.jp/bms_game_coar_pkg/BMS%20Game%27s%20C&A%20Package.rar",
@@ -12529,6 +12518,17 @@
             "md5": "dcc8b07ed8a8acd6bb1f0402d99f6764",
             "comment": "★15",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dcc8b07ed8a8acd6bb1f0402d99f6764"
+        },
+        {
+            "": "",
+            "level": "乱打11",
+            "title": "Ophelia [HARDEST]",
+            "artist": "Lime /差分　赤い人",
+            "url": "https://onedrive.live.com/?authkey=%21ABujNi4gfNgXVUs&id=B32C1D1F5C2CC841%21111&cid=B32C1D1F5C2CC841#authkey=%21ABujNi4gfNgXVUs&cid=B32C1D1F5C2CC841&id=B32C1D1F5C2CC841%21134&parId=B32C1D1F5C2CC841%21111&action=defaultclickk",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/ophelia-HARDEST.bme",
+            "md5": "f625a63c71b41860e1ff302f515700cd",
+            "comment": "★16,sl11",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f625a63c71b41860e1ff302f515700cd"
         },
         {
             "": "",
@@ -14474,7 +14474,7 @@
             "url": "http://beatmaniauet.sakura.ne.jp/BMS/orihime_Everlasting_love_rmx_ogg.rar",
             "url_diff": "同梱譜面",
             "md5": "7016b1dea6ac08bc60783d23d4f099a4",
-            "comment": "★19/180",
+            "comment": "★19,sl12",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7016b1dea6ac08bc60783d23d4f099a4"
         },
         {
@@ -14496,7 +14496,7 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=10&event=146",
             "url_diff": "https://stellabms.xyz/upload/6215",
             "md5": "629d87370b2607b9ee725864cc32093d",
-            "comment": "",
+            "comment": "sl12",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=629d87370b2607b9ee725864cc32093d"
         },
         {
