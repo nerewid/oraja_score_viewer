@@ -10,7 +10,7 @@ https://nerewid.github.io/oraja_score_viewer/
 
 最終機能更新日: 2025/10/03
 
-最終難易度表情報更新日: 2025/11/23
+最終難易度表情報更新日: 2025/11/30
 
 対応している難易度表
 - Satellite難易度表
