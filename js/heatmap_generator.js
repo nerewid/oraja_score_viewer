@@ -72,21 +72,42 @@ async function generateProgressData(db) {
 }
 
 // Cal-Heatmap表示関数
-function displayCalHeatmap(data, elementId, title, limit, color) {
+function displayCalHeatmap(data, elementId, title, limit, color, unit) {
     try {
         const cal = new CalHeatmap();
         let startDate = new Date(); // 現在の日時を取得
         startDate.setFullYear(startDate.getFullYear() - 1);
+
+        // データをMapに変換してツールチップで使用
+        const dataMap = new Map();
+        data.forEach(d => {
+            dataMap.set(d.date, d.value);
+        });
+
+        // プラグイン配列を事前に構築
+        const plugins = [
+            [
+                window.Tooltip,
+                {
+                    enabled: true,
+                    text: function (timestamp, value, dayjsDate) {
+                        const displayValue = value !== null ? value.toLocaleString() : 0;
+                        return `${dayjsDate.format('YYYY/MM/DD')}: ${displayValue} ${unit}`;
+                    },
+                },
+            ],
+        ];
+
         cal.paint({
-            itemSelector: document.getElementById(elementId),
+            itemSelector: `#${elementId}`,
             range: 13,
             domain:{
-            type: 'month',
-            gutter: 4,
-            padding: [0, 0, 0, 0],
-            dynamicDimension: false,
-            sort: 'asc',
-            label: {text: 'YYYY/MM'}
+                type: 'month',
+                gutter: 4,
+                padding: [0, 0, 0, 0],
+                dynamicDimension: false,
+                sort: 'asc',
+                label: {text: 'YYYY/MM'}
             },
             subDomain: { type: 'day', label: null },
             date: {
@@ -96,7 +117,8 @@ function displayCalHeatmap(data, elementId, title, limit, color) {
                     new Date(), // Highlight today
                 ]
             },
-            data: { source: data,
+            data: {
+                source: data,
                 x: "date",
                 y: (datum) => +datum['value']
             },
@@ -104,10 +126,10 @@ function displayCalHeatmap(data, elementId, title, limit, color) {
                 color: {
                     scheme: color,
                     type: 'linear',
-                domain: [0, limit],
+                    domain: [0, limit],
                 },
             }
-        });
+        }, plugins);
         const element = document.getElementById(`${elementId}-pre`);
         element.innerHTML = `<h1>${title}</h1>`;
     } catch (error) {
@@ -127,8 +149,8 @@ document.getElementById("processData").addEventListener("click", async () => {
     try {
         const heatmapData = await generateHeatmapData(scoreDbData, scorelogDbData);
         
-        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", "打鍵数ヒートマップ ", 150000, "Greens");
-        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", "更新数ヒートマップ ", 20, "Purples");
+        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", "打鍵数ヒートマップ ", 150000, "Greens", "Notes");
+        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", "更新数ヒートマップ ", 20, "Purples", "回更新");
 
     } catch (error) {
         alert("データ処理中にエラーが発生しました。");

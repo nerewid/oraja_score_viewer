@@ -2,7 +2,11 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oraja_score_viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <script>
         // github.ioのルートディレクトリがリポジトリのトップにならない問題を解消する
         const pathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
@@ -104,6 +108,19 @@
                 </label>
             </div>
         </div>
+        <div id="lamp-legend" class="lamp-legend">
+            <div class="legend-item"><span class="legend-color" style="background: rgba(255, 215, 0, 0.8);"></span>Max</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(173, 255, 47, 0.8);"></span>Perfect</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(0, 255, 255, 0.8);"></span>FullCombo</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(255, 165, 0, 0.8);"></span>ExHard</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(192, 0, 0, 0.8);"></span>Hard</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(135, 206, 235, 0.8);"></span>Normal</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(0, 128, 0, 0.8);"></span>Easy</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(255, 192, 203, 0.8);"></span>LightAssist</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(128, 0, 128, 0.8);"></span>AssistEasy</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(128, 0, 0, 0.8);"></span>Failed</div>
+            <div class="legend-item"><span class="legend-color" style="background: rgba(32, 32, 32, 0.8);"></span>NoPlay</div>
+        </div>
         <div id="lamp-graph-area"></div>
         <div id="song-list-area"></div>
     </div>
@@ -111,7 +128,9 @@
     <script src="./js/lib/sql-wasm.js"></script>
     <script src="./js/lib/nunjucks.min.js"></script>
     <script type="text/javascript" src="./js/lib/d3.v7.min.js"></script>
-    <script src="./js/lib/cal-heatmap.min.js"></script>
+    <script src="https://unpkg.com/cal-heatmap/dist/cal-heatmap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/cal-heatmap/dist/plugins/Tooltip.min.js"></script>
     <script src="./js/lib/FileSaver.min.js"></script>
 
     <script type="module" src="./js/db_uploader.js"></script>
