@@ -1,80 +1,354 @@
-body {
-    font-family: sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #333; /* ダークな背景色 */
-    color: #eee; /* 文字色を明るく */
+/* ============================================
+   CSS Variables - Design System
+   ============================================ */
+:root {
+    /* Color Palette - Cyber/Neon Theme */
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #12121a;
+    --bg-tertiary: #1a1a24;
+    --bg-card: #16161f;
+
+    /* Text Colors */
+    --text-primary: #e8e8ed;
+    --text-secondary: #a0a0b0;
+    --text-muted: #6a6a7a;
+
+    /* Accent Colors - Neon Cyan/Blue */
+    --accent-primary: #00d4ff;
+    --accent-secondary: #0099cc;
+    --accent-glow: rgba(0, 212, 255, 0.3);
+
+    /* Status Colors - Game-inspired */
+    --color-success: #00ff88;
+    --color-warning: #ffaa00;
+    --color-error: #ff3366;
+
+    /* Typography */
+    --font-main: 'M PLUS 1', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+    --font-mono: 'JetBrains Mono', 'Source Code Pro', monospace;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 400ms ease;
 }
 
-h1, h2, h3 {
-    font-weight: bold;
+/* ============================================
+   Base Styles
+   ============================================ */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0;
+    padding: var(--space-xl);
+    background-color: var(--bg-primary);
+    /* グリッドパターン + グラデーションで深みを追加 */
+    background-image:
+        radial-gradient(ellipse at 20% 0%, rgba(0, 212, 255, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 100%, rgba(0, 153, 204, 0.06) 0%, transparent 50%),
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 60px,
+            rgba(0, 212, 255, 0.02) 60px,
+            rgba(0, 212, 255, 0.02) 61px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            transparent,
+            transparent 60px,
+            rgba(0, 212, 255, 0.02) 60px,
+            rgba(0, 212, 255, 0.02) 61px
+        );
+    background-attachment: fixed;
+    color: var(--text-primary);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* メインコンテンツの最大幅とセンタリング */
+body > h1,
+body > #upload-area,
+body > .tab,
+body > .tabcontent {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ============================================
+   Upload Area - カード化
+   ============================================ */
+#upload-area {
+    background: linear-gradient(
+        135deg,
+        rgba(22, 22, 31, 0.95) 0%,
+        rgba(18, 18, 26, 0.98) 100%
+    );
+    border: 1px solid rgba(0, 212, 255, 0.15);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin-bottom: var(--space-xl);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.4),
+        0 0 60px rgba(0, 212, 255, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+/* カード上部のアクセントライン */
+#upload-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--accent-primary) 20%,
+        var(--accent-primary) 80%,
+        transparent
+    );
+    opacity: 0.7;
+}
+
+#upload-area h3 {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+#upload-area hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(0, 212, 255, 0.3) 50%,
+        transparent
+    );
+    margin: var(--space-lg) 0;
+}
+
+/* ============================================
+   Typography
+   ============================================ */
+h1, h2, h3, h4 {
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 0;
+    letter-spacing: -0.02em;
 }
 
 h1 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: var(--space-lg);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    /* グラデーションテキスト */
+    background: linear-gradient(
+        135deg,
+        var(--accent-primary) 0%,
+        #00ff88 50%,
+        var(--accent-primary) 100%
+    );
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* グロー効果 */
+    filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.4));
+    /* アニメーション */
+    animation: titleGlow 8s ease-in-out infinite;
+}
+
+@keyframes titleGlow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
 }
 
 h2 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: var(--space-md);
+    color: var(--text-primary);
 }
 
 h3 {
-    font-size: 1.1em;
-    margin-bottom: 5px;
+    font-size: 1.125rem;
+    margin-bottom: var(--space-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
 }
 
+/* Monospace for numbers and codes */
+.mono, code, pre {
+    font-family: var(--font-mono);
+}
+
+/* Links */
+a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast), text-shadow var(--transition-fast);
+}
+
+a:hover {
+    color: var(--text-primary);
+    text-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* ============================================
+   Score Log Sections
+   ============================================ */
 .date-section {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    margin-bottom: var(--space-lg);
+    border-bottom: 1px solid var(--bg-tertiary);
+    padding-bottom: var(--space-md);
 }
 
 .title-list {
-    list-style: none; /* リストマーカーを非表示 */
+    list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 .title-item {
-    margin-bottom: 5px;
-    display: flex; /* flexbox を有効化 */
-    align-items: center; /* 垂直方向中央揃え */
-    justify-content: space-between; /* 両端揃え */
+    margin-bottom: var(--space-xs);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-xs) 0;
 }
 
 .bp-list {
     list-style: none;
-    padding-left: 20px; /* 必要に応じて調整 */
+    padding-left: var(--space-lg);
     font-size: 0.9em;
-    color: #777; /* 元の色に戻すか、必要に応じて変更 */
-    margin-left: auto; /* BPリストを右端に寄せる */
+    color: var(--text-muted);
+    margin-left: auto;
 }
 
 .bp-only-section {
-    margin-top: 10px;
+    margin-top: var(--space-sm);
 }
 
+/* ============================================
+   Heatmap Enhancements
+   ============================================ */
+.ch-container {
+    margin: var(--space-md) 0;
+}
+
+/* ヒートマップセルのホバー効果強化 */
+.ch-subdomain-bg {
+    transition: all var(--transition-fast);
+    rx: 2;
+    ry: 2;
+}
+
+.ch-subdomain-bg:hover {
+    stroke: var(--accent-primary) !important;
+    stroke-width: 2px !important;
+    filter: brightness(1.2);
+}
+
+/* ツールチップのスタイル */
+#ch-tooltip {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--accent-primary) !important;
+    border-radius: var(--radius-md) !important;
+    color: var(--text-primary) !important;
+    font-family: var(--font-main) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 月ラベルのスタイル */
+.ch-domain-text {
+    fill: var(--text-secondary) !important;
+    font-family: var(--font-mono) !important;
+    font-size: 11px !important;
+}
+
+/* ============================================
+   Lamp Legend
+   ============================================ */
+.lamp-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-md);
+    padding: var(--space-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-md);
+    border: 1px solid var(--border-color);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================
+   Lamp Graph
+   ============================================ */
 .level-item {
-    display: flex; /* Flexbox を適用 */
-    align-items: center; /* 縦方向中央揃え */
-    margin-bottom: 5px; /* レベル間の間隔 */
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-xs);
 }
 
-.level-item > div:first-child { /* レベルラベル */
-    width: 80px; /* 固定幅 */
-    font-weight: bold;
-    margin-right: 10px; /* グラフとの間隔 */
-    text-align: left; /* 右寄せで見やすく */
+.level-item > div:first-child {
+    min-width: 100px;
+    font-weight: 600;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    margin-right: var(--space-sm);
+    text-align: left;
+    color: var(--text-secondary);
+    white-space: nowrap;
 }
 
-.level-item > div.lamp-graph-bar { /* グラフバー */
-    flex-grow: 1; /* 残りの幅を占める */
-    height: 20px; /* 高さを調整 */
-    border: 1px solid #ccc;
+.level-item > div.lamp-graph-bar {
+    flex-grow: 1;
+    height: 24px;
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
     position: relative;
     cursor: pointer;
-    display: flex; /* 子要素の配置を制御する場合 */
+    display: flex;
+    overflow: hidden;
+    background: var(--bg-secondary);
 }
 
 .lamp-graph-segment {
@@ -82,12 +356,23 @@ h3 {
     height: 100%;
     box-sizing: border-box;
     overflow: hidden;
-    display: flex; /* 内側のテキストを中央揃えにする場合 */
-    justify-content: center; /* 水平方向中央揃え */
-    align-items: center; /* 垂直方向中央揃え */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.7em;
-    font-weight: bold;
-    color: white; /* デフォルトのテキスト色 */
+    font-weight: 600;
+    color: white;
+    transition:
+        filter var(--transition-fast),
+        transform var(--transition-fast),
+        box-shadow var(--transition-fast);
+}
+
+.lamp-graph-segment:hover {
+    filter: brightness(1.3);
+    transform: scaleY(1.15);
+    z-index: 10;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
 
 .lamp-graph-segment span {
@@ -96,54 +381,99 @@ h3 {
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 0.7em;
-    font-weight: bold;
-    /* color は JavaScript で設定 */
+    font-weight: 600;
+    font-family: var(--font-mono);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* ============================================
+   Horizontal Container
+   ============================================ */
 .horizontal-container {
     display: flex;
-    align-items: center; /* 必要に応じて垂直方向の中央揃え */
-  }
-  
-  .horizontal-container > * {
-    margin-right: 10px; /* 子要素間の余白 */
-  }
-  
-  .horizontal-container > *:last-child {
-    margin-right: 0; /* 最後の要素の右余白をなくす */
-  }
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+}
 
-  .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+.horizontal-container > * {
+    margin-right: 0;
+}
+
+/* ============================================
+   Tabs
+   ============================================ */
+.tab {
     display: none; /* 初期状態で非表示 */
+    overflow: hidden;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+    border: 1px solid var(--bg-tertiary);
+    border-bottom: none;
 }
 
 .tab button {
-    background-color: inherit;
+    background: transparent;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    width: 50%; /* 横幅を等分 */
+    padding: var(--space-md) var(--space-lg);
+    font-family: var(--font-main);
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    transition:
+        color var(--transition-fast),
+        background var(--transition-base),
+        box-shadow var(--transition-base);
+    width: 50%;
+    position: relative;
+}
+
+.tab button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--accent-primary);
+    transition: width var(--transition-base);
+    box-shadow: 0 0 10px var(--accent-primary);
 }
 
 .tab button:hover {
-    background-color: #ddd;
+    color: var(--text-primary);
+    background: rgba(0, 212, 255, 0.05);
 }
 
 .tab button.active {
-    background-color: #7171e0;
+    color: var(--accent-primary);
+    /* 上部から下へのグラデーション背景 */
+    background: linear-gradient(
+        180deg,
+        rgba(0, 212, 255, 0.12) 0%,
+        rgba(0, 212, 255, 0.03) 50%,
+        transparent 100%
+    );
+    /* 上部にグロー効果 */
+    box-shadow:
+        inset 0 1px 0 rgba(0, 212, 255, 0.3),
+        0 -4px 20px rgba(0, 212, 255, 0.15);
+}
+
+.tab button.active::after {
+    width: 80%;
 }
 
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    padding: var(--space-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
 }
 
 /* ユーティリティクラス */
@@ -159,128 +489,323 @@ h3 {
     cursor: default;
 }
 
-/* メッセージカラー */
+/* ============================================
+   Messages
+   ============================================ */
 .message-success {
-    color: green;
+    color: var(--color-success);
 }
 
 .message-error {
-    color: red;
+    color: var(--color-error);
 }
 
-/* レベルラベル */
+/* ============================================
+   Level Label & Song List
+   ============================================ */
 .level-label {
-    font-weight: bold;
+    font-weight: 600;
     width: 90px;
-    margin-right: 10px;
-    font-size: 12px;
+    margin-right: var(--space-sm);
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+    color: var(--text-secondary);
 }
 
-/* 曲リスト */
 .song-list {
     list-style-type: none;
     padding-left: 0;
+    margin: 0;
+}
+
+.song-list li {
+    padding: var(--space-xs) 0;
+    border-bottom: 1px solid var(--bg-tertiary);
+}
+
+.song-list li:last-child {
+    border-bottom: none;
 }
 
 .song-list a {
-    color: inherit;
+    color: var(--text-primary);
+    transition: color var(--transition-fast);
 }
 
-/* results-area: リサイズ時のレイアウト再計算を最小化 */
+.song-list a:hover {
+    color: var(--accent-primary);
+}
+
+/* ============================================
+   Results Area
+   ============================================ */
 #results-area {
-    contain: layout style; /* レイアウトとスタイル再計算を分離 */
+    contain: layout style;
 }
 
-/* date-section: 画面外要素のレンダリングを遅延 */
 .date-section {
-    content-visibility: auto; /* 可視範囲外は描画スキップ */
-    contain-intrinsic-size: auto 300px; /* 予想高さ */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 300px;
 }
 
-/* ページネーション */
+/* ============================================
+   Pagination
+   ============================================ */
 .pagination-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin: 20px 0;
-    padding: 15px;
+    gap: var(--space-md);
+    margin: var(--space-lg) 0;
+    padding: var(--space-md);
 }
 
 .pagination-info {
-    font-size: 0.9em;
-    color: #aaa;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
 }
 
 .pagination-controls {
     display: flex;
-    gap: 5px;
+    gap: var(--space-xs);
     align-items: center;
 }
 
 .pagination-controls button {
-    padding: 8px 12px;
-    background-color: #555;
-    color: #eee;
-    border: 1px solid #666;
-    border-radius: 4px;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
     cursor: pointer;
-    font-size: 0.9em;
-    transition: background-color 0.2s;
+    font-size: 0.9rem;
+    font-family: var(--font-main);
+    transition: background var(--transition-fast), border-color var(--transition-fast);
 }
 
 .pagination-controls button:hover:not(:disabled) {
-    background-color: #666;
+    background: var(--bg-secondary);
+    border-color: var(--accent-primary);
 }
 
 .pagination-controls button:disabled {
-    opacity: 0.5;
+    opacity: 0.4;
     cursor: not-allowed;
 }
 
 .pagination-controls button.active {
-    background-color: #7171e0;
-    border-color: #7171e0;
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    border-color: var(--accent-primary);
 }
 
 .pagination-controls select {
-    padding: 6px 10px;
-    background-color: #555;
-    color: #eee;
-    border: 1px solid #666;
-    border-radius: 4px;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-sm);
     cursor: pointer;
+    font-family: var(--font-main);
 }
 
-/* upload-areaとdownloadJsonボタンのスタイル（style_v2.cssから流用） */
-#upload-area button,
-#downloadJson {
-    background: #4db5ff;
-    color: #1a1a1a;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    margin: 0.5rem 0;
-    border-radius: 8px;
-    font-weight: 600;
+/* ============================================
+   Form Elements (Select, Radio)
+   ============================================ */
+select,
+#difficulty-table-select {
+    padding: var(--space-sm) var(--space-lg) var(--space-sm) var(--space-md);
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: var(--radius-md);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
     cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition:
+        border-color var(--transition-fast),
+        box-shadow var(--transition-base),
+        background var(--transition-fast);
+    /* カスタム矢印 */
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2300d4ff' d='M2 4l4 4 4-4'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 32px;
+}
+
+select:hover,
+#difficulty-table-select:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.15);
+    background-color: rgba(0, 212, 255, 0.05);
+}
+
+select:focus,
+#difficulty-table-select:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow:
+        0 0 0 2px var(--accent-glow),
+        0 0 20px rgba(0, 212, 255, 0.2);
+}
+
+/* ドロップダウンオプションのスタイル */
+select option,
+#difficulty-table-select option {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: var(--space-sm);
+}
+
+select option:checked,
+#difficulty-table-select option:checked {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
+select option:hover,
+#difficulty-table-select option:hover {
+    background: var(--bg-tertiary);
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--text-muted);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    transition:
+        border-color var(--transition-fast),
+        background var(--transition-fast),
+        box-shadow var(--transition-base);
+    position: relative;
+}
+
+input[type="radio"]:checked {
+    border-color: var(--accent-primary);
+    background: var(--accent-primary);
+    box-shadow:
+        inset 0 0 0 3px var(--bg-primary),
+        0 0 12px rgba(0, 212, 255, 0.5);
+}
+
+input[type="radio"]:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 8px rgba(0, 212, 255, 0.3);
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-glow);
+}
+
+/* ラジオボタンのラベルスタイル */
+label:has(input[type="radio"]) {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    transition: background var(--transition-fast);
+}
+
+label:has(input[type="radio"]):hover {
+    background: rgba(0, 212, 255, 0.05);
+}
+
+label:has(input[type="radio"]:checked) {
+    color: var(--accent-primary);
+}
+
+/* ============================================
+   Buttons
+   ============================================ */
+#upload-area button,
+#downloadJson,
+.btn {
+    font-family: var(--font-main);
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: transparent;
+    color: var(--accent-primary);
+    border: 2px solid var(--accent-primary);
+    padding: var(--space-sm) var(--space-lg);
+    margin: var(--space-sm) 0;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:
+        background var(--transition-base),
+        color var(--transition-base),
+        border-color var(--transition-base),
+        transform var(--transition-fast),
+        box-shadow var(--transition-base);
+}
+
+#upload-area button::before,
+#downloadJson::before,
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(0, 212, 255, 0.15),
+        transparent
+    );
+    transition: left var(--transition-slow);
+}
+
+#upload-area button:hover::before,
+#downloadJson:hover::before,
+.btn:hover::before {
+    left: 100%;
 }
 
 #upload-area .upload-row button {
-    min-width: 200px;
+    width: 220px;
+    text-align: center;
 }
 
 #upload-area button:hover,
-#downloadJson:hover {
-    background: #3aa0d9;
+#downloadJson:hover,
+.btn:hover {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    border-color: var(--accent-primary);
     transform: translateY(-2px);
+    box-shadow: 0 4px 20px var(--accent-glow);
+}
+
+#upload-area button:active,
+#downloadJson:active,
+.btn:active {
+    transform: translateY(0);
 }
 
 #upload-area button:disabled,
-#downloadJson:disabled {
-    opacity: 0.5;
+#downloadJson:disabled,
+.btn:disabled {
+    opacity: 0.4;
     cursor: not-allowed;
     transform: none;
+    box-shadow: none;
+}
+
+#upload-area button:disabled::before,
+#downloadJson:disabled::before,
+.btn:disabled::before {
+    display: none;
 }
 
 #processData {
@@ -303,86 +828,101 @@ h3 {
     font-size: 0.9em;
 }
 
-/* エラー表示エリア */
+/* ============================================
+   Error Display
+   ============================================ */
 .error-container {
-    background-color: #d32f2f;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border-left: 5px solid #b71c1c;
+    background: linear-gradient(135deg, rgba(255, 51, 102, 0.15), rgba(255, 51, 102, 0.05));
+    border: 1px solid var(--color-error);
+    color: var(--text-primary);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    margin: var(--space-lg) 0;
+    border-left: 4px solid var(--color-error);
 }
 
 .error-container h3 {
     margin-top: 0;
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    color: var(--color-error);
 }
 
 .error-container p {
-    margin: 10px 0;
+    margin: var(--space-sm) 0;
     line-height: 1.6;
+    color: var(--text-secondary);
 }
 
 .error-container details {
-    margin-top: 15px;
-    background: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    border-radius: 4px;
+    margin-top: var(--space-md);
+    background: rgba(0, 0, 0, 0.3);
+    padding: var(--space-sm);
+    border-radius: var(--radius-sm);
 }
 
 .error-container summary {
     cursor: pointer;
-    font-weight: bold;
-    padding: 5px;
+    font-weight: 600;
+    padding: var(--space-xs);
+    color: var(--text-primary);
+    transition: color var(--transition-fast);
 }
 
 .error-container summary:hover {
-    background: rgba(0, 0, 0, 0.1);
+    color: var(--color-error);
 }
 
 .error-container pre {
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: 12px;
-    margin: 10px 0 0 0;
-    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    margin: var(--space-sm) 0 0 0;
+    font-family: var(--font-mono);
     overflow-x: auto;
+    color: var(--text-muted);
 }
 
 .error-close-btn {
-    margin-top: 15px;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 8px 16px;
-    border-radius: 4px;
+    margin-top: var(--space-md);
+    background: transparent;
+    color: var(--color-error);
+    border: 1px solid var(--color-error);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-sm);
     cursor: pointer;
-    font-weight: bold;
-    transition: background 0.2s;
+    font-weight: 600;
+    font-family: var(--font-main);
+    transition: background var(--transition-fast), color var(--transition-fast);
 }
 
 .error-close-btn:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: var(--color-error);
+    color: var(--bg-primary);
 }
 
-/* ローディング表示エリア */
+/* ============================================
+   Loading Display
+   ============================================ */
 .loading-container {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 30px;
-    border-radius: 12px;
-    margin: 20px 0;
+    background: var(--bg-card);
+    border: 1px solid var(--accent-primary);
+    box-shadow: 0 0 30px var(--accent-glow), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    margin: var(--space-lg) 0;
     text-align: center;
 }
 
 .loading-spinner {
     width: 50px;
     height: 50px;
-    border: 5px solid rgba(255, 255, 255, 0.3);
-    border-top-color: white;
+    border: 3px solid var(--bg-tertiary);
+    border-top-color: var(--accent-primary);
     border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin: 0 auto 20px;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto var(--space-lg);
+    box-shadow: 0 0 15px var(--accent-glow);
 }
 
 @keyframes spin {
@@ -390,31 +930,33 @@ h3 {
 }
 
 .loading-container h3 {
-    margin: 10px 0;
-    font-size: 1.3em;
+    margin: var(--space-sm) 0;
+    font-size: 1.25rem;
+    color: var(--accent-primary);
 }
 
 .loading-container p {
-    margin: 10px 0;
-    font-size: 1em;
-    opacity: 0.9;
+    margin: var(--space-sm) 0;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
 }
 
 .loading-progress-bar {
     width: 100%;
-    height: 8px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    margin-top: 20px;
+    height: 6px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    margin-top: var(--space-lg);
     overflow: hidden;
 }
 
 .loading-progress-fill {
     height: 100%;
-    background: white;
-    border-radius: 4px;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    border-radius: var(--radius-sm);
     width: 0%;
-    transition: width 0.3s ease;
+    transition: width var(--transition-base);
+    box-shadow: 0 0 10px var(--accent-glow);
 }
 
 /* 難易度表閲覧ページ用スタイル */
@@ -555,4 +1097,131 @@ h3 {
         min-width: 60px;
         font-size: 1em;
     }
+}
+
+/* ============================================
+   Table Viewer Page Styles
+   ============================================ */
+
+/* メインコンテナのカード化 */
+#table-viewer-container {
+    background: linear-gradient(
+        135deg,
+        rgba(22, 22, 31, 0.9) 0%,
+        rgba(18, 18, 26, 0.95) 100%
+    );
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    box-shadow:
+        0 4px 30px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    margin-bottom: var(--space-xl);
+}
+
+/* コントロールエリア */
+#table-viewer-container .controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+#table-viewer-container .controls label {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+/* テーブル情報エリア */
+#table-info {
+    margin: var(--space-lg) 0;
+    padding: var(--space-md);
+    background: rgba(0, 212, 255, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--accent-primary);
+}
+
+#table-info h2 {
+    margin: 0 0 var(--space-xs) 0;
+    font-size: 1.3rem;
+    color: var(--accent-primary);
+}
+
+#table-info p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* ナビゲーションリンク */
+nav a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition-base);
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+
+nav a:hover {
+    color: var(--accent-secondary);
+    text-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* テーブルコンテナ */
+#table-container {
+    margin-top: var(--space-lg);
+    overflow-x: auto;
+}
+
+/* 難易度表テーブルの改善 */
+#table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+#table-container th {
+    background: linear-gradient(180deg, rgba(0, 212, 255, 0.15) 0%, rgba(0, 212, 255, 0.05) 100%);
+    color: var(--accent-primary);
+    font-weight: 600;
+    padding: var(--space-md);
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#table-container td {
+    padding: var(--space-sm) var(--space-md);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+#table-container tr:hover td {
+    background: rgba(0, 212, 255, 0.05);
+}
+
+#table-container a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: all var(--transition-base);
+}
+
+#table-container a:hover {
+    color: var(--accent-secondary);
+    text-decoration: underline;
+}
+
+/* レベルヘッダー行 */
+#table-container th[colspan] {
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0.2) 0%, transparent 100%);
+    color: var(--accent-primary);
+    font-size: 1.1rem;
+    padding: var(--space-sm) var(--space-md);
 }
