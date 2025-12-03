@@ -1026,8 +1026,8 @@ label:has(input[type="radio"]:checked) {
 .difficulty-table thead th {
     position: sticky;
     top: 0;
-    z-index: 10;
-    background: #555;
+    z-index: 20;
+    background: var(--bg-tertiary, #555);
 }
 
 .difficulty-table .level-header {
@@ -1035,15 +1035,15 @@ label:has(input[type="radio"]:checked) {
 }
 
 .difficulty-table .level-header th {
-    background: #4a4a4a;
-    color: #4db5ff;
+    background: var(--bg-secondary, #4a4a4a);
+    color: var(--accent-primary, #4db5ff);
     font-size: 1.2em;
     padding: 10px;
     text-align: left;
     border: 1px solid #666;
     position: sticky;
-    top: 49px;
-    z-index: 9;
+    top: 41px;
+    z-index: 19;
 }
 
 .difficulty-table td {
@@ -1173,7 +1173,6 @@ nav a:hover {
 /* テーブルコンテナ */
 #table-container {
     margin-top: var(--space-lg);
-    overflow-x: auto;
 }
 
 /* 難易度表テーブルの改善 */
@@ -1182,7 +1181,6 @@ nav a:hover {
     border-collapse: collapse;
     background: var(--bg-secondary);
     border-radius: var(--radius-md);
-    overflow: hidden;
 }
 
 #table-container th {
@@ -1192,9 +1190,16 @@ nav a:hover {
     padding: var(--space-md);
     text-align: left;
     border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+/* メインヘッダー（Title, Artist, BMS URL, Chart URL）を固定 */
+#table-container thead th {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 20;
+    background: linear-gradient(180deg, #1a3a4a 0%, #1a2a3e 100%);
+    border-bottom: none;
+    box-shadow: 0 1px 0 rgba(0, 212, 255, 0.3);
 }
 
 #table-container td {
@@ -1218,10 +1223,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* レベルヘッダー行 */
-#table-container th[colspan] {
-    background: linear-gradient(90deg, rgba(0, 212, 255, 0.2) 0%, transparent 100%);
+/* レベルヘッダー行（sl0, sl1など）を固定 */
+#table-container .level-header th {
+    position: sticky;
+    top: 85px; /* メインヘッダーの高さ分 */
+    z-index: 19;
+    background: linear-gradient(90deg, #0a4a5a 0%, #1a2a3e 100%);
     color: var(--accent-primary);
     font-size: 1.1rem;
     padding: var(--space-sm) var(--space-md);
+    border-bottom: none;
+    box-shadow: 0 1px 0 rgba(0, 212, 255, 0.3);
 }
