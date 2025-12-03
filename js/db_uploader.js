@@ -1,3 +1,5 @@
+import { t } from './i18n.js';
+
 let scoreDbData;
 let scorelogDbData;
 let songdataDbData;
@@ -66,13 +68,13 @@ function handleFileSelect(expectedFileName) {
               if (scoreDbData && scorelogDbData && songdataDbData) {
                   document.getElementById("processData").disabled = false;
               }
-              messageArea.textContent = "読み込みに成功しました。";
+              messageArea.textContent = t('message.load_success');
               messageArea.classList.remove("message-error");
               messageArea.classList.add("message-success");
 
           } catch (e) {
               console.error(expectedFileName + "の読み込みに失敗しました:" + e);
-              messageArea.textContent = "読み込みに失敗しました: " + e.message;
+              messageArea.textContent = t('message.load_failed') + e.message;
               messageArea.classList.remove("message-success");
               messageArea.classList.add("message-error");
           }

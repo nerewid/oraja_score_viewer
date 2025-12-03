@@ -1235,3 +1235,45 @@ nav a:hover {
     border-bottom: none;
     box-shadow: 0 1px 0 rgba(0, 212, 255, 0.3);
 }
+
+/* ============================================
+   Language Switcher
+   ============================================ */
+.lang-switcher {
+    position: absolute;
+    top: var(--space-xl);
+    right: var(--space-xl);
+    display: flex;
+    gap: var(--space-xs);
+    z-index: 100;
+}
+
+.lang-btn {
+    padding: var(--space-xs) var(--space-sm);
+    min-width: 40px;
+    border: 1px solid var(--accent-primary);
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: var(--font-main);
+    font-weight: 600;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+}
+
+.lang-btn:hover {
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--text-primary);
+}
+
+.lang-btn.active {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* bodyにposition: relativeを追加（絶対配置の基準） */
+body {
+    position: relative;
+}

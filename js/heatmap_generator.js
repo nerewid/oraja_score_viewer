@@ -1,5 +1,6 @@
 // heatmap_generator.js (メイン処理)
 import { scoreDbData, scorelogDbData } from './db_uploader.js';
+import { t } from './i18n.js';
 
 async function generateHeatmapData(scoreDbData, scorelogDbData) {
     try {
@@ -142,18 +143,18 @@ function displayCalHeatmap(data, elementId, title, limit, color, unit) {
 // イベントリスナー
 document.getElementById("processData").addEventListener("click", async () => {
     if (!scoreDbData || !scorelogDbData) {
-        alert("score.dbまたはscorelog.dbファイルが不足しています。先にアップロードしてください。");
+        alert(t('heatmap.missing_db'));
         return;
     }
 
     try {
         const heatmapData = await generateHeatmapData(scoreDbData, scorelogDbData);
-        
-        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", "打鍵数ヒートマップ ", 150000, "Greens", "Notes");
-        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", "更新数ヒートマップ ", 20, "Purples", "回更新");
+
+        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", t('heatmap.notes'), 150000, "Greens", "Notes");
+        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", t('heatmap.progress'), 20, "Purples", t('heatmap.updates'));
 
     } catch (error) {
-        alert("データ処理中にエラーが発生しました。");
+        alert(t('alert.process_error'));
     }
 });
 

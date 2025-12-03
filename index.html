@@ -22,61 +22,65 @@
     <link rel="stylesheet" href="cal-heatmap.css">
 </head>
 <body>
+    <div class="lang-switcher">
+        <button id="lang-ja" class="lang-btn active">JP</button>
+        <button id="lang-en" class="lang-btn">EN</button>
+    </div>
     <h1>oraja_score_viewer</h1>
     <div id="upload-area">
-        <h3>beatorajaのプレイ履歴を日別に分かりやすく表示します。<br>
-        難易度表情報更新日：2025/11/30</h3>
+        <h3><span data-i18n="app.description">beatorajaのプレイ履歴を日別に分かりやすく表示します。</span><br>
+        <span data-i18n="app.table_update_date">難易度表情報更新日：</span>2025/11/30</h3>
         <hr>
-        <h3>利用方法</h3>
-        beatorajaフォルダの中にあるdbファイルを選択してください。<br>
-        score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに<br>
-        songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。<br>
+        <h3 data-i18n="upload.howto">利用方法</h3>
+        <span data-i18n="upload.instruction">beatorajaフォルダの中にあるdbファイルを選択してください。</span><br>
+        <span data-i18n="upload.score_location" data-i18n-html>score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに</span><br>
+        <span data-i18n="upload.songdata_location" data-i18n-html>songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。</span><br>
         <div class="upload-row">
-            <button id="uploadscoredb">score.db を読み込む</button>
+            <button id="uploadscoredb" data-i18n="button.load_score">score.db を読み込む</button>
             <input type="file" id="fileInputscore" accept=".db" style="display: none;">
             <div id="fileinfoscore"></div>
             <div id="message-score" class="message"></div>
         </div>
 
         <div class="upload-row">
-            <button id="uploadscorelogdb">scorelog.db を読み込む</button>
+            <button id="uploadscorelogdb" data-i18n="button.load_scorelog">scorelog.db を読み込む</button>
             <input type="file" id="fileInputscorelog" accept=".db" style="display: none;">
             <div id="fileinfoscorelog"></div>
             <div id="message-scorelog" class="message"></div>
         </div>
 
         <div class="upload-row">
-            <button id="uploadsongdatadb">songdata.db を読み込む</button>
+            <button id="uploadsongdatadb" data-i18n="button.load_songdata">songdata.db を読み込む</button>
             <input type="file" id="fileInputsongdata" accept=".db" style="display: none;">
             <div id="fileinfosongdata"></div>
             <div id="message-songdata" class="message"></div>
         </div>
 
-        <button id="processData" disabled>データ処理開始</button>
+        <button id="processData" disabled data-i18n="button.process">データ処理開始</button>
 
         <div id="loading-display" class="loading-container hidden">
             <div class="loading-spinner"></div>
-            <h3 id="loading-title">処理中...</h3>
-            <p id="loading-message">データベースを読み込んでいます</p>
+            <h3 id="loading-title" data-i18n="loading.processing">処理中...</h3>
+            <p id="loading-message" data-i18n="loading.db_loading">データベースを読み込んでいます</p>
             <div class="loading-progress-bar">
                 <div id="loading-progress" class="loading-progress-fill"></div>
             </div>
         </div>
 
         <div id="error-display" class="error-container hidden">
-            <h3>❌ エラーが発生しました</h3>
+            <h3>❌ <span data-i18n="error.title">エラーが発生しました</span></h3>
             <p id="error-message"></p>
             <details id="error-details">
-                <summary>詳細情報を表示</summary>
+                <summary data-i18n="error.details">詳細情報を表示</summary>
                 <pre id="error-stack"></pre>
             </details>
-            <button id="error-close" class="error-close-btn">閉じる</button>
+            <button id="error-close" class="error-close-btn" data-i18n="button.close">閉じる</button>
         </div>
 
         <hr>
-        本ツールの詳細、対応している難易度表については<a href="https://github.com/nerewid/oraja_score_viewer">こちら</a>。<br>
+        <span data-i18n="link.details">本ツールの詳細、対応している難易度表については</span><a href="https://github.com/nerewid/oraja_score_viewer" data-i18n="link.here">こちら。</a><br>
         <a href="table_viewer.html" style="color: #4db5ff; font-size: 1.1em; margin-top: 10px; display: inline-block;">
-            📊 難易度表を閲覧する
+            📊 <span data-i18n="link.table_viewer">難易度表を閲覧する</span>
         </a>
     </div>
 
@@ -133,6 +137,7 @@
     <script src="https://unpkg.com/cal-heatmap/dist/plugins/Tooltip.min.js"></script>
     <script src="./js/lib/FileSaver.min.js"></script>
 
+    <script type="module" src="./js/lang_switcher.js"></script>
     <script type="module" src="./js/db_uploader.js"></script>
     <script type="module" src="./js/score_change_to_json.js"></script>
     <script type="module" src="./js/json_creator.js"></script>

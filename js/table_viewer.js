@@ -1,4 +1,5 @@
 // 難易度表閲覧ページのメインスクリプト
+import { t } from './i18n.js';
 
 // --- グローバル変数 ---
 let difficultyTablesConfig = [];
@@ -70,7 +71,7 @@ async function loadDifficultyTables() {
  */
 function populateTableSelect() {
     // デフォルトオプション以外をクリア
-    tableSelect.innerHTML = '<option value="">-- 難易度表を選択してください --</option>';
+    tableSelect.innerHTML = `<option value="">${t('table_viewer.select_placeholder')}</option>`;
 
     difficultyTablesConfig.forEach(table => {
         const option = document.createElement('option');
@@ -183,7 +184,7 @@ function showTableInfo(tableConfig, songs) {
         levelCounts.set(song.level, count + 1);
     });
 
-    tableStats.textContent = `総曲数: ${songs.length}曲 / レベル数: ${levelCounts.size}`;
+    tableStats.textContent = t('table_viewer.stats', { count: songs.length, levels: levelCounts.size });
     tableInfo.classList.remove('hidden');
 }
 

@@ -1,5 +1,6 @@
 import {generateNotesData} from './heatmap_generator.js'; // ヒートマップ用のノーツ数データを生成する関数をインポート
 import {scoreDbData} from './db_uploader.js'; // スコアデータベースのデータをインポート
+import { t } from './i18n.js'; // i18n翻訳関数をインポート
 
 /**
  * JSON形式のデータとテンプレートファイルを受け取り、HTMLを生成する非同期関数
@@ -64,7 +65,14 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
             }, {});
 
             // テンプレートにデータを渡してHTMLをレンダリング
-            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: clear_status, notes: notesMap });
+            const i18n = {
+                history: t('template.history'),
+                downloadJson: t('template.download_json'),
+                bpOnly: t('template.bp_only'),
+                newClear: t('template.new_clear'),
+                daysPerPage: t('template.days_per_page'),
+            };
+            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: clear_status, notes: notesMap, i18n: i18n });
             return html; // 生成されたHTMLを返す
         } catch (nunjucksError) {
             // Nunjucksテンプレートのエラーをコンソールに出力し、エラーメッセージを含むHTMLを返す
