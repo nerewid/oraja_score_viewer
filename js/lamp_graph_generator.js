@@ -1,9 +1,10 @@
 // --- ES Module Imports ---
 
-import { sqlPromise } from './db_uploader.js'; 
+import { sqlPromise } from './db_uploader.js';
 import { getSha256ToMd5Map } from './score_change_to_json.js';
 import { scoreDbData } from './db_uploader.js';
 import { songdataDbData } from './db_uploader.js';
+import { t } from './i18n.js';
 
 // --- グローバル変数・定数 ---
 
@@ -487,7 +488,7 @@ function populateDifficultySelect(tablesData) {
     difficultyTableSelect.innerHTML = ''; // 既存のオプションをクリア
     const defaultOption = document.createElement('option');
     defaultOption.value = '';
-    defaultOption.textContent = '難易度表を選択してください';
+    defaultOption.textContent = t('lamp.select_table');
     difficultyTableSelect.appendChild(defaultOption);
 
     tablesData.forEach(table => {
@@ -511,7 +512,7 @@ function displayLampGraphs(aggregatedData, shortName, predefinedLevels) {
     lampGraphArea.classList.add('default-cursor'); // デフォルトカーソルに戻す
 
     if (aggregatedData.size === 0) {
-        lampGraphArea.innerHTML = '<p>表示するデータがありません。</p>';
+        lampGraphArea.innerHTML = `<p>${t('lamp.no_data')}</p>`;
         return;
     }
 
@@ -597,7 +598,7 @@ async function processDifficultyTableSelection(selectedInternalFileName, selecte
     const songListArea = document.getElementById('song-list-area');
     const difficultyTableSelect = document.getElementById('difficultyTableSelect'); // 必要に応じて取得
 
-    lampGraphArea.innerHTML = '<p>読み込み中...</p>'; // ローディング表示
+    lampGraphArea.innerHTML = `<p>${t('lamp.loading')}</p>`; // ローディング表示
     songListArea.innerHTML = ''; // 曲リストをクリア
 
     if (!selectedInternalFileName) {
@@ -607,7 +608,7 @@ async function processDifficultyTableSelection(selectedInternalFileName, selecte
 
     // score.db が読み込まれているか確認
     if (!scoreDbData) {
-        lampGraphArea.innerHTML = '<p style="color: red;">score.db を先に読み込んでください。</p>';
+        lampGraphArea.innerHTML = `<p style="color: red;">${t('lamp.load_score_first')}</p>`;
         if (difficultyTableSelect) {
             difficultyTableSelect.value = ''; // プルダウンの選択をリセット
         }
@@ -681,7 +682,7 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
     const clearData = levelData?.get(clearStatus); // Optional chaining
 
     if (!clearData || clearData.songs.length === 0) {
-        songListArea.textContent = '該当する楽曲が見つかりません。';
+        songListArea.textContent = t('lamp.no_songs');
         return;
     }
 
@@ -774,7 +775,7 @@ lampGraphArea.addEventListener('click', (event) => {
             displaySongList(level, clearStatus, window.currentAggregatedData, window.currentShortName);
         } else {
              console.warn("クリックされたセグメントから level または clearStatus を取得できませんでした。");
-             songListArea.innerHTML = '<p>曲リストの表示に失敗しました。</p>';
+             songListArea.innerHTML = `<p>${t('lamp.song_list_error')}</p>`;
         }
     } else if (bar) { // バーの他の部分（セグメント以外）がクリックされた場合 (任意: 全リスト表示など)
         // const level = bar.dataset.level;
@@ -837,7 +838,7 @@ async function initializeApp() {
     } catch(error) {
         console.error("難易度表データの読み込みまたはプルダウン生成に失敗:", error);
         if (difficultyTableSelect) {
-            difficultyTableSelect.innerHTML = '<option value="">難易度表読込エラー</option>';
+            difficultyTableSelect.innerHTML = `<option value="">${t('lamp.table_load_error')}</option>`;
         }
         // エラー処理
     }

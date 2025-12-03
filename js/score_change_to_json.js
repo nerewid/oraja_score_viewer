@@ -3,6 +3,7 @@ import { createJsonFromScoreLogs } from './json_creator.js'; // スコアログ�
 import { findScoresBySha256s,findMissingSha256sByMd5s } from './score_data_processor.js'; // SHA256ハッシュに基づいてスコアを検索する関数と、MD5ハッシュに基づいて不足しているSHA256ハッシュを検索する関数をインポート
 import { generateHtmlFromJson } from './html_generator.js'; // JSONデータからHTMLを生成する関数をインポート
 import { initializePagination } from './pagination.js'; // ページネーション機能をインポート
+import { t } from './i18n.js'; // i18n翻訳関数をインポート
 
 let sha256ToMd5Map = null;
 
@@ -10,24 +11,24 @@ let sha256ToMd5Map = null;
 document.getElementById("processData").addEventListener("click", async () => {
     // scorelogDbDataまたはsongdataDbDataが存在しない場合
     if (!scorelogDbData || !songdataDbData) {
-        alert("scorelog.dbまたはsongdata.dbファイルが不足しています。"); // アラートを表示して処理を中断
+        alert(t('alert.missing_db')); // アラートを表示して処理を中断
         return;
     }
     // ファイルアップロード領域を非表示にする
     document.getElementById("upload-area").classList.add("hidden");
 
     // ローディング表示
-    showLoading("データベースを初期化中...", 10);
+    showLoading(t('loading.db_init'), 10);
 
     try {
         console.time("prepation"); // 処理時間の計測を開始（準備）
         const SQL = await sqlPromise; // SQL.jsの初期化を待つ
-        updateLoading("データベースを読み込み中...", 20);
+        updateLoading(t('loading.db_loading'), 20);
         const scorelogDb = new SQL.Database(scorelogDbData); // スコアログデータベースのインスタンスを作成
         const songdataDb = new SQL.Database(songdataDbData); // 楽曲データベースのインスタンスを作成
 
         // 統合された難易度テーブルのJSONファイルをロード
-        updateLoading("難易度表を読み込み中...", 30);
+        updateLoading(t('loading.table_loading'), 30);
         const mergedDifficultyTables = await loadJsonFile('difficulty_table_data/merged_difficulty_tables.json');
 
         // 難易度テーブルの読み込みに失敗した場合
@@ -47,21 +48,21 @@ document.getElementById("processData").addEventListener("click", async () => {
         }
         console.timeEnd("prepation"); // 処理時間の計測終了（準備）
         //console.log(mergedDifficultyTables); // 読み込まれた難易度テーブルのログ出力
-        updateLoading("楽曲データを準備中...", 40);
+        updateLoading(t('loading.song_prep'), 40);
         const songDataMap = createSongDataMap(mergedDifficultyTables.songs); // 楽曲データをMD5ハッシュをキーとするMapに変換
 
         // SHA256ハッシュをキーとし、対応するMD5ハッシュを値とするMapを作成
-        updateLoading("ハッシュマッピングを作成中...", 50);
+        updateLoading(t('loading.hash_mapping'), 50);
         sha256ToMd5Map = await createSha256ToMd5Map(songdataDb, mergedDifficultyTables.songs);
 
         console.time("find scores"); // 処理時間の計測を開始（スコア検索）
-        updateLoading("スコアを検索中...", 60);
+        updateLoading(t('loading.score_search'), 60);
         let results = await findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap); // SHA256ハッシュに基づいてスコアログデータベースからスコアを検索
         //console.log(results); // 検索結果のログ出力
         console.timeEnd("find scores"); // 処理時間の計測終了（スコア検索）
 
         console.time("create json"); // 処理時間の計測を開始（JSON作成）
-        updateLoading("JSONデータを作成中...", 70);
+        updateLoading(t('loading.json_create'), 70);
         const jsonOutput = await createJsonFromScoreLogs(scorelogDb, results); // 検索されたスコアログからJSON形式のデータを作成
         //console.log(JSON.stringify(jsonOutput, null, 2));
         console.timeEnd("create json"); // 処理時間の計測終了（JSON作成）
@@ -73,18 +74,18 @@ document.getElementById("processData").addEventListener("click", async () => {
         showTabButtons(); // タブ切り替えボタンを表示する関数を呼び出す
 
         // JSONからHTMLを生成
-        updateLoading("HTMLを生成中...", 85);
+        updateLoading(t('loading.html_gen'), 85);
         const html = await generateHtmlFromJson(jsonOutput, 'js/template.njk');
 
         // HTMLを画面に表示
-        updateLoading("画面を表示中...", 95);
+        updateLoading(t('loading.display'), 95);
         document.getElementById("results-area").innerHTML = html;
         document.getElementById('tabA').style.display = 'block'; // タブ切り替え機能のため維持
 
         // ページネーションを初期化
         initializePagination();
 
-        updateLoading("完了しました！", 100);
+        updateLoading(t('loading.complete'), 100);
         setTimeout(hideLoading, 500);
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
@@ -97,7 +98,7 @@ document.getElementById("processData").addEventListener("click", async () => {
         hideLoading(); // ローディング表示を非表示
         document.getElementById("upload-area").classList.remove("hidden"); // ファイルアップロード領域を再度表示
         showError(
-            error.message || "データ処理中にエラーが発生しました。ファイルが正しいか確認してください。",
+            error.message || t('alert.process_error'),
             error.stack
         );
     }

@@ -7,8 +7,8 @@
 </head>
 <body>
     <div style="display: inline-flex; justify-content: space-between;">
-        <span style="font-size: 1.5em; font-weight: bold;">更新履歴    </span>
-        <button id="downloadJson" style="margin-left: 10px;">JSONダウンロード</button>
+        <span style="font-size: 1.5em; font-weight: bold;">{{ i18n.history }}    </span>
+        <button id="downloadJson" style="margin-left: 10px;">{{ i18n.downloadJson }}</button>
     </div>
 
     <div id="paginated-content">
@@ -22,11 +22,11 @@
                 {% set title = title_data.title %}
                 {% if data.clear not in displayed_clear_lamps %}
                     {% if data.clear == "-1" %}
-                        <h3 style="background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">BP更新のみ</h3>
+                        <h3 style="background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">{{ i18n.bpOnly }}</h3>
                         <ul class="title-list">
                         {% set displayed_clear_lamps = displayed_clear_lamps + [data.clear] %}
                     {% else %}
-                        <h3 style="color: {{ clear_status[data.clear]['color'] }}; background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">新規{{ clear_status[data.clear]['name'] }}</h3>
+                        <h3 style="color: {{ clear_status[data.clear]['color'] }}; background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">{{ i18n.newClear }}{{ clear_status[data.clear]['name'] }}</h3>
                         <ul class="title-list">
                         {% set displayed_clear_lamps = displayed_clear_lamps + [data.clear] %}
                     {% endif %}
@@ -52,10 +52,10 @@
         </div>
         <div class="pagination-info">
             <select id="results-items-per-page">
-                <option value="10">10日/ページ</option>
-                <option value="20">20日/ページ</option>
-                <option value="50">50日/ページ</option>
-                <option value="100" selected>100日/ページ</option>
+                <option value="10">10{{ i18n.daysPerPage }}</option>
+                <option value="20">20{{ i18n.daysPerPage }}</option>
+                <option value="50">50{{ i18n.daysPerPage }}</option>
+                <option value="100" selected>100{{ i18n.daysPerPage }}</option>
             </select>
             <span id="results-page-info"></span>
         </div>

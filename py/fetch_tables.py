@@ -67,6 +67,9 @@ def download_and_save_json(item, difficulty_table_dir, session=None):
 
         json_data_from_url = response.json()
 
+        # "url_diff" が "同梱譜面" の場合は空文字列に置き換え
+        json_data_from_url = replace_bundled_url_diff(json_data_from_url)
+
         # URLベースで判定（stellabms.xyzドメインかどうか）
         if url.startswith("https://stellabms.xyz/"):
             # stellabms.xyzの場合、internalFileNameに応じてsite_urlのプレフィックスを設定
@@ -93,6 +96,26 @@ def download_and_save_json(item, difficulty_table_dir, session=None):
         print(f"エラー: {url}から取得したデータは有効なJSONではありません: {e}。URLが正しいか、レスポンスの内容を確認してください。")
     except Exception as e:
         print(f"エラー: 予期せぬエラーが発生しました: {e}")
+
+def replace_bundled_url_diff(json_data):
+    """
+    JSONデータ内の "url_diff" が "同梱譜面" の場合、空文字列に置き換える。
+
+    Args:
+        json_data (list or dict): JSONデータ。
+
+    Returns:
+        list or dict: 処理後のJSONデータ。
+    """
+    if isinstance(json_data, list):
+        for item in json_data:
+            if isinstance(item, dict) and item.get("url_diff") == "同梱譜面":
+                item["url_diff"] = ""
+    elif isinstance(json_data, dict):
+        if json_data.get("url_diff") == "同梱譜面":
+            json_data["url_diff"] = ""
+    return json_data
+
 
 def add_site_url_to_json(json_data, prefix, key):
     """
