@@ -1648,7 +1648,7 @@
             "url": "https://web.archive.org/web/20070214191457/http://www.naotyu-studio7.com/music/data/loves_rebirth.zip",
             "url_diff": "http://onzonium.at-ninja.jp/sabun/Love's%20Rebirth%20'06.zip",
             "md5": "5e57cbf2533165d80194449a301f2e0c",
-            "comment": "sl1",
+            "comment": "sl1,▼0",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5e57cbf2533165d80194449a301f2e0c"
         },
         {
@@ -7627,6 +7627,17 @@
         {
             "": "",
             "level": "乱打6",
+            "title": "イイコと妖狐 [7K INSANE]",
+            "artist": "Kikuo (Movie: KAmE / Obj: potechang / BMS: Zris)",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/1",
+            "url_diff": "",
+            "md5": "8fb853b0c10245817cf97128df7b245e",
+            "comment": "sl6",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8fb853b0c10245817cf97128df7b245e"
+        },
+        {
+            "": "",
+            "level": "乱打6",
             "title": "インフェルノシティ\n<p>[SOUL METRO 地獄鉄 死号線 冥洞駅 UNPACIFIC HOTEL]</p>",
             "artist": "Ponchi feat.はぁち obj.霧切杏子",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=244&event=133",
@@ -9761,17 +9772,6 @@
         {
             "": "",
             "level": "乱打8",
-            "title": "ナイト・オブ・ナイツ [HARDEST]",
-            "artist": "Izayoi/差分　赤い人",
-            "url": "https://www.axfc.net/u/1218872",
-            "url_diff": "http://akred.web.fc2.com/bmsfile/knights-HARDEST.bms",
-            "md5": "ebe7ae691b9cad8ab7b2323e37691f1c",
-            "comment": "★12,▼12/179",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ebe7ae691b9cad8ab7b2323e37691f1c"
-        },
-        {
-            "": "",
-            "level": "乱打8",
             "title": "ねぇ？メイドさんはみんな忠実だと思う？ [SABOTHER7]",
             "artist": "かおみりん feat.こもも×みゆ/さ",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=138&event=74",
@@ -10773,12 +10773,23 @@
         {
             "": "",
             "level": "乱打9",
+            "title": "ナイト・オブ・ナイツ [HARDEST]",
+            "artist": "Izayoi/差分　赤い人",
+            "url": "https://www.axfc.net/u/1218872",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/knights-HARDEST.bms",
+            "md5": "ebe7ae691b9cad8ab7b2323e37691f1c",
+            "comment": "★12,▼12/179",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ebe7ae691b9cad8ab7b2323e37691f1c"
+        },
+        {
+            "": "",
+            "level": "乱打9",
             "title": "モリオンの姫 [HARDEST]",
             "artist": "wa. /差分　赤い人",
             "url": "http://skydrive.live.com/?cid=26D9698EC1CEC044&id=26D9698EC1CEC044%21271#cid=26D9698EC1CEC044&id=26D9698EC1CEC044%21208",
             "url_diff": "http://akred.web.fc2.com/bmsfile/_morion_HARDESTf.bme",
             "md5": "bb9b729f5c17509206fd5e2ac5b7d713",
-            "comment": "▼12",
+            "comment": "sl8,▼12",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bb9b729f5c17509206fd5e2ac5b7d713"
         },
         {
@@ -11229,7 +11240,7 @@
             "url": "https://dl.dropboxusercontent.com/s/nbc6lrxvr00d4lr/MoE_TKR.zip",
             "url_diff": "https://stellabms.xyz/upload/6151",
             "md5": "1488a1008a6807ba415be5fe3cb92429",
-            "comment": "",
+            "comment": "sl10",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1488a1008a6807ba415be5fe3cb92429"
         },
         {
@@ -12280,17 +12291,6 @@
         {
             "": "",
             "level": "乱打11",
-            "title": "fragmentation -dusk-",
-            "artist": "Black hood obj: Haze*",
-            "url": "https://www.luzeria.net/?p=387",
-            "url_diff": "https://stellabms.xyz/upload/952",
-            "md5": "4049fef0752c925c6d8c9d286301a631",
-            "comment": "sl11",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4049fef0752c925c6d8c9d286301a631"
-        },
-        {
-            "": "",
-            "level": "乱打11",
             "title": "FREEDOM DiVE [GALAXY]",
             "artist": "xi / air",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=15&event=50",
@@ -12841,17 +12841,6 @@
         {
             "": "",
             "level": "乱打11",
-            "title": "The Island of Albatross(Flight to Twilight Remix) -EX-",
-            "artist": "kinohito a.k.a. anubasu-anubasu remixed by くるぶっこちゃん/BGA Optie/さ",
-            "url": "https://dropbox.bms.ms/u/87375397/%EF%BC%BB%E3%81%8F%E3%82%8B%E3%81%B6%E3%81%A3%E3%81%93%E3%81%A1%E3%82%83%E3%82%93%EF%BC%BDThe%20Island%20of%20Albatross%28Flight%20to%20Twilight%20Remix%29.zip",
-            "url_diff": "https://dropbox.bms.ms/u/87375397/%EF%BC%BB%E3%81%8F%E3%82%8B%E3%81%B6%E3%81%A3%E3%81%93%E3%81%A1%E3%82%83%E3%82%93%EF%BC%BDThe%20Island%20of%20Albatross%28Flight%20to%20Twilight%20Remix%29.zip",
-            "md5": "54e34fd60c312a03378a60a74ce45002",
-            "comment": "sl11",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=54e34fd60c312a03378a60a74ce45002"
-        },
-        {
-            "": "",
-            "level": "乱打11",
             "title": "Time files [EX]",
             "artist": "xi",
             "url": "http://onedrive.live.com/?id=9AC3672A96D56EDC%217350&cid=9AC3672A96D56EDC",
@@ -13105,17 +13094,6 @@
         {
             "": "",
             "level": "乱打11",
-            "title": "確固たる意志 [HARDEST]",
-            "artist": "69 de 74 BGA : EViL/obj:赤い人",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=4&event=114",
-            "url_diff": "http://akred.web.fc2.com/bmsfile/_kakko_2_HARDEST.bms",
-            "md5": "757fc566740a644d17ff99086f63ec82",
-            "comment": "sl11",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=757fc566740a644d17ff99086f63ec82"
-        },
-        {
-            "": "",
-            "level": "乱打11",
             "title": "神様の恋心 [KANITHER]",
             "artist": "nmk feat.一花 Illust:りーふぱい/BGA:わっふゑ/obj.かに",
             "url": "https://venue.bmssearch.net/bmsshuin3/57",
@@ -13167,17 +13145,6 @@
             "md5": "b2286e29fbffb7a5a5cb2a622d57201b",
             "comment": "sl11",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b2286e29fbffb7a5a5cb2a622d57201b"
-        },
-        {
-            "": "",
-            "level": "乱打11",
-            "title": "図書室のエルザ [FOX]",
-            "artist": "橘花音 かなえゆめ composed by nmk / Notes:キラ Illustration:かぜっと",
-            "url": "http://yatai.ath.cx/c03_shuffle2/detail.php?n=20",
-            "url_diff": "http://kirakitsune.web.fc2.com/sabun.html",
-            "md5": "b89279d026c9d40d0f5eedde2e25b920",
-            "comment": "sub sl11,★18",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b89279d026c9d40d0f5eedde2e25b920"
         },
         {
             "": "",
@@ -13682,7 +13649,7 @@
             "url": "http://malie.noor.jp/",
             "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up1492.zip",
             "md5": "2f36e190660732665cc13f2019d01557",
-            "comment": "157",
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2f36e190660732665cc13f2019d01557"
         },
         {
@@ -13715,7 +13682,7 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=349&event=116",
             "url_diff": "https://www.dropbox.com/s/n2fm1yu1q2kzk12/Finixe.zip?dl=1",
             "md5": "ec7ba820d7e4759a3cbe91a88e2f935d",
-            "comment": "222",
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ec7ba820d7e4759a3cbe91a88e2f935d"
         },
         {
@@ -13726,7 +13693,7 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=103&event=140",
             "url_diff": "https://stellabms.xyz/upload/6443",
             "md5": "1cd7b6904fbc9f024123dfbb367b5655",
-            "comment": "",
+            "comment": "sl12",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1cd7b6904fbc9f024123dfbb367b5655"
         },
         {
@@ -13739,6 +13706,17 @@
             "md5": "e97bd593d21d83c74e84d7cd4c950930",
             "comment": "sl12/180",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e97bd593d21d83c74e84d7cd4c950930"
+        },
+        {
+            "": "",
+            "level": "乱打12",
+            "title": "fragmentation -dusk-",
+            "artist": "Black hood obj: Haze*",
+            "url": "https://www.luzeria.net/?p=387",
+            "url_diff": "https://stellabms.xyz/upload/952",
+            "md5": "4049fef0752c925c6d8c9d286301a631",
+            "comment": "sl12",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4049fef0752c925c6d8c9d286301a631"
         },
         {
             "": "",
@@ -14216,12 +14194,23 @@
         {
             "": "",
             "level": "乱打12",
+            "title": "The Island of Albatross(Flight to Twilight Remix) -EX-",
+            "artist": "kinohito a.k.a. anubasu-anubasu remixed by くるぶっこちゃん/BGA Optie/さ",
+            "url": "https://dropbox.bms.ms/u/87375397/%EF%BC%BB%E3%81%8F%E3%82%8B%E3%81%B6%E3%81%A3%E3%81%93%E3%81%A1%E3%82%83%E3%82%93%EF%BC%BDThe%20Island%20of%20Albatross%28Flight%20to%20Twilight%20Remix%29.zip",
+            "url_diff": "https://dropbox.bms.ms/u/87375397/%EF%BC%BB%E3%81%8F%E3%82%8B%E3%81%B6%E3%81%A3%E3%81%93%E3%81%A1%E3%82%83%E3%82%93%EF%BC%BDThe%20Island%20of%20Albatross%28Flight%20to%20Twilight%20Remix%29.zip",
+            "md5": "54e34fd60c312a03378a60a74ce45002",
+            "comment": "sl12",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=54e34fd60c312a03378a60a74ce45002"
+        },
+        {
+            "": "",
+            "level": "乱打12",
             "title": "The Ray of Sunlight [yumether]",
             "artist": "P*Light /obj:夢瑠",
             "url": "http://mournfinale.com/bof2009/p.html",
             "url_diff": "http://yumerusabun.web.fc2.com/nue.html",
             "md5": "ad71daba74858bed2d1545e97df2ca75",
-            "comment": "170",
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ad71daba74858bed2d1545e97df2ca75"
         },
         {
@@ -14243,7 +14232,7 @@
             "url": "https://web.archive.org/web/20050218225015/http://pureweb.jp/~nav/music/islands.html",
             "url_diff": "https://onedrive.live.com/?authkey=%21AOr3JbPRNR9inS8&id=A7171B3AD70828F4%21165&cid=A7171B3AD70828F4",
             "md5": "7b2f840ea959d1cc5ce7720df9e3619b",
-            "comment": "155",
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=7b2f840ea959d1cc5ce7720df9e3619b"
         },
         {
@@ -14265,7 +14254,7 @@
             "url": "http://web.archive.org/web/20060213103146/http://www.ismusic.ne.jp/djtak/bms/trinity.zip",
             "url_diff": "https://drive.google.com/file/d/1xDxf871XXuNa25_Rg5oQXj6gfF5qIyZR/view?usp=sharing",
             "md5": "b337ad51198757c63178773d4494c1fd",
-            "comment": "168",
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b337ad51198757c63178773d4494c1fd"
         },
         {
@@ -14535,6 +14524,17 @@
         {
             "": "",
             "level": "乱打12",
+            "title": "確固たる意志 [HARDEST]",
+            "artist": "69 de 74 BGA : EViL/obj:赤い人",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=4&event=114",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/_kakko_2_HARDEST.bms",
+            "md5": "757fc566740a644d17ff99086f63ec82",
+            "comment": "sl12",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=757fc566740a644d17ff99086f63ec82"
+        },
+        {
+            "": "",
+            "level": "乱打12",
             "title": "失望Choco (-ω-)",
             "artist": "LeaF/さ",
             "url": "http://cerebralmuddystream.nekokan.dyndns.info/betoo/?mode=datail&no=106",
@@ -14568,6 +14568,17 @@
         {
             "": "",
             "level": "乱打12",
+            "title": "図書室のエルザ [FOX]",
+            "artist": "橘花音 かなえゆめ composed by nmk / Notes:キラ Illustration:かぜっと",
+            "url": "http://yatai.ath.cx/c03_shuffle2/detail.php?n=20",
+            "url_diff": "http://kirakitsune.web.fc2.com/sabun.html",
+            "md5": "b89279d026c9d40d0f5eedde2e25b920",
+            "comment": "sl12,★18",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b89279d026c9d40d0f5eedde2e25b920"
+        },
+        {
+            "": "",
+            "level": "乱打12",
             "title": "馴鹿之骸 [x2]",
             "artist": "tcheb / mov:マスティ Obj.Triforce",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=224&event=137",
@@ -14595,7 +14606,7 @@
             "url": "https://venue.bmssearch.net/bmstukuru2022/33",
             "url_diff": "https://stellabms.xyz/upload/1593",
             "md5": "0eefd69932f6749002a71be3fc09fef6",
-            "comment": "165",
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0eefd69932f6749002a71be3fc09fef6"
         },
         {
