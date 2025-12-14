@@ -1388,6 +1388,17 @@
             "site_url": "https://stellabms.xyz/song/2776"
         },
         {
+            "id": 7891,
+            "md5": "f767c32e100b3c0f941c08be5fecca0b",
+            "sha256": "ad25e11ed084a709951aee23728b87470ccd6aa2b38a913c6103e75db30e799b",
+            "title": "少女が夢見た約束の明星 [DP MOLTHER]",
+            "artist": "nmk feat.かなえゆめ BMS:Chart_Generator BGA:自動車 原付 イラスト:ambasa☆ obj:plum",
+            "url": "https://venue.bmssearch.net/ondanre2/13",
+            "url_diff": "https://stellabms.xyz/upload/6600",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/7891"
+        },
+        {
             "id": 6868,
             "md5": "28a9f044a40e1c586e4264e32a795c77",
             "sha256": "dc737e853b500adf0d45b04440021694ce83527c80ab683d02f190b155619e8d",
@@ -1903,17 +1914,6 @@
             "url_diff": "https://epics.client.jp",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/2136"
-        },
-        {
-            "id": 5101,
-            "md5": "6ec13a59a0f84b46799fe459363a2737",
-            "sha256": "2f2850f524a5961e4fa16ebe86399ff86a3793ef0a56b79a38e2ed0173c63ced",
-            "title": "Soul of Deep-sea Fish [A14]",
-            "artist": "HOUJIROU obj:ucc",
-            "url": "https://www.dropbox.com/s/5pywdhpfcozj7xs/%5BMaple_brit%27S%5DSoul_of_Deep-sea_Fish-HOUJIROU.rar?dl=0",
-            "url_diff": "https://web.archive.org/web/20181106000811/http://www.geocities.jp/uccdpbms/bof2012/sdf.zip",
-            "level": "2",
-            "site_url": "https://stellabms.xyz/song/5101"
         },
         {
             "id": 4809,
@@ -2541,6 +2541,17 @@
             "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/dachs_ovital_YH.zip",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/3001"
+        },
+        {
+            "id": 4195,
+            "md5": "ccc4f7c327f547c225396d8707032df1",
+            "sha256": "75c684d2b3ef2dc7aac7527051964d694fc503976764f82ef4b91c5e66d39f1c",
+            "title": "Paracelestia [DPA]",
+            "artist": "Nego_tiator BGI:*reinahitomi obj.にゃむ",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=127",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/619",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/4195"
         },
         {
             "id": 5973,
@@ -4391,6 +4402,17 @@
             "site_url": "https://stellabms.xyz/song/2509"
         },
         {
+            "id": 5084,
+            "md5": "29795d9e9d470675490831c40e16a552",
+            "sha256": "f7963bb2c9513e07c433c75c81766d39db360df3a173fb99e6699330a79d93aa",
+            "title": "事象の地平 [平行世界：事件の始作]",
+            "artist": "wa. / Limite",
+            "url": "https://mega.nz/#F!FNFDCQaT!wfv-iI4UuSIaGpP0oFZdtQ?0V9DDTKD",
+            "url_diff": "https://www.limiteknj.net/BMS/",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/5084"
+        },
+        {
             "id": 6023,
             "md5": "aaa35739ae4ae52ffb3953dfff71eec2",
             "sha256": "4870d081e3cc31a56e42762001b4d5cabd28177dc8cfb2ca26155243fefc9750",
@@ -5027,17 +5049,6 @@
             "url_diff": "https://stellabms.xyz/upload/688",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/6914"
-        },
-        {
-            "id": 5084,
-            "md5": "29795d9e9d470675490831c40e16a552",
-            "sha256": "f7963bb2c9513e07c433c75c81766d39db360df3a173fb99e6699330a79d93aa",
-            "title": "事象の地平 [平行世界：事件の始作]",
-            "artist": "wa. / Limite",
-            "url": "https://mega.nz/#F!FNFDCQaT!wfv-iI4UuSIaGpP0oFZdtQ?0V9DDTKD",
-            "url_diff": "https://www.limiteknj.net/BMS/",
-            "level": "6",
-            "site_url": "https://stellabms.xyz/song/5084"
         },
         {
             "id": 7533,

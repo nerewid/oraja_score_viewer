@@ -255,6 +255,17 @@
             "site_url": "https://stellabms.xyz/song/6559"
         },
         {
+            "id": 7082,
+            "md5": "431d7cd7c5f9169411468bdccfc0f322",
+            "sha256": "9dd652764632fd3660d5716eed96612b84d02354a1461b61092dea2a1dfa46aa",
+            "title": "ZundaVPN [RandaVPN]",
+            "artist": "litmus* ft. ずんだもん&春日部つむぎ / obj:らんだもん",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=19&order=reg&odtype=a&ckattempt=1",
+            "url_diff": "https://stellabms.xyz/upload/5327",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/7082"
+        },
+        {
             "id": 4393,
             "md5": "635c5caa8da5bdbb712e35b5f564a11c",
             "sha256": "8bd9ef6b9e00b096f14649fe299aeb6bf8c9dbd5513f0759185710839d05e249",
@@ -429,6 +440,17 @@
             "url_diff": "",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/4430"
+        },
+        {
+            "id": 4639,
+            "md5": "196b23d514f7831e2c40f094a23e476e",
+            "sha256": "94a473b3d75015c6c847823cb229fb1e2153b4c031181d563e31e09bdb256692",
+            "title": "ハッピーフェイクショー [Haven't you heard?]",
+            "artist": "Ponchi♪ feat.はぁち obj.nozomi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=189&event=137",
+            "url_diff": "https://darksabun.github.io/event/bofxvii/",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/4639"
         },
         {
             "id": 450,

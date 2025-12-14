@@ -431,6 +431,17 @@
             "site_url": "https://stellabms.xyz/song/1166"
         },
         {
+            "id": 779,
+            "md5": "d4be913786b347383b6f2691dd9a3259",
+            "sha256": "c95340d772bff5634b9a98913194d2657aa95490e14b31eea768a1038835ae3b",
+            "title": "ラケシスと永遠の祈祷者 [Coeli]",
+            "artist": "しーけー obj:mute",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=280&event=110",
+            "url_diff": "http://gnqg.rosx.net/upload/",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/779"
+        },
+        {
             "id": 7192,
             "md5": "c9f68c1cf44da49d68c937ec6e9a7968",
             "sha256": "e9258cad3ea6a4a134e998e7f7dbaee2ffdc29ce12f6fecdc9b7ff6b15bef19f",
@@ -638,6 +649,17 @@
             "url_diff": "https://www.limiteknj.net/BMS",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/852"
+        },
+        {
+            "id": 6721,
+            "md5": "9c783805ea4f9fa1decc8aeed60366ff",
+            "sha256": "81dbfd86d6eb8f580c5ef50b28c93c0678609fb72648e756f293897d7cdd6af0",
+            "title": "Magical Night Special [サメ]",
+            "artist": "Dogsix / nbunnyuwu",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=413&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4584",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/6721"
         },
         {
             "id": 2898,
@@ -1474,6 +1496,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03509.zip",
             "level": "12",
             "site_url": "https://stellabms.xyz/song/2340"
+        },
+        {
+            "id": 865,
+            "md5": "e446e497aa6d2b60f14a001f49cf2ecc",
+            "sha256": "ad83ff3d3a646642c021f1fa6441b8e07eb0e70fdae4e246cadfaf5c1619b31d",
+            "title": "Brave My Soul [B.M.S.]",
+            "artist": "uma feat. ましろ obj.swa",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=93&event=116",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01106.zip",
+            "level": "12",
+            "site_url": "https://stellabms.xyz/song/865"
         },
         {
             "id": 4058,
