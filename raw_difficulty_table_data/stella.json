@@ -101,6 +101,17 @@
             "site_url": "https://stellabms.xyz/song/3946"
         },
         {
+            "id": 7978,
+            "md5": "1153c9d12d2c3d0e090c0e18a4ada06d",
+            "sha256": "efa0c3dd8f1366b8d3adb3528bc751f7410d5c1e24c15a5e14e4417954ac8b5e",
+            "title": "Aqua Vitae [Drown]",
+            "artist": "Nima",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=4&event=149",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/7978"
+        },
+        {
             "id": 6677,
             "md5": "3c14a64a56cfb6e852499c1a8228bea5",
             "sha256": "9c1e299c42fe0fa4a90b2d7b3e3faaa6d853122040ccd31f12920404a65309e1",
@@ -4831,6 +4842,17 @@
             "site_url": "https://stellabms.xyz/song/5325"
         },
         {
+            "id": 7971,
+            "md5": "d6d2667900a30197f8766f6e38bef730",
+            "sha256": "ea7a8b7fde37cf695c41cc696e8d24c2f6b99807d62278d48b86dccc1bfa41c1",
+            "title": "ラケシスと永遠の祈祷者 [For Eternal]",
+            "artist": "しーけー obj.TangenT-Life Singer-",
+            "url": "https://www.dropbox.com/s/zc34tk6bf9edaeb/%5B%E3%81%97%E3%83%BC%E3%81%91%E3%83%BC%5D%E3%83%A9%E3%82%B1%E3%82%B7%E3%82%B9%E3%81%A8%E6%B0%B8%E9%81%A0%E3%81%AE%E7%A5%88%E7%A5%B7%E8%80%85.zip?dl=0",
+            "url_diff": "https://mega.nz/file/7d0SlDiS#hW5F4e7z6h6dHOVgtnQcTm0krlvSSv2_UmRdzPUAov4",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/7971"
+        },
+        {
             "id": 5510,
             "md5": "965d42e6aa003f95958cd7bcf3a59bec",
             "sha256": "6fb4ce941cd953e1ea40871e992ca06cdf99f4fc8e7151f462925c9035fc4b32",
@@ -8197,6 +8219,17 @@
             "site_url": "https://stellabms.xyz/song/356"
         },
         {
+            "id": 7997,
+            "md5": "d79294ff553d6c3aaad15c8e19a309d4",
+            "sha256": "0f778908f5f754caa5ba9c8150ee8cc12d473f0fd151e0e36effb9d01485b03a",
+            "title": "AVEMARIA [hymnos]",
+            "artist": "Kamisys mov edit. UYEAH obj:mukyu--",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=380&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6580",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/7997"
+        },
+        {
             "id": 416,
             "md5": "8f4cd43c1237ce576e8b7cf0740fe73c",
             "sha256": "7f214654f5815871231c2793136dd343053b66fed22b6599b6c6e770cf976f82",
@@ -10177,17 +10210,6 @@
             "site_url": "https://stellabms.xyz/song/7550"
         },
         {
-            "id": 5272,
-            "md5": "e244b7bca9376240c3640a1c9abe9378",
-            "sha256": "483c00e7262e7f972e1497d07a10568e84f2d9262f64f2e920c9aa659a3e9927",
-            "title": "Tone deafness -Xe-",
-            "artist": "SOMON obj:LindBlum",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=481&event=137",
-            "url_diff": "https://venue.bmssearch.net/bcel_pre/34",
-            "level": "3",
-            "site_url": "https://stellabms.xyz/song/5272"
-        },
-        {
             "id": 3280,
             "md5": "a03bfdf932e76f4c23e3b0628a301781",
             "sha256": "26712baa7a9fca36bf92dbd1da5d6cde94fd87e1ce81e406d7e05c269ae91284",
@@ -10659,6 +10681,17 @@
             "url_diff": "",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/6637"
+        },
+        {
+            "id": 7979,
+            "md5": "9f79c831e956006fa5ddff5d38087580",
+            "sha256": "c7d9fd3abbaa23e90dfbbf1cd23215569781c67a81143ec5641cfe265950e761",
+            "title": "万日存在恐怖症[涅槃]",
+            "artist": "KNYORG BGA: X-chalk obj:tsukisaka",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6465",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/7979"
         },
         {
             "id": 6696,
@@ -13015,6 +13048,17 @@
             "site_url": "https://stellabms.xyz/song/163"
         },
         {
+            "id": 5272,
+            "md5": "e244b7bca9376240c3640a1c9abe9378",
+            "sha256": "483c00e7262e7f972e1497d07a10568e84f2d9262f64f2e920c9aa659a3e9927",
+            "title": "Tone deafness -Xe-",
+            "artist": "SOMON obj:LindBlum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=481&event=137",
+            "url_diff": "https://venue.bmssearch.net/bcel_pre/34",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/5272"
+        },
+        {
             "id": 5697,
             "md5": "69c0dc06c21fab25dece09f02be67df5",
             "sha256": "ace4203c767a6339dc744e3327f4074a02580bd0a35542a5eda48237f31069ba",
@@ -13871,6 +13915,17 @@
             "url_diff": "https://fsrs.github.io/table.html",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/6918"
+        },
+        {
+            "id": 7980,
+            "md5": "c0be3e964fde56e93201533344475807",
+            "sha256": "25503e61010f454d8cacbf00eacadcfb7eebfe7a77bd45dc3c304b9cbdb1e061",
+            "title": "\"Flagon\" [ACE]",
+            "artist": "Lemi. BGA:raii / obj:BAECON",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=185&event=149",
+            "url_diff": "",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7980"
         },
         {
             "id": 5840,
@@ -14949,6 +15004,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/5141"
+        },
+        {
+            "id": 7972,
+            "md5": "cf6ec9695dc3f9986840daab9bddf62d",
+            "sha256": "e69fdfc2e241e524a9672817921901277d78888d2229f60cd64f992476323bca",
+            "title": "P.S : Plasma Strike -DELAY BOSS-",
+            "artist": "Kinato / qtp13",
+            "url": "https://drive.google.com/file/d/1jcI3jMqhNQ0BmBoRE9r8Y1YdrgxDO13V/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/2493",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7972"
         },
         {
             "id": 7123,
@@ -16095,6 +16161,17 @@
             "site_url": "https://stellabms.xyz/song/7839"
         },
         {
+            "id": 7929,
+            "md5": "024b0d175e8efc4e1a0b3bb7e35a3a3a",
+            "sha256": "6ecb54938d8c9846249ca700cac5c9d53f88617580c6b192e67a394f03853720",
+            "title": "炎花 - delayflower -",
+            "artist": "P4koo / obj:けろささ",
+            "url": "http://www.mediafire.com/download/gwd8z1v6w355jco/flameflower.zip",
+            "url_diff": "https://drive.google.com/open?id=0B6gzvhYqRdovMm9SdXNwbF9LcTg",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7929"
+        },
+        {
             "id": 7100,
             "md5": "663b7829418b2edbdf9b9c16d30435f9",
             "sha256": "3e0d5460fc341445daf3d03c92c300b102d7a507b4b904623346e4666f263712",
@@ -16711,6 +16788,17 @@
             "site_url": "https://stellabms.xyz/song/7517"
         },
         {
+            "id": 7933,
+            "md5": "9f9c441ee99ae1085a614685b119f98c",
+            "sha256": "807c3f44f61aeb49ab9a31c7d5a49f3fa2ba38d636789ab1b967db843c7c4ff9",
+            "title": "GREMLIN [HURTLESS]",
+            "artist": "kanoryo BGA:Nectoroune obj:MISONO_MIKA",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=382&event=133",
+            "url_diff": "https://stellabms.xyz/upload/4936",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7933"
+        },
+        {
             "id": 3951,
             "md5": "46a2c6c0f73f1520feac4228982eb17d",
             "sha256": "de855068826b71013c371d98aaff047143a043cb7721ceb1149a7d440a1463a4",
@@ -16731,6 +16819,17 @@
             "url_diff": "",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/195"
+        },
+        {
+            "id": 7981,
+            "md5": "b9eb299f6c529167a6afefb85b6891ce",
+            "sha256": "7375bbc96c48ed26949936c6742e47bd27c35d97e5b4333c713a4309b6f06ab5",
+            "title": "Hopexis [Hopeful]",
+            "artist": "NanaSaku obj:IBARAGI_YOSHIMI",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=40&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6455",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7981"
         },
         {
             "id": 492,
@@ -16951,6 +17050,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/06220.zip",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/7802"
+        },
+        {
+            "id": 7982,
+            "md5": "ec91286eb7277236a730fe1098e47a8f",
+            "sha256": "fd15ee6a0fa834b9111ae2b9eee1b04cc60bdccf045c945511b526ebef563566",
+            "title": "Nightwalker [Lifewalker]",
+            "artist": "tomo3_chan BGA: tomo3_chan obj:E",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6462",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7982"
         },
         {
             "id": 7055,
@@ -18559,6 +18669,17 @@
             "site_url": "https://stellabms.xyz/song/5155"
         },
         {
+            "id": 7976,
+            "md5": "4496d4ccd5388b455384c7907148e9ea",
+            "sha256": "4dc21e227ed84879bf86b96e93f0f639599f6738996291fc21113af702fc45e5",
+            "title": "Resist(BMS Refine) -Endure-",
+            "artist": "CYLTIE. obj. strongman",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=21&num=6&order=reg&odtype=a",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05558.zip",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/7976"
+        },
+        {
             "id": 83,
             "md5": "17b5565d13642b90d311eb2c1563c41d",
             "sha256": "c9843b5dee679fcba5895a1cfa2cee444fe9b10c95136967bedc060aa5b07f3e",
@@ -18568,6 +18689,17 @@
             "url_diff": "https://www.dropbox.com/s/1dw17buj5q0n2hh/rhadamanthys_rustin.bms?dl=0",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/83"
+        },
+        {
+            "id": 7903,
+            "md5": "f18af3f9497cc3fa9844f59392a261fe",
+            "sha256": "31418d40e582b259bc0cb4fd193125ac1c79cddaa957c6694a8a9f2daa399fb6",
+            "title": "Shape [Polygon]",
+            "artist": "Ploutonendou obj.fhyu",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=109&event=127",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05398.zip",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/7903"
         },
         {
             "id": 3453,
@@ -20176,6 +20308,17 @@
             "site_url": "https://stellabms.xyz/song/1"
         },
         {
+            "id": 7996,
+            "md5": "d801157175446f2e4b39930505969a55",
+            "sha256": "4e0654b2220b06dcf0ad41425d25bdb9916daa47ca47631d6248c66b3c4077fa",
+            "title": "燐寸と緞帳 [奈落]",
+            "artist": "Juka_Box feat. 綜花 obj:Criyajuh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=149",
+            "url_diff": "",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/7996"
+        },
+        {
             "id": 4893,
             "md5": "a8023093392b1f37cc9678e7f8244fa8",
             "sha256": "eb783e5b9f318124650dc16729ca7e78b5ea2293af61fdb369d48476b6cda14c",
@@ -20284,6 +20427,17 @@
             "url_diff": "http://akred.web.fc2.com/baecon/893_M.bms",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/347"
+        },
+        {
+            "id": 7977,
+            "md5": "461f91be99f7d0d6d3d23c56ee46210a",
+            "sha256": "09a721c1535e776960e170de79040681202089aad1827357085eb8d9b6fe3106",
+            "title": "Acacia [Kaguya]",
+            "artist": "Snowyplane",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=135",
+            "url_diff": "https://stellabms.xyz/upload/5966",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/7977"
         },
         {
             "id": 5700,

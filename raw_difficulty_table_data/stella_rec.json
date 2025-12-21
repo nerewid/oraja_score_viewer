@@ -288,6 +288,17 @@
             "site_url": "https://stellabms.xyz/song/503"
         },
         {
+            "id": 7773,
+            "md5": "f4f883fa7d4f3766383d1fbe924cb967",
+            "sha256": "114bbe2dbf8833c2fdb17eda181b9ab51dbba52cd82a709ed1d8bfe7ffb2bc10",
+            "title": "タナ・タナ [Polar-Lunar_f]",
+            "artist": "星砂 / obj:kurekoduki",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=147",
+            "url_diff": "https://stellabms.xyz/upload/6346",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/7773"
+        },
+        {
             "id": 6277,
             "md5": "30dd805e4681833da8d65d880f43061f",
             "sha256": "5fd5b072fa6e6be72f02d74a4c3c91f4b8430ca474666fb23d90ec00e1db039e",
@@ -484,6 +495,17 @@
             "url_diff": "https://dl.dropboxusercontent.com/s/uazhoqec0i9vc50/%E2%98%85%E2%98%851%20%E2%98%85%E2%98%853%20%E5%A3%8A%E5%BB%8A%20%5BPentagon%5D%20%5BHexagon%5D.zip",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/1611"
+        },
+        {
+            "id": 7107,
+            "md5": "aff7dbfe688668b00a1c20800d9d10b8",
+            "sha256": "ea86bd19ca29ae01618a893c16947aaa7b011286b138165388e9a6165f778635",
+            "title": "点、線、面、立体 [Pentachoron]",
+            "artist": "sound piercer / mov : kkkfff2 obj:trainer",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=1&num=49&ckattempt=1",
+            "url_diff": "https://stellabms.xyz/upload/5433",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/7107"
         },
         {
             "id": 5862,
@@ -957,6 +979,17 @@
             "url_diff": "https://stellabms.xyz/upload/4729",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/6695"
+        },
+        {
+            "id": 3777,
+            "md5": "2f6e2c4f802c932f00b3b8ee4c593083",
+            "sha256": "5c1c6cda9854bc30c82ddb1b612e04a18753a979d67175e8ecb84b4040a2c754",
+            "title": "マッドメチャクチャニズム [Hexagon]",
+            "artist": "69 de 74 BGI:れおん / obj.hex",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=127",
+            "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/3777"
         },
         {
             "id": 2665,

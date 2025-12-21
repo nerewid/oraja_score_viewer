@@ -3203,6 +3203,17 @@
             "site_url": "https://stellabms.xyz/song/4215"
         },
         {
+            "id": 5511,
+            "md5": "d2ca8e7008deaf71e431f59f3460ff8e",
+            "sha256": "1f15141b173690f9fee2e578b6a17c1cd0f00a7a86386250756e866974e6aa9a",
+            "title": "Name of oath [DP sub black another]",
+            "artist": "void feat. コツキミヤ , Gt. えば /obj:kuro BGA : Photonskyto",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=231&event=65",
+            "url_diff": "https://onedrive.live.com/?authkey=%21AEhUFcPk44lHNWU&id=252E1BC75208EE14%21171&cid=252E1BC75208EE14",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/5511"
+        },
+        {
             "id": 5330,
             "md5": "2f40c551e8ef2c06d4276d4f4c48bc43",
             "sha256": "290bc42a791aea89bc24d1cd19b8769274dcb584c9a7ccceef7e947a72f219ed",
@@ -4644,6 +4655,17 @@
             "site_url": "https://stellabms.xyz/song/2778"
         },
         {
+            "id": 7950,
+            "md5": "3f39d632fd9c39eff8a4f59fc3686588",
+            "sha256": "dc9f67ed7b878bc4701a9c161985a3dfd616cfee49aab88a47f6895ca451bb1e",
+            "title": "DEATH†TENGOQ ～怒りの天地合体野郎～ [DPGA]",
+            "artist": "BMS Sound Team\"DJ 筆箱\" / BMS Designers\"VJ 牛乳パック\"/obj:G#",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=128",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/889",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7950"
+        },
+        {
             "id": 7538,
             "md5": "fa2f67b379ff6ed90019e652738ecb8a",
             "sha256": "e3209a5ba9edf2d223c5d8f406ba370e93781c0e593297132a692eb407b2b946",
@@ -5425,6 +5447,17 @@
             "site_url": "https://stellabms.xyz/song/2016"
         },
         {
+            "id": 5652,
+            "md5": "b88024edc3263a6cd074e7afcf1956b5",
+            "sha256": "2ae8d424d53736018f79398dd14f9e1dab58ed038f1715d9573ef7056ec3c8f9",
+            "title": "Lost Petal's Wander [DP ANOTHER]",
+            "artist": "RB.H × lixound × 薛南 mov:Keizou / obj:lixound",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=443&event=140",
+            "url_diff": "",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/5652"
+        },
+        {
             "id": 4360,
             "md5": "773951a8a13fcb7165d903e57a33ec18",
             "sha256": "edacb6a3214ea90789a7afcee4cb54e07a3af2f770854a9e92df638b03da9e95",
@@ -5676,6 +5709,17 @@
             "url_diff": "https://darksabun.github.io/event/bofxvii/",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/4835"
+        },
+        {
+            "id": 7942,
+            "md5": "46422b99b51210effc5f2762b1d75de8",
+            "sha256": "df05241a78f9bc2845ca3863d107a9591d3074c34d826b059a44c95150fbac5a",
+            "title": "イイコと妖狐 [14K INSANE]",
+            "artist": "Kikuo (Movie: KAmE / BMS: Zris)",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/1",
+            "url_diff": "",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/7942"
         },
         {
             "id": 2310,
@@ -6105,17 +6149,6 @@
             "url_diff": "http://dpbms.at-ninja.jp/bms/ladymade_corestar_kuma.zip",
             "level": "8",
             "site_url": "https://stellabms.xyz/song/4416"
-        },
-        {
-            "id": 5652,
-            "md5": "b88024edc3263a6cd074e7afcf1956b5",
-            "sha256": "2ae8d424d53736018f79398dd14f9e1dab58ed038f1715d9573ef7056ec3c8f9",
-            "title": "Lost Petal's Wander [DP ANOTHER]",
-            "artist": "RB.H × lixound × 薛南 mov:Keizou / obj:lixound",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=443&event=140",
-            "url_diff": "",
-            "level": "8",
-            "site_url": "https://stellabms.xyz/song/5652"
         },
         {
             "id": 2488,

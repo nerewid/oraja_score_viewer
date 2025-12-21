@@ -2003,16 +2003,6 @@
         },
         {
             "level": "3",
-            "title": "minimalim [INSANE]",
-            "artist": "",
-            "url": "http://colosseo.nekokan.dyndns.info/c04_shuffle3/detail/view/12/",
-            "url_diff": "",
-            "comment": "",
-            "md5": "34032273d045908a1f39870b44ad8e22",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=34032273d045908a1f39870b44ad8e22"
-        },
-        {
-            "level": "3",
             "title": "Plasma Sphere (SP kusofumen)",
             "artist": "",
             "url": "https://dropbox.bms.ms/u/74200759/PlasmaSphere.zip",
@@ -5505,8 +5495,8 @@
             "level": "8",
             "title": "Hopexis [Acathexis]",
             "artist": "",
-            "url": "",
-            "url_diff": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=40&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6762",
             "comment": "",
             "md5": "6a58b2fdcd13c0069a656a1b54b21cfa",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6a58b2fdcd13c0069a656a1b54b21cfa"
@@ -5793,6 +5783,16 @@
         },
         {
             "level": "8",
+            "title": "the Scales Beyond [VIVID]",
+            "artist": "",
+            "url": "https://drive.google.com/file/d/1ePmK8_WvJwesN-B5e9yrDJzIFIjaiBoq/view",
+            "url_diff": "https://stellabms.xyz/upload/6776",
+            "comment": "",
+            "md5": "46d6248d084e4f2f14a0304c41e3e940",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=46d6248d084e4f2f14a0304c41e3e940"
+        },
+        {
+            "level": "8",
             "title": "Transcend to Heaven [Reason for life]",
             "artist": "",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=65&event=142",
@@ -5923,6 +5923,16 @@
         },
         {
             "level": "8",
+            "title": "宮古島トランス [DOWNPOUR]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=145&event=123",
+            "url_diff": "https://stellabms.xyz/upload/6802",
+            "comment": "",
+            "md5": "c894255739865295f4fbf93156f3710a",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c894255739865295f4fbf93156f3710a"
+        },
+        {
+            "level": "8",
             "title": "炎花 - flameflower - [life]",
             "artist": "",
             "url": "http://onedrive.live.com/?cid=C9FE89A646FB0230&id=C9FE89A646FB0230%21115",
@@ -5973,6 +5983,16 @@
         },
         {
             "level": "9",
+            "title": "7colors memories [HEARTLESS]",
+            "artist": "",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/23",
+            "url_diff": "",
+            "comment": "",
+            "md5": "1cc617e8b1c3e14ca2e667104c91d6fb",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1cc617e8b1c3e14ca2e667104c91d6fb"
+        },
+        {
+            "level": "9",
             "title": "Angelic Snow -XenoBurst-",
             "artist": "",
             "url": "http://estish.nobody.jp/",
@@ -5993,16 +6013,6 @@
         },
         {
             "level": "9",
-            "title": "Continent Storm [robo]",
-            "artist": "",
-            "url": "http://web.archive.org/web/20070720111728/http://bof.nothing.sh:8080/file/c_continent.rar",
-            "url_diff": "https://stellabms.xyz/upload/4039",
-            "comment": "",
-            "md5": "5d19b64a41933e0593ed5a8736c453fc",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5d19b64a41933e0593ed5a8736c453fc"
-        },
-        {
-            "level": "9",
             "title": "Castor(BMS edit) [ヤバイ]",
             "artist": "",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=50&event=93",
@@ -6010,16 +6020,6 @@
             "comment": "",
             "md5": "e978a9a38bd1fc323b4469359e5002b3",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e978a9a38bd1fc323b4469359e5002b3"
-        },
-        {
-            "level": "9",
-            "title": "Cry-for BMS Mix- [robo+]",
-            "artist": "",
-            "url": "http://web.archive.org/web/20070827204601/http://minamotrance.com/works.htm",
-            "url_diff": "https://stellabms.xyz/upload/4041",
-            "comment": "",
-            "md5": "dabd34df95304e56880560b6fe5bd7d8",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dabd34df95304e56880560b6fe5bd7d8"
         },
         {
             "level": "9",
@@ -6033,6 +6033,26 @@
         },
         {
             "level": "9",
+            "title": "Continent Storm [robo]",
+            "artist": "",
+            "url": "http://web.archive.org/web/20070720111728/http://bof.nothing.sh:8080/file/c_continent.rar",
+            "url_diff": "https://stellabms.xyz/upload/4039",
+            "comment": "",
+            "md5": "5d19b64a41933e0593ed5a8736c453fc",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5d19b64a41933e0593ed5a8736c453fc"
+        },
+        {
+            "level": "9",
+            "title": "Cry-for BMS Mix- [robo+]",
+            "artist": "",
+            "url": "http://web.archive.org/web/20070827204601/http://minamotrance.com/works.htm",
+            "url_diff": "https://stellabms.xyz/upload/4041",
+            "comment": "",
+            "md5": "dabd34df95304e56880560b6fe5bd7d8",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dabd34df95304e56880560b6fe5bd7d8"
+        },
+        {
+            "level": "9",
             "title": "Cutee☆NeverLand [life]",
             "artist": "",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=22&event=127",
@@ -6043,16 +6063,6 @@
         },
         {
             "level": "9",
-            "title": "Distant World [Meta=Falss]",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=139",
-            "url_diff": "https://stellabms.xyz/upload/6045",
-            "comment": "",
-            "md5": "e048bd7b6bbfe97208e3c8b2ef7a487d",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e048bd7b6bbfe97208e3c8b2ef7a487d"
-        },
-        {
-            "level": "9",
             "title": "Derivation of Zerstor (Evil7)",
             "artist": "",
             "url": "https://bms.wrigglebug.xyz/download/Derivation%20of%20Zerstor.7z",
@@ -6060,6 +6070,16 @@
             "comment": "",
             "md5": "6d109aeb984bfcdda458104ce0dd4c82",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6d109aeb984bfcdda458104ce0dd4c82"
+        },
+        {
+            "level": "9",
+            "title": "Distant World [Meta=Falss]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=139",
+            "url_diff": "https://stellabms.xyz/upload/6045",
+            "comment": "",
+            "md5": "e048bd7b6bbfe97208e3c8b2ef7a487d",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e048bd7b6bbfe97208e3c8b2ef7a487d"
         },
         {
             "level": "9",
@@ -6143,13 +6163,13 @@
         },
         {
             "level": "9",
-            "title": "LIGHTNING STAIRWAY [Ain't too proud to rely on!]",
+            "title": "Ignited Time (Evil7)",
             "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=104&num=268",
-            "url_diff": "https://stellabms.xyz/upload/5902",
+            "url": "https://drive.google.com/file/d/1HWfQku7fKjb4qlesEqCOi5L3teSWRhZh/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/5789",
             "comment": "",
-            "md5": "f3d1bdb3bbcb8b5b3bf70806cb41fe29",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f3d1bdb3bbcb8b5b3bf70806cb41fe29"
+            "md5": "d13cb4a3db9f77ccc9240b875b994140",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d13cb4a3db9f77ccc9240b875b994140"
         },
         {
             "level": "9",
@@ -6160,16 +6180,6 @@
             "comment": "",
             "md5": "d38349f90945cbbe0fe3ad311f2f08a8",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d38349f90945cbbe0fe3ad311f2f08a8"
-        },
-        {
-            "level": "9",
-            "title": "Ignited Time (Evil7)",
-            "artist": "",
-            "url": "https://drive.google.com/file/d/1HWfQku7fKjb4qlesEqCOi5L3teSWRhZh/view?usp=drive_link",
-            "url_diff": "https://stellabms.xyz/upload/5789",
-            "comment": "",
-            "md5": "d13cb4a3db9f77ccc9240b875b994140",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d13cb4a3db9f77ccc9240b875b994140"
         },
         {
             "level": "9",
@@ -6203,6 +6213,16 @@
         },
         {
             "level": "9",
+            "title": "Leviathan -Ragnarok-",
+            "artist": "",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=338&event=74",
+            "url_diff": "https://darksabun.github.io/event/renewal/",
+            "comment": "",
+            "md5": "504e8df2885f39b7afbbcafbf3819eb5",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=504e8df2885f39b7afbbcafbf3819eb5"
+        },
+        {
+            "level": "9",
             "title": "Life is PIANO [Life]",
             "artist": "",
             "url": "http://www.junk-channel.com/junk_g2r2018_ogg.rar",
@@ -6213,13 +6233,13 @@
         },
         {
             "level": "9",
-            "title": "Leviathan -Ragnarok-",
+            "title": "LIGHTNING STAIRWAY [Ain't too proud to rely on!]",
             "artist": "",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=338&event=74",
-            "url_diff": "https://darksabun.github.io/event/renewal/",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=104&num=268",
+            "url_diff": "https://stellabms.xyz/upload/5902",
             "comment": "",
-            "md5": "504e8df2885f39b7afbbcafbf3819eb5",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=504e8df2885f39b7afbbcafbf3819eb5"
+            "md5": "f3d1bdb3bbcb8b5b3bf70806cb41fe29",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f3d1bdb3bbcb8b5b3bf70806cb41fe29"
         },
         {
             "level": "9",
@@ -6263,16 +6283,6 @@
         },
         {
             "level": "9",
-            "title": "Pernicious Deed [Other]",
-            "artist": "",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=332&event=74",
-            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01452.zip",
-            "comment": "",
-            "md5": "2dbf8cf76b568616d65c7f75a263604c",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2dbf8cf76b568616d65c7f75a263604c"
-        },
-        {
-            "level": "9",
             "title": "Pedrolino [ECHOLALIA]",
             "artist": "",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=225&event=142",
@@ -6280,6 +6290,16 @@
             "comment": "",
             "md5": "ad316aac193d587c50542e7ac0176a1c",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ad316aac193d587c50542e7ac0176a1c"
+        },
+        {
+            "level": "9",
+            "title": "Pernicious Deed [Other]",
+            "artist": "",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=332&event=74",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01452.zip",
+            "comment": "",
+            "md5": "2dbf8cf76b568616d65c7f75a263604c",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2dbf8cf76b568616d65c7f75a263604c"
         },
         {
             "level": "9",
@@ -6355,8 +6375,8 @@
             "level": "9",
             "title": "siete colores brillo e sonido [life]",
             "artist": "",
-            "url": "",
-            "url_diff": "",
+            "url": "https://drive.google.com/file/d/1SQoHNlMrTrMMVZKzkOebGRS89UYfjQv5/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/6720",
             "comment": "",
             "md5": "ea9cdfbc19b44d74bfb0480167f33691",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ea9cdfbc19b44d74bfb0480167f33691"
@@ -6373,16 +6393,6 @@
         },
         {
             "level": "9",
-            "title": "Summerland -LAST BOSS-",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=76&event=71",
-            "url_diff": "https://stellabms.xyz/upload/5586",
-            "comment": "",
-            "md5": "5612733e5fbcaedb912345221aec3f35",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5612733e5fbcaedb912345221aec3f35"
-        },
-        {
-            "level": "9",
             "title": "Spherescense [Sphere]",
             "artist": "",
             "url": "https://venue.bmssearch.net/bmsshuin3/42",
@@ -6390,6 +6400,16 @@
             "comment": "",
             "md5": "acad0e6529944c60e3c195102a984991",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=acad0e6529944c60e3c195102a984991"
+        },
+        {
+            "level": "9",
+            "title": "Summerland -LAST BOSS-",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=76&event=71",
+            "url_diff": "https://stellabms.xyz/upload/5586",
+            "comment": "",
+            "md5": "5612733e5fbcaedb912345221aec3f35",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5612733e5fbcaedb912345221aec3f35"
         },
         {
             "level": "9",
@@ -6503,13 +6523,13 @@
         },
         {
             "level": "9",
-            "title": "払暁の翼 [Oripathy]",
+            "title": "奥多摩トランス [Ain't too proud to rely on!]",
             "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=133&num=239",
-            "url_diff": "https://stellabms.xyz/upload/4849",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=116&num=142",
+            "url_diff": "https://stellabms.xyz/upload/5589",
             "comment": "",
-            "md5": "dcd6244b7751279bbe28e29e57d5bf92",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dcd6244b7751279bbe28e29e57d5bf92"
+            "md5": "988cf069a99a5118e6d3e1d16656066d",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=988cf069a99a5118e6d3e1d16656066d"
         },
         {
             "level": "9",
@@ -6533,26 +6553,6 @@
         },
         {
             "level": "9",
-            "title": "秋思に三日月 あなたに紅葉 [Ain't too proud to rely on!]",
-            "artist": "",
-            "url": "https://drive.google.com/file/d/1VWfIgFZwZzjHWlxmQ1pJNMHFA_Ad7YoK/view?usp=drive_link",
-            "url_diff": "https://stellabms.xyz/upload/5515",
-            "comment": "",
-            "md5": "1c787235d772733cd6312ee73b8c7945",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1c787235d772733cd6312ee73b8c7945"
-        },
-        {
-            "level": "9",
-            "title": "奥多摩トランス [Ain't too proud to rely on!]",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=116&num=142",
-            "url_diff": "https://stellabms.xyz/upload/5589",
-            "comment": "",
-            "md5": "988cf069a99a5118e6d3e1d16656066d",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=988cf069a99a5118e6d3e1d16656066d"
-        },
-        {
-            "level": "9",
             "title": "花嵐、空に溶けて [Ain't too proud to rely on!]",
             "artist": "",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=142",
@@ -6570,6 +6570,16 @@
             "comment": "",
             "md5": "0b460a2d0776d2cd53720bb33009c44a",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0b460a2d0776d2cd53720bb33009c44a"
+        },
+        {
+            "level": "9",
+            "title": "秋思に三日月 あなたに紅葉 [Ain't too proud to rely on!]",
+            "artist": "",
+            "url": "https://drive.google.com/file/d/1VWfIgFZwZzjHWlxmQ1pJNMHFA_Ad7YoK/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/5515",
+            "comment": "",
+            "md5": "1c787235d772733cd6312ee73b8c7945",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=1c787235d772733cd6312ee73b8c7945"
         },
         {
             "level": "9",
@@ -6610,6 +6620,16 @@
             "comment": "",
             "md5": "38c5b65a19724d63b1ca4ccf44d20ff5",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=38c5b65a19724d63b1ca4ccf44d20ff5"
+        },
+        {
+            "level": "9",
+            "title": "払暁の翼 [Oripathy]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=133&num=239",
+            "url_diff": "https://stellabms.xyz/upload/4849",
+            "comment": "",
+            "md5": "dcd6244b7751279bbe28e29e57d5bf92",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=dcd6244b7751279bbe28e29e57d5bf92"
         },
         {
             "level": "9",
@@ -6673,6 +6693,26 @@
         },
         {
             "level": "10",
+            "title": "Do it Moon Night［LUNATIC］",
+            "artist": "",
+            "url": "https://ux.getuploader.com/fox_sound001/download/8",
+            "url_diff": "https://stellabms.xyz/upload/4124",
+            "comment": "",
+            "md5": "e5fde098f2c212a89ce8ef4dfc655a1d",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e5fde098f2c212a89ce8ef4dfc655a1d"
+        },
+        {
+            "level": "10",
+            "title": "Dreaming in library [END]",
+            "artist": "",
+            "url": "https://drive.google.com/file/d/1vx2iLh8XeZcw_ErxhRGX1m1vKUr62i64/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/6764",
+            "comment": "",
+            "md5": "2c081472dda316109fbf0ee08cc96e5b",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2c081472dda316109fbf0ee08cc96e5b"
+        },
+        {
+            "level": "10",
             "title": "Ena (Radio edit) -痴-",
             "artist": "",
             "url": "https://archive.org/download/45_bms_202405/-45_bms_collection.rar/-45_bms_collection%2FEna_%28Radio_edit%29_rr6.rar",
@@ -6683,13 +6723,23 @@
         },
         {
             "level": "10",
-            "title": "Fly Again (bms edit) [robo]",
+            "title": "Endless Journey [robo]",
             "artist": "",
-            "url": "https://web.archive.org/web/20161001063742/https://dl.dropboxusercontent.com/u/93651732/bms/flyagain_ogg.rar",
-            "url_diff": "https://stellabms.xyz/upload/6011",
+            "url": "http://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
+            "url_diff": "https://stellabms.xyz/upload/4029",
             "comment": "",
-            "md5": "2b4c7deb213287efd376c258bc39ceba",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2b4c7deb213287efd376c258bc39ceba"
+            "md5": "14546798857231d0a7cd73a97a096b4d",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=14546798857231d0a7cd73a97a096b4d"
+        },
+        {
+            "level": "10",
+            "title": "Escape From Predicament [Can't Escape from Gachioshi]",
+            "artist": "",
+            "url": "https://dropbox.bms.ms/u/13536802/bms/Escape%20From%20Predicament.zip",
+            "url_diff": "https://stellabms.xyz/upload/6792",
+            "comment": "",
+            "md5": "a346f3674a4afc2e7470c81a73b3162a",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a346f3674a4afc2e7470c81a73b3162a"
         },
         {
             "level": "10",
@@ -6700,6 +6750,16 @@
             "comment": "",
             "md5": "2bf4254b837aac7e71848177770f7fc5",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2bf4254b837aac7e71848177770f7fc5"
+        },
+        {
+            "level": "10",
+            "title": "Fly Again (bms edit) [robo]",
+            "artist": "",
+            "url": "https://web.archive.org/web/20161001063742/https://dl.dropboxusercontent.com/u/93651732/bms/flyagain_ogg.rar",
+            "url_diff": "https://stellabms.xyz/upload/6011",
+            "comment": "",
+            "md5": "2b4c7deb213287efd376c258bc39ceba",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2b4c7deb213287efd376c258bc39ceba"
         },
         {
             "level": "10",
@@ -6733,23 +6793,13 @@
         },
         {
             "level": "10",
-            "title": "No.337 [unknown celestial body \"N337\"]",
+            "title": "Metropolis [7key,MASTER]",
             "artist": "",
-            "url": "http://web.archive.org/web/20140901092628/http://plugout4.com/plugout/ATM[vol.1].zip",
-            "url_diff": "https://stellabms.xyz/upload/6002",
+            "url": "https://dropbox.com/s/wufyf5484wrik8q/Metropolis.rar?dl=0",
+            "url_diff": "https://stellabms.xyz/upload/5203",
             "comment": "",
-            "md5": "a9bbe92eea7f1e1c27d9058bf1fa5f23",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a9bbe92eea7f1e1c27d9058bf1fa5f23"
-        },
-        {
-            "level": "10",
-            "title": "Misdirection -Ragnarok-",
-            "artist": "",
-            "url": "https://web.archive.org/web/20140111162724/http://black-funeral.kill.jp/Misdirection.zip",
-            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03352.zip",
-            "comment": "",
-            "md5": "565ee8d466cd4dca179ffb4a3ac0eb0e",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=565ee8d466cd4dca179ffb4a3ac0eb0e"
+            "md5": "9dc7e7f302bd34f5287bf9fb2e91ca4b",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9dc7e7f302bd34f5287bf9fb2e91ca4b"
         },
         {
             "level": "10",
@@ -6763,13 +6813,13 @@
         },
         {
             "level": "10",
-            "title": "Metropolis [7key,MASTER]",
+            "title": "Misdirection -Ragnarok-",
             "artist": "",
-            "url": "https://dropbox.com/s/wufyf5484wrik8q/Metropolis.rar?dl=0",
-            "url_diff": "https://stellabms.xyz/upload/5203",
+            "url": "https://web.archive.org/web/20140111162724/http://black-funeral.kill.jp/Misdirection.zip",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03352.zip",
             "comment": "",
-            "md5": "9dc7e7f302bd34f5287bf9fb2e91ca4b",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9dc7e7f302bd34f5287bf9fb2e91ca4b"
+            "md5": "565ee8d466cd4dca179ffb4a3ac0eb0e",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=565ee8d466cd4dca179ffb4a3ac0eb0e"
         },
         {
             "level": "10",
@@ -6783,6 +6833,16 @@
         },
         {
             "level": "10",
+            "title": "No.337 [unknown celestial body \"N337\"]",
+            "artist": "",
+            "url": "http://web.archive.org/web/20140901092628/http://plugout4.com/plugout/ATM[vol.1].zip",
+            "url_diff": "https://stellabms.xyz/upload/6002",
+            "comment": "",
+            "md5": "a9bbe92eea7f1e1c27d9058bf1fa5f23",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a9bbe92eea7f1e1c27d9058bf1fa5f23"
+        },
+        {
+            "level": "10",
             "title": "P.S : Plasma Strike [キチガイ]",
             "artist": "",
             "url": "http://sdrv.ms/RGziYJ",
@@ -6790,6 +6850,16 @@
             "comment": "",
             "md5": "d2ef4bdb08605d6f297cb9742a59d9eb",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d2ef4bdb08605d6f297cb9742a59d9eb"
+        },
+        {
+            "level": "10",
+            "title": "Pandora [Forbidden Boxes]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=153&event=137",
+            "url_diff": "https://stellabms.xyz/upload/1972",
+            "comment": "",
+            "md5": "6ec6a1ce94c3d681661e5c395441d399",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6ec6a1ce94c3d681661e5c395441d399"
         },
         {
             "level": "10",
@@ -6863,16 +6933,6 @@
         },
         {
             "level": "10",
-            "title": "You're My Shining Star [robo]",
-            "artist": "",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=60",
-            "url_diff": "https://stellabms.xyz/upload/4018",
-            "comment": "",
-            "md5": "854a2f46326e2ca055c6252178b04717",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=854a2f46326e2ca055c6252178b04717"
-        },
-        {
-            "level": "10",
             "title": "Wayra pacha [GOD:Shadow]",
             "artist": "",
             "url": "http://dropbox.bms.ms/u/106449495/wayrapacha.zip",
@@ -6890,6 +6950,46 @@
             "comment": "",
             "md5": "f80a91545085b445fbf4749ac6d88187",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f80a91545085b445fbf4749ac6d88187"
+        },
+        {
+            "level": "10",
+            "title": "You're My Shining Star [robo]",
+            "artist": "",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=60",
+            "url_diff": "https://stellabms.xyz/upload/4018",
+            "comment": "",
+            "md5": "854a2f46326e2ca055c6252178b04717",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=854a2f46326e2ca055c6252178b04717"
+        },
+        {
+            "level": "10",
+            "title": "エピトゥリカの祀 [LAST BOSS]",
+            "artist": "",
+            "url": "http://web.archive.org/web/20120415195317/http://sasakure.bms.ms/bof2008/epitorica_mq.rar",
+            "url_diff": "http://www.ribbit.xyz/bms/mirror/uploader/src/up3599.zip",
+            "comment": "",
+            "md5": "506856daa69d1828156579ec049b8a57",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=506856daa69d1828156579ec049b8a57"
+        },
+        {
+            "level": "10",
+            "title": "カードロボトル [合意と見てよろしいですね？]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=16&event=113",
+            "url_diff": "https://stellabms.xyz/upload/6196",
+            "comment": "",
+            "md5": "d9b5c752a741a385f70f976c818b5903",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d9b5c752a741a385f70f976c818b5903"
+        },
+        {
+            "level": "10",
+            "title": "ゼイタクするまで抱きしめて [ S U P E R S E X Y ]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=133",
+            "url_diff": "",
+            "comment": "",
+            "md5": "b57f9ba8902fab00d6b4b1ffd48869eb",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b57f9ba8902fab00d6b4b1ffd48869eb"
         },
         {
             "level": "10",
@@ -6913,33 +7013,13 @@
         },
         {
             "level": "10",
-            "title": "ゼイタクするまで抱きしめて [ S U P E R S E X Y ]",
+            "title": "夏夜のノスタルジア [robo+]",
             "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=133",
-            "url_diff": "",
+            "url": "https://web.archive.org/web/20110911074519/http://tsubu.ath.cx/~electrogic/bms/natuyo.rar",
+            "url_diff": "https://stellabms.xyz/upload/4048",
             "comment": "",
-            "md5": "b57f9ba8902fab00d6b4b1ffd48869eb",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b57f9ba8902fab00d6b4b1ffd48869eb"
-        },
-        {
-            "level": "10",
-            "title": "エピトゥリカの祀 [LAST BOSS]",
-            "artist": "",
-            "url": "http://web.archive.org/web/20120415195317/http://sasakure.bms.ms/bof2008/epitorica_mq.rar",
-            "url_diff": "http://www.ribbit.xyz/bms/mirror/uploader/src/up3599.zip",
-            "comment": "",
-            "md5": "506856daa69d1828156579ec049b8a57",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=506856daa69d1828156579ec049b8a57"
-        },
-        {
-            "level": "10",
-            "title": "カードロボトル [合意と見てよろしいですね？]",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=16&event=113",
-            "url_diff": "https://stellabms.xyz/upload/6196",
-            "comment": "",
-            "md5": "d9b5c752a741a385f70f976c818b5903",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d9b5c752a741a385f70f976c818b5903"
+            "md5": "bc2ca336da6ac60d49b278f3d7cce8ea",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bc2ca336da6ac60d49b278f3d7cce8ea"
         },
         {
             "level": "10",
@@ -6972,14 +7052,14 @@
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d67b57b99d7a38561f2683a6ee1787c7"
         },
         {
-            "level": "10",
-            "title": "夏夜のノスタルジア [robo+]",
+            "level": "11",
+            "title": "Astrograph [robo+]",
             "artist": "",
-            "url": "https://web.archive.org/web/20110911074519/http://tsubu.ath.cx/~electrogic/bms/natuyo.rar",
-            "url_diff": "https://stellabms.xyz/upload/4048",
+            "url": "http://web.archive.org/web/20070629155910/http://www.planetoid.biz/?page_id=8",
+            "url_diff": "https://stellabms.xyz/upload/4008",
             "comment": "",
-            "md5": "bc2ca336da6ac60d49b278f3d7cce8ea",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bc2ca336da6ac60d49b278f3d7cce8ea"
+            "md5": "a600f595b9b9414b1ac47316a9fa63e6",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=a600f595b9b9414b1ac47316a9fa63e6"
         },
         {
             "level": "11",

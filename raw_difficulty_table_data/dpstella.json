@@ -1047,6 +1047,17 @@
             "site_url": "https://stellabms.xyz/song/5530"
         },
         {
+            "id": 7920,
+            "md5": "428d38afdca2a52c0fb6115ffda2e4f3",
+            "sha256": "fb877ce815ae8a7d9515f4fd11ad91c9b5f62139c293a59dc8631cf929fe897e",
+            "title": "ULTRA LOVE PLUSE [DP LOVE]",
+            "artist": "スーパー(21)(21)ハンターズ / Lab14",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=20&event=145",
+            "url_diff": "https://stellabms.xyz/upload/6705",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/7920"
+        },
+        {
             "id": 4296,
             "md5": "f2659eb48724603adf9e548ec9be5c04",
             "sha256": "757feaad13f80ae6468a0038fb89d4e638be74058fcecd41d64b847c80f7c286",

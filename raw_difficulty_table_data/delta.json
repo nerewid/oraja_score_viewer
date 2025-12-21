@@ -4527,6 +4527,18 @@
         },
         {
             "level": "8",
+            "md5": "f3ec05f06bf5022cf77eb37043cf671e",
+            "sha256": "bf43ef1107a09b37743cfaf113092c3e0b1f331d1d28632826c30ce052b08da7",
+            "genre": "Uplifting Trance",
+            "title": "Leviathan [DP HYPER]",
+            "artist": "Naki obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=81&event=142",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f3ec05f06bf5022cf77eb37043cf671e"
+        },
+        {
+            "level": "8",
             "md5": "5a4aa2dc3ab34f4f310b748a83ad6adb",
             "sha256": "f0faaec722c86cdca2fa8295a3f50ef7a53162c76ca63ef8081cdc4a8670dd37",
             "genre": "Gothic Lolita Memoir",
@@ -8679,6 +8691,18 @@
         },
         {
             "level": "11",
+            "md5": "5dc1cb5b9233d609d755fe314851d0fb",
+            "sha256": "7c110ae02314f904e2788b0e8c7e44a2b15389921023decab50b2d6b4ab92041",
+            "genre": "IDOL SONG / FUTURE POP",
+            "title": "バーチャルセラピー [DP ANOTHER]",
+            "artist": "ふぃるまーち！（CV：ちょこ＆藍月なくる＆山田じぇみ子） MV: うまるつふり ＆ 自動車 原付 / Obj:ゆ〜兎",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=123",
+            "url_diff": "",
+            "comment": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5dc1cb5b9233d609d755fe314851d0fb"
+        },
+        {
+            "level": "11",
             "md5": "0c1cbff6225cfaccdff8e02a7c39bdb5",
             "sha256": "dc87c79dd6558af7fd03a1c03a7c619efe4e8ca95a0cf7bb4adf51f493d38db1",
             "genre": "Pop Electronica",
@@ -8832,6 +8856,18 @@
             "url_diff": "",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2f511b2b9061bb8b3a7755badfad1241"
+        },
+        {
+            "level": "11",
+            "md5": "96ab95279168b8575c8dd1402010f642",
+            "sha256": "facec18e5a89d6297052f5b5b042df656ad9d9f841d80f01250af7322b53d2a3",
+            "genre": "RENAISSANCE",
+            "title": "焔-HOMURA- [ほむほむ]",
+            "artist": "暁美ほむら/obj:epics-",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=21&event=67",
+            "url_diff": "http://epics.client.jp/",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=96ab95279168b8575c8dd1402010f642"
         },
         {
             "level": "11",
