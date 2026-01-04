@@ -4644,6 +4644,17 @@
             "site_url": "https://stellabms.xyz/song/1992"
         },
         {
+            "id": 8000,
+            "md5": "6b7cf3b8bdd907e4b77101dd8100974c",
+            "sha256": "4408f744096274dde14e6ba31e6e6d049ed1a9618d11ace4f0cd8235855f4858",
+            "title": "Choromnium [DP LEGGENDARIA]",
+            "artist": "Davidsan BGA: 終電 obj: Mercury",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=401&event=149",
+            "url_diff": "",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8000"
+        },
+        {
             "id": 2778,
             "md5": "ba42bf286f04905a967a4007c39eecd8",
             "sha256": "fdd78d25e935cf3176a7d3f83d3b7ab592f78dea3aa3ea7c28afc9069f6261b2",
@@ -4818,6 +4829,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1049",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/3644"
+        },
+        {
+            "id": 8001,
+            "md5": "53d81a81a5441958b5c56abd82be548d",
+            "sha256": "7e0c737da47c05f0b1ed4abb806a2a67e4c5d20458c09bf82773a85ac4a423a7",
+            "title": "marine snow [DP+]",
+            "artist": "LaValse / reobj.にゃむ",
+            "url": "http://web.archive.org/web/20070129150452/http://bof.nothing.sh:8080/bof2005/LaValse_marinesnow.rar",
+            "url_diff": "https://stellabms.xyz/upload/394",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8001"
         },
         {
             "id": 4418,
@@ -7128,17 +7150,6 @@
             "url_diff": "https://1drv.ms/u/s!AhTuCFLHGy4lk1ao7fH2e8DT6LpS",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/2672"
-        },
-        {
-            "id": 3417,
-            "md5": "d6ddb4b5816cf8a140e513927fb94b95",
-            "sha256": "de33f85cd4ff84fb37995c48c4a81661bfeaada6d39b0a5f279681ab07eda69a",
-            "title": "フロンティア↑↑エクスプローラー [nyamDPA]",
-            "artist": "kei_iwata / obj.にゃむ Illust:morph/ BGA:qfeileadh",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=87&event=132",
-            "url_diff": "https://stellabms.xyz/upload/349",
-            "level": "10",
-            "site_url": "https://stellabms.xyz/song/3417"
         },
         {
             "id": 2138,

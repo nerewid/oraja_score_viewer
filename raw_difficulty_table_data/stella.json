@@ -8010,6 +8010,17 @@
             "site_url": "https://stellabms.xyz/song/5501"
         },
         {
+            "id": 8029,
+            "md5": "8b897814a7ef1e25d5d49f57833d17df",
+            "sha256": "02b632d52c313f3380aafd73a85944b588d781c446448e5d7e6d3f1bd76b631c",
+            "title": "\"Fishpot\" [Maiden]",
+            "artist": "Lemi. obj:ugd",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=227&event=140",
+            "url_diff": "https://stellabms.xyz/upload/6781",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8029"
+        },
+        {
             "id": 3541,
             "md5": "9d8a6df1de8609e53b90dc3fbe7200ab",
             "sha256": "2f7cefae0846fd681b4e0b8a6f94964cfd3a5f6e08c5c5723a8864497435e6c6",
@@ -10683,17 +10694,6 @@
             "site_url": "https://stellabms.xyz/song/6637"
         },
         {
-            "id": 7979,
-            "md5": "9f79c831e956006fa5ddff5d38087580",
-            "sha256": "c7d9fd3abbaa23e90dfbbf1cd23215569781c67a81143ec5641cfe265950e761",
-            "title": "万日存在恐怖症[涅槃]",
-            "artist": "KNYORG BGA: X-chalk obj:tsukisaka",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=149",
-            "url_diff": "https://stellabms.xyz/upload/6465",
-            "level": "3",
-            "site_url": "https://stellabms.xyz/song/7979"
-        },
-        {
             "id": 6696,
             "md5": "d380a13f4ec3abf71bd5295deccc2f8c",
             "sha256": "61253af56542c103ef508df8e34dbc420cdbf66f8eb35dc74c95659ec6161494",
@@ -10846,6 +10846,28 @@
             "url_diff": "https://www.dropbox.com/s/oa5w1obvtvj51sh/_erogrononsense_egs.bme?dl=0",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/678"
+        },
+        {
+            "id": 8052,
+            "md5": "597a062d7e0ab44d4668f4938062cbd0",
+            "sha256": "1a7f8581815a4a256f1b8f2c321928db53764233148c15355068427a030137b7",
+            "title": "推しの子はビスクドール [Aestar]",
+            "artist": "yassu / BGA:ShakeJ Illust:こまり obj:1mi",
+            "url": "https://drive.google.com/file/d/1f3N1be8pOs8rjF8yNpU-FQkFT3VorUTO/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/6821",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8052"
+        },
+        {
+            "id": 8017,
+            "md5": "f82854d229220f810c57fe47cd631c6b",
+            "sha256": "0945e93a38d7319cdfda3e27056f9f71e1e1ffae1012e1896f196ed5ecad446a",
+            "title": "操リ人形ノ舞ニ意味ハ有ルカ [Oblivionis]",
+            "artist": "LYRi_WHiTE × HiHUMi bms.LYRi_WHiTE // mov.斗湖 × KuRo_Ronlo obj.TangenT-残りの人生、わたくしに下さいと-",
+            "url": "https://docs.google.com/uc?export=download&id=1aa4XPVk32LCJw561Ew32gZEBlX8iir_g",
+            "url_diff": "",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8017"
         },
         {
             "id": 634,
@@ -13598,6 +13620,17 @@
             "site_url": "https://stellabms.xyz/song/149"
         },
         {
+            "id": 7979,
+            "md5": "9f79c831e956006fa5ddff5d38087580",
+            "sha256": "c7d9fd3abbaa23e90dfbbf1cd23215569781c67a81143ec5641cfe265950e761",
+            "title": "万日存在恐怖症[涅槃]",
+            "artist": "KNYORG BGA: X-chalk obj:tsukisaka",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6465",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7979"
+        },
+        {
             "id": 6265,
             "md5": "8d0270af7d7e206ce372e958c1d86b32",
             "sha256": "2e57438dcc899ab0af2533c7cbbb771a4d0797f47f54f29e47c32b035f1c7810",
@@ -14696,6 +14729,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/6383"
+        },
+        {
+            "id": 7974,
+            "md5": "88d8215caaff6ad0c5a2de1ae939f1e3",
+            "sha256": "5f509a43c439019f2011f6f4bd9dc1713cd624be12c14a89308eb2616e3b5ef8",
+            "title": "in daylight[7key,sabun]",
+            "artist": "mommy obj.akasaka",
+            "url": "https://www.dropbox.com/s/mz2996uczns1d90/in_daylight.rar?dl=1",
+            "url_diff": "https://siromarudaisuki.github.io/akather.sabun/sabun/%E2%98%8524%20in%20daylight%20[7key,%20sabun].zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7974"
         },
         {
             "id": 318,
