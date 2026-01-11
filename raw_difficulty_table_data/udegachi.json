@@ -303,16 +303,6 @@
         },
         {
             "level": "0",
-            "title": "Techno in the Green Zone [Cat]",
-            "artist": "",
-            "url": "http://www.teufelstruhe.de/bms/PABAT23-TechGreen.zip",
-            "url_diff": "https://stellabms.xyz/upload/2562",
-            "comment": "",
-            "md5": "c7cd6e124430d3dfdfdaeda38cc98f03",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c7cd6e124430d3dfdfdaeda38cc98f03"
-        },
-        {
-            "level": "0",
             "title": "The NightScape [marienother]",
             "artist": "",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=22&event=110",
@@ -1373,16 +1363,6 @@
         },
         {
             "level": "2",
-            "title": "Marine seeker [laner]",
-            "artist": "",
-            "url": "https://onedrive.live.com/?cid=3078649c19f9cdd6&id=3078649C19F9CDD6%21916&authkey=!AIUVXwF_2tiWnqQ",
-            "url_diff": "https://web.archive.org/web/20190322230138/https://www.hyper-laner.com/sabun.html",
-            "comment": "",
-            "md5": "bdc5a380b36b18a7f44b06640a89e8ff",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bdc5a380b36b18a7f44b06640a89e8ff"
-        },
-        {
-            "level": "2",
             "title": "MEGALOVANIA [do you wanna have a bed time?]",
             "artist": "",
             "url": "https://mega.nz/file/pSAziT4S#SkhPLebvU55quE7yf0B39THEkg9iIkXm9Ozin9V36UQ",
@@ -1973,6 +1953,16 @@
         },
         {
             "level": "3",
+            "title": "Marine seeker [laner]",
+            "artist": "",
+            "url": "https://onedrive.live.com/?cid=3078649c19f9cdd6&id=3078649C19F9CDD6%21916&authkey=!AIUVXwF_2tiWnqQ",
+            "url_diff": "https://web.archive.org/web/20190322230138/https://www.hyper-laner.com/sabun.html",
+            "comment": "",
+            "md5": "bdc5a380b36b18a7f44b06640a89e8ff",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=bdc5a380b36b18a7f44b06640a89e8ff"
+        },
+        {
+            "level": "3",
             "title": "Miaplacidus [えきたいのムヒザー]",
             "artist": "",
             "url": "http://aquaseeds.net/",
@@ -2100,6 +2090,16 @@
             "comment": "",
             "md5": "6949ff79072d384a945c4c02eca28aef",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=6949ff79072d384a945c4c02eca28aef"
+        },
+        {
+            "level": "3",
+            "title": "Techno in the Green Zone [Cat]",
+            "artist": "",
+            "url": "http://www.teufelstruhe.de/bms/PABAT23-TechGreen.zip",
+            "url_diff": "https://stellabms.xyz/upload/2562",
+            "comment": "",
+            "md5": "c7cd6e124430d3dfdfdaeda38cc98f03",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c7cd6e124430d3dfdfdaeda38cc98f03"
         },
         {
             "level": "3",
