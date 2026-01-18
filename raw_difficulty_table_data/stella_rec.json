@@ -145,6 +145,17 @@
             "site_url": "https://stellabms.xyz/song/2550"
         },
         {
+            "id": 527,
+            "md5": "be5a994241230cc2c991a6db8cc80290",
+            "sha256": "9944aa6b1bd454f39f78720d151b4e16633a71aca2c58f7f3d49ab3ab722e415",
+            "title": "adolescent person [depressive]",
+            "artist": "Is-m / obj. laner BGA:yuru",
+            "url": "http://www.is-m.jp/",
+            "url_diff": "https://web.archive.org/web/20190322230138/http://www.hyper-laner.com/sabun/all201807_laner.rar",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/527"
+        },
+        {
             "id": 650,
             "md5": "3d11da08834644a1c8af528a027649f9",
             "sha256": "a64c905fb41d7ab208df0018834319e97b68c4550637832633104d9f154408a3",

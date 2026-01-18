@@ -5702,6 +5702,17 @@
         {
             "": "",
             "level": "乱打4",
+            "title": "ステキナミライ (キラキラ)",
+            "artist": "カラフル・サウンズ・ポート 差分　BMSをしていないミーティ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=281&event=127",
+            "url_diff": "https://stellabms.xyz/upload/3067",
+            "md5": "55642440c263d85c5dcfedbb24109831",
+            "comment": "sl4",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=55642440c263d85c5dcfedbb24109831"
+        },
+        {
+            "": "",
+            "level": "乱打4",
             "title": "セクシー・セクシー・ダイナマイト [SEXY]",
             "artist": "kei_iwata / Gt. stuv / KeiuO + 内村徹 obj:saaa",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=146",
@@ -9893,6 +9904,17 @@
         {
             "": "",
             "level": "乱打8",
+            "title": "チョコレートコーティング [Raspberry]",
+            "artist": "きこにゃん feat.恋摘もなか BGI:らりる obj.berimetros",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6624",
+            "md5": "27ec4a1a2a77f03368538c74866f62ab",
+            "comment": "sl8",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=27ec4a1a2a77f03368538c74866f62ab"
+        },
+        {
+            "": "",
+            "level": "乱打8",
             "title": "ねぇ？メイドさんはみんな忠実だと思う？ [SABOTHER7]",
             "artist": "かおみりん feat.こもも×みゆ/さ",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=138&event=74",
@@ -9948,12 +9970,23 @@
         {
             "": "",
             "level": "乱打8",
+            "title": "レシュノルティア [Atharther]",
+            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス obj.Atharnal",
+            "url": "https://venue.bmssearch.net/hanadayori/21",
+            "url_diff": "https://atharnal.github.io/diff/table.html",
+            "md5": "ef2d11fd7642c5f183097809e1595b9c",
+            "comment": "sub sl6",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ef2d11fd7642c5f183097809e1595b9c"
+        },
+        {
+            "": "",
+            "level": "乱打8",
             "title": "ルーネイトエルフ～霧の湖の物語～ [KANITHER]",
             "artist": "9-zen obj.かに",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=27&event=129",
             "url_diff": "https://darksabun.github.io/bceg/event/ondan9/",
             "md5": "447b6b0e912923da96a4e6d78f26468f",
-            "comment": "154",
+            "comment": "sl8",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=447b6b0e912923da96a4e6d78f26468f"
         },
         {
@@ -10395,17 +10428,6 @@
             "md5": "295dfc6bac48fd8a805173be0a5360d0",
             "comment": "sl9",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=295dfc6bac48fd8a805173be0a5360d0"
-        },
-        {
-            "": "",
-            "level": "乱打9",
-            "title": "Gale of Viridian [MONOCHROME]",
-            "artist": "白羽",
-            "url": "https://drive.google.com/file/d/1qiuatgV400Kroj6QQ_k0FJ1VkfT6PLOx/view?usp=sharing",
-            "url_diff": "",
-            "md5": "de4824f6b8b740c468bb592016cc7d8e",
-            "comment": "sl9",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=de4824f6b8b740c468bb592016cc7d8e"
         },
         {
             "": "",
@@ -10916,17 +10938,6 @@
         {
             "": "",
             "level": "乱打9",
-            "title": "チョコレートコーティング [Raspberry]",
-            "artist": "きこにゃん feat.恋摘もなか BGI:らりる obj.berimetros",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=149",
-            "url_diff": "https://stellabms.xyz/upload/6624",
-            "md5": "27ec4a1a2a77f03368538c74866f62ab",
-            "comment": "sl9",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=27ec4a1a2a77f03368538c74866f62ab"
-        },
-        {
-            "": "",
-            "level": "乱打9",
             "title": "ナイト・オブ・ナイツ [HARDEST]",
             "artist": "Izayoi/差分　赤い人",
             "url": "https://www.axfc.net/u/1218872",
@@ -11306,7 +11317,7 @@
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=96",
             "url_diff": "https://stellabms.xyz/upload/6131",
             "md5": "9a847751e1ebeaf51928c041001ece54",
-            "comment": "",
+            "comment": "sl10",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9a847751e1ebeaf51928c041001ece54"
         },
         {
@@ -14606,7 +14617,7 @@
             "url": "https://venue.bmssearch.net/bmstukuru2023/23",
             "url_diff": "https://stellabms.xyz/upload/5913",
             "md5": "b971d30939804b76bfe1205b471e79bf",
-            "comment": "",
+            "comment": "sl12",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b971d30939804b76bfe1205b471e79bf"
         },
         {
@@ -26524,17 +26535,6 @@
         },
         {
             "": "",
-            "level": "sub 乱打6",
-            "title": "レシュノルティア [Atharther]",
-            "artist": "あとぅす feat.はらもりよしな BGI:りーふぱいザウルス obj.Atharnal",
-            "url": "https://venue.bmssearch.net/hanadayori/21",
-            "url_diff": "https://atharnal.github.io/diff/table.html",
-            "md5": "ef2d11fd7642c5f183097809e1595b9c",
-            "comment": "sub sl6",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ef2d11fd7642c5f183097809e1595b9c"
-        },
-        {
-            "": "",
             "level": "sub 乱打7",
             "title": "Luminescent Drive [Beluga]",
             "artist": "∀S∀ obj:Guanacoite",
@@ -26598,6 +26598,17 @@
             "md5": "e2c51fa600dbc11aeaea76179daffd5f",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e2c51fa600dbc11aeaea76179daffd5f"
+        },
+        {
+            "": "",
+            "level": "sub 乱打9",
+            "title": "Gale of Viridian [MONOCHROME]",
+            "artist": "白羽",
+            "url": "https://drive.google.com/file/d/1qiuatgV400Kroj6QQ_k0FJ1VkfT6PLOx/view?usp=sharing",
+            "url_diff": "",
+            "md5": "de4824f6b8b740c468bb592016cc7d8e",
+            "comment": "sub sl9",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=de4824f6b8b740c468bb592016cc7d8e"
         },
         {
             "": "",

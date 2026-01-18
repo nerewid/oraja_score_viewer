@@ -2565,6 +2565,17 @@
             "site_url": "https://stellabms.xyz/song/5973"
         },
         {
+            "id": 8115,
+            "md5": "35d0b8664805b49ceb88f888081f8c34",
+            "sha256": "330715fd7a5683190b63ed3ae44bff4f05f20309d27b3ef880725cc3062d6352",
+            "title": "Praying to the Snow [DP ANOTHER]",
+            "artist": "おみー feat.Eleanor Forte obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=81&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6873",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8115"
+        },
+        {
             "id": 6867,
             "md5": "b54c12ca8ba48806798adc0bec7a0b42",
             "sha256": "5f139e8ef9b717952572c45ad9abe8a4a669ca1e852c93ed9585caaaccc0a094",
@@ -3533,6 +3544,17 @@
             "site_url": "https://stellabms.xyz/song/4352"
         },
         {
+            "id": 8114,
+            "md5": "748ab77702505f9aa8d4040ef2d013dd",
+            "sha256": "a1522845233cb673fbf5d7e5ae5482bd21cee1a7842b86947511ac89b454909b",
+            "title": "燐寸と緞帳 [DP LEGGENDARIA]",
+            "artist": "Juka_Box feat. 綜花 / 熊猫",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6746",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8114"
+        },
+        {
             "id": 7850,
             "md5": "5e2db280954d81c904ab3e252813a4e0",
             "sha256": "92e3be74a4eae17d788ee14bbc25da8cba4cbaeec8141dd0aab38131edebcec4",
@@ -3894,6 +3916,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1646",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/6306"
+        },
+        {
+            "id": 8068,
+            "md5": "b5815a2092f941b4436f2c2282937081",
+            "sha256": "de0600fd1eb27c173342a063be6aef0a13ff7b178a43a5aca2f20bffdd5e7d55",
+            "title": "Library Rules [DP INSANE]",
+            "artist": "ZUN Arranged by yoa BGA:zue-row / Obj:ゆ～兎",
+            "url": "https://bms.wrigglebug.xyz/download/Library%20Rules.7z",
+            "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/library_rules_ogg_YH.zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/8068"
         },
         {
             "id": 2103,
@@ -6833,6 +6866,17 @@
             "site_url": "https://stellabms.xyz/song/2931"
         },
         {
+            "id": 7610,
+            "md5": "82bdb9f2e47d8785852e504b93bd0c4e",
+            "sha256": "1fb53f3b403dc40b115a29ce33e747bf44cc203aa3b84d1574021f39d6bbd68f",
+            "title": "Azure Rays [DP FAIRTHER]",
+            "artist": "SKY. obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=139",
+            "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpih2Q-1VYDH5eDAaLR?e=UWdPcQ",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/7610"
+        },
+        {
             "id": 7112,
             "md5": "14416f644a8ce6b2843f92cb2b96c052",
             "sha256": "ae2d2d5e503177d8a530fdd2a42497061167c587cc291007a6c7fcb3d87ed71d",
@@ -6864,6 +6908,28 @@
             "url_diff": "",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/3827"
+        },
+        {
+            "id": 2757,
+            "md5": "5f5be91b44b0108d91c48e01b0e27c41",
+            "sha256": "50d869b82a4db6a36b6d82dc25e34b867c1c667d269f1972be95af7a5e77b479",
+            "title": "Chatblanc [blache]",
+            "artist": "roop Obj.Triforce vs KENIN*",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=200&event=96",
+            "url_diff": "http://sunaneko.iptime.org/dpsabun_kenin.html",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/2757"
+        },
+        {
+            "id": 4268,
+            "md5": "2d1d397efcd45ec665c5d82b19bc3601",
+            "sha256": "d98521d8428457303cce5f0ce5b5cbb802ffd3668d3e60e6933d3e34254b3af4",
+            "title": "Cinderella Story -XX o'clock-",
+            "artist": "adumac / dp131 obj : 71066",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=60",
+            "url_diff": "https://stellabms.xyz/upload/727",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/4268"
         },
         {
             "id": 2285,
@@ -6954,6 +7020,17 @@
             "site_url": "https://stellabms.xyz/song/2712"
         },
         {
+            "id": 4923,
+            "md5": "b117e4747a220ff1216c152f075ad409",
+            "sha256": "0d05b3ee58c43ddc30243c15c9f205c52f80cfb3e906ba3141c9732b0021d392",
+            "title": "Mandragora [Cry Out]",
+            "artist": "Columba (Daily vs Roon_kun) obj:RaiN",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=127",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1334",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/4923"
+        },
+        {
             "id": 4967,
             "md5": "1e0e287cb85ccfaf70dcbdf02589b52e",
             "sha256": "3eb873a80cdf2a5bccfed1daeafe1a11bbea98f67e01c3087dce37b3dd3f60a8",
@@ -6963,6 +7040,28 @@
             "url_diff": "https://stellabms.xyz/upload/1681",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/4967"
+        },
+        {
+            "id": 3248,
+            "md5": "b7244f66328a360a34a6d6a66028fed9",
+            "sha256": "b11e966330238a27f9868c8d58523d57f60a5ee9e0549e96f887a3e74adcef63",
+            "title": "myste`re　 [18keys]",
+            "artist": "HOUJIROU / BGA: hardlove obj:けろりん",
+            "url": "https://web.archive.org/web/20140405115205/http://big.freett.com/takacyan930/hj13-mystereMQ.rar",
+            "url_diff": "https://web.archive.org/web/20181108061838/http://www.geocities.jp/d_c_kick/bms/hj13-mystereMQ.zip",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/3248"
+        },
+        {
+            "id": 6117,
+            "md5": "30f67f5707d7ecfa755db90b7417b14a",
+            "sha256": "1d1acd77c82701a7211bd4d1b1f7cd56adf14684cdb43f21203ef1c56eca3d57",
+            "title": "napaeae [14B SC]",
+            "artist": "Makou (BMS: Zris)",
+            "url": "https://venue.bmssearch.net/letsbmsedit2/1",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/6117"
         },
         {
             "id": 4263,
@@ -7009,6 +7108,17 @@
             "site_url": "https://stellabms.xyz/song/5173"
         },
         {
+            "id": 5323,
+            "md5": "de5ff651471667816b25247fec5434b6",
+            "sha256": "1b65f35c935adee6f6c96ee32a7e7a31fb2c8549a2bd00ac3ca4414caac23c72",
+            "title": "Picaresque & Burlesque",
+            "artist": "Jeipouju",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=303&event=140",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/5323"
+        },
+        {
             "id": 3570,
             "md5": "b69172f4882a5a0e03d84352f812a994",
             "sha256": "1382919fa2e51062312a795428a480cc7e590ffbf9ceb000e360ac4c7edb3c0a",
@@ -7042,6 +7152,17 @@
             "site_url": "https://stellabms.xyz/song/7016"
         },
         {
+            "id": 7667,
+            "md5": "0c2756cac74e3880856f27b295b9e951",
+            "sha256": "afdd07f8042950717d3310ec51db69f5ca0028bdc52282854545772fbbc80626",
+            "title": "SAKIGAKE [DP MIYATHER]",
+            "artist": "kas_0120 × 原木シィタケ BGA:かんてん / obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=276&event=140",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1474",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/7667"
+        },
+        {
             "id": 5578,
             "md5": "d19ebfa62eac8780ed709d0292b2edb6",
             "sha256": "f267f9b942b25114b6277d93541c604fb417ab44513597301038b67829b413ee",
@@ -7051,6 +7172,17 @@
             "url_diff": "https://onedrive.live.com/?authkey=%21AEhUFcPk44lHNWU&id=252E1BC75208EE14%21124&cid=252E1BC75208EE14",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/5578"
+        },
+        {
+            "id": 5049,
+            "md5": "0ba6de050ce06847b737564948b61654",
+            "sha256": "699b09bd03dafbd2e87af89d6584b994d07efed0b97f96d4ee57da6873bb498a",
+            "title": "Sweet Little Chocolate [DP-soijoy]",
+            "artist": "uma / obj:sagoo BGA:わっふゑ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=124",
+            "url_diff": "https://stellabms.xyz/upload/1711",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/5049"
         },
         {
             "id": 3381,
@@ -7152,6 +7284,17 @@
             "site_url": "https://stellabms.xyz/song/2672"
         },
         {
+            "id": 2356,
+            "md5": "584450308e2b02b3a71a3979c16cdb4f",
+            "sha256": "e2d4bda5596baf2aaf295f842b95d133ac09f86d24baa19c9bed0a1c6330a27a",
+            "title": "プナイプナイげんそう [DP ☆NOTHER ~ 無限の彼方までおやすみプナイ ~]",
+            "artist": "立秋 feat.ちょこ obj:Starfish",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=249&event=127",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/629",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/2356"
+        },
+        {
             "id": 2138,
             "md5": "bf07d0084dd2e6d84eaa7affe0d47a0c",
             "sha256": "4cae6bc42b694cbc71c35f8a75e15249a1614aa3b5d7b2fcc3fd54da7a251dea",
@@ -7218,6 +7361,17 @@
             "site_url": "https://stellabms.xyz/song/3006"
         },
         {
+            "id": 4445,
+            "md5": "aa389df1f9b142c58e1fd9204df74278",
+            "sha256": "570703b74b5c30448a27023d19b7d1e0efb647c7e5cb433e0456a24a793185b7",
+            "title": "摩訶幻想マジトリク [DP INSANE]",
+            "artist": "戒 + テオン",
+            "url": "https://drive.google.com/file/d/1X0HSj3WdI51ZskRcsE1Higd3d7ZTqjkJ",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/4445"
+        },
+        {
             "id": 5435,
             "md5": "564c3e9978f9863253bb8c4f00a796c2",
             "sha256": "93acbaee03f065065ca42f5263896e217391742e441b26dbda9c5c4af62a72dd",
@@ -7271,6 +7425,17 @@
             "url_diff": "http://flowermaster.web.fc2.com/kikaku/kikaku10.zip",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/2271"
+        },
+        {
+            "id": 5808,
+            "md5": "8bdab5152325477c91215d7a675ca499",
+            "sha256": "a8b46bf9ffe66775243ffc50df822415a5e4258a2bfc64a1e60f3b38407e5989",
+            "title": "零廻転生",
+            "artist": "Jeipouju",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=206&event=140",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/5808"
         },
         {
             "id": 7046,
