@@ -5499,18 +5499,6 @@
         },
         {
             "level": "7",
-            "md5": "ba7d2a66da3b5d2c6724c62f02099c5c",
-            "sha256": "fb44e54b2c8bc9e054f2710ff6f6d0e10834573672a83b89a5450a5e4c3c144e",
-            "genre": "Neo traditionalism",
-            "title": "スーパーイザナギオブジェクト [DP INSANE]",
-            "artist": "er Obj:ゆ〜兎",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=102",
-            "url_diff": "http://flowermaster.web.fc2.com/",
-            "comment": "第9回差分作成企画ページDownLoad Address→差分DLスーパーイザナギオブジェクト/_sio_dpi_YH.bme",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ba7d2a66da3b5d2c6724c62f02099c5c"
-        },
-        {
-            "level": "7",
             "md5": "54f1b7e90ed18536512915d6174a7d74",
             "sha256": "fdf3332e45522590f35f81b1472985208ac88a3695376cc410b367ba3895e3f3",
             "genre": "POPS/SOFT ROCK",
@@ -6096,6 +6084,18 @@
             "url_diff": "https://isopod.web.fc2.com/BMS/dp.html",
             "comment": "14/04/17 BMS本体・差分共に入手可能。",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=811d820e22858d145e7ba70ee74d2cc3"
+        },
+        {
+            "level": "8",
+            "md5": "ba7d2a66da3b5d2c6724c62f02099c5c",
+            "sha256": "fb44e54b2c8bc9e054f2710ff6f6d0e10834573672a83b89a5450a5e4c3c144e",
+            "genre": "Neo traditionalism",
+            "title": "スーパーイザナギオブジェクト [DP INSANE]",
+            "artist": "er Obj:ゆ〜兎",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=102",
+            "url_diff": "http://flowermaster.web.fc2.com/",
+            "comment": "第9回差分作成企画ページDownLoad Address→差分DLスーパーイザナギオブジェクト/_sio_dpi_YH.bme",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ba7d2a66da3b5d2c6724c62f02099c5c"
         },
         {
             "level": "8",
