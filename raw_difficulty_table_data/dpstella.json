@@ -948,6 +948,17 @@
             "site_url": "https://stellabms.xyz/song/7920"
         },
         {
+            "id": 8127,
+            "md5": "34d1253cef8731f190a909721d60002a",
+            "sha256": "72606f55c3649b0da1f2e175973c8ff58266582d27ffed6d8e0a2a0bf5b04312",
+            "title": "Volanphantasia [DP Another]",
+            "artist": "VeetaCrush obj: VeetaCrush bga: MANAKA",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=47&event=142",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8127"
+        },
+        {
             "id": 4296,
             "md5": "f2659eb48724603adf9e548ec9be5c04",
             "sha256": "757feaad13f80ae6468a0038fb89d4e638be74058fcecd41d64b847c80f7c286",

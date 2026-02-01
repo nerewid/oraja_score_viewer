@@ -838,6 +838,17 @@
             "site_url": "https://stellabms.xyz/song/1413"
         },
         {
+            "id": 3143,
+            "md5": "70120d2889c1e30252289b4e95e1f0c6",
+            "sha256": "02a0673c2da69e2ae6e96021d36a1a7683d14feb1e2a52a6db1323900dda0ede",
+            "title": "take me to the moon [yumether]",
+            "artist": "uma feat. ましろ / obj:夢瑠",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=34&event=129",
+            "url_diff": "https://dl.dropboxusercontent.com/s/dhoumpy389m7sl4/_take_me_yume.zip",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/3143"
+        },
+        {
             "id": 2297,
             "md5": "bde6e746250d86e04619a5d7f527c4be",
             "sha256": "2934692936c9c1db6f38d34eeda9244adfd702faf9bc7b453a12652bff357486",

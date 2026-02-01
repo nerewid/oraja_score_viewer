@@ -783,6 +783,17 @@
             "site_url": "https://stellabms.xyz/song/4646"
         },
         {
+            "id": 8065,
+            "md5": "c728d439a9cd556b85cb69986c7a4c5c",
+            "sha256": "1ecf09e653b6b2a8a7e811fd8e4c614cef8bd7209c527af6adb84ac4f7d7b2d5",
+            "title": "Aerial artS [DP ANOTHER]",
+            "artist": "e.m.u (obj:k)",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=101&event=65",
+            "url_diff": "https://dpbms.at-ninja.jp/bms0/aerial_arts.zip",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8065"
+        },
+        {
             "id": 1800,
             "md5": "7f27fe2186cfbc66556fcef06f985727",
             "sha256": "d39f52e021e10583a30b1082ac0517ae4dce50f4a9058e0e6891208198e6717a",
@@ -1036,6 +1047,17 @@
             "site_url": "https://stellabms.xyz/song/7024"
         },
         {
+            "id": 8165,
+            "md5": "6d6dd15005004a1c17225a9d2351e8c7",
+            "sha256": "f5a2bcf080a080415e879690ceda24279e888fe4c50e5b12d0fb9c841a534d7d",
+            "title": "GOES AROUND [14k MANIAC]",
+            "artist": "やわらかラリーハウス北村 illust:うまるつふり obj:jigokuhenn",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=180&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6825",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8165"
+        },
+        {
             "id": 5725,
             "md5": "344f3eb3b1f1fc279f68307e0110931e",
             "sha256": "b3bea70c197e8450d5edbf8ae86ae80cf93687af76fe6d40818104afae48d950",
@@ -1168,6 +1190,17 @@
             "site_url": "https://stellabms.xyz/song/6226"
         },
         {
+            "id": 8168,
+            "md5": "d8a61618b14a6124ec8e5e9f202479ab",
+            "sha256": "aa2477f47b909bba50c500958239f15cbf19c00e2962a923ff44eefbf1aee4c9",
+            "title": "Natsuiroscape [DP Another]",
+            "artist": "kooridori/熊猫 BGA:Shake J",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=99&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6590",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8168"
+        },
+        {
             "id": 2183,
             "md5": "24b84a5f70b67bb54b4da39bcead1e56",
             "sha256": "6e2ab79323e2ec82e7a867335df09eff33eb11133a268edd870000b125dfd9d7",
@@ -1199,6 +1232,17 @@
             "url_diff": "",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/1822"
+        },
+        {
+            "id": 8166,
+            "md5": "2b6c0288cf62997a2d89d992f829e3ce",
+            "sha256": "eab8c6952e4e385059add90b0ff65fce46ba40c9d7c075f15e256d53834f744e",
+            "title": "RAT ATTACK [DP ANOTHER]",
+            "artist": "U-ske feat. MIE / 熊猫",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=35&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6591",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8166"
         },
         {
             "id": 5709,
@@ -4160,17 +4204,6 @@
             "site_url": "https://stellabms.xyz/song/2701"
         },
         {
-            "id": 7058,
-            "md5": "6762dcf97a438f22f65aed41300d0b9b",
-            "sha256": "12ecf0bc41d8662e450190689eaa6bb4ab503d97e027736b7fd120f93f88df55",
-            "title": "Signager (DP-Extra)",
-            "artist": "corok-Bb obj:eclair et fleur",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=121",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/1069",
-            "level": "5",
-            "site_url": "https://stellabms.xyz/song/7058"
-        },
-        {
             "id": 4650,
             "md5": "34687333636caf3ef26d5450bd1efae6",
             "sha256": "29eda344a949b9172c37553ab8958926a182d98b04fe3f9d331d3a97f622f2f8",
@@ -4983,6 +5016,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/493",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/4583"
+        },
+        {
+            "id": 7058,
+            "md5": "6762dcf97a438f22f65aed41300d0b9b",
+            "sha256": "12ecf0bc41d8662e450190689eaa6bb4ab503d97e027736b7fd120f93f88df55",
+            "title": "Signager (DP-Extra)",
+            "artist": "corok-Bb obj:eclair et fleur",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=121",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1069",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7058"
         },
         {
             "id": 2798,

@@ -222,6 +222,17 @@
             "site_url": "https://stellabms.xyz/song/6046"
         },
         {
+            "id": 576,
+            "md5": "833eb33b6fd9882d68d3c0701e236237",
+            "sha256": "b5ade8234d5a46738b8636bdc4537b804bd1f73d09b60a848918db2ca51cbe16",
+            "title": "PEACE BREAKER [INFELNO]",
+            "artist": "Omnipotenx /差分　赤い人",
+            "url": "http://srdbms.otodo.net/",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/_pb_B.onipote.INFELNO.bme",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/576"
+        },
+        {
             "id": 669,
             "md5": "7ccf30a1ced5601c4a9cdb06beaf39a9",
             "sha256": "3f1272feecea61c4b765688e158abe57acb7e8d861dbab917bae4fa2a3d79893",
@@ -706,6 +717,17 @@
             "site_url": "https://stellabms.xyz/song/6859"
         },
         {
+            "id": 7013,
+            "md5": "5ca0fb0a09c936f06ce1ce7f0e4c8cbc",
+            "sha256": "c06cd4cedab59a8eddf939d86dfc26b75f542c48109ccd62f326b48705a04a9e",
+            "title": "black opal [TBB]",
+            "artist": "TAK vs General / Jeff obj:SUGAR.",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=49",
+            "url_diff": "https://stellabms.xyz/upload/5256",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7013"
+        },
+        {
             "id": 100,
             "md5": "3216e0be0404e5311672194432d8b82a",
             "sha256": "d0b53d0aef698e43009dd5b5a00e49b07914318a1ef5d37ecf42f6914763acdd",
@@ -913,6 +935,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01931.zip",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/481"
+        },
+        {
+            "id": 7581,
+            "md5": "cf18148562d31c84cc6abbef7c9d03bc",
+            "sha256": "4f12ba5950a4caaf9501a1c24bebf50c5ade792011542b7f97ee08e6ae7b4b66",
+            "title": "Reminiscent Dream [SPELL PRACTICE]",
+            "artist": "ビタミンc / obj:potechang Original: ZUN",
+            "url": "https://venue.bmssearch.net/ondanre2/14",
+            "url_diff": "https://stellabms.xyz/upload/6139",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7581"
         },
         {
             "id": 1205,
