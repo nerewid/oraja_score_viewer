@@ -1,9 +1,10 @@
-import { scorelogDbData, songdataDbData, sqlPromise } from './db_uploader.js'; // スコアログデータベースと楽曲データベースのデータ、およびSQL.jsのPromiseをインポート
+import { scorelogDbData, songdataDbData, sqlPromise, releaseScorelogData } from './db_uploader.js'; // スコアログデータベースと楽曲データベースのデータ、およびSQL.jsのPromiseをインポート
 import { createJsonFromScoreLogs } from './json_creator.js'; // スコアログデータからJSONを作成する関数をインポート
 import { findScoresBySha256s,findMissingSha256sByMd5s } from './score_data_processor.js'; // SHA256ハッシュに基づいてスコアを検索する関数と、MD5ハッシュに基づいて不足しているSHA256ハッシュを検索する関数をインポート
 import { generateHtmlFromJson } from './html_generator.js'; // JSONデータからHTMLを生成する関数をインポート
 import { initializePagination } from './pagination.js'; // ページネーション機能をインポート
 import { t } from './i18n.js'; // i18n翻訳関数をインポート
+import { BP_NOT_PLAYED } from './constants.js'; // 共有定数をインポート
 
 let sha256ToMd5Map = null;
 
@@ -70,6 +71,9 @@ document.getElementById("processData").addEventListener("click", async () => {
         scorelogDb.close(); // スコアログデータベースを閉じる
         songdataDb.close(); // 楽曲データベースを閉じる
 
+        // scorelogのUint8Arrayデータを解放してメモリを節約
+        releaseScorelogData();
+
 
         showTabButtons(); // タブ切り替えボタンを表示する関数を呼び出す
 
@@ -89,9 +93,12 @@ document.getElementById("processData").addEventListener("click", async () => {
         setTimeout(hideLoading, 500);
 
         // "downloadJson"というIDを持つHTML要素にクリックイベントリスナーを追加
-        document.getElementById("downloadJson").addEventListener("click", () => {
-            downloadJson(jsonOutput); // JSONダウンロードを実行する関数を呼び出す
-        });
+        const downloadBtn = document.getElementById("downloadJson");
+        if (downloadBtn) {
+            downloadBtn.addEventListener("click", () => {
+                downloadJson(jsonOutput); // JSONダウンロードを実行する関数を呼び出す
+            });
+        }
 
     } catch (error) {
         console.error("データ処理エラー:", error); // エラー内容をコンソールに出力
@@ -211,9 +218,9 @@ function processAndSortData(data) {
 const processedEntries = Object.entries(data).map(([date, songData]) => {
     const processedSongData = {};
     for (const songTitle in songData) {
-    const entry = { ...songData[songTitle] }; // Shallow copy
+    const { sha256, ...entry } = songData[songTitle]; // sha256を除外してコピー
 
-    if (entry.old_bp === 2147483647) {
+    if (entry.old_bp === BP_NOT_PLAYED) {
         entry.old_bp = "Not Played";
     }
     if (entry.clear === "-1") {

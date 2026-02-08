@@ -1,6 +1,8 @@
 import {generateNotesData} from './heatmap_generator.js'; // ヒートマップ用のノーツ数データを生成する関数をインポート
 import {scoreDbData} from './db_uploader.js'; // スコアデータベースのデータをインポート
 import { t } from './i18n.js'; // i18n翻訳関数をインポート
+import { CLEAR_STATUS } from './constants.js'; // 共有定数をインポート
+import { splitIntoChunks, createPlaceholders } from './utils/sql-chunker.js'; // チャンク分割・プレースホルダ生成
 
 /**
  * JSON形式のデータとテンプレートファイルを受け取り、HTMLを生成する非同期関数
@@ -9,21 +11,6 @@ import { t } from './i18n.js'; // i18n翻訳関数をインポート
  * @returns {Promise<string>} 生成されたHTML文字列
  */
 export async function generateHtmlFromJson(jsonOutput, templateFile) {
-    // クリアステータスとそれに対応する名前と色を定義したオブジェクト
-    const clear_status = {
-        "10": { "name": "Max", "color": "rgba(255, 215, 0, 0.5)" },
-        "9": { "name": "Perfect", "color": "rgba(173, 255, 47, 0.5)" },
-        "8": { "name": "FullCombo", "color": "rgba(0, 255, 255, 0.5)" },
-        "7": { "name": "ExHard", "color": "rgba(255, 165, 0, 0.5)" },
-        "6": { "name": "Hard", "color": "rgba(192, 0, 0, 0.5)" },
-        "5": { "name": "Normal", "color": "rgba(135, 206, 235, 0.5)" },
-        "4": { "name": "Easy", "color": "rgba(0, 128, 0, 0.5)" },
-        "3": { "name": "LightAssistEasy", "color": "rgba(255, 192, 203, 0.5)" },
-        "2": { "name": "AssistEasy", "color": "rgba(128, 0, 128, 0.5)" },
-        "1": { "name": "Failed", "color": "rgba(128, 0, 0, 0.5)" },
-        "0": { "name": "NoPlay", "color": "rgba(0, 0, 0, 0.5)" }
-    };
-    
     try {
         // テンプレートファイル取得
         const templateResponse = await fetch(templateFile);
@@ -39,12 +26,16 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
             // JSONデータのキー（日付）を降順にソート
             const sortedDates = Object.keys(jsonOutput).sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
             // ソートされた日付に基づいて、表示するデータを整形
-            const sortedJsonOutputWithKeys = sortedDates.map(date => ({
-                date: date, // 日付
-                titles: Object.keys(jsonOutput[date]) // その日のタイトルを取得
-                    .map(title => ({ title: title, data: jsonOutput[date][title] })) // タイトルとデータを含むオブジェクトに変換
-                    .sort((a, b) => parseInt(b.data.clear) - parseInt(a.data.clear)) // クリアステータスで降順にソート
-            }));
+            const sortedJsonOutputWithKeys = sortedDates.map(date => {
+                // フィルタ前の全タイトル
+                const allTitles = Object.keys(jsonOutput[date])
+                    .map(title => ({ title: title, data: jsonOutput[date][title] }));
+                // ランプ/BPセクション用（スコアのみ変更の曲を除外）
+                const titles = allTitles
+                    .filter(t => t.data.clear !== "-1" || t.data.old_bp !== t.data.new_bp)
+                    .sort((a, b) => parseInt(b.data.clear) - parseInt(a.data.clear));
+                return { date, titles, allTitles };
+            });
             // SQL.jsを初期化
             const SQL = await initSqlJs({ locateFile: filename => `/js/${filename}` });
             // スコアデータベースをUint8Arrayから初期化
@@ -64,6 +55,31 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
                 return accumulator;
             }, {});
 
+            // スコア更新用にノーツ数を取得
+            const allSha256s = [...new Set(
+                sortedJsonOutputWithKeys.flatMap(d => d.allTitles.map(t => t.data.sha256)).filter(Boolean)
+            )];
+            const songNotesMap = querySongNotesMap(scoreDb, allSha256s);
+
+            // 各日付にscore_updatesを追加
+            for (const dateData of sortedJsonOutputWithKeys) {
+                dateData.score_updates = dateData.allTitles
+                    .filter(t => t.data.new_score > t.data.old_score)
+                    .map(t => {
+                        const notes = songNotesMap.get(t.data.sha256) || 0;
+                        const scoreRate = notes > 0 ? (t.data.new_score / (notes * 2) * 100) : null;
+                        return {
+                            title: t.title,
+                            old_score: t.data.old_score,
+                            new_score: t.data.new_score,
+                            score_rate: scoreRate !== null ? scoreRate.toFixed(2) : null
+                        };
+                    })
+                    .sort((a, b) => (parseFloat(b.score_rate) || 0) - (parseFloat(a.score_rate) || 0));
+                // allTitlesはテンプレートに不要なので削除
+                delete dateData.allTitles;
+            }
+
             // テンプレートにデータを渡してHTMLをレンダリング
             const i18n = {
                 history: t('template.history'),
@@ -71,8 +87,9 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
                 bpOnly: t('template.bp_only'),
                 newClear: t('template.new_clear'),
                 daysPerPage: t('template.days_per_page'),
+                scoreUpdate: t('template.score_update'),
             };
-            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: clear_status, notes: notesMap, i18n: i18n });
+            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: CLEAR_STATUS, notes: notesMap, i18n: i18n });
             return html; // 生成されたHTMLを返す
         } catch (nunjucksError) {
             // Nunjucksテンプレートのエラーをコンソールに出力し、エラーメッセージを含むHTMLを返す
@@ -84,4 +101,25 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
         console.error("Template file fetch error:", fetchError);
         return `<div style="color: red;">Template file fetch error: ${fetchError.message}</div>`;
     }
+}
+
+/**
+ * SHA256リストからノーツ数を一括取得する
+ * @param {object} db - score.dbのSQL.jsインスタンス
+ * @param {Array<string>} sha256List - SHA256ハッシュの配列
+ * @returns {Map<string, number>} SHA256をキー、ノーツ数を値とするMap
+ */
+function querySongNotesMap(db, sha256List) {
+    const notesMap = new Map();
+    for (const chunk of splitIntoChunks(sha256List)) {
+        const placeholders = createPlaceholders(chunk.length);
+        const stmt = db.prepare(`SELECT sha256, notes FROM score WHERE sha256 IN (${placeholders})`);
+        stmt.bind(chunk);
+        while (stmt.step()) {
+            const row = stmt.getAsObject();
+            notesMap.set(row.sha256, row.notes);
+        }
+        stmt.free();
+    }
+    return notesMap;
 }

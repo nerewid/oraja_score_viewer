@@ -23,14 +23,11 @@
   "license": "MIT",
   "homepage": "https://nerewid.github.io/oraja_score_viewer/",
   "devDependencies": {
-    "@playwright/test": "^1.57.0"
-  },
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/nerewid/oraja_score_viewer/issues"
-  },
-  "dependencies": {
+    "@playwright/test": "^1.57.0",
     "playwright": "^1.57.0",
     "playwright-core": "^1.57.0"
+  },
+  "bugs": {
+    "url": "https://github.com/nerewid/oraja_score_viewer/issues"
   }
 }

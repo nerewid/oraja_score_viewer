@@ -1,16 +1,13 @@
 import { scorelogDbData, sqlPromise } from './db_uploader.js';
 import { findScoresBySha256s } from './score_data_processor.js';
+import { splitIntoChunks } from './utils/sql-chunker.js';
 
 export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
     // 最終的なJSON出力（日付をキー、曲情報を値とするMap）
     const jsonOutput = new Map();
 
-    // SQLiteのIN句の制限（999個）に合わせてクエリを分割
-    const chunkSize = 999;
-    const chunks = [];
-    for (let i = 0; i < scorelogEntries.length; i += chunkSize) {
-        chunks.push(scorelogEntries.slice(i, i + chunkSize));
-    }
+    // SQLiteのIN句の制限に合わせてクエリを分割
+    const chunks = splitIntoChunks(scorelogEntries);
 
     // 分割されたチャンクごとに処理
     for (const chunk of chunks) {
@@ -51,9 +48,11 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                 const parsedOldClear = String(row.oldclear);
                 const parsedOldBp = parseInt(row.oldminbp);
                 const parsedNewBp = parseInt(row.minbp);
+                const parsedOldScore = parseInt(row.oldscore);
+                const parsedScore = parseInt(row.score);
 
-                // スコアが更新されていない場合はスキップ
-                if (parsedOldClear === parsedClear && parsedOldBp === parsedNewBp) {
+                // ランプ・BP・スコアがすべて変わらない場合のみスキップ
+                if (parsedOldClear === parsedClear && parsedOldBp === parsedNewBp && parsedOldScore === parsedScore) {
                     continue;
                 }
 
@@ -67,9 +66,12 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                     jsonOutput.get(formattedDate).set(entry.title, {
                         clear: "-1",
                         old_bp: parsedOldBp,
-                        new_bp: parsedNewBp
+                        new_bp: parsedNewBp,
+                        old_score: parsedOldScore,
+                        new_score: parsedScore,
+                        sha256: entry.sha256
                     });
-                } 
+                }
                 // 既存のデータを更新
                 const existingData = jsonOutput.get(formattedDate).get(entry.title);
 
@@ -86,6 +88,14 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                     if (parsedNewBp < existingData.new_bp) {
                         existingData.new_bp = parsedNewBp;
                     }
+                }
+
+                // old_scoreとnew_scoreを更新（old_scoreはより小さい値=開始時点、new_scoreはより大きい値=最終結果）
+                if (parsedOldScore < existingData.old_score) {
+                    existingData.old_score = parsedOldScore;
+                }
+                if (parsedScore > existingData.new_score) {
+                    existingData.new_score = parsedScore;
                 }
                 
             } else {
