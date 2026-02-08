@@ -48,9 +48,11 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                 const parsedOldClear = String(row.oldclear);
                 const parsedOldBp = parseInt(row.oldminbp);
                 const parsedNewBp = parseInt(row.minbp);
+                const parsedOldScore = parseInt(row.oldscore);
+                const parsedScore = parseInt(row.score);
 
-                // スコアが更新されていない場合はスキップ
-                if (parsedOldClear === parsedClear && parsedOldBp === parsedNewBp) {
+                // ランプ・BP・スコアがすべて変わらない場合のみスキップ
+                if (parsedOldClear === parsedClear && parsedOldBp === parsedNewBp && parsedOldScore === parsedScore) {
                     continue;
                 }
 
@@ -64,9 +66,12 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                     jsonOutput.get(formattedDate).set(entry.title, {
                         clear: "-1",
                         old_bp: parsedOldBp,
-                        new_bp: parsedNewBp
+                        new_bp: parsedNewBp,
+                        old_score: parsedOldScore,
+                        new_score: parsedScore,
+                        sha256: entry.sha256
                     });
-                } 
+                }
                 // 既存のデータを更新
                 const existingData = jsonOutput.get(formattedDate).get(entry.title);
 
@@ -83,6 +88,14 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
                     if (parsedNewBp < existingData.new_bp) {
                         existingData.new_bp = parsedNewBp;
                     }
+                }
+
+                // old_scoreとnew_scoreを更新（old_scoreはより小さい値=開始時点、new_scoreはより大きい値=最終結果）
+                if (parsedOldScore < existingData.old_score) {
+                    existingData.old_score = parsedOldScore;
+                }
+                if (parsedScore > existingData.new_score) {
+                    existingData.new_score = parsedScore;
                 }
                 
             } else {

@@ -58,6 +58,7 @@ const translations = {
         'template.bp_only': 'BP更新のみ',
         'template.new_clear': '新規',
         'template.days_per_page': '日/ページ',
+        'template.score_update': 'スコア更新',
     },
     en: {
         // index.html
@@ -118,6 +119,7 @@ const translations = {
         'template.bp_only': 'BP Updates Only',
         'template.new_clear': 'New ',
         'template.days_per_page': ' days/page',
+        'template.score_update': 'Score Update',
     }
 };
 

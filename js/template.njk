@@ -37,6 +37,18 @@
                     </ul>
                 </li>
             {% endfor %}
+            {% if date_data.score_updates and date_data.score_updates | length > 0 %}
+                <h3 style="background-color: rgba(240, 240, 240, 0.15); padding: 5px 10px; border-radius: 4px;">{{ i18n.scoreUpdate }}</h3>
+                <ul class="title-list">
+                {% for score_data in date_data.score_updates %}
+                    <li class="title-item">{{ score_data.title }}
+                        <ul class="bp-list">
+                            <li>Score: {{ score_data.old_score }} → {{ score_data.new_score }}{% if score_data.score_rate %} ({{ score_data.score_rate }}%){% endif %}</li>
+                        </ul>
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
         </div>
     {% endfor %}
     </div>

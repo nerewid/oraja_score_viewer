@@ -218,7 +218,7 @@ function processAndSortData(data) {
 const processedEntries = Object.entries(data).map(([date, songData]) => {
     const processedSongData = {};
     for (const songTitle in songData) {
-    const entry = { ...songData[songTitle] }; // Shallow copy
+    const { sha256, ...entry } = songData[songTitle]; // sha256を除外してコピー
 
     if (entry.old_bp === BP_NOT_PLAYED) {
         entry.old_bp = "Not Played";
