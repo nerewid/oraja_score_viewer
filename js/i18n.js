@@ -40,6 +40,11 @@ const translations = {
         'lamp.load_score_first': 'score.db を先に読み込んでください。',
         'lamp.song_list_error': '曲リストの表示に失敗しました。',
         'lamp.table_load_error': '難易度表読込エラー',
+        'lamp.table.title': '譜面名',
+        'lamp.table.bp': 'BP',
+        'lamp.table.notes': 'Notes',
+        'lamp.table.exscore': 'EXスコア',
+        'lamp.table.rate': 'スコアレート',
         // heatmap_generator.js
         'heatmap.notes': '打鍵数ヒートマップ ',
         'heatmap.progress': '更新数ヒートマップ ',
@@ -101,6 +106,11 @@ const translations = {
         'lamp.load_score_first': 'Please load score.db first.',
         'lamp.song_list_error': 'Failed to display song list.',
         'lamp.table_load_error': 'Table load error',
+        'lamp.table.title': 'Title',
+        'lamp.table.bp': 'BP',
+        'lamp.table.notes': 'Notes',
+        'lamp.table.exscore': 'EX Score',
+        'lamp.table.rate': 'Score Rate',
         // heatmap_generator.js
         'heatmap.notes': 'Notes Heatmap ',
         'heatmap.progress': 'Progress Heatmap ',

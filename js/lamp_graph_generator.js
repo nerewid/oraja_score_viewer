@@ -25,6 +25,9 @@ let difficultyTablesConfig = [];
 let currentAggregatedData = null;
 let currentShortName = null;
 
+// 曲リストのソート状態
+let songListSortState = { column: 'title', ascending: true };
+
 // HTML要素への参照
 const difficultyTableSelect = document.getElementById('difficulty-table-select');
 const lnModeRadios = document.querySelectorAll('input[type="radio"][name="ln-mode"]');
@@ -122,7 +125,7 @@ async function loadSongData(internalFileName) {
  * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
  */
 async function getScoresBySha256s(sha256List, selectedLnModeValue) {
-    const queryTemplate = `SELECT sha256, clear, minbp FROM score WHERE mode = ${selectedLnModeValue} AND sha256 IN ({placeholders})`;
+    const queryTemplate = `SELECT sha256, clear, minbp, notes, mode, epg, lpg, egr, lgr FROM score WHERE mode = ${selectedLnModeValue} AND sha256 IN ({placeholders})`;
 
     const scoresMap = await executeBatchQuery(SQL, scoreDbData, queryTemplate, sha256List, (row, result) => {
         const clearValue = Number(row.clear);
@@ -133,7 +136,7 @@ async function getScoresBySha256s(sha256List, selectedLnModeValue) {
         const lpg = Number(row.lpg);
         const egr = Number(row.egr);
         const lgr = Number(row.lgr);
-        const exscore = epg + lpg + egr + lgr;
+        const exscore = (epg + lpg) * 2 + egr + lgr;
 
         result.set(row.sha256, {
             clear: isNaN(clearValue) ? 0 : clearValue,
@@ -500,11 +503,189 @@ function getContrastColor(hexcolor) {
  * @param {string} clearStatus - 選択されたクリア状態
  * @param {Map<string, Map<string, { count: number, songs: Array<object> }>>} aggregatedData - 集計データ
  */
+/**
+ * 曲リストをソートする
+ * @param {Array<object>} songs - ソート対象の曲配列
+ * @param {string} column - ソートカラム名
+ * @param {boolean} ascending - 昇順ならtrue
+ * @returns {Array<object>} ソート済みの新しい配列
+ */
+function sortSongs(songs, column, ascending) {
+    return [...songs].sort((a, b) => {
+        if (column === 'title') {
+            const aVal = a.title || '';
+            const bVal = b.title || '';
+            return ascending ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+        }
+
+        // 数値カラム
+        let aVal, bVal;
+        if (column === 'bp') {
+            aVal = (a.minbp !== null && !isNaN(a.minbp)) ? a.minbp : null;
+            bVal = (b.minbp !== null && !isNaN(b.minbp)) ? b.minbp : null;
+        } else if (column === 'notes') {
+            aVal = (a.notes !== null && !isNaN(a.notes)) ? a.notes : null;
+            bVal = (b.notes !== null && !isNaN(b.notes)) ? b.notes : null;
+        } else if (column === 'exscore') {
+            aVal = (a.exscore !== null && !isNaN(a.exscore)) ? a.exscore : null;
+            bVal = (b.exscore !== null && !isNaN(b.exscore)) ? b.exscore : null;
+        } else if (column === 'rate') {
+            aVal = (a.notes && a.exscore !== null && !isNaN(a.exscore) && a.notes > 0) ? (a.exscore / (a.notes * 2)) * 100 : null;
+            bVal = (b.notes && b.exscore !== null && !isNaN(b.exscore) && b.notes > 0) ? (b.exscore / (b.notes * 2)) * 100 : null;
+        }
+
+        // null値はソート末尾に配置
+        if (aVal === null && bVal === null) return 0;
+        if (aVal === null) return 1;
+        if (bVal === null) return -1;
+        return ascending ? aVal - bVal : bVal - aVal;
+    });
+}
+
+/**
+ * ソートインジケーター（▲/▼）を更新する
+ * @param {HTMLTableElement} table - 対象テーブル
+ */
+function updateSortIndicators(table) {
+    const ths = table.querySelectorAll('thead th[data-sort]');
+    ths.forEach(th => {
+        const col = th.getAttribute('data-sort');
+        const indicator = th.querySelector('.sort-indicator');
+        if (col === songListSortState.column) {
+            indicator.textContent = songListSortState.ascending ? ' ▲' : ' ▼';
+            th.classList.add('sort-active');
+        } else {
+            indicator.textContent = '';
+            th.classList.remove('sort-active');
+        }
+    });
+}
+
+/**
+ * tbodyのみを再描画する
+ * @param {HTMLTableElement} table - 対象テーブル
+ * @param {Array<object>} songs - 元の曲配列
+ */
+function createTableBody(table, songs) {
+    const oldTbody = table.querySelector('tbody');
+    if (oldTbody) oldTbody.remove();
+
+    const sorted = sortSongs(songs, songListSortState.column, songListSortState.ascending);
+    const tbody = document.createElement('tbody');
+
+    sorted.forEach(song => {
+        const tr = document.createElement('tr');
+
+        // 譜面名
+        const tdTitle = document.createElement('td');
+        tdTitle.classList.add('title-cell');
+        if (song.site_url) {
+            const link = document.createElement('a');
+            link.href = song.site_url;
+            link.textContent = song.title;
+            link.target = '_blank';
+            tdTitle.appendChild(link);
+        } else {
+            tdTitle.textContent = song.title;
+        }
+        tr.appendChild(tdTitle);
+
+        // BP
+        const tdBp = document.createElement('td');
+        tdBp.classList.add('numeric-cell');
+        tdBp.textContent = (song.minbp !== null && !isNaN(song.minbp)) ? song.minbp : '-';
+        tr.appendChild(tdBp);
+
+        // Notes
+        const tdNotes = document.createElement('td');
+        tdNotes.classList.add('numeric-cell');
+        tdNotes.textContent = (song.notes !== null && !isNaN(song.notes) && song.notes > 0) ? song.notes : '-';
+        tr.appendChild(tdNotes);
+
+        // EXスコア
+        const tdExscore = document.createElement('td');
+        tdExscore.classList.add('numeric-cell');
+        tdExscore.textContent = (song.exscore !== null && !isNaN(song.exscore) && song.exscore > 0) ? song.exscore : '-';
+        tr.appendChild(tdExscore);
+
+        // スコアレート
+        const tdRate = document.createElement('td');
+        tdRate.classList.add('numeric-cell');
+        if (song.notes && song.notes > 0 && song.exscore !== null && !isNaN(song.exscore) && song.exscore > 0) {
+            const rate = (song.exscore / (song.notes * 2)) * 100;
+            tdRate.textContent = rate.toFixed(2) + '%';
+        } else {
+            tdRate.textContent = '-';
+        }
+        tr.appendChild(tdRate);
+
+        tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+}
+
+/**
+ * 曲リストテーブルを生成する
+ * @param {Array<object>} songs - 表示する曲配列
+ * @returns {HTMLTableElement} 生成されたテーブル要素
+ */
+function createSongTable(songs) {
+    const table = document.createElement('table');
+    table.classList.add('song-list-table');
+
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+
+    const columns = [
+        { key: 'title', label: t('lamp.table.title') },
+        { key: 'bp', label: t('lamp.table.bp') },
+        { key: 'notes', label: t('lamp.table.notes') },
+        { key: 'exscore', label: t('lamp.table.exscore') },
+        { key: 'rate', label: t('lamp.table.rate') },
+    ];
+
+    columns.forEach(col => {
+        const th = document.createElement('th');
+        th.setAttribute('data-sort', col.key);
+        if (col.key !== 'title') th.classList.add('numeric-cell');
+
+        const labelSpan = document.createElement('span');
+        labelSpan.textContent = col.label;
+        th.appendChild(labelSpan);
+
+        const indicator = document.createElement('span');
+        indicator.classList.add('sort-indicator');
+        th.appendChild(indicator);
+
+        th.addEventListener('click', () => {
+            if (songListSortState.column === col.key) {
+                songListSortState.ascending = !songListSortState.ascending;
+            } else {
+                songListSortState.column = col.key;
+                songListSortState.ascending = true;
+            }
+            createTableBody(table, songs);
+            updateSortIndicators(table);
+        });
+
+        headerRow.appendChild(th);
+    });
+
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    createTableBody(table, songs);
+    updateSortIndicators(table);
+
+    return table;
+}
+
 function displaySongList(level, clearStatus, aggregatedData, shortName) {
     songListArea.innerHTML = ''; // 既存のリストをクリア
 
     const levelData = aggregatedData.get(level);
-    const clearData = levelData?.get(clearStatus); // Optional chaining
+    const clearData = levelData?.get(clearStatus);
 
     if (!clearData || clearData.songs.length === 0) {
         songListArea.textContent = t('lamp.no_songs');
@@ -513,44 +694,16 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
 
     const songsToShow = clearData.songs;
 
-    // title でソート (clearは同じはずなので不要)
-    const sortedSongs = [...songsToShow].sort((a, b) => {
-        // localeCompareでタイトルを比較
-        return a.title.localeCompare(b.title);
-    });
+    // ソート状態をリセット
+    songListSortState = { column: 'title', ascending: true };
 
     const listTitle = document.createElement('h3');
     const clearName = CLEAR_STATUS[clearStatus]?.name || `Status ${clearStatus}`;
-    listTitle.textContent = `${shortName}${level} - ${clearName} (${sortedSongs.length} songs)`;
+    listTitle.textContent = `${shortName}${level} - ${clearName} (${songsToShow.length} songs)`;
     songListArea.appendChild(listTitle);
 
-    const ul = document.createElement('ul');
-    ul.classList.add('song-list');
-
-    sortedSongs.forEach(song => {
-        const li = document.createElement('li');
-        const titleElement = document.createElement('span'); // タイトル部分の要素
-
-        // BPが存在し、かつ数値である場合のみ表示 (nullチェックとNaNチェック)
-        const bpText = (song.minbp !== null && !isNaN(song.minbp)) ? ` / BP: ${song.minbp}` : '';
-        titleElement.textContent = `${song.title}`;
-
-        if (song.site_url) {
-            const link = document.createElement('a');
-            link.href = song.site_url;
-            link.textContent = titleElement.textContent; // リンクのテキストは元のタイトル
-            link.target = '_blank';
-            li.appendChild(link);
-        } else {
-            li.appendChild(titleElement); // site_url がない場合はそのままテキストを追加
-        }
-
-        li.appendChild(document.createTextNode(bpText)); // BPテキストはタイトル要素の後に追加
-
-        ul.appendChild(li);
-    });
-
-    songListArea.appendChild(ul);
+    const table = createSongTable(songsToShow);
+    songListArea.appendChild(table);
 }
 
 

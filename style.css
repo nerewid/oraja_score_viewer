@@ -537,6 +537,85 @@ a:hover {
 }
 
 /* ============================================
+   Song List Table (Lamp Viewer)
+   ============================================ */
+.song-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin-top: var(--space-sm);
+}
+
+.song-list-table thead th {
+    background: linear-gradient(180deg, rgba(0, 212, 255, 0.15) 0%, rgba(0, 212, 255, 0.05) 100%);
+    color: var(--text-secondary);
+    font-weight: 600;
+    padding: var(--space-sm) var(--space-md);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: color var(--transition-fast), background var(--transition-fast);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.song-list-table thead th:hover {
+    background: rgba(0, 212, 255, 0.15);
+    color: var(--text-primary);
+}
+
+.song-list-table thead th.sort-active {
+    color: var(--accent-primary);
+}
+
+.song-list-table thead th .sort-indicator {
+    font-size: 0.75em;
+    margin-left: var(--space-xs);
+}
+
+.song-list-table tbody td {
+    padding: var(--space-xs) var(--space-md);
+    border-bottom: 1px solid var(--bg-tertiary);
+    color: var(--text-primary);
+}
+
+.song-list-table tbody tr:hover td {
+    background: rgba(0, 212, 255, 0.05);
+}
+
+.song-list-table .numeric-cell {
+    text-align: right;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+}
+
+.song-list-table .title-cell {
+    word-break: break-word;
+}
+
+.song-list-table a {
+    color: var(--text-primary);
+    transition: color var(--transition-fast);
+}
+
+.song-list-table a:hover {
+    color: var(--accent-primary);
+}
+
+@media screen and (max-width: 768px) {
+    .song-list-table {
+        font-size: 0.8em;
+    }
+
+    .song-list-table thead th,
+    .song-list-table tbody td {
+        padding: var(--space-xs) var(--space-sm);
+    }
+}
+
+/* ============================================
    Results Area
    ============================================ */
 #results-area {
