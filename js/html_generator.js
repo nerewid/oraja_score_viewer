@@ -1,6 +1,7 @@
 import {generateNotesData} from './heatmap_generator.js'; // ヒートマップ用のノーツ数データを生成する関数をインポート
 import {scoreDbData} from './db_uploader.js'; // スコアデータベースのデータをインポート
 import { t } from './i18n.js'; // i18n翻訳関数をインポート
+import { CLEAR_STATUS } from './constants.js'; // 共有定数をインポート
 
 /**
  * JSON形式のデータとテンプレートファイルを受け取り、HTMLを生成する非同期関数
@@ -9,21 +10,6 @@ import { t } from './i18n.js'; // i18n翻訳関数をインポート
  * @returns {Promise<string>} 生成されたHTML文字列
  */
 export async function generateHtmlFromJson(jsonOutput, templateFile) {
-    // クリアステータスとそれに対応する名前と色を定義したオブジェクト
-    const clear_status = {
-        "10": { "name": "Max", "color": "rgba(255, 215, 0, 0.5)" },
-        "9": { "name": "Perfect", "color": "rgba(173, 255, 47, 0.5)" },
-        "8": { "name": "FullCombo", "color": "rgba(0, 255, 255, 0.5)" },
-        "7": { "name": "ExHard", "color": "rgba(255, 165, 0, 0.5)" },
-        "6": { "name": "Hard", "color": "rgba(192, 0, 0, 0.5)" },
-        "5": { "name": "Normal", "color": "rgba(135, 206, 235, 0.5)" },
-        "4": { "name": "Easy", "color": "rgba(0, 128, 0, 0.5)" },
-        "3": { "name": "LightAssistEasy", "color": "rgba(255, 192, 203, 0.5)" },
-        "2": { "name": "AssistEasy", "color": "rgba(128, 0, 128, 0.5)" },
-        "1": { "name": "Failed", "color": "rgba(128, 0, 0, 0.5)" },
-        "0": { "name": "NoPlay", "color": "rgba(0, 0, 0, 0.5)" }
-    };
-    
     try {
         // テンプレートファイル取得
         const templateResponse = await fetch(templateFile);
@@ -72,7 +58,7 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
                 newClear: t('template.new_clear'),
                 daysPerPage: t('template.days_per_page'),
             };
-            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: clear_status, notes: notesMap, i18n: i18n });
+            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: CLEAR_STATUS, notes: notesMap, i18n: i18n });
             return html; // 生成されたHTMLを返す
         } catch (nunjucksError) {
             // Nunjucksテンプレートのエラーをコンソールに出力し、エラーメッセージを含むHTMLを返す

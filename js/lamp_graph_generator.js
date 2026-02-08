@@ -5,6 +5,8 @@ import { getSha256ToMd5Map } from './score_change_to_json.js';
 import { scoreDbData } from './db_uploader.js';
 import { songdataDbData } from './db_uploader.js';
 import { t } from './i18n.js';
+import { CLEAR_STATUS, CLEAR_STATUS_ORDER } from './constants.js';
+import { executeBatchQuery } from './utils/batch-query.js';
 
 // --- グローバル変数・定数 ---
 
@@ -17,22 +19,11 @@ let Md5Tosha256Map;
 // 難易度表の定義一覧（levels配列を含む）
 let difficultyTablesConfig = [];
 
-// クリアランプの定義
-const clear_status = {
-    "10": { "name": "Max", "color": "rgba(255, 215, 0, 0.5)" },
-    "9": { "name": "Perfect", "color": "rgba(173, 255, 47, 0.5)" },
-    "8": { "name": "FullCombo", "color": "rgba(0, 255, 255, 0.5)" },
-    "7": { "name": "ExHard", "color": "rgba(255, 165, 0, 0.5)" },
-    "6": { "name": "Hard", "color": "rgba(192, 0, 0, 0.5)" },
-    "5": { "name": "Normal", "color": "rgba(135, 206, 235, 0.5)" },
-    "4": { "name": "Easy", "color": "rgba(0, 128, 0, 0.5)" },
-    "3": { "name": "LightAssistEasy", "color": "rgba(255, 192, 203, 0.5)" },
-    "2": { "name": "AssistEasy", "color": "rgba(128, 0, 128, 0.5)" },
-    "1": { "name": "Failed", "color": "rgba(128, 0, 0, 0.5)" },
-    "0": { "name": "Not Played", "color": "rgba(32, 32, 32, 0.5)" },
-    "-1": { "name": "No Chart", "color": "rgba(0, 0, 0, 0.5)" }
-};
-const clear_status_order = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0", "-1"]; // 描画順
+// CLEAR_STATUS, CLEAR_STATUS_ORDER は constants.js から、チャンク関数は sql-chunker.js からインポート
+
+// 現在選択中の集計データ（モジュールスコープ）
+let currentAggregatedData = null;
+let currentShortName = null;
 
 // HTML要素への参照
 const difficultyTableSelect = document.getElementById('difficulty-table-select');
@@ -126,117 +117,33 @@ async function loadSongData(internalFileName) {
 
 /**
  * 指定された複数のSHA256ハッシュに対応するスコアデータをscoreDbData(Uint8Array)から一括取得する
- * SQLiteのIN句を使用し、パフォーマンスを向上させる。
- * SQL.jsの prepare -> bind -> step -> getAsObject -> free パターンを使用します。
  * @param {Array<string>} sha256List - 取得したいスコアのSHA256ハッシュ値の配列
+ * @param {number} selectedLnModeValue - LNモード値
  * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
  */
 async function getScoresBySha256s(sha256List, selectedLnModeValue) {
-    const scoresMap = new Map(); // 結果を格納するMap<sha256, scoreData>
+    const queryTemplate = `SELECT sha256, clear, minbp FROM score WHERE mode = ${selectedLnModeValue} AND sha256 IN ({placeholders})`;
 
-    if (!scoreDbData || !(scoreDbData instanceof Uint8Array)) {
-        console.error("scoreDbData が Uint8Array としてロードされていません。");
-        return scoresMap; // 空のMapを返す
-    }
-    if (!SQL) {
-        console.error("SQL.jsが初期化されていません。");
-        return scoresMap; // 空のMapを返す
-    }
+    const scoresMap = await executeBatchQuery(SQL, scoreDbData, queryTemplate, sha256List, (row, result) => {
+        const clearValue = Number(row.clear);
+        const minbpValue = row.minbp !== undefined && row.minbp !== null ? Number(row.minbp) : null;
+        const notes = Number(row.notes);
+        const mode = Number(row.mode);
+        const epg = Number(row.epg);
+        const lpg = Number(row.lpg);
+        const egr = Number(row.egr);
+        const lgr = Number(row.lgr);
+        const exscore = epg + lpg + egr + lgr;
 
-    // 取得対象のSHA256リストが空の場合は処理不要
-    if (!sha256List || sha256List.length === 0) {
-        return scoresMap;
-    }
+        result.set(row.sha256, {
+            clear: isNaN(clearValue) ? 0 : clearValue,
+            minbp: isNaN(minbpValue) ? null : minbpValue,
+            notes: notes,
+            mode: mode,
+            exscore: exscore
+        });
+    });
 
-    const BATCH_SIZE = 999; // SQLiteのIN句の一般的な制限数 (環境により異なる可能性あり)
-    let db = null;
-
-    try {
-        // Uint8Arrayからデータベースを開く（この関数呼び出し中は開いたままにする）
-        db = new SQL.Database(scoreDbData);
-
-        // SHA256リストをバッチサイズで分割して処理
-        for (let i = 0; i < sha256List.length; i += BATCH_SIZE) {
-            const batch = sha256List.slice(i, i + BATCH_SIZE);
-
-            // バッチが空の場合はスキップ
-            if (batch.length === 0) {
-                continue;
-            }
-
-            // IN句のためのプレースホルダ文字列を生成 (例: ?, ?, ?)
-            const placeholders = batch.map(() => '?').join(',');
-
-            // クエリ文字列を作成
-            // sha256カラムも取得する必要がある点に注意
-            const query = `SELECT sha256, clear, minbp FROM score WHERE mode = ${selectedLnModeValue} AND sha256 IN (${placeholders})`;
-
-            let stmt = null;
-            try {
-                // --- 修正点: prepare, bind, step, getAsObject を使用 ---
-                // クエリを準備
-                stmt = db.prepare(query);
-
-                // バッチ内のSHA256値をバインド
-                stmt.bind(batch);
-
-                // 結果セットを一行ずつ処理
-                while (stmt.step()) {
-                    // 現在の行をオブジェクトとして取得
-                    const row = stmt.getAsObject();
-
-                    // 元の getScoreBySha256 と同様に型変換とnull/undefined/NaN対応を行う
-                    const clearValue = Number(row.clear);
-                     // minbpがDBでNULLの場合、SQL.jsはnullまたはundefinedを返す可能性があるため両方チェック
-                    const minbpValue = row.minbp !== undefined && row.minbp !== null ? Number(row.minbp) : null;
-                    const notes =  Number(row.notes);
-                    const mode =  Number(row.mode);
-                    let epg = Number(row.epg);
-                    let lpg = Number(row.lpg);
-                    let egr = Number(row.egr);
-                    let lgr = Number(row.lgr);
-                    let exscore =  epg + lpg + egr + lgr;
-                    // 取得した結果をMapに格納
-                    scoresMap.set(row.sha256, {
-                        clear: isNaN(clearValue) ? 0 : clearValue, // NaNの場合は0扱い
-                        minbp: isNaN(minbpValue) ? null : minbpValue, // NaNの場合はnull扱い
-                        notes: notes,
-                        mode: mode,
-                        exscore: exscore
-                    });
-                }
-
-            } catch (batchQueryError) {
-                // バッチクエリ実行中のエラー
-                console.error(`スコア一括取得クエリの実行中にエラーが発生しました (バッチ ${i}-${Math.min(i + BATCH_SIZE - 1, sha256List.length - 1)}):`, batchQueryError);
-                // このバッチはスキップされますが、他のバッチは続行します。
-            } finally {
-                // 使用済みステートメントを解放
-                // エラー発生時も解放されるように finally で囲む
-                if (stmt) {
-                    try { stmt.free(); } catch(e) { console.error("Statement free中にエラー:", e); }
-                }
-            }
-        }
-
-    } catch (dbError) {
-        // データベースを開く際のエラー
-        console.error("データベースを開く際にエラーが発生しました:", dbError);
-        // ここでエラーが発生した場合、処理を中断し、取得済みのMapを返します (通常は空)。
-        return scoresMap;
-    } finally {
-        // データベース接続を閉じる
-        // エラー発生時も確実に閉じるように finally で囲む
-        if (db) {
-            try {
-                db.close();
-            } catch (closeError) {
-                console.error("データベースのクローズ中にエラーが発生しました:", closeError);
-            }
-        }
-    }
-
-    // 処理が完了したMapを返す
     console.log(`スコア一括取得完了。取得できたスコア数: ${scoresMap.size}`);
     return scoresMap;
 }
@@ -244,100 +151,18 @@ async function getScoresBySha256s(sha256List, selectedLnModeValue) {
 
 /**
  * 指定された複数のSHA256ハッシュに対応する楽曲データがsongdataに存在するか判定する
- * SQLiteのIN句を使用し、パフォーマンスを向上させる。
- * SQL.jsの prepare -> bind -> step -> getAsObject -> free パターンを使用します。
- * @param {Array<string>} sha256List - 取得したいスコアのSHA256ハッシュ値の配列
- * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
+ * @param {Array<string>} sha256List - 確認したいSHA256ハッシュ値の配列
+ * @returns {Promise<Array<string>>} - 存在するSHA256の配列
  */
 async function checkExistSongsBySha256s(sha256List) {
-    const scoresMap = new Array(); // 結果を格納する[sha256]
+    const queryTemplate = `SELECT sha256 FROM song WHERE sha256 IN ({placeholders})`;
 
-    if (!songdataDbData || !(songdataDbData instanceof Uint8Array)) {
-        console.error("songdataDbData が Uint8Array としてロードされていません。");
-        return scoresMap; // 空のMapを返す
-    }
-    if (!SQL) {
-        console.error("SQL.jsが初期化されていません。");
-        return scoresMap; // 空のMapを返す
-    }
+    const existingSongs = await executeBatchQuery(SQL, songdataDbData, queryTemplate, sha256List, (row, result) => {
+        result.push(row.sha256);
+    }, () => []);
 
-    // 取得対象のSHA256リストが空の場合は処理不要
-    if (!sha256List || sha256List.length === 0) {
-        return scoresMap;
-    }
-
-    const BATCH_SIZE = 999; // SQLiteのIN句の一般的な制限数 (環境により異なる可能性あり)
-    let db = null;
-
-    try {
-        // Uint8Arrayからデータベースを開く（この関数呼び出し中は開いたままにする）
-        db = new SQL.Database(songdataDbData);
-
-        // SHA256リストをバッチサイズで分割して処理
-        for (let i = 0; i < sha256List.length; i += BATCH_SIZE) {
-            const batch = sha256List.slice(i, i + BATCH_SIZE);
-
-            // バッチが空の場合はスキップ
-            if (batch.length === 0) {
-                continue;
-            }
-
-            // IN句のためのプレースホルダ文字列を生成 (例: ?, ?, ?)
-            const placeholders = batch.map(() => '?').join(',');
-
-            // クエリ文字列を作成
-            // sha256カラムも取得する必要がある点に注意
-            const query = `SELECT sha256 FROM song WHERE sha256 IN (${placeholders})`;
-
-            let stmt = null;
-            try {
-                // --- 修正点: prepare, bind, step, getAsObject を使用 ---
-                // クエリを準備
-                stmt = db.prepare(query);
-
-                // バッチ内のSHA256値をバインド
-                stmt.bind(batch);
-
-                // 結果セットを一行ずつ処理
-                while (stmt.step()) {
-                    // 現在の行をオブジェクトとして取得
-                    const row = stmt.getAsObject();
-                    scoresMap.push(row.sha256);
-                }
-
-            } catch (batchQueryError) {
-                // バッチクエリ実行中のエラー
-                console.error(`楽曲データ取得クエリの実行中にエラーが発生しました (バッチ ${i}-${Math.min(i + BATCH_SIZE - 1, sha256List.length - 1)}):`, batchQueryError);
-                // このバッチはスキップされますが、他のバッチは続行します。
-            } finally {
-                // 使用済みステートメントを解放
-                // エラー発生時も解放されるように finally で囲む
-                if (stmt) {
-                    try { stmt.free(); } catch(e) { console.error("Statement free中にエラー:", e); }
-                }
-            }
-        }
-
-    } catch (dbError) {
-        // データベースを開く際のエラー
-        console.error("データベースを開く際にエラーが発生しました:", dbError);
-        // ここでエラーが発生した場合、処理を中断し、取得済みのMapを返します (通常は空)。
-        return scoresMap;
-    } finally {
-        // データベース接続を閉じる
-        // エラー発生時も確実に閉じるように finally で囲む
-        if (db) {
-            try {
-                db.close();
-            } catch (closeError) {
-                console.error("データベースのクローズ中にエラーが発生しました:", closeError);
-            }
-        }
-    }
-
-    // 処理が完了したMapを返す
-    console.log(`楽曲データ一括取得完了。取得できた譜面数: ${scoresMap.size}`);
-    return scoresMap;
+    console.log(`楽曲データ一括取得完了。取得できた譜面数: ${existingSongs.length}`);
+    return existingSongs;
 }
 
 
@@ -565,7 +390,7 @@ function displayLampGraphs(aggregatedData, shortName, predefinedLevels) {
 
         let currentPercentage = 0;
 
-        for (const clearCode of clear_status_order) {
+        for (const clearCode of CLEAR_STATUS_ORDER) {
             const clearData = levelData.get(clearCode);
             if (clearData && clearData.count > 0) {
                 const percentage = (clearData.count / totalSongsInLevel) * 100;
@@ -573,14 +398,14 @@ function displayLampGraphs(aggregatedData, shortName, predefinedLevels) {
                 const segment = document.createElement('div');
                 segment.classList.add('lamp-graph-segment');
                 segment.style.width = `${percentage}%`;
-                segment.style.backgroundColor = clear_status[clearCode]?.color || '#888';
+                segment.style.backgroundColor = CLEAR_STATUS[clearCode]?.color || '#888';
                 segment.style.left = `${currentPercentage}%`;
                 segment.dataset.clearStatus = clearCode;
-                segment.title = `${clear_status[clearCode]?.name || 'Unknown'}: ${clearData.count} songs (${percentage.toFixed(1)}%)`;
+                segment.title = `${CLEAR_STATUS[clearCode]?.name || 'Unknown'}: ${clearData.count} songs (${percentage.toFixed(1)}%)`;
 
                 const countSpan = document.createElement('span');
                 countSpan.textContent = clearData.count;
-                countSpan.style.color = getContrastColor(clear_status[clearCode]?.color || '#888');
+                countSpan.style.color = getContrastColor(CLEAR_STATUS[clearCode]?.color || '#888');
                 segment.appendChild(countSpan);
 
                 graphBar.appendChild(segment);
@@ -646,13 +471,13 @@ async function processDifficultyTableSelection(selectedInternalFileName, selecte
         displayLampGraphs(aggregatedData, shortName, predefinedLevels);
 
         // 4. クリック時に参照する集計データを保持 (より安全な方法を検討しても良い)
-        window.currentAggregatedData = aggregatedData;
-        window.currentShortName = shortName;
+        currentAggregatedData = aggregatedData;
+        currentShortName = shortName;
 
     } catch (error) {
         console.error('難易度表データの処理中にエラーが発生しました:', error);
         lampGraphArea.innerHTML = `<p style="color: red;">データの処理中にエラーが発生しました: ${error.message}</p>`;
-        window.currentAggregatedData = null; // エラー時はデータもクリア
+        currentAggregatedData = null; // エラー時はデータもクリア
     }
 }
 
@@ -695,7 +520,7 @@ function displaySongList(level, clearStatus, aggregatedData, shortName) {
     });
 
     const listTitle = document.createElement('h3');
-    const clearName = clear_status[clearStatus]?.name || `Status ${clearStatus}`;
+    const clearName = CLEAR_STATUS[clearStatus]?.name || `Status ${clearStatus}`;
     listTitle.textContent = `${shortName}${level} - ${clearName} (${sortedSongs.length} songs)`;
     songListArea.appendChild(listTitle);
 
@@ -771,8 +596,8 @@ lampGraphArea.addEventListener('click', (event) => {
         const level = bar.dataset.level; // 親のバーからlevel取得
         const clearStatus = segment.dataset.clearStatus;
 
-        if (level && clearStatus && window.currentAggregatedData) {
-            displaySongList(level, clearStatus, window.currentAggregatedData, window.currentShortName);
+        if (level && clearStatus && currentAggregatedData) {
+            displaySongList(level, clearStatus, currentAggregatedData, currentShortName);
         } else {
              console.warn("クリックされたセグメントから level または clearStatus を取得できませんでした。");
              songListArea.innerHTML = `<p>${t('lamp.song_list_error')}</p>`;

@@ -83,4 +83,12 @@ function handleFileSelect(expectedFileName) {
   };
 }
 
-export { scoreDbData, scorelogDbData, songdataDbData, sqlPromise };
+/**
+ * DB処理完了後にUint8Arrayデータのメモリを解放する関数
+ * scoreDbDataはlamp_graph_generatorで引き続き使用されるため解放しない
+ */
+function releaseScorelogData() {
+    scorelogDbData = null;
+}
+
+export { scoreDbData, scorelogDbData, songdataDbData, sqlPromise, releaseScorelogData };

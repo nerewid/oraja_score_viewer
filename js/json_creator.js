@@ -1,16 +1,13 @@
 import { scorelogDbData, sqlPromise } from './db_uploader.js';
 import { findScoresBySha256s } from './score_data_processor.js';
+import { splitIntoChunks } from './utils/sql-chunker.js';
 
 export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
     // 最終的なJSON出力（日付をキー、曲情報を値とするMap）
     const jsonOutput = new Map();
 
-    // SQLiteのIN句の制限（999個）に合わせてクエリを分割
-    const chunkSize = 999;
-    const chunks = [];
-    for (let i = 0; i < scorelogEntries.length; i += chunkSize) {
-        chunks.push(scorelogEntries.slice(i, i + chunkSize));
-    }
+    // SQLiteのIN句の制限に合わせてクエリを分割
+    const chunks = splitIntoChunks(scorelogEntries);
 
     // 分割されたチャンクごとに処理
     for (const chunk of chunks) {

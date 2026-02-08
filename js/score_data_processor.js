@@ -1,15 +1,14 @@
 import { sqlPromise } from './db_uploader.js';
+import { splitIntoChunks, createPlaceholders } from './utils/sql-chunker.js';
 
 export async function findMissingSha256sByMd5s(db, md5List) {
     if (md5List.length === 0) {
         return new Map();
     }
 
-    const chunkSize = 999;
     const allResults = new Map();
 
-    for (let i = 0; i < md5List.length; i += chunkSize) {
-        const chunk = md5List.slice(i, i + chunkSize);
+    for (const chunk of splitIntoChunks(md5List)) {
         const chunkResults = await executeMd5ChunkQuery(db, chunk);
         for(const [md5,sha256] of chunkResults){
             allResults.set(md5,sha256);
@@ -24,7 +23,7 @@ export async function executeMd5ChunkQuery(db, md5Chunk) {
         return new Map();
     }
 
-    const md5Placeholders = md5Chunk.map(() => '?').join(',');
+    const md5Placeholders = createPlaceholders(md5Chunk.length);
     const query = `SELECT md5, sha256 FROM song WHERE md5 IN (${md5Placeholders})`;
 
     try {
@@ -51,11 +50,9 @@ export async function findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap
         return [];
     }
 
-    const chunkSize = 999;
     const allResults = [];
 
-    for (let i = 0; i < sha256List.length; i += chunkSize) {
-        const chunk = sha256List.slice(i, i + chunkSize);
+    for (const chunk of splitIntoChunks(sha256List)) {
         const chunkResults = await executeChunkQuery(scorelogDb, chunk);
         allResults.push(...chunkResults);
     }
@@ -88,7 +85,7 @@ async function executeChunkQuery(db, sha256Chunk) {
         return [];
     }
 
-    const sha256Placeholders = sha256Chunk.map(() => '?').join(',');
+    const sha256Placeholders = createPlaceholders(sha256Chunk.length);
     const query = `SELECT sha256, date FROM scorelog WHERE sha256 IN (${sha256Placeholders})`; // sha256で検索するように変更
 
     try {

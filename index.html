@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
     <title>oraja_score_viewer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,24 +37,24 @@
         <span data-i18n="upload.score_location" data-i18n-html>score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに</span><br>
         <span data-i18n="upload.songdata_location" data-i18n-html>songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。</span><br>
         <div class="upload-row">
-            <button id="uploadscoredb" data-i18n="button.load_score">score.db を読み込む</button>
-            <input type="file" id="fileInputscore" accept=".db" style="display: none;">
+            <button id="uploadscoredb" data-i18n="button.load_score" aria-describedby="message-score">score.db を読み込む</button>
+            <input type="file" id="fileInputscore" accept=".db" style="display: none;" aria-label="score.dbファイルを選択">
             <div id="fileinfoscore"></div>
-            <div id="message-score" class="message"></div>
+            <div id="message-score" class="message" role="status"></div>
         </div>
 
         <div class="upload-row">
-            <button id="uploadscorelogdb" data-i18n="button.load_scorelog">scorelog.db を読み込む</button>
-            <input type="file" id="fileInputscorelog" accept=".db" style="display: none;">
+            <button id="uploadscorelogdb" data-i18n="button.load_scorelog" aria-describedby="message-scorelog">scorelog.db を読み込む</button>
+            <input type="file" id="fileInputscorelog" accept=".db" style="display: none;" aria-label="scorelog.dbファイルを選択">
             <div id="fileinfoscorelog"></div>
-            <div id="message-scorelog" class="message"></div>
+            <div id="message-scorelog" class="message" role="status"></div>
         </div>
 
         <div class="upload-row">
-            <button id="uploadsongdatadb" data-i18n="button.load_songdata">songdata.db を読み込む</button>
-            <input type="file" id="fileInputsongdata" accept=".db" style="display: none;">
+            <button id="uploadsongdatadb" data-i18n="button.load_songdata" aria-describedby="message-songdata">songdata.db を読み込む</button>
+            <input type="file" id="fileInputsongdata" accept=".db" style="display: none;" aria-label="songdata.dbファイルを選択">
             <div id="fileinfosongdata"></div>
-            <div id="message-songdata" class="message"></div>
+            <div id="message-songdata" class="message" role="status"></div>
         </div>
 
         <button id="processData" disabled data-i18n="button.process">データ処理開始</button>
@@ -84,12 +85,12 @@
         </a>
     </div>
 
-    <div class="tab" id="tab-buttons">
-        <button class="tablinks active" data-tab="tabA">Score Log Viewer</button>
-        <button class="tablinks" data-tab="tabB">Lamp viewer</button>
+    <div class="tab" id="tab-buttons" role="tablist" aria-label="ビューワー切替">
+        <button class="tablinks active" data-tab="tabA" role="tab" aria-selected="true" aria-controls="tabA" id="tab-btn-a">Score Log Viewer</button>
+        <button class="tablinks" data-tab="tabB" role="tab" aria-selected="false" aria-controls="tabB" id="tab-btn-b">Lamp viewer</button>
     </div>
 
-    <div id="tabA" class="tabcontent">
+    <div id="tabA" class="tabcontent" role="tabpanel" aria-labelledby="tab-btn-a">
         <div id="cal-heatmap-notes-pre"></div>
         <div id="cal-heatmap-notes"></div>
         <div id="cal-heatmap-progress-pre"></div>
@@ -97,10 +98,10 @@
         <div id="results-area"></div>
     </div>
 
-    <div id="tabB" class="tabcontent">
+    <div id="tabB" class="tabcontent" role="tabpanel" aria-labelledby="tab-btn-b">
         <div class="horizontal-container">
-            <select id="difficulty-table-select"></select>
-            <div style="display: flex; gap: 15px; align-items: center;">
+            <select id="difficulty-table-select" aria-label="難易度表を選択"></select>
+            <fieldset style="display: flex; gap: 15px; align-items: center; border: none; padding: 0; margin: 0;" role="radiogroup" aria-label="LNモード選択">
                 <label style="cursor: pointer; user-select: none;">
                     <input type="radio" name="ln-mode" value="0" checked style="cursor: pointer; margin-right: 5px;"> LN
                 </label>
@@ -110,7 +111,7 @@
                 <label style="cursor: pointer; user-select: none;">
                     <input type="radio" name="ln-mode" value="2" style="cursor: pointer; margin-right: 5px;"> HCN
                 </label>
-            </div>
+            </fieldset>
         </div>
         <div id="lamp-legend" class="lamp-legend">
             <div class="legend-item"><span class="legend-color" style="background: rgba(255, 215, 0, 0.8);"></span>Max</div>
@@ -125,8 +126,8 @@
             <div class="legend-item"><span class="legend-color" style="background: rgba(128, 0, 0, 0.8);"></span>Failed</div>
             <div class="legend-item"><span class="legend-color" style="background: rgba(32, 32, 32, 0.8);"></span>NoPlay</div>
         </div>
-        <div id="lamp-graph-area"></div>
-        <div id="song-list-area"></div>
+        <div id="lamp-graph-area" role="img" aria-label="ランプ分布グラフ"></div>
+        <div id="song-list-area" aria-live="polite"></div>
     </div>
 
     <script src="./js/lib/sql-wasm.js"></script>
@@ -153,10 +154,14 @@
                 button.addEventListener('click', () => {
                     const tabId = button.dataset.tab;
 
-                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.setAttribute('aria-selected', 'false');
+                    });
                     tabContents.forEach(content => content.style.display = 'none');
 
                     button.classList.add('active');
+                    button.setAttribute('aria-selected', 'true');
                     document.getElementById(tabId).style.display = 'block';
                 });
             });
