@@ -1035,18 +1035,6 @@
         },
         {
             "level": "2",
-            "md5": "8c4979d7749ac54dceb9d89fcbcb5cef",
-            "sha256": "c7f5cc4318f23368df0cbfa89101956e3639f87d0c3635a3c8deb3b4be8a66c8",
-            "genre": "CrossGearRave",
-            "title": "Jesus",
-            "artist": "CrossGear / PEN",
-            "url": "https://onedrive.live.com/?cid=863934608D908CD0&id=863934608D908CD0!105",
-            "url_diff": "",
-            "comment": "イベントページ  http://manbow.nothing.sh/event/event.cgi?action=More_def&num=194&event=65",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8c4979d7749ac54dceb9d89fcbcb5cef"
-        },
-        {
-            "level": "2",
             "md5": "d6065e9de88dff118fc7217f007561cf",
             "sha256": "a326857865e9123f663892d1ba763599a8483f3acf646a98cb4993494a0403b5",
             "genre": "Aesthetic Trance",
@@ -1836,6 +1824,18 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/299",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=96332ffd86d20aa77d6b1fbf7c848334"
+        },
+        {
+            "level": "3",
+            "md5": "8c4979d7749ac54dceb9d89fcbcb5cef",
+            "sha256": "c7f5cc4318f23368df0cbfa89101956e3639f87d0c3635a3c8deb3b4be8a66c8",
+            "genre": "CrossGearRave",
+            "title": "Jesus",
+            "artist": "CrossGear / PEN",
+            "url": "https://onedrive.live.com/?cid=863934608D908CD0&id=863934608D908CD0!105",
+            "url_diff": "",
+            "comment": "イベントページ  http://manbow.nothing.sh/event/event.cgi?action=More_def&num=194&event=65",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8c4979d7749ac54dceb9d89fcbcb5cef"
         },
         {
             "level": "3",
@@ -3543,6 +3543,18 @@
         },
         {
             "level": "5",
+            "md5": "fb72b922a144a6ef029d0c809cd66479",
+            "sha256": "2f40a79c32cda380eb9d15162908db56a0b05a23940714bc7b5cdbeead97dd23",
+            "genre": "PIANO SOLO",
+            "title": "Shamshir -rough Pt.2-[14key,Another]",
+            "artist": "mommy",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=323&event=127",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fb72b922a144a6ef029d0c809cd66479"
+        },
+        {
+            "level": "5",
             "md5": "2844ef63f36c4d9026de0f3514508c94",
             "sha256": "85d67a1dd65dc024005cfebf5765d6f5b6559fdbd4acf8fcc93d176bebe9a6eb",
             "genre": "HARD CORE",
@@ -4692,6 +4704,18 @@
             "url_diff": "https://onedrive.live.com/?authkey=%21AEhUFcPk44lHNWU&id=252E1BC75208EE14%21124&cid=252E1BC75208EE14",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8f98f130b1535956b7f50b403d69f7b9"
+        },
+        {
+            "level": "6",
+            "md5": "0749dad3bb28e56157713884a6f4a650",
+            "sha256": "64a65beb204b0c79747d1601dc6ffe96a7279f50dcc205d15392ce2ca3298df8",
+            "genre": "Drum 'n' ambient",
+            "title": "その斯くも美しき紅に (DP ANOTHER)",
+            "artist": "天音",
+            "url": "http://web.archive.org/web/20120507144453/http://youzyo.net/bms/ama03_kakumo.zip",
+            "url_diff": "https://drive.google.com/file/d/0B4Lag8JPHqO3LU1BMnZVMmNhR0k/view?resourcekey=0-VGjjKifYB5tnpIR5iiodKg",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0749dad3bb28e56157713884a6f4a650"
         },
         {
             "level": "6",
@@ -5926,7 +5950,7 @@
             "artist": "ゆ～兎 Respect for ZUN OBJ:KLOC",
             "url": "http://web.archive.org/web/20140921042451/http://timetorain.web.fc2.com/BMS/Parasitize_Your_Head_ogg.zip",
             "url_diff": "",
-            "comment": null,
+            "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=88c3f3fb8a5d2587fc78735155e33509"
         },
         {

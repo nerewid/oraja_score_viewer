@@ -1575,6 +1575,17 @@
             "site_url": "https://stellabms.xyz/song/865"
         },
         {
+            "id": 7865,
+            "md5": "1cd7b6904fbc9f024123dfbb367b5655",
+            "sha256": "ad3a11f994590da9873fe4e4dd83a5ac4054a7571414fb865837d10dfe119602",
+            "title": "Fleeing Sunlight [乱打から逃げるな]",
+            "artist": "おみー obj:toraji",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=103&event=140",
+            "url_diff": "https://stellabms.xyz/upload/6443",
+            "level": "12",
+            "site_url": "https://stellabms.xyz/song/7865"
+        },
+        {
             "id": 4058,
             "md5": "4049fef0752c925c6d8c9d286301a631",
             "sha256": "cf926ce7657de9640eb0980b523bd867f7b894f77f608413e37343c1ed07bfe0",

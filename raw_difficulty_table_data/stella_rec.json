@@ -651,6 +651,17 @@
             "site_url": "https://stellabms.xyz/song/469"
         },
         {
+            "id": 2943,
+            "md5": "a726522ecd7b6599e9e652f76c9540d1",
+            "sha256": "18c2538d50318621c9349fae934770a88a033fbb1d5c817319865d07971eebbd",
+            "title": "Rainy Gate [Squall]",
+            "artist": "E0ri4 BGA:GAMEBAKA / obj:Guanacoite",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=60&event=127",
+            "url_diff": "https://drive.google.com/file/d/1PRtvsdVVVzuKujL1Y4zehNofQZxCdjir/view",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/2943"
+        },
+        {
             "id": 6568,
             "md5": "7b576c17375689ca2c98342a52efcbd4",
             "sha256": "181dcf4aea4ffec080197390b9e74416e167fc1bcf944a0d1228754da67c6350",
@@ -682,6 +693,17 @@
             "url_diff": "https://dl.dropboxusercontent.com/s/b5mgobkzd2ht5yc/%E2%98%85%E2%98%852%20%E3%82%AB%E3%83%A9%E3%82%AF%E3%83%AA%E5%B1%8B%E6%95%B7%28%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2%E5%9C%B0%E6%96%B9%E7%89%88%29%20%5BHexagon%5D.zip",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/1438"
+        },
+        {
+            "id": 2169,
+            "md5": "a7b3fba3112aa3000b53816a0b3b1a88",
+            "sha256": "ab97a1e1805a843dfe8acdbf2ca3d298f604a3799037f170f7edf6388ea4d3ae",
+            "title": "ペニンシュラの踊り子 The dancer of a peninsula [Hexagon]",
+            "artist": "daisan Movie : highluin / obj.hex",
+            "url": "http://clockxellox.sakura.ne.jp/BMS/Peninsular.zip",
+            "url_diff": "http://bms.hexlataia.xyz/tables/hexajoy.html",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/2169"
         },
         {
             "id": 1874,
@@ -781,6 +803,17 @@
             "url_diff": "https://stellabms.xyz/upload/6313",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/7655"
+        },
+        {
+            "id": 5181,
+            "md5": "39efc3b790d07526f48649a93e76165a",
+            "sha256": "cdd0f51c8e5c5f61e61d4ca075807d675a3861f3e212112f8a369349f596c093",
+            "title": "The Lizard Tail [Hexagon]",
+            "artist": "Luphus obj.hex",
+            "url": "https://bms-mirror.com/pkg/2017/bofu2017/The%20Lizard%20Tail.zip",
+            "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/5181"
         },
         {
             "id": 239,

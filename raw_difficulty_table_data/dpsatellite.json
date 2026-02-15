@@ -398,6 +398,17 @@
             "site_url": "https://stellabms.xyz/song/2070"
         },
         {
+            "id": 8171,
+            "md5": "cb113a6968fa7344d3c9192b0711d195",
+            "sha256": "da6cc694a44626a2982fd5f4319653eeef948574d2ee8db9ec2799c531d47488",
+            "title": "Once in my life [DP Reirei]",
+            "artist": "Manaka Takane feat.Nananao obj: Mercury",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=261&event=74",
+            "url_diff": "https://stellabms.xyz/upload/7013",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/8171"
+        },
+        {
             "id": 4126,
             "md5": "d7e305a2f3685592730aae1baea5735e",
             "sha256": "7fb66a8649a86370eacd0951622510a90a2ca1fc8b4e2aeb6c150ebfd059bf2b",
@@ -2433,6 +2444,17 @@
             "site_url": "https://stellabms.xyz/song/3975"
         },
         {
+            "id": 8194,
+            "md5": "59fc2896627277b6581e7ab3e359fd07",
+            "sha256": "30c46343b6fa184bc8be0889ec62618f0d3997e8dc40adf7e528632f5e85be06",
+            "title": "Garnet Soul [DP ANOTHER]",
+            "artist": "Hiy obj:フォルティッシモ",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/23",
+            "url_diff": "https://stellabms.xyz/upload/7058",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8194"
+        },
+        {
             "id": 6823,
             "md5": "a95c9cae3bec5d318458c0c37ce54040",
             "sha256": "3eb5261dd507c7ea5f481264ae09504bd280d89a8d7a4b38b0cf0003b9a22809",
@@ -4435,6 +4457,17 @@
             "site_url": "https://stellabms.xyz/song/1895"
         },
         {
+            "id": 8195,
+            "md5": "ef414d2086140eff973d91b4382fd3e2",
+            "sha256": "09f48e3ca5f41b4cc9748c37b225ce4efa620ec963b837e85f8e47f73dc4de0c",
+            "title": "チモシー健康ジャズ [DP INSANE]",
+            "artist": "6CHA9N mov: ミツメサチ / obj:marquee",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=61&event=149",
+            "url_diff": "https://darksabun.club/event/bof21/sabun/061_DP9_DP11_DPsl4_marquee.zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/8195"
+        },
+        {
             "id": 4771,
             "md5": "144901283ee18aed261051dd0cd72713",
             "sha256": "287810da0f926a42adc94cb62f1b59af22da908affa420cb30981e7f350eee39",
@@ -5645,6 +5678,17 @@
             "site_url": "https://stellabms.xyz/song/3853"
         },
         {
+            "id": 8196,
+            "md5": "3bd431d9705858e04d2488241f1f3bb9",
+            "sha256": "3514092e14636664cb0eea2d96f865d31e939f5912d2203d1f542adc1ec6d7c8",
+            "title": "Rainy Float [DP INSANE]",
+            "artist": "Juka_Box Gt. ポリセ / obj:marquee",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=286&event=149",
+            "url_diff": "https://darksabun.club/event/bof21/sabun/286_DP4_DP9_DPsl1_DPsl7_marquee.zip",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8196"
+        },
+        {
             "id": 6971,
             "md5": "b4491d3e3115ed609f17b63d7710caa5",
             "sha256": "aa792b8b9abdb263647e771c1e0296e504486f225a2d17ede3b1c359d66a37f7",
@@ -5742,6 +5786,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1073",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/3642"
+        },
+        {
+            "id": 8197,
+            "md5": "8e9ac8580e2227e3d99387d98b354ec8",
+            "sha256": "b9799ef88c29e9e90263e4f8a072d5864e460f89f933c96740dcfd221380c2ef",
+            "title": "Transcendence [DP ANOTHER]",
+            "artist": "Abel (Mov.Siesphere Illust.suisou) obj:marquee",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=391&event=149",
+            "url_diff": "https://darksabun.club/event/bof21/sabun/391_DP8_DP11_DPsl7_DPst1_marquee.zip",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8197"
         },
         {
             "id": 4267,
@@ -6281,6 +6336,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/643",
             "level": "8",
             "site_url": "https://stellabms.xyz/song/2802"
+        },
+        {
+            "id": 8167,
+            "md5": "00681730ed77cae6404aceab795e2fcc",
+            "sha256": "bb649995cc209794f669bc11e89897ab561c7e616d04e22869170fcb0cab8239",
+            "title": "Nocturne",
+            "artist": "Lime / Kankitsu / Limite feat.制限",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=400&event=149",
+            "url_diff": "https://darksabun.club/event/bof21/sabun/400_DP7_limite.zip",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/8167"
         },
         {
             "id": 4311,
