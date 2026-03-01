@@ -662,6 +662,17 @@
             "site_url": "https://stellabms.xyz/song/2943"
         },
         {
+            "id": 6901,
+            "md5": "1cc2d39f6518bcdd08ca92d1ff5fbe53",
+            "sha256": "21ca9366c192a6201b08e34556deb76eb90278c50d8d9bdd6db8bf525611710e",
+            "title": "τ [Torque]",
+            "artist": "Wooden obj: rainy",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=480&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4971",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/6901"
+        },
+        {
             "id": 6568,
             "md5": "7b576c17375689ca2c98342a52efcbd4",
             "sha256": "181dcf4aea4ffec080197390b9e74416e167fc1bcf944a0d1228754da67c6350",
@@ -946,6 +957,17 @@
             "url_diff": "https://stellabms.xyz/upload/4317",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/6498"
+        },
+        {
+            "id": 7839,
+            "md5": "25e74ee2b2fcc9ed43830d8b9b0049f0",
+            "sha256": "a8c7dfaec36d5ebcac6d80d5fe4237b685aaa0626fa2e1126ee0d87ae60c49ff",
+            "title": "決死のレイブ ～ RAVE W!TH ME (BMS ED!T) [MASSIVE]",
+            "artist": "DJ NORMAL1ZER BG by R. A. L. / obj:SNN",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=261&event=140",
+            "url_diff": "https://stellabms.xyz/upload/6509",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7839"
         },
         {
             "id": 1924,

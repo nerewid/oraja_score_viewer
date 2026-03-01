@@ -1433,16 +1433,6 @@
         },
         {
             "level": "2",
-            "title": "supersoulsimulator [robo]",
-            "artist": "",
-            "url": "https://www.yamajet.com/music/html/supersoulsimulator.html",
-            "url_diff": "https://stellabms.xyz/upload/3983",
-            "comment": "",
-            "md5": "865c7143ed744b8dda0137e34f5c6922",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=865c7143ed744b8dda0137e34f5c6922"
-        },
-        {
-            "level": "2",
             "title": "THE GALA [旅サラダ]",
             "artist": "",
             "url": "https://onedrive.live.com/?authkey=%21AMpdBZca0eykE%2DE&cid=3078649C19F9CDD6&id=3078649C19F9CDD6%21498&parId=3078649C19F9CDD6%21105&action=locate",
@@ -2050,6 +2040,16 @@
             "comment": "",
             "md5": "c97e9dd720a6b9eedc70760d8cbc22b5",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c97e9dd720a6b9eedc70760d8cbc22b5"
+        },
+        {
+            "level": "3",
+            "title": "supersoulsimulator [robo]",
+            "artist": "",
+            "url": "https://www.yamajet.com/music/html/supersoulsimulator.html",
+            "url_diff": "https://stellabms.xyz/upload/3983",
+            "comment": "",
+            "md5": "865c7143ed744b8dda0137e34f5c6922",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=865c7143ed744b8dda0137e34f5c6922"
         },
         {
             "level": "3",
