@@ -750,6 +750,17 @@
             "site_url": "https://stellabms.xyz/song/6859"
         },
         {
+            "id": 6860,
+            "md5": "10b4f116f4f4140ee977e0bdf788e55a",
+            "sha256": "f22dc7446105e708c01c4c00907b8793b860c8610669cb89ee149c61fe57b7ae",
+            "title": "雪色夜望（BMS Edit） [whitest]",
+            "artist": "NASA / obj:Criyajuh",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/96",
+            "url_diff": "https://stellabms.xyz/upload/4978",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/6860"
+        },
+        {
             "id": 7013,
             "md5": "5ca0fb0a09c936f06ce1ce7f0e4c8cbc",
             "sha256": "c06cd4cedab59a8eddf939d86dfc26b75f542c48109ccd62f326b48705a04a9e",

@@ -699,6 +699,18 @@
         },
         {
             "level": "1",
+            "md5": "4bb48230add6a096363f481d6978e377",
+            "sha256": "a2ea2a123158d2864168c488c8ac81eb52bc86ba8f1e1b26370dfd97ecf05aac",
+            "genre": "ORIENTAL MUSIC",
+            "title": "妖鬼山脈 [DP KAGITHER]",
+            "artist": "かたぎり BGA: mst / obj: 鈎兎(KagiUsagi)",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/34",
+            "url_diff": "https://stellabms.xyz/upload/6754",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4bb48230add6a096363f481d6978e377"
+        },
+        {
+            "level": "1",
             "md5": "be6a3f3f38dccc7b49497c852885cc8c",
             "sha256": "1550c234df06a59e5439ea7b0d02923f1c04ddce09118d998c3f7a1f1378f1e9",
             "genre": "GOA TRANCE",
@@ -3687,6 +3699,18 @@
         },
         {
             "level": "5",
+            "md5": "80a8bd405081f2f5460566cc9dc204f8",
+            "sha256": "0b6098c89e95ce9056c13c655553aa9b616328ae1e19d00280fc53c1c1ef3c94",
+            "genre": "EUROBEAT",
+            "title": "YAMAXANADU OF TWO [DP INSANE]",
+            "artist": "nmk feat.Salita / Obj:ゆ～兎",
+            "url": "https://docs.google.com/uc?id=0B97xj9Ow1Tu8QWZqb3lrT0RQNVE&export=download",
+            "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/nmk_YAMAXANADU_YH.zip",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=80a8bd405081f2f5460566cc9dc204f8"
+        },
+        {
+            "level": "5",
             "md5": "7d3381c262e5bdee1ff0fb477cdb4ab6",
             "sha256": "9cdbf932adb3e8c6ea617b01383e2c44ca1e65140a91cb9a5e854d35b8b56bbf",
             "genre": "FULL ON",
@@ -4020,18 +4044,6 @@
             "url_diff": "https://drive.google.com/file/d/0B4Lag8JPHqO3LU1BMnZVMmNhR0k/view",
             "comment": "旧DPBMSアップローダー保管https://drive.google.com/file/d/0B4Lag8JPHqO3LU1BMnZVMmNhR0k/view",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2b3f605f852f5b015fd0673cde43b37d"
-        },
-        {
-            "level": "6",
-            "md5": "5b911957a5f920ef8871599ced312872",
-            "sha256": "1d4544a04b766753cb3e3b4cec50a898b48784a4c9718e5be9428c4879a6e1aa",
-            "genre": "TRANCE CORE",
-            "title": "Crystal palace [14Plus]",
-            "artist": "SHIKI obj.vectorla movie:Nyu",
-            "url": "http://shiki2.sakura.ne.jp/fohs.html",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/1156",
-            "comment": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5b911957a5f920ef8871599ced312872"
         },
         {
             "level": "6",
@@ -4779,18 +4791,6 @@
         },
         {
             "level": "6",
-            "md5": "030a9c1f00082a5d63a451783e8b662e",
-            "sha256": "97083484d8f3cfba62ee9463d9db94e7f9de5a5811af5c8841fca3cc3e1e3226",
-            "genre": "finy jazzy pop'n(14A)",
-            "title": "恋わずらい -shiny party floor-",
-            "artist": "ねこみみ魔法使い",
-            "url": "http://necoco.2-d.jp/",
-            "url_diff": "http://www8.atwiki.jp/14key/pages/23.html",
-            "comment": "14/04/17 BMS本体・差分共に入手可能。",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=030a9c1f00082a5d63a451783e8b662e"
-        },
-        {
-            "level": "6",
             "md5": "c99f6dd35f4decb0d5f24661baaf6f54",
             "sha256": "8c2785574035fea86eddfa44384a1de6e7dfa7f96c871baff161bc436d781519",
             "genre": "[Orchestra]",
@@ -5067,6 +5067,18 @@
         },
         {
             "level": "7",
+            "md5": "5b911957a5f920ef8871599ced312872",
+            "sha256": "1d4544a04b766753cb3e3b4cec50a898b48784a4c9718e5be9428c4879a6e1aa",
+            "genre": "TRANCE CORE",
+            "title": "Crystal palace [14Plus]",
+            "artist": "SHIKI obj.vectorla movie:Nyu",
+            "url": "http://shiki2.sakura.ne.jp/fohs.html",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1156",
+            "comment": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5b911957a5f920ef8871599ced312872"
+        },
+        {
+            "level": "7",
             "md5": "66bdc07d1645b2c148fa3c7cc0fe6e9a",
             "sha256": "f9a59ee86ded41a2465959ac36bb800ab943e720081f02b40fd2e96e3edb919a",
             "genre": "TRANCE",
@@ -5268,6 +5280,18 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/351",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=4b5557c75052e81d1e9ef1735ab665b5"
+        },
+        {
+            "level": "7",
+            "md5": "81a37cd7b75c866e93848908869db5d6",
+            "sha256": "e284394eff9fe89f01c4470640f5d4323ef5cb2303d9e6f720036cbfcc79a8e6",
+            "genre": "ART 'N BASS",
+            "title": "Lunaris [Ritus]",
+            "artist": "AX10MA.DECADE Pattern Design: RaiN",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=197&event=133",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1204",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=81a37cd7b75c866e93848908869db5d6"
         },
         {
             "level": "7",
@@ -5583,6 +5607,18 @@
         },
         {
             "level": "7",
+            "md5": "030a9c1f00082a5d63a451783e8b662e",
+            "sha256": "97083484d8f3cfba62ee9463d9db94e7f9de5a5811af5c8841fca3cc3e1e3226",
+            "genre": "finy jazzy pop'n(14A)",
+            "title": "恋わずらい -shiny party floor-",
+            "artist": "ねこみみ魔法使い",
+            "url": "http://necoco.2-d.jp/",
+            "url_diff": "http://www8.atwiki.jp/14key/pages/23.html",
+            "comment": "14/04/17 BMS本体・差分共に入手可能。",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=030a9c1f00082a5d63a451783e8b662e"
+        },
+        {
+            "level": "7",
             "md5": "8f396c70c4a5e1f90db0a4a64cb081cf",
             "sha256": "fa188718b86feb12cc5a0d4a5feeae0a9ead7a5a0fbd277daa7aa859688ce0e3",
             "genre": "東方緋想天",
@@ -5811,18 +5847,6 @@
         },
         {
             "level": "8",
-            "md5": "9f444466f9e3d9161124edb3ebb5d93b",
-            "sha256": "02b97f39cf495b454346c83a99055e480f0f9adc3cc216ce0ea805a88aaf32a3",
-            "genre": "J-TECHNO",
-            "title": "cold stream -DP EX-",
-            "artist": "Is-m obj:ucc BGA:140",
-            "url": "http://www.is-m.jp/",
-            "url_diff": "https://web.archive.org/web/20181105105349/http://www.geocities.jp/uccdpbms/dpibms.html",
-            "comment": "14/04/17 BMS本体・差分共に入手可能。",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9f444466f9e3d9161124edb3ebb5d93b"
-        },
-        {
-            "level": "8",
             "md5": "3cb6c673b5527807224c1a63437f9fb2",
             "sha256": "198462f32aab94c138d8074a1f72cb2ddcfebbf210f35cf5c451d12482c2109d",
             "genre": "ELECTROSHOCK",
@@ -5895,6 +5919,18 @@
         },
         {
             "level": "8",
+            "md5": "79cb79ce76668d0637b3748b5a83ec0a",
+            "sha256": "7e3dfdb39889c64af73a40a05091a62ebf9b6dd4277c7dea8544f7a7fd163c73",
+            "genre": "Tech Dance",
+            "title": "Gamegame(bms edit)",
+            "artist": "s-don / 篠乃ちよ obj :松魚",
+            "url": "https://dropbox.bms.ms/u/33464123/%5Bs-don%5Dgamegame.zip",
+            "url_diff": "https://www.axfc.net/u/4118466",
+            "comment": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=79cb79ce76668d0637b3748b5a83ec0a"
+        },
+        {
+            "level": "8",
             "md5": "1b99de4a0be1940d4c53f1e635c735ac",
             "sha256": "18bf4aa0e0f79b9d4bc6f53c4130aa9cdde911b734b3bd2dcc5a3d1838c0d1bc",
             "genre": "ELECTRO FUNK",
@@ -5943,15 +5979,15 @@
         },
         {
             "level": "8",
-            "md5": "88c3f3fb8a5d2587fc78735155e33509",
-            "sha256": "b3960857de10269c0b8f498b5d96ac885697173f51041ded6d0defd86d3dab53",
-            "genre": "Game Music",
-            "title": "Parasitize Your Head [DP INSANE]",
-            "artist": "ゆ～兎 Respect for ZUN OBJ:KLOC",
-            "url": "http://web.archive.org/web/20140921042451/http://timetorain.web.fc2.com/BMS/Parasitize_Your_Head_ogg.zip",
-            "url_diff": "",
-            "comment": "",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=88c3f3fb8a5d2587fc78735155e33509"
+            "md5": "d069e1943bd6ade843c1b968972cef3d",
+            "sha256": "b743ee7fcc9462ca69f23c601668effbf227ffc56d5303064353dbee469a777a",
+            "genre": "TRANCE",
+            "title": "Praying to the Snow [DP Sabbat]",
+            "artist": "おみー feat.Eleanor Forte obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=81&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6873",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d069e1943bd6ade843c1b968972cef3d"
         },
         {
             "level": "8",
@@ -6048,6 +6084,18 @@
             "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=31610e99853d1ac07da68f3d445bda61"
+        },
+        {
+            "level": "8",
+            "md5": "c2ff3c61e17d86e148ebf1aa829129dc",
+            "sha256": "6ef84f017c2b25008e2e22680cfc4616e61bfe09b7c7459b3d9dbf34cd204eac",
+            "genre": "HARD RENAISSANCE",
+            "title": "VERITAS [DP ANOTHER]",
+            "artist": "69 de 74 BGA:Kengo Nakao / obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=248&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c2ff3c61e17d86e148ebf1aa829129dc"
         },
         {
             "level": "8",
@@ -6363,6 +6411,18 @@
         },
         {
             "level": "9",
+            "md5": "9f444466f9e3d9161124edb3ebb5d93b",
+            "sha256": "02b97f39cf495b454346c83a99055e480f0f9adc3cc216ce0ea805a88aaf32a3",
+            "genre": "J-TECHNO",
+            "title": "cold stream -DP EX-",
+            "artist": "Is-m obj:ucc BGA:140",
+            "url": "http://www.is-m.jp/",
+            "url_diff": "https://web.archive.org/web/20181105105349/http://www.geocities.jp/uccdpbms/dpibms.html",
+            "comment": "14/04/17 BMS本体・差分共に入手可能。",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=9f444466f9e3d9161124edb3ebb5d93b"
+        },
+        {
+            "level": "9",
             "md5": "23ad14776bda285fe04640ebdf98e268",
             "sha256": "38ad08e7e2fc54c0925876cc5ac2208fb9d5bef34f38e0a9ac2c3a3400ed18c9",
             "genre": "Adrenaline",
@@ -6492,6 +6552,18 @@
             "url_diff": "",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=2f80fc1c5428f5090808c2c2d8cc11f0"
+        },
+        {
+            "level": "9",
+            "md5": "88c3f3fb8a5d2587fc78735155e33509",
+            "sha256": "b3960857de10269c0b8f498b5d96ac885697173f51041ded6d0defd86d3dab53",
+            "genre": "Game Music",
+            "title": "Parasitize Your Head [DP INSANE]",
+            "artist": "ゆ～兎 Respect for ZUN OBJ:KLOC",
+            "url": "http://web.archive.org/web/20140921042451/http://timetorain.web.fc2.com/BMS/Parasitize_Your_Head_ogg.zip",
+            "url_diff": "",
+            "comment": "",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=88c3f3fb8a5d2587fc78735155e33509"
         },
         {
             "level": "9",

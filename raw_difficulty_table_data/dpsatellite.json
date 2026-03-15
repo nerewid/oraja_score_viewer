@@ -1476,6 +1476,17 @@
             "site_url": "https://stellabms.xyz/song/3631"
         },
         {
+            "id": 8228,
+            "md5": "ecb777aef3248a429ae1283ef5698591",
+            "sha256": "e227019608e663f18d98c3c359bee5d351223aa896b3fbcf7f8b1f6400701775",
+            "title": "暴走 ~ out of control",
+            "artist": "Tatsh (Movie: MUSH.T / BMS: Zris)",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/26",
+            "url_diff": "",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8228"
+        },
+        {
             "id": 4774,
             "md5": "1273495bab9aa0561cdc7fa5f0fc9a50",
             "sha256": "ba9b2c3b306e68b1a4bc38b25a143dbd447fcf4504cc69a6c96a43625580da3d",
@@ -1850,6 +1861,17 @@
             "site_url": "https://stellabms.xyz/song/7536"
         },
         {
+            "id": 8229,
+            "md5": "4dc5eb43ce47ac1fe1577657a1755332",
+            "sha256": "39572a2ff70c0c8a952da5b126d1f90b3491a5b666475e55697092ff03a708ab",
+            "title": "I-SSV [DP_RAnother]",
+            "artist": "Lemi. obj: Ricola",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=48&event=116",
+            "url_diff": "https://stellabms.xyz/upload/6860",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8229"
+        },
+        {
             "id": 2834,
             "md5": "79d513270d899b4ee308aca0a0a0422b",
             "sha256": "e6642eb4134e5e87c5ce2f482d3aafefe452b092aad0c516dac2f3cdcde5e8ae",
@@ -2200,6 +2222,17 @@
             "url_diff": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=29&event=94",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/2267"
+        },
+        {
+            "id": 8253,
+            "md5": "ef9a37f898614004f0a1b92a91325d15",
+            "sha256": "58452f8a71f561273c63bd6e7d27bfe4d680bc102734972e309faf5b0da00c6d",
+            "title": "推しの子はビスクドール [DP Insane]",
+            "artist": "yassu / BGA:ShakeJ Illust:こまり Obj:Y.W",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=260&event=149",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8253"
         },
         {
             "id": 5580,
@@ -3212,6 +3245,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/756",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/4555"
+        },
+        {
+            "id": 8297,
+            "md5": "f39bcb872481e41b23807fb9ff0f82e4",
+            "sha256": "106066b7a0b8ea3a74cd4d36e10fa8f09b775f389d6c45618ec7d8d659bc0490",
+            "title": "let me finish, savior [DP ANOHTER]",
+            "artist": "chilldive & marierie / Limite",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=399&event=149",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8297"
         },
         {
             "id": 2779,
@@ -4928,6 +4972,17 @@
             "url_diff": "https://stellabms.xyz/upload/3449",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/7183"
+        },
+        {
+            "id": 8254,
+            "md5": "8f12636b885c7ba5d9ac313b044a063c",
+            "sha256": "902e05c7d5f6f01987353e4d72c01d35900f6f178e76bed83604fb08f1939544",
+            "title": "Justice Executor [DP Sabbat]",
+            "artist": "二階堂ヒロ obj:フォルティッシモ",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/85",
+            "url_diff": "https://stellabms.xyz/upload/7204",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8254"
         },
         {
             "id": 3644,
