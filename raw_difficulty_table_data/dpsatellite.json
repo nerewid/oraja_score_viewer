@@ -2477,17 +2477,6 @@
             "site_url": "https://stellabms.xyz/song/3975"
         },
         {
-            "id": 8194,
-            "md5": "59fc2896627277b6581e7ab3e359fd07",
-            "sha256": "30c46343b6fa184bc8be0889ec62618f0d3997e8dc40adf7e528632f5e85be06",
-            "title": "Garnet Soul [DP ANOTHER]",
-            "artist": "Hiy obj:フォルティッシモ",
-            "url": "https://venue.bmssearch.net/bmstukuru2025/23",
-            "url_diff": "https://stellabms.xyz/upload/7058",
-            "level": "3",
-            "site_url": "https://stellabms.xyz/song/8194"
-        },
-        {
             "id": 6823,
             "md5": "a95c9cae3bec5d318458c0c37ce54040",
             "sha256": "3eb5261dd507c7ea5f481264ae09504bd280d89a8d7a4b38b0cf0003b9a22809",
@@ -2772,6 +2761,17 @@
             "url_diff": "https://www.dropbox.com/s/v7vxxy2d2djl4nj/_sss_DP_A_fix.zip?dl=1",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/4417"
+        },
+        {
+            "id": 8304,
+            "md5": "f8761ff422b8adb19165611eb756efe4",
+            "sha256": "8928ee5ea0261b93522d3d4fe9f33778c64b499c4f44a54c354065765db58554",
+            "title": "The Blonde[DP ANOTHER]",
+            "artist": "くるやのぶ obj:Lian",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=149",
+            "url_diff": "",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8304"
         },
         {
             "id": 2080,
@@ -3214,6 +3214,17 @@
             "site_url": "https://stellabms.xyz/song/6970"
         },
         {
+            "id": 8194,
+            "md5": "59fc2896627277b6581e7ab3e359fd07",
+            "sha256": "30c46343b6fa184bc8be0889ec62618f0d3997e8dc40adf7e528632f5e85be06",
+            "title": "Garnet Soul [DP ANOTHER]",
+            "artist": "Hiy obj:フォルティッシモ",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/23",
+            "url_diff": "https://stellabms.xyz/upload/7058",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8194"
+        },
+        {
             "id": 7609,
             "md5": "0b43e26c0a7d68fa3fd097f513865978",
             "sha256": "23022917982aaf170338330668837cf2576058bc5cdfd3ad71f84df793f6f2e2",
@@ -3509,6 +3520,17 @@
             "url_diff": "https://w.atwiki.jp/14key/pages/23.html",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/2704"
+        },
+        {
+            "id": 6511,
+            "md5": "651818d330bb6535bf98dc4d582ef453",
+            "sha256": "ba626662ea5a82a1d5e094f6fffe1dd4cb990a22ba3e428ab5a224ce32b6a925",
+            "title": "Written in the stars [DP HARD]",
+            "artist": "Infinite Dream Routes obj:ka2o",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=34&event=145",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1652",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/6511"
         },
         {
             "id": 3201,
@@ -4136,6 +4158,17 @@
             "url_diff": "http://epics.client.jp/",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/2516"
+        },
+        {
+            "id": 8345,
+            "md5": "bfd76c53a11f9619203f745c22ebaf4c",
+            "sha256": "ab4418877341a7cf8c6ddae5c08ee062648bbb4d74eda163c7567543e985ab66",
+            "title": "new earth [ANOTHER14]",
+            "artist": "er",
+            "url": "http://dropbox.bms.ms/u/28765267/er_new-earth.zip",
+            "url_diff": "",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/8345"
         },
         {
             "id": 2908,
@@ -5236,6 +5269,17 @@
             "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/Apomnhmoneumai_YH.zip",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/4863"
+        },
+        {
+            "id": 8335,
+            "md5": "ea0a807dd01b5f974558adfd985c0e76",
+            "sha256": "c6c6071ee245bb3e979b45fe4dd41d080f03c254d461eaebd66f2cfb67b93fc7",
+            "title": "「きいろのかぜがたつきょうこくより」 [DP INSANE]",
+            "artist": "鈎兎(KagiUsagi)",
+            "url": "https://venue.bmssearch.net/bmschiptune2/1",
+            "url_diff": "",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8335"
         },
         {
             "id": 4651,
@@ -7196,6 +7240,17 @@
             "site_url": "https://stellabms.xyz/song/2697"
         },
         {
+            "id": 5437,
+            "md5": "1f34b9ffc132ade5865c86c6c8297a0b",
+            "sha256": "abdcc466447bd96ff5e0caadaf6f3136eb47330681e1336bda7d6d93006e365e",
+            "title": "fushigichan [DP LEGGENDARIA]",
+            "artist": "牧野 obj.にぇ",
+            "url": "https://dropbox.bms.ms/u/64302289/makino_fushigichan.rar",
+            "url_diff": "https://stellabms.xyz/upload/1747",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/5437"
+        },
+        {
             "id": 2205,
             "md5": "0e05593e0b01c2fa57281cc42c22cdb0",
             "sha256": "a79497dc74ca758dd42dbd0a36ebea1fd3c9f2ea7c6aada2a16358a44ccf4809",
@@ -7469,6 +7524,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/862",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/2993"
+        },
+        {
+            "id": 8293,
+            "md5": "13478a4e593fa1993c53bf6e927f77a5",
+            "sha256": "a0c4a8ac557a19a7cd7e920368f63795be8bac260e4a27313070cdfb4819ca40",
+            "title": "とびこめ!スウィートランド [DP INSANE]",
+            "artist": "Tiv feat.はらもりよしな/Movie:ひきにく/Illust:TOGA obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=149",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/8293"
         },
         {
             "id": 3667,
