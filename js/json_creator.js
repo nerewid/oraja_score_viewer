@@ -1,106 +1,122 @@
-import { scorelogDbData, sqlPromise } from './db_uploader.js';
-import { findScoresBySha256s } from './score_data_processor.js';
 import { splitIntoChunks } from './utils/sql-chunker.js';
+import { INITIAL_CLEAR, UNIX_TO_MS } from './constants.js';
+
+/**
+ * sha256とdateの組み合わせキーを生成する
+ */
+function compositeKey(sha256, date) {
+    return `${sha256}-${date}`;
+}
+
+/**
+ * scorelogの1行をパースして必要なフィールドを返す
+ */
+function parseScorelogRow(row) {
+    return {
+        clear: String(row.clear),
+        oldClear: String(row.oldclear),
+        oldBp: parseInt(row.oldminbp),
+        newBp: parseInt(row.minbp),
+        oldScore: parseInt(row.oldscore),
+        score: parseInt(row.score),
+    };
+}
+
+/**
+ * チャンクのエントリに対応するscorelogをクエリし、結果をMapで返す
+ */
+function queryChunkResults(scorelogDb, keyMap) {
+    const placeholders = Array.from(keyMap.keys()).map(() => '(?, ?)').join(',');
+    const query = `SELECT sha256, date, oldclear, clear, oldscore, score, oldminbp, minbp FROM scorelog WHERE (sha256, date) IN (${placeholders})`;
+    const values = Array.from(keyMap.keys()).flatMap(key => key.split('-'));
+
+    if (values.length === 0) return null;
+
+    const stmt = scorelogDb.prepare(query);
+    stmt.bind(values);
+
+    const results = new Map();
+    while (stmt.step()) {
+        const row = stmt.getAsObject();
+        results.set(compositeKey(row.sha256, row.date), row);
+    }
+    stmt.free();
+    return results;
+}
+
+/**
+ * 既存の曲データにスコアログのエントリを反映して更新する
+ */
+function updateSongData(existingData, parsed) {
+    // clearを更新（oldclear != clearの場合のみ、より大きい値で更新）
+    if (parsed.oldClear !== parsed.clear && parseInt(parsed.clear) > parseInt(existingData.clear)) {
+        existingData.clear = parsed.clear;
+    }
+
+    // old_bpとnew_bpを更新（oldminbp != minbpの場合のみ、old_bpはより大きい値、new_bpはより小さい値で更新）
+    if (parsed.oldBp !== parsed.newBp) {
+        if (parsed.oldBp > existingData.old_bp) {
+            existingData.old_bp = parsed.oldBp;
+        }
+        if (parsed.newBp < existingData.new_bp) {
+            existingData.new_bp = parsed.newBp;
+        }
+    }
+
+    // old_scoreとnew_scoreを更新（old_scoreはより小さい値=開始時点、new_scoreはより大きい値=最終結果）
+    if (parsed.oldScore < existingData.old_score) {
+        existingData.old_score = parsed.oldScore;
+    }
+    if (parsed.score > existingData.new_score) {
+        existingData.new_score = parsed.score;
+    }
+}
 
 export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
-    // 最終的なJSON出力（日付をキー、曲情報を値とするMap）
     const jsonOutput = new Map();
-
-    // SQLiteのIN句の制限に合わせてクエリを分割
     const chunks = splitIntoChunks(scorelogEntries);
 
-    // 分割されたチャンクごとに処理
     for (const chunk of chunks) {
-        // 現在のチャンクのsha256とdateの組み合わせをキーとするMapを作成
         const keyMap = new Map();
         chunk.forEach(entry => {
-            keyMap.set(`${entry.sha256}-${entry.date}`, entry);
+            keyMap.set(compositeKey(entry.sha256, entry.date), entry);
         });
 
-        // 現在のチャンクに対するSQLクエリを生成
-        const placeholders = Array.from(keyMap.keys()).map(() => '(?, ?)').join(',');
-        const query = `SELECT sha256, date, oldclear, clear, oldscore, score, oldminbp, minbp FROM scorelog WHERE (sha256, date) IN (${placeholders})`;
-        const values = Array.from(keyMap.keys()).flatMap(key => key.split('-'));
+        const results = queryChunkResults(scorelogDb, keyMap);
+        if (!results) continue;
 
-        // valuesが空の場合はスキップ（scorelogEntriesが空の場合など）
-        if (values.length === 0) continue;
-
-        // クエリを実行
-        const stmt = scorelogDb.prepare(query);
-        stmt.bind(values);
-
-        // クエリ結果をMapに格納（sha256-dateをキーとする）
-        const results = new Map();
-        while (stmt.step()) {
-            const row = stmt.getAsObject();
-            results.set(`${row.sha256}-${row.date}`, row);
-        }
-        stmt.free();
-
-        // 現在のチャンクの結果を処理
         for (const [key, entry] of keyMap) {
             const row = results.get(key);
-            if (row) {
-                const date = new Date(entry.date * 1000);
-                const formattedDate = formatDate(date);
-
-                const parsedClear = String(row.clear);
-                const parsedOldClear = String(row.oldclear);
-                const parsedOldBp = parseInt(row.oldminbp);
-                const parsedNewBp = parseInt(row.minbp);
-                const parsedOldScore = parseInt(row.oldscore);
-                const parsedScore = parseInt(row.score);
-
-                // ランプ・BP・スコアがすべて変わらない場合のみスキップ
-                if (parsedOldClear === parsedClear && parsedOldBp === parsedNewBp && parsedOldScore === parsedScore) {
-                    continue;
-                }
-
-                // 日付ごとのMapが存在しない場合は作成
-                if (!jsonOutput.has(formattedDate)) {
-                    jsonOutput.set(formattedDate, new Map());
-                }
-
-                // 曲ごとのデータが存在しない場合は作成（初期値を設定）
-                if (!jsonOutput.get(formattedDate).has(entry.title)) {
-                    jsonOutput.get(formattedDate).set(entry.title, {
-                        clear: "-1",
-                        old_bp: parsedOldBp,
-                        new_bp: parsedNewBp,
-                        old_score: parsedOldScore,
-                        new_score: parsedScore,
-                        sha256: entry.sha256
-                    });
-                }
-                // 既存のデータを更新
-                const existingData = jsonOutput.get(formattedDate).get(entry.title);
-
-                // clearを更新（oldclear != clearの場合のみ、より大きい値で更新）
-                if (parsedOldClear !== parsedClear && parseInt(parsedClear) > parseInt(existingData.clear)) {
-                    existingData.clear = parsedClear;
-                }
-
-                // old_bpとnew_bpを更新（oldminbp != minbpの場合のみ、old_bpはより大きい値、new_bpはより小さい値で更新）
-                if (parsedOldBp !== parsedNewBp) {
-                    if (parsedOldBp > existingData.old_bp) {
-                        existingData.old_bp = parsedOldBp;
-                    }
-                    if (parsedNewBp < existingData.new_bp) {
-                        existingData.new_bp = parsedNewBp;
-                    }
-                }
-
-                // old_scoreとnew_scoreを更新（old_scoreはより小さい値=開始時点、new_scoreはより大きい値=最終結果）
-                if (parsedOldScore < existingData.old_score) {
-                    existingData.old_score = parsedOldScore;
-                }
-                if (parsedScore > existingData.new_score) {
-                    existingData.new_score = parsedScore;
-                }
-                
-            } else {
+            if (!row) {
                 console.warn(`sha256: ${entry.sha256}, date: ${entry.date} に対応するscorelogが見つかりません。`);
+                continue;
             }
+
+            const parsed = parseScorelogRow(row);
+            const formattedDate = formatDate(new Date(entry.date * UNIX_TO_MS));
+
+            // ランプ・BP・スコアがすべて変わらない場合のみスキップ
+            if (parsed.oldClear === parsed.clear && parsed.oldBp === parsed.newBp && parsed.oldScore === parsed.score) {
+                continue;
+            }
+
+            if (!jsonOutput.has(formattedDate)) {
+                jsonOutput.set(formattedDate, new Map());
+            }
+
+            const dateMap = jsonOutput.get(formattedDate);
+            if (!dateMap.has(entry.title)) {
+                dateMap.set(entry.title, {
+                    clear: INITIAL_CLEAR,
+                    old_bp: parsed.oldBp,
+                    new_bp: parsed.newBp,
+                    old_score: parsed.oldScore,
+                    new_score: parsed.score,
+                    sha256: entry.sha256
+                });
+            }
+
+            updateSongData(dateMap.get(entry.title), parsed);
         }
     }
 

@@ -1,6 +1,19 @@
 // heatmap_generator.js (メイン処理)
 import { scoreDbData, scorelogDbData } from './db_uploader.js';
 import { t } from './i18n.js';
+import { UNIX_TO_MS, HEATMAP_CONFIG } from './constants.js';
+
+/**
+ * SQLステートメントから全行をオブジェクト配列として取得する
+ */
+function collectRows(stmt) {
+    const results = [];
+    while (stmt.step()) {
+        results.push(stmt.getAsObject());
+    }
+    stmt.free();
+    return results;
+}
 
 async function generateHeatmapData(scoreDbData, scorelogDbData) {
     try {
@@ -8,8 +21,8 @@ async function generateHeatmapData(scoreDbData, scorelogDbData) {
         const scoreDb = new SQL.Database(new Uint8Array(scoreDbData));
         const scorelogDb = new SQL.Database(new Uint8Array(scorelogDbData));
 
-        const notesData = await generateNotesData(scoreDb);
-        const progressData = await generateProgressData(scorelogDb);
+        const notesData = generateNotesData(scoreDb);
+        const progressData = generateProgressData(scorelogDb);
 
         scoreDb.close();
         scorelogDb.close();
@@ -17,11 +30,11 @@ async function generateHeatmapData(scoreDbData, scorelogDbData) {
         return { notes: notesData, progress: progressData };
     } catch (error) {
         console.error("データベース処理エラー:", error);
-        throw error; // エラーを上位に伝播
+        throw error;
     }
 }
 
-async function generateNotesData(db) {
+function generateNotesData(db) {
     try {
         const query = `
             SELECT date, epg + lpg + egr + lgr + egd + lgd AS total_score
@@ -29,29 +42,24 @@ async function generateNotesData(db) {
             ORDER BY date ASC
         `;
         const stmt = db.prepare(query);
-        const results = [];
-        while (stmt.step()) {
-            results.push(stmt.getAsObject());
-        }
-        stmt.free();
+        const results = collectRows(stmt);
 
-        const data = results.map((row, index, array) => {
+        return results.map((row, index, array) => {
             let date = row.date;
             if (typeof date === 'number') {
-                date = new Date(date * 1000);
+                date = new Date(date * UNIX_TO_MS);
             }
             const formattedDate = date.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, "-");
             const value = index > 0 ? row.total_score - array[index - 1].total_score : 0;
             return { date: formattedDate, value };
         });
-        return data;
     } catch (error) {
         console.error("notesデータ生成エラー:", error);
         throw error;
     }
 }
 
-async function generateProgressData(db) {
+function generateProgressData(db) {
     try {
         const query = `
             SELECT strftime('%Y-%m-%d', date, 'unixepoch') AS date, COUNT(*) AS value
@@ -60,12 +68,7 @@ async function generateProgressData(db) {
             ORDER BY date
         `;
         const stmt = db.prepare(query);
-        const results = [];
-        while (stmt.step()) {
-            results.push(stmt.getAsObject());
-        }
-        stmt.free();
-        return results;
+        return collectRows(stmt);
     } catch (error) {
         console.error("progressデータ生成エラー:", error);
         throw error;
@@ -73,19 +76,12 @@ async function generateProgressData(db) {
 }
 
 // Cal-Heatmap表示関数
-function displayCalHeatmap(data, elementId, title, limit, color, unit) {
+function displayCalHeatmap(data, elementId, title, limit, colorScheme, unit) {
     try {
         const cal = new CalHeatmap();
-        let startDate = new Date(); // 現在の日時を取得
+        const startDate = new Date();
         startDate.setFullYear(startDate.getFullYear() - 1);
 
-        // データをMapに変換してツールチップで使用
-        const dataMap = new Map();
-        data.forEach(d => {
-            dataMap.set(d.date, d.value);
-        });
-
-        // プラグイン配列を事前に構築
         const plugins = [
             [
                 window.Tooltip,
@@ -101,10 +97,10 @@ function displayCalHeatmap(data, elementId, title, limit, color, unit) {
 
         cal.paint({
             itemSelector: `#${elementId}`,
-            range: 13,
+            range: HEATMAP_CONFIG.RANGE_MONTHS,
             domain:{
                 type: 'month',
-                gutter: 4,
+                gutter: HEATMAP_CONFIG.DOMAIN_GUTTER,
                 padding: [0, 0, 0, 0],
                 dynamicDimension: false,
                 sort: 'asc',
@@ -114,9 +110,7 @@ function displayCalHeatmap(data, elementId, title, limit, color, unit) {
             date: {
                 start: startDate,
                 end: new Date(),
-                highlight: [
-                    new Date(), // Highlight today
-                ]
+                highlight: [new Date()]
             },
             data: {
                 source: data,
@@ -125,7 +119,7 @@ function displayCalHeatmap(data, elementId, title, limit, color, unit) {
             },
             scale: {
                 color: {
-                    scheme: color,
+                    scheme: colorScheme,
                     type: 'linear',
                     domain: [0, limit],
                 },
@@ -150,8 +144,8 @@ document.getElementById("processData").addEventListener("click", async () => {
     try {
         const heatmapData = await generateHeatmapData(scoreDbData, scorelogDbData);
 
-        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", t('heatmap.notes'), 150000, "Greens", "Notes");
-        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", t('heatmap.progress'), 20, "Purples", t('heatmap.updates'));
+        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", t('heatmap.notes'), HEATMAP_CONFIG.NOTES_LIMIT, HEATMAP_CONFIG.NOTES_COLOR_SCHEME, "Notes");
+        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", t('heatmap.progress'), HEATMAP_CONFIG.PROGRESS_LIMIT, HEATMAP_CONFIG.PROGRESS_COLOR_SCHEME, t('heatmap.updates'));
 
     } catch (error) {
         alert(t('alert.process_error'));
