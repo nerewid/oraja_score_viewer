@@ -24,3 +24,19 @@ export const BP_NOT_PLAYED = 2147483647;
 
 // SQLiteのIN句パラメータ制限数
 export const BATCH_SIZE = 999;
+
+// 初期クリアステータス（未プレイ / No Chart）
+export const INITIAL_CLEAR = "-1";
+
+// Unix秒 → JavaScriptミリ秒の変換係数
+export const UNIX_TO_MS = 1000;
+
+// Cal-Heatmapの表示設定
+export const HEATMAP_CONFIG = {
+    RANGE_MONTHS: 13,
+    DOMAIN_GUTTER: 4,
+    NOTES_LIMIT: 150000,
+    PROGRESS_LIMIT: 20,
+    NOTES_COLOR_SCHEME: 'Greens',
+    PROGRESS_COLOR_SCHEME: 'Purples',
+};
