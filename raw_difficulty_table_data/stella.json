@@ -486,6 +486,17 @@
             "site_url": "https://stellabms.xyz/song/7153"
         },
         {
+            "id": 6409,
+            "md5": "c0c884dbfaec0239ba3d82ac12e4cb6a",
+            "sha256": "b1656ab4ef53baaade26f28c7018947feac4fcd273756cc674029fe25752354f",
+            "title": "Exit [At the Exit]",
+            "artist": "Transin obj.Mallow♪",
+            "url": "http://skydrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03318.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/6409"
+        },
+        {
             "id": 5871,
             "md5": "d74681e8ad8059ba21d3e9b965e7d138",
             "sha256": "47f499d70f0c4b5d872be1a169b38db0c9911a69cb2141410b9868e14ec1ccfc",
@@ -1553,17 +1564,6 @@
             "site_url": "https://stellabms.xyz/song/6944"
         },
         {
-            "id": 8330,
-            "md5": "4d36844cb6aeba3b8cb98f81654ca0e8",
-            "sha256": "78dcb9b1625741682c9f12dad26364a2e0ec12aca8bc659743ad24e086cfb56b",
-            "title": "Wunderbar [Horizontal7]",
-            "artist": "Pinky obj.うに",
-            "url": "https://www.mediafire.com/file/wn2tam0wwm05qyi/%255BPinky%255D_Wunderbar.zip/file",
-            "url_diff": "https://stellabms.xyz/upload/7207",
-            "level": "0",
-            "site_url": "https://stellabms.xyz/song/8330"
-        },
-        {
             "id": 470,
             "md5": "22dc782a49fb3ff80c2de90fb10f62f9",
             "sha256": "55b7016c4fbb8486f5a1e31f4ef9d9ed5ab94b37e8f4f841f879c9920a633fbe",
@@ -1861,6 +1861,17 @@
             "site_url": "https://stellabms.xyz/song/5459"
         },
         {
+            "id": 2844,
+            "md5": "3e762583197cfaa79572118cd862160f",
+            "sha256": "53171e565f378bf968a1b59baae334443541a11769a7810438da329565882b78",
+            "title": "ハルトマンの妖怪少女～VirusⅤ [INFERNO]",
+            "artist": "ZUN RMX By 44teru-k/差分 赤い人",
+            "url": "http://web.archive.org/web/20160101135626/http://creation-records.info/bms/koishi_virus5_44teru-k_ogg.rar",
+            "url_diff": "http://akred.web.fc2.com/bmsfile/_koishi_virus5_INFERNO.bme",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/2844"
+        },
+        {
             "id": 1155,
             "md5": "b2e0a5d984b39b9a17451000ead86071",
             "sha256": "a4a7f14a2ead6861abd72b664dc9da0371ea2cd6ef902d104819dea3ec0054dc",
@@ -2024,6 +2035,17 @@
             "url_diff": "https://www.dropbox.com/s/5t3tkkg7wyxte2q/zokubutsu_nanami.zip?dl=1",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/4526"
+        },
+        {
+            "id": 8374,
+            "md5": "76a49e7d3c55ba7ae399884113f397e1",
+            "sha256": "50bbb696de6da6ae680d9a056442ee559e176998110eb7bde5c5b7da19f9aa78",
+            "title": "図書室のエルザ [フィジカル図書認識]",
+            "artist": "橘花音 かなえゆめ composed by nmk Illustration:かぜっと / マッチョ",
+            "url": "http://yatai.ath.cx/c03_shuffle2/detail.php?n=20",
+            "url_diff": "https://stellabms.xyz/upload/5869",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/8374"
         },
         {
             "id": 402,
@@ -3201,17 +3223,6 @@
             "url_diff": "",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/7843"
-        },
-        {
-            "id": 6409,
-            "md5": "c0c884dbfaec0239ba3d82ac12e4cb6a",
-            "sha256": "b1656ab4ef53baaade26f28c7018947feac4fcd273756cc674029fe25752354f",
-            "title": "Exit [At the Exit]",
-            "artist": "Transin obj.Mallow♪",
-            "url": "http://skydrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21111",
-            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03318.zip",
-            "level": "1",
-            "site_url": "https://stellabms.xyz/song/6409"
         },
         {
             "id": 1910,
@@ -4598,6 +4609,17 @@
             "url_diff": "https://stellabms.xyz/upload/4204",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/6435"
+        },
+        {
+            "id": 8330,
+            "md5": "4d36844cb6aeba3b8cb98f81654ca0e8",
+            "sha256": "78dcb9b1625741682c9f12dad26364a2e0ec12aca8bc659743ad24e086cfb56b",
+            "title": "Wunderbar [Horizontal7]",
+            "artist": "Pinky obj.うに",
+            "url": "https://www.mediafire.com/file/wn2tam0wwm05qyi/%255BPinky%255D_Wunderbar.zip/file",
+            "url_diff": "https://stellabms.xyz/upload/7207",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8330"
         },
         {
             "id": 1634,
@@ -6503,6 +6525,17 @@
             "site_url": "https://stellabms.xyz/song/5076"
         },
         {
+            "id": 8378,
+            "md5": "9a57eb1c70cfd37e85f5b81aecfa6dab",
+            "sha256": "45f302271aec7321dffaa16f61f127b91b02eb207130717a838724de029a90ca",
+            "title": "LaVI-Bavellabion [ごちそう]",
+            "artist": "SLAVE.V-V-R obj.城ケ崎ノア",
+            "url": "https://egosa0424.github.io/sabun/_Lavi_LQ_1.1.zip",
+            "url_diff": "https://stellabms.xyz/upload/6846",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8378"
+        },
+        {
             "id": 6853,
             "md5": "2ed44b7dbd4dfed3149996d1cd08a3f6",
             "sha256": "6b64076c39f52e923b08753ef7157cde6a97cd8a746553e8f21b10b5721e8168",
@@ -6600,6 +6633,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/4225"
+        },
+        {
+            "id": 8388,
+            "md5": "74cc6dca5f1d00dabf64d11ddf062bea",
+            "sha256": "e80943b04d9d75b8271d6e2890e6f57b126ca569c0a35090a315a220fcc7743f",
+            "title": "Lost Ember's Resonate [adolescence]",
+            "artist": "RB.H × lixound × 薛南 / mov: Keizou bms: RB.H obj: でっていう99",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=388&event=149",
+            "url_diff": "https://stellabms.xyz/upload/7390",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8388"
         },
         {
             "id": 5891,
@@ -7634,6 +7678,17 @@
             "url_diff": "http://lapisbms.web.fc2.com/",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/424"
+        },
+        {
+            "id": 8365,
+            "md5": "fd3fe90b3d5864ceca4fca8eef8c1f57",
+            "sha256": "5d8a3e1b3c9fb9af1a2a7a66d735cf9db23ac0814aa165e48e16b5b2f033ae94",
+            "title": "ZundaaaaaVPN",
+            "artist": "litmus* ft. ずんだもん&春日部つむぎ obj:四国めたん",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=25&num=19&order=reg&odtype=a",
+            "url_diff": "https://stellabms.xyz/upload/6059",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8365"
         },
         {
             "id": 695,
@@ -9627,6 +9682,17 @@
             "site_url": "https://stellabms.xyz/song/4094"
         },
         {
+            "id": 8332,
+            "md5": "38ef033d85c67aedfe576295e104a214",
+            "sha256": "692498530241c87b25371ef79b27f9fbac97e743ae4408f4cbdf3d733506594b",
+            "title": "MANHATTAN  [Desire]",
+            "artist": "ゆんゆん obj: qtp13",
+            "url": "https://drive.google.com/file/d/1rWBL1AB0rlZckgkLWhvV3a7tqj5BU7j5/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/7110",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8332"
+        },
+        {
             "id": 186,
             "md5": "64cd668ffd34e9d46335dea2a859902a",
             "sha256": "c6772170d96e40a2ae38b0d70ec0817ad76c608d3a7cf386314b7caac1ebc6b6",
@@ -11464,6 +11530,17 @@
             "site_url": "https://stellabms.xyz/song/383"
         },
         {
+            "id": 8383,
+            "md5": "d2264019f2a9682c4fc88d07ca6979dd",
+            "sha256": "294633cc0437b6519fcdfa356d86f654f988b066a688aa0421ee37c0c45fdfe6",
+            "title": "群青ミラージュ -Seize the Day-",
+            "artist": "天束 feat. はらもりよしな (mov:SENALI,さずなも,春雨,はらもりよしな / obj. meta)",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=453&event=146",
+            "url_diff": "https://stellabms.xyz/upload/7362",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8383"
+        },
+        {
             "id": 1104,
             "md5": "fa8ef27697bd34adccb3862ac0a99d69",
             "sha256": "6186f68a6da3c6d2526b8066b8e5d5763ae90b1b1949df056dfda3d1506a802b",
@@ -12848,17 +12925,6 @@
             "url_diff": "https://stellabms.xyz/upload/6124",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/7590"
-        },
-        {
-            "id": 8332,
-            "md5": "38ef033d85c67aedfe576295e104a214",
-            "sha256": "692498530241c87b25371ef79b27f9fbac97e743ae4408f4cbdf3d733506594b",
-            "title": "MANHATTAN  [Desire]",
-            "artist": "ゆんゆん obj: qtp13",
-            "url": "https://drive.google.com/file/d/1rWBL1AB0rlZckgkLWhvV3a7tqj5BU7j5/view?usp=drive_link",
-            "url_diff": "https://stellabms.xyz/upload/7110",
-            "level": "4",
-            "site_url": "https://stellabms.xyz/song/8332"
         },
         {
             "id": 537,
@@ -14467,17 +14533,6 @@
             "site_url": "https://stellabms.xyz/song/7980"
         },
         {
-            "id": 5840,
-            "md5": "6651ac2a173d8adb00f1c5337d33ad71",
-            "sha256": "9ab1d4799e2e0e2164f0b9f311a4709dae9139f26ea56b76e8bd28bb6c959a70",
-            "title": "$trange Attraktor $(\"#noScratch\")",
-            "artist": "schwarzekugel / You might not need Scratch BGA:出前",
-            "url": "https://1drv.ms/u/s!AgF3AxufJ8SgheVW76lqfMaq5Km-lQ",
-            "url_diff": "https://parksu.darksabun.club/",
-            "level": "5",
-            "site_url": "https://stellabms.xyz/song/5840"
-        },
-        {
             "id": 3598,
             "md5": "a85994133df21871af5dc168d1fabbfd",
             "sha256": "c00ae7f2fc360632d4daf1c2bad5ee71755e48e24384808b6c78b33fa8a16043",
@@ -15191,6 +15246,17 @@
             "url_diff": "https://marysue.darksabun.club/",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/6678"
+        },
+        {
+            "id": 8384,
+            "md5": "d83029b3e1fcfaf2d3499f71d660ab9a",
+            "sha256": "fffa6a059f5ccbade5041283f3fd375af8a25897ecca92f09c2f238ba199c8a7",
+            "title": "GENOCIDER",
+            "artist": "しらいし /  Reiakiii",
+            "url": "https://venue.bmssearch.net/bmstukuru2023/38",
+            "url_diff": "https://stellabms.xyz/upload/2606",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/8384"
         },
         {
             "id": 145,
@@ -17041,6 +17107,17 @@
             "site_url": "https://stellabms.xyz/song/5439"
         },
         {
+            "id": 5840,
+            "md5": "6651ac2a173d8adb00f1c5337d33ad71",
+            "sha256": "9ab1d4799e2e0e2164f0b9f311a4709dae9139f26ea56b76e8bd28bb6c959a70",
+            "title": "$trange Attraktor $(\"#noScratch\")",
+            "artist": "schwarzekugel / You might not need Scratch BGA:出前",
+            "url": "https://1drv.ms/u/s!AgF3AxufJ8SgheVW76lqfMaq5Km-lQ",
+            "url_diff": "https://parksu.darksabun.club/",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/5840"
+        },
+        {
             "id": 275,
             "md5": "62cbf8e0d9f37f9ad736b4ada63e6d08",
             "sha256": "b59a4e58f86df7d1b5badab4ee30cacb8b3efcd3d3ad943f0b56dc27db2c2961",
@@ -18229,6 +18306,17 @@
             "site_url": "https://stellabms.xyz/song/4533"
         },
         {
+            "id": 8333,
+            "md5": "e671fe3fb13de60ac372aa6a1ed5451e",
+            "sha256": "b23e2e6670016636d47eeae640e81693452e04c9f15a1f745899c029c32a0456",
+            "title": "zodiac [machine]",
+            "artist": "G.G / 腕押しマシン",
+            "url": "https://drive.usercontent.google.com/u/0/uc?id=1Ug4OS6Uy7wAOcuv8bhyXSvP84SjO8dh2&export=download",
+            "url_diff": "https://stellabms.xyz/upload/4872",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8333"
+        },
+        {
             "id": 4324,
             "md5": "9bd201347125207b7acee0310a4d937b",
             "sha256": "a59ee05b2e0b4492cf15fd438ba99800ded62941134c95875a2149984169be18",
@@ -18381,6 +18469,17 @@
             "url_diff": "https://stellabms.xyz/upload/6395",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/8186"
+        },
+        {
+            "id": 8391,
+            "md5": "5779c1e68bbef4294c85e4fb9d5c3bba",
+            "sha256": "cfcaa04533029b600ab4a66588a42baa8d10aef9d58dfe53ca4a592545434b60",
+            "title": "トリプルウェルカム -Harether-",
+            "artist": "copyyyy obj:HARE",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=105&event=65",
+            "url_diff": "https://stellabms.xyz/upload/7226",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8391"
         },
         {
             "id": 1925,
@@ -18832,6 +18931,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02104.zip",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/642"
+        },
+        {
+            "id": 8377,
+            "md5": "96c226a0c3cfd6af8632f450e0f5bceb",
+            "sha256": "419dba207b3621b7160cb47fcde87720603c32ef73655977c0384723cc156d1f",
+            "title": "Always Feel the Same [I don't even know what happens]",
+            "artist": "Gsus x VJ PONDELION obj: BKwind",
+            "url": "https://venue.bmssearch.net/bmsshuin3/17",
+            "url_diff": "https://stellabms.xyz/upload/5047",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8377"
         },
         {
             "id": 7169,
@@ -19602,6 +19712,17 @@
             "url_diff": "https://www.dropbox.com/s/1dw17buj5q0n2hh/rhadamanthys_rustin.bms?dl=0",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/83"
+        },
+        {
+            "id": 8392,
+            "md5": "8546479ae2f456f0bbe6cea8bec24df4",
+            "sha256": "f7943e076059e52f318b4cd4786160f7b26910202522661ffc9331833cf88f35",
+            "title": "Scorpion Dance [Poisonous]",
+            "artist": "litmus* mov : litmus* & L.Ferdinant / obj:IBARAGI_YOSHIMI",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=15&event=96",
+            "url_diff": "https://stellabms.xyz/upload/7192",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8392"
         },
         {
             "id": 7903,
@@ -20746,17 +20867,6 @@
             "url_diff": "http://endymionsan.web.fc2.com/mikasabun.html",
             "level": "8",
             "site_url": "https://stellabms.xyz/song/530"
-        },
-        {
-            "id": 836,
-            "md5": "641e70eb12f9e0f1a3a3f1b4361c5ee9",
-            "sha256": "9f333ce8df4530b6e9e4f2c9c602923320c8f5addfac317d6f6f8eda2bb51e90",
-            "title": "Name of oath [SP HiHiHiTHER]",
-            "artist": "void feat. コツキミヤ , Gt. えば / obj:秘密 BGA : Photonskyto",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=231&event=65",
-            "url_diff": "http://hiiiii.web.fc2.com/sabun/",
-            "level": "8",
-            "site_url": "https://stellabms.xyz/song/836"
         },
         {
             "id": 8238,
@@ -22627,6 +22737,17 @@
             "url_diff": "https://web.archive.org/web/20200306165639/http://3228monsta.web.fc2.com/",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/334"
+        },
+        {
+            "id": 8218,
+            "md5": "6018179f1db56e77957153db16ff5d60",
+            "sha256": "dc24878e8b513b8d003a8df417360970fbd89a549fc7b14a4b6404b2d1c34f12",
+            "title": "Fall Apart [fragments]",
+            "artist": "ohon BGA:TRAF obj:BAECON",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=140",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/8218"
         },
         {
             "id": 1697,

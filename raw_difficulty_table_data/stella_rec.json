@@ -24,6 +24,17 @@
             "site_url": "https://stellabms.xyz/song/2842"
         },
         {
+            "id": 7113,
+            "md5": "9d91479c3d8f740f420001a62d673f01",
+            "sha256": "a1a40bdf8dedd9af6f491d9c11c9f0176192cd7da29575b18553eac77a1a5a77",
+            "title": "JUMMER (LASER PSY REMIX) [3X]",
+            "artist": "momo★yama obj:trainer",
+            "url": "https://drive.google.com/file/d/1OlAXQ4YwnkkAm8CUDKILecLZfsnc5B_r/view",
+            "url_diff": "https://stellabms.xyz/upload/5476",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/7113"
+        },
+        {
             "id": 3439,
             "md5": "3446b35b6a81083d79665abffb0f0a79",
             "sha256": "ad770687d960ee299a763d2218cf3e58e211c377bd99b1791f936576aabef54e",
@@ -44,6 +55,17 @@
             "url_diff": "https://venue.bmssearch.net/bcel_pre/41",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/5134"
+        },
+        {
+            "id": 7450,
+            "md5": "5cb6d937178c27e0bf3f9ced0537a597",
+            "sha256": "bf20e49a7038e3a07c64b4815bcabcab10ff3dbf6440fb2cfc47fc2a475b51d2",
+            "title": "orangegirl sentiment [EX]",
+            "artist": "recognize m. ;bgaparty obj.うに",
+            "url": "http://www.pixellife.x0.to/event/revival/",
+            "url_diff": "https://stellabms.xyz/upload/5980",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/7450"
         },
         {
             "id": 4023,
@@ -77,6 +99,17 @@
             "url_diff": "https://web.archive.org/web/20190322230138/http://www.hyper-laner.com/sabun/all201807_laner.rar",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/299"
+        },
+        {
+            "id": 3063,
+            "md5": "99ebcff8e051e6da68a7f8e9ae7a2fc1",
+            "sha256": "9f99943a09542d175fbdc28301a13d2aed90ed35bd01b75571ad52dc7b3ecc3e",
+            "title": "Strahv -Despair & Hope-",
+            "artist": "Feryquitous / obj:七海 Sennzai / Dazzle / Cymby",
+            "url": "http://www.dropbox.com/s/14sbfaq70lsr2ev/%5BFeryquitous%5DStrahv.zip?dl=1",
+            "url_diff": "https://www.dropbox.com/s/eeoqjreczgga8td/strahv_nanami.zip?dl=1",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/3063"
         },
         {
             "id": 6254,
@@ -121,17 +154,6 @@
             "url_diff": "http://gnqg.rosx.net/upload/",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/92"
-        },
-        {
-            "id": 402,
-            "md5": "f5dc520523bf9327d818990b48320708",
-            "sha256": "a512f9ad572c3ec6c8585bd90843d0aa8dd8cef35b6803115383c1d4fb753c8b",
-            "title": "夜桜 [DERAYMASTER]",
-            "artist": "彩音 / 小宮真央 / 差分　赤い人",
-            "url": "http://necoco.2-d.jp/",
-            "url_diff": "http://akred.web.fc2.com/bmsfile/_74bt1_DERAYMASTER.bms",
-            "level": "0",
-            "site_url": "https://stellabms.xyz/song/402"
         },
         {
             "id": 2550,
@@ -596,6 +618,17 @@
             "site_url": "https://stellabms.xyz/song/2475"
         },
         {
+            "id": 3673,
+            "md5": "9cd5a316117bce74196a4fc94d56e39c",
+            "sha256": "91bd7add1cbb22518e35ef986759d522a42eb49b33b78f2d4a4b08415fa2b6a3",
+            "title": "DEYANEN [Hexagon]",
+            "artist": "アスパラ音楽隊 obj.hex",
+            "url": "https://web.archive.org/web/20160321130346/http://big.freett.com/woody_/deyanen.zip",
+            "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/3673"
+        },
+        {
             "id": 6774,
             "md5": "413d2785ba57673a12c38f6a2508d48b",
             "sha256": "5476676348bd9feb33885ca4d3f3c130f276bd3ae6e2517a78de6be11d4f4bc0",
@@ -979,6 +1012,17 @@
             "url_diff": "https://stellabms.xyz/upload/6509",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/7839"
+        },
+        {
+            "id": 5676,
+            "md5": "312521681da9a629c1d2777dd8c3c9e0",
+            "sha256": "d566aa4fd7f81576cafbc8dd3c189a44917b54c419f1b4c32a4ba4b3dc07a5d1",
+            "title": "Kouma Rave Party Night [Keychip's Renda Party Nite]",
+            "artist": "dj MASTER feat. 高谷紗那 obj: qtp13 as Keychip",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=102",
+            "url_diff": "https://stellabms.xyz/upload/1530",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/5676"
         },
         {
             "id": 1924,

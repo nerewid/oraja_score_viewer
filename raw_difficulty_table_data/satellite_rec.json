@@ -541,6 +541,17 @@
             "site_url": "https://stellabms.xyz/song/1239"
         },
         {
+            "id": 7823,
+            "md5": "44de9bec873ee6af8d220658be36ac9c",
+            "sha256": "222f53a143cd17c760845b1c7cea3d2e562c55fa4b19181fca299b2a1c9366e5",
+            "title": "Carriage Pony? [横デカホース]",
+            "artist": "freesia obj:trainer",
+            "url": "https://venue.bmssearch.net/bmstukuru2022/11",
+            "url_diff": "https://stellabms.xyz/upload/6353",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7823"
+        },
+        {
             "id": 2000,
             "md5": "12e0c7293d57dbbdad503f48bbfb5fea",
             "sha256": "607b71b0e19ee756879fcd656742f453143a02b8acda45c40cdac656e47a6559",
