@@ -330,4 +330,4 @@ function hideLoading() {
     }
 }
 
-export { getSha256ToMd5Map };
+export { getSha256ToMd5Map, showError, hideLoading };
