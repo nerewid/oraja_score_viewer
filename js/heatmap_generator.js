@@ -1,5 +1,5 @@
 // heatmap_generator.js (メイン処理)
-import { scoreDbData, scorelogDbData } from './db_uploader.js';
+import { scoreDbData, scorelogDbData, sqlPromise } from './db_uploader.js';
 import { t } from './i18n.js';
 import { UNIX_TO_MS, HEATMAP_CONFIG } from './constants.js';
 
@@ -17,17 +17,20 @@ function collectRows(stmt) {
 
 async function generateHeatmapData(scoreDbData, scorelogDbData) {
     try {
-        const SQL = await initSqlJs({ locateFile: filename => `/js/${filename}` });
+        // db_uploader.jsで初期化済みのPromiseを再利用（locateFile重複指定を排除）
+        const SQL = await sqlPromise;
         const scoreDb = new SQL.Database(new Uint8Array(scoreDbData));
         const scorelogDb = new SQL.Database(new Uint8Array(scorelogDbData));
 
-        const notesData = generateNotesData(scoreDb);
-        const progressData = generateProgressData(scorelogDb);
-
-        scoreDb.close();
-        scorelogDb.close();
-
-        return { notes: notesData, progress: progressData };
+        try {
+            const notesData = generateNotesData(scoreDb);
+            const progressData = generateProgressData(scorelogDb);
+            return { notes: notesData, progress: progressData };
+        } finally {
+            // エラー発生時もメモリリークを防ぐため確実にクローズ
+            scoreDb.close();
+            scorelogDb.close();
+        }
     } catch (error) {
         console.error("データベース処理エラー:", error);
         throw error;
