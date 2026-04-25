@@ -3,5 +3,4 @@ private_docs/
 node_modules/
 .DS_Store
 *.log
-*.md
 .playwright-mcp/
