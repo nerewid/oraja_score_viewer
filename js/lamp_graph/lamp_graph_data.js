@@ -124,16 +124,16 @@ async function getScoresBySha256s(sha256List, selectedLnModeValue) {
 /**
  * 指定された複数のSHA256ハッシュに対応する楽曲データがsongdataに存在するか判定する
  * @param {Array<string>} sha256List - 確認したいSHA256ハッシュ値の配列
- * @returns {Promise<Array<string>>} - 存在するSHA256の配列
+ * @returns {Promise<Set<string>>} - 存在するSHA256のSet
  */
 async function checkExistSongsBySha256s(sha256List) {
     const queryTemplate = `SELECT sha256 FROM song WHERE sha256 IN ({placeholders})`;
 
     const existingSongs = await executeBatchQuery(SQL, songdataDbData, queryTemplate, sha256List, (row, result) => {
-        result.push(row.sha256);
-    }, () => []);
+        result.add(row.sha256);
+    }, () => new Set());
 
-    console.log(`楽曲データ一括取得完了。取得できた譜面数: ${existingSongs.length}`);
+    console.log(`楽曲データ一括取得完了。取得できた譜面数: ${existingSongs.size}`);
     return existingSongs;
 }
 
@@ -205,7 +205,7 @@ async function processSongScores(songs, selectedLnModeValue) {
         let exscore = null;
         let sha256 = null;
 
-        if (songInfo.sha256 && songsMap.includes(songInfo.sha256)){
+        if (songInfo.sha256 && songsMap.has(songInfo.sha256)){
             clear = 0;
             sha256 = songInfo.sha256
         }
