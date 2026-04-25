@@ -8,13 +8,23 @@ let songListSortState = { column: 'title', ascending: true };
 
 /**
  * 背景色に基づいてコントラストの高いテキストの色（白または黒）を返す
- * @param {string} hexcolor - 16進数の色コード (#rrggbb形式)
+ * @param {string} color - rgb(a) または #rrggbb 形式の色文字列
  * @returns {string} - 'white' または 'black'
  */
-function getContrastColor(hexcolor) {
-    const r = parseInt(hexcolor.slice(1, 3), 16);
-    const g = parseInt(hexcolor.slice(3, 5), 16);
-    const b = parseInt(hexcolor.slice(5, 7), 16);
+function getContrastColor(color) {
+    const rgbaMatch = /rgba?\(\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*([\d.]+)/.exec(color);
+    let r, g, b;
+    if (rgbaMatch) {
+        r = +rgbaMatch[1];
+        g = +rgbaMatch[2];
+        b = +rgbaMatch[3];
+    } else if (typeof color === 'string' && color.startsWith('#') && color.length >= 7) {
+        r = parseInt(color.slice(1, 3), 16);
+        g = parseInt(color.slice(3, 5), 16);
+        b = parseInt(color.slice(5, 7), 16);
+    } else {
+        return 'white';
+    }
     const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
     return (yiq >= 128) ? 'black' : 'white';
 }
