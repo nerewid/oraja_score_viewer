@@ -7,7 +7,7 @@ import { songdataDbData } from '../db_uploader.js';
 import { executeBatchQuery } from '../utils/batch-query.js';
 
 // sql.js のコアオブジェクト (初期化後に設定)
-let SQL;
+let SQL = null;
 
 // Md5 -> Sha256 の逆引きMap (初期化後に設定)
 let Md5Tosha256Map;
