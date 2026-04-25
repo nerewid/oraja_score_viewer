@@ -1,5 +1,5 @@
 import {generateNotesData} from './heatmap_generator.js'; // ヒートマップ用のノーツ数データを生成する関数をインポート
-import {scoreDbData} from './db_uploader.js'; // スコアデータベースのデータをインポート
+import {scoreDbData, sqlPromise} from './db_uploader.js'; // スコアデータベースのデータとSQL.jsのPromiseをインポート
 import { t } from './i18n.js'; // i18n翻訳関数をインポート
 import { CLEAR_STATUS } from './constants.js'; // 共有定数をインポート
 import { splitIntoChunks, createPlaceholders } from './utils/sql-chunker.js'; // チャンク分割・プレースホルダ生成
@@ -36,60 +36,65 @@ export async function generateHtmlFromJson(jsonOutput, templateFile) {
                     .sort((a, b) => parseInt(b.data.clear) - parseInt(a.data.clear));
                 return { date, titles, allTitles };
             });
-            // SQL.jsを初期化
-            const SQL = await initSqlJs({ locateFile: filename => `/js/${filename}` });
+            // SQL.jsを初期化（db_uploader.jsで初期化済みのPromiseを再利用）
+            const SQL = await sqlPromise;
             // スコアデータベースをUint8Arrayから初期化
             const scoreDb = new SQL.Database(new Uint8Array(scoreDbData));
-            // スコアデータベースからノーツ数データを生成
-            const noteData = await generateNotesData(scoreDb);
-            // ノーツ数データを日付の形式を揃えて整形
-            const formattedNoteData = noteData.map(item => {
-                return {
-                    date: item.date.replace(/-/g, "/"), // 日付のハイフンをスラッシュに置換
-                    value: item.value
+            let html;
+            try {
+                // スコアデータベースからノーツ数データを生成
+                const noteData = await generateNotesData(scoreDb);
+                // ノーツ数データを日付の形式を揃えて整形
+                const formattedNoteData = noteData.map(item => {
+                    return {
+                        date: item.date.replace(/-/g, "/"), // 日付のハイフンをスラッシュに置換
+                        value: item.value
+                    };
+                });
+                // 整形されたノーツ数データを日付をキーとするオブジェクトに変換
+                const notesMap = formattedNoteData.reduce((accumulator, currentItem) => {
+                    accumulator[currentItem.date] = currentItem.value;
+                    return accumulator;
+                }, {});
+
+                // スコア更新用にノーツ数を取得
+                const allSha256s = [...new Set(
+                    sortedJsonOutputWithKeys.flatMap(d => d.allTitles.map(t => t.data.sha256)).filter(Boolean)
+                )];
+                const songNotesMap = querySongNotesMap(scoreDb, allSha256s);
+
+                // 各日付にscore_updatesを追加
+                for (const dateData of sortedJsonOutputWithKeys) {
+                    dateData.score_updates = dateData.allTitles
+                        .filter(t => t.data.new_score > t.data.old_score)
+                        .map(t => {
+                            const notes = songNotesMap.get(t.data.sha256) || 0;
+                            const scoreRate = notes > 0 ? (t.data.new_score / (notes * 2) * 100) : null;
+                            return {
+                                title: t.title,
+                                old_score: t.data.old_score,
+                                new_score: t.data.new_score,
+                                score_rate: scoreRate !== null ? scoreRate.toFixed(2) : null
+                            };
+                        })
+                        .sort((a, b) => (parseFloat(b.score_rate) || 0) - (parseFloat(a.score_rate) || 0));
+                    // allTitlesはテンプレートに不要なので削除
+                    delete dateData.allTitles;
+                }
+
+                // テンプレートにデータを渡してHTMLをレンダリング
+                const i18n = {
+                    history: t('template.history'),
+                    downloadJson: t('template.download_json'),
+                    bpOnly: t('template.bp_only'),
+                    newClear: t('template.new_clear'),
+                    daysPerPage: t('template.days_per_page'),
+                    scoreUpdate: t('template.score_update'),
                 };
-            });
-            // 整形されたノーツ数データを日付をキーとするオブジェクトに変換
-            const notesMap = formattedNoteData.reduce((accumulator, currentItem) => {
-                accumulator[currentItem.date] = currentItem.value;
-                return accumulator;
-            }, {});
-
-            // スコア更新用にノーツ数を取得
-            const allSha256s = [...new Set(
-                sortedJsonOutputWithKeys.flatMap(d => d.allTitles.map(t => t.data.sha256)).filter(Boolean)
-            )];
-            const songNotesMap = querySongNotesMap(scoreDb, allSha256s);
-
-            // 各日付にscore_updatesを追加
-            for (const dateData of sortedJsonOutputWithKeys) {
-                dateData.score_updates = dateData.allTitles
-                    .filter(t => t.data.new_score > t.data.old_score)
-                    .map(t => {
-                        const notes = songNotesMap.get(t.data.sha256) || 0;
-                        const scoreRate = notes > 0 ? (t.data.new_score / (notes * 2) * 100) : null;
-                        return {
-                            title: t.title,
-                            old_score: t.data.old_score,
-                            new_score: t.data.new_score,
-                            score_rate: scoreRate !== null ? scoreRate.toFixed(2) : null
-                        };
-                    })
-                    .sort((a, b) => (parseFloat(b.score_rate) || 0) - (parseFloat(a.score_rate) || 0));
-                // allTitlesはテンプレートに不要なので削除
-                delete dateData.allTitles;
+                html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: CLEAR_STATUS, notes: notesMap, i18n: i18n });
+            } finally {
+                scoreDb.close(); // メモリリーク防止のため確実にクローズ
             }
-
-            // テンプレートにデータを渡してHTMLをレンダリング
-            const i18n = {
-                history: t('template.history'),
-                downloadJson: t('template.download_json'),
-                bpOnly: t('template.bp_only'),
-                newClear: t('template.new_clear'),
-                daysPerPage: t('template.days_per_page'),
-                scoreUpdate: t('template.score_update'),
-            };
-            const html = template.render({ clear_info: sortedJsonOutputWithKeys, clear_status: CLEAR_STATUS, notes: notesMap, i18n: i18n });
             return html; // 生成されたHTMLを返す
         } catch (nunjucksError) {
             // Nunjucksテンプレートのエラーをコンソールに出力し、エラーメッセージを含むHTMLを返す
