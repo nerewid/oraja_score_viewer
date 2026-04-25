@@ -2,6 +2,7 @@
 import { scoreDbData, scorelogDbData, sqlPromise } from './db_uploader.js';
 import { t } from './i18n.js';
 import { UNIX_TO_MS, HEATMAP_CONFIG } from './constants.js';
+import { showError, hideLoading } from './score_change_to_json.js';
 
 /**
  * SQLステートメントから全行をオブジェクト配列として取得する
@@ -151,7 +152,13 @@ document.getElementById("processData").addEventListener("click", async () => {
         displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", t('heatmap.progress'), HEATMAP_CONFIG.PROGRESS_LIMIT, HEATMAP_CONFIG.PROGRESS_COLOR_SCHEME, t('heatmap.updates'));
 
     } catch (error) {
-        alert(t('alert.process_error'));
+        console.error("ヒートマップ処理エラー:", error);
+        hideLoading();
+        document.getElementById("upload-area").classList.remove("hidden");
+        showError(
+            error.message || t('alert.process_error'),
+            error.stack
+        );
     }
 });
 
