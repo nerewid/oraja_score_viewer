@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import hashlib
 from datetime import datetime
 
@@ -7,17 +8,20 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
     """
     複数の難易度表JSONファイルを読み込み、md5をキーに統合します。
     md5が存在しない場合は一旦nullとして統合、処理後にsha256で統合を行います。
+
+    Returns:
+        bool: 成功時 True、致命的エラーで JSON 出力をスキップした場合 False
     """
 
     try:
         with open(table_info_path, "r", encoding="utf-8") as f:
             table_info = json.load(f)
     except FileNotFoundError:
-        print(f"エラー：難易度表情報ファイル'{table_info_path}'が見つかりません。")
-        return
+        print(f"エラー：難易度表情報ファイル'{table_info_path}'が見つかりません。", file=sys.stderr)
+        return False
     except json.JSONDecodeError:
-        print(f"エラー：難易度表情報ファイル'{table_info_path}'のJSON形式が不正です。")
-        return
+        print(f"エラー：難易度表情報ファイル'{table_info_path}'のJSON形式が不正です。", file=sys.stderr)
+        return False
 
     merged_songs_by_md5 = {}
     merged_songs_by_sha256 = {}
@@ -39,14 +43,20 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
             with open(file_path, "r", encoding="utf-8") as f:
                 table_data = json.load(f)
         except FileNotFoundError:
-            print(f"警告：難易度表ファイル'{file_path}'が見つかりません。スキップします。")
+            msg = f"警告：難易度表ファイル'{file_path}'が見つかりません。スキップします。"
+            print(msg, file=sys.stderr)
+            errors.append(msg)
             continue
         except json.JSONDecodeError:
-            print(f"警告：難易度表ファイル'{file_path}'のJSON形式が不正です。スキップします。")
+            msg = f"警告：難易度表ファイル'{file_path}'のJSON形式が不正です。スキップします。"
+            print(msg, file=sys.stderr)
+            errors.append(msg)
             continue
 
         if "songs" not in table_data:
-            print(f"警告：難易度表ファイル'{file_path}'に'songs'キーが存在しません。スキップします。")
+            msg = f"警告：難易度表ファイル'{file_path}'に'songs'キーが存在しません。スキップします。"
+            print(msg, file=sys.stderr)
+            errors.append(msg)
             continue
 
         for song in table_data["songs"]:
@@ -54,17 +64,21 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
             sha256 = song.get("sha256")
 
             if not md5 and not sha256:
-                print(f"警告：楽曲データに'md5'と'sha256'キーのどちらも存在しません。スキップします。データ:{song}")
+                print(f"警告：楽曲データに'md5'と'sha256'キーのどちらも存在しません。スキップします。データ:{song}", file=sys.stderr)
                 continue
+
+            level_entry = {
+                "level": song.get("level"),
+                "table": internal_file_name,
+                "shortName": short_name
+            }
 
             if md5:
                 if md5 in merged_songs_by_md5:
                     existing_song = merged_songs_by_md5[md5]
-                    existing_song["levels"].append({
-                        "level": song.get("level"),
-                        "table": internal_file_name,
-                        "shortName": short_name
-                    })
+                    existing_keys = {(lv.get("level"), lv.get("table")) for lv in existing_song["levels"]}
+                    if (level_entry["level"], level_entry["table"]) not in existing_keys:
+                        existing_song["levels"].append(level_entry)
                     if not existing_song.get("artist") and song.get("artist"):
                         existing_song["artist"] = song["artist"]
                     if not existing_song.get("title") and song.get("title"):
@@ -78,20 +92,14 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
                         "sha256": sha256,
                         "title": song.get("title"),
                         "artist": song.get("artist"),
-                        "levels": [{
-                            "level": song.get("level"),
-                            "table": internal_file_name,
-                            "shortName": short_name
-                        }]
+                        "levels": [level_entry]
                     }
             elif sha256: #md5が存在しない場合sha256で管理
                 if sha256 in merged_songs_by_sha256:
                     existing_song = merged_songs_by_sha256[sha256]
-                    existing_song["levels"].append({
-                        "level": song.get("level"),
-                        "table": internal_file_name,
-                        "shortName": short_name
-                    })
+                    existing_keys = {(lv.get("level"), lv.get("table")) for lv in existing_song["levels"]}
+                    if (level_entry["level"], level_entry["table"]) not in existing_keys:
+                        existing_song["levels"].append(level_entry)
                     if not existing_song.get("artist") and song.get("artist"):
                         existing_song["artist"] = song["artist"]
                     if not existing_song.get("title") and song.get("title"):
@@ -104,11 +112,7 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
                         "sha256": sha256,
                         "title": song.get("title"),
                         "artist": song.get("artist"),
-                        "levels": [{
-                            "level": song.get("level"),
-                            "table": internal_file_name,
-                            "shortName": short_name
-                        }]
+                        "levels": [level_entry]
                     }
 
     # md5をキーにしたデータとsha256をキーにしたデータを統合
@@ -128,18 +132,20 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
 
     if errors:
         for error in errors:
-            print(error)
-        print("エラーが発生したため、JSONファイルの出力は行いません。")
-        return
-    
+            print(error, file=sys.stderr)
+        print("エラーが発生したため、JSONファイルの出力は行いません。", file=sys.stderr)
+        return False
+
     merged_data["songs"].sort(key=lambda x: x.get("title", ""))
 
     try:
         with open(output_path, "w", encoding="utf-8") as outfile:
             json.dump(merged_data, outfile, indent=4, ensure_ascii=False)
         print(f"統合されたデータは'{output_path}'に保存されました。")
+        return True
     except Exception as e:
-        print(f"エラー：ファイルの書き込み中にエラーが発生しました：{e}")
+        print(f"エラー：ファイルの書き込み中にエラーが発生しました：{e}", file=sys.stderr)
+        return False
 
 
 if __name__ == "__main__":
@@ -148,4 +154,5 @@ if __name__ == "__main__":
     source_dir = os.path.join(project_root, "raw_difficulty_table_data")
     result_dir = os.path.join(project_root, "difficulty_table_data")
 
-    merge_difficulty_tables(os.path.join(source_dir, "difficulty_tables.json"), os.path.join(result_dir, "merged_difficulty_tables.json"))
+    success = merge_difficulty_tables(os.path.join(source_dir, "difficulty_tables.json"), os.path.join(result_dir, "merged_difficulty_tables.json"))
+    sys.exit(0 if success else 1)
