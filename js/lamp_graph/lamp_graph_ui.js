@@ -43,7 +43,7 @@ function setupEventListeners(onSelectionChange, onGraphClick) {
         let selectedLnModeValue;
         for (const radio of lnModeRadios) {
             if (radio.checked) {
-                selectedLnModeValue = radio.value;
+                selectedLnModeValue = Number(radio.value);
                 break;
             }
         }
@@ -53,7 +53,7 @@ function setupEventListeners(onSelectionChange, onGraphClick) {
     // LN mode変更時の処理
     lnModeRadios.forEach(radio => {
         radio.addEventListener('change', async (event) => {
-            const selectedLnModeValue = event.target.value;
+            const selectedLnModeValue = Number(event.target.value);
             const selectedInternalFileName = difficultyTableSelect.value;
 
             console.log(`LNモードが変更されました: ${selectedLnModeValue}`);

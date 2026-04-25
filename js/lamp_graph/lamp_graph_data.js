@@ -94,7 +94,8 @@ async function loadSongData(internalFileName) {
  * @returns {Promise<Map<string, { clear: number, minbp: number | null }>>} - SHA256をキーとしたスコアデータのMap
  */
 async function getScoresBySha256s(sha256List, selectedLnModeValue) {
-    const queryTemplate = `SELECT sha256, clear, minbp, notes, mode, epg, lpg, egr, lgr FROM score WHERE mode = ${selectedLnModeValue} AND sha256 IN ({placeholders})`;
+    const modeNum = parseInt(selectedLnModeValue, 10);
+    const queryTemplate = `SELECT sha256, clear, minbp, notes, mode, epg, lpg, egr, lgr FROM score WHERE mode = ${modeNum} AND sha256 IN ({placeholders})`;
 
     const scoresMap = await executeBatchQuery(SQL, scoreDbData, queryTemplate, sha256List, (row, result) => {
         const clearValue = Number(row.clear);
@@ -190,7 +191,7 @@ async function processSongScores(songs, selectedLnModeValue) {
     const songsMap = await checkExistSongsBySha256s(sha256List);
     const scoresMap = await getScoresBySha256s(sha256List, 0);
     let scoresMapXn = null
-    if (selectedLnModeValue !== 0) {
+    if (Number(selectedLnModeValue) !== 0) {
         scoresMapXn = await getScoresBySha256s(sha256List, selectedLnModeValue)
     }
     console.log("フェーズ2完了。");
