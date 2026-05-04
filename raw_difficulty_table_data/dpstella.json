@@ -695,17 +695,6 @@
             "site_url": "https://stellabms.xyz/song/5564"
         },
         {
-            "id": 3686,
-            "md5": "56dee1bccba7f5505d2076e4c5ac2b9b",
-            "sha256": "3a4b41faea5543a804894828dd50e3c18d7ed37c8c5038d8aade2d44b6cbd2bb",
-            "title": "私のヒトミ",
-            "artist": "nmk feat.橘花音 obj: shiba",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=197&event=96",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/1099",
-            "level": "1",
-            "site_url": "https://stellabms.xyz/song/3686"
-        },
-        {
             "id": 5775,
             "md5": "066697b4ccf7ed269f4d29cc660bd345",
             "sha256": "a0f33eb240f18646ab71d032397538a5b17c158c1f821aa39e6f654ad76a47ab",
@@ -990,6 +979,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/801",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/2954"
+        },
+        {
+            "id": 3686,
+            "md5": "56dee1bccba7f5505d2076e4c5ac2b9b",
+            "sha256": "3a4b41faea5543a804894828dd50e3c18d7ed37c8c5038d8aade2d44b6cbd2bb",
+            "title": "私のヒトミ",
+            "artist": "nmk feat.橘花音 obj: shiba",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=197&event=96",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1099",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/3686"
         },
         {
             "id": 6705,

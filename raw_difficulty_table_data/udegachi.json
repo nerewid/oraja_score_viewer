@@ -163,16 +163,6 @@
         },
         {
             "level": "0",
-            "title": "Natsuiroscape",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=99&event=149",
-            "url_diff": "https://stellabms.xyz/upload/6774",
-            "comment": "",
-            "md5": "91891a9590846f4cf0141c04139edd53",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=91891a9590846f4cf0141c04139edd53"
-        },
-        {
-            "level": "0",
             "title": "Night view [函館]",
             "artist": "",
             "url": "https://9domu46i.com/yuruyuru/phase7.html",
@@ -400,16 +390,6 @@
             "comment": "",
             "md5": "d63a80c94958ffa9df871c3fdf2b2e7d",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d63a80c94958ffa9df871c3fdf2b2e7d"
-        },
-        {
-            "level": "0",
-            "title": "きりんさん進化論 [Cycle of Life]",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=420&event=146",
-            "url_diff": "https://stellabms.xyz/upload/7149",
-            "comment": "",
-            "md5": "fa1ca33c2ecc343feed01bc48b2b9f2f",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fa1ca33c2ecc343feed01bc48b2b9f2f"
         },
         {
             "level": "0",
@@ -913,6 +893,16 @@
         },
         {
             "level": "1",
+            "title": "Natsuiroscape",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=99&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6774",
+            "comment": "",
+            "md5": "91891a9590846f4cf0141c04139edd53",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=91891a9590846f4cf0141c04139edd53"
+        },
+        {
+            "level": "1",
             "title": "new earth [terra nova]",
             "artist": "",
             "url": "https://dropbox.bms.ms/u/28765267/er_new-earth.zip",
@@ -1110,6 +1100,16 @@
             "comment": "",
             "md5": "e78e93847fa8ab764ba7be31b3d53994",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=e78e93847fa8ab764ba7be31b3d53994"
+        },
+        {
+            "level": "1",
+            "title": "きりんさん進化論 [Cycle of Life]",
+            "artist": "",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=420&event=146",
+            "url_diff": "https://stellabms.xyz/upload/7149",
+            "comment": "",
+            "md5": "fa1ca33c2ecc343feed01bc48b2b9f2f",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=fa1ca33c2ecc343feed01bc48b2b9f2f"
         },
         {
             "level": "1",

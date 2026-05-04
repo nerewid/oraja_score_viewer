@@ -1487,6 +1487,17 @@
             "site_url": "https://stellabms.xyz/song/8228"
         },
         {
+            "id": 8393,
+            "md5": "2fd460f54b0d946b777f5c67e2b41634",
+            "sha256": "473fe601c9dfeb691d9ad364374ce31f02c7c18a4d31a64051a51c6e95007d73",
+            "title": "桜戦線 -front of cherry blossom-",
+            "artist": "Tokky / beatMARIO",
+            "url": "http://cool-create.cc/bms/btm_saku.html",
+            "url_diff": "https://www8.atwiki.jp/14key?cmd=upload&act=open&pageid=23&file=btm_sakura14.zip",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8393"
+        },
+        {
             "id": 4774,
             "md5": "1273495bab9aa0561cdc7fa5f0fc9a50",
             "sha256": "ba9b2c3b306e68b1a4bc38b25a143dbd447fcf4504cc69a6c96a43625580da3d",
@@ -2939,6 +2950,17 @@
             "site_url": "https://stellabms.xyz/song/2866"
         },
         {
+            "id": 8394,
+            "md5": "7b9784cb9865dd12ebd5779fdcd0e65f",
+            "sha256": "af94d1dd426652910a19849b788082b12db7047f4c6ae127c26b26a1a74855cf",
+            "title": "杪冬の願い [DP 202THER]",
+            "artist": "あとぅす feat.橘花音 BGI:りーふぱいザウルス / obj:plum",
+            "url": "https://venue.bmssearch.net/bmstukuru2022/33",
+            "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpihWCswBavZFloD6N2?e=VpftHR",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8394"
+        },
+        {
             "id": 4001,
             "md5": "069810a738deb692f8a9044f80a8502b",
             "sha256": "50ea781b49207aebab35451c7eef0fe58c73abf654b5e9e037143849f1a5e82e",
@@ -3124,6 +3146,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/455",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/1857"
+        },
+        {
+            "id": 8355,
+            "md5": "7f2ac303290f3b67370c5285ea252258",
+            "sha256": "de6997f89bbdb874b3d33eaf9010d132a464e66a41765987453af09bab61080d",
+            "title": "DAYBREAK [DP ANOTHER]",
+            "artist": "Lime / Kankitsu obj:marquee",
+            "url": "https://venue.bmssearch.net/genreshuffle4/80",
+            "url_diff": "https://hpx.getonpictochat.com/bmss/2024/",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8355"
         },
         {
             "id": 2480,
@@ -6492,6 +6525,17 @@
             "site_url": "https://stellabms.xyz/song/2488"
         },
         {
+            "id": 8435,
+            "md5": "98d9454bdc3b697129587c14512d4127",
+            "sha256": "12de9ae1f4f32f1c29c51491c0de3746d76c2566c193f448866944a2b43773af",
+            "title": "My Dream Snow Line [DP ANOTHER]",
+            "artist": "CYLTIE.",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=119&event=149",
+            "url_diff": "",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/8435"
+        },
+        {
             "id": 6916,
             "md5": "7b43dad859fd0f13bf8d85a6f7f71419",
             "sha256": "e2b9e43a96f2a66a5a193ab51245468091b5831cd932f3be3d93381549187f92",
@@ -6875,6 +6919,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/541",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/2232"
+        },
+        {
+            "id": 8294,
+            "md5": "159e04e18a4d1807353a9da35cb9845e",
+            "sha256": "15aac5ddf30ac772e8e95f0f3bf5e49b6d8e1b5d53d7c6254e0a2dc1a150d854",
+            "title": "Dilclumina [DP ANOTHER]",
+            "artist": "anco vs usb_nk / Movie: tayuru Obj: anco",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=190&event=149",
+            "url_diff": "",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/8294"
         },
         {
             "id": 3251,

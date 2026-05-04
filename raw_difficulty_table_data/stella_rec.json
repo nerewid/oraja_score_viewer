@@ -299,6 +299,17 @@
             "site_url": "https://stellabms.xyz/song/6559"
         },
         {
+            "id": 4112,
+            "md5": "9f65db9775f16e4438eccec2036cd43b",
+            "sha256": "866d91479693160bbe12de1a6e42a66bcf19648e12386c4fc2d67b2d8d0b18b5",
+            "title": "Weaponhuman [Ultimate]",
+            "artist": "paraneumann / obj:C4",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=20&event=131",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05341.zip",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/4112"
+        },
+        {
             "id": 7082,
             "md5": "431d7cd7c5f9169411468bdccfc0f322",
             "sha256": "9dd652764632fd3660d5716eed96612b84d02354a1461b61092dea2a1dfa46aa",
@@ -891,6 +902,17 @@
             "url_diff": "https://dl.dropboxusercontent.com/s/uazhoqec0i9vc50/%E2%98%85%E2%98%851%20%E2%98%85%E2%98%853%20%E5%A3%8A%E5%BB%8A%20%5BPentagon%5D%20%5BHexagon%5D.zip",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/3166"
+        },
+        {
+            "id": 5832,
+            "md5": "58e5de4a2ce0ea6b106b88cc04f941a3",
+            "sha256": "a96f556c03b9801b0cc4bb84dceea9cb1dbf4071ce586ff721b55024046351c3",
+            "title": "色待宵 -イロマツヨイ- [FULLBLOOM]",
+            "artist": "Pleiades (あとぅす vs. Lian)",
+            "url": "https://venue.bmssearch.net/bmstukuru2023/48",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/5832"
         },
         {
             "id": 6200,
