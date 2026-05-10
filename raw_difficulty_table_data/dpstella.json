@@ -629,6 +629,17 @@
             "site_url": "https://stellabms.xyz/song/5651"
         },
         {
+            "id": 8467,
+            "md5": "cca65fb49d654603346094f25eaca29b",
+            "sha256": "673bbe564ab40d4fbbd075205777c63f71cbd3f2ffb206a39e0805b1f6cc593b",
+            "title": "アルスノヴァに喝采を [ラケシスはやがてかすかに微笑んだ]",
+            "artist": "qfeileadh feat.レゾナンスもえこ / 熊猫 movie:アカイユウ / illust:ねるぞう",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=137&num=15",
+            "url_diff": "https://stellabms.xyz/upload/7067",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8467"
+        },
+        {
             "id": 5193,
             "md5": "59bee181c697177bc186fdde396c0cc9",
             "sha256": "10a0d4eeeed7ecd875bcb9295a553f473487e75a6fa12a0b6a1c2b88e2e48632",
@@ -638,6 +649,17 @@
             "url_diff": "https://stellabms.xyz/upload/1616",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/5193"
+        },
+        {
+            "id": 8468,
+            "md5": "b19c9dcf83d3b403595c428091bf0ff5",
+            "sha256": "30ce5d4df5e375d186c4ab5e3b73b0911365dc8024683590750604dbd8d077f7",
+            "title": "ニルヴの心臓 [W@rld:Eｭder]",
+            "artist": "TJ.hangneil+Atomic Sphere feat.Annabel Illust:MON / Movie:MiyazawaEsora / obj:Lab14",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=440&event=146",
+            "url_diff": "https://stellabms.xyz/upload/7068",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8468"
         },
         {
             "id": 3332,
