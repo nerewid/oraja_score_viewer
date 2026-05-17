@@ -464,6 +464,17 @@
             "site_url": "https://stellabms.xyz/song/1166"
         },
         {
+            "id": 7951,
+            "md5": "9a001855d4edcd82e0bfb094da8d7cc8",
+            "sha256": "e7cbc7a7bf0e637e4d58fbc10db2e63751b8e81ab9eb102d5c53b171e4eb153c",
+            "title": "ミシロタウン2014[6個押しLv.20_f]",
+            "artist": "ミズゴロウ / obj : JURUMA",
+            "url": "https://dropbox.bms.ms/u/80023107/other/g2r/mishiro2014_ogg.zip",
+            "url_diff": "https://stellabms.xyz/upload/6738",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/7951"
+        },
+        {
             "id": 779,
             "md5": "d4be913786b347383b6f2691dd9a3259",
             "sha256": "c95340d772bff5634b9a98913194d2657aa95490e14b31eea768a1038835ae3b",

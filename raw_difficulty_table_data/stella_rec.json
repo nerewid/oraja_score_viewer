@@ -453,6 +453,17 @@
             "site_url": "https://stellabms.xyz/song/2062"
         },
         {
+            "id": 6910,
+            "md5": "fd315ea0be65ac4731ca2f8805b155ae",
+            "sha256": "aa10ca99f20f6cba6ce86e4abe930b577532de934c252682c39a392a065b4d31",
+            "title": "Primo Magic [Sparkle]",
+            "artist": "kooridori Feat.猫柳なぎ BGA:MUSH.T ILLUST:コトバッチ obj:BAECON",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=61&event=146",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/6910"
+        },
+        {
             "id": 267,
             "md5": "b5385ffeaf8924174db726c3721a6ffe",
             "sha256": "2f0d3d33df3eb6311a18bcee64b614e1064ca95261fb25bd90dadbdf2fa31720",
@@ -673,6 +684,17 @@
             "site_url": "https://stellabms.xyz/song/6562"
         },
         {
+            "id": 2038,
+            "md5": "cc46defcf924610674964ebf4f7acaaa",
+            "sha256": "a5215d9bec0f6f4ae5ec32ffe0cb2d6a9764bdf9666d10188cbafaddc66c76ca",
+            "title": "Icicle Stinger [反逆の月]",
+            "artist": "ROKINA / obj:スノート BGA:出前",
+            "url": "https://onedrive.live.com/?authkey=%21AAHkZCIrFbkFuQQ&id=A0C4279F1B037701%21494&cid=A0C4279F1B037701",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03105.zip",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/2038"
+        },
+        {
             "id": 414,
             "md5": "24ffc0e42b4c0aa1b7f43232e777201b",
             "sha256": "4056cacc7bbffae372c37f225d3a91b7115888a94a2f75cc379f14be4d3acc15",
@@ -871,6 +893,17 @@
             "site_url": "https://stellabms.xyz/song/7655"
         },
         {
+            "id": 838,
+            "md5": "201d63bb3bb44abd0e71d251574e3c0d",
+            "sha256": "41098e9325e3040c7f0249e8e75b30ce560615345833e747219dde422dcb62c5",
+            "title": "TENTEN",
+            "artist": "2X obj.hex",
+            "url": "http://dl.dropbox.com/s/esdofbda23knp9w/TEN.zip?dl=1",
+            "url_diff": "https://dl.dropboxusercontent.com/s/brslnt79i94r89w/tententen.zip",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/838"
+        },
+        {
             "id": 5181,
             "md5": "39efc3b790d07526f48649a93e76165a",
             "sha256": "cdd0f51c8e5c5f61e61d4ca075807d675a3861f3e212112f8a369349f596c093",
@@ -946,6 +979,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02181.zip",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/653"
+        },
+        {
+            "id": 6659,
+            "md5": "d3f3fc0c45044c38543eb2df09832488",
+            "sha256": "f9f65b30da2cb41cc22b03d8ea1225cd89a77834d6ff46af88075c54b2c06324",
+            "title": "Exipration [Intense]",
+            "artist": "TARO BGA:ひきにく/ obj:potechang",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=35&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4498",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/6659"
         },
         {
             "id": 491,
@@ -1135,6 +1179,17 @@
             "site_url": "https://stellabms.xyz/song/6339"
         },
         {
+            "id": 1698,
+            "md5": "5267eb8a7dde7bced341bd0e261d4008",
+            "sha256": "cacb2f6d8087a7aab9a9d6d15c2cd0ceee71e8dcc8505e1b5e1c57f98fb19554",
+            "title": "Valkyrie Revolutia [Super Hexagon]",
+            "artist": "Sakamiya obj.hex",
+            "url": "https://dl.dropboxusercontent.com/s/089dnr0szei2z7d/ValkyrieRevolutia_sakamiya.zip",
+            "url_diff": "https://dl.dropboxusercontent.com/s/hxi8nsfh9oq68gd/%E2%98%85%E2%98%852%20%E2%98%85%E2%98%855%20Valkyrie%20Revolutia%20%5BHexagon%5D%20%2B%20%5BSuper%20Hexagon%5D.zip",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/1698"
+        },
+        {
             "id": 4668,
             "md5": "82aeb140cc56a5618c14cffc97c60d47",
             "sha256": "810a5055a970a019de9607717c8b8db1eea9e710ce7fb7b8e7a81170751a97bc",
@@ -1265,6 +1320,17 @@
             "url_diff": "https://darksabun.club/event/bofet/",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/5833"
+        },
+        {
+            "id": 5094,
+            "md5": "2d3565fe28f0b42b4539247e06a7bed3",
+            "sha256": "c90fd7fd452095f139d1d9aa184cd4efed427ca0af67776cbba3606686365f56",
+            "title": "Ripple Field 2 [フェスといえばマッチョ]",
+            "artist": "nekomimi_STaw / obj:C4",
+            "url": "https://86iro716.pupu.jp/bms_event/event.php?event=1&entry=36",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/5094"
         }
     ]
 }

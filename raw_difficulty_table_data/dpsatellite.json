@@ -1146,6 +1146,17 @@
             "site_url": "https://stellabms.xyz/song/4553"
         },
         {
+            "id": 8507,
+            "md5": "dfcb245e5a982d5b8d0f26e09129a5ce",
+            "sha256": "c4453e1ba189c7cdaccac67138bf94db529fef867367ad21291e7f084772e3ec",
+            "title": "Justice Executor [DP ANOTHER]",
+            "artist": "二階堂ヒロ obj:フォルティッシモ",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/85",
+            "url_diff": "https://stellabms.xyz/upload/7204",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/8507"
+        },
+        {
             "id": 4554,
             "md5": "171abdcb2d11ec19a911b541313f7eb7",
             "sha256": "254118b6f94730ffc05e373f6580b9ebd5992975cbd0a2a9f950490bf10c763e",
@@ -2037,6 +2048,17 @@
             "site_url": "https://stellabms.xyz/song/4809"
         },
         {
+            "id": 8490,
+            "md5": "7a7443024234f6908dcd0390667b34fb",
+            "sha256": "1e5d1b594837be8a5e11a9efd14bbd601670294e1050665ef99044540a95f609",
+            "title": "STANK FACER [DP INSANE]",
+            "artist": "chilldive obj:marquee",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=23&num=25&order=reg&odtype=a&ckattempt=1",
+            "url_diff": "https://www.axfc.net/u/4124354",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8490"
+        },
+        {
             "id": 2056,
             "md5": "da90f40fc2435ec76c2739eff8972656",
             "sha256": "d036c4d373059de80bf781a92ae85c90647cda2e91153879e9e9102f92a0e59a",
@@ -2585,6 +2607,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/522",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/2208"
+        },
+        {
+            "id": 8424,
+            "md5": "936d7f40165782a6c1632ab3054fbb77",
+            "sha256": "b2498e4be43292c93c1b843e2b2a4d701cc22b9958136dd10b7d889dacadb60a",
+            "title": "Lostinclusivity (14KEYS ANOTHER)",
+            "artist": "nora2r",
+            "url": "http://www5.pf-x.net/~nora2r/",
+            "url_diff": "https://skydrive.live.com/#cid=863934608D908CD0&id=863934608D908CD0%21105",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8424"
         },
         {
             "id": 3558,
@@ -3355,6 +3388,17 @@
             "url_diff": "",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/5386"
+        },
+        {
+            "id": 8395,
+            "md5": "ab67b1ca83ba5a8f0aabe68fd0e8e01c",
+            "sha256": "da4cc84e3911995290d4e4b02b4384e5dc33c5617931a81f15f4fb157774d9d5",
+            "title": "marginated [2000]",
+            "artist": "紅蓮月影 / OREN-G",
+            "url": "https://tm2.toymusical.net/download.html",
+            "url_diff": "https://www.axfc.net/u/4122541",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8395"
         },
         {
             "id": 1993,
@@ -6028,6 +6072,17 @@
             "url_diff": "http://nekokan.dyndns.info/~lobsak/genocide/grade.html",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/1996"
+        },
+        {
+            "id": 8488,
+            "md5": "bda9622a6a3875e5b15296ef1abc5f89",
+            "sha256": "6cd4d837121b609a2f951bfa1de3707d75d1f003aef2f7aec6246e02a0f41820",
+            "title": "さよならコスモノート[DP EX]",
+            "artist": "ああああ茶漬け / obj:mordy",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=116&num=414",
+            "url_diff": "https://stellabms.xyz/upload/2916",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8488"
         },
         {
             "id": 1852,
