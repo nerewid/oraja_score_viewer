@@ -288,6 +288,17 @@
             "site_url": "https://stellabms.xyz/song/4737"
         },
         {
+            "id": 950,
+            "md5": "8a6deeb4b5d88f0bdb6911f94b98f2bb",
+            "sha256": "71fc49143698a41dae0e72de07b485056a0348bc524e7a8ba3567d75d6a7989d",
+            "title": "BOUNCE THE TECH†LEGGENDARIA",
+            "artist": "Sound piercer vs. Iriss",
+            "url": "https://k-bms.com/party_pabat/party2017.jsp?board_num=17&num=27&order=reg&odtype=a",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/950"
+        },
+        {
             "id": 904,
             "md5": "3b48a96876e3c65f9598a7ae9d95e6ba",
             "sha256": "463f50b25c49bd2a9b4e4eaa5d432dff01a8dd809f6b88449afce9be954fff72",
@@ -1540,6 +1551,17 @@
             "url_diff": "",
             "level": "11",
             "site_url": "https://stellabms.xyz/song/6155"
+        },
+        {
+            "id": 2847,
+            "md5": "24ccef65138cbd461f82780aca4f7e47",
+            "sha256": "98613607061312daac5fb4aa7e6f205bdc453fd1d10494074ad6a303e9410b9c",
+            "title": "黄昏のメロディア [トワイライト]",
+            "artist": "秋月アキラ feat. 保堂 京 obj.2RLZ",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=325&event=127",
+            "url_diff": "https://darksabun.club/bceg/event/bofxv/",
+            "level": "11",
+            "site_url": "https://stellabms.xyz/song/2847"
         },
         {
             "id": 7150,

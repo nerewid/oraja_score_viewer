@@ -101,17 +101,6 @@
             "site_url": "https://stellabms.xyz/song/3469"
         },
         {
-            "id": 5691,
-            "md5": "d5ff6b40dc6cd8cf7932e24fba2fcbac",
-            "sha256": "8ff21ba1d216e3f913fe05a9593dddf0f567ca47e3ba538072b0d3ac11004890",
-            "title": "Elixir [TYPE_λ.exs]",
-            "artist": "Lime / Kankitsu / obj. 1",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=457&event=140",
-            "url_diff": "https://darksabun.github.io/event/bofet/",
-            "level": "0",
-            "site_url": "https://stellabms.xyz/song/5691"
-        },
-        {
             "id": 6371,
             "md5": "d5ac25254b9100bfdfc3cb0f10bdd0e5",
             "sha256": "eff21f791ed83f27f0e77326f95d38badcd9fbfaf413646e148dc493d4013d6b",
@@ -992,6 +981,17 @@
             "site_url": "https://stellabms.xyz/song/2954"
         },
         {
+            "id": 8465,
+            "md5": "09144b709c1282a1111c297e1353caa8",
+            "sha256": "b3e98ef1654ecd1ae01a2e48427c42f4da1a4924e23a089fcc3f8e2dd4df2497",
+            "title": "ZETABYTE [HARD PUNCHER]",
+            "artist": "Ras / 熊猫",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=355&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3269",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/8465"
+        },
+        {
             "id": 8468,
             "md5": "b19c9dcf83d3b403595c428091bf0ff5",
             "sha256": "30ce5d4df5e375d186c4ab5e3b73b0911365dc8024683590750604dbd8d077f7",
@@ -1034,6 +1034,17 @@
             "url_diff": "https://stellabms.xyz/upload/4480",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/7083"
+        },
+        {
+            "id": 8466,
+            "md5": "08a5344d0aca8d1788733a2542242a49",
+            "sha256": "cfb128dda37b51ee334bf349680c7467d7666317425744ced6c227a6067f5f55",
+            "title": "Eureka [14KEYS]",
+            "artist": "sasakure.UK x ArmyTom  w/z Bitplane / Limite Movie:pam x HDLV",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=423&event=146",
+            "url_diff": "https://stellabms.xyz/upload/7480",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8466"
         },
         {
             "id": 5672,

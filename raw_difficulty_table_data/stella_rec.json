@@ -24,6 +24,17 @@
             "site_url": "https://stellabms.xyz/song/2842"
         },
         {
+            "id": 7546,
+            "md5": "3d15513611732b1461b2b808bcf9e533",
+            "sha256": "5ea97a9220c712ba81ce063bb4724d6083ed71b37d0e591390a86fb353124f74",
+            "title": "HIGHRISE [Goodbye, SATELLITE]",
+            "artist": "MM (feat. shishishiena) / &#9829;",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=445&event=142",
+            "url_diff": "https://darksabun.club/event/mf2/venue/",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/7546"
+        },
+        {
             "id": 7113,
             "md5": "9d91479c3d8f740f420001a62d673f01",
             "sha256": "a1a40bdf8dedd9af6f491d9c11c9f0176192cd7da29575b18553eac77a1a5a77",
@@ -836,6 +847,17 @@
             "url_diff": "https://stellabms.xyz/upload/5256",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/7013"
+        },
+        {
+            "id": 6217,
+            "md5": "8177c1c33680b65dcd69cb0df3c34405",
+            "sha256": "46253f1a499a524f257bec06c65b586aea9fe4484574678109acfb7bca5536fd",
+            "title": "Crush Expert [HEARTFUL]",
+            "artist": "shadow_bling obj:魔女",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=68&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3659",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/6217"
         },
         {
             "id": 100,

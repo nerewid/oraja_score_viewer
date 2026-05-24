@@ -68,6 +68,17 @@
             "site_url": "https://stellabms.xyz/song/3210"
         },
         {
+            "id": 8540,
+            "md5": "522394efe15e48cc1a13aff157b0fe82",
+            "sha256": "e7fe44bfade9cec7d5d39bfbc8ec6411ec3fed0342d9fb4ba85ba524f3437a14",
+            "title": "ametsuchi [Rain]",
+            "artist": "stereoberry / obj:Blocko",
+            "url": "https://drive.google.com/file/d/1Xby4TuyZL0uwtLFoR6bOR5lAJCIV8ljq/view?usp=drive_link",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04542.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/8540"
+        },
+        {
             "id": 3092,
             "md5": "a887816dc80ae5801a6786d9ef6d5daf",
             "sha256": "c7b5efbb331befbbae2e2a0ffa94ce101425a83d30e9b700f83875e8f9179325",
@@ -1045,6 +1056,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02014.zip",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/519"
+        },
+        {
+            "id": 8469,
+            "md5": "2afcf8f878df9bae0c83bbb2aacb6657",
+            "sha256": "160ecd93048c6b8da628043a73ede003daaab897e8f94601802c0531b8bfd261",
+            "title": "New York Back Raise [ROYAL STRAIGHT FLUSH]",
+            "artist": "saaa + kei_iwata + stuv + わかどり BGA : すずあ with saaa & 内村徹 & もがみ & KeiuO & 空読無 白眼",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=140",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/8469"
         },
         {
             "id": 5632,
@@ -19879,6 +19901,17 @@
             "site_url": "https://stellabms.xyz/song/6603"
         },
         {
+            "id": 8510,
+            "md5": "945deeff8693e98b8ef9d98919df7311",
+            "sha256": "f27a3d21607644aa3122f43d829d6a291bea19bcb9a92f9343f1440d42abe882",
+            "title": "Pandora [Paradox]",
+            "artist": "SOMON obj:IBARAGI_YOSHIMI",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=153&event=137",
+            "url_diff": "https://stellabms.xyz/upload/7497",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8510"
+        },
+        {
             "id": 8334,
             "md5": "b1fbcf1a570d2806c60651e7c87ab226",
             "sha256": "df266c87628c174cf630f58e625172452744f405dfad067b938c2bf11c748b0b",
@@ -23903,6 +23936,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "11",
             "site_url": "https://stellabms.xyz/song/3982"
+        },
+        {
+            "id": 8476,
+            "md5": "a83bb07f9531b1e03b35f8f35d2e3e41",
+            "sha256": "10885ba8131937644dd7034450ca881f31d3c212cf802a6d9b18917aaa5b08f3",
+            "title": "モリオンの姫 (極)",
+            "artist": "wa. / obj:NoName",
+            "url": "http://wayback.archive.org/web/20170226225322/http://creation-records.info/bms/morion_ogg.rar",
+            "url_diff": "https://stellabms.xyz/upload/2637",
+            "level": "11",
+            "site_url": "https://stellabms.xyz/song/8476"
         },
         {
             "id": 4204,

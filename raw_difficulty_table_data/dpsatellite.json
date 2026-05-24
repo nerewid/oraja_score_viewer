@@ -3192,6 +3192,17 @@
             "site_url": "https://stellabms.xyz/song/8355"
         },
         {
+            "id": 8570,
+            "md5": "8a39855868c7af326122fb40b7ebe6b9",
+            "sha256": "8ea5aacb7cd08db648a84625a75dcfca7276453b9e0a7513955b4a527c6dcab3",
+            "title": "decide [DP MANIAC]",
+            "artist": "nebulaimako obj:jigokuhenn",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=354&event=137",
+            "url_diff": "https://stellabms.xyz/upload/7558",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8570"
+        },
+        {
             "id": 2480,
             "md5": "87b1773181907991e14826e2d5db07d5",
             "sha256": "a049d429e670f94c92d9a708a8cadb7253227a26f5ca8397285a4acc1976cc75",
@@ -5502,6 +5513,17 @@
             "site_url": "https://stellabms.xyz/song/2912"
         },
         {
+            "id": 8489,
+            "md5": "d67da5b548c7c8bce1e7de50ad35d38a",
+            "sha256": "e9ffa8b4975c90f09fa35a861cf2b554122c2a359231bea53c17778a58776022",
+            "title": "Black Lotus [DP NearMint]",
+            "artist": "wa. / 百舌谷 obj:けろりん",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=138&event=110",
+            "url_diff": "https://yaruki0.sakura.ne.jp/sabun/dp.html",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/8489"
+        },
+        {
             "id": 3619,
             "md5": "d0b020d20dab01f544fe7cb74fd94fe4",
             "sha256": "08e8c52849e0a2ec2af78ef520ff293e0ad92b431f4e61422fd2dcac6d12316c",
@@ -7381,6 +7403,17 @@
             "url_diff": "",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/2697"
+        },
+        {
+            "id": 5691,
+            "md5": "d5ff6b40dc6cd8cf7932e24fba2fcbac",
+            "sha256": "8ff21ba1d216e3f913fe05a9593dddf0f567ca47e3ba538072b0d3ac11004890",
+            "title": "Elixir [TYPE_λ.exs]",
+            "artist": "Lime / Kankitsu / obj. 1",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=457&event=140",
+            "url_diff": "https://darksabun.github.io/event/bofet/",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/5691"
         },
         {
             "id": 5437,
