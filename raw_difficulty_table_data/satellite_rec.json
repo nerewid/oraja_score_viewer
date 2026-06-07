@@ -46,15 +46,15 @@
             "site_url": "https://stellabms.xyz/song/5905"
         },
         {
-            "id": 3531,
-            "md5": "f0571f9ffd44be2dd7acf420fc025a53",
-            "sha256": "71df4d193beaaacb26fd691d90a55ab4271a85cead2f4f0aedad8fe3ccf4da59",
-            "title": "NightTheater [SP ANOTHER]",
-            "artist": "わかどり BGA : もがみ",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=133",
-            "url_diff": "",
+            "id": 2980,
+            "md5": "c120662343f4a211a71750d491cc56ac",
+            "sha256": "923adc2b9efcfb1dc365d880fc215e5b7f7784bd62c26c5e5811fb0ef98825c5",
+            "title": "rough [7key,Hyper+]",
+            "artist": "mommy obj. Lollipop",
+            "url": "https://www.dropbox.com/s/i9s5z0njely4bo0/rough.rar?dl=1",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02580.zip",
             "level": "0",
-            "site_url": "https://stellabms.xyz/song/3531"
+            "site_url": "https://stellabms.xyz/song/2980"
         },
         {
             "id": 2818,
@@ -596,17 +596,6 @@
             "site_url": "https://stellabms.xyz/song/1361"
         },
         {
-            "id": 2300,
-            "md5": "f26f2c8b3fda7112ca197fb01b56aafb",
-            "sha256": "f5837c1f755d7ccfb21144c8f1263161b23a3bda7804cefba0da61ff006fc95b",
-            "title": "electric butterfly -twilight-",
-            "artist": "養土卵 光 / 浜 柔好 / selene.",
-            "url": "http://www.qumarich.net/misstype/",
-            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03587.zip",
-            "level": "4",
-            "site_url": "https://stellabms.xyz/song/2300"
-        },
-        {
             "id": 2379,
             "md5": "cb7b3d08326adaf0e9bee65de5353dda",
             "sha256": "143d4ecaa9fe8023e2c49944cbbd5bed49fd7720791c68719ce75cf797fd6a18",
@@ -693,6 +682,17 @@
             "url_diff": "https://stellabms.xyz/upload/2376",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/5418"
+        },
+        {
+            "id": 2300,
+            "md5": "f26f2c8b3fda7112ca197fb01b56aafb",
+            "sha256": "f5837c1f755d7ccfb21144c8f1263161b23a3bda7804cefba0da61ff006fc95b",
+            "title": "electric butterfly -twilight-",
+            "artist": "養土卵 光 / 浜 柔好 / selene.",
+            "url": "http://www.qumarich.net/misstype/",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/03587.zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/2300"
         },
         {
             "id": 3732,
@@ -891,6 +891,17 @@
             "url_diff": "http://gnqg.rosx.net/upload/",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/2297"
+        },
+        {
+            "id": 7626,
+            "md5": "8fb853b0c10245817cf97128df7b245e",
+            "sha256": "dee1a09ba56ac6a5e158cf581e29d71edc5f8fb06d70d15a2b7869cbfc143d6f",
+            "title": "イイコと妖狐 [7K INSANE]",
+            "artist": "Kikuo (Movie: KAmE / Obj: potechang / BMS: Zris)",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/1",
+            "url_diff": "",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7626"
         },
         {
             "id": 6762,

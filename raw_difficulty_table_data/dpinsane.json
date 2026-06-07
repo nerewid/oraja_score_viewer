@@ -987,18 +987,6 @@
         },
         {
             "level": "2",
-            "md5": "52ffc90743c0f229a15898df0408f6fe",
-            "sha256": "3a2f62669c8058c5088d7e86f03bfa20233eb5070f8a52bf7652c0bc5c4fffcd",
-            "genre": "Neuro Drum & Bass",
-            "title": "Engine [DP Another]",
-            "artist": "Music : eFeL / BGA : 鑓田(Alpha complex)",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=104",
-            "url_diff": "",
-            "comment": "同梱譜面(obj.Z_N)",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=52ffc90743c0f229a15898df0408f6fe"
-        },
-        {
-            "level": "2",
             "md5": "491f97a850f0e91dc73f547659ce986d",
             "sha256": "056914e0201010669bc7f3b3c705a27f562f733192d43d9be2055f2c5771616e",
             "genre": "DRUM'N'BASS",
@@ -1740,6 +1728,18 @@
             "url_diff": "",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b3d3f7e711ac41b4f8acec3d90142739"
+        },
+        {
+            "level": "3",
+            "md5": "52ffc90743c0f229a15898df0408f6fe",
+            "sha256": "3a2f62669c8058c5088d7e86f03bfa20233eb5070f8a52bf7652c0bc5c4fffcd",
+            "genre": "Neuro Drum & Bass",
+            "title": "Engine [DP Another]",
+            "artist": "Music : eFeL / BGA : 鑓田(Alpha complex)",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=104",
+            "url_diff": "",
+            "comment": "同梱譜面(obj.Z_N)",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=52ffc90743c0f229a15898df0408f6fe"
         },
         {
             "level": "3",
@@ -4731,6 +4731,30 @@
         },
         {
             "level": "6",
+            "md5": "ea0a807dd01b5f974558adfd985c0e76",
+            "sha256": "c6c6071ee245bb3e979b45fe4dd41d080f03c254d461eaebd66f2cfb67b93fc7",
+            "genre": "VGM",
+            "title": "「きいろのかぜがたつきょうこくより」 [DP INSANE]",
+            "artist": "鈎兎(KagiUsagi)",
+            "url": "https://venue.bmssearch.net/bmschiptune2/1",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ea0a807dd01b5f974558adfd985c0e76"
+        },
+        {
+            "level": "6",
+            "md5": "98ea665e64303bdb10553b78c60bfdee",
+            "sha256": "84ed524aee02f38ac3659746f11396711b3b837f05d6a1c65df60484fd58ff3d",
+            "genre": "Chiptune",
+            "title": "えいえんの　ゆめを　ください [DP ANOTHER]",
+            "artist": "hugepulse BGA:Micelle Obj:JHS",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=15&event=127",
+            "url_diff": "https://drive.google.com/file/d/1hT2Y7ZgrhiXWyxUdy8_YmI9Xe8cQbvgH/view?usp=sharing",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=98ea665e64303bdb10553b78c60bfdee"
+        },
+        {
+            "level": "6",
             "md5": "231504229f28e02a239e6cb92108f018",
             "sha256": "1442225decded4317db100482b3132215b66a89a305a09856109d4114d115f6a",
             "genre": "WORLDTRONICA",
@@ -4791,6 +4815,18 @@
         },
         {
             "level": "6",
+            "md5": "c23c576bce5531066337458061808bef",
+            "sha256": "153c9acc0856f473066baf9afa6376ad229b5704c1ded419afa185f2c5edd83a",
+            "genre": "ラストバトル",
+            "title": "恐鳥 [Another14]",
+            "artist": "主人公 obj:name94",
+            "url": "https://tm2.toymusical.net/download.html",
+            "url_diff": "https://drive.google.com/file/d/1OmCHGBRpjOLx-CptNDahP_YC0KN3s8C6/view",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=c23c576bce5531066337458061808bef"
+        },
+        {
+            "level": "6",
             "md5": "c99f6dd35f4decb0d5f24661baaf6f54",
             "sha256": "8c2785574035fea86eddfa44384a1de6e7dfa7f96c871baff161bc436d781519",
             "genre": "[Orchestra]",
@@ -4824,6 +4860,18 @@
             "url_diff": "http://epics.client.jp/",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=00d3649022ee9100d867ea17dd20e191"
+        },
+        {
+            "level": "6",
+            "md5": "0d3adb016e9d4584b9dd7fc8fc548208",
+            "sha256": "c2a902af1535d2f6abdb6a818e32991f8b9451ba519a0125fbcdb074e0b86d46",
+            "genre": "Japanesque Rock",
+            "title": "秋麗、月夜の鴉ときびだんご [DP INSANE]",
+            "artist": "鈎兎(KagiUsagi)",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0d3adb016e9d4584b9dd7fc8fc548208"
         },
         {
             "level": "6",
@@ -5208,6 +5256,18 @@
             "url_diff": "http://flowermaster.web.fc2.com/",
             "comment": "",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=b77bbd67da65788b15484cfb987d68a2"
+        },
+        {
+            "level": "7",
+            "md5": "8f12636b885c7ba5d9ac313b044a063c",
+            "sha256": "902e05c7d5f6f01987353e4d72c01d35900f6f178e76bed83604fb08f1939544",
+            "genre": "HARD DIRGE",
+            "title": "Justice Executor [DP Sabbat]",
+            "artist": "二階堂ヒロ obj:フォルティッシモ",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/85",
+            "url_diff": "https://stellabms.xyz/upload/7204",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=8f12636b885c7ba5d9ac313b044a063c"
         },
         {
             "level": "7",
@@ -6444,6 +6504,30 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/117",
             "comment": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/conviction_YH.zip",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=23ad14776bda285fe04640ebdf98e268"
+        },
+        {
+            "level": "9",
+            "md5": "159e04e18a4d1807353a9da35cb9845e",
+            "sha256": "15aac5ddf30ac772e8e95f0f3bf5e49b6d8e1b5d53d7c6254e0a2dc1a150d854",
+            "genre": "Drum'n'Bass / Liquid DnB",
+            "title": "Dilclumina [DP ANOTHER]",
+            "artist": "anco vs usb_nk / Movie: tayuru Obj: anco",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=190&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=159e04e18a4d1807353a9da35cb9845e"
+        },
+        {
+            "level": "9",
+            "md5": "5b566a93b48a1a5a96d63d4b11d7c020",
+            "sha256": "0618297b68a83a0784b59d395edeecad3de589b902c0c4ce36db10c731092bd7",
+            "genre": "Electronic / Pops",
+            "title": "Echoes of You [DP ECHO]",
+            "artist": "anco / Illust: かいネコ Obj: sagoo",
+            "url": "https://9domu46i.com/yuruyuru/phase23.html",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=5b566a93b48a1a5a96d63d4b11d7c020"
         },
         {
             "level": "9",

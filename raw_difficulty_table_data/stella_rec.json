@@ -1014,6 +1014,17 @@
             "site_url": "https://stellabms.xyz/song/6659"
         },
         {
+            "id": 605,
+            "md5": "7116a3a8643b81fce6b6ba4a4e92d487",
+            "sha256": "11abb35a906f46d5e09bd5f7d0a4577374be2b48ee8fa5b65ee7b5625fe7d9b8",
+            "title": "Guilt Feeling [Punish]",
+            "artist": "LeaF / Notes:キラ",
+            "url": "http://colosseo.nekokan.dyndns.info/c02_shuffle/detail.php?n=1",
+            "url_diff": "http://kirakitsune.web.fc2.com/sabun.html",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/605"
+        },
+        {
             "id": 491,
             "md5": "1e9c2d49a28494f5db6541e3bf1c2eae",
             "sha256": "8ce2f21d8c8c82b72de9240252f5adc5f04d0443f0b3fff59e0ede1364fd788c",
@@ -1245,6 +1256,17 @@
             "site_url": "https://stellabms.xyz/song/3777"
         },
         {
+            "id": 5791,
+            "md5": "e308668650a3279b5d2e2f199fca06a1",
+            "sha256": "9f8237866bcaa1d713cef5b94c4ee1a3509a0be7bb7c51fbe089579d89b1dadb",
+            "title": "B e l i - R - L A S T B O S S",
+            "artist": "+45 / obj:Lian",
+            "url": "https://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/file/sY0jQZSJ",
+            "url_diff": "https://bmsoflian.web.fc2.com/bms2/20220322_LianSabun.zip",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/5791"
+        },
+        {
             "id": 2665,
             "md5": "f1609dbcfe0ff7f4eacc7d8ac5e960b5",
             "sha256": "06aa2c7ea6e7880c7d5d9f86bcf9107402175fab4a0fff22344b6c3895eb3eeb",
@@ -1298,6 +1320,17 @@
             "url_diff": "https://stellabms.xyz/upload/4309",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/6643"
+        },
+        {
+            "id": 7890,
+            "md5": "c320a2bc423bf99d4e9e3beb44dd19c3",
+            "sha256": "6bab3e782aff07b32c85234451045013001f26ac8528a69c113efd1d59a56e66",
+            "title": "psychic disconnection [SEPULCHER]",
+            "artist": "鈎兎(KagiUsagi) / obj:Criyajuh",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/25",
+            "url_diff": "https://stellabms.xyz/upload/4918",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/7890"
         },
         {
             "id": 6686,
