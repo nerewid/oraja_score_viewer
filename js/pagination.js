@@ -1,18 +1,20 @@
 // ページネーション機能
+import { logger } from './utils/logger.js';
+
 export function initializePagination() {
     let currentPage = 1;
     let itemsPerPage = 100;
     const allItems = document.querySelectorAll('[data-page-item]');
     const totalItems = allItems.length;
 
-    console.log('Pagination initialized:', totalItems, 'items');
+    logger.debug('Pagination initialized:', totalItems, 'items');
 
     function updatePagination() {
         const totalPages = Math.ceil(totalItems / itemsPerPage);
         const startIndex = (currentPage - 1) * itemsPerPage;
         const endIndex = startIndex + itemsPerPage;
 
-        console.log(`Showing items ${startIndex + 1}-${Math.min(endIndex, totalItems)} of ${totalItems}`);
+        logger.debug(`Showing items ${startIndex + 1}-${Math.min(endIndex, totalItems)} of ${totalItems}`);
 
         // アイテムの表示/非表示
         allItems.forEach((item, index) => {

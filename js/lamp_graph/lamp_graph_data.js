@@ -5,6 +5,7 @@ import { getSha256ToMd5Map } from '../score_change_to_json.js';
 import { scoreDbData } from '../db_uploader.js';
 import { songdataDbData } from '../db_uploader.js';
 import { executeBatchQuery } from '../utils/batch-query.js';
+import { logger } from '../utils/logger.js';
 
 // sql.js のコアオブジェクト (初期化後に設定)
 let SQL = null;
@@ -117,7 +118,7 @@ async function getScoresBySha256s(sha256List, selectedLnModeValue) {
         });
     });
 
-    console.log(`スコア一括取得完了。取得できたスコア数: ${scoresMap.size}`);
+    logger.debug(`スコア一括取得完了。取得できたスコア数: ${scoresMap.size}`);
     return scoresMap;
 }
 
@@ -134,7 +135,7 @@ async function checkExistSongsBySha256s(sha256List) {
         result.add(row.sha256);
     }, () => new Set());
 
-    console.log(`楽曲データ一括取得完了。取得できた譜面数: ${existingSongs.size}`);
+    logger.debug(`楽曲データ一括取得完了。取得できた譜面数: ${existingSongs.size}`);
     return existingSongs;
 }
 
@@ -157,7 +158,7 @@ async function processSongScores(songs, selectedLnModeValue) {
     }
 
     // --- フェーズ1: SHA256の特定と収集 ---
-    console.log("フェーズ1: SHA256の特定と収集を開始...");
+    logger.debug("フェーズ1: SHA256の特定と収集を開始...");
     for (const song of songs) {
         let currentSha256 = song.sha256;
         const md5 = song.md5;
@@ -182,11 +183,11 @@ async function processSongScores(songs, selectedLnModeValue) {
             sha256ToFetch.add(currentSha256);
         }
     }
-    console.log(`フェーズ1完了。スコア取得対象のユニークなSHA256数: ${sha256ToFetch.size}`);
+    logger.debug(`フェーズ1完了。スコア取得対象のユニークなSHA256数: ${sha256ToFetch.size}`);
 
 
     // --- フェーズ2: スコアデータの一括取得 ---
-    console.log("フェーズ2: スコアデータの一括取得を開始...");
+    logger.debug("フェーズ2: スコアデータの一括取得を開始...");
     const sha256List = Array.from(sha256ToFetch);
     const songsMap = await checkExistSongsBySha256s(sha256List);
     const scoresMap = await getScoresBySha256s(sha256List, 0);
@@ -194,10 +195,10 @@ async function processSongScores(songs, selectedLnModeValue) {
     if (Number(selectedLnModeValue) !== 0) {
         scoresMapXn = await getScoresBySha256s(sha256List, selectedLnModeValue)
     }
-    console.log("フェーズ2完了。");
+    logger.debug("フェーズ2完了。");
 
     // --- フェーズ3: スコアデータのマージと集計 ---
-    console.log("フェーズ3: スコアデータのマージと集計を開始...");
+    logger.debug("フェーズ3: スコアデータのマージと集計を開始...");
     for (const songInfo of tempSongInfos) {
         let clear = -1;
         let minbp = null;
@@ -255,7 +256,7 @@ async function processSongScores(songs, selectedLnModeValue) {
         clearData.count++;
         clearData.songs.push(finalSongInfo);
     }
-    console.log("フェーズ3完了。");
+    logger.debug("フェーズ3完了。");
 
     return { songDetails, aggregatedData };
 }
@@ -269,7 +270,7 @@ async function initializeSQL() {
         throw new Error("sqlPromiseが定義されていません。");
     }
     SQL = await sqlPromise;
-    console.log("SQL.jsの初期化完了");
+    logger.debug("SQL.jsの初期化完了");
 }
 
 /**
@@ -280,7 +281,7 @@ function initializeMd5Map() {
     if (!Md5Tosha256Map || Md5Tosha256Map.size === 0) {
         console.warn("Md5Tosha256Mapの作成に失敗したか、空です。sha256ToMd5Mapを確認してください。");
     } else {
-        console.log("Md5 to Sha256 Map 作成完了");
+        logger.debug("Md5 to Sha256 Map 作成完了");
     }
 }
 

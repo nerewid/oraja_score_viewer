@@ -1,4 +1,5 @@
 import { t } from './i18n.js';
+import { logger } from './utils/logger.js';
 
 let scoreDbData;
 let scorelogDbData;
@@ -42,17 +43,17 @@ function handleFileSelect(expectedFileName) {
               const uint8Array = new Uint8Array(event.target.result);
               const SQL = await sqlPromise;
               const db = new SQL.Database(uint8Array);
-              console.log(expectedFileName + "の読み込みに成功しました");
+              logger.debug(expectedFileName + "の読み込みに成功しました");
 
               // インデックス作成処理を追加
               if (expectedFileName === "songdata.db") {
                 db.run("CREATE INDEX IF NOT EXISTS idx_song_md5 ON song (md5);");
-                console.log("songdata.dbのmd5インデックスを作成しました");
+                logger.debug("songdata.dbのmd5インデックスを作成しました");
             } else if (expectedFileName === "scorelog.db") {
                 db.run("CREATE INDEX IF NOT EXISTS idx_scorelog_sha256_date ON scorelog (sha256, date);"); // 複合インデックスを作成
-                console.log("scorelog.dbの(sha256, date)複合インデックスを作成しました");
+                logger.debug("scorelog.dbの(sha256, date)複合インデックスを作成しました");
                 db.run("CREATE INDEX IF NOT EXISTS idx_scorelog_sha256 ON scorelog (sha256);"); // sha256単独のインデックスも作成(findMatchingScoresで使用)
-                console.log("scorelog.dbのsha256インデックスを作成しました");
+                logger.debug("scorelog.dbのsha256インデックスを作成しました");
             }
 
               db.close();
