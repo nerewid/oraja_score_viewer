@@ -1,6 +1,7 @@
 // --- UI操作モジュール ---
 
 import { t } from '../i18n.js';
+import { logger } from '../utils/logger.js';
 
 // HTML要素への参照
 const difficultyTableSelect = document.getElementById('difficulty-table-select');
@@ -56,8 +57,8 @@ function setupEventListeners(onSelectionChange, onGraphClick) {
             const selectedLnModeValue = Number(event.target.value);
             const selectedInternalFileName = difficultyTableSelect.value;
 
-            console.log(`LNモードが変更されました: ${selectedLnModeValue}`);
-            console.log(`現在の難易度ファイル名: ${selectedInternalFileName}`);
+            logger.debug(`LNモードが変更されました: ${selectedLnModeValue}`);
+            logger.debug(`現在の難易度ファイル名: ${selectedInternalFileName}`);
 
             await onSelectionChange(selectedInternalFileName, selectedLnModeValue);
         });
