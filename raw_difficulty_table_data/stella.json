@@ -23113,6 +23113,17 @@
             "site_url": "https://stellabms.xyz/song/7028"
         },
         {
+            "id": 9176,
+            "md5": "2689f45c8d5eb99224cde6d8e0131820",
+            "sha256": "11bfb26a416653f2c3013ef7b34cfd95407b7ad9bb17ad9a998931875c933560",
+            "title": "心壊のアガルマトフィリア[desperate]",
+            "artist": "SioN / 篠乃ちよ obj:PiPiNeko",
+            "url": "http://dropbox.bms.ms/u/64455831/Agalmatophilia.rar",
+            "url_diff": "https://stellabms.xyz/upload/7646",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/9176"
+        },
+        {
             "id": 4669,
             "md5": "d0d976b650b4b0586cbb2b2d38dbb922",
             "sha256": "098f8d9d9c285f4c49a6d5ddc6ed1aee1361cb1af43ff2e947885d72569cbcaa",
@@ -23507,6 +23518,17 @@
             "url_diff": "http://www.ribbit.xyz/bms/tables/mn.html",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/37"
+        },
+        {
+            "id": 9156,
+            "md5": "433d0ae8116df091e89e16f73c85fc93",
+            "sha256": "27a80f4f6eac8accae67f70e40dd721236b7cdb050442ff9ecfcf214a66fc5e2",
+            "title": "Liberator [HEARTLESS]",
+            "artist": "kohaxy feat. kyon obj&arr:魔女",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=235&event=142",
+            "url_diff": "https://drive.usercontent.google.com/u/0/uc?id=1naHlYMB9WI8fzfWyvyge-r9Ua3ifb_hm&export=download",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/9156"
         },
         {
             "id": 5833,

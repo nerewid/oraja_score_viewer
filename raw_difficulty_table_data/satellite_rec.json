@@ -1333,6 +1333,17 @@
             "site_url": "https://stellabms.xyz/song/7149"
         },
         {
+            "id": 854,
+            "md5": "c7c5bc4ea5f507bb96aa2d2518efb385",
+            "sha256": "d1cf6b5ee1354523148bd46bf14de921a6c9859f3bd1c1423d2d8c16ccd3d65f",
+            "title": "Defeat awaken battle ship (SP AWAKEN)",
+            "artist": "有賀 澪 BGA:しらたき Illust:Cleome obj:伊佐奈 瑠璃",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=112",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/854"
+        },
+        {
             "id": 794,
             "md5": "591f59636e0056fcdb7edefc52d645bc",
             "sha256": "b6b5909e271ddf5c14814facdaefed289262c0f65ae5fd7c3979b7f79628a074",
