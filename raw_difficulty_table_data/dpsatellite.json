@@ -1102,6 +1102,17 @@
             "site_url": "https://stellabms.xyz/song/8165"
         },
         {
+            "id": 9181,
+            "md5": "0848bc574f178399aba9db27940dee38",
+            "sha256": "f658f34e2b56c1c5ed3ba81758db5c803eb5bfcbb5895b6ae58a98e1cb272571",
+            "title": "Goodbye My Phantasia [DP POP]",
+            "artist": "FALL feat. yufu_sekka obj.にゃむ",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=115",
+            "url_diff": "https://stellabms.xyz/upload/267",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9181"
+        },
+        {
             "id": 5725,
             "md5": "344f3eb3b1f1fc279f68307e0110931e",
             "sha256": "b3bea70c197e8450d5edbf8ae86ae80cf93687af76fe6d40818104afae48d950",
@@ -2048,6 +2059,17 @@
             "site_url": "https://stellabms.xyz/song/7497"
         },
         {
+            "id": 9242,
+            "md5": "9a65044389af3a21084eaf316ff436a4",
+            "sha256": "18ef9debeb5ffa1001f79cae7e40c479c441bb6fd15ec13c535d550c676ec585",
+            "title": "Shade of Gloria [14N]",
+            "artist": "tcheb / mov:Roaring Flame / Illust:ゆーま。 obj : 71066",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=82&event=88",
+            "url_diff": "https://stellabms.xyz/upload/1225",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9242"
+        },
+        {
             "id": 2136,
             "md5": "9c5cf59e831eb9fdf7efae0e7613547d",
             "sha256": "c3a167e8ffc33f56806a667be0e713d34c2500a82bd8d8bbfb4a54dbc0572547",
@@ -2631,6 +2653,17 @@
             "site_url": "https://stellabms.xyz/song/2208"
         },
         {
+            "id": 9199,
+            "md5": "ea9550092bed8d9b4b6342b694998eb2",
+            "sha256": "49f3a39a9190fb209ed0709277d6b4d5d1bbda81a4365aca4b39dbec3044d150",
+            "title": "LIGHT OF HARMONY",
+            "artist": "NeLiME / TofaKim / Limite feat.制限",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=380&event=123",
+            "url_diff": "https://stellabms.xyz/upload/666",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9199"
+        },
+        {
             "id": 8424,
             "md5": "936d7f40165782a6c1632ab3054fbb77",
             "sha256": "b2498e4be43292c93c1b843e2b2a4d701cc22b9958136dd10b7d889dacadb60a",
@@ -2827,6 +2860,17 @@
             "url_diff": "https://www.limiteknj.net/BMS",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/2819"
+        },
+        {
+            "id": 9198,
+            "md5": "f5f2998fb118d23b10b39c7877d520e0",
+            "sha256": "4589c36e72db25501fdc74dd5f28bd3a4e420d398971536ac3513b76b5b594ef",
+            "title": "Stellaria media",
+            "artist": "wigen / Limite",
+            "url": "https://drive.google.com/file/d/1IdadMVNaPOHlNlH39NlsMXSXXQ8YHgq2/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/485",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9198"
         },
         {
             "id": 4417,
@@ -3245,6 +3289,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/653",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/2480"
+        },
+        {
+            "id": 9298,
+            "md5": "f6fd420ee515527bf2cd8e5125026f5d",
+            "sha256": "75f2137620cb0e6e3f9aca6d7fc9ebb988036d293e4d26b83b1dd93a56a0f21f",
+            "title": "disperagioia [DP KAGITHER]",
+            "artist": "witch's slave obj:鈎兎(KagiUsagi)",
+            "url": "https://drive.google.com/file/d/1QRf__Ikn0tYTHxAkGdnKrWnIo-ETgeTh/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/1776",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9298"
         },
         {
             "id": 7848,
@@ -6072,6 +6127,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1073",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/3642"
+        },
+        {
+            "id": 9299,
+            "md5": "79e2da493ccc9c8ee2b5576c5d476603",
+            "sha256": "e76b16cb641873619843a7fe6c4d7c143284fb468df3119d1db94e386086e895",
+            "title": "Time to beat the odds[DP ANOTHER]",
+            "artist": "影虎。 BMS:Qayo/obj.にぇ BGA:yan / illust:Viosgit",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=198&event=140",
+            "url_diff": "https://stellabms.xyz/upload/2052",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/9299"
         },
         {
             "id": 8197,

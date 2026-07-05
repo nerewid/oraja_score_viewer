@@ -2,17 +2,6 @@
     "shortName": "sl_rec",
     "songs": [
         {
-            "id": 5138,
-            "md5": "7b87a6fe0737116ee9170819f28b446b",
-            "sha256": "6dc82b2681e8837767f8e9dbdf2931cbd43499b49c365abbf930656c4aab3ab6",
-            "title": "ceu [7KEYS ANOTHER]",
-            "artist": "Kyuzo Sameura feat. きりたん",
-            "url": "https://venue.bmssearch.net/bmsshuin3/96",
-            "url_diff": "",
-            "level": "0",
-            "site_url": "https://stellabms.xyz/song/5138"
-        },
-        {
             "id": 3564,
             "md5": "5be2f2b71443afe72042eeb7437daaa7",
             "sha256": "7cac12496a0171a29fb871867dc56688017cd620cb25f1693c42dee408e058b7",
@@ -154,6 +143,17 @@
             "url_diff": "http://www.dropbox.com/s/btspbqx8q36zlm2/mura_triforce.bme?dl=1",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/2948"
+        },
+        {
+            "id": 4054,
+            "md5": "c211005b8889e007aaf1941e241a82ed",
+            "sha256": "ea0e8acdd23e78a48af2a84ee56e16b5a591d3cdec76c76c93727e65d80bfc68",
+            "title": "B e l i - R [ANOTHER]",
+            "artist": "+45",
+            "url": "https://drive.google.com/file/d/1OnUnYvSVE-oxEM-1AaRSPJhPA76ZPkVm/view?usp=sharing",
+            "url_diff": "https://drive.google.com/uc?id=1xaKMWLe6m8Gz3PKBogsvjp-HeFSsxA0c",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/4054"
         },
         {
             "id": 806,
@@ -1144,6 +1144,17 @@
             "url_diff": "http://absolute.pv.land.to/bmsuploader.html",
             "level": "8",
             "site_url": "https://stellabms.xyz/song/1028"
+        },
+        {
+            "id": 4612,
+            "md5": "8be565db62cb59739c827c5ee0884801",
+            "sha256": "50a0bf1abcf5569862f69ae55d1158b0e95a31108331986cc4ad79e815d1f7cc",
+            "title": "Zero Feet [INSANE]",
+            "artist": "crossworld / obj. Lennon",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=137",
+            "url_diff": "",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/4612"
         },
         {
             "id": 4677,

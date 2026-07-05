@@ -1058,6 +1058,17 @@
             "site_url": "https://stellabms.xyz/song/6546"
         },
         {
+            "id": 4064,
+            "md5": "b68e4ddc153ab9b9391f3d9a2f856e7a",
+            "sha256": "ea5ca258b13c467d3cf7c4c74a59e8272e48a4493f8373164bb9efba97c47b3b",
+            "title": "Sunset Toybox [EXTRA]",
+            "artist": "テヅカ x Aoi feat.桃雛なの / obj:夢瑠",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=498&event=133",
+            "url_diff": "https://dl.dropboxusercontent.com/s/wi896g8u0kgx4nn/_Sunset_Toybox_yume.zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/4064"
+        },
+        {
             "id": 309,
             "md5": "7867d3bf5cc5af9289f33313eaceb2ed",
             "sha256": "4bc293f823adeb397f2d8c725779ddd7dac7eeca0eb126cc9018fc235d6d5ac8",
@@ -1113,6 +1124,17 @@
             "site_url": "https://stellabms.xyz/song/6498"
         },
         {
+            "id": 7602,
+            "md5": "6eba30d1342374789fa2f96cb75e598a",
+            "sha256": "83e2bf2def70a3f15dd5e1d66cdc0a90ec492fc1df33e22191656c572be49e78",
+            "title": "口人間 [腕人間]",
+            "artist": "空読無 白眼 / obj:fuko vs Criyajuh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=226&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3817",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/7602"
+        },
+        {
             "id": 7839,
             "md5": "25e74ee2b2fcc9ed43830d8b9b0049f0",
             "sha256": "a8c7dfaec36d5ebcac6d80d5fe4237b685aaa0626fa2e1126ee0d87ae60c49ff",
@@ -1144,6 +1166,17 @@
             "url_diff": "http://absolute.pv.land.to/bmsuploader.html",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/1924"
+        },
+        {
+            "id": 533,
+            "md5": "30bffbc5f5a74d005bd38d395f798107",
+            "sha256": "7796d484252c7407de02d890fe4bbe342b49d0d9d95c1b78a9338aba4a82a199",
+            "title": "Number Y [Other]",
+            "artist": "Lemi. obj:Omino",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=342&event=116",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01977.zip",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/533"
         },
         {
             "id": 481,
@@ -1179,6 +1212,17 @@
             "site_url": "https://stellabms.xyz/song/1205"
         },
         {
+            "id": 7275,
+            "md5": "3c981695b8e2106c4e8d484d3bf708c1",
+            "sha256": "7a8eb5295d1d32b47b94c5ab307f9c4f845a3655434123e83aee4a2243887000",
+            "title": "タナ・タナ [ガチ・オシ]",
+            "artist": "星砂 / obj:potechang",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=147",
+            "url_diff": "https://stellabms.xyz/upload/5643",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/7275"
+        },
+        {
             "id": 6156,
             "md5": "f750f674cca67d3d6682f9932257dc43",
             "sha256": "de202e46a09fcf58c335a5fa28b331e18cad9d3c29218dfeb63180e0d99a4ce4",
@@ -1199,6 +1243,17 @@
             "url_diff": "",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/5617"
+        },
+        {
+            "id": 197,
+            "md5": "048a48b58695b98537fd0a33ef1d17fd",
+            "sha256": "992942784954ba42a02a73b5ee42f247d8486a571f4149c576fa6cf11c6758cb",
+            "title": "Alicia Story",
+            "artist": "azu",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=71&event=71",
+            "url_diff": "http://absolute.pv.land.to/uploader/upload.html?1438441008",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/197"
         },
         {
             "id": 4671,
