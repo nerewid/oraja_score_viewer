@@ -1608,8 +1608,8 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=487&event=142",
             "url_diff": "https://stellabms.xyz/upload/3335",
             "comment": "",
-            "md5": "d0c822732e25618a28e60680f07d7400",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d0c822732e25618a28e60680f07d7400"
+            "md5": "f7179b38b6d45f0e4e00a0279298c2a9",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=f7179b38b6d45f0e4e00a0279298c2a9"
         },
         {
             "level": "2",
@@ -1700,16 +1700,6 @@
             "comment": "",
             "md5": "31ad3e62e6f2af690e9f41a0f1b34f59",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=31ad3e62e6f2af690e9f41a0f1b34f59"
-        },
-        {
-            "level": "2",
-            "title": "ポーチュラカ [めありーざーぷらす]",
-            "artist": "",
-            "url": "https://venue.bmssearch.net/hanadayori/4",
-            "url_diff": "https://tellabms.xyz/upload/3705",
-            "comment": "",
-            "md5": "d4fba5add0c9ddaaf3a3c874e40ea36d",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d4fba5add0c9ddaaf3a3c874e40ea36d"
         },
         {
             "level": "2",
@@ -4908,8 +4898,8 @@
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=487&event=142",
             "url_diff": "https://stellabms.xyz/upload/6573",
             "comment": "",
-            "md5": "294e3e81ae593e35d5e2fc88ded75052",
-            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=294e3e81ae593e35d5e2fc88ded75052"
+            "md5": "01408a0a5f5076bda5d63371c8152958",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=01408a0a5f5076bda5d63371c8152958"
         },
         {
             "level": "6",
@@ -4980,6 +4970,16 @@
             "comment": "",
             "md5": "d75df2476812f42876bb7882f23ddfb6",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d75df2476812f42876bb7882f23ddfb6"
+        },
+        {
+            "level": "6",
+            "title": "再演旧都 [Metropolis]",
+            "artist": "",
+            "url": "https://venue.bmssearch.net/letsbmsedit2/17",
+            "url_diff": "https://stellabms.xyz/upload/7648",
+            "comment": "",
+            "md5": "0c65db2306db390baa08b8cf647ab0c1",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=0c65db2306db390baa08b8cf647ab0c1"
         },
         {
             "level": "6",
@@ -7413,6 +7413,16 @@
         },
         {
             "level": "9",
+            "title": "再演旧都 [Abyss_easy]",
+            "artist": "",
+            "url": "https://venue.bmssearch.net/letsbmsedit2/17",
+            "url_diff": "https://stellabms.xyz/upload/7648",
+            "comment": "",
+            "md5": "16e8a0a41273c64f4c4ab7437e71427b",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=16e8a0a41273c64f4c4ab7437e71427b"
+        },
+        {
+            "level": "9",
             "title": "花嵐、空に溶けて [Ain't too proud to rely on!]",
             "artist": "",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=142",
@@ -8100,6 +8110,16 @@
             "comment": "",
             "md5": "ea78eece8c6a01ff9ac2061b35fca615",
             "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ea78eece8c6a01ff9ac2061b35fca615"
+        },
+        {
+            "level": "10",
+            "title": "再演旧都 [Abyss]",
+            "artist": "",
+            "url": "https://venue.bmssearch.net/letsbmsedit2/17",
+            "url_diff": "https://stellabms.xyz/upload/7648",
+            "comment": "",
+            "md5": "3265bdd9b160e9cde46b1aba359a5a41",
+            "site_url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=3265bdd9b160e9cde46b1aba359a5a41"
         },
         {
             "level": "10",
