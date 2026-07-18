@@ -932,6 +932,16 @@ label:has(input[type="radio"]:checked) {
     margin-top: var(--space-sm);
 }
 
+#folder-player-select-wrap label {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+#folder-player-select-hint {
+    color: var(--text-secondary);
+    font-size: 0.85em;
+}
+
 #folder-player-select {
     font-family: var(--font-main);
     font-size: 0.9rem;

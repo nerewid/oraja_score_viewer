@@ -11,10 +11,12 @@ let statusEl;
 let selectWrap;
 let profileSelect;
 
+// 前回読み込んだプレイヤー名の記憶用キー
+const LAST_PLAYER_STORAGE_KEY = 'folder_picker.last_player';
+
 document.addEventListener('DOMContentLoaded', () => {
     const section = document.getElementById('folder-picker-section');
     const pickBtn = document.getElementById('folder-picker-btn');
-    const loadBtn = document.getElementById('folder-load-btn');
     const manualDetails = document.getElementById('manual-upload');
     statusEl = document.getElementById('folder-picker-status');
     selectWrap = document.getElementById('folder-player-select-wrap');
@@ -30,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     section.hidden = false;
     pickBtn.addEventListener('click', handlePick);
-    if (loadBtn) loadBtn.addEventListener('click', handleLoadSelected);
+    if (profileSelect) profileSelect.addEventListener('change', handleProfileChange);
 });
 
 // 複数プロファイル選択時に、確定ボタンから参照するための状態
@@ -100,19 +102,30 @@ async function processDirectory(rootHandle) {
         return;
     }
 
-    if (candidates.length === 1) {
-        await loadProfile(candidates[0], songdataHandle);
-        return;
-    }
-
-    // 5. 複数プロファイル: select を表示してユーザーに選ばせる
-    showProfileSelect(candidates, songdataHandle, config);
+    // 5. プレイヤーセレクトを表示し、自動選択したプレイヤーを即読み込む
+    await setupProfileSelect(candidates, songdataHandle, config);
 }
 
-function showProfileSelect(candidates, songdataHandle, config) {
+// 自動選択の優先順: 前回読み込んだプレイヤー（localStorage） → config_sys.json の playername → 先頭
+function pickAutoProfileIndex(candidates, config) {
+    const remembered = localStorage.getItem(LAST_PLAYER_STORAGE_KEY);
+    if (remembered) {
+        const i = candidates.findIndex(c => c.name === remembered);
+        if (i >= 0) return i;
+    }
+    if (config.playername) {
+        const i = candidates.findIndex(c => c.name === config.playername);
+        if (i >= 0) return i;
+    }
+    return 0;
+}
+
+async function setupProfileSelect(candidates, songdataHandle, config) {
+    const autoIndex = pickAutoProfileIndex(candidates, config);
+
     if (!selectWrap || !profileSelect) {
-        // select UI が無い環境では先頭を自動選択（安全側フォールバック）
-        loadProfile(candidates[0], songdataHandle);
+        // select UI が無い環境では自動選択のみ（安全側フォールバック）
+        await loadProfile(candidates[autoIndex], songdataHandle);
         return;
     }
     pendingCandidates = candidates;
@@ -123,17 +136,18 @@ function showProfileSelect(candidates, songdataHandle, config) {
         const opt = document.createElement('option');
         opt.value = String(i);
         opt.textContent = c.name;
-        if (config.playername && c.name === config.playername) {
-            opt.selected = true;
-        }
         profileSelect.appendChild(opt);
     });
-
+    profileSelect.value = String(autoIndex);
+    // 候補が1つでも「どのプレイヤーを読み込んだか」が分かるよう常に表示する
+    profileSelect.disabled = candidates.length === 1;
     selectWrap.hidden = false;
-    showStatus(t('folder.multiple_profiles'), 'info');
+
+    await loadProfile(candidates[autoIndex], songdataHandle);
 }
 
-async function handleLoadSelected() {
+// セレクト変更で即座に選択プレイヤーを再読み込みする
+async function handleProfileChange() {
     if (!pendingCandidates || !profileSelect) return;
     const idx = parseInt(profileSelect.value, 10);
     const profile = pendingCandidates[idx];
@@ -171,6 +185,13 @@ async function loadProfile(profileHandle, songdataHandle) {
     } catch (e) {
         showError(t('folder.error_load') + (e && e.message ? e.message : e));
         return;
+    }
+
+    // 次回フォルダ選択時の自動選択用に、最後に読み込んだプレイヤーを記憶する
+    try {
+        localStorage.setItem(LAST_PLAYER_STORAGE_KEY, profileHandle.name);
+    } catch (e) {
+        // localStorage が使えない環境（プライベートモード等）では記憶をスキップ
     }
 
     showStatus(t('folder.success', { player: profileHandle.name }), 'success');

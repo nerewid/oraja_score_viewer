@@ -39,8 +39,9 @@
             <p data-i18n="folder.section_desc">beatorajaフォルダを選ぶと score.db / scorelog.db / songdata.db を自動で読み込みます。</p>
             <button id="folder-picker-btn" data-i18n="folder.pick_button" aria-describedby="folder-picker-status">beatorajaフォルダから読み込む</button>
             <div id="folder-player-select-wrap" hidden>
+                <label for="folder-player-select" data-i18n="folder.player_label">プレイヤー:</label>
                 <select id="folder-player-select" aria-label="プレイヤーを選択"></select>
-                <button id="folder-load-btn" data-i18n="folder.load_selected">選択したプレイヤーを読み込む</button>
+                <span id="folder-player-select-hint" data-i18n="folder.player_hint">選択すると自動で読み込みます</span>
             </div>
             <div id="folder-picker-status" class="message" role="status"></div>
         </section>
