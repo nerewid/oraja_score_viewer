@@ -2,6 +2,7 @@
 
 import { t } from '../i18n.js';
 import { CLEAR_STATUS, CLEAR_STATUS_ORDER } from '../constants.js';
+import { logger } from '../utils/logger.js';
 
 // 曲リストのソート状態
 let songListSortState = { column: 'title', ascending: true };
@@ -228,7 +229,7 @@ function displayLampGraphs(aggregatedData, shortName, predefinedLevels, lampGrap
 
     if (predefinedLevels && Array.isArray(predefinedLevels)) {
         sortedLevels = predefinedLevels.filter(level => aggregatedData.has(level));
-        console.log(`Using predefined level order: ${sortedLevels.join(', ')}`);
+        logger.debug(`Using predefined level order: ${sortedLevels.join(', ')}`);
     } else {
         sortedLevels = Array.from(aggregatedData.keys()).sort((a, b) => {
             const numA = parseInt(a, 10);
