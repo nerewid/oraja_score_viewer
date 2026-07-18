@@ -13,6 +13,7 @@ import {
 } from './lamp_graph_data.js';
 import { displayLampGraphs, displaySongList } from './lamp_graph_renderer.js';
 import { populateDifficultySelect, setupEventListeners, getDOMElements } from './lamp_graph_ui.js';
+import { logger } from '../utils/logger.js';
 
 // 現在選択中の集計データ（モジュールスコープ）
 let currentAggregatedData = null;
@@ -114,7 +115,7 @@ async function initializeApp() {
     try {
         const difficultyTables = await loadDifficultyTables();
         populateDifficultySelect(difficultyTables);
-        console.log("難易度表プルダウン生成完了");
+        logger.debug("難易度表プルダウン生成完了");
     } catch(error) {
         console.error("難易度表データの読み込みまたはプルダウン生成に失敗:", error);
         if (difficultyTableSelect) {
@@ -133,7 +134,7 @@ async function initializeApp() {
         }
     );
 
-    console.log("アプリケーションの初期化が完了しました。");
+    logger.debug("アプリケーションの初期化が完了しました。");
 }
 
 
