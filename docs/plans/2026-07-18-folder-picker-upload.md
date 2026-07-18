@@ -19,9 +19,11 @@ offline.walkure.net は File System Access API の `showDirectoryPicker()` で b
 
 - フォルダ選択 UI + 自動特定ロジックの追加（Chromium 系のみ表示）
 - 既存の3ファイル個別アップロードはフォールバックとして維持
-- 複数プレイヤープロファイル時の選択 UI
-- スコープ外: FileSystemDirectoryHandle の IndexedDB 保存（次回選択不要化）は
-  フォローアップとする
+- 複数プレイヤープロファイル時の選択 UI（フォルダ選択直後の自動読み込み +
+  セレクト変更で即時再読み込み、前回プレイヤーを localStorage に記憶）
+- FileSystemDirectoryHandle の IndexedDB 保存による「前回のフォルダから読み込む」
+  ボタン（当初フォローアップ予定だったがユーザー要望によりスコープに追加。
+  2026-07-18 実装・OPFS を使った E2E 検証済み）
 
 ## Steps
 

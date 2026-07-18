@@ -14,6 +14,8 @@ const translations = {
         // folder_picker.js
         'folder.section_desc': 'beatorajaフォルダを選ぶと score.db / scorelog.db / songdata.db を自動で読み込みます。',
         'folder.pick_button': 'beatorajaフォルダから読み込む',
+        'folder.restore_button': '前回のフォルダ（{name}）から読み込む',
+        'folder.error_restore': '前回のフォルダを読み込めませんでした。フォルダを選び直してください。',
         'folder.manual_summary': '手動でファイルを個別に選択する',
         'folder.player_label': 'プレイヤー:',
         'folder.player_hint': '選択すると自動で読み込みます',
@@ -96,6 +98,8 @@ const translations = {
         // folder_picker.js
         'folder.section_desc': 'Select your beatoraja folder to automatically load score.db / scorelog.db / songdata.db.',
         'folder.pick_button': 'Load from beatoraja folder',
+        'folder.restore_button': 'Load from previous folder ({name})',
+        'folder.error_restore': 'Could not load the previous folder. Please select it again.',
         'folder.manual_summary': 'Select files manually instead',
         'folder.player_label': 'Player:',
         'folder.player_hint': 'Selecting a player loads it automatically',

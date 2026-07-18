@@ -1,18 +1,24 @@
 import { loadDbFromArrayBuffer } from './db_uploader.js';
 import { t } from './i18n.js';
+import { saveDirectoryHandle, loadDirectoryHandle, clearDirectoryHandle } from './utils/handle_store.js';
 
 /**
  * File System Access API (showDirectoryPicker) を使って beatoraja ルートフォルダを選択させ、
  * config_sys.json を起点に score.db / scorelog.db / songdata.db を自動特定して読み込む。
  * 非対応ブラウザ（Chromium 系以外）ではセクションを非表示にし、手動アップロードへフォールバックする。
+ * 一度読み込んだフォルダのハンドルは IndexedDB に記憶し、次回は権限確認だけで再読み込みできる。
  */
 
 let statusEl;
 let selectWrap;
 let profileSelect;
+let restoreBtn;
 
 // 前回読み込んだプレイヤー名の記憶用キー
 const LAST_PLAYER_STORAGE_KEY = 'folder_picker.last_player';
+
+// processDirectory 実行中のルートハンドル（読み込み成功時に永続化する対象）
+let currentRootHandle = null;
 
 document.addEventListener('DOMContentLoaded', () => {
     const section = document.getElementById('folder-picker-section');
@@ -21,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     statusEl = document.getElementById('folder-picker-status');
     selectWrap = document.getElementById('folder-player-select-wrap');
     profileSelect = document.getElementById('folder-player-select');
+    restoreBtn = document.getElementById('folder-restore-btn');
 
     if (!section || !pickBtn) return;
 
@@ -33,7 +40,66 @@ document.addEventListener('DOMContentLoaded', () => {
     section.hidden = false;
     pickBtn.addEventListener('click', handlePick);
     if (profileSelect) profileSelect.addEventListener('change', handleProfileChange);
+    if (restoreBtn) restoreBtn.addEventListener('click', handleRestore);
+
+    // 記憶済みのフォルダがあれば「前回のフォルダから読み込む」ボタンを表示する
+    initRestoreButton();
 });
+
+// 記憶済みハンドルを読み込み、あれば復元ボタンを表示する
+async function initRestoreButton() {
+    if (!restoreBtn) return;
+    const handle = await loadDirectoryHandle();
+    if (!handle) return;
+    restoreBtn.textContent = t('folder.restore_button', { name: handle.name });
+    restoreBtn.hidden = false;
+}
+
+// 復元ボタン: 権限を確認（必要なら要求）してから記憶済みフォルダを再処理する
+async function handleRestore() {
+    resetStatus();
+    if (selectWrap) selectWrap.hidden = true;
+
+    const handle = await loadDirectoryHandle();
+    if (!handle) {
+        // ハンドルが消えていた場合は通常のフォルダ選択へ誘導
+        await forgetStoredFolder();
+        showError(t('folder.error_restore'));
+        return;
+    }
+
+    let granted = true;
+    try {
+        // queryPermission / requestPermission が無い実装（古い環境・モック）は granted 扱い
+        if (typeof handle.queryPermission === 'function') {
+            const status = await handle.queryPermission({ mode: 'read' });
+            if (status !== 'granted') {
+                if (typeof handle.requestPermission === 'function') {
+                    const req = await handle.requestPermission({ mode: 'read' });
+                    granted = req === 'granted';
+                } else {
+                    granted = false;
+                }
+            }
+        }
+    } catch (e) {
+        granted = false;
+    }
+
+    if (!granted) {
+        await forgetStoredFolder();
+        showError(t('folder.error_restore'));
+        return;
+    }
+
+    await processDirectory(handle, { fromRestore: true });
+}
+
+// 記憶を破棄し、復元ボタンを隠す
+async function forgetStoredFolder() {
+    await clearDirectoryHandle();
+    if (restoreBtn) restoreBtn.hidden = true;
+}
 
 // 複数プロファイル選択時に、確定ボタンから参照するための状態
 let pendingCandidates = null;
@@ -56,7 +122,11 @@ async function handlePick() {
     await processDirectory(dirHandle);
 }
 
-async function processDirectory(rootHandle) {
+async function processDirectory(rootHandle, options = {}) {
+    const fromRestore = options.fromRestore === true;
+    // 読み込み成功時に永続化する対象として保持
+    currentRootHandle = rootHandle;
+
     // 1. config_sys.json の存在で beatoraja ルートを判定
     let config;
     try {
@@ -64,7 +134,13 @@ async function processDirectory(rootHandle) {
         const file = await fh.getFile();
         config = JSON.parse(await file.text());
     } catch (e) {
-        showError(t('folder.error_not_beatoraja'));
+        if (fromRestore) {
+            // 記憶したフォルダが移動・削除された場合は記憶を破棄して選び直しへ誘導
+            await forgetStoredFolder();
+            showError(t('folder.error_restore'));
+        } else {
+            showError(t('folder.error_not_beatoraja'));
+        }
         return;
     }
 
@@ -192,6 +268,16 @@ async function loadProfile(profileHandle, songdataHandle) {
         localStorage.setItem(LAST_PLAYER_STORAGE_KEY, profileHandle.name);
     } catch (e) {
         // localStorage が使えない環境（プライベートモード等）では記憶をスキップ
+    }
+
+    // 読み込み完全成功時に、次回再利用のためルートフォルダのハンドルを永続化する。
+    // 保存失敗（モックハンドル・非対応環境等）は握りつぶし、本体フローには影響させない。
+    if (currentRootHandle) {
+        const saved = await saveDirectoryHandle(currentRootHandle);
+        if (saved && restoreBtn) {
+            restoreBtn.textContent = t('folder.restore_button', { name: currentRootHandle.name });
+            restoreBtn.hidden = false;
+        }
     }
 
     showStatus(t('folder.success', { player: profileHandle.name }), 'success');

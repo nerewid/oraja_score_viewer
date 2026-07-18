@@ -924,6 +924,17 @@ label:has(input[type="radio"]:checked) {
     line-height: 1.6;
 }
 
+/* 復元ボタンとフォルダ選択ボタンを横並びに */
+#folder-restore-btn {
+    margin-right: var(--space-md);
+}
+
+/* 前回フォルダの再読み込みは主導線なので塗りつぶしで強調 */
+#folder-restore-btn:not([hidden]) {
+    background: var(--accent-primary);
+    color: var(--bg-primary);
+}
+
 #folder-player-select-wrap {
     display: flex;
     align-items: center;
