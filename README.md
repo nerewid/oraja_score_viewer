@@ -10,7 +10,7 @@ https://nerewid.github.io/oraja_score_viewer/
 
 最終機能更新日: 2026/07/18
 
-最終難易度表情報更新日: 2026/07/12
+最終難易度表情報更新日: 2026/07/18
 
 対応している難易度表
 - Satellite 難易度表
@@ -23,6 +23,7 @@ https://nerewid.github.io/oraja_score_viewer/
 - 16分乱打難易度表(仮)
 - 腕ガチ難易度表
 - Dystopia難易度表
+- BMS現代発狂譜面寄せ集め
 - δ難易度表
 - 発狂DP難易度表
 - DP Overjoy
@@ -59,7 +60,7 @@ https://nerewid.github.io/oraja_score_viewer/
 
 Last feature update: 2026/07/18
 
-Last difficulty table update: 2026/07/12
+Last difficulty table update: 2026/07/18
 
 Supported Difficulty Tables
 - Satellite
@@ -72,6 +73,7 @@ Supported Difficulty Tables
 - 16分乱打
 - 腕ガチ
 - Dystopia
+- BMS現代発狂譜面寄せ集め
 - δ
 - DP Insane
 - DP Overjoy
