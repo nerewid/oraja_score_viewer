@@ -16,7 +16,6 @@
         const repoName = filteredSegments.length > 0 ? '/' + filteredSegments[0] + '/' : '/';
         const baseTag = document.createElement('base');
         baseTag.href = repoName;
-        console.log('Base path:', repoName);
         document.head.appendChild(baseTag);
     </script>
     <link rel="stylesheet" href="style.css">
