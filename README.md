@@ -8,7 +8,7 @@ scorelog viewer for beatoraja
 
 https://nerewid.github.io/oraja_score_viewer/
 
-最終機能更新日: 2025/12/03
+最終機能更新日: 2026/07/18
 
 最終難易度表情報更新日: 2026/07/12
 
@@ -57,9 +57,9 @@ Available at:
 
 https://nerewid.github.io/oraja_score_viewer/
 
-Last feature update: 2025/12/03
+Last feature update: 2026/07/18
 
-Last difficulty table update: 2025/12/03
+Last difficulty table update: 2026/07/12
 
 Supported Difficulty Tables
 - Satellite
