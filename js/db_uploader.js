@@ -29,57 +29,70 @@ document.getElementById('fileInputscore').addEventListener('change', handleFileS
 document.getElementById('fileInputscorelog').addEventListener('change', handleFileSelect("scorelog.db"), false);
 document.getElementById('fileInputsongdata').addEventListener('change', handleFileSelect("songdata.db"), false);
 
+/**
+ * ArrayBuffer から DB を読み込み、検証・インデックス作成・module 変数への格納までを行う共通処理。
+ * 手動アップロード（input）とフォルダ選択（File System Access API）の両経路から呼ばれる。
+ * 成功/失敗は対応する message-* 要素にも反映し、失敗時は例外を再スローして呼び出し元に通知する。
+ *
+ * @param {string} expectedFileName "score.db" | "scorelog.db" | "songdata.db"
+ * @param {ArrayBuffer} arrayBuffer 読み込んだファイルの中身
+ */
+async function loadDbFromArrayBuffer(expectedFileName, arrayBuffer) {
+    const messageArea = document.getElementById("message-" + expectedFileName.replace(".db", ""));
+    try {
+        const uint8Array = new Uint8Array(arrayBuffer);
+        const SQL = await sqlPromise;
+        const db = new SQL.Database(uint8Array);
+
+        // インデックス作成処理
+        if (expectedFileName === "songdata.db") {
+            db.run("CREATE INDEX IF NOT EXISTS idx_song_md5 ON song (md5);");
+        } else if (expectedFileName === "scorelog.db") {
+            db.run("CREATE INDEX IF NOT EXISTS idx_scorelog_sha256_date ON scorelog (sha256, date);"); // 複合インデックスを作成
+            db.run("CREATE INDEX IF NOT EXISTS idx_scorelog_sha256 ON scorelog (sha256);"); // sha256単独のインデックスも作成(findMatchingScoresで使用)
+        }
+
+        db.close();
+
+        if (expectedFileName === "score.db") {
+            scoreDbData = uint8Array;
+        } else if (expectedFileName === "scorelog.db") {
+            scorelogDbData = uint8Array;
+        } else if (expectedFileName === "songdata.db") {
+            songdataDbData = uint8Array;
+        }
+
+        if (scoreDbData && scorelogDbData && songdataDbData) {
+            document.getElementById("processData").disabled = false;
+        }
+
+        if (messageArea) {
+            messageArea.textContent = t('message.load_success');
+            messageArea.classList.remove("message-error");
+            messageArea.classList.add("message-success");
+        }
+    } catch (e) {
+        if (messageArea) {
+            messageArea.textContent = t('message.load_failed') + e.message;
+            messageArea.classList.remove("message-success");
+            messageArea.classList.add("message-error");
+        }
+        throw e;
+    }
+}
+
 function handleFileSelect(expectedFileName) {
   return async function(event){
       const files = event.target.files;
       if (files.length == 0) return;
       const file = files[0];
 
-      const reader = new FileReader();
-      reader.onload = async (event) => {
-          const messageArea = document.getElementById("message-" + expectedFileName.replace(".db", ""));
-          try {
-              const uint8Array = new Uint8Array(event.target.result);
-              const SQL = await sqlPromise;
-              const db = new SQL.Database(uint8Array);
-              console.log(expectedFileName + "の読み込みに成功しました");
-
-              // インデックス作成処理を追加
-              if (expectedFileName === "songdata.db") {
-                db.run("CREATE INDEX IF NOT EXISTS idx_song_md5 ON song (md5);");
-                console.log("songdata.dbのmd5インデックスを作成しました");
-            } else if (expectedFileName === "scorelog.db") {
-                db.run("CREATE INDEX IF NOT EXISTS idx_scorelog_sha256_date ON scorelog (sha256, date);"); // 複合インデックスを作成
-                console.log("scorelog.dbの(sha256, date)複合インデックスを作成しました");
-                db.run("CREATE INDEX IF NOT EXISTS idx_scorelog_sha256 ON scorelog (sha256);"); // sha256単独のインデックスも作成(findMatchingScoresで使用)
-                console.log("scorelog.dbのsha256インデックスを作成しました");
-            }
-
-              db.close();
-
-              if (expectedFileName === "score.db") {
-                  scoreDbData = uint8Array;
-              } else if (expectedFileName === "scorelog.db") {
-                  scorelogDbData = uint8Array;
-              } else if (expectedFileName === "songdata.db") {
-                  songdataDbData = uint8Array;
-              }
-
-              if (scoreDbData && scorelogDbData && songdataDbData) {
-                  document.getElementById("processData").disabled = false;
-              }
-              messageArea.textContent = t('message.load_success');
-              messageArea.classList.remove("message-error");
-              messageArea.classList.add("message-success");
-
-          } catch (e) {
-              console.error(expectedFileName + "の読み込みに失敗しました:" + e);
-              messageArea.textContent = t('message.load_failed') + e.message;
-              messageArea.classList.remove("message-success");
-              messageArea.classList.add("message-error");
-          }
-      };
-      reader.readAsArrayBuffer(file);
+      try {
+          const arrayBuffer = await file.arrayBuffer();
+          await loadDbFromArrayBuffer(expectedFileName, arrayBuffer);
+      } catch (e) {
+          console.error(expectedFileName + "の読み込みに失敗しました:" + e);
+      }
   };
 }
 
@@ -91,4 +104,4 @@ function releaseScorelogData() {
     scorelogDbData = null;
 }
 
-export { scoreDbData, scorelogDbData, songdataDbData, sqlPromise, releaseScorelogData };
+export { scoreDbData, scorelogDbData, songdataDbData, sqlPromise, releaseScorelogData, loadDbFromArrayBuffer };

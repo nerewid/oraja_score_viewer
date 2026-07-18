@@ -908,6 +908,63 @@ label:has(input[type="radio"]:checked) {
 }
 
 /* ============================================
+   Folder Picker（フォルダ選択による自動読み込み）
+   ============================================ */
+#folder-picker-section {
+    margin: var(--space-md) 0;
+    padding: var(--space-md) var(--space-lg);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: var(--radius-md);
+    background: rgba(0, 212, 255, 0.04);
+}
+
+#folder-picker-section p {
+    margin: 0 0 var(--space-sm) 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+#folder-player-select-wrap {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin-top: var(--space-sm);
+}
+
+#folder-player-select {
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    background: var(--bg-primary);
+    border: 1px solid var(--accent-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm) var(--space-md);
+}
+
+#folder-picker-status {
+    margin-top: var(--space-sm);
+    font-size: 0.9em;
+}
+
+/* 手動選択（フォールバック）の details */
+#manual-upload {
+    margin: var(--space-md) 0;
+}
+
+#manual-upload > summary {
+    cursor: pointer;
+    color: var(--accent-primary);
+    font-weight: 500;
+    padding: var(--space-sm) 0;
+    user-select: none;
+}
+
+#manual-upload > summary:hover {
+    color: var(--text-primary);
+}
+
+/* ============================================
    Error Display
    ============================================ */
 .error-container {

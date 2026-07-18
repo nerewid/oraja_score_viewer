@@ -34,28 +34,42 @@
         <hr>
         <h3 data-i18n="upload.howto">利用方法</h3>
         <span data-i18n="upload.instruction">beatorajaフォルダの中にあるdbファイルを選択してください。</span><br>
-        <span data-i18n="upload.score_location" data-i18n-html>score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに</span><br>
-        <span data-i18n="upload.songdata_location" data-i18n-html>songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。</span><br>
-        <div class="upload-row">
-            <button id="uploadscoredb" data-i18n="button.load_score" aria-describedby="message-score">score.db を読み込む</button>
-            <input type="file" id="fileInputscore" accept=".db" style="display: none;" aria-label="score.dbファイルを選択">
-            <div id="fileinfoscore"></div>
-            <div id="message-score" class="message" role="status"></div>
-        </div>
 
-        <div class="upload-row">
-            <button id="uploadscorelogdb" data-i18n="button.load_scorelog" aria-describedby="message-scorelog">scorelog.db を読み込む</button>
-            <input type="file" id="fileInputscorelog" accept=".db" style="display: none;" aria-label="scorelog.dbファイルを選択">
-            <div id="fileinfoscorelog"></div>
-            <div id="message-scorelog" class="message" role="status"></div>
-        </div>
+        <section id="folder-picker-section" hidden>
+            <p data-i18n="folder.section_desc">beatorajaフォルダを選ぶと score.db / scorelog.db / songdata.db を自動で読み込みます。</p>
+            <button id="folder-picker-btn" data-i18n="folder.pick_button" aria-describedby="folder-picker-status">beatorajaフォルダから読み込む</button>
+            <div id="folder-player-select-wrap" hidden>
+                <select id="folder-player-select" aria-label="プレイヤーを選択"></select>
+                <button id="folder-load-btn" data-i18n="folder.load_selected">選択したプレイヤーを読み込む</button>
+            </div>
+            <div id="folder-picker-status" class="message" role="status"></div>
+        </section>
 
-        <div class="upload-row">
-            <button id="uploadsongdatadb" data-i18n="button.load_songdata" aria-describedby="message-songdata">songdata.db を読み込む</button>
-            <input type="file" id="fileInputsongdata" accept=".db" style="display: none;" aria-label="songdata.dbファイルを選択">
-            <div id="fileinfosongdata"></div>
-            <div id="message-songdata" class="message" role="status"></div>
-        </div>
+        <details id="manual-upload">
+            <summary data-i18n="folder.manual_summary">手動でファイルを個別に選択する</summary>
+            <span data-i18n="upload.score_location" data-i18n-html>score.db, scorelog.dbは <span style="font-weight: bold;">beatoraja0.x.x/player/(playerName)</span> フォルダに</span><br>
+            <span data-i18n="upload.songdata_location" data-i18n-html>songdata.dbは <span style="font-weight: bold;">beatoraja0.x.x/</span> フォルダにあります。</span><br>
+            <div class="upload-row">
+                <button id="uploadscoredb" data-i18n="button.load_score" aria-describedby="message-score">score.db を読み込む</button>
+                <input type="file" id="fileInputscore" accept=".db" style="display: none;" aria-label="score.dbファイルを選択">
+                <div id="fileinfoscore"></div>
+                <div id="message-score" class="message" role="status"></div>
+            </div>
+
+            <div class="upload-row">
+                <button id="uploadscorelogdb" data-i18n="button.load_scorelog" aria-describedby="message-scorelog">scorelog.db を読み込む</button>
+                <input type="file" id="fileInputscorelog" accept=".db" style="display: none;" aria-label="scorelog.dbファイルを選択">
+                <div id="fileinfoscorelog"></div>
+                <div id="message-scorelog" class="message" role="status"></div>
+            </div>
+
+            <div class="upload-row">
+                <button id="uploadsongdatadb" data-i18n="button.load_songdata" aria-describedby="message-songdata">songdata.db を読み込む</button>
+                <input type="file" id="fileInputsongdata" accept=".db" style="display: none;" aria-label="songdata.dbファイルを選択">
+                <div id="fileinfosongdata"></div>
+                <div id="message-songdata" class="message" role="status"></div>
+            </div>
+        </details>
 
         <button id="processData" disabled data-i18n="button.process">データ処理開始</button>
 
@@ -140,6 +154,7 @@
 
     <script type="module" src="./js/lang_switcher.js"></script>
     <script type="module" src="./js/db_uploader.js"></script>
+    <script type="module" src="./js/folder_picker.js"></script>
     <script type="module" src="./js/score_change_to_json.js"></script>
     <script type="module" src="./js/json_creator.js"></script>
     <script type="module" src="./js/heatmap_generator.js"></script>
