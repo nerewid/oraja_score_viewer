@@ -3,8 +3,37 @@ import json
 import os
 import configparser
 import time
+from urllib.parse import urljoin
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+
+def resolve_data_url(item, session):
+    """entry.url が古いスナップショット(GAS /echo?user_content_key=...)に
+    固定されて陳腐化するのを防ぐため、entry に header_url が指定されていれば
+    毎回そこから data_url を読み直す。失敗時は元の url にフォールバック。
+
+    header.json は beatoraja 表と同じ形式: {"name","symbol","data_url"}。
+    data_url が相対なら header_url を base に urljoin する。"""
+    header_url = item.get("header_url")
+    fallback_url = item.get("url")
+    if not header_url:
+        return fallback_url
+    try:
+        resp = session.get(header_url, timeout=(15, 30))
+        resp.raise_for_status()
+        header = resp.json()
+        data_url = header.get("data_url")
+        if not data_url:
+            print(f"警告: {header_url} に data_url が無い。url にフォールバック。")
+            return fallback_url
+        resolved = urljoin(header_url, data_url)
+        if resolved != fallback_url:
+            print(f"情報: header_url 経由で data_url を更新: {resolved[:100]}...")
+        return resolved
+    except Exception as e:
+        print(f"警告: header_url 解決失敗 ({header_url}): {e}。url にフォールバック。")
+        return fallback_url
 
 def load_json_data(json_file_path):
     """JSONファイルを読み込む。"""
@@ -42,10 +71,9 @@ def create_session_with_retries():
 def download_and_save_json(item, difficulty_table_dir, session=None):
     """URLからJSONをダウンロードして保存する。"""
     internalFileName = item.get("internalFileName")
-    url = item.get("url")
     shortName = item.get("shortName") # shortNameを取得
 
-    if not internalFileName or not url:
+    if not internalFileName or not item.get("url"):
         print(f"エラー: internalFileNameまたはurlが不足しています: {item}")
         return
 
@@ -56,6 +84,9 @@ def download_and_save_json(item, difficulty_table_dir, session=None):
     # セッションが渡されていない場合は新規作成
     if session is None:
         session = create_session_with_retries()
+
+    # header_url があれば毎回そこから最新 data_url を解決する
+    url = resolve_data_url(item, session)
 
     try:
         # タイムアウト: 接続30秒、読み取り60秒
