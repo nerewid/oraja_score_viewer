@@ -1322,6 +1322,17 @@
             "site_url": "https://stellabms.xyz/song/4023"
         },
         {
+            "id": 9295,
+            "md5": "1a2689b73230ed7231b99dcb9b44d026",
+            "sha256": "cf8e619fc7bc6f0853fbb7f3a2e60ecbc170893fa87ed4555ac4f3c493ca83aa",
+            "title": "Red End Dream[7key_EX]",
+            "artist": "daisan / Ds",
+            "url": "https://clockxellox.sakura.ne.jp/",
+            "url_diff": "http://sagena.harisen.jp/bms/redream_7X.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9295"
+        },
+        {
             "id": 1083,
             "md5": "6c375e76f7432d6251c183704ebca1c7",
             "sha256": "03949d1b8687939d8cfee6a9372c64fc3eb0788bc01b0ee05f19bf64ed180aff",
@@ -1540,6 +1551,17 @@
             "url_diff": "https://venue.bmssearch.net/bcel_pre/28",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/5239"
+        },
+        {
+            "id": 9338,
+            "md5": "bb4cd894c657371dbf3a84d51db4b8c8",
+            "sha256": "f3c7f9dd0112294bbbff3de830aaa5802b592c2558055e18b55f5c81eda2472a",
+            "title": "Triumphal Return [Last Reminiscence]",
+            "artist": "TamaDo / obj:83929",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=85&event=115",
+            "url_diff": "https://stellabms.xyz/upload/7753",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9338"
         },
         {
             "id": 2735,
@@ -3698,6 +3720,17 @@
             "site_url": "https://stellabms.xyz/song/391"
         },
         {
+            "id": 1036,
+            "md5": "646e08761457d990d3c4d21b6e875b45",
+            "sha256": "f6911ea0266ed40238fb78d4872e7ebf02bba556d5f0662b0c76a698baacc572",
+            "title": "Lamellibrachia [laner]",
+            "artist": "guna / hyperlaner",
+            "url": "http://aquaseeds.net/archives/tentax_guna_lamellibrachia_HQ.rar",
+            "url_diff": "https://web.archive.org/web/20190322230138/http://www.hyper-laner.com/sabun/all201807_laner.rar",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/1036"
+        },
+        {
             "id": 546,
             "md5": "b02c021e18f561d60cab0723afcacd21",
             "sha256": "65b7e094ae667d79f11cce3bc33bb7b2542daa79b53483d317d5524ebbf383cd",
@@ -4545,6 +4578,17 @@
             "site_url": "https://stellabms.xyz/song/1980"
         },
         {
+            "id": 9303,
+            "md5": "e553b827444f828ed055ce094317a0aa",
+            "sha256": "737c8d71c97e7ea9d095ac8a6e7dcadf177a267ae46238b0ef5e1f2b9bfa024f",
+            "title": "the delay of starfall",
+            "artist": "Synzak feat. MIKI BGA: TanakaToiku  obj:tsukisaka",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=462&event=146",
+            "url_diff": "https://stellabms.xyz/upload/7040",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9303"
+        },
+        {
             "id": 7508,
             "md5": "d0644db879df8e0cf27cedcae73e471a",
             "sha256": "795c730c1a589fe3178014fa7691255a456297f1cf7a296e93364687ff0b367a",
@@ -4963,6 +5007,17 @@
             "site_url": "https://stellabms.xyz/song/6434"
         },
         {
+            "id": 9301,
+            "md5": "76bb0f4237992d1f50e07621c290a5da",
+            "sha256": "c9620af280df8df1d9e00da60d163e9d64960b40b24178c39571fc2361121eda",
+            "title": "アレア→イデア [Ain't too proud to rely on!]",
+            "artist": "ケットシー obj:IBARAGI_YOSHIMI",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=170&event=60",
+            "url_diff": "https://stellabms.xyz/upload/7069",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9301"
+        },
+        {
             "id": 5878,
             "md5": "f6837fdb9de1d38f06e335ce8212a2df",
             "sha256": "5f6334f781c5a2377520146c876d2e377479664904fa8a366e5127419209c475",
@@ -5260,6 +5315,17 @@
             "site_url": "https://stellabms.xyz/song/2317"
         },
         {
+            "id": 9336,
+            "md5": "c935f0ddf88bd90b094ef911768d1b22",
+            "sha256": "e98131859cdb0839119634f1a09c463aaf6c17abc46f7c92f0612406ae8a60e6",
+            "title": "図書室のエルザ [AFOX]",
+            "artist": "橘花音 かなえゆめ composed by nmk Illustration:かぜっと / obj:SUGAR.",
+            "url": "http://tosyosituno-elsa.tumblr.com/",
+            "url_diff": "https://stellabms.xyz/upload/5020",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9336"
+        },
+        {
             "id": 3232,
             "md5": "2b1d7da2ceb4a9751699179bc0ba1c2a",
             "sha256": "e3ea03ae72147e403afed3e8e5713671c3db7288fb9c2610ac49eee15763b07b",
@@ -5291,6 +5357,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01965.zip",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/495"
+        },
+        {
+            "id": 9370,
+            "md5": "67a12802ffe0872bb0bc82fe157af399",
+            "sha256": "51c386ea1e4008966906d8b33c898cd092814e1c41781ef88a7f1861377897c5",
+            "title": "屈折(feat. 夏色花梨) [残滓]",
+            "artist": "Setca. / obj:potechang",
+            "url": "https://drive.usercontent.google.com/download?id=195AWZs800yaCkjnmEj6AuPj-Cp_0il-J&export=download",
+            "url_diff": "https://stellabms.xyz/upload/7885",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9370"
         },
         {
             "id": 415,
@@ -7779,6 +7856,17 @@
             "site_url": "https://stellabms.xyz/song/7591"
         },
         {
+            "id": 9280,
+            "md5": "7ebdaafa1f1cb1d9c079ae74f5a0b614",
+            "sha256": "6536ea1f165cce1d93e7938d5d13ba519b810c8fcf1b0a6214f7ab41e45de6a1",
+            "title": "VG (Radio Edit) [Hide]",
+            "artist": "ねこみりん / Apollo Sampling Machine feat.ilder×焔すばる / obj:秘密",
+            "url": "http://nekomirin.com/bms/nekomirin_vg_HQogg.zip",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9280"
+        },
+        {
             "id": 6065,
             "md5": "e8316f51440687a6c48bbc75f186029e",
             "sha256": "5ca9aabb5315a6d0e4f1c8449fe29007817992443035278274638de76356b42e",
@@ -8107,6 +8195,17 @@
             "url_diff": "http://yuinore.net/2017/02/smc-package/",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/3000"
+        },
+        {
+            "id": 9337,
+            "md5": "9041b7e56fb1b8fb5217fa3ea4a66b8e",
+            "sha256": "185d7abe1ab0e0856e323ad6356789af418ceab3905f4b9c91eca06762d357ff",
+            "title": "ステラオーダー [EXPERT]",
+            "artist": "あとぅす BGI:りーふぱいザウルス / obj:potechang",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/99",
+            "url_diff": "https://stellabms.xyz/upload/6982",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9337"
         },
         {
             "id": 6443,
@@ -9196,6 +9295,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04665.zip",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/3945"
+        },
+        {
+            "id": 9382,
+            "md5": "b7219bbd193b143c9a37cf1374a400b9",
+            "sha256": "792ce9a518651b0a8e7b8c71ac0b1b140ff3f6c741cb50051f2bd3222f410fae",
+            "title": "Een Lijden [Ain't too proud to rely on!]",
+            "artist": "Glome obj:IBARAGI_YOSHIMI",
+            "url": "https://drive.google.com/file/d/1bUx7yrTEOczqx7cMooHJlHNjbTfZ3q-F/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/7906",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9382"
         },
         {
             "id": 228,
@@ -10890,17 +11000,6 @@
             "url_diff": "https://stellabms.xyz/upload/1214",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/4543"
-        },
-        {
-            "id": 7550,
-            "md5": "b566416b7ded173490296f8650c07491",
-            "sha256": "fe299c24c427c33ec51050c7209e2e7416ba937720465d48f5ce6fe2f652f092",
-            "title": "Tiny Leda [TailSeeker]",
-            "artist": "Zris Ctrl+Z Generation",
-            "url": "https://starkey.ivory.ne.jp/bjcup/anotherbjc3/detail/view/2/",
-            "url_diff": "https://darksabun.club/event/mf2/venue/",
-            "level": "3",
-            "site_url": "https://stellabms.xyz/song/7550"
         },
         {
             "id": 3280,
@@ -13970,6 +14069,17 @@
             "url_diff": "",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/3456"
+        },
+        {
+            "id": 7550,
+            "md5": "b566416b7ded173490296f8650c07491",
+            "sha256": "fe299c24c427c33ec51050c7209e2e7416ba937720465d48f5ce6fe2f652f092",
+            "title": "Tiny Leda [TailSeeker]",
+            "artist": "Zris Ctrl+Z Generation",
+            "url": "https://starkey.ivory.ne.jp/bjcup/anotherbjc3/detail/view/2/",
+            "url_diff": "https://darksabun.club/event/mf2/venue/",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7550"
         },
         {
             "id": 163,
@@ -22682,6 +22792,17 @@
             "url_diff": "https://darksabun.club/event/renewal/",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/5792"
+        },
+        {
+            "id": 9308,
+            "md5": "67d12701384ed109de038d0c19a695a1",
+            "sha256": "962b2ff31a7175016997fc5cdcf83e06c6c5bdbdd969faa6507507fad3cc514d",
+            "title": "Levitation [Harether-]",
+            "artist": "TAK / 140 / obj:小鈎ハレ",
+            "url": "https://web.archive.org/web/20070627015638/http://www.geocities.jp/inthesilentdream/bms/levitation.zip",
+            "url_diff": "https://stellabms.xyz/upload/5817",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/9308"
         },
         {
             "id": 32,

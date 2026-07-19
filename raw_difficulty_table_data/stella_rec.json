@@ -134,6 +134,17 @@
             "site_url": "https://stellabms.xyz/song/6254"
         },
         {
+            "id": 470,
+            "md5": "22dc782a49fb3ff80c2de90fb10f62f9",
+            "sha256": "55b7016c4fbb8486f5a1e31f4ef9d9ed5ab94b37e8f4f841f879c9920a633fbe",
+            "title": "x-Aria -frenzy mix- [Hexagon]",
+            "artist": "篠螺悠那 obj.hex",
+            "url": "http://manbow.nothing.sh/event/explus/ex_r2/download.html",
+            "url_diff": "https://drive.google.com/drive/folders/0B-jo3hSmNHFaSUNPanhQQ3VINUU",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/470"
+        },
+        {
             "id": 238,
             "md5": "7f5b46c2a45ed5e94b56e21062ad7904",
             "sha256": "eddd300273551c372440db78de5940e7966e95e1fd364a2c52308b9310904d11",
@@ -772,6 +783,17 @@
             "site_url": "https://stellabms.xyz/song/6568"
         },
         {
+            "id": 8200,
+            "md5": "b6987e4113d70189e60b1d3913575acb",
+            "sha256": "2d274e869ade7964c64e7dffcbc73a276ddf2064a7f7d6fcfb7b779401f1c4aa",
+            "title": "アラガエナイ [resolve]",
+            "artist": "dawn-system Vocal by 小宮真央 obj:mukyu--",
+            "url": "https://docs.google.com/uc?id=0ByS9Wlo7KZbxM05BeHBBci1HdVk&export=download&resourcekey=0-xaa9mfihQLr6w4vMcAxQkw",
+            "url_diff": "https://stellabms.xyz/upload/7090",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8200"
+        },
+        {
             "id": 3197,
             "md5": "e9fc82f22a048d62165c482841eb0d33",
             "sha256": "a79ade67dbbd658d996489ed64d9d649a95514ccb2ee7590f824da23441fac00",
@@ -847,6 +869,17 @@
             "url_diff": "https://stellabms.xyz/upload/4978",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/6860"
+        },
+        {
+            "id": 8162,
+            "md5": "730dc7b76b74acefb16cf2b47c731cfb",
+            "sha256": "8f0afa95df1a1a34147fe43ad648c6c6047c074b88dc8c5d9820ab65b3d1ea54",
+            "title": "黒黒 [Obsidian]",
+            "artist": "MITCH DOWNVELL obj:IBARAGI_YOSHIMI",
+            "url": "https://venue.bmssearch.net/bmskanji2/25",
+            "url_diff": "https://stellabms.xyz/upload/7001",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/8162"
         },
         {
             "id": 7013,

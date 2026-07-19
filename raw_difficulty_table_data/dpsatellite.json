@@ -750,6 +750,17 @@
             "site_url": "https://stellabms.xyz/song/6225"
         },
         {
+            "id": 9341,
+            "md5": "55d34b048f48dc177265c7e648f2db3a",
+            "sha256": "c13929618598d346c88c1b0ca640734ebdef5b86dfe35fdc581bd2cc9f343924",
+            "title": "宵から明け迄 [DP ANOTHER]",
+            "artist": "Nakaiankow with 歌愛ユキ features May-B / Illustration: 部屋干し obj: 鈎兎(KagiUsagi)",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=353&event=149",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9341"
+        },
+        {
             "id": 1939,
             "md5": "ac667cd75481e28426bfc0af5f430e77",
             "sha256": "3b059a7d0e9a289a86e993a48a36f6dc77c4bcac6f337a2f0b8f3a69d46534f5",
@@ -3599,6 +3610,17 @@
             "site_url": "https://stellabms.xyz/song/2702"
         },
         {
+            "id": 9339,
+            "md5": "021d8eb21f94bdc6b004b16f75b51f35",
+            "sha256": "0d35a6f530eb927d35165688bc4ea0791e60a3725c2769f37631d7158cd89603",
+            "title": "Sick as a fuxxxxxkin' wonderful church [14KEY MANIAC]",
+            "artist": "yujurie obj.jigokuhenn",
+            "url": "https://drive.google.com/file/d/1MNhNdsrAuX79zEunpA8jkj1gJPQrAF2M/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/7876",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9339"
+        },
+        {
             "id": 3929,
             "md5": "77049e33fcbb6a4472d562a11a4fa5e0",
             "sha256": "1dc904f96cdaa0763309fd9ec9bce75229ab2a69784ef2592693f8b00a1f3ebf",
@@ -3641,6 +3663,17 @@
             "url_diff": "http://ux.getuploader.com/dpbms/download/11/Take+Me+Away+DP.zip",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/2278"
+        },
+        {
+            "id": 9340,
+            "md5": "d57bde03a8cc015e1a7097a57a18c1eb",
+            "sha256": "13710f520ad5d7ded11beeb78155c4f0b5fc12c5b14f897cb54b8c54585029a3",
+            "title": "tears of reunion [DP ANOTHER]",
+            "artist": "VXΛ mov:VXΛ / obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=20&event=149",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9340"
         },
         {
             "id": 6045,
@@ -5227,6 +5260,17 @@
             "site_url": "https://stellabms.xyz/song/8001"
         },
         {
+            "id": 9371,
+            "md5": "914baf7b81b32199600e71ab09613475",
+            "sha256": "c22c9b0c0bfee2e0756616e326d39a09d1fc1ed514305df89ba0f8e8f42b0b84",
+            "title": "Mind Disorder [DP ANOTHER]",
+            "artist": "Alkome BGA: zukutya/obj.にぇ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=71&event=133",
+            "url_diff": "https://stellabms.xyz/upload/1681",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9371"
+        },
+        {
             "id": 4418,
             "md5": "b7ff48a82dc10c9622934bbf39de2202",
             "sha256": "2067c3c9697c5b94525a51cdf4075a89a4870ee603a14feb3bb3f50a46eef9de",
@@ -6611,6 +6655,17 @@
             "url_diff": "http://yaruki0.sakura.ne.jp/sabun/dp.html",
             "level": "8",
             "site_url": "https://stellabms.xyz/song/2673"
+        },
+        {
+            "id": 9375,
+            "md5": "84b2cba96284547b28487a1bfe2f0630",
+            "sha256": "5598ddd50790e2b018d7c33ed7dbf2bf4e5cb6e9417274821db661e98ea7ebd2",
+            "title": "Heterochromia Iridis [eyes]",
+            "artist": "FOLiACETATE / obj:marquee",
+            "url": "http://leafbms.web.fc2.com/song.html",
+            "url_diff": "https://stellabms.xyz/upload/1688",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/9375"
         },
         {
             "id": 4262,

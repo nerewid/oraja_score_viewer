@@ -35,6 +35,17 @@
             "site_url": "https://stellabms.xyz/song/5905"
         },
         {
+            "id": 1577,
+            "md5": "0a3c046f60b71eb86731cb75173a0d5b",
+            "sha256": "9c9bcf97498f190a3ac254e8d0c8731f268f9d6fefa9c54b2280f8847cbfc14c",
+            "title": "lightsphere -ほしをみるひと-",
+            "artist": "Hendrex / obj: Lennon",
+            "url": "http://uploader.bms.ms/data/bof2009/fixesaraven/hendrex-lightsphere.zip",
+            "url_diff": "https://bmscharteditorsgroup.wixsite.com/initialatoz",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/1577"
+        },
+        {
             "id": 2980,
             "md5": "c120662343f4a211a71750d491cc56ac",
             "sha256": "923adc2b9efcfb1dc365d880fc215e5b7f7784bd62c26c5e5811fb0ef98825c5",
@@ -143,6 +154,17 @@
             "url_diff": "http://www.dropbox.com/s/btspbqx8q36zlm2/mura_triforce.bme?dl=1",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/2948"
+        },
+        {
+            "id": 3605,
+            "md5": "6e37f0f6a1a33836bc63185715d6c49b",
+            "sha256": "9e444059b54808b336a0299258349b274b88cf950fa0fefcdb4b2883538b0b06",
+            "title": "神仙・竜巻返し ～ Black Whirlwind",
+            "artist": "------",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=119",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/3605"
         },
         {
             "id": 4054,
