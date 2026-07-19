@@ -106,9 +106,9 @@ def download_and_save_json(item, difficulty_table_dir, session=None):
             # stellabms.xyzの場合、internalFileNameに応じてsite_urlのプレフィックスを設定
             json_data_from_url = add_site_url_to_json(json_data_from_url, "https://stellabms.xyz/song/", "id")
         else:
-            # それ以外のドメインはLR2IRを使用
+            # それ以外のドメインは stellabms IR のチャートページを使用
             json_data_from_url = add_site_url_to_json(json_data_from_url,
-                                                      "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=",
+                                                      "https://ir.stellabms.xyz/charts/",
                                                       "md5")
 
         # JSONデータの構造を変更
