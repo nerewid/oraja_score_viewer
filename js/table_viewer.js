@@ -224,12 +224,12 @@ function generateTable(songs, tableConfig) {
         songsInLevel.forEach((song) => {
             html += '<tr>';
 
-            // Title（site_url優先、なければLR2IRランキングページへのリンク）
+            // Title（site_url優先、なければstellabms IRのチャートページへのリンク）
             if (song.site_url) {
                 html += `<td class="title-cell"><a href="${escapeHtml(song.site_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(song.title)}</a></td>`;
             } else if (song.md5) {
-                const lr2irUrl = `http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=${song.md5}`;
-                html += `<td class="title-cell"><a href="${lr2irUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(song.title)}</a></td>`;
+                const chartUrl = `https://ir.stellabms.xyz/charts/${song.md5}`;
+                html += `<td class="title-cell"><a href="${chartUrl}" target="_blank" rel="noopener noreferrer">${escapeHtml(song.title)}</a></td>`;
             } else {
                 html += `<td class="title-cell">${escapeHtml(song.title)}</td>`;
             }
