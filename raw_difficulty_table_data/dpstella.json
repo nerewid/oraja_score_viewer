@@ -173,7 +173,7 @@
             "title": "L9",
             "artist": "paraoka / Limite feat. 制限?",
             "url": "http://web.archive.org/web/20070301141729/http://homepage1.nifty.com:80/paraoka/index38.html",
-            "url_diff": "https://www.limiteknj.net/BMS",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/2761"
         },
@@ -216,8 +216,8 @@
             "sha256": "0750dd6422980fc671066261687c0378b5fdb30eb7610d0d5cdcd0f5a6395788",
             "title": "Qubit [Q.14]",
             "artist": "aki BGA:ちゃば",
-            "url": "https://bms.wrigglebug.xyz/download/qubit.7z",
-            "url_diff": "",
+            "url": "https://www.dropbox.com/s/z2i32lkyh2bfm7r/%5Baki%5Dqubit.zip?dl=1",
+            "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/7422"
         },
@@ -304,8 +304,8 @@
             "sha256": "51dd6d99698340db39a351ea57c309571cafa58a89f9f8f25c589257ca34d0c2",
             "title": "The sinking world [DP EXTREME 2]",
             "artist": "Syatten obj:肴",
-            "url": "https://onedrive.live.com/?id=778522B96494B8E3%21533&cid=778522B96494B8E3",
-            "url_diff": "https://onedrive.live.com/?id=778522B96494B8E3%21533&cid=778522B96494B8E3",
+            "url": "https://bmsdrive.zris.work/BeMusicSeeker%20difficulty%20tables%20BMS%20PACK/BeMusicSeeker%20difficulty%20tables%20BMS%20PACK%20ver.201225/The%20sinking%20world.rar?from=search",
+            "url_diff": "https://bmsdrive.zris.work/BeMusicSeeker%20difficulty%20tables%20BMS%20PACK/BeMusicSeeker%20difficulty%20tables%20BMS%20PACK%20ver.201225/The%20sinking%20world.rar?from=search",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/3069"
         },
@@ -393,7 +393,7 @@
             "title": "Angel's Salad [CataStr0phE / DP譜面]",
             "artist": "かたぎり / Limite BGA: 2nd_identity (mst×かたぎり)",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=273&event=133",
-            "url_diff": "https://www.limiteknj.net/BMS/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/5340"
         },
@@ -646,7 +646,7 @@
             "title": "ハードルネッサンバ -DP MID BOSS-",
             "artist": "HARD RENAISSAMBA MASTER 佐藤 -SATOH- / obj.KENIN*",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=409&event=104",
-            "url_diff": "http://sunaneko.iptime.org/dpsabun_kenin.html",
+            "url_diff": "https://www.dropbox.com/s/obtkshiedykhvya/dpsabun_kenin_200408.rar?dl=1",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/3332"
         },
@@ -657,7 +657,7 @@
             "title": "夜間飛行トラベラー [DP MANIAC]",
             "artist": "qfeileadh BGA: Maeus obj.quad",
             "url": "https://event.yaruki0.net/VSevent/impression/9",
-            "url_diff": "https://ux.getuploader.com/dpbms/download/699",
+            "url_diff": "https://stellabms.xyz/upload/3031",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/2808"
         },
@@ -668,7 +668,7 @@
             "title": "新 漢江水打令 [新COVID-19祭り/ DP譜面]",
             "artist": "Sound piercer feat.ΣX / Limite mov.Ratif",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=234&event=133",
-            "url_diff": "https://www.limiteknj.net/BMS/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/4731"
         },
@@ -745,7 +745,7 @@
             "title": "Apollo [1970.04.11]",
             "artist": "xelloscope / Limite",
             "url": "http://www.luzeria.net/?m=199808",
-            "url_diff": "https://www.limiteknj.net/BMS",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/2863"
         },
@@ -866,7 +866,7 @@
             "title": "Illusion of Mind [DP NIGHTMARE]",
             "artist": "P4koo Obj:ゆ～兎",
             "url": "http://k-bms.com/party_pabat/party2014.jsp?board_num=11&num=24&order=reg&odtype=a",
-            "url_diff": "http://timetorain.web.fc2.com/",
+            "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/IOM_YH.zip",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/5476"
         },
@@ -1086,7 +1086,7 @@
             "title": "Ophelia",
             "artist": "Lime / Limite",
             "url": "http://kanki2.net/bms.html",
-            "url_diff": "https://www.limiteknj.net/BMS/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/5789"
         },
@@ -1108,7 +1108,7 @@
             "title": "Stellaria [空から同時に落ちる2555個の星]",
             "artist": "Lime / Limite",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=434&event=133",
-            "url_diff": "https://www.limiteknj.net/BMS/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/5788"
         },
@@ -1130,7 +1130,7 @@
             "title": "テウメッサ [matrix]",
             "artist": "LisicA movie : ルゼ(LuzeriA) / illust : Orphee obj.KENIN*",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=87&event=127",
-            "url_diff": "http://sunaneko.iptime.org/dpsabun_kenin.html",
+            "url_diff": "https://www.dropbox.com/s/obtkshiedykhvya/dpsabun_kenin_200408.rar?file_subpath=%2F%E3%83%86%E3%82%A6%E3%83%A1%E3%83%83%E3%82%B5+%5Bmatrix%5D.zip",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/5137"
         },
@@ -1240,7 +1240,7 @@
             "title": "Scarlet Double Dance [DP SWEET NIGHTMARE]",
             "artist": "REX / Obj:ゆ～兎",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=40&event=92",
-            "url_diff": "http://timetorain.web.fc2.com/",
+            "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/Scarlet_Double_Dance_YH.zip",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/5671"
         },
@@ -1394,7 +1394,7 @@
             "title": "lifework [片手の過負荷エラー]",
             "artist": "ああああ / Limite BGA:アアアア",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=174&event=65",
-            "url_diff": "https://www.limiteknj.net/BMS/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/5797"
         },
@@ -1449,7 +1449,7 @@
             "title": "Psalms [ユートピアとディストピアの境界]",
             "artist": "qfeileadh&レゾナンスもえこ / Limite mov:Maeus",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=128&event=133",
-            "url_diff": "https://www.limiteknj.net/bms/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/5463"
         },
@@ -1526,7 +1526,7 @@
             "title": "事象の地平 [平行世界：事件の終結]",
             "artist": "wa. / Limite",
             "url": "https://mega.nz/folder/FNFDCQaT#wfv-iI4UuSIaGpP0oFZdtQ/folder/UB8gABwB",
-            "url_diff": "https://www.limiteknj.net/BMS/",
+            "url_diff": "https://bms.limiteknj.net",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/5798"
         },
@@ -1548,7 +1548,7 @@
             "title": "BEYOND",
             "artist": "Lime / Limite",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=133&num=492",
-            "url_diff": "https://www.limiteknj.net/bms/",
+            "url_diff": "https://bms.limiteknj.net/dp/",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/6187"
         },

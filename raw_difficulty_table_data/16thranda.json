@@ -1473,6 +1473,16 @@
         },
         {
             "level": "乱打1",
+            "title": "CherryImpact [pfither]",
+            "artist": "kozato / obj : tami",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=91&event=127",
+            "url_diff": "https://stellabms.xyz/upload/1233",
+            "md5": "e46c23ea254d2481e49b3fa6e285d0b9",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/e46c23ea254d2481e49b3fa6e285d0b9"
+        },
+        {
+            "level": "乱打1",
             "title": "Creamy Sky [SP ANOTHER]",
             "artist": "BTB",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=96",
@@ -3813,6 +3823,16 @@
         },
         {
             "level": "乱打3",
+            "title": "Breeze [Simple7]",
+            "artist": "Kankitsu obj:Siimamu",
+            "url": "https://venue.bmssearch.net/bmsshuin2/92",
+            "url_diff": "https://stellabms.xyz/upload/8027",
+            "md5": "d4670cc8c860301b4448f7c2e4f34b9e",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/d4670cc8c860301b4448f7c2e4f34b9e"
+        },
+        {
+            "level": "乱打3",
             "title": "BRILLIANT STAR ～煌星の雫～ [Shooting Star]",
             "artist": "shimizushi BGA : vol-t & a.a / obj : monaka",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=62&event=96",
@@ -5496,7 +5516,7 @@
             "title": "Harmony (*｡> × <｡*人) ☆ﾟ.*･｡ﾟ",
             "artist": "Lime / 温泉の力 obj:ELIGOS",
             "url": "https://dropbox.bms.ms/u/59509271/bof2014/BM/_lime_harmony_ogg.zip",
-            "url_diff": "https://ir.stellabms.xyz/charts/350d06e51618cebbd037afcf762fb699",
+            "url_diff": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=350d06e51618cebbd037afcf762fb699",
             "md5": "350d06e51618cebbd037afcf762fb699",
             "comment": "sl4",
             "site_url": "https://ir.stellabms.xyz/charts/350d06e51618cebbd037afcf762fb699"
@@ -13132,6 +13152,16 @@
             "site_url": "https://ir.stellabms.xyz/charts/8a4355653ba3f0b5c437bf0e67761c13"
         },
         {
+            "level": "乱打10",
+            "title": "藍より青い憧憬 [BLAU]",
+            "artist": "Jun Kuroda feat.mirto obj.MICHI",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=70&event=133",
+            "url_diff": "https://stellabms.xyz/upload/8018",
+            "md5": "52d620cc1cdb45e7d4e50daefedbdea3",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/52d620cc1cdb45e7d4e50daefedbdea3"
+        },
+        {
             "level": "乱打11",
             "title": "514nm(Kucchi☆mix) [HARDEST]",
             "artist": "くっちー",
@@ -16115,7 +16145,7 @@
             "level": "重発狂0",
             "title": "Banned (Radio Edit) [Insane]",
             "artist": "Lennon",
-            "url": "https://ir.stellabms.xyz/charts/ec52fc7af042a9fb92166a8aa7efc92a",
+            "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=ec52fc7af042a9fb92166a8aa7efc92a",
             "url_diff": "",
             "md5": "ec52fc7af042a9fb92166a8aa7efc92a",
             "comment": "st0",
@@ -16320,16 +16350,6 @@
             "md5": "2f7f062f6921b51c2ac3ac4626ed9868",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/2f7f062f6921b51c2ac3ac4626ed9868"
-        },
-        {
-            "level": "重発狂0",
-            "title": "EXILE [EX]",
-            "artist": "-45",
-            "url": "http://malie.noor.jp/",
-            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up1350.zip",
-            "md5": "75403397d59c78d161429749143aa1f1",
-            "comment": "★19",
-            "site_url": "https://ir.stellabms.xyz/charts/75403397d59c78d161429749143aa1f1"
         },
         {
             "level": "重発狂0",
@@ -17853,6 +17873,16 @@
         },
         {
             "level": "重発狂1",
+            "title": "EXILE [EX]",
+            "artist": "-45",
+            "url": "http://malie.noor.jp/",
+            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up1350.zip",
+            "md5": "75403397d59c78d161429749143aa1f1",
+            "comment": "★19",
+            "site_url": "https://ir.stellabms.xyz/charts/75403397d59c78d161429749143aa1f1"
+        },
+        {
+            "level": "重発狂1",
             "title": "exists Uniquely [GOD]",
             "artist": "Lipschitz",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=88",
@@ -18883,6 +18913,16 @@
         },
         {
             "level": "重発狂1",
+            "title": "根を追う風に光明を [FLEDGLING]",
+            "artist": "らふむ(lufm) BGA:朧烏 / obj:Criyajuh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=356&event=149",
+            "url_diff": "https://stellabms.xyz/upload/8012",
+            "md5": "17ca0e8c068dba60fb32b75b85dcefcd",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/17ca0e8c068dba60fb32b75b85dcefcd"
+        },
+        {
+            "level": "重発狂1",
             "title": "魂姫～たまひめ～ [mh]",
             "artist": "うまるつふり",
             "url": "https://venue.bmssearch.net/bmsshuin2/7",
@@ -19290,6 +19330,16 @@
             "md5": "b61a8bcfc8f6595c42c6c003cd208cf5",
             "comment": "st2",
             "site_url": "https://ir.stellabms.xyz/charts/b61a8bcfc8f6595c42c6c003cd208cf5"
+        },
+        {
+            "level": "重発狂2",
+            "title": "Borderline -F⇔M remix- [Harether]",
+            "artist": "Ark-Z obj:HARE",
+            "url": "http://web.archive.org/web/20141124132102/http://sparrows-nest.net/~mmaki/Ark_Z_borderline.zip",
+            "url_diff": "https://stellabms.xyz/upload/8019",
+            "md5": "4eed7342a346865723224c32de50568a",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/4eed7342a346865723224c32de50568a"
         },
         {
             "level": "重発狂2",
@@ -20775,7 +20825,7 @@
             "level": "重発狂2",
             "title": "マッドメチャクチャニズム [INSANE]",
             "artist": "69 de 74 BGI:れおん",
-            "url": "https://ir.stellabms.xyz/charts/d415aa79f5fbd7f1a1944146afd5f9af",
+            "url": "http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=d415aa79f5fbd7f1a1944146afd5f9af",
             "url_diff": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=127",
             "md5": "d415aa79f5fbd7f1a1944146afd5f9af",
             "comment": "st2",
@@ -20880,6 +20930,16 @@
             "md5": "6551c4d9f5c3e67d0d8f87deeb2e1a16",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/6551c4d9f5c3e67d0d8f87deeb2e1a16"
+        },
+        {
+            "level": "重発狂2",
+            "title": "最新熱歌快揺 23 [Intense]",
+            "artist": "not Project Nirvana / obj:potechang",
+            "url": "https://venue.bmssearch.net/genreshuffle4/66",
+            "url_diff": "https://stellabms.xyz/upload/8020",
+            "md5": "c4e68226bff0bb082d0f1dba248afcb9",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/c4e68226bff0bb082d0f1dba248afcb9"
         },
         {
             "level": "重発狂2",
@@ -25093,6 +25153,16 @@
         },
         {
             "level": "重発狂5",
+            "title": "根を追う風に光明を [WINDFARER]",
+            "artist": "らふむ(lufm) BGA:朧烏 / obj:Criyajuh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=356&event=149",
+            "url_diff": "https://stellabms.xyz/upload/8012",
+            "md5": "933ac2ce9d52742d0f6da030010824b9",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/933ac2ce9d52742d0f6da030010824b9"
+        },
+        {
+            "level": "重発狂5",
             "title": "私のアニメ愛を止められなかったお前らが悪い！ [Intense2]",
             "artist": "で～～～ん / obj:potechang",
             "url": "https://drive.usercontent.google.com/download?id=1jNrPvxknLHe2o-vCZWd6zcUJTwWQAoxm&export=download&authuser=0",
@@ -25200,6 +25270,16 @@
             "md5": "365816fd4a3bc8df11fe10823de3fd2e",
             "comment": "★★4/200",
             "site_url": "https://ir.stellabms.xyz/charts/365816fd4a3bc8df11fe10823de3fd2e"
+        },
+        {
+            "level": "重発狂6",
+            "title": "A LOOP TO SEVER [SCREAM]",
+            "artist": "道済　儚　及び　秋山　としのり obj:IBARAGI_YOSHIMI",
+            "url": "https://event.yaruki0.net/kowloon/impression/35",
+            "url_diff": "https://stellabms.xyz/upload/8001",
+            "md5": "1817d4cf839177f644d9b09b82a7a2c8",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/1817d4cf839177f644d9b09b82a7a2c8"
         },
         {
             "level": "重発狂6",
@@ -25420,6 +25500,16 @@
             "md5": "faf91daa78ac5d6a77f549d17b3cdb2e",
             "comment": "st6",
             "site_url": "https://ir.stellabms.xyz/charts/faf91daa78ac5d6a77f549d17b3cdb2e"
+        },
+        {
+            "level": "重発狂6",
+            "title": "Epatoivo LdsRmx [嵐]",
+            "artist": "Le Dos-on obj.Zethiwo",
+            "url": "http://nekokan.dyndns.info/file/log/review/pupuly/bms/view.cgi%253Fid=50&section=orig.html",
+            "url_diff": "https://stellabms.xyz/upload/8037",
+            "md5": "735514761d47016f540be7b527aed4d0",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/735514761d47016f540be7b527aed4d0"
         },
         {
             "level": "重発狂6",
@@ -25900,6 +25990,16 @@
             "md5": "90d312100a8ef6ac66f507de5d1104c2",
             "comment": "st6",
             "site_url": "https://ir.stellabms.xyz/charts/90d312100a8ef6ac66f507de5d1104c2"
+        },
+        {
+            "level": "重発狂6",
+            "title": "The Blonde [Thank you!!]",
+            "artist": "くるやのぶ obj:アリス・カータレット",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=149",
+            "url_diff": "https://stellabms.xyz/upload/8029",
+            "md5": "0163aafe228a593a022d47bba9f9ccc1",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/0163aafe228a593a022d47bba9f9ccc1"
         },
         {
             "level": "重発狂6",
@@ -29273,6 +29373,16 @@
         },
         {
             "level": "sub乱打7",
+            "title": "Secret Chaser [su7]",
+            "artist": "utzbo BGA: ShakeJ // obj: Scely",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=54&event=149",
+            "url_diff": "https://stellabms.xyz/upload/8014",
+            "md5": "314d71abde88126c9f2ff78e48437072",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/314d71abde88126c9f2ff78e48437072"
+        },
+        {
+            "level": "sub乱打7",
             "title": "赤 (原曲: 天衣無縫) ~ [SP LEGGENDARIA]",
             "artist": "Columba (Daily vs Roon_kun) obj AZVW_2",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=129",
@@ -30340,6 +30450,16 @@
             "md5": "5a24a50b3206d86b77a1a29f8e01cf7e",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/5a24a50b3206d86b77a1a29f8e01cf7e"
+        },
+        {
+            "level": "sub重発狂3",
+            "title": "百均のブルーローズ [PONG]",
+            "artist": "momo★yama obj:C.IKEDA",
+            "url": "https://drive.google.com/file/d/1Q-1yQSQw-m-SvimPQ0cOFx6d5d3aon7H/view?usp=sharing",
+            "url_diff": "https://stellabms.xyz/upload/8016",
+            "md5": "9ba2de3255844c34359e17bafe9f34e3",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/9ba2de3255844c34359e17bafe9f34e3"
         },
         {
             "level": "sub重発狂3",
