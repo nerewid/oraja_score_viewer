@@ -587,6 +587,11 @@ a:hover {
     word-break: break-word;
 }
 
+.song-list-table .url-cell {
+    text-align: center;
+    width: 80px;
+}
+
 .song-list-table a {
     color: var(--text-primary);
     transition: color var(--transition-fast);

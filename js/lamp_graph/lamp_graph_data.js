@@ -165,7 +165,9 @@ async function processSongScores(songs, selectedLnModeValue) {
             title: title,
             md5: md5,
             sha256: currentSha256,
-            site_url: site_url
+            site_url: site_url,
+            url: song.url || null,
+            url_diff: song.url_diff || null
         });
 
         if (currentSha256) {
@@ -222,6 +224,8 @@ async function processSongScores(songs, selectedLnModeValue) {
             level: songInfo.level,
             title: songInfo.title,
             site_url: songInfo.site_url,
+            url: songInfo.url,
+            url_diff: songInfo.url_diff,
             md5: songInfo.md5,
             sha256: songInfo.sha256,
             clear: String(clear),

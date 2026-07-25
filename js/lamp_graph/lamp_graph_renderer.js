@@ -90,11 +90,33 @@ function updateSortIndicators(table) {
 }
 
 /**
+ * URLリンクセル（🔗 または「-」）を生成する
+ * @param {string|null} url - リンク先URL
+ * @returns {HTMLTableCellElement}
+ */
+function createUrlCell(url) {
+    const td = document.createElement('td');
+    td.classList.add('url-cell');
+    if (url) {
+        const link = document.createElement('a');
+        link.href = url;
+        link.textContent = '🔗';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        td.appendChild(link);
+    } else {
+        td.textContent = '-';
+    }
+    return td;
+}
+
+/**
  * tbodyのみを再描画する
  * @param {HTMLTableElement} table - 対象テーブル
  * @param {Array<object>} songs - 元の曲配列
+ * @param {boolean} noChart - No Chart用（スコア列の代わりにURL2列を表示）
  */
-function createTableBody(table, songs) {
+function createTableBody(table, songs, noChart = false) {
     const oldTbody = table.querySelector('tbody');
     if (oldTbody) oldTbody.remove();
 
@@ -117,6 +139,14 @@ function createTableBody(table, songs) {
             tdTitle.textContent = song.title;
         }
         tr.appendChild(tdTitle);
+
+        // No Chart: プレー記録がないため、代わりにデータ入手用のURL2列を表示
+        if (noChart) {
+            tr.appendChild(createUrlCell(song.url));
+            tr.appendChild(createUrlCell(song.url_diff));
+            tbody.appendChild(tr);
+            return;
+        }
 
         // BP
         const tdBp = document.createElement('td');
@@ -156,46 +186,56 @@ function createTableBody(table, songs) {
 /**
  * 曲リストテーブルを生成する
  * @param {Array<object>} songs - 表示する曲配列
+ * @param {boolean} noChart - No Chart用（スコア列の代わりにURL2列を表示）
  * @returns {HTMLTableElement} 生成されたテーブル要素
  */
-function createSongTable(songs) {
+function createSongTable(songs, noChart = false) {
     const table = document.createElement('table');
     table.classList.add('song-list-table');
 
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
 
-    const columns = [
-        { key: 'title', label: t('lamp.table.title') },
-        { key: 'bp', label: t('lamp.table.bp') },
-        { key: 'notes', label: t('lamp.table.notes') },
-        { key: 'exscore', label: t('lamp.table.exscore') },
-        { key: 'rate', label: t('lamp.table.rate') },
-    ];
+    const columns = noChart
+        ? [
+            { key: 'title', label: t('lamp.table.title'), sortable: true },
+            { key: 'url', label: 'BMS URL' },
+            { key: 'url_diff', label: 'Chart URL' },
+        ]
+        : [
+            { key: 'title', label: t('lamp.table.title'), sortable: true },
+            { key: 'bp', label: t('lamp.table.bp'), sortable: true },
+            { key: 'notes', label: t('lamp.table.notes'), sortable: true },
+            { key: 'exscore', label: t('lamp.table.exscore'), sortable: true },
+            { key: 'rate', label: t('lamp.table.rate'), sortable: true },
+        ];
 
     columns.forEach(col => {
         const th = document.createElement('th');
-        th.setAttribute('data-sort', col.key);
-        if (col.key !== 'title') th.classList.add('numeric-cell');
+        if (col.key !== 'title') th.classList.add(noChart ? 'url-cell' : 'numeric-cell');
 
         const labelSpan = document.createElement('span');
         labelSpan.textContent = col.label;
         th.appendChild(labelSpan);
 
-        const indicator = document.createElement('span');
-        indicator.classList.add('sort-indicator');
-        th.appendChild(indicator);
+        if (col.sortable) {
+            th.setAttribute('data-sort', col.key);
 
-        th.addEventListener('click', () => {
-            if (songListSortState.column === col.key) {
-                songListSortState.ascending = !songListSortState.ascending;
-            } else {
-                songListSortState.column = col.key;
-                songListSortState.ascending = true;
-            }
-            createTableBody(table, songs);
-            updateSortIndicators(table);
-        });
+            const indicator = document.createElement('span');
+            indicator.classList.add('sort-indicator');
+            th.appendChild(indicator);
+
+            th.addEventListener('click', () => {
+                if (songListSortState.column === col.key) {
+                    songListSortState.ascending = !songListSortState.ascending;
+                } else {
+                    songListSortState.column = col.key;
+                    songListSortState.ascending = true;
+                }
+                createTableBody(table, songs, noChart);
+                updateSortIndicators(table);
+            });
+        }
 
         headerRow.appendChild(th);
     });
@@ -203,7 +243,7 @@ function createSongTable(songs) {
     thead.appendChild(headerRow);
     table.appendChild(thead);
 
-    createTableBody(table, songs);
+    createTableBody(table, songs, noChart);
     updateSortIndicators(table);
 
     return table;
@@ -315,7 +355,8 @@ function displaySongList(level, clearStatus, aggregatedData, shortName, songList
     listTitle.textContent = `${shortName}${level} - ${clearName} (${songsToShow.length} songs)`;
     songListArea.appendChild(listTitle);
 
-    const table = createSongTable(songsToShow);
+    // No Chart（clear = -1）はプレー記録が存在しないため、table viewer と同様にURL2列を表示する
+    const table = createSongTable(songsToShow, clearStatus === '-1');
     songListArea.appendChild(table);
 }
 
