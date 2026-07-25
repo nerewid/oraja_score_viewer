@@ -60,7 +60,7 @@ def _merge_song_into(merged_songs, key, song, level_entry, other_key_name):
         }
 
 
-def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_tables.json", output_path="merged_difficulty_tables.json"):
+def merge_difficulty_tables(table_info_path="raw_difficulty_table_data/difficulty_tables.json", output_path="merged_difficulty_tables.json"):
     """
     複数の難易度表JSONファイルを読み込み、md5をキーに統合します。
     md5が存在しない場合は一旦nullとして統合、処理後にsha256で統合を行います。
