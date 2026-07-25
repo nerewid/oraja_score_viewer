@@ -4,6 +4,62 @@ import sys
 import hashlib
 from datetime import datetime
 
+def _load_json_or_record_error(file_path, errors, missing_key=None):
+    """JSONファイルを読み込み、失敗時は警告メッセージをprint・errorsに記録してNoneを返す。
+
+    Returns:
+        dict | None: 読み込んだJSONデータ。エラー時はNone。
+    """
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        msg = f"警告：難易度表ファイル'{file_path}'が見つかりません。スキップします。"
+        print(msg, file=sys.stderr)
+        errors.append(msg)
+        return None
+    except json.JSONDecodeError:
+        msg = f"警告：難易度表ファイル'{file_path}'のJSON形式が不正です。スキップします。"
+        print(msg, file=sys.stderr)
+        errors.append(msg)
+        return None
+
+    if missing_key and missing_key not in data:
+        msg = f"警告：難易度表ファイル'{file_path}'に'{missing_key}'キーが存在しません。スキップします。"
+        print(msg, file=sys.stderr)
+        errors.append(msg)
+        return None
+
+    return data
+
+
+def _merge_song_into(merged_songs, key, song, level_entry, other_key_name):
+    """merged_songs[key] に song/level_entry をマージする（既存song更新 or 新規登録）。
+
+    md5分岐・sha256分岐で共通のロジック。other_key_name は既存songに欠けていた場合に
+    補完対象となる相手側キー名（md5分岐なら"sha256"、sha256分岐なら"md5"）。
+    """
+    if key in merged_songs:
+        existing_song = merged_songs[key]
+        existing_keys = {(lv.get("level"), lv.get("table")) for lv in existing_song["levels"]}
+        if (level_entry["level"], level_entry["table"]) not in existing_keys:
+            existing_song["levels"].append(level_entry)
+        if not existing_song.get("artist") and song.get("artist"):
+            existing_song["artist"] = song["artist"]
+        if not existing_song.get("title") and song.get("title"):
+            existing_song["title"] = song["title"]
+        if not existing_song.get(other_key_name) and song.get(other_key_name):
+            existing_song[other_key_name] = song[other_key_name]
+    else:
+        merged_songs[key] = {
+            "md5": song.get("md5"),
+            "sha256": song.get("sha256"),
+            "title": song.get("title"),
+            "artist": song.get("artist"),
+            "levels": [level_entry]
+        }
+
+
 def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_tables.json", output_path="merged_difficulty_tables.json"):
     """
     複数の難易度表JSONファイルを読み込み、md5をキーに統合します。
@@ -39,24 +95,8 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
         file_path = f"raw_difficulty_table_data/{internal_file_name}.json"
         tables.append(internal_file_name)
 
-        try:
-            with open(file_path, "r", encoding="utf-8") as f:
-                table_data = json.load(f)
-        except FileNotFoundError:
-            msg = f"警告：難易度表ファイル'{file_path}'が見つかりません。スキップします。"
-            print(msg, file=sys.stderr)
-            errors.append(msg)
-            continue
-        except json.JSONDecodeError:
-            msg = f"警告：難易度表ファイル'{file_path}'のJSON形式が不正です。スキップします。"
-            print(msg, file=sys.stderr)
-            errors.append(msg)
-            continue
-
-        if "songs" not in table_data:
-            msg = f"警告：難易度表ファイル'{file_path}'に'songs'キーが存在しません。スキップします。"
-            print(msg, file=sys.stderr)
-            errors.append(msg)
+        table_data = _load_json_or_record_error(file_path, errors, missing_key="songs")
+        if table_data is None:
             continue
 
         for song in table_data["songs"]:
@@ -74,46 +114,9 @@ def merge_difficulty_tables(table_info_path="difficulty_table_data/difficulty_ta
             }
 
             if md5:
-                if md5 in merged_songs_by_md5:
-                    existing_song = merged_songs_by_md5[md5]
-                    existing_keys = {(lv.get("level"), lv.get("table")) for lv in existing_song["levels"]}
-                    if (level_entry["level"], level_entry["table"]) not in existing_keys:
-                        existing_song["levels"].append(level_entry)
-                    if not existing_song.get("artist") and song.get("artist"):
-                        existing_song["artist"] = song["artist"]
-                    if not existing_song.get("title") and song.get("title"):
-                        existing_song["title"] = song["title"]
-                    if not existing_song.get("sha256") and song.get("sha256"):
-                        existing_song["sha256"] = song["sha256"]
-
-                else:
-                    merged_songs_by_md5[md5] = {
-                        "md5": md5,
-                        "sha256": sha256,
-                        "title": song.get("title"),
-                        "artist": song.get("artist"),
-                        "levels": [level_entry]
-                    }
+                _merge_song_into(merged_songs_by_md5, md5, song, level_entry, "sha256")
             elif sha256: #md5が存在しない場合sha256で管理
-                if sha256 in merged_songs_by_sha256:
-                    existing_song = merged_songs_by_sha256[sha256]
-                    existing_keys = {(lv.get("level"), lv.get("table")) for lv in existing_song["levels"]}
-                    if (level_entry["level"], level_entry["table"]) not in existing_keys:
-                        existing_song["levels"].append(level_entry)
-                    if not existing_song.get("artist") and song.get("artist"):
-                        existing_song["artist"] = song["artist"]
-                    if not existing_song.get("title") and song.get("title"):
-                        existing_song["title"] = song["title"]
-                    if not existing_song.get("md5") and song.get("md5"):
-                        existing_song["md5"] = song["md5"]
-                else:
-                    merged_songs_by_sha256[sha256] = {
-                        "md5": md5,
-                        "sha256": sha256,
-                        "title": song.get("title"),
-                        "artist": song.get("artist"),
-                        "levels": [level_entry]
-                    }
+                _merge_song_into(merged_songs_by_sha256, sha256, song, level_entry, "md5")
 
     # md5をキーにしたデータとsha256をキーにしたデータを統合
     merged_songs = {}

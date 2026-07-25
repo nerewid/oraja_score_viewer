@@ -166,4 +166,4 @@ document.getElementById("processData").addEventListener("click", async () => {
     }
 });
 
-export { generateHeatmapData, generateNotesData, generateProgressData, displayCalHeatmap };
+export { generateHeatmapData, generateNotesData };

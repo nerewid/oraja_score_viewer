@@ -1,5 +1,7 @@
 // 難易度表閲覧ページのメインスクリプト
 import { t } from './i18n.js';
+import { fetchJson, extractTablesArray } from './utils/table_loader.js';
+import { compareLevels } from './utils/level-sort.js';
 
 // --- グローバル変数 ---
 let difficultyTablesConfig = [];
@@ -44,20 +46,14 @@ async function loadDifficultyTables() {
     const url = './raw_difficulty_table_data/difficulty_tables.json';
 
     try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
+        const data = await fetchJson(url, (status) => `HTTP error! status: ${status}`);
+        const tables = extractTablesArray(data);
 
-        const data = await response.json();
-
-        if (Array.isArray(data)) {
-            difficultyTablesConfig = data;
-        } else if (data && Array.isArray(data.tables)) {
-            difficultyTablesConfig = data.tables;
-        } else {
+        if (!tables) {
             throw new Error('予期しない形式の難易度表一覧データです');
         }
+
+        difficultyTablesConfig = tables;
 
         populateTableSelect();
     } catch (error) {
@@ -126,11 +122,7 @@ async function loadTableData(internalFileName) {
     const url = `./raw_difficulty_table_data/${internalFileName}.json`;
 
     try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return await response.json();
+        return await fetchJson(url, (status) => `HTTP error! status: ${status}`);
     } catch (error) {
         console.error(`楽曲データの読み込みエラー (${url}):`, error);
         throw error;
@@ -156,18 +148,7 @@ function sortByLevels(songs, predefinedLevels) {
         });
     } else {
         // 従来の自動ソート（数値優先、その後文字列）
-        return songs.slice().sort((a, b) => {
-            const numA = parseInt(a.level, 10);
-            const numB = parseInt(b.level, 10);
-
-            if (!isNaN(numA) && !isNaN(numB)) {
-                return numA - numB;
-            }
-            if (isNaN(numA) && !isNaN(numB)) return 1;
-            if (!isNaN(numA) && isNaN(numB)) return -1;
-
-            return a.level.localeCompare(b.level);
-        });
+        return songs.slice().sort((a, b) => compareLevels(a.level, b.level));
     }
 }
 
