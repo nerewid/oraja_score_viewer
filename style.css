@@ -1434,18 +1434,9 @@ nav a:hover {
 body {
     position: relative;
 }
-/* 日付切り替え時刻のヘルプアイコン（？マーク、ホバーでツールチップ表示） */
-.help-icon {
-    display: inline-block;
-    width: 1.3em;
-    height: 1.3em;
-    line-height: 1.3em;
-    text-align: center;
-    border-radius: 50%;
-    background: #4db5ff;
-    color: #fff;
-    font-size: 0.85em;
+/* 日付切り替え時刻のラベル（ホバーでツールチップ表示） */
+.day-boundary-label {
     cursor: help;
-    vertical-align: middle;
-    user-select: none;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
 }
