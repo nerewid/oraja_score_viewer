@@ -209,4 +209,8 @@ export function applyTranslations() {
             el.textContent = translation;
         }
     });
+    // title属性の翻訳（ツールチップ用）
+    document.querySelectorAll('[data-i18n-title]').forEach(el => {
+        el.setAttribute('title', t(el.getAttribute('data-i18n-title')));
+    });
 }

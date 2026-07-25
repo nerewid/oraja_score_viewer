@@ -31,14 +31,12 @@
         <h3><span data-i18n="app.description">beatorajaのプレイ履歴を日別に分かりやすく表示します。</span><br>
         <span data-i18n="app.table_update_date">難易度表情報更新日：</span>2026/07/25</h3>
         <hr>
-        <h3 data-i18n="upload.howto">利用方法</h3>
         <span data-i18n="upload.instruction">beatorajaフォルダの中にあるdbファイルを選択してください。</span><br>
 
         <div id="day-boundary-section">
             <label for="day-boundary-select" data-i18n="day_boundary.label">日付の切り替え時刻:</label>
             <select id="day-boundary-select" aria-label="日付の切り替え時刻"></select>
-            <br>
-            <span style="font-size: 0.85em;" data-i18n="day_boundary.hint">深夜プレイをまとめたい場合に設定します（例: 4時 → 午前3:59のプレイは前日扱い）</span>
+            <span class="help-icon" data-i18n-title="day_boundary.hint" title="深夜プレイをまとめたい場合に設定します（例: 4時 → 午前3:59のプレイは前日扱い）">？</span>
         </div>
 
         <section id="folder-picker-section" hidden>
@@ -101,10 +99,10 @@
         </div>
 
         <hr>
-        <span data-i18n="link.details">本ツールの詳細、対応している難易度表については</span><a href="https://github.com/nerewid/oraja_score_viewer" data-i18n="link.here">こちら。</a><br>
         <a href="table_viewer.html" style="color: #4db5ff; font-size: 1.1em; margin-top: 10px; display: inline-block;">
             <span data-i18n="link.table_viewer">難易度表を閲覧する</span>
-        </a>
+        </a><br>
+        <span data-i18n="link.details">本ツールの詳細、対応している難易度表については</span><a href="https://github.com/nerewid/oraja_score_viewer" data-i18n="link.here">こちら。</a>
     </div>
 
     <div class="tab" id="tab-buttons" role="tablist" aria-label="ビューワー切替">
