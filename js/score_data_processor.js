@@ -1,46 +1,17 @@
-import { sqlPromise } from './db_uploader.js';
-import { splitIntoChunks, createPlaceholders } from './utils/sql-chunker.js';
+import { executeBatchQueryOnDb } from './utils/batch-query.js';
 
 export async function findMissingSha256sByMd5s(db, md5List) {
     if (md5List.length === 0) {
         return new Map();
     }
 
-    const allResults = new Map();
-
-    for (const chunk of splitIntoChunks(md5List)) {
-        const chunkResults = await executeMd5ChunkQuery(db, chunk);
-        for(const [md5,sha256] of chunkResults){
-            allResults.set(md5,sha256);
-        }
-    }
-
-    return allResults;
-}
-
-export async function executeMd5ChunkQuery(db, md5Chunk) {
-    if (md5Chunk.length === 0) {
-        return new Map();
-    }
-
-    const md5Placeholders = createPlaceholders(md5Chunk.length);
-    const query = `SELECT md5, sha256 FROM song WHERE md5 IN (${md5Placeholders})`;
-
-    try {
-        const stmt = db.prepare(query);
-        stmt.bind(md5Chunk);
-
-        const results = new Map();
-        while (stmt.step()) {
-            const row = stmt.getAsObject();
-            results.set(row.md5,row.sha256);
-        }
-        stmt.free();
-        return results;
-    } catch (error) {
-        console.error("songテーブル検索エラー:", error);
-        return new Map();
-    }
+    return executeBatchQueryOnDb(
+        db,
+        'SELECT md5, sha256 FROM song WHERE md5 IN ({placeholders})',
+        md5List,
+        (row, result) => result.set(row.md5, row.sha256),
+        () => new Map()
+    );
 }
 
 export async function findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap) {
@@ -50,12 +21,13 @@ export async function findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap
         return [];
     }
 
-    const allResults = [];
-
-    for (const chunk of splitIntoChunks(sha256List)) {
-        const chunkResults = await executeChunkQuery(scorelogDb, chunk);
-        allResults.push(...chunkResults);
-    }
+    const allResults = await executeBatchQueryOnDb(
+        scorelogDb,
+        'SELECT sha256, date FROM scorelog WHERE sha256 IN ({placeholders})',
+        sha256List,
+        (row, result) => result.push(row),
+        () => []
+    );
 
     const results = allResults.filter(result => sha256ToMd5Map.has(result.sha256)).map(result => {
         const md5 = sha256ToMd5Map.get(result.sha256);
@@ -78,29 +50,4 @@ export async function findScoresBySha256s(scorelogDb, sha256ToMd5Map,songDataMap
     });
 
     return results;
-}
-
-async function executeChunkQuery(db, sha256Chunk) {
-    if (sha256Chunk.length === 0) {
-        return [];
-    }
-
-    const sha256Placeholders = createPlaceholders(sha256Chunk.length);
-    const query = `SELECT sha256, date FROM scorelog WHERE sha256 IN (${sha256Placeholders})`; // sha256で検索するように変更
-
-    try {
-        const stmt = db.prepare(query);
-        stmt.bind(sha256Chunk);
-
-        const results = [];
-        while (stmt.step()) {
-            const row = stmt.getAsObject();
-            results.push(row);
-        }
-        stmt.free();
-        return results;
-    } catch (error) {
-        console.error("SQLクエリ実行エラー:", error);
-        return [];
-    }
 }

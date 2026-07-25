@@ -3,6 +3,7 @@
 import { t } from '../i18n.js';
 import { CLEAR_STATUS, CLEAR_STATUS_ORDER } from '../constants.js';
 import { logger } from '../utils/logger.js';
+import { compareLevels } from '../utils/level-sort.js';
 
 // 曲リストのソート状態
 let songListSortState = { column: 'title', ascending: true };
@@ -231,16 +232,7 @@ function displayLampGraphs(aggregatedData, shortName, predefinedLevels, lampGrap
         sortedLevels = predefinedLevels.filter(level => aggregatedData.has(level));
         logger.debug(`Using predefined level order: ${sortedLevels.join(', ')}`);
     } else {
-        sortedLevels = Array.from(aggregatedData.keys()).sort((a, b) => {
-            const numA = parseInt(a, 10);
-            const numB = parseInt(b, 10);
-            if (!isNaN(numA) && !isNaN(numB)) {
-                return numA - numB;
-            }
-            if (isNaN(numA) && !isNaN(numB)) return 1;
-            if (!isNaN(numA) && isNaN(numB)) return -1;
-            return a.localeCompare(b);
-        });
+        sortedLevels = Array.from(aggregatedData.keys()).sort(compareLevels);
     }
 
     for (const level of sortedLevels) {

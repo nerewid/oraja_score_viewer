@@ -202,7 +202,7 @@ h3 {
 }
 
 /* Monospace for numbers and codes */
-.mono, code, pre {
+code, pre {
     font-family: var(--font-mono);
 }
 
@@ -247,10 +247,6 @@ a:hover {
     font-size: 0.9em;
     color: var(--text-muted);
     margin-left: auto;
-}
-
-.bp-only-section {
-    margin-top: var(--space-sm);
 }
 
 /* ============================================
@@ -479,10 +475,6 @@ a:hover {
 /* ユーティリティクラス */
 .hidden {
     display: none !important;
-}
-
-.visible {
-    display: block !important;
 }
 
 .default-cursor {
@@ -1254,10 +1246,6 @@ label:has(input[type="radio"]:checked) {
         padding: 8px 5px;
     }
 
-    .difficulty-table .level-cell {
-        min-width: 60px;
-        font-size: 1em;
-    }
 }
 
 /* ============================================

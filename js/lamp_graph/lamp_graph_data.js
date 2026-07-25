@@ -6,6 +6,7 @@ import { scoreDbData } from '../db_uploader.js';
 import { songdataDbData } from '../db_uploader.js';
 import { executeBatchQuery } from '../utils/batch-query.js';
 import { logger } from '../utils/logger.js';
+import { fetchJson, extractTablesArray } from '../utils/table_loader.js';
 
 // sql.js のコアオブジェクト (初期化後に設定)
 let SQL = null;
@@ -42,17 +43,9 @@ function createMd5ToSha256Map() {
 async function loadDifficultyTables() {
     const url = './raw_difficulty_table_data/difficulty_tables.json';
     try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status} for ${url}`);
-        }
-        const data = await response.json();
-        let tables = [];
-        if (Array.isArray(data)) {
-            tables = data;
-        } else if (data && Array.isArray(data.tables)) {
-             tables = data.tables;
-        } else {
+        const data = await fetchJson(url, (status) => `HTTP error! status: ${status} for ${url}`);
+        let tables = extractTablesArray(data);
+        if (tables === null) {
             console.warn(`予期しない形式の難易度表一覧データです (${url})`);
             tables = [];
         }
@@ -76,11 +69,7 @@ async function loadDifficultyTables() {
 async function loadSongData(internalFileName) {
     const url = `./raw_difficulty_table_data/${internalFileName}.json`;
     try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status} for ${url}`);
-        }
-        return await response.json();
+        return await fetchJson(url, (status) => `HTTP error! status: ${status} for ${url}`);
     } catch (error) {
         console.error(`楽曲データ(${url})の読み込みに失敗しました:`, error);
         throw error;
