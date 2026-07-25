@@ -5,3 +5,4 @@ node_modules/
 *.log
 .playwright-mcp/
 __pycache__/
+docs/plans/
