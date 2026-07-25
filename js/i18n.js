@@ -11,6 +11,9 @@ const translations = {
         'button.load_scorelog': 'scorelog.db を読み込む',
         'button.load_songdata': 'songdata.db を読み込む',
         'button.process': 'データ処理開始',
+        'day_boundary.label': '日付の切り替え時刻:',
+        'day_boundary.hint': '深夜プレイをまとめたい場合に設定します（例: 4時 → 午前3:59のプレイは前日扱い）',
+        'day_boundary.hour_option': '{h}時',
         // folder_picker.js
         'folder.section_desc': 'beatorajaフォルダを選ぶと score.db / scorelog.db / songdata.db を自動で読み込みます。',
         'folder.pick_button': 'beatorajaフォルダから読み込む',
@@ -95,6 +98,9 @@ const translations = {
         'button.load_scorelog': 'Load scorelog.db',
         'button.load_songdata': 'Load songdata.db',
         'button.process': 'Start Processing',
+        'day_boundary.label': 'Day boundary time:',
+        'day_boundary.hint': 'Use this to group late-night play sessions (e.g. 4:00 → a play at 3:59 AM counts as the previous day).',
+        'day_boundary.hour_option': '{h}:00',
         // folder_picker.js
         'folder.section_desc': 'Select your beatoraja folder to automatically load score.db / scorelog.db / songdata.db.',
         'folder.pick_button': 'Load from beatoraja folder',
@@ -205,4 +211,10 @@ export function applyTranslations() {
             el.textContent = translation;
         }
     });
+    // title属性の翻訳（ツールチップ用）
+    document.querySelectorAll('[data-i18n-title]').forEach(el => {
+        el.setAttribute('title', t(el.getAttribute('data-i18n-title')));
+    });
+    // JSで動的生成された要素（セレクトのoption等）にも再翻訳を通知
+    document.dispatchEvent(new CustomEvent('translations-applied'));
 }

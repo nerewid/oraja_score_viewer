@@ -957,10 +957,14 @@ label:has(input[type="radio"]:checked) {
     font-family: var(--font-main);
     font-size: 0.9rem;
     color: var(--text-primary);
-    background: var(--bg-primary);
+    /* background ショートハンドを使うと汎用 select のカスタム矢印(background-image)が消えるため background-color で指定 */
+    background-color: var(--bg-primary);
     border: 1px solid var(--accent-primary);
     border-radius: var(--radius-md);
-    padding: var(--space-sm) var(--space-md);
+    /* 右側はカスタム矢印ぶんの余白を確保 */
+    padding: var(--space-sm) 32px var(--space-sm) var(--space-md);
+    /* 選択肢が空でも潰れないよう最小幅を確保 */
+    min-width: 10em;
 }
 
 #folder-picker-status {
@@ -1433,4 +1437,10 @@ nav a:hover {
 /* bodyにposition: relativeを追加（絶対配置の基準） */
 body {
     position: relative;
+}
+/* 日付切り替え時刻のラベル（ホバーでツールチップ表示） */
+.day-boundary-label {
+    cursor: help;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
 }

@@ -1,5 +1,6 @@
 import { splitIntoChunks } from './utils/sql-chunker.js';
 import { INITIAL_CLEAR, UNIX_TO_MS } from './constants.js';
+import { shiftUnixSeconds } from './utils/day_boundary.js';
 
 /**
  * sha256とdateの組み合わせキーを生成する
@@ -93,7 +94,7 @@ export async function createJsonFromScoreLogs(scorelogDb, scorelogEntries) {
             }
 
             const parsed = parseScorelogRow(row);
-            const formattedDate = formatDate(new Date(entry.date * UNIX_TO_MS));
+            const formattedDate = formatDate(new Date(shiftUnixSeconds(entry.date) * UNIX_TO_MS));
 
             // ランプ・BP・スコアがすべて変わらない場合のみスキップ
             if (parsed.oldClear === parsed.clear && parsed.oldBp === parsed.newBp && parsed.oldScore === parsed.score) {

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
     <title>oraja_score_viewer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%B9%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -28,11 +29,8 @@
     </div>
     <h1>oraja_score_viewer</h1>
     <div id="upload-area">
-        <h3><span data-i18n="app.description">beatorajaのプレイ履歴を日別に分かりやすく表示します。</span><br>
-        <span data-i18n="app.table_update_date">難易度表情報更新日：</span>2026/07/25</h3>
+        <h3><span data-i18n="app.description">beatorajaのプレイ履歴を日別に分かりやすく表示します。</span></h3>
         <hr>
-        <h3 data-i18n="upload.howto">利用方法</h3>
-        <span data-i18n="upload.instruction">beatorajaフォルダの中にあるdbファイルを選択してください。</span><br>
 
         <section id="folder-picker-section" hidden>
             <p data-i18n="folder.section_desc">beatorajaフォルダを選ぶと score.db / scorelog.db / songdata.db を自動で読み込みます。</p>
@@ -45,6 +43,11 @@
             </div>
             <div id="folder-picker-status" class="message" role="status"></div>
         </section>
+
+        <div id="day-boundary-section">
+            <label for="day-boundary-select" class="day-boundary-label" data-i18n="day_boundary.label" data-i18n-title="day_boundary.hint" title="深夜プレイをまとめたい場合に設定します（例: 4時 → 午前3:59のプレイは前日扱い）">日付の切り替え時刻:</label>
+            <select id="day-boundary-select" aria-label="日付の切り替え時刻"></select>
+        </div>
 
         <details id="manual-upload">
             <summary data-i18n="folder.manual_summary">手動でファイルを個別に選択する</summary>
@@ -94,10 +97,11 @@
         </div>
 
         <hr>
-        <span data-i18n="link.details">本ツールの詳細、対応している難易度表については</span><a href="https://github.com/nerewid/oraja_score_viewer" data-i18n="link.here">こちら。</a><br>
+        <span data-i18n="app.table_update_date">難易度表情報更新日：</span>2026/07/25<br>
         <a href="table_viewer.html" style="color: #4db5ff; font-size: 1.1em; margin-top: 10px; display: inline-block;">
             <span data-i18n="link.table_viewer">難易度表を閲覧する</span>
-        </a>
+        </a><br>
+        <span data-i18n="link.details">本ツールの詳細、対応している難易度表については</span><a href="https://github.com/nerewid/oraja_score_viewer" data-i18n="link.here">こちら。</a>
     </div>
 
     <div class="tab" id="tab-buttons" role="tablist" aria-label="ビューワー切替">
@@ -148,12 +152,13 @@
     <script src="./js/lib/sql-wasm.js"></script>
     <script src="./js/lib/nunjucks.min.js"></script>
     <script type="text/javascript" src="./js/lib/d3.v7.min.js"></script>
-    <script src="https://unpkg.com/cal-heatmap/dist/cal-heatmap.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/cal-heatmap/dist/plugins/Tooltip.min.js"></script>
+    <script src="./js/lib/cal-heatmap.min.js"></script>
+    <script src="./js/lib/popper.min.js"></script>
+    <script src="./js/lib/Tooltip.min.js"></script>
     <script src="./js/lib/FileSaver.min.js"></script>
 
     <script type="module" src="./js/lang_switcher.js"></script>
+    <script type="module" src="./js/utils/day_boundary.js"></script>
     <script type="module" src="./js/db_uploader.js"></script>
     <script type="module" src="./js/folder_picker.js"></script>
     <script type="module" src="./js/score_change_to_json.js"></script>

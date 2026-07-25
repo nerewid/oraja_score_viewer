@@ -3,6 +3,7 @@ import { scoreDbData, scorelogDbData, sqlPromise } from './db_uploader.js';
 import { t } from './i18n.js';
 import { UNIX_TO_MS, HEATMAP_CONFIG } from './constants.js';
 import { showError, hideLoading } from './score_change_to_json.js';
+import { getDayBoundaryHour } from './utils/day_boundary.js';
 
 /**
  * SQLステートメントから全行をオブジェクト配列として取得する
@@ -51,6 +52,7 @@ function generateNotesData(db) {
         return results.map((row, index, array) => {
             let date = row.date;
             if (typeof date === 'number') {
+                // player テーブルの date は日次スナップショット（常に0:00）のため、日付切り替え時刻のシフトは適用しない
                 date = new Date(date * UNIX_TO_MS);
             }
             const formattedDate = date.toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, "-");
@@ -65,13 +67,15 @@ function generateNotesData(db) {
 
 function generateProgressData(db) {
     try {
+        const offsetSeconds = getDayBoundaryHour() * 3600;
         const query = `
-            SELECT strftime('%Y-%m-%d', date, 'unixepoch') AS date, COUNT(*) AS value
+            SELECT strftime('%Y-%m-%d', date - ?, 'unixepoch') AS date, COUNT(*) AS value
             FROM scorelog
-            GROUP BY strftime('%Y-%m-%d', date, 'unixepoch')
+            GROUP BY strftime('%Y-%m-%d', date - ?, 'unixepoch')
             ORDER BY date
         `;
         const stmt = db.prepare(query);
+        stmt.bind([offsetSeconds, offsetSeconds]);
         return collectRows(stmt);
     } catch (error) {
         console.error("progressデータ生成エラー:", error);
