@@ -28,15 +28,8 @@
     </div>
     <h1>oraja_score_viewer</h1>
     <div id="upload-area">
-        <h3><span data-i18n="app.description">beatorajaのプレイ履歴を日別に分かりやすく表示します。</span><br>
-        <span data-i18n="app.table_update_date">難易度表情報更新日：</span>2026/07/25</h3>
+        <h3><span data-i18n="app.description">beatorajaのプレイ履歴を日別に分かりやすく表示します。</span></h3>
         <hr>
-        <span data-i18n="upload.instruction">beatorajaフォルダの中にあるdbファイルを選択してください。</span><br>
-
-        <div id="day-boundary-section">
-            <label for="day-boundary-select" class="day-boundary-label" data-i18n="day_boundary.label" data-i18n-title="day_boundary.hint" title="深夜プレイをまとめたい場合に設定します（例: 4時 → 午前3:59のプレイは前日扱い）">日付の切り替え時刻:</label>
-            <select id="day-boundary-select" aria-label="日付の切り替え時刻"></select>
-        </div>
 
         <section id="folder-picker-section" hidden>
             <p data-i18n="folder.section_desc">beatorajaフォルダを選ぶと score.db / scorelog.db / songdata.db を自動で読み込みます。</p>
@@ -49,6 +42,11 @@
             </div>
             <div id="folder-picker-status" class="message" role="status"></div>
         </section>
+
+        <div id="day-boundary-section">
+            <label for="day-boundary-select" class="day-boundary-label" data-i18n="day_boundary.label" data-i18n-title="day_boundary.hint" title="深夜プレイをまとめたい場合に設定します（例: 4時 → 午前3:59のプレイは前日扱い）">日付の切り替え時刻:</label>
+            <select id="day-boundary-select" aria-label="日付の切り替え時刻"></select>
+        </div>
 
         <details id="manual-upload">
             <summary data-i18n="folder.manual_summary">手動でファイルを個別に選択する</summary>
@@ -98,6 +96,7 @@
         </div>
 
         <hr>
+        <span data-i18n="app.table_update_date">難易度表情報更新日：</span>2026/07/25<br>
         <a href="table_viewer.html" style="color: #4db5ff; font-size: 1.1em; margin-top: 10px; display: inline-block;">
             <span data-i18n="link.table_viewer">難易度表を閲覧する</span>
         </a><br>
