@@ -948,6 +948,17 @@
             "site_url": "https://stellabms.xyz/song/2485"
         },
         {
+            "id": 8471,
+            "md5": "1158e9e3af7acfd4f6a4bfe94d537ffe",
+            "sha256": "cc57d28f6b4e467093470bc4b877d1813eeef7a599705f41404f34458dd47710",
+            "title": "点、線、面、立体 [Basic]",
+            "artist": "sound piercer / mov : kkkfff2 obj.?",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=1&num=49&ckattempt=1",
+            "url_diff": "https://stellabms.xyz/upload/7421",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/8471"
+        },
+        {
             "id": 2999,
             "md5": "c6b9bfcef0215b51317cebc4a4520d9c",
             "sha256": "bd9c26de88899ed55403b0d5f3c3c3e1f2df838f47f454072c8e21f5175f0b8d",

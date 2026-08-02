@@ -1551,6 +1551,18 @@
         },
         {
             "level": "3",
+            "md5": "13b21625c925112db03174bf58250d5d",
+            "sha256": "7bb2692f27d45c5eb9682f899fe48283071860bf5345bdb7d0dcb128b9c081ef",
+            "genre": "UKG/Lo-fi",
+            "title": "7a Plume [DP INSANE]",
+            "artist": "しるい obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=150&event=149",
+            "url_diff": "",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/13b21625c925112db03174bf58250d5d"
+        },
+        {
+            "level": "3",
             "md5": "493e7e328919e1bd6db73ec9b7f6294b",
             "sha256": "e14e6151c1dabe1a38d33a2373c9c269ce529de0eb33bed6ff8e2e7a3f5465de",
             "genre": "TECHNO POP",
@@ -1920,6 +1932,18 @@
             "url_diff": "",
             "comment": "譜面同梱Skydriveにて原曲補完 https://skydrive.live.com/#cid=863934608D908CD0&id=863934608D908CD0%21105（2014/04/21）本体補完から入手可",
             "site_url": "https://ir.stellabms.xyz/charts/936d7f40165782a6c1632ab3054fbb77"
+        },
+        {
+            "level": "3",
+            "md5": "c5b9c011df8832c5cfabe07cba28df34",
+            "sha256": "942b0ec84c8d3e71970601c1e373e9551f6132a30b4f2b139a5ee6d3eba3389e",
+            "genre": "Synthwave",
+            "title": "Luv of Magical Synth [DP INSANE]",
+            "artist": "Naukorin obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=9&event=129",
+            "url_diff": "https://stellabms.xyz/upload/7150",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/c5b9c011df8832c5cfabe07cba28df34"
         },
         {
             "level": "3",
@@ -3711,18 +3735,6 @@
         },
         {
             "level": "5",
-            "md5": "634ffd7c6a99928176771b8a515849ac",
-            "sha256": "04a2a0aecd4d97200c677ba6edad3662d101ce54e864435a41a34d965667a9cc",
-            "genre": "techno",
-            "title": "whither [14keys another]",
-            "artist": "qfeileadh /obj:C4",
-            "url": "http://k-bms.com/party_pabat/party2019.jsp?board_num=19&num=59&order=reg&odtype=a",
-            "url_diff": "",
-            "comment": "",
-            "site_url": "https://ir.stellabms.xyz/charts/634ffd7c6a99928176771b8a515849ac"
-        },
-        {
-            "level": "5",
             "md5": "0b3f73df2d20707d4075b98a72f9516a",
             "sha256": "544b1ab3e143ef76651083d049894d13e075e3be15847da873e12f9e181034a0",
             "genre": "JAZZ AND BRASS /// 14KEYS CLIMAX",
@@ -3754,7 +3766,7 @@
             "artist": "くっちー vs あっきー / obj:おーた",
             "url": "https://nekokan.dyndns.info/~lobsak/genoside/#",
             "url_diff": "",
-            "comment": "同梱",
+            "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/ba88a676048fecb91bc01c457c50d48a"
         },
         {
@@ -4848,6 +4860,18 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1636",
             "comment": null,
             "site_url": "https://ir.stellabms.xyz/charts/2bcd72a7513608df0347da575c0052aa"
+        },
+        {
+            "level": "6",
+            "md5": "e13cc9376564c0191d588c6f1e90604a",
+            "sha256": "64e280803efaf0bb6c26417536b66d7a199f13ea646017b080639551d7843f5b",
+            "genre": "IDM",
+            "title": "天上のポリスルイン[DP ANOTHER]",
+            "artist": "daisan / obj:Louis",
+            "url": "http://colosseo.nekokan.dyndns.info/c02_shuffle/detail.php?n=9",
+            "url_diff": "http://slash24th.web.fc2.com/",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/e13cc9376564c0191d588c6f1e90604a"
         },
         {
             "level": "6",
@@ -6144,6 +6168,18 @@
             "url_diff": "",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/821813c62f8b1e52bda22fafb6e5b367"
+        },
+        {
+            "level": "8",
+            "md5": "d2d22acd3c14dc4a60d69c96e111025c",
+            "sha256": "de2bed9ead6f6aab76f8deac52138a1611bf1077b6dfcb5f1b8369ce98948a78",
+            "genre": "Happy Hardcore",
+            "title": "Strawberry Mint Chocolate [Clear Clean]",
+            "artist": "Yu^ta feat. みずにんじん / obj:alt",
+            "url": "http://yuinore.net/2017/02/smc-package/",
+            "url_diff": "https://stellabms.xyz/upload/1150",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/d2d22acd3c14dc4a60d69c96e111025c"
         },
         {
             "level": "8",

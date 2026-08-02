@@ -1047,6 +1047,17 @@
             "site_url": "https://stellabms.xyz/song/8466"
         },
         {
+            "id": 9119,
+            "md5": "c693164eba2eb66c00500f1c11ac939b",
+            "sha256": "24fcd8f6d0962470558dc1b152d98828b159ed902dab910b10ac9f5af22d3d30",
+            "title": "intertwined -Zweihander-",
+            "artist": "Is-m / Symphonian BGA:yuru",
+            "url": "https://drive.google.com/file/d/12z-EM0HjbOkqi5jJKoSFsVv_UjHNRrnC/view?usp=drive_link",
+            "url_diff": "https://www.dropbox.com/scl/fi/bdiq6vjuoy7u232dysi3o/intertwined_dpx.zip?rlkey=kh0uh4ji0lykppgbbujppr0z5&e=1&st=tmwnuz5d&dl=0",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9119"
+        },
+        {
             "id": 5672,
             "md5": "a31cccc070dd4c2b3ebb1fd383c61144",
             "sha256": "796eeac09b717f3d89b4ac1463caaa9a4e3b2983058303872ba6487ef574341d",
@@ -1199,6 +1210,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1426",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/5646"
+        },
+        {
+            "id": 9300,
+            "md5": "34c06bff1b4d275d482bd6afa9865dbf",
+            "sha256": "0e8a1ec67ff77adf728d5a221dcb58f710160f46df070ea3c7aed7e71b5e51fb",
+            "title": "Doomsday [DP ALL DELETE]",
+            "artist": "Aoi mov : SELDO / obj.ユ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=349&event=146",
+            "url_diff": "https://stellabms.xyz/upload/7744",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9300"
         },
         {
             "id": 6928,

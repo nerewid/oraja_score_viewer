@@ -1454,6 +1454,17 @@
             "site_url": "https://stellabms.xyz/song/6022"
         },
         {
+            "id": 9372,
+            "md5": "22a0d1524d07cc3a4dd5e47b6ecb10f7",
+            "sha256": "15916dc8a4285abac94e0e1b91cb2acb770c96b3bf4b177a5a3ab9e3b56e76b0",
+            "title": "ほしぞら遊覧飛行 [流れ星_14]",
+            "artist": "山蝙蝠ホールディングス movie : Y.A.B.tudidama / obj : 71066",
+            "url": "https://drive.google.com/file/d/1TiaqppDwGM4gT1wGBZQlhK_J2RFP4Zg8/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/1304",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9372"
+        },
+        {
             "id": 4899,
             "md5": "3662c764b23ca91edf7df310537d5b03",
             "sha256": "da7722cb6422f1058febfd77b2ce7144b51c626a7ed19ee588a03875eb794b70",
@@ -1507,6 +1518,17 @@
             "url_diff": "https://www.dropbox.com/s/obtkshiedykhvya/dpsabun_kenin_200408.rar?dl=1",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/2776"
+        },
+        {
+            "id": 9376,
+            "md5": "1c1852ad0c4bf99007a14eb7b1f7a3fd",
+            "sha256": "0a1ff0d9f93cd410fcf9afb432544146ffcb8ef8cf414ba294b73a99f9dacdc1",
+            "title": "夜間飛行トラベラー [Future Walker]",
+            "artist": "qfeileadh BGA: Maeus / obj. 0ne",
+            "url": "https://event.yaruki0.net/VSevent/impression/9",
+            "url_diff": "https://stellabms.xyz/upload/2612",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9376"
         },
         {
             "id": 7891,
@@ -2321,6 +2343,17 @@
             "url_diff": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=29&event=94",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/2267"
+        },
+        {
+            "id": 9397,
+            "md5": "4bb48230add6a096363f481d6978e377",
+            "sha256": "a2ea2a123158d2864168c488c8ac81eb52bc86ba8f1e1b26370dfd97ecf05aac",
+            "title": "妖鬼山脈 [DP KAGITHER]",
+            "artist": "かたぎり BGA: mst / obj: 鈎兎(KagiUsagi)",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/34",
+            "url_diff": "https://stellabms.xyz/upload/6754",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9397"
         },
         {
             "id": 8253,
@@ -5269,6 +5302,17 @@
             "url_diff": "https://stellabms.xyz/upload/1681",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/9371"
+        },
+        {
+            "id": 9430,
+            "md5": "7a4f39a6e25fafeb1b5cc49f69f1afc9",
+            "sha256": "bc46d96ade99cb4c4c0275555f8c1b4cdd3062bb3efcfd1b0b27e8d6dc98d5f2",
+            "title": "Mugikamagika [DP EX]",
+            "artist": "otoshi.b BGA:ShakeJ obj:mordy",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=146",
+            "url_diff": "https://stellabms.xyz/upload/8035",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9430"
         },
         {
             "id": 4418,
