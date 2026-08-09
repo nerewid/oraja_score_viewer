@@ -7433,16 +7433,6 @@
         },
         {
             "level": "9",
-            "title": "TakeTrip [腕ガチ飛翔～Muscular Princess]",
-            "artist": "",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=49&event=102",
-            "url_diff": "https://stellabms.xyz/upload/7698",
-            "comment": "",
-            "md5": "f28623b40ddf6801d72a052b392a7e25",
-            "site_url": "https://ir.stellabms.xyz/charts/f28623b40ddf6801d72a052b392a7e25"
-        },
-        {
-            "level": "9",
             "title": "The Island of Albatross [Sorrow of Albatross]",
             "artist": "",
             "url": "https://drive.google.com/file/d/1JF5y9xeUB0GSZspTpeYMFAd7dU1ItHUV/view",
@@ -7500,16 +7490,6 @@
             "comment": "",
             "md5": "55d5fd21b94ed9d5e9039120b570b699",
             "site_url": "https://ir.stellabms.xyz/charts/55d5fd21b94ed9d5e9039120b570b699"
-        },
-        {
-            "level": "9",
-            "title": "whence [Manipulator]",
-            "artist": "",
-            "url": "http://www.dropbox.com/s/pztp7geudgcdrtp/qfeileadh_whence.zip?dl=1",
-            "url_diff": "https://stellabms.xyz/upload/7972",
-            "comment": "",
-            "md5": "967ecb156a6f1c7146cba0ce14fb4d4a",
-            "site_url": "https://ir.stellabms.xyz/charts/967ecb156a6f1c7146cba0ce14fb4d4a"
         },
         {
             "level": "9",
@@ -7943,16 +7923,6 @@
         },
         {
             "level": "10",
-            "title": "Flowers(802 edit) [robo]",
-            "artist": "",
-            "url": "http://sound.jp/lobsak/801_ogg.rar",
-            "url_diff": "https://stellabms.xyz/upload/4014",
-            "comment": "",
-            "md5": "c2f975669a847947c209315e869a7e09",
-            "site_url": "https://ir.stellabms.xyz/charts/c2f975669a847947c209315e869a7e09"
-        },
-        {
-            "level": "10",
             "title": "Flowing Light [GABURI](fix)",
             "artist": "",
             "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=95&event=149",
@@ -8273,6 +8243,16 @@
         },
         {
             "level": "10",
+            "title": "whence [Manipulator]",
+            "artist": "",
+            "url": "http://www.dropbox.com/s/pztp7geudgcdrtp/qfeileadh_whence.zip?dl=1",
+            "url_diff": "https://stellabms.xyz/upload/7972",
+            "comment": "",
+            "md5": "967ecb156a6f1c7146cba0ce14fb4d4a",
+            "site_url": "https://ir.stellabms.xyz/charts/967ecb156a6f1c7146cba0ce14fb4d4a"
+        },
+        {
+            "level": "10",
             "title": "world devoid of you (fairydust radio edit) [robo]",
             "artist": "",
             "url": "http://mournfinale.com/bof2008/bmshq_world_devoid.rar",
@@ -8490,6 +8470,16 @@
             "comment": "",
             "md5": "9ca2a77bd5f73ae361c89f7faad39cf2",
             "site_url": "https://ir.stellabms.xyz/charts/9ca2a77bd5f73ae361c89f7faad39cf2"
+        },
+        {
+            "level": "11",
+            "title": "Flowers(802 edit) [robo]",
+            "artist": "",
+            "url": "http://sound.jp/lobsak/801_ogg.rar",
+            "url_diff": "https://stellabms.xyz/upload/4014",
+            "comment": "",
+            "md5": "c2f975669a847947c209315e869a7e09",
+            "site_url": "https://ir.stellabms.xyz/charts/c2f975669a847947c209315e869a7e09"
         },
         {
             "level": "11",
