@@ -1201,6 +1201,17 @@
             "site_url": "https://stellabms.xyz/song/8507"
         },
         {
+            "id": 9451,
+            "md5": "e141945272532305571a2206fe6c4b8b",
+            "sha256": "da5ebc095ebe53e4aef2fde4326f35a927de060cb33a0f5e6c6ec2136b19ee47",
+            "title": "K. N. G. [MIRRORBALL]",
+            "artist": "RB & SANY-ON obj:practice | bga. mzet & RB",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=464&event=133",
+            "url_diff": "https://stellabms.xyz/upload/2771",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9451"
+        },
+        {
             "id": 4554,
             "md5": "171abdcb2d11ec19a911b541313f7eb7",
             "sha256": "254118b6f94730ffc05e373f6580b9ebd5992975cbd0a2a9f950490bf10c763e",
@@ -1529,6 +1540,17 @@
             "url_diff": "https://stellabms.xyz/upload/2612",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/9376"
+        },
+        {
+            "id": 9397,
+            "md5": "4bb48230add6a096363f481d6978e377",
+            "sha256": "a2ea2a123158d2864168c488c8ac81eb52bc86ba8f1e1b26370dfd97ecf05aac",
+            "title": "妖鬼山脈 [DP KAGITHER]",
+            "artist": "かたぎり BGA: mst / obj: 鈎兎(KagiUsagi)",
+            "url": "https://venue.bmssearch.net/bmstukuru2025/34",
+            "url_diff": "https://stellabms.xyz/upload/6754",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9397"
         },
         {
             "id": 7891,
@@ -2345,17 +2367,6 @@
             "site_url": "https://stellabms.xyz/song/2267"
         },
         {
-            "id": 9397,
-            "md5": "4bb48230add6a096363f481d6978e377",
-            "sha256": "a2ea2a123158d2864168c488c8ac81eb52bc86ba8f1e1b26370dfd97ecf05aac",
-            "title": "妖鬼山脈 [DP KAGITHER]",
-            "artist": "かたぎり BGA: mst / obj: 鈎兎(KagiUsagi)",
-            "url": "https://venue.bmssearch.net/bmstukuru2025/34",
-            "url_diff": "https://stellabms.xyz/upload/6754",
-            "level": "2",
-            "site_url": "https://stellabms.xyz/song/9397"
-        },
-        {
             "id": 8253,
             "md5": "ef9a37f898614004f0a1b92a91325d15",
             "sha256": "58452f8a71f561273c63bd6e7d27bfe4d680bc102734972e309faf5b0da00c6d",
@@ -2486,6 +2497,17 @@
             "url_diff": "",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/3259"
+        },
+        {
+            "id": 9452,
+            "md5": "b0dcc426a82c325fe7f63344dc940808",
+            "sha256": "dca7ac55bfcce826f03e1cb2c9000a52cdf5f2535ac60e566bac83cff63f43ff",
+            "title": "breathe [last piece]",
+            "artist": "qfeileadh のあ / Maeus / obj. 0ne",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=287&event=127",
+            "url_diff": "https://stellabms.xyz/upload/3008",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9452"
         },
         {
             "id": 4099,
@@ -3159,17 +3181,6 @@
             "site_url": "https://stellabms.xyz/song/2716"
         },
         {
-            "id": 7634,
-            "md5": "e8a0a4289877b8653e917ee09c301f24",
-            "sha256": "f5eda0f23e9906583a858b382f72fade18c7037cceb737d87ccf03b1381ca654",
-            "title": "論理ロンリー [Extra_14key]",
-            "artist": "三角コナ feat.重音テト BMS:Chart_Generator/obj:plum",
-            "url": "https://venue.bmssearch.net/letsbmsedit4/27",
-            "url_diff": "",
-            "level": "3",
-            "site_url": "https://stellabms.xyz/song/7634"
-        },
-        {
             "id": 4647,
             "md5": "5c1c97a00af7b108e2a53afecba82cc3",
             "sha256": "8efd8615e1f1f87816d15fc187485793e9f837ad64c187e9772af2395f9035c7",
@@ -3588,6 +3599,17 @@
             "site_url": "https://stellabms.xyz/song/5330"
         },
         {
+            "id": 9450,
+            "md5": "56cbc3914c339670e8055b0dedb06f7b",
+            "sha256": "a39aca72bcb7b8a398eb0fdd2e6bb2df55925ea90fb0a02a137f64c303b1cfa4",
+            "title": "Re: Shinin' Queen [Fortunate]",
+            "artist": "ねこみみ魔法使い obj:practice",
+            "url": "https://drive.google.com/file/d/1R52Vc2-DmZOT2TxhGBxE_o5JV_8ysZqO/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/2271",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9450"
+        },
+        {
             "id": 5412,
             "md5": "0a5912c88b7801f3baece252ff2266af",
             "sha256": "db8008a0b605ec908fe716e43a734d282476c306712b8eb776189aff74ec4564",
@@ -4004,6 +4026,17 @@
             "url_diff": "https://www.axfc.net/u/4094344",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/6961"
+        },
+        {
+            "id": 7634,
+            "md5": "e8a0a4289877b8653e917ee09c301f24",
+            "sha256": "f5eda0f23e9906583a858b382f72fade18c7037cceb737d87ccf03b1381ca654",
+            "title": "論理ロンリー [Extra_14key]",
+            "artist": "三角コナ feat.重音テト BMS:Chart_Generator/obj:plum",
+            "url": "https://venue.bmssearch.net/letsbmsedit4/27",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/7634"
         },
         {
             "id": 4330,
@@ -5557,6 +5590,17 @@
             "site_url": "https://stellabms.xyz/song/8335"
         },
         {
+            "id": 9453,
+            "md5": "9fe411af90818f24811259f00f028864",
+            "sha256": "c6273ee27b6488eb971d3fee94fa0e279e7e5e229f873e4234bb8738cb2c1c64",
+            "title": "ふたりの-><-シグナル ［シグナルは存在するが、受信できませんでした。］",
+            "artist": "otoshi.b×qfeileadh×みゅい×柳瀬マサキ×レゾナンスもえこ×駒木れい Limite feat.制限 + 404 Not Found",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=459&event=140",
+            "url_diff": "https://stellabms.xyz/upload/3535",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9453"
+        },
+        {
             "id": 4651,
             "md5": "b09b5e86185319b7e80ec54a37bd61b5",
             "sha256": "ee0f2f7fd056841f89e12c31c083d6602e30c6f828539d61cd31beba0a0922df",
@@ -6943,6 +6987,17 @@
             "site_url": "https://stellabms.xyz/song/7059"
         },
         {
+            "id": 9442,
+            "md5": "c2ff3c61e17d86e148ebf1aa829129dc",
+            "sha256": "6ef84f017c2b25008e2e22680cfc4616e61bfe09b7c7459b3d9dbf34cd204eac",
+            "title": "VERITAS [DP ANOTHER]",
+            "artist": "69 de 74 BGA:Kengo Nakao / obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=248&event=149",
+            "url_diff": "",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/9442"
+        },
+        {
             "id": 2717,
             "md5": "0fe0b055eb07f9feba4f9f26d8b725c7",
             "sha256": "1cb404731feb27cf1773ff4e73baabe703e3fd0e51ae689a9c303724b28cce6f",
@@ -7075,6 +7130,17 @@
             "site_url": "https://stellabms.xyz/song/4803"
         },
         {
+            "id": 9461,
+            "md5": "995482e907a09fa79747e089a97706c8",
+            "sha256": "9118fda9301c88f9fb28e142371efe3e0572579de88586c8bd67b52d8c64f528",
+            "title": "虹のわすれもの [DP INSANE+]",
+            "artist": "鈎兎(KagiUsagi) mov:朧烏 obj:Yosk!",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=354&event=142",
+            "url_diff": "",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/9461"
+        },
+        {
             "id": 4920,
             "md5": "58c7cc7fabd94b15b0569843063dd3a7",
             "sha256": "998e623be51fdb1b628dd5b3a457c2a9f0e537aaee375fcb3050bec4f8d1d294",
@@ -7106,6 +7172,17 @@
             "url_diff": "https://drive.google.com/file/d/1gMZwQ23hmAlScmbh-Wyhd-dyOIgJ1Zg-/view?usp=sharing",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/2313"
+        },
+        {
+            "id": 9460,
+            "md5": "fcf086ed06df044f00cbbf59c2288b81",
+            "sha256": "a483cb309064514e3dc9f60ce5d94408f3c94ca128fcf0d726d1da65a3b54333",
+            "title": "Aether Sky [DP INSANE]",
+            "artist": "DJ JUNOU BGA:xaiqi obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=32&event=142",
+            "url_diff": "",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/9460"
         },
         {
             "id": 3985,

@@ -299,6 +299,17 @@
             "site_url": "https://stellabms.xyz/song/7202"
         },
         {
+            "id": 2339,
+            "md5": "fffcdd50280873a3a6a8efb584b5454b",
+            "sha256": "9b505317d2c3e480bcbf0a18aacb3f3d4e444f1584bef36cc84c8f9d3dd7d6f7",
+            "title": "Apocaliptix [Doomsayer]",
+            "artist": "Juggernaut. BGA:Cube Obj. DK",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=233&event=127",
+            "url_diff": "https://darksabun.club/bceg/event/bofxv/",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/2339"
+        },
+        {
             "id": 4737,
             "md5": "393690659885f5d73e838b43a6345333",
             "sha256": "53931623aa8c8099346d34318022a28c38db14d58906550950b44f3132776457",
@@ -726,6 +737,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/04315.zip",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/3732"
+        },
+        {
+            "id": 4545,
+            "md5": "5701a1cb14007b1b0adb79e7df9af30c",
+            "sha256": "0b2319e1ade45661acc30f7b2d4f6561fe2d0175d3358be311130c3b776e3ae4",
+            "title": "Fireball -Hopeless-",
+            "artist": "tarolabo obj:七海",
+            "url": "https://bms.kyouko.moe/torrent/BMS_Library/Fireball%20(by%20tarolabo).rar",
+            "url_diff": "https://www.dropbox.com/s/a0nq0m7p88lbmqw/fireball_nanami.zip?dl=1",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/4545"
         },
         {
             "id": 866,
