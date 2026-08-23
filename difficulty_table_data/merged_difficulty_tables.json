@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-08-16 13:29:36",
+    "Last Update": "2026-08-23 13:30:10",
     "tables": [
         "satellite",
         "stella",
@@ -2585,6 +2585,19 @@
                     "level": "3",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "ce89da5f0a99a04bcc66fa32f729b077",
+            "sha256": null,
+            "title": "3AM [Missing-Lunar]",
+            "artist": "宮舞モカ / litmus* / obj:kurekoduki",
+            "levels": [
+                {
+                    "level": "乱打12",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -12791,6 +12804,19 @@
             ]
         },
         {
+            "md5": "6be6553e2125fd317974ff45c799b81b",
+            "sha256": null,
+            "title": "Arcadia [R-FAIRYTALE]",
+            "artist": "HaL feat. riri BGA fity obj:R054",
+            "levels": [
+                {
+                    "level": "sub乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "8a9f09337fc7fbc96f3e2c7b5a9f2562",
             "sha256": null,
             "title": "Arcadia [robo]",
@@ -16160,6 +16186,11 @@
                     "level": "1",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -21889,7 +21920,7 @@
                     "shortName": "st"
                 },
                 {
-                    "level": "重発狂3",
+                    "level": "sub重発狂3",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -31428,6 +31459,19 @@
             ]
         },
         {
+            "md5": "d94e0e038c5c6c65f92f59406895f91a",
+            "sha256": null,
+            "title": "Crystal palace [SJ]",
+            "artist": "SHIKI movie:Nyu / obj:seojoon",
+            "levels": [
+                {
+                    "level": "sub乱打4",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "0b6e9b3ad6bdb344c58958d046156c9b",
             "sha256": "4fbde1c49e632ce88d31ba8630f61649fb63e3f3f40115c7609e7e4e0954b3f9",
             "title": "Crystalized [DP ANOTHER]",
@@ -33644,6 +33688,11 @@
                     "level": "2",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打2",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -35352,6 +35401,19 @@
             ]
         },
         {
+            "md5": "dee951e530b738c24c893b335d4bae98",
+            "sha256": null,
+            "title": "Debate Paradigm [Ain't too proud to rely on!]",
+            "artist": "utzbo VS ルゼ BGA:Nao_AnD & Chiru obj:IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "ea6966b76ba740cc505caeb5a68d9331",
             "sha256": "7f7e3d62347d0a84340437dc5961fcd9a8a607f1c532341dad3d79ee7dbca423",
             "title": "Debate Paradigm [Deadlock]",
@@ -35863,6 +35925,19 @@
                     "level": "24",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "8e02f785b86231de20c463c8185c8a11",
+            "sha256": null,
+            "title": "Demon's Roar [成就]",
+            "artist": "鬼方カヨコ arrange&bms:BLACK DEATH POISON / illust:天雨アコ / 7鍵小僧",
+            "levels": [
+                {
+                    "level": "重発狂12",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -37091,6 +37166,19 @@
                     "level": "3",
                     "table": "stella",
                     "shortName": "st"
+                }
+            ]
+        },
+        {
+            "md5": "9303ab48b391d324c2d12bab8aba7bb2",
+            "sha256": null,
+            "title": "Disordered Moon [逆月]",
+            "artist": "raii obj. meta vs IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "sub乱打7",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -39497,6 +39585,11 @@
             "title": "EMOTIONAL POLARIZATION [BRILLIANT]",
             "artist": "hard obj:でっていう99",
             "levels": [
+                {
+                    "level": "重発狂0",
+                    "table": "16thranda",
+                    "shortName": ""
+                },
                 {
                     "level": "0",
                     "table": "like_st",
@@ -65126,6 +65219,19 @@
             ]
         },
         {
+            "md5": "1eee98bf3b458d4fc37406c4d5bbd099",
+            "sha256": null,
+            "title": "Ivory Noctiluca [Intense]",
+            "artist": "SHELLCODE / obj:potechang",
+            "levels": [
+                {
+                    "level": "重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "0f59c7b4506ea3b5957ec9151ec73114",
             "sha256": "c03deb70ecdf128bb4f103a22ece0c12b5ff0ff2c3bcb044748fee5e19dd6a45",
             "title": "Ivory [DP ANOTHER]",
@@ -65353,6 +65459,19 @@
                     "level": "5",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "74cda792ac84f9750cd61dd0de37e0ee",
+            "sha256": null,
+            "title": "JAPANESE MAIDCLUB [Intense]",
+            "artist": "DJ SAYSO48 / obj:potechang",
+            "levels": [
+                {
+                    "level": "重発狂5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -71324,6 +71443,19 @@
                     "level": "8",
                     "table": "udegachi",
                     "shortName": "腕"
+                }
+            ]
+        },
+        {
+            "md5": "cd742dceedfea985e7cc4d6b38458307",
+            "sha256": null,
+            "title": "Lapis [希望]",
+            "artist": "SHIKI obj.紳",
+            "levels": [
+                {
+                    "level": "sub乱打0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -81165,7 +81297,7 @@
             "artist": "anubasu-anubasu / obj.meisaiidol BGA by FF9900",
             "levels": [
                 {
-                    "level": "重発狂0",
+                    "level": "乱打12",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -82402,7 +82534,7 @@
             "artist": "FLちゃん obj:sgn",
             "levels": [
                 {
-                    "level": "重発狂0",
+                    "level": "乱打12",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -82522,6 +82654,19 @@
                     "level": "?",
                     "table": "gachimijoy",
                     "shortName": "双"
+                }
+            ]
+        },
+        {
+            "md5": "9dd4ba02ff7cc44ae83b6885b559dd0a",
+            "sha256": null,
+            "title": "Mirror Bell -夢境物語-",
+            "artist": "careless obj.紳",
+            "levels": [
+                {
+                    "level": "sub乱打6",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -88267,6 +88412,19 @@
             ]
         },
         {
+            "md5": "7d9257d9e003c7484adf245ef132f16f",
+            "sha256": null,
+            "title": "Nyan-Nyan Naughty Night [DOPAMINE]",
+            "artist": "かたぎり BGI: morph obj.ドパガキ",
+            "levels": [
+                {
+                    "level": "重発狂8",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "e01344b7d64159e7aa28b29d32ea6351",
             "sha256": "d87d62cef77f2dab07546594d2be0fb4f8b52c7a88bcd15d5e9309c22ec8c251",
             "title": "Nyan-Nyan Naughty Night [N,N,N′,N′-Tetramethylethylenediamine]",
@@ -90983,6 +91141,19 @@
             ]
         },
         {
+            "md5": "4bf4cc88cbb8359f325bd61b15f4effb",
+            "sha256": null,
+            "title": "P-EDIT -紳-",
+            "artist": "knot obj.紳",
+            "levels": [
+                {
+                    "level": "sub乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "8e20dae62b996364951d3415124e0097",
             "sha256": "ccfc2de5091af5b9ddd06f6adfc46dada7ce85a81110bc6e57d75224babfc9c3",
             "title": "P.S : Plasma Strike - GOD -",
@@ -93188,6 +93359,11 @@
                     "level": "0",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -94724,6 +94900,11 @@
                     "level": "4",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打4",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -98114,6 +98295,19 @@
             "levels": [
                 {
                     "level": "乱打3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "2834a50a2535d6f0edebdfd6588386b7",
+            "sha256": null,
+            "title": "Qubit Re: (00, +, -)",
+            "artist": "aki BGA:ちゃば Obj:149",
+            "levels": [
+                {
+                    "level": "乱打9",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -103073,6 +103267,19 @@
                     "level": "2",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "3622734d9de2acd412f3396b5ab80fe0",
+            "sha256": null,
+            "title": "RiZE UP [sbmstyle]",
+            "artist": "TiS feat.きゃと obj. sbs93310",
+            "levels": [
+                {
+                    "level": "sub乱打12",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -111441,7 +111648,7 @@
             "artist": "Marc-Andre' Hamelin",
             "levels": [
                 {
-                    "level": "重発狂5",
+                    "level": "sub重発狂5",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -114229,6 +114436,19 @@
             "levels": [
                 {
                     "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "da382b6da5427d0206a447853ce1777d",
+            "sha256": null,
+            "title": "Summer Carnival [Sunburst]",
+            "artist": "MONO vs sampling minor SUICA obj:sgn",
+            "levels": [
+                {
+                    "level": "重発狂6",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -119824,6 +120044,19 @@
             ]
         },
         {
+            "md5": "a194fe20fcfef53ebe60757d7a1fa76b",
+            "sha256": null,
+            "title": "The queen and her oaths [Lovely]",
+            "artist": "RB.H obj:VividCycle",
+            "levels": [
+                {
+                    "level": "sub乱打6",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "10f966ffed74d580bc8a81401cf2e874",
             "sha256": null,
             "title": "The sinking world -Special-",
@@ -125203,6 +125436,19 @@
                     "level": "5",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "f9374ea190f8772ece53a552f1afa7d7",
+            "sha256": null,
+            "title": "V!rtuaresort [Tour]",
+            "artist": "seatrus obj:でっていう99",
+            "levels": [
+                {
+                    "level": "sub乱打9",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -140203,6 +140449,19 @@
             ]
         },
         {
+            "md5": "4367c88cfee407fe179ea64828cfd00f",
+            "sha256": null,
+            "title": "fushigichan [不思議の国]",
+            "artist": "牧野 obj;A1ice",
+            "levels": [
+                {
+                    "level": "乱打7",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "e341ff8b7032c6b8ad5e051b81b8c61c",
             "sha256": "8e8fa8889ea6c1bda18f8fad889e298a97788eda13b4598d847ae3761860758f",
             "title": "fushigichan [羅王]",
@@ -141014,6 +141273,11 @@
                     "level": "6",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打6",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -158489,6 +158753,11 @@
                     "level": "5",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -158528,6 +158797,19 @@
                     "level": "7",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "255f5e59da50094fa9440ca20724e29a",
+            "sha256": null,
+            "title": "すばらきしこのせかい -闇の真相-",
+            "artist": "麦コロッケ obj.紳",
+            "levels": [
+                {
+                    "level": "sub乱打2",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -158608,6 +158890,11 @@
                     "level": "0",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -162540,6 +162827,19 @@
             ]
         },
         {
+            "md5": "10bab1df5c16f1f699752f4cc126575a",
+            "sha256": null,
+            "title": "イイコと妖狐 [光よ]",
+            "artist": "Kikuo (Movie: KAmE / BMS: Zris / obj: でっていう99)",
+            "levels": [
+                {
+                    "level": "sub乱打2",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "b73ebe8dfeae53406ed63b1e92c132af",
             "sha256": null,
             "title": "イカサマ・プロシージャ [smuggle]",
@@ -162821,6 +163121,19 @@
                     "level": "1",
                     "table": "dpsatellite",
                     "shortName": "DPsl"
+                }
+            ]
+        },
+        {
+            "md5": "c467a8b8a4330695816de07d5110e1fa",
+            "sha256": null,
+            "title": "インフェルノシティ [Egocentricity]",
+            "artist": "Ponchi feat.はぁち obj: 鈴木佳奈",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -169651,6 +169964,19 @@
             ]
         },
         {
+            "md5": "8337e2870c3a79d70fc45972b02c778a",
+            "sha256": null,
+            "title": "トルコ行進曲 (Hd-NRG mix) [WANDER]",
+            "artist": "celas respect for W.A.Mozart obj.鰐",
+            "levels": [
+                {
+                    "level": "重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "c9d719eebcb6f25cfb4977bababe9115",
             "sha256": "7ce419ed7f3bfb40960e0c99e299c9159f3571c227f86f5e5ed90ac6236a0e78",
             "title": "トルコ行進曲 (Hd-NRG mix) [s-ther]",
@@ -173734,6 +174060,19 @@
                     "level": "4",
                     "table": "dystopia",
                     "shortName": "dy"
+                }
+            ]
+        },
+        {
+            "md5": "f980bfc4a1364a68920c7fc48ef793b4",
+            "sha256": null,
+            "title": "ペイペイ2000[ルル]",
+            "artist": "モン・サン・ミシェル / obj:205",
+            "levels": [
+                {
+                    "level": "sub乱打5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -179370,6 +179709,11 @@
                     "level": "2",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
                 },
                 {
                     "level": "3",
@@ -186068,6 +186412,11 @@
             "artist": "K4Y5(Remix&cover:nekomimi_STRaw) / obj:Criyajuh",
             "levels": [
                 {
+                    "level": "sub重発狂5",
+                    "table": "16thranda",
+                    "shortName": ""
+                },
+                {
                     "level": "5",
                     "table": "like_st",
                     "shortName": "集"
@@ -188667,6 +189016,19 @@
                     "level": "3",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "eea82ac8683164e05a4d00b16076ffa3",
+            "sha256": null,
+            "title": "春をくれ[SUMMER]",
+            "artist": "Лет BGA:FALL obj:46*",
+            "levels": [
+                {
+                    "level": "乱打9",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -193179,6 +193541,19 @@
                     "level": "4",
                     "table": "overjoy",
                     "shortName": "★★"
+                }
+            ]
+        },
+        {
+            "md5": "662f3ef5893e107c38a26335b8cd6626",
+            "sha256": null,
+            "title": "爽の滴 [Sadalsuud]",
+            "artist": "GanniGanni obj:Beta Aquarii",
+            "levels": [
+                {
+                    "level": "sub乱打6",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -203083,6 +203458,19 @@
                     "level": "10",
                     "table": "dpsatellite",
                     "shortName": "DPsl"
+                }
+            ]
+        },
+        {
+            "md5": "c2d1402b94ec8aaa4f1bdc1f682b3b7d",
+            "sha256": null,
+            "title": "零廻転生 [incarnation]",
+            "artist": "Jeipouju obj:でっていう99",
+            "levels": [
+                {
+                    "level": "sub乱打11",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
