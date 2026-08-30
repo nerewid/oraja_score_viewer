@@ -1003,6 +1003,17 @@
             "site_url": "https://stellabms.xyz/song/3166"
         },
         {
+            "id": 300,
+            "md5": "39251109d3301719a118e293357b34dd",
+            "sha256": "c0a953ff42b9249ceeb58cab7b5bfe95a7ff5bbb1aa7d240722df936f02975e8",
+            "title": "天叢雲剣",
+            "artist": "しらいし / obj:夢瑠",
+            "url": "http://www1.axfc.net/uploader/He/so/355552",
+            "url_diff": "http://yumerusabun.web.fc2.com/nue.html",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/300"
+        },
+        {
             "id": 5832,
             "md5": "58e5de4a2ce0ea6b106b88cc04f941a3",
             "sha256": "a96f556c03b9801b0cc4bb84dceea9cb1dbf4071ce586ff721b55024046351c3",

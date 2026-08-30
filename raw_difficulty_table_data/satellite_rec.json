@@ -79,6 +79,17 @@
             "site_url": "https://stellabms.xyz/song/6161"
         },
         {
+            "id": 2477,
+            "md5": "9e8e5eab10786acf2c4418aa63b6ab4d",
+            "sha256": "3e3d4eb635573bfcd1fdec9f6d82b8065d9d01804cc0d6113464370814e4048d",
+            "title": "subconsciousness [Freud]",
+            "artist": "guna with チーム・キュッキュ / И",
+            "url": "http://aquaseeds.net/",
+            "url_diff": "https://parksu.darksabun.club/sabun/7/subconsciousness_7.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/2477"
+        },
+        {
             "id": 4409,
             "md5": "32f15e4a324ab1a2450913da7f121295",
             "sha256": "4859a7bb9cbe4260dec1a7b68aef6ddf67a8a26c91bee06265e3b86340ba6723",
@@ -165,6 +176,28 @@
             "url_diff": "",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/3605"
+        },
+        {
+            "id": 1553,
+            "md5": "c904c416b6e5cc133a84a0f80b38f5c3",
+            "sha256": "c6bf02c779ec7ceff610072132635157e0d89e6e20b4d73f26aa283b4ecf314f",
+            "title": "自強號 -到衛星-",
+            "artist": "痛男次郎 obj:bmstube",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=395&event=88",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02738.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/1553"
+        },
+        {
+            "id": 5938,
+            "md5": "667fb17a485e103c3663ed20dbee5a43",
+            "sha256": "a2ab12bcee4c1d8ac1b151ee2dbf24a8f187b7dd023b324cbbd6aba396ee6cb4",
+            "title": "Aquahighway [ANOTHER]",
+            "artist": "@gra_pha",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=66&event=121",
+            "url_diff": "",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/5938"
         },
         {
             "id": 4054,
