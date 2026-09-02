@@ -83,8 +83,125 @@ function generateProgressData(db) {
     }
 }
 
+// 描画済みヒートマップの設定。言語切り替え時の再描画に使う
+const heatmapSections = new Map();
+
+// 月別グラフの開閉状態を記憶するlocalStorageキーの接頭辞
+const MONTHLY_STORAGE_PREFIX = 'heatmapMonthly:';
+
+// 月別グラフを開いた状態で表示するか（未保存時は非表示）
+function isMonthlyVisible(sectionKey) {
+    try {
+        return localStorage.getItem(MONTHLY_STORAGE_PREFIX + sectionKey) === '1';
+    } catch (error) {
+        // localStorageが使えない環境では既定の非表示にフォールバックする
+        return false;
+    }
+}
+
+// 月別グラフの開閉状態を保存する
+function setMonthlyVisible(sectionKey, visible) {
+    try {
+        localStorage.setItem(MONTHLY_STORAGE_PREFIX + sectionKey, visible ? '1' : '0');
+    } catch (error) {
+        // localStorageが使えない環境では黙って無視する
+    }
+}
+
+// ヒートマップが表示している月を古い順に並べたキー配列（'YYYY-MM'）を作る
+function buildMonthKeys() {
+    const today = new Date();
+    const keys = [];
+    for (let back = HEATMAP_CONFIG.RANGE_MONTHS - 1; back >= 0; back--) {
+        const month = new Date(today.getFullYear(), today.getMonth() - back, 1);
+        keys.push(`${month.getFullYear()}-${String(month.getMonth() + 1).padStart(2, '0')}`);
+    }
+    return keys;
+}
+
+// 日別データ（date: 'YYYY-MM-DD'）を月別の合計とプレー日数に畳み込む
+function aggregateMonthly(dailyData) {
+    const monthly = new Map();
+    dailyData.forEach((row) => {
+        const monthKey = String(row.date).slice(0, 7);
+        const value = Number(row.value) || 0;
+        const current = monthly.get(monthKey) || { total: 0, days: 0 };
+        current.total += value;
+        if (value > 0) {
+            current.days += 1;
+        }
+        monthly.set(monthKey, current);
+    });
+    return monthly;
+}
+
+// 月別グラフの列をヒートマップの月カラムに揃えるため、描画済みSVGから実寸を読む
+function readColumnLayout(elementId) {
+    const domains = document.querySelectorAll(`#${elementId} .ch-domain`);
+    if (domains.length === 0) {
+        return null;
+    }
+    const width = parseFloat(domains[0].getAttribute('width'));
+    return Number.isFinite(width) ? { count: domains.length, width } : null;
+}
+
+// 見出し行（ラベル・合計・トグル）と月別グラフを描画する
+function renderSummary(config) {
+    const { sectionKey, elementId, labelKey, unitKey, data, showPlayDays } = config;
+    const header = document.getElementById(`${elementId}-pre`);
+    const panel = document.getElementById(`${elementId}-monthly`);
+    if (!header || !panel) {
+        return;
+    }
+
+    const monthly = aggregateMonthly(data);
+    const rows = buildMonthKeys().map((monthKey) => monthly.get(monthKey) || { total: 0, days: 0 });
+    const total = rows.reduce((sum, row) => sum + row.total, 0);
+    const playDays = rows.reduce((sum, row) => sum + row.days, 0);
+    const visible = isMonthlyVisible(sectionKey);
+
+    const subParts = [t('heatmap.range', { months: HEATMAP_CONFIG.RANGE_MONTHS })];
+    if (showPlayDays) {
+        subParts.push(t('heatmap.play_days', { days: playDays }));
+    }
+
+    header.className = 'heatmap-head';
+    header.innerHTML = `
+        <span class="heatmap-head-label">${t(labelKey)}</span>
+        <span class="heatmap-head-total">${total.toLocaleString('en-US')}<span class="heatmap-head-unit">${t(unitKey)}</span></span>
+        <span class="heatmap-head-sub">${subParts.join(' · ')}</span>
+        <button type="button" class="heatmap-monthly-toggle" aria-expanded="${visible}" aria-controls="${elementId}-monthly">${t(visible ? 'heatmap.hide_monthly' : 'heatmap.show_monthly')}</button>
+    `;
+
+    const layout = readColumnLayout(elementId);
+    const columns = layout ? `repeat(${layout.count}, ${layout.width}px)` : `repeat(${rows.length}, 1fr)`;
+    const gridStyle = `grid-template-columns:${columns};gap:0 ${HEATMAP_CONFIG.DOMAIN_GUTTER}px`;
+    const maxTotal = Math.max(...rows.map((row) => row.total), 0);
+    const bars = rows.map((row) => {
+        const height = maxTotal > 0 ? Math.round((row.total / maxTotal) * 72) : 0;
+        return `<div class="heatmap-bar"><b>${row.total.toLocaleString('en-US')}</b><i style="height:${height}%"></i></div>`;
+    }).join('');
+    const days = showPlayDays
+        ? `<div class="heatmap-days" style="${gridStyle}">${rows.map((row) => `<span>${row.days > 0 ? row.days + t('heatmap.day_suffix') : ''}</span>`).join('')}</div>`
+        : '';
+
+    panel.className = `heatmap-monthly heatmap-monthly-${sectionKey}`;
+    panel.innerHTML = `<div class="heatmap-chart"><div class="heatmap-bars" style="${gridStyle}">${bars}</div></div>${days}`;
+    panel.hidden = !visible;
+
+    header.querySelector('.heatmap-monthly-toggle').addEventListener('click', () => {
+        const nextVisible = panel.hidden;
+        panel.hidden = !nextVisible;
+        const toggle = header.querySelector('.heatmap-monthly-toggle');
+        toggle.setAttribute('aria-expanded', String(nextVisible));
+        toggle.textContent = t(nextVisible ? 'heatmap.hide_monthly' : 'heatmap.show_monthly');
+        setMonthlyVisible(sectionKey, nextVisible);
+    });
+}
+
 // Cal-Heatmap表示関数
-function displayCalHeatmap(data, elementId, title, limit, colorScheme, unit) {
+async function displayCalHeatmap(config) {
+    const { data, elementId, limit, colorScheme, tooltipUnit } = config;
     try {
         const cal = new CalHeatmap();
         const startDate = new Date();
@@ -97,13 +214,13 @@ function displayCalHeatmap(data, elementId, title, limit, colorScheme, unit) {
                     enabled: true,
                     text: function (timestamp, value, dayjsDate) {
                         const displayValue = value !== null ? value.toLocaleString() : 0;
-                        return `${dayjsDate.format('YYYY/MM/DD')}: ${displayValue} ${unit}`;
+                        return `${dayjsDate.format('YYYY/MM/DD')}: ${displayValue} ${tooltipUnit}`;
                     },
                 },
             ],
         ];
 
-        cal.paint({
+        await cal.paint({
             itemSelector: `#${elementId}`,
             range: HEATMAP_CONFIG.RANGE_MONTHS,
             domain:{
@@ -133,13 +250,19 @@ function displayCalHeatmap(data, elementId, title, limit, colorScheme, unit) {
                 },
             }
         }, plugins);
-        const element = document.getElementById(`${elementId}-pre`);
-        element.innerHTML = `<h1>${title}</h1>`;
+
+        heatmapSections.set(config.sectionKey, config);
+        renderSummary(config);
     } catch (error) {
         console.error("ヒートマップ生成エラー:", error);
         throw error;
     }
 }
+
+// 言語切り替え後に見出しと月別グラフを描き直す
+document.addEventListener('translations-applied', () => {
+    heatmapSections.forEach((config) => renderSummary(config));
+});
 
 
 // イベントリスナー
@@ -152,8 +275,28 @@ document.getElementById("processData").addEventListener("click", async () => {
     try {
         const heatmapData = await generateHeatmapData(scoreDbData, scorelogDbData);
 
-        displayCalHeatmap(heatmapData.notes, "cal-heatmap-notes", t('heatmap.notes'), HEATMAP_CONFIG.NOTES_LIMIT, HEATMAP_CONFIG.NOTES_COLOR_SCHEME, "Notes");
-        displayCalHeatmap(heatmapData.progress, "cal-heatmap-progress", t('heatmap.progress'), HEATMAP_CONFIG.PROGRESS_LIMIT, HEATMAP_CONFIG.PROGRESS_COLOR_SCHEME, t('heatmap.updates'));
+        await displayCalHeatmap({
+            sectionKey: 'notes',
+            elementId: 'cal-heatmap-notes',
+            data: heatmapData.notes,
+            labelKey: 'heatmap.notes',
+            unitKey: 'heatmap.unit_notes',
+            limit: HEATMAP_CONFIG.NOTES_LIMIT,
+            colorScheme: HEATMAP_CONFIG.NOTES_COLOR_SCHEME,
+            tooltipUnit: 'Notes',
+            showPlayDays: true
+        });
+        await displayCalHeatmap({
+            sectionKey: 'progress',
+            elementId: 'cal-heatmap-progress',
+            data: heatmapData.progress,
+            labelKey: 'heatmap.progress',
+            unitKey: 'heatmap.unit_updates',
+            limit: HEATMAP_CONFIG.PROGRESS_LIMIT,
+            colorScheme: HEATMAP_CONFIG.PROGRESS_COLOR_SCHEME,
+            tooltipUnit: t('heatmap.updates'),
+            showPlayDays: false
+        });
 
     } catch (error) {
         console.error("ヒートマップ処理エラー:", error);
