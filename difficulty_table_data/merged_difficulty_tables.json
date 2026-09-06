@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-08-30 17:12:24",
+    "Last Update": "2026-09-06 15:59:07",
     "tables": [
         "satellite",
         "stella",
@@ -5925,6 +5925,11 @@
                     "level": "3",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "sub乱打3",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -7258,7 +7263,7 @@
             "artist": "LeaF obj:1mi",
             "levels": [
                 {
-                    "level": "重発狂3",
+                    "level": "重発狂4",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -8586,6 +8591,11 @@
                     "level": "9",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打9",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -15994,7 +16004,7 @@
                     "shortName": "✡"
                 },
                 {
-                    "level": "重発狂6",
+                    "level": "重発狂5",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -16780,7 +16790,7 @@
                     "shortName": "st"
                 },
                 {
-                    "level": "重発狂5",
+                    "level": "重発狂3",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -17892,6 +17902,19 @@
                     "level": "4",
                     "table": "like_st",
                     "shortName": "集"
+                }
+            ]
+        },
+        {
+            "md5": "7bc7ba239004431017eba101c7fa3107",
+            "sha256": null,
+            "title": "Bad Beat! [Realize]",
+            "artist": "あとぅす / obj.碧音",
+            "levels": [
+                {
+                    "level": "重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -24605,6 +24628,19 @@
             ]
         },
         {
+            "md5": "3f38407664ab363d05624de41095a15b",
+            "sha256": null,
+            "title": "CLOUDY PARK [qodther]",
+            "artist": "Yu^ta / obj:qodtjr",
+            "levels": [
+                {
+                    "level": "重発狂9",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "07ecf7ada172fd367f396b59556b8764",
             "sha256": null,
             "title": "CLUB RENDA [入店禁止]",
@@ -27053,6 +27089,19 @@
                     "level": "10",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "ad397111d7fa265915d483b7a6210f18",
+            "sha256": null,
+            "title": "Celestial Axes [Equinox]",
+            "artist": "nmk / mov:わっふゑ obj:ugd",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -35112,6 +35161,11 @@
                     "level": "0",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "sub乱打0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -39249,7 +39303,7 @@
             "artist": "SOMON obj:IBARAGI_YOSHIMI",
             "levels": [
                 {
-                    "level": "重発狂6",
+                    "level": "重発狂5",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -48750,7 +48804,7 @@
             "artist": "ZUN(Arr.sun3) (obj.Snowzero | LED PLUS)",
             "levels": [
                 {
-                    "level": "重発狂6",
+                    "level": "重発狂5",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -69339,7 +69393,7 @@
                     "shortName": "✡"
                 },
                 {
-                    "level": "重発狂2",
+                    "level": "重発狂1",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -72757,6 +72811,11 @@
                     "level": "23",
                     "table": "new_generation",
                     "shortName": "▼"
+                },
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -78921,6 +78980,11 @@
                     "level": "0",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "sub重発狂0",
+                    "table": "16thranda",
+                    "shortName": ""
                 },
                 {
                     "level": "0",
@@ -87011,7 +87075,7 @@
             "artist": "Connexio obj:IBARAGI_YOSHIMI",
             "levels": [
                 {
-                    "level": "重発狂4",
+                    "level": "重発狂5",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -94274,7 +94338,7 @@
             "artist": "Reku Mochizuki obj:IBARAGI_YOSHIMI",
             "levels": [
                 {
-                    "level": "重発狂6",
+                    "level": "重発狂5",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -97024,6 +97088,19 @@
                 },
                 {
                     "level": "乱打7",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "d7586140d7cf0ed7fbc5bd5612721e80",
+            "sha256": null,
+            "title": "Promise on the Horizon(RadioMix) [GOD]",
+            "artist": "RYO-K as Forced Leaving fw. Teto Kasane obj.ユ",
+            "levels": [
+                {
+                    "level": "重発狂1",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -113633,7 +113710,7 @@
             "artist": "2TORI obj:sgn",
             "levels": [
                 {
-                    "level": "重発狂4",
+                    "level": "重発狂3",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -122856,7 +122933,7 @@
             "artist": "MIPSYLE BGA: ジンジャー塚原 obj. Atharnal",
             "levels": [
                 {
-                    "level": "重発狂5",
+                    "level": "重発狂4",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -130944,6 +131021,32 @@
             ]
         },
         {
+            "md5": "0de09bb41708f555c225fb22774d1290",
+            "sha256": null,
+            "title": "YAKUI [Immortal]",
+            "artist": "はがね bgi.ばんぶー / arr&obj:potechang",
+            "levels": [
+                {
+                    "level": "重発狂8",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "e67bf8439eaf9962485031d78b9c23a7",
+            "sha256": null,
+            "title": "YAKUI [Intense]",
+            "artist": "はがね bgi.ばんぶー / arr&obj:potechang",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "bc6cf4791e30e04f0079c806981840f9",
             "sha256": "0661764a0318b7364b806d2b175ff365280522bda55b1147384ce4e5f16e543c",
             "title": "YAKUI [SA]",
@@ -138821,6 +138924,19 @@
             ]
         },
         {
+            "md5": "6e1000f5611b1ecde548444b9a013eef",
+            "sha256": null,
+            "title": "endemize[EriCore!@#] [EriCore!@#]",
+            "artist": "あとぅす feat.つゆり花鈴 BGI:りーふぱいザウルス",
+            "levels": [
+                {
+                    "level": "乱打10",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "581d93fb6b2cff7f1f677f6408803535",
             "sha256": "8add165068b03cfb9caebd872eeae5e9df5ce5f421abec9a09233f88c61bd7ab",
             "title": "endless mirage [for some reason]",
@@ -144997,7 +145113,7 @@
             "artist": "SP-# remixed by LeaF obj:crasoL",
             "levels": [
                 {
-                    "level": "重発狂2",
+                    "level": "重発狂3",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -151318,7 +151434,7 @@
                     "shortName": "st"
                 },
                 {
-                    "level": "重発狂7",
+                    "level": "重発狂6",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -152746,6 +152862,11 @@
                     "level": "6",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "重発狂6",
+                    "table": "16thranda",
+                    "shortName": ""
                 },
                 {
                     "level": "1",
@@ -182321,6 +182442,11 @@
                     "level": "8",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "sub乱打8",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -205267,6 +205393,11 @@
                     "level": "9",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打9",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
