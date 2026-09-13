@@ -112,6 +112,17 @@
             "site_url": "https://stellabms.xyz/song/4734"
         },
         {
+            "id": 1551,
+            "md5": "de3c9a8f256d27e573e7e73e3dfea2d3",
+            "sha256": "9be795adc6ae907f854e15a39833c5bbd9d88280b9a6e5562ed3a17d813bf597",
+            "title": "the lost dedicated (another)",
+            "artist": "哀愁マニア",
+            "url": "https://onedrive.live.com/?id=EDC72D529484CBCB%21212&cid=EDC72D529484CBCB",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/1551"
+        },
+        {
             "id": 5747,
             "md5": "b979150d4fc37505d6b3d299f6a6265a",
             "sha256": "2d38e050cb1bbbe7513381c1e2e5101f85ac3d53f7e971e1705aed32bde714fa",
@@ -1344,6 +1355,17 @@
             "site_url": "https://stellabms.xyz/song/5309"
         },
         {
+            "id": 6361,
+            "md5": "c52b7002276bbb7c5ca2f437aa326ac0",
+            "sha256": "bb77af224e27ae402739d73ca3b649bc30cd86628eea4b3be7a1bec19bfcf1f5",
+            "title": "BEYOND [Duality]",
+            "artist": "Lime / obj:83929",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&event=133&num=492",
+            "url_diff": "https://stellabms.xyz/upload/4172",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/6361"
+        },
+        {
             "id": 6829,
             "md5": "c0ddfa9b0d26eb38c614ff65bc0cc326",
             "sha256": "9d40b53e01be27fa83e2ad09538ae34286ba571583be71b7dafbd89a39f76c36",
@@ -1364,17 +1386,6 @@
             "url_diff": "https://web.archive.org/web/20190917071620/http://sabosabun.tank.jp/",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/958"
-        },
-        {
-            "id": 2458,
-            "md5": "0e44e4ac3b9955124859563def40c3a4",
-            "sha256": "f2b7aa8dd5cb8a119bf3f829a10365004bc2a4da8a3d5349cd50f8dea259b80b",
-            "title": "Damnation 565 [F]",
-            "artist": "ETIA. Movie: Freezer obj:Fender",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=30&event=110",
-            "url_diff": "https://www.dropbox.com/s/jdrn8bvx9em7wmd/Damnation565FFF.zip?dl=1",
-            "level": "9",
-            "site_url": "https://stellabms.xyz/song/2458"
         },
         {
             "id": 1415,

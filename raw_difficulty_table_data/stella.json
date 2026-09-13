@@ -13,6 +13,17 @@
             "site_url": "https://stellabms.xyz/song/6691"
         },
         {
+            "id": 9809,
+            "md5": "2b58433bd9124e40c53276a7c4a821f9",
+            "sha256": "a5067639e8dcd734a7c0c52cae73174bbadcd945f1fdf9d003317910bef372a6",
+            "title": "* Crow Solace * (・ω・)",
+            "artist": "m108/さ BGA : 砂糖天麩羅 / シキイチル",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=61&event=83",
+            "url_diff": "https://web.archive.org/web/20181017230753/http://sabosabun.tank.jp/sabun/Crow%20Solace%20sabun.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9809"
+        },
+        {
             "id": 1005,
             "md5": "2f8beb8e0b2472121ec9c5f774f8fcef",
             "sha256": "7bc3dc5ae2d50f1f8f04927e02836df971b0bacaee3fd073ebdb75e1f1308188",
@@ -264,6 +275,17 @@
             "url_diff": "http://akred.web.fc2.com/baecon/sp_gkh_blaze_your_soul_06_spi-plus.bms",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/1943"
+        },
+        {
+            "id": 9829,
+            "md5": "47c3b854d3a1b48bda856731a63a701f",
+            "sha256": "778274774def8a3282b22b9178e3a4f50460d0234e0beef077d06a1284e990b1",
+            "title": "Broken FM [Rehabilitation]",
+            "artist": "おわりん obj:therapist",
+            "url": "https://venue.bmssearch.net/bmstukuru2024/72",
+            "url_diff": "https://stellabms.xyz/upload/7967",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9829"
         },
         {
             "id": 720,
@@ -1201,6 +1223,17 @@
             "site_url": "https://stellabms.xyz/song/1195"
         },
         {
+            "id": 9831,
+            "md5": "0813415d0d195d66c1c02028ce9ba1ae",
+            "sha256": "a536cfbb6301e86ece4aedd1bc1b3fb1b83793b4b4cf2189ec94efeedf518d88",
+            "title": "Off-grid [Trembling Moods]",
+            "artist": "Sobrem obj.PJ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=201&event=142",
+            "url_diff": "https://stellabms.xyz/upload/8140",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9831"
+        },
+        {
             "id": 888,
             "md5": "0d0114b144a52ddb64766e234cd2aaee",
             "sha256": "9ad082495c2709b291f4ddbae86e0a6a499e5bc600c2dfbab057cafe48de239d",
@@ -1254,6 +1287,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/01857.zip",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/497"
+        },
+        {
+            "id": 4412,
+            "md5": "acb300af338f3fd83aa733952aed6261",
+            "sha256": "9854a4edcb8ed1b7b45485bb97e8615da2e7d6ffae749b5847a4aa90f152f765",
+            "title": "P8107 (__)",
+            "artist": "onoken",
+            "url": "http://web.archive.org/web/20070111193502/www107.sakura.ne.jp/~onoken/htmls/bms.html",
+            "url_diff": "https://stellabms.xyz/upload/1170",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/4412"
         },
         {
             "id": 5541,
@@ -1342,17 +1386,6 @@
             "url_diff": "http://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/4023"
-        },
-        {
-            "id": 9295,
-            "md5": "1a2689b73230ed7231b99dcb9b44d026",
-            "sha256": "cf8e619fc7bc6f0853fbb7f3a2e60ecbc170893fa87ed4555ac4f3c493ca83aa",
-            "title": "Red End Dream[7key_EX]",
-            "artist": "daisan / Ds",
-            "url": "https://clockxellox.sakura.ne.jp/",
-            "url_diff": "http://sagena.harisen.jp/bms/redream_7X.zip",
-            "level": "0",
-            "site_url": "https://stellabms.xyz/song/9295"
         },
         {
             "id": 1083,
@@ -2389,6 +2422,17 @@
             "site_url": "https://stellabms.xyz/song/1674"
         },
         {
+            "id": 9787,
+            "md5": "5f39dc90e202ed59f1dd7221ab157c52",
+            "sha256": "6d6c8d8e69d8f024688b6781687ba629db37f2674cd68647d492a6c8b8d4e7b6",
+            "title": "私たちの恋は観音開き (百合とレズの境界)",
+            "artist": "髭姫 feat.しゆ＆橘花音＆えみゅう。 LYRICS：やんばるん BGA：髭姫 Arr.Milk_tya",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=217&event=96",
+            "url_diff": "https://darksabun.club/mirror/absolute/uploader/up4900.zip",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/9787"
+        },
+        {
             "id": 1767,
             "md5": "5d4c998f6b5742612478572b53327140",
             "sha256": "60b846d4e7c284cbf83a614035647f87cbd998c65ee93aaddc968cae0dcfcfd2",
@@ -2917,6 +2961,17 @@
             "site_url": "https://stellabms.xyz/song/651"
         },
         {
+            "id": 4507,
+            "md5": "dd36e9c11a77222a64e7f4e39deec7a3",
+            "sha256": "75395e7629042f385b548e8aa615f0b8d2b2db12d17915f3f0b91e38790cc0b5",
+            "title": "BIG CHUNGUS -IR-",
+            "artist": "Endigo / チュチャムスメ",
+            "url": "https://drive.google.com/file/d/1iKZ3BavYnb-g08uUWDmqq3UAE2S6JBpw/view?usp=sharing",
+            "url_diff": "https://darksabun.github.io/event/irbattle/",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/4507"
+        },
+        {
             "id": 7599,
             "md5": "92d393a060978c73317e2f47578e32a2",
             "sha256": "0738b7066f37b5f17672a4c7ca34f812e6744eb13906dbfd599d01c6b1435124",
@@ -3357,6 +3412,17 @@
             "site_url": "https://stellabms.xyz/song/2394"
         },
         {
+            "id": 3830,
+            "md5": "d9aef0de31c3aaaea6ca09ebf1c71033",
+            "sha256": "934c0a39f84bb79ff0903d648767ed79f907e4a435cc2174a1b4d6f23a174912",
+            "title": "Espada de los angeles (｀皿´メ)",
+            "artist": "CAELUS / 日焼女子愛好者",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=132",
+            "url_diff": "https://stellabms.xyz/upload/650",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/3830"
+        },
+        {
             "id": 2117,
             "md5": "518c27df28b90cc4043961b295f3a477",
             "sha256": "da3ef1dd6e7f52e1521c3d08b549d16666f340894afc1acc764f2bd551fda879",
@@ -3621,6 +3687,17 @@
             "site_url": "https://stellabms.xyz/song/5965"
         },
         {
+            "id": 4976,
+            "md5": "0ff88aed13ca2371d298ccd41c1fc8b2",
+            "sha256": "4c90fbddfd8d8638f0122a949bb1115637cc8adcff44c16c35e86f067ba0e985",
+            "title": "Highly Responsive to Penor Stimulation [魔界入門]",
+            "artist": "XD / LuvTek",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=129",
+            "url_diff": "https://darksabun.github.io/bceg/event/ondan9/",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/4976"
+        },
+        {
             "id": 4933,
             "md5": "01e0d67a5ba44cd57168ede127bfba3c",
             "sha256": "3c7643fd163be823fda722c89e0b3ed9db33497468293dbeb586f3b49952cb24",
@@ -3808,6 +3885,17 @@
             "site_url": "https://stellabms.xyz/song/546"
         },
         {
+            "id": 9835,
+            "md5": "9d77becdca3b0bde14c6d92adfd4efff",
+            "sha256": "599f672d46034c662433b2012208f43afb905c352d3e80cafe98158f336863e0",
+            "title": "Let's Go With...(TearDrop Remix)feat.Mai/重音テト[Kasther]",
+            "artist": "やまだぶりん a.k.a ゲヘナアカモップ BGI:たんっっ　obj:CC",
+            "url": "https://venue.bmssearch.net/morekivotos/8",
+            "url_diff": "",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9835"
+        },
+        {
             "id": 333,
             "md5": "af28bed2ac56e0fe868b8814aca5f39b",
             "sha256": "afbb33c55ce4b99143b596f056921cf2f02b69106e7b15dfbce6066ec73ee185",
@@ -3828,6 +3916,17 @@
             "url_diff": "",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/565"
+        },
+        {
+            "id": 9781,
+            "md5": "5d5ebae790c0ee02a137c4ed3b2123d9",
+            "sha256": "638f7e38242ff482510fb01711a899e553b8cb7dd69af1d142c240c2ad76bcf3",
+            "title": "Lonely Hina (・ω・)",
+            "artist": "Nurm/さ BGA:Roaring Flame",
+            "url": "http://yaruki0.sakura.ne.jp/event/ondanyugi5/impression.cgi?no=42",
+            "url_diff": "https://web.archive.org/web/20170430194202/http://sabosabun.tank.jp/sabun/hina%20sabun.zip",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9781"
         },
         {
             "id": 7640,
@@ -4369,6 +4468,17 @@
             "site_url": "https://stellabms.xyz/song/735"
         },
         {
+            "id": 9295,
+            "md5": "1a2689b73230ed7231b99dcb9b44d026",
+            "sha256": "cf8e619fc7bc6f0853fbb7f3a2e60ecbc170893fa87ed4555ac4f3c493ca83aa",
+            "title": "Red End Dream[7key_EX]",
+            "artist": "daisan / Ds",
+            "url": "https://clockxellox.sakura.ne.jp/",
+            "url_diff": "http://sagena.harisen.jp/bms/redream_7X.zip",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9295"
+        },
+        {
             "id": 4230,
             "md5": "1781746c6ad683f0382b4714131ed8cc",
             "sha256": "2c6d8a7bce66c58e3ed4169abff1ad513b61c8f94a9db8bf807f2d00bd4a689d",
@@ -4556,6 +4666,17 @@
             "site_url": "https://stellabms.xyz/song/1578"
         },
         {
+            "id": 9830,
+            "md5": "6ff3185d3f334278393bf457664372c0",
+            "sha256": "3072b232103df635db00b3912f7708abc7dd24e10ef969fe179072b357e17d3b",
+            "title": "Steel Seraph [Polar-Lunar]",
+            "artist": "ROyama / obj:kurekoduki",
+            "url": "https://venue.bmssearch.net/bossbms/20",
+            "url_diff": "https://stellabms.xyz/upload/5900",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9830"
+        },
+        {
             "id": 7549,
             "md5": "d2e4632857e150d7c55e6147c0651f6f",
             "sha256": "5e3143d03f758dbab2542ab6561d3aa451c3ff16f9faf15b6ffdf34f978e2122",
@@ -4642,6 +4763,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02996.zip",
             "level": "1",
             "site_url": "https://stellabms.xyz/song/1980"
+        },
+        {
+            "id": 2823,
+            "md5": "66efb916d034011260a72d7c7ec1c6aa",
+            "sha256": "1f095d05594e8a80764a75cd998598b4bd31d185d6049fff4e994b148374cd36",
+            "title": "the moon as seen from the void (GOD)",
+            "artist": "tdef / ZUN / obj. 子",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=129",
+            "url_diff": "",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/2823"
         },
         {
             "id": 7508,
@@ -6239,6 +6371,17 @@
             "site_url": "https://stellabms.xyz/song/6451"
         },
         {
+            "id": 3786,
+            "md5": "70fe11d2dce993a95cb1151a02d7d6d0",
+            "sha256": "8230f923c5a2cbd3dc237e3573da4549673ab4d2dc4b182d894814f9db51bc62",
+            "title": "Crystal palace [GOD]",
+            "artist": "SHIKI movie:Nyu / putain",
+            "url": "http://shiki2.sakura.ne.jp/fohs.html",
+            "url_diff": "https://stellabms.xyz/upload/739",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/3786"
+        },
+        {
             "id": 6978,
             "md5": "5a4b0662a93e962f0548642d1a254fa3",
             "sha256": "5288468878af4624a81a2ef22d798974903b914072e85575ad0ffe458f322ac3",
@@ -6872,7 +7015,7 @@
             "title": "Legend of Seeker [loke]",
             "artist": "remixed celas Notes:C4",
             "url": "http://web.archive.org/web/20160808001644/http://creation-records.info:80/bms.htm",
-            "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=02156",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02156.zip",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/9706"
         },
@@ -7163,6 +7306,17 @@
             "site_url": "https://stellabms.xyz/song/2062"
         },
         {
+            "id": 9786,
+            "md5": "1a9b9bf9d7daa2f220b4ed73e09b0ef1",
+            "sha256": "452998cfbcc96b1359351dcaba055583b10d90883788668f6c98f153d5304899",
+            "title": "Odin -GOD-",
+            "artist": "しらいし/obj:y",
+            "url": "https://drive.google.com/file/d/1_JODLqgTEqgVrGXb-Di_pFfd6JKlOqHJ/view?usp=drive_link",
+            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up3881.rar",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9786"
+        },
+        {
             "id": 5596,
             "md5": "be3aabd94f9b6bb119d89dcf30ec898f",
             "sha256": "f6e24d63d438b0d90b74bde03808aa7f825874e6d55405ad022c0229ba7cae7c",
@@ -7359,6 +7513,17 @@
             "url_diff": "https://stellabms.xyz/upload/3286",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/5918"
+        },
+        {
+            "id": 5120,
+            "md5": "db9c15fc7083e943879f0959a1373e89",
+            "sha256": "be41be7555a8690090e7e226970591734a14bbc2d9578a893ffd08926d3edc2f",
+            "title": "RIE-CHAN MADNESS ~ Director's Cut: hitoGoroshi_no_yoha.ogg (?)",
+            "artist": "plastic / Remix: AYhaz / BGI: Loni Voice : 來香 滄 & 些櫻 深月 / obj : tyrcs",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=121",
+            "url_diff": "https://venue.bmssearch.net/bcel_pre/16",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/5120"
         },
         {
             "id": 727,
@@ -7920,6 +8085,17 @@
             "url_diff": "https://dl.dropboxusercontent.com/s/hxi8nsfh9oq68gd/%E2%98%85%E2%98%852%20%E2%98%85%E2%98%855%20Valkyrie%20Revolutia%20%5BHexagon%5D%20%2B%20%5BSuper%20Hexagon%5D.zip",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/465"
+        },
+        {
+            "id": 9773,
+            "md5": "6612cd45753d2789670af9cf841e36ad",
+            "sha256": "6c02cc0814f60cba1653d6f7afb6be5a2dece07569edd18c69c4ae60529d171c",
+            "title": "Vermilion Comet* [EX]",
+            "artist": "CELLON./仙人掌の人",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=385&event=83",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9773"
         },
         {
             "id": 7591,
@@ -8877,6 +9053,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/6402"
+        },
+        {
+            "id": 9802,
+            "md5": "c3dcfb319494b245310bfc01dc78824e",
+            "sha256": "9177cb9272361df5a689f9d46faeed3e22bbf24e941b3668361c0d2bc7433a40",
+            "title": "AIWS [Bivdu]",
+            "artist": "くるぶっこちゃん BGA : geniway obj:1mi",
+            "url": "https://www.dropbox.com/s/o2i0op050jxjkeu/AIWS.zip?dl=1",
+            "url_diff": "https://stellabms.xyz/upload/5495",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9802"
         },
         {
             "id": 117,
@@ -10474,6 +10661,17 @@
             "site_url": "https://stellabms.xyz/song/2568"
         },
         {
+            "id": 9836,
+            "md5": "6e9f4edfbb72508d021ba5de7f164034",
+            "sha256": "4653f5b16cf53ba0f189d5bb4e293c7a64fac78148c66ec66cde6e9357aa0de4",
+            "title": "PHYSALIS [MASTER]",
+            "artist": "TAG bms.Spehs & Hihumi // movie.ShakeJ // obj.櫻井桃華",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=125&event=146",
+            "url_diff": "https://drive.google.com/file/d/1eQfBbLgI-q2kSP9Vy8jMPswzDy_c0b_r/view",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9836"
+        },
+        {
             "id": 5198,
             "md5": "8fd6aa79eb5aded7ef781c4c774d98fd",
             "sha256": "83659789cf24bb9776938c0ebd9b43d6bcdd9f4841f0a70b159035d5220b35f5",
@@ -11176,6 +11374,17 @@
             "url_diff": "https://drive.google.com/file/d/1KWm4qf-rZfbq46lGKDU-Bx6tyeqlEeKg/view?usp=sharing",
             "level": "3",
             "site_url": "https://stellabms.xyz/song/7851"
+        },
+        {
+            "id": 9865,
+            "md5": "e67bf8439eaf9962485031d78b9c23a7",
+            "sha256": "ccf09808097eff486e756c5ffa3c41c335cf93e2c53e9b985aa2634802a5302a",
+            "title": "YAKUI [Intense]",
+            "artist": "はがね bgi.ばんぶー / arr&obj:potechang",
+            "url": "https://docs.google.com/uc?export=download&id=0B8Buw0z19S9DU0hUQnJTWE5vRzA",
+            "url_diff": "https://stellabms.xyz/upload/8258",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/9865"
         },
         {
             "id": 6901,
@@ -12630,6 +12839,17 @@
             "site_url": "https://stellabms.xyz/song/129"
         },
         {
+            "id": 9803,
+            "md5": "d8e98e08ac459eee47d65c5ddc9f3cf8",
+            "sha256": "5b1f53996a3cf9e76cfc7fb232d5555f1ad5cd6b38720ca892a3bdbdb51aabd7",
+            "title": "Dark Candy [HEARTFUL]",
+            "artist": "Aspid Cat (BGA Kusanegi & Cattohato / obj:魔女 / BMS Aspid Cat)",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=29&event=146",
+            "url_diff": "https://stellabms.xyz/upload/5994",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9803"
+        },
+        {
             "id": 4308,
             "md5": "e4c0c032c04f970365b033dd99bbac18",
             "sha256": "2b848bea0600432e4fd74100b0483c7a4028544b5ba80ebc02776a92afeee14f",
@@ -12980,6 +13200,17 @@
             "url_diff": "https://bmsoflian.web.fc2.com/index.html",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/427"
+        },
+        {
+            "id": 9810,
+            "md5": "393bbd35de055992c24f5e69eb8ea221",
+            "sha256": "bd473988eb19366c84cfd67100a6740b44fc226f0df9ec467909c2e6e38a9d8e",
+            "title": "Gamegame(bms edit) [TREMBLE]",
+            "artist": "s-don / 篠乃ちよ / obj:Criyajuh",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=336&event=83",
+            "url_diff": "https://darksabun.club/mirror/absolute/uploader/up4593.zip",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9810"
         },
         {
             "id": 6403,
@@ -13904,6 +14135,17 @@
             "url_diff": "",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/2895"
+        },
+        {
+            "id": 5475,
+            "md5": "01fe7d00f4aeb61afc4ba900d7a2c1e4",
+            "sha256": "cb8846e58330c4c02fad4587b57e26800355345f71999e5f2ceceb623a69579d",
+            "title": "Song for Denim",
+            "artist": "Wide ステファン Walking",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=132",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/5475"
         },
         {
             "id": 5977,
@@ -15204,6 +15446,17 @@
             "site_url": "https://stellabms.xyz/song/1043"
         },
         {
+            "id": 9816,
+            "md5": "55cd97a4b5a44885caeab4a8c3eb7c7d",
+            "sha256": "b99e12ed47f65a6a879b03185a33ff418c3d4b8c3400689b39b361119f62847a",
+            "title": "Apocaliptix [Distress]",
+            "artist": "Juggernaut. BGA:Cube Obj:Guanacoite",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=233&event=127",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05036.zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/9816"
+        },
+        {
             "id": 3568,
             "md5": "8122a17d61cf9a6f6a09c79238310465",
             "sha256": "afe3c3b5f908e5d9fc14cdada47e1a413d58396a2e0417d42e5bf5f7c3f3cfb4",
@@ -15906,6 +16159,17 @@
             "url_diff": "http://kirakitsune.web.fc2.com/sabun.html",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/605"
+        },
+        {
+            "id": 9775,
+            "md5": "158b98994ecf9d6ae473031f6305527b",
+            "sha256": "6b1f52e727c2b8e682eb1a97420b47061c343cb73e346cb6f12f3719ccd1f739",
+            "title": "Halcyon [LEGEND]",
+            "artist": "xi",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=237&event=65",
+            "url_diff": "https://darksabun.github.io/mirror/absolute/uploader/up2062.zip",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/9775"
         },
         {
             "id": 4564,
@@ -16711,6 +16975,17 @@
             "site_url": "https://stellabms.xyz/song/8190"
         },
         {
+            "id": 9703,
+            "md5": "b4cc54b1990a8e2fca10614479e677ea",
+            "sha256": "af2dabf5b8013ad8e64bf28b0a3399a3964baccd93ece65a875826d25ec0a8ef",
+            "title": "stairway to the universe -To the End-",
+            "artist": "maki / selene.",
+            "url": "http://aquaseeds.net/",
+            "url_diff": "http://gnqg.rosx.net/upload/upload.cgi?get=03328",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/9703"
+        },
+        {
             "id": 672,
             "md5": "45294a6908dc4a0beb46702f142f864b",
             "sha256": "2346c04a1da674273eaf48e00306cda2651d4885b7b8c6525b5ac4052a555e91",
@@ -17228,6 +17503,17 @@
             "site_url": "https://stellabms.xyz/song/5986"
         },
         {
+            "id": 9695,
+            "md5": "504f9622e0efedd7286bd45adc7b37c9",
+            "sha256": "3c40bf7a57872e55451a9f6c85a2acaa9c0ba13617461e0f343235da64785bc1",
+            "title": "イナリッチ -mhmh-",
+            "artist": "LisicA movie : 自動車原付 / illust : Orphee / obj:mh",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=141&event=137",
+            "url_diff": "https://stellabms.xyz/upload/1353",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/9695"
+        },
+        {
             "id": 2780,
             "md5": "c73c2066207c940da3a94e5f32419287",
             "sha256": "a0d947d2ceac3bf56b0416198c93da8aead7fdd0ba623c944c453d91ad358c8e",
@@ -17701,6 +17987,17 @@
             "site_url": "https://stellabms.xyz/song/7902"
         },
         {
+            "id": 9689,
+            "md5": "ee97abac403633125e515f147a9dd4e2",
+            "sha256": "6b1a34e71101a917749f3639b4f7ec67054ec71db16b95ace21c21786a638b8a",
+            "title": "自強號 [EMU100+]",
+            "artist": "痛男次郎 obj:ELIGOS / Clodsire",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=395&event=88",
+            "url_diff": "https://stellabms.xyz/upload/2746",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/9689"
+        },
+        {
             "id": 6838,
             "md5": "5bfe1694918b55dac13d77bf6e6b98a7",
             "sha256": "94834a00cba9205fb981d17386ecd1aa6d82fee0e292cee64d5a32e7acb319d5",
@@ -17877,6 +18174,17 @@
             "site_url": "https://stellabms.xyz/song/341"
         },
         {
+            "id": 4371,
+            "md5": "b5998585661edaa392ba36f0607108fd",
+            "sha256": "de49bc4d038c6208d6a852bff8a000fd0b84764359c815e3f5a95c033805756d",
+            "title": "Acadia -あかんやつや-",
+            "artist": "Triangle Waste",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=304&event=116",
+            "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/05490.zip",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/4371"
+        },
+        {
             "id": 7739,
             "md5": "504ec7100f94b7ff8deb73c1a1724cd6",
             "sha256": "c0a6f6b32dbdc50da501d113c9c5110fb50feb3717adc95980529d34f4e72675",
@@ -18042,6 +18350,17 @@
             "site_url": "https://stellabms.xyz/song/9501"
         },
         {
+            "id": 9820,
+            "md5": "f0042337ad48e4cdcf3ee082688e51c6",
+            "sha256": "dd8783630a3f8102261c03b594cc6507a7d89355e14ebc19dd617c1d2ee97da3",
+            "title": "Boxel Adventure [akather]",
+            "artist": "7mai obj.akasaka",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=138&event=127",
+            "url_diff": "https://siromarudaisuki.github.io/akather.sabun/sabun/%E2%98%8524%20Boxel%20Adventure%20[akather].zip",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9820"
+        },
+        {
             "id": 7577,
             "md5": "01a33369a9994a6f459e18266fd18a7f",
             "sha256": "2b034c03774e756d6a43ab82054f1bca7afbc76390837270bb4120f25fd9cf07",
@@ -18091,7 +18410,7 @@
             "sha256": "969dcf1a8a8dc85c23dd83a9c51af68e4ac811583aa2bb4ec9f72cdfab739652",
             "title": "Cold Breath -Ragnarok-",
             "artist": "SHIKI / selene.",
-            "url": "http://shiki2.sakura.ne.jp/",
+            "url": "https://web.archive.org/web/20220316210526/http://shiki2.sakura.ne.jp/fohs.html",
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02269.zip",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/734"
@@ -18746,6 +19065,17 @@
             "site_url": "https://stellabms.xyz/song/2609"
         },
         {
+            "id": 9837,
+            "md5": "468cd7b788496fc8b0fc3dada8e49e11",
+            "sha256": "afffb4fa63dca77397744264a7c28bd7d061fb55369e18f687e064bd1d0739d0",
+            "title": "Plasmatic Universe [RE]",
+            "artist": "Quree BGA by Fiz obj:IBARAGI_YOSHIMI",
+            "url": "https://drive.google.com/file/d/1wuNfQbcbG2Y1b0yjxJM5m_tEhVhEc3PO/view",
+            "url_diff": "https://stellabms.xyz/upload/6314",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9837"
+        },
+        {
             "id": 481,
             "md5": "d97a2a85dca765f958ac7e90247e2985",
             "sha256": "05e825f0c6a3eb113a7a0fa87255e987a610d37b34809e1fded221b843e2ffb0",
@@ -19096,6 +19426,17 @@
             "url_diff": "https://bms.hexlataia.xyz/tables/hexajoy.html",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/3487"
+        },
+        {
+            "id": 9838,
+            "md5": "c873e16f8799bc2aee552edc351701ac",
+            "sha256": "2c70d464578dd9f09e95ba3143560e104bf60aaa3e95e60133c29ee52fb0c2f3",
+            "title": "Xerynth Zorok [Stiila]",
+            "artist": "wbr obj:1mi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=309&event=149",
+            "url_diff": "https://stellabms.xyz/upload/6696",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9838"
         },
         {
             "id": 6849,
@@ -19626,6 +19967,17 @@
             "site_url": "https://stellabms.xyz/song/7308"
         },
         {
+            "id": 5244,
+            "md5": "fbfdc2671b94dee5da97cfaf127b0a40",
+            "sha256": "e7888c2ac793757b16315ced4306c3ac46891b49b907c1d9dd3589b87276f2c2",
+            "title": "遠声 (VOICE)",
+            "artist": "道済　儚　及び　秋山　としのり Obj:И",
+            "url": "https://venue.bmssearch.net/bmskanji2/32",
+            "url_diff": "https://bms.parksulab.xyz",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/5244"
+        },
+        {
             "id": 8191,
             "md5": "768cdf22157bfc55ad6033b5c099b5f4",
             "sha256": "733c4162973ffd4e09a88c63b10b720f742d4b91eb370ceee3c82917ecd3f7ee",
@@ -19712,6 +20064,17 @@
             "url_diff": "https://stellabms.xyz/upload/1262",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/6735"
+        },
+        {
+            "id": 9839,
+            "md5": "fdae8f1930fada14432827a0d02ebd39",
+            "sha256": "cf521a7e478aeeb06c851d67224c6249300e9b70f5ddffb7af219b126a84226a",
+            "title": "3回ミスったら死ぬBMS -Harether-",
+            "artist": "ビタミンc obj:HARE",
+            "url": "https://drive.google.com/file/d/1vYLSU4s9k_whlGuE2rs2zYIH4MnpSZAq/view?usp=sharing",
+            "url_diff": "https://stellabms.xyz/upload/7986",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/9839"
         },
         {
             "id": 336,
@@ -19877,6 +20240,17 @@
             "url_diff": "http://gnqg.rosx.net/upload/",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/102"
+        },
+        {
+            "id": 9797,
+            "md5": "c728cd2edf7b2f1aeefff43f5fc4e852",
+            "sha256": "42b2ef8ad1e437b3ec9808ffc93e5397a184dfd21199b74e2f4df6834c0b302c",
+            "title": "black opal [Pentagon+]",
+            "artist": "TAK vs General / Jeff obj.hex / Clodsire",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=49",
+            "url_diff": "https://stellabms.xyz/upload/2446",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/9797"
         },
         {
             "id": 7932,
@@ -20075,6 +20449,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/00985.zip",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/434"
+        },
+        {
+            "id": 9821,
+            "md5": "bc38e962541240b069771ab046010708",
+            "sha256": "a76e5f0ff8155708cc23e6dce8de86bef20cb0a2f92f44de0d085f4c1f1163bc",
+            "title": "DRAGONLADY [HEARTLESS]",
+            "artist": "Nankumo BGA：Cube3 / obj&arr:魔女",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=41&event=60",
+            "url_diff": "https://stellabms.xyz/upload/3819",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/9821"
         },
         {
             "id": 319,
@@ -21507,6 +21892,17 @@
             "site_url": "https://stellabms.xyz/song/4410"
         },
         {
+            "id": 9854,
+            "md5": "0c859de43e22038ecb3d88596f87bbf5",
+            "sha256": "f02e9ab671335d74ca5575adc276a703fa69cbffcc35e3ad7f6f1f46a8e1cdf6",
+            "title": "comfort of your WARMTH [Anather7]",
+            "artist": "道済　儚　及び　秋山　としのり 作詞 イベライ/Emelia / obj:IBARAGI_YOSHIMI",
+            "url": "https://yaritaihoudie.fr/bumusu.html",
+            "url_diff": "https://stellabms.xyz/upload/5268",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/9854"
+        },
+        {
             "id": 30,
             "md5": "4cb8241ead798db25c94862d772a5b69",
             "sha256": "e932f376115d60f4205298489d17ee7f090d11013885d00ebd0acbc49d9b7df3",
@@ -22759,6 +23155,17 @@
             "url_diff": "https://stellabms.xyz/upload/3387",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/7126"
+        },
+        {
+            "id": 9700,
+            "md5": "0eb5ce07051a59ed186c6e10bfb93e4e",
+            "sha256": "06800a55bf8f5d157480ce07b398bf416aa5cd6be4fdf250849bdd415c9a635b",
+            "title": "Blue Dragoon [FULL]",
+            "artist": "kanone / sewing machine",
+            "url": "https://www.axfc.net/u/2299297",
+            "url_diff": "https://parksu.darksabun.club",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/9700"
         },
         {
             "id": 8281,
@@ -24255,6 +24662,17 @@
             "url_diff": "https://bms.hexlataia.xyz/mirror/gnqg-upload/02719.zip",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/1705"
+        },
+        {
+            "id": 9722,
+            "md5": "8298c24c98efed81599ddf7a2fabec17",
+            "sha256": "e8faf08274b332c13d7a72d17dfb407ac74ee7bbd3d3107990f5d85742317c16",
+            "title": "Total Eclipse of the Sun -32HELL-",
+            "artist": "-45 obj:PiPiNeko",
+            "url": "https://drive.google.com/file/d/1dFmUVUO1oEPytDkYAjkOBF3MWG-uaDym/view?usp=drive_link",
+            "url_diff": "https://stellabms.xyz/upload/5638",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/9722"
         },
         {
             "id": 96,

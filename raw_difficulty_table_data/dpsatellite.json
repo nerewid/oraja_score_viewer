@@ -5634,6 +5634,17 @@
             "site_url": "https://stellabms.xyz/song/6914"
         },
         {
+            "id": 9840,
+            "md5": "d9797ec3438546a30de775a6a4a22cf3",
+            "sha256": "1251045c02a15c015193b13300671ac5af08e1aed0485a3a6037d9be9625d198",
+            "title": "燃ゆる白狐、匍う大蛇 [DP 202THER+]",
+            "artist": "Exsy obj:plum",
+            "url": "https://venue.bmssearch.net/bmsshuin3/95",
+            "url_diff": "https://stellabms.xyz/upload/3024",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9840"
+        },
+        {
             "id": 7533,
             "md5": "0f9d1e704c0217403b5f90221675414f",
             "sha256": "6c2ce3f20ed864cf72d537deff1c324d61564ebd0a0f1cd7714ef784c7c2805f",
@@ -6171,6 +6182,17 @@
             "url_diff": "https://stellabms.xyz/upload/3241",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/6971"
+        },
+        {
+            "id": 9719,
+            "md5": "edd8ac847780d5264d2e13b6ae2c47b7",
+            "sha256": "117f59ae5beb3ebafebee10e7b6f846b98e23120e72c33fbb1002ba422232362",
+            "title": "Rifling Burster [lockdown]",
+            "artist": "アッサ?/obj:Hersh movie GAMEBAKA",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=288&event=110",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/165",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/9719"
         },
         {
             "id": 5417,

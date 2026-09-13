@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-09-06 15:59:07",
+    "Last Update": "2026-09-13 16:50:26",
     "tables": [
         "satellite",
         "stella",
@@ -1086,10 +1086,15 @@
         },
         {
             "md5": "2b58433bd9124e40c53276a7c4a821f9",
-            "sha256": null,
+            "sha256": "a5067639e8dcd734a7c0c52cae73174bbadcd945f1fdf9d003317910bef372a6",
             "title": "* Crow Solace * (・ω・)",
             "artist": "m108/さ BGA : 砂糖天麩羅 / シキイチル",
             "levels": [
+                {
+                    "level": "0",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "乱打12",
                     "table": "16thranda",
@@ -2683,6 +2688,11 @@
             "artist": "ビタミンc obj:HARE",
             "levels": [
                 {
+                    "level": "7",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
                     "level": "重発狂7",
                     "table": "16thranda",
                     "shortName": ""
@@ -3035,6 +3045,19 @@
                     "level": "乱打11",
                     "table": "16thranda",
                     "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "68ae5ea02933308a0e1aea0bf97f75a7",
+            "sha256": "1fe7689dc6d0605f0b42affa3f8deb142cad1d53e27692cfab139c8493cdc29e",
+            "title": "5Sremoved [Wrong.]",
+            "artist": "3034 Obj.Triforce",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -4909,6 +4932,11 @@
             "artist": "くるぶっこちゃん BGA : geniway obj:1mi",
             "levels": [
                 {
+                    "level": "3",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
                     "level": "重発狂3",
                     "table": "16thranda",
                     "shortName": ""
@@ -6215,10 +6243,15 @@
         },
         {
             "md5": "b5998585661edaa392ba36f0607108fd",
-            "sha256": null,
+            "sha256": "de49bc4d038c6208d6a852bff8a000fd0b84764359c815e3f5a95c033805756d",
             "title": "Acadia -あかんやつや-",
             "artist": "Triangle Waste",
             "levels": [
+                {
+                    "level": "6",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "5",
                     "table": "gachimijoy",
@@ -11677,6 +11710,11 @@
             "artist": "Nighthawk22 / BGA:MindCap and more from Geometry Dash",
             "levels": [
                 {
+                    "level": "22",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
+                {
                     "level": "重発狂3",
                     "table": "16thranda",
                     "shortName": ""
@@ -12190,6 +12228,19 @@
             ]
         },
         {
+            "md5": "4b3c8cc118616ffd99dee05afd7dbd3a",
+            "sha256": "08f82ebbc57643345f0761d4e056969e8a4e012a2c9b383e10b9057b377bd9a4",
+            "title": "Apfelkuchen [Cookie]",
+            "artist": "Shapla obj:でっていう99",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "b203ba580f3381c0314f45b5bda1fb3e",
             "sha256": "5ba3a40a4a1591ed5bc1f613581ed80c59cfefeee33c3593a429ff4a2334c2b1",
             "title": "Apocaliptix [Catastrophe]",
@@ -12209,10 +12260,15 @@
         },
         {
             "md5": "55cd97a4b5a44885caeab4a8c3eb7c7d",
-            "sha256": null,
+            "sha256": "b99e12ed47f65a6a879b03185a33ff418c3d4b8c3400689b39b361119f62847a",
             "title": "Apocaliptix [Distress]",
             "artist": "Juggernaut. BGA:Cube Obj:Guanacoite",
             "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂6",
                     "table": "16thranda",
@@ -12890,10 +12946,15 @@
         },
         {
             "md5": "6be6553e2125fd317974ff45c799b81b",
-            "sha256": null,
+            "sha256": "9fccefe526c8b5cdcc6fabc608b32ac6d6bbca4bb756b8042646da3714965027",
             "title": "Arcadia [R-FAIRYTALE]",
             "artist": "HaL feat. riri BGA fity obj:R054",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "sub乱打1",
                     "table": "16thranda",
@@ -12962,7 +13023,7 @@
             "artist": "RNY",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "23",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -13549,6 +13610,11 @@
             "title": "Artificial Queen [TRAGEDY]",
             "artist": "*レイナヒトミ / obj:Criyajuh",
             "levels": [
+                {
+                    "level": "27",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "9",
                     "table": "like_st",
@@ -14303,7 +14369,7 @@
             "artist": "Nego_tiator movie: ムッシュ竹崎 illust: てがみ / obj:Criyajuh",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "23",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -16590,6 +16656,19 @@
             ]
         },
         {
+            "md5": "dd36e9c11a77222a64e7f4e39deec7a3",
+            "sha256": "75395e7629042f385b548e8aa615f0b8d2b2db12d17915f3f0b91e38790cc0b5",
+            "title": "BIG CHUNGUS -IR-",
+            "artist": "Endigo / チュチャムスメ",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "14416f644a8ce6b2843f92cb2b96c052",
             "sha256": "ae2d2d5e503177d8a530fdd2a42497061167c587cc291007a6c7fcb3d87ed71d",
             "title": "BIG LOVE [DP LEGGENDARIA]",
@@ -18807,7 +18886,7 @@
             "artist": "DOANOB",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "23",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -19400,6 +19479,19 @@
                     "level": "9",
                     "table": "udegachi",
                     "shortName": "腕"
+                }
+            ]
+        },
+        {
+            "md5": "c7b6bd995526f0f1f0ab4d6bccd9f0c2",
+            "sha256": "1136e6043c7f264ad3a7869fb66809c6417ebef9eefe884b92de95f24a4599e7",
+            "title": "Beyond the Solar System [DP INSANE]",
+            "artist": "shimizushi BGA : Black MISS : isz / obj:plum",
+            "levels": [
+                {
+                    "level": "0",
+                    "table": "dpstella",
+                    "shortName": "DPst"
                 }
             ]
         },
@@ -21350,10 +21442,15 @@
         },
         {
             "md5": "0eb5ce07051a59ed186c6e10bfb93e4e",
-            "sha256": null,
+            "sha256": "06800a55bf8f5d157480ce07b398bf416aa5cd6be4fdf250849bdd415c9a635b",
             "title": "Blue Dragoon [FULL]",
             "artist": "kanone / sewing machine",
             "levels": [
+                {
+                    "level": "9",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "5",
                     "table": "gachimijoy",
@@ -21479,10 +21576,15 @@
         },
         {
             "md5": "5063699e72e4765e078d9e8819981647",
-            "sha256": null,
+            "sha256": "eb6015624f199e153da689972a382c7915a302bc3eea20e3563e1a57e00b1ce6",
             "title": "Blue Moment [Ethereal]",
             "artist": "TamaDo & YuKa obj:sgn",
             "levels": [
+                {
+                    "level": "17",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "乱打11",
                     "table": "16thranda",
@@ -22386,6 +22488,11 @@
             "levels": [
                 {
                     "level": "6",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
+                    "level": "6",
                     "table": "like_st",
                     "shortName": "集"
                 }
@@ -23041,6 +23148,11 @@
             "title": "Broken FM [Rehabilitation]",
             "artist": "おわりん obj:therapist",
             "levels": [
+                {
+                    "level": "0",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂0",
                     "table": "16thranda",
@@ -25153,6 +25265,19 @@
                     "level": "1",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "67a0aa1075c01fd6b3eae926d37eddd8",
+            "sha256": "5822922b0af7b96d402227fa23fc14e8c1a577c4252db6506398f13e65d45de5",
+            "title": "CUTSIC [EFIL]",
+            "artist": "",
+            "levels": [
+                {
+                    "level": "25",
+                    "table": "solomon",
+                    "shortName": "✡"
                 }
             ]
         },
@@ -31573,10 +31698,15 @@
         },
         {
             "md5": "70fe11d2dce993a95cb1151a02d7d6d0",
-            "sha256": null,
+            "sha256": "8230f923c5a2cbd3dc237e3573da4549673ab4d2dc4b182d894814f9db51bc62",
             "title": "Crystal palace [GOD]",
-            "artist": "SHIKI movie:Nyu",
+            "artist": "SHIKI movie:Nyu / putain",
             "levels": [
+                {
+                    "level": "2",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "22",
                     "table": "new_generation",
@@ -33877,6 +34007,19 @@
             ]
         },
         {
+            "md5": "bc38e962541240b069771ab046010708",
+            "sha256": "a76e5f0ff8155708cc23e6dce8de86bef20cb0a2f92f44de0d085f4c1f1163bc",
+            "title": "DRAGONLADY [HEARTLESS]",
+            "artist": "Nankumo BGA：Cube3 / obj&arr:魔女",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "94ac28961efc57aa7cbad0a54492b2b9",
             "sha256": null,
             "title": "DRAGONLADY [★★★★]",
@@ -34752,6 +34895,11 @@
             "artist": "Aspid Cat (BGA Kusanegi & Cattohato / obj:魔女 / BMS Aspid Cat)",
             "levels": [
                 {
+                    "level": "4",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
                     "level": "重発狂4",
                     "table": "16thranda",
                     "shortName": ""
@@ -35153,15 +35301,10 @@
         },
         {
             "md5": "23aaf5a0d8069d2cb506b37470355f78",
-            "sha256": "a72be7dfc5e11f04b67375101da08d55a94de137e94b243d7bed6d9c6e3abd30",
+            "sha256": null,
             "title": "Daybreak Skyline [SP ANOTHER]",
             "artist": "まろにー & 白羽 BGA : LLRKBGA : LLRK / obj : まろにー",
             "levels": [
-                {
-                    "level": "0",
-                    "table": "satellite",
-                    "shortName": "sl"
-                },
                 {
                     "level": "sub乱打0",
                     "table": "16thranda",
@@ -37787,7 +37930,7 @@
             "artist": "数％ウ obj: 柴田リエ",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "23",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -38608,6 +38751,11 @@
             "title": "Dstorv [false_fix]",
             "artist": "Feryquitous movie:Sight / obj_jakko",
             "levels": [
+                {
+                    "level": "3",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "4",
                     "table": "insane",
@@ -41202,6 +41350,19 @@
             ]
         },
         {
+            "md5": "c60cf15d9aa7a6ba5f668ec93af51919",
+            "sha256": "11e0b9c78021e53e91f919271a163302f059885abb9c4c92d3bbc79533fa4b26",
+            "title": "EXILE[HARDEST]",
+            "artist": "-45 /差分　赤い人",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "b1f052bab19862e0be6d1cdd96fb312c",
             "sha256": null,
             "title": "EXILE　[7_Clover]",
@@ -42333,6 +42494,19 @@
                     "level": "7",
                     "table": "like_st",
                     "shortName": "集"
+                }
+            ]
+        },
+        {
+            "md5": "92c48ee11e5c2393b7349812fdb4b132",
+            "sha256": "2244987fd6f1b02cb8937ce1cb26a0e08d1874bc2d3a40fd854880142d82323d",
+            "title": "Emit [Emotional]",
+            "artist": "Re-Te obj.Mallow♪",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -43473,6 +43647,11 @@
             "artist": "Music : eFeL / BGA : 鑓田(Alpha complex)",
             "levels": [
                 {
+                    "level": "3",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
+                {
                     "level": "6",
                     "table": "insane",
                     "shortName": "★"
@@ -44006,6 +44185,19 @@
                     "level": "0",
                     "table": "dystopia",
                     "shortName": "dy"
+                }
+            ]
+        },
+        {
+            "md5": "d9aef0de31c3aaaea6ca09ebf1c71033",
+            "sha256": "934c0a39f84bb79ff0903d648767ed79f907e4a435cc2174a1b4d6f23a174912",
+            "title": "Espada de los angeles (｀皿´メ)",
+            "artist": "CAELUS / 日焼女子愛好者",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -54084,10 +54276,15 @@
         },
         {
             "md5": "84787abf5657061b312d002d1bdc72e7",
-            "sha256": null,
+            "sha256": "3f21af0644b4156f012cb1d895f2bee4de4b81a866a41d7f2188e7450bd7bcb7",
             "title": "GOODDRILL [削]",
             "artist": "EBIMAYO obj:Lian",
             "levels": [
+                {
+                    "level": "6",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "10",
                     "table": "new_generation",
@@ -54816,10 +55013,15 @@
         },
         {
             "md5": "393bbd35de055992c24f5e69eb8ea221",
-            "sha256": null,
+            "sha256": "bd473988eb19366c84cfd67100a6740b44fc226f0df9ec467909c2e6e38a9d8e",
             "title": "Gamegame(bms edit) [TREMBLE]",
             "artist": "s-don / 篠乃ちよ / obj:Criyajuh",
             "levels": [
+                {
+                    "level": "4",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "2",
                     "table": "gachimijoy",
@@ -54926,6 +55128,11 @@
             "title": "Ganglion [pardieu]",
             "artist": "かんざきしおん / parabolam",
             "levels": [
+                {
+                    "level": "27",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "10",
                     "table": "like_st",
@@ -55737,7 +55944,7 @@
             "artist": "LeaF Movie:Fiz / obj:potechang",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "24",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -58627,6 +58834,29 @@
             ]
         },
         {
+            "md5": "158b98994ecf9d6ae473031f6305527b",
+            "sha256": "6b1f52e727c2b8e682eb1a97420b47061c343cb73e346cb6f12f3719ccd1f739",
+            "title": "Halcyon [LEGEND]",
+            "artist": "xi",
+            "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
+                    "level": "重発狂5",
+                    "table": "16thranda",
+                    "shortName": ""
+                },
+                {
+                    "level": "0",
+                    "table": "dystopia",
+                    "shortName": "dy"
+                }
+            ]
+        },
+        {
             "md5": "07fc1a120fab1efa8c054019a33f744a",
             "sha256": null,
             "title": "Halcyon [Limit Edition]",
@@ -58690,24 +58920,6 @@
                     "level": "重発狂2",
                     "table": "16thranda",
                     "shortName": ""
-                }
-            ]
-        },
-        {
-            "md5": "158b98994ecf9d6ae473031f6305527b",
-            "sha256": null,
-            "title": "Halcyon[LEGEND]",
-            "artist": "xi",
-            "levels": [
-                {
-                    "level": "重発狂5",
-                    "table": "16thranda",
-                    "shortName": ""
-                },
-                {
-                    "level": "0",
-                    "table": "dystopia",
-                    "shortName": "dy"
                 }
             ]
         },
@@ -61071,10 +61283,15 @@
         },
         {
             "md5": "0ff88aed13ca2371d298ccd41c1fc8b2",
-            "sha256": null,
+            "sha256": "4c90fbddfd8d8638f0122a949bb1115637cc8adcff44c16c35e86f067ba0e985",
             "title": "Highly Responsive to Penor Stimulation [魔界入門]",
             "artist": "XD / LuvTek",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "1",
                     "table": "gachimijoy",
@@ -72992,7 +73209,7 @@
             "artist": "Raimukun vs. Reku Mochizuki movie:poca_p0ca / obj:IBARAGI_YOSHIMI",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "27",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -73317,12 +73534,30 @@
             "md5": "9d77becdca3b0bde14c6d92adfd4efff",
             "sha256": "599f672d46034c662433b2012208f43afb905c352d3e80cafe98158f336863e0",
             "title": "Let's Go With...(TearDrop Remix)feat.Mai/重音テト[Kasther]",
-            "artist": "やまだぶりん a.k.a ゲヘナアカモップ / BGI:たんっっ　obj:CC",
+            "artist": "やまだぶりん a.k.a ゲヘナアカモップ BGI:たんっっ　obj:CC",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "1",
                     "table": "like_st",
                     "shortName": "集"
+                }
+            ]
+        },
+        {
+            "md5": "060abd98a13dd37e0ef02db935696b80",
+            "sha256": "e38d5dcd2dd6651aa61641c1976a708c8effad82f11f8358bb3e14022c992b93",
+            "title": "Let's Go With...(TearDrop Remix)feat.Mai/重音テト[coaster]",
+            "artist": "やまだぶりん a.k.a ゲヘナアカモップ BGI:たんっっ　obj:CC",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -75673,10 +75908,15 @@
         },
         {
             "md5": "5d5ebae790c0ee02a137c4ed3b2123d9",
-            "sha256": null,
+            "sha256": "638f7e38242ff482510fb01711a899e553b8cb7dd69af1d142c240c2ad76bcf3",
             "title": "Lonely Hina (・ω・)",
             "artist": "Nurm/さ BGA:Roaring Flame",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "1",
                     "table": "gachimijoy",
@@ -77297,6 +77537,19 @@
             ]
         },
         {
+            "md5": "8894de955e7ee61cb8c7862af7a9b65d",
+            "sha256": "94a5a04518fe3d384d88fd3b54c08d21cb49776f0d3695952a790dabd5268aee",
+            "title": "Lumichan Chronicles [V]",
+            "artist": "",
+            "levels": [
+                {
+                    "level": "20",
+                    "table": "solomon",
+                    "shortName": "✡"
+                }
+            ]
+        },
+        {
             "md5": "9710af92ded4027a05ecc59be1103072",
             "sha256": "06f36ad7e762fed982d19cf59c8d4688bd8117fd189a065036d600d12dcee8bd",
             "title": "Luminance",
@@ -78643,6 +78896,11 @@
                     "level": "12",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "18",
+                    "table": "solomon",
+                    "shortName": "✡"
                 }
             ]
         },
@@ -79918,7 +80176,7 @@
             "artist": "Baby Zionov & andromaeda obj:C.IKEDA",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "19",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -83181,7 +83439,7 @@
             "artist": "U2 Remixed by rider obj:ugd",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "17",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -85619,9 +85877,9 @@
             ]
         },
         {
-            "md5": "6c93733c0f6bfe72eb45acacb086904f",
-            "sha256": "4c24f2b09e8e781a221e70443ba48a06a09a2275a36d1f983771885dd721fc2a",
-            "title": "NS18 [DRIZZLE] ",
+            "md5": "161e21c0c9193997f0b1577d3e80de73",
+            "sha256": "ac89bd0ba25dca1fe59ca8f8f3b539945a2d8645fec3fd9fb1695a8aea76b4ee",
+            "title": "NS18 [DRIZZLE_f] ",
             "artist": "",
             "levels": [
                 {
@@ -86138,6 +86396,11 @@
             "title": "Nebul@ (4n07h3r m1x) [Ph@nt0m L1ber7y]",
             "artist": "Darknoid mov. 古氷 / obj. foxtrot",
             "levels": [
+                {
+                    "level": "21",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "1",
                     "table": "like_st",
@@ -89271,8 +89534,13 @@
             "md5": "1a9b9bf9d7daa2f220b4ed73e09b0ef1",
             "sha256": "452998cfbcc96b1359351dcaba055583b10d90883788668f6c98f153d5304899",
             "title": "Odin -GOD-",
-            "artist": "しらいし",
+            "artist": "しらいし/obj:y",
             "levels": [
+                {
+                    "level": "2",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "22",
                     "table": "solomon",
@@ -89409,7 +89677,7 @@
             "artist": "Sobrem obj:E",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "22",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -89430,6 +89698,19 @@
                     "level": "3",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "0813415d0d195d66c1c02028ce9ba1ae",
+            "sha256": "a536cfbb6301e86ece4aedd1bc1b3fb1b83793b4b4cf2189ec94efeedf518d88",
+            "title": "Off-grid [Trembling Moods]",
+            "artist": "Sobrem obj.PJ",
+            "levels": [
+                {
+                    "level": "0",
+                    "table": "stella",
+                    "shortName": "st"
                 }
             ]
         },
@@ -91507,10 +91788,15 @@
         },
         {
             "md5": "acb300af338f3fd83aa733952aed6261",
-            "sha256": null,
+            "sha256": "9854a4edcb8ed1b7b45485bb97e8615da2e7d6ffae749b5847a4aa90f152f765",
             "title": "P8107 (__)",
             "artist": "onoken",
             "levels": [
+                {
+                    "level": "0",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂0",
                     "table": "16thranda",
@@ -92244,6 +92530,11 @@
             "title": "PHYSALIS [MASTER]",
             "artist": "TAG bms.Spehs & Hihumi // movie.ShakeJ // obj.櫻井桃華",
             "levels": [
+                {
+                    "level": "3",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "3",
                     "table": "like_st",
@@ -94759,6 +95050,11 @@
             "title": "Plasmatic Universe [RE]",
             "artist": "Quree BGA by Fiz obj:IBARAGI_YOSHIMI",
             "levels": [
+                {
+                    "level": "6",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂6",
                     "table": "16thranda",
@@ -99692,6 +99988,19 @@
             ]
         },
         {
+            "md5": "db9c15fc7083e943879f0959a1373e89",
+            "sha256": "be41be7555a8690090e7e226970591734a14bbc2d9578a893ffd08926d3edc2f",
+            "title": "RIE-CHAN MADNESS ~ Director's Cut: hitoGoroshi_no_yoha.ogg (?)",
+            "artist": "plastic / Remix: AYhaz / BGI: Loni Voice : 來香 滄 & 些櫻 深月 / obj : tyrcs",
+            "levels": [
+                {
+                    "level": "2",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "27cf4ed5f8e68af2680c18ff04c8f07d",
             "sha256": "31cb7ae9e62cf9995dd171ac62c11e528efe21492a6129edb5259c56e5dc3bc2",
             "title": "RISE AGAIN (ANOTHER)",
@@ -101057,6 +101366,19 @@
             ]
         },
         {
+            "md5": "0179b79acdc62a009c03eb652a9b6f8f",
+            "sha256": "b5a6b9b2ff29b752c803d2ef409390c03fb7846f85e842c90628026ffc12093b",
+            "title": "Re:VENGER [SP INSANE]",
+            "artist": "MiKaDo",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "18c58a17968b1c9fe1986f89ee3a0112",
             "sha256": "4a1755f71763ff0441fb25cbaef4e3dc36d8ba20e5b06db298390a89c013da45",
             "title": "ReLieX [Another Dimensions]",
@@ -101910,7 +102232,7 @@
             "artist": "daisan / Ds",
             "levels": [
                 {
-                    "level": "0",
+                    "level": "1",
                     "table": "stella",
                     "shortName": "st"
                 },
@@ -103116,6 +103438,19 @@
             ]
         },
         {
+            "md5": "0b23e81e75837b617f7ed1da59312e16",
+            "sha256": "f97177177943cf2fffbf642fe3566b5efa9040146e3b66371933542b0cb73d12",
+            "title": "Retrospective [ANOTHER+]",
+            "artist": "Snowyplane obj.うに",
+            "levels": [
+                {
+                    "level": "3",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "6fa8841c21fb7f6d4a53b0d7bc05cb09",
             "sha256": null,
             "title": "Reveil [7key/Extra]",
@@ -103635,6 +103970,19 @@
             "levels": [
                 {
                     "level": "10",
+                    "table": "dpsatellite",
+                    "shortName": "DPsl"
+                }
+            ]
+        },
+        {
+            "md5": "edd8ac847780d5264d2e13b6ae2c47b7",
+            "sha256": "117f59ae5beb3ebafebee10e7b6f846b98e23120e72c33fbb1002ba422232362",
+            "title": "Rifling Burster [lockdown]",
+            "artist": "アッサ?/obj:Hersh movie GAMEBAKA",
+            "levels": [
+                {
+                    "level": "7",
                     "table": "dpsatellite",
                     "shortName": "DPsl"
                 }
@@ -105030,19 +105378,6 @@
                     "level": "5",
                     "table": "stella",
                     "shortName": "st"
-                }
-            ]
-        },
-        {
-            "md5": "897adab09034a4d855ab0d6112a5f0f0",
-            "sha256": "9b3087aa8b56a5df5b3efc1b3320e09d91688a5939b4483f5747641165c0e43d",
-            "title": "S.S : Spectral Stream -Eternity-",
-            "artist": "",
-            "levels": [
-                {
-                    "level": "18",
-                    "table": "solomon",
-                    "shortName": "✡"
                 }
             ]
         },
@@ -107726,6 +108061,19 @@
             ]
         },
         {
+            "md5": "d87073e892259f5c5c9770d8826d4aa9",
+            "sha256": "ef867fcbc21dd3f76fbfdc035c0b11ca0add1efec41ebdc729568547e445916c",
+            "title": "Saturation of Love [Kvama]",
+            "artist": "",
+            "levels": [
+                {
+                    "level": "25",
+                    "table": "solomon",
+                    "shortName": "✡"
+                }
+            ]
+        },
+        {
             "md5": "a38fcd8a5d6779fea4de309e8d613bd3",
             "sha256": "1108f0286b36ad2856e60f44a458ef9ff21c1cb5eb8105eb1e4f243fb9f0f63a",
             "title": "Saudade -nostalgia-",
@@ -109598,10 +109946,15 @@
         },
         {
             "md5": "d9eb1843b016948e3810cf8caed6f4fa",
-            "sha256": null,
-            "title": "Shadowland Cityscape [Labyrinthe]",
+            "sha256": "c0ad410445b6269b756e1da9d63ad4a51b19f64d60fe4789137001d593bf4e1f",
+            "title": "Shadowland Cityscape [Labyrinthe] ",
             "artist": "Jeipouju obj:でっていう99",
             "levels": [
+                {
+                    "level": "20",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "重発狂1",
                     "table": "16thranda",
@@ -109766,10 +110119,15 @@
         },
         {
             "md5": "f55d2595d0eda2db07775da666e26bc3",
-            "sha256": null,
+            "sha256": "1d6846fcaf0a8a117fa336adb1559603105441bf7f9464f0f0abc33e3086a71b",
             "title": "Shelter (DOATHER)",
             "artist": "ANKAKE obj:DOANOB",
             "levels": [
+                {
+                    "level": "6",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "乱打5",
                     "table": "16thranda",
@@ -112059,6 +112417,32 @@
             ]
         },
         {
+            "md5": "01fe7d00f4aeb61afc4ba900d7a2c1e4",
+            "sha256": "cb8846e58330c4c02fad4587b57e26800355345f71999e5f2ceceb623a69579d",
+            "title": "Song for Denim",
+            "artist": "Wide ステファン Walking",
+            "levels": [
+                {
+                    "level": "4",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
+            "md5": "64d74b7fefcc2d41e21643f600e1a81d",
+            "sha256": "95e514653c0509349f686c931ef9eaa94655a0dabd2a1ea1131305ff51a55d35",
+            "title": "Song for Denim [unmeasured]",
+            "artist": "Wide ステファン Walking obj:kei_iwata",
+            "levels": [
+                {
+                    "level": "11",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "bbdd0fb2feee959ed78721a6f21b38ac",
             "sha256": null,
             "title": "Songe-Nuage [OVERCAST]",
@@ -113518,6 +113902,11 @@
             "title": "Steel Seraph [Polar-Lunar]",
             "artist": "ROyama / obj:kurekoduki",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂2",
                     "table": "16thranda",
@@ -119847,6 +120236,11 @@
                     "level": "10",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "17",
+                    "table": "solomon",
+                    "shortName": "✡"
                 }
             ]
         },
@@ -121694,6 +122088,11 @@
             "title": "Total Eclipse of the Sun -32HELL-",
             "artist": "-45 obj:PiPiNeko",
             "levels": [
+                {
+                    "level": "10",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂10",
                     "table": "16thranda",
@@ -126200,10 +126599,15 @@
         },
         {
             "md5": "d9f16cec329ca6b573937fd82b7773fa",
-            "sha256": null,
+            "sha256": "e058b298231d4f17de9bb159700f79726614f15561d1cac98f65eb98b44882c5",
             "title": "VERITAS [Crystal]",
             "artist": "69 de 74 BGA:Kengo Nakao / OBJ:hecando",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "乱打1",
                     "table": "16thranda",
@@ -127138,10 +127542,15 @@
         },
         {
             "md5": "6612cd45753d2789670af9cf841e36ad",
-            "sha256": null,
+            "sha256": "6c02cc0814f60cba1653d6f7afb6be5a2dece07569edd18c69c4ae60529d171c",
             "title": "Vermilion Comet* [EX]",
             "artist": "CELLON./仙人掌の人",
             "levels": [
+                {
+                    "level": "2",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂2",
                     "table": "16thranda",
@@ -128230,6 +128639,19 @@
             ]
         },
         {
+            "md5": "2fad46fe99d9c95b3886930e7706a1e5",
+            "sha256": "947465a20729e16bddce60cc097fb407ab92dd99dd352b359a9da25c437c2a02",
+            "title": "War in the Mirrorworld [UNITHER]",
+            "artist": "Aoi mov:SELDO / obj:1008",
+            "levels": [
+                {
+                    "level": "12",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "33b310a34b44ad6bd8f4b56e7c9be431",
             "sha256": "a84321bab3a1bf974090b08dddaddd63cc1b09c38d163be9cac98bb9c822313f",
             "title": "War in the Mirrorworld [ZANDACLAUS]",
@@ -128766,7 +129188,7 @@
             "artist": "paraneumann obj:PhysicalThinhuman/arr:魔女",
             "levels": [
                 {
-                    "level": "7",
+                    "level": "8",
                     "table": "satellite",
                     "shortName": "sl"
                 },
@@ -129406,10 +129828,15 @@
         },
         {
             "md5": "4d245a09365c0a266db1de83549e11e3",
-            "sha256": null,
+            "sha256": "77bf6aeca64ba028e8abccb371bdaaed64a689be7e516a117a5a5e620c70df3b",
             "title": "Wings for the Dreamers [SECONDWIND]",
             "artist": "OverNote' / obj:Criyajuh",
             "levels": [
+                {
+                    "level": "21",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "重発狂1",
                     "table": "16thranda",
@@ -130683,6 +131110,11 @@
             "artist": "wbr obj:1mi",
             "levels": [
                 {
+                    "level": "6",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
                     "level": "重発狂6",
                     "table": "16thranda",
                     "shortName": ""
@@ -131035,10 +131467,15 @@
         },
         {
             "md5": "e67bf8439eaf9962485031d78b9c23a7",
-            "sha256": null,
+            "sha256": "ccf09808097eff486e756c5ffa3c41c335cf93e2c53e9b985aa2634802a5302a",
             "title": "YAKUI [Intense]",
             "artist": "はがね bgi.ばんぶー / arr&obj:potechang",
             "levels": [
+                {
+                    "level": "3",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂3",
                     "table": "16thranda",
@@ -135136,10 +135573,15 @@
         },
         {
             "md5": "c728cd2edf7b2f1aeefff43f5fc4e852",
-            "sha256": null,
+            "sha256": "42b2ef8ad1e437b3ec9808ffc93e5397a184dfd21199b74e2f4df6834c0b302c",
             "title": "black opal [Pentagon+]",
             "artist": "TAK vs General / Jeff obj.hex / Clodsire",
             "levels": [
+                {
+                    "level": "7",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂8",
                     "table": "16thranda",
@@ -136458,6 +136900,19 @@
             ]
         },
         {
+            "md5": "0c859de43e22038ecb3d88596f87bbf5",
+            "sha256": "f02e9ab671335d74ca5575adc276a703fa69cbffcc35e3ad7f6f1f46a8e1cdf6",
+            "title": "comfort of your WARMTH [Anather7]",
+            "artist": "道済　儚　及び　秋山　としのり 作詞 イベライ/Emelia / obj:IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "a04df8485b1fbe7bfa9e8db5130e0368",
             "sha256": "d525bf34f65644091b2fc3d906be2bbc8e0ef07663c01e6da1e6fc6054d38834",
             "title": "comic magic -DP ANOTHER-",
@@ -137184,7 +137639,7 @@
                     "shortName": "sl"
                 },
                 {
-                    "level": "提案",
+                    "level": "18",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -138240,6 +138695,19 @@
                     "level": "2",
                     "table": "stella",
                     "shortName": "st"
+                }
+            ]
+        },
+        {
+            "md5": "ccf74982bd5f1c6f2e95881eaa34ca15",
+            "sha256": "ca60640e4ed892dd4ebec799e8bab3052f878bac761f7b569a404ac9ce8859e5",
+            "title": "echo [言葉]",
+            "artist": "黒皇帝 feat. qfeileadh + 高城みよ Movie: DARUMUL/obj.Baiicat",
+            "levels": [
+                {
+                    "level": "0",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -140755,6 +141223,19 @@
                     "level": "6",
                     "table": "stella",
                     "shortName": "st"
+                }
+            ]
+        },
+        {
+            "md5": "1c40c9c62b755275805a47a8457ba0cf",
+            "sha256": "0d3f7ba752a0374e5afe1eacd4b462f89454ea5a5a04f7a2feb593ad8e3f9b1e",
+            "title": "freewheeling [Fashionable] ",
+            "artist": "",
+            "levels": [
+                {
+                    "level": "21",
+                    "table": "solomon",
+                    "shortName": "✡"
                 }
             ]
         },
@@ -145779,6 +146260,19 @@
             ]
         },
         {
+            "md5": "869cc79745fd54db3aa1824c2cc1ce5d",
+            "sha256": "f7f2b1eb59ef673dcd17ff8b24ca68befa8e8be900fd2277337358ca2f27d4ca",
+            "title": "on impetus -for noobetus-",
+            "artist": "ルゼ obj. AYhaz",
+            "levels": [
+                {
+                    "level": "3",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "3c1b0c08bb95416e97a385bb6b0d241b",
             "sha256": "e159048a56219921cfed097294af06e58e0eef11fdac6dedad66cd0141962def",
             "title": "on the WAVE -EXTRA-",
@@ -148136,19 +148630,6 @@
             ]
         },
         {
-            "md5": "08d5195f34a425ea7d545ba6cf39c074",
-            "sha256": "4ff3862ee3445c24da7d181d140847e653d5844eb2d2c3fba0c0b975979134a9",
-            "title": "reflection [7KEYS ANOTHER]",
-            "artist": "Kyuzo Sameura",
-            "levels": [
-                {
-                    "level": "0",
-                    "table": "satellite",
-                    "shortName": "sl"
-                }
-            ]
-        },
-        {
             "md5": "864cd738c77820e47b534d5604076ad5",
             "sha256": "74b502274763347ed9cb2e2181657d666d9b8f0f3f6a2036988e94fd9991acb1",
             "title": "reflective moment -DP NORMAL-",
@@ -150385,10 +150866,15 @@
         },
         {
             "md5": "b4cc54b1990a8e2fca10614479e677ea",
-            "sha256": null,
+            "sha256": "af2dabf5b8013ad8e64bf28b0a3399a3964baccd93ece65a875826d25ec0a8ef",
             "title": "stairway to the universe -To the End-",
             "artist": "maki / selene.",
             "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "4",
                     "table": "gachimijoy",
@@ -152149,6 +152635,19 @@
             ]
         },
         {
+            "md5": "66efb916d034011260a72d7c7ec1c6aa",
+            "sha256": "1f095d05594e8a80764a75cd998598b4bd31d185d6049fff4e994b148374cd36",
+            "title": "the moon as seen from the void (GOD)",
+            "artist": "tdef / ZUN / obj. 子",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "stella",
+                    "shortName": "st"
+                }
+            ]
+        },
+        {
             "md5": "94d7e2656e59e8bcc04914dc8739c349",
             "sha256": "fae4312e09124086fb9822d3d3733622b09973b2c83a82ffd3238efe6cf8d6e8",
             "title": "the scenario -Xe-",
@@ -152977,10 +153476,15 @@
         },
         {
             "md5": "24861de178ec4021ac5eb3f3df4bec7c",
-            "sha256": null,
+            "sha256": "3df5f70e503d3604e9807898f1394d4fe3acbd69270d6e6e442387edc49aff6a",
             "title": "tinnitus [Ringing]",
             "artist": "SP-# obj:SUGAR.",
             "levels": [
+                {
+                    "level": "18",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "乱打12",
                     "table": "16thranda",
@@ -153865,6 +154369,19 @@
             ]
         },
         {
+            "md5": "6e0eac130ea90b969bc218c68b9494b2",
+            "sha256": "e8157b89e97931a0b097ddc4969bcc7cd21d96846e0e836d9e4f540d8ddc02cb",
+            "title": "volcanic [Another]",
+            "artist": "DETRO / 奈那樹",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "c8b0f0ddb18b0210afae0dfb8f80631d",
             "sha256": "db4259d9c54371e6cd80edfb25c6b0be6edb48e9c859d6345b534f0c0c6d381c",
             "title": "volcanic [N14]",
@@ -154286,6 +154803,19 @@
             "levels": [
                 {
                     "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "b93fcf928a9a4c5a47ab6a106b61fd89",
+            "sha256": "77cdf7580aca1bda0e47ff8a6aec003a8a9c41feb9de4d59bee9ddd13861a044",
+            "title": "work.it ＾＾overtime",
+            "artist": "dandeless obj:多要素糞譜面暴食症候群",
+            "levels": [
+                {
+                    "level": "12",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -159432,6 +159962,11 @@
             "artist": "4 obj : JURUMA",
             "levels": [
                 {
+                    "level": "22",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
+                {
                     "level": "2",
                     "table": "like_st",
                     "shortName": "集"
@@ -161831,10 +162366,15 @@
         },
         {
             "md5": "f685e88b8d29c38b37c5a94d4a94d2c2",
-            "sha256": null,
+            "sha256": "c2c0abb7d56e412461f135cabc32b9891faab4fa88d8e498cbad38a8d8f392a4",
             "title": "わるいコ [Atharther]",
             "artist": "nekomimi_STRaw obj. Atharnal",
             "levels": [
+                {
+                    "level": "9",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "乱打8",
                     "table": "16thranda",
@@ -163420,10 +163960,15 @@
         },
         {
             "md5": "504f9622e0efedd7286bd45adc7b37c9",
-            "sha256": null,
+            "sha256": "3c40bf7a57872e55451a9f6c85a2acaa9c0ba13617461e0f343235da64785bc1",
             "title": "イナリッチ -mhmh-",
             "artist": "LisicA movie : 自動車原付 / illust : Orphee / obj:mh",
             "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "0",
                     "table": "dystopia",
@@ -163666,10 +164211,15 @@
         },
         {
             "md5": "c467a8b8a4330695816de07d5110e1fa",
-            "sha256": null,
-            "title": "インフェルノシティ [Egocentricity]",
+            "sha256": "23840c2e423ef37b841bbc91574d0c1c0071a7335387856fa078845226997ff9",
+            "title": "インフェルノシティ [Egocentricity] ",
             "artist": "Ponchi feat.はぁち obj: 鈴木佳奈",
             "levels": [
+                {
+                    "level": "23",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "重発狂3",
                     "table": "16thranda",
@@ -169010,6 +169560,11 @@
             "artist": "momo★yama",
             "levels": [
                 {
+                    "level": "24",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
+                {
                     "level": "重発狂5",
                     "table": "16thranda",
                     "shortName": ""
@@ -170505,10 +171060,15 @@
         },
         {
             "md5": "8337e2870c3a79d70fc45972b02c778a",
-            "sha256": null,
+            "sha256": "eeecd45ee5b585bc15b47ba8adf2c87bc8bb9d5d87ff54fc6d37b2e40c4317b7",
             "title": "トルコ行進曲 (Hd-NRG mix) [WANDER]",
             "artist": "celas respect for W.A.Mozart obj.鰐",
             "levels": [
+                {
+                    "level": "23",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "重発狂1",
                     "table": "16thranda",
@@ -172234,7 +172794,7 @@
             "artist": "",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "17",
                     "table": "solomon",
                     "shortName": "✡"
                 }
@@ -174889,7 +175449,7 @@
             "artist": "",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "18",
                     "table": "solomon",
                     "shortName": "✡"
                 }
@@ -184558,6 +185118,19 @@
             ]
         },
         {
+            "md5": "317d10f938b4884335106338d4e64b59",
+            "sha256": "481840b08e7ce23b445162dd2ec3500c01645c40525899638610afd997c2b987",
+            "title": "妖々跋扈 (ほやほや)",
+            "artist": "ZUN 差分　BMSをしていないミーティ",
+            "levels": [
+                {
+                    "level": "5",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "cdd882a55d73c4c6876504b66026f982",
             "sha256": "cb112144e70388fe3930fa6e178fe4712ead1c81b58da12ffdaf39a3b17e9611",
             "title": "妖晶零弐 -Ω-",
@@ -187902,7 +188475,7 @@
                     "shortName": "st"
                 },
                 {
-                    "level": "提案",
+                    "level": "25",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -191146,10 +191719,15 @@
         },
         {
             "md5": "17ca0e8c068dba60fb32b75b85dcefcd",
-            "sha256": null,
+            "sha256": "b89fca873b0996bf472da847cd2067624c39c20c6a3ef4e7a4c5488e7f0de52c",
             "title": "根を追う風に光明を [FLEDGLING]",
             "artist": "らふむ(lufm) BGA:朧烏 / obj:Criyajuh",
             "levels": [
+                {
+                    "level": "21",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "重発狂1",
                     "table": "16thranda",
@@ -193680,6 +194258,11 @@
             "artist": "oo-kani feat.東北きりたん obj:東北きりたん",
             "levels": [
                 {
+                    "level": "28",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
+                {
                     "level": "11",
                     "table": "udegachi",
                     "shortName": "腕"
@@ -193992,6 +194575,19 @@
             ]
         },
         {
+            "md5": "d9797ec3438546a30de775a6a4a22cf3",
+            "sha256": "1251045c02a15c015193b13300671ac5af08e1aed0485a3a6037d9be9625d198",
+            "title": "燃ゆる白狐、匍う大蛇 [DP 202THER+]",
+            "artist": "Exsy obj:plum",
+            "levels": [
+                {
+                    "level": "6",
+                    "table": "dpsatellite",
+                    "shortName": "DPsl"
+                }
+            ]
+        },
+        {
             "md5": "c74628ae5c1b3d3e70140a972ff496d0",
             "sha256": "a89337764e3e4bb49c392f599a8a1f229c5b78da6fc99729b76c1a50000eaf2e",
             "title": "燃ゆる白狐、匍う大蛇 [連なる音符]",
@@ -194208,6 +194804,19 @@
             "levels": [
                 {
                     "level": "12",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "09d8b8b0e6ff525ac8b154d079b47776",
+            "sha256": "e5ef9c8714d87830302e0dadf7c1916cd38a4ebd2f06b20e207aa10abd662b79",
+            "title": "牧歌は双星を匿して [σφαiρα]",
+            "artist": "Asterimo",
+            "levels": [
+                {
+                    "level": "8",
                     "table": "satellite",
                     "shortName": "sl"
                 }
@@ -194570,6 +195179,19 @@
                     "level": "4",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "4c9ead215ef1d29265a83e0e90e64a45",
+            "sha256": "7ec1e56015e6dc17b7e6f9388c8138b962708a1d42f2a5e792a58da374249cd3",
+            "title": "王位継承 [Snother]",
+            "artist": "しらいし / obj:スノート",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -195877,10 +196499,15 @@
         },
         {
             "md5": "b0101ec5e2df62633b65bd7b059f0748",
-            "sha256": null,
+            "sha256": "d4feb76e7ad5cc276482ce85ca00b251857791cf944de396677344499adb36d1",
             "title": "白鯨と黎明の譜 [TIDAL WAVE]",
             "artist": "Connexio obj:でっていう99",
             "levels": [
+                {
+                    "level": "17",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "乱打11",
                     "table": "16thranda",
@@ -196873,10 +197500,15 @@
         },
         {
             "md5": "5f39dc90e202ed59f1dd7221ab157c52",
-            "sha256": null,
+            "sha256": "6d6c8d8e69d8f024688b6781687ba629db37f2674cd68647d492a6c8b8d4e7b6",
             "title": "私たちの恋は観音開き (百合とレズの境界)",
             "artist": "髭姫 feat.しゆ＆橘花音＆えみゅう。 LYRICS：やんばるん BGA：髭姫 Arr.Milk_tya",
             "levels": [
+                {
+                    "level": "0",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "20",
                     "table": "new_generation",
@@ -198715,10 +199347,15 @@
         },
         {
             "md5": "4895bd23b4a853f09f3fcbe99a4876ad",
-            "sha256": null,
+            "sha256": "9a3d79cb499566fe3ae485778302d394838faca551967e377dda2ae34a090c15",
             "title": "羅武浪漫好",
             "artist": "けいずとふぁいん",
             "levels": [
+                {
+                    "level": "3",
+                    "table": "satellite",
+                    "shortName": "sl"
+                },
                 {
                     "level": "6",
                     "table": "new_generation",
@@ -198764,7 +199401,7 @@
                     "shortName": "st"
                 },
                 {
-                    "level": "提案",
+                    "level": "23",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -198968,6 +199605,19 @@
                     "level": "乱打5",
                     "table": "16thranda",
                     "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "73cf122e78dec318136399c71936cc58",
+            "sha256": "3559f5aee4675aeaf162d3a46c05bbf6a05411ccface37b78a4d7dbdd119aa92",
+            "title": "翼の折れた天使たちのレクイエム[HARDEST]",
+            "artist": "Sakamiya feat.前野 mov:hx/obj:赤い人",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -199278,10 +199928,15 @@
         },
         {
             "md5": "ee97abac403633125e515f147a9dd4e2",
-            "sha256": null,
+            "sha256": "6b1a34e71101a917749f3639b4f7ec67054ec71db16b95ace21c21786a638b8a",
             "title": "自強號 [EMU100+]",
             "artist": "痛男次郎 obj:ELIGOS / Clodsire",
             "levels": [
+                {
+                    "level": "5",
+                    "table": "stella",
+                    "shortName": "st"
+                },
                 {
                     "level": "重発狂5",
                     "table": "16thranda",
@@ -199559,6 +200214,11 @@
             "title": "花一匁 [Kvama]",
             "artist": "utzbo × etowa feat.mihira Video: Xerila / Illust: うまるつふり / obj:1mi",
             "levels": [
+                {
+                    "level": "26",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "8",
                     "table": "like_st",
@@ -200307,6 +200967,19 @@
             ]
         },
         {
+            "md5": "0e924e2fb05083fa91e9fac559cf3d9c",
+            "sha256": "7236bacbc43b1a0bc7758764d1c850e25ae85969956195c5375ee70b9a65c9ab",
+            "title": "薄明 [Somniphobia]",
+            "artist": "bitterlettuce+Cutos+Fran* obj:Scely",
+            "levels": [
+                {
+                    "level": "1",
+                    "table": "satellite",
+                    "shortName": "sl"
+                }
+            ]
+        },
+        {
             "md5": "9efd3a958f5f34ddbbe9068262673652",
             "sha256": "f5592b36470ce4b00156879e777dc7b289e64e11306312a5c7c3a843a5131946",
             "title": "薄雲 [14KEYS ANOTHER]",
@@ -200401,10 +201074,15 @@
         },
         {
             "md5": "52d620cc1cdb45e7d4e50daefedbdea3",
-            "sha256": null,
+            "sha256": "649275b7789586db3e23ddf34838ae726b33b1ba2fa6f260b62ce1c4704ca9b1",
             "title": "藍より青い憧憬 [BLAU]",
             "artist": "Jun Kuroda feat.mirto obj.MICHI",
             "levels": [
+                {
+                    "level": "18",
+                    "table": "solomon",
+                    "shortName": "✡"
+                },
                 {
                     "level": "乱打10",
                     "table": "16thranda",
@@ -202777,14 +203455,32 @@
         },
         {
             "md5": "fbfdc2671b94dee5da97cfaf127b0a40",
-            "sha256": null,
+            "sha256": "e7888c2ac793757b16315ced4306c3ac46891b49b907c1d9dd3589b87276f2c2",
             "title": "遠声 (VOICE)",
             "artist": "道済　儚　及び　秋山　としのり Obj:И",
             "levels": [
                 {
+                    "level": "6",
+                    "table": "stella",
+                    "shortName": "st"
+                },
+                {
                     "level": "1",
                     "table": "dystopia",
                     "shortName": "dy"
+                }
+            ]
+        },
+        {
+            "md5": "aa240006d2915ca8e305977f526a7a26",
+            "sha256": "567b09258d01575c9a6dc1f1b6ac685738b13628e93583ec6429c19df28e4cce",
+            "title": "遠声 (嵐)",
+            "artist": "道済　儚　及び　秋山　としのり / 藍",
+            "levels": [
+                {
+                    "level": "6",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
@@ -205128,7 +205824,7 @@
             "artist": "HALLPBE.S obj:fua",
             "levels": [
                 {
-                    "level": "提案",
+                    "level": "18",
                     "table": "solomon",
                     "shortName": "✡"
                 },
@@ -205175,6 +205871,19 @@
                     "level": "10",
                     "table": "dpsatellite",
                     "shortName": "DPsl"
+                }
+            ]
+        },
+        {
+            "md5": "353539c6b8a99b2aa87dbd558d436490",
+            "sha256": "e1a2fd3f7225d454cf04d990dfa6769e0ef7e51b72b8c41f48dcaeca727a7d98",
+            "title": "馬黒 [SP Another]",
+            "artist": "ですワ",
+            "levels": [
+                {
+                    "level": "0",
+                    "table": "satellite",
+                    "shortName": "sl"
                 }
             ]
         },
