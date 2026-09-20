@@ -663,6 +663,18 @@
         },
         {
             "level": "1",
+            "md5": "71bd48fc050b88d529db151685ab1cc9",
+            "sha256": "ab156b8919fe211ec49196dbc8d8472116fb0fc2399f7ff31acd8cecce329dfd",
+            "genre": "Nostalgia",
+            "title": "Zeitfluss [DP Another]",
+            "artist": "sugar BGI : なぎうなぎ / Logo : LOTUS",
+            "url": "https://venue.bmssearch.net/bmsshuin2/9",
+            "url_diff": "",
+            "comment": "同梱譜面",
+            "site_url": "https://ir.stellabms.xyz/charts/71bd48fc050b88d529db151685ab1cc9"
+        },
+        {
+            "level": "1",
             "md5": "9845ab8e83b87b2481c7cf729af5152a",
             "sha256": "60ef563d51c7c49331f0279e6d15a9b64ef23082d15cbb0c0e6212886f4e460c",
             "genre": "SERMENT",
@@ -1090,7 +1102,7 @@
             "artist": "あとぅす feat.橘花音 BGI:りーふぱいザウルス / obj:plum",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=124&event=133",
             "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpihFu2zv759M_CQdLu?e=Rnw2aA",
-            "comment": null,
+            "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/33dcbf24bf983f3a897ad45220e95754"
         },
         {
@@ -2031,6 +2043,18 @@
         },
         {
             "level": "3",
+            "md5": "4f6c7017e31e5d6955a537a23fe4dba5",
+            "sha256": "6c0485111423081651e2a0ffe0ada8388baca4ff6f386e2cf4935b9607483b91",
+            "genre": "euro trance",
+            "title": "sensitive (14AHO)",
+            "artist": "white crystal",
+            "url": "http://web.archive.org/web/20070218160503/http://sazanka.sakura.ne.jp/~2tdm/bms.htm",
+            "url_diff": "http://www8.atwiki.jp/14key/pages/23.html",
+            "comment": "2014/08/16 本体・差分入手可発狂難易度変更投票期間 〜2014/09/13★5→★4",
+            "site_url": "https://ir.stellabms.xyz/charts/4f6c7017e31e5d6955a537a23fe4dba5"
+        },
+        {
+            "level": "3",
             "md5": "414b27885a03e180d92b176b526f377c",
             "sha256": "685e25015a050aebf8fc6f74a515279252f41e939ca9662d15223b0f790451ea",
             "genre": "TECH HOUSE",
@@ -2859,6 +2883,18 @@
         },
         {
             "level": "4",
+            "md5": "39e1112f221cd157584157f7c0b4697a",
+            "sha256": "77834849124c0773f84f8aaa20ccf39e03e6e8dd58c4fea080ff3a8932710c50",
+            "genre": "SWING WALTZ /// 14KEYS PRETTY PRETTY LN",
+            "title": "pretty kitty, yes?",
+            "artist": "Y.W BGA: kotomi",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=142",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/39e1112f221cd157584157f7c0b4697a"
+        },
+        {
+            "level": "4",
             "md5": "61b458d72813e37c022ed8ab68c8c12c",
             "sha256": "5e0a793bd030d0a8a3828ac7e94832afb96620dce675be1ff7f8b865850eeee4",
             "genre": "folk groove(ANOTHER)",
@@ -2880,18 +2916,6 @@
             "url_diff": "https://web.archive.org/web/20130527142822/http://www.geocities.jp/penmawashi2000/dpbms/scarlet_zone_dp.zip",
             "comment": "本体はこちらからhttps://onedrive.live.com/?cid=2e71a39cea9b6ce3&id=2E71A39CEA9B6CE3!1162014/03/17 上記URLは公式によるOneDriveと思われます。差分はアドレス欄に直接URLを書き込むとDL可能。※上記URLについてhttp://2melody4p.blog76.fc2.com/blog-entry-557.htmlにて公式で旧skydriveが紹介されていますが、旧skydriveがonedriveになったためそのまま短縮アドレスから飛ぶとリンク切れみたいになっています。短縮前のアドレスはhttp://cid-2e71a39cea9b6ce3.office.live.com/browse.aspx/.Documentsで、onedriveの仕様に合わせて書き換えると以下のようになります。https://onedrive.live.com/?cid=2e71a39cea9b6ce3https://web.archive.org/web/20130527142822/http://www.geocities.jp/penmawashi2000/dpbms/scarlet_zone_dp.zip",
             "site_url": "https://ir.stellabms.xyz/charts/eab667be2232802ae30fcdaa542d79e5"
-        },
-        {
-            "level": "4",
-            "md5": "4f6c7017e31e5d6955a537a23fe4dba5",
-            "sha256": "6c0485111423081651e2a0ffe0ada8388baca4ff6f386e2cf4935b9607483b91",
-            "genre": "euro trance",
-            "title": "sensitive (14AHO)",
-            "artist": "white crystal",
-            "url": "http://web.archive.org/web/20070218160503/http://sazanka.sakura.ne.jp/~2tdm/bms.htm",
-            "url_diff": "http://www8.atwiki.jp/14key/pages/23.html",
-            "comment": "2014/08/16 本体・差分入手可発狂難易度変更投票期間 〜2014/09/13★5→★4",
-            "site_url": "https://ir.stellabms.xyz/charts/4f6c7017e31e5d6955a537a23fe4dba5"
         },
         {
             "level": "4",
@@ -4011,6 +4035,18 @@
         },
         {
             "level": "6",
+            "md5": "44c6283ff029cbdeabee84fe253aaff9",
+            "sha256": "a065295108bdd1d9c29fbd23446b63535b23b424913a6aeaf0364bd18e98f0cf",
+            "genre": "La soletude",
+            "title": "Amnehilesie [DP Another]",
+            "artist": "MisomyL obj:mathath",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=362&event=123",
+            "url_diff": "",
+            "comment": "同梱譜面",
+            "site_url": "https://ir.stellabms.xyz/charts/44c6283ff029cbdeabee84fe253aaff9"
+        },
+        {
+            "level": "6",
             "md5": "320c44023df9ac46e4e31e80653ec9bd",
             "sha256": "c384b19ff01462b5c2902e8e28983df52398c63a9f964460acff6c0f8d004b87",
             "genre": "HARD NRG",
@@ -4308,6 +4344,18 @@
             "url_diff": "https://mega.nz/folder/OdIkhSjJ#9QOnWaphRecXu18rC5V8mQ/folder/uJZShQQT",
             "comment": "15/02/23 本体URLにて500エラーが出ます。以下でDLできる模様。http://media.outphase.com/bms_database/Manbow/grpss2sp.rar",
             "site_url": "https://ir.stellabms.xyz/charts/ddb19ab92569b7f0882a1c0c1937eb94"
+        },
+        {
+            "level": "6",
+            "md5": "a5337576eb2e807de2f12d3b7086097c",
+            "sha256": "346dff1336c5867886186034c0bdc9890e73597635c174d57f4dcfc32292165b",
+            "genre": "LASTSHOT",
+            "title": "Hybrid Galaxy [A14]",
+            "artist": "azu obj:ucc",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=186&event=74",
+            "url_diff": "https://end2end.tech/a5336a7cef62",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/a5337576eb2e807de2f12d3b7086097c"
         },
         {
             "level": "6",
@@ -5019,18 +5067,6 @@
         },
         {
             "level": "7",
-            "md5": "44c6283ff029cbdeabee84fe253aaff9",
-            "sha256": "a065295108bdd1d9c29fbd23446b63535b23b424913a6aeaf0364bd18e98f0cf",
-            "genre": "La soletude",
-            "title": "Amnehilesie [DP Another]",
-            "artist": "MisomyL obj:mathath",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=362&event=123",
-            "url_diff": "",
-            "comment": "同梱譜面",
-            "site_url": "https://ir.stellabms.xyz/charts/44c6283ff029cbdeabee84fe253aaff9"
-        },
-        {
-            "level": "7",
             "md5": "aeae04902fd682f8ba2e5c1d8e196ed2",
             "sha256": "5f27ab55e26f3a3a66f6e92cecf3d7528893815236dad3c20e91ab46874bf040",
             "genre": "LOGICAL FORMAT",
@@ -5136,6 +5172,18 @@
             "url_diff": "https://drive.google.com/file/d/1zcK9yyVf7OlmsCWE9lPu1CrUCvBPqCHq/view",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/d820be8513cd93b29f14d1ee0182d553"
+        },
+        {
+            "level": "7",
+            "md5": "783054d8b6c15575d2e5e9a82260585b",
+            "sha256": "93289449e51dff3edd6a25e7a506026d56ec8d98685bb5d7e41c82913cc17e21",
+            "genre": "Memory Overflow",
+            "title": "Brodia::K [DP 202THER]",
+            "artist": "白羽 obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=150&event=142",
+            "url_diff": "https://stellabms.xyz/upload/3362",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/783054d8b6c15575d2e5e9a82260585b"
         },
         {
             "level": "7",
@@ -5991,6 +6039,18 @@
         },
         {
             "level": "8",
+            "md5": "e09344d51d25f0c4805b98803d608c35",
+            "sha256": "93d393ba11eb17b1dbf294f6cc113e44ab7882d2a5949a84aafece21f653559f",
+            "genre": "GrimReaper",
+            "title": "Celestial Axes [Trial14]",
+            "artist": "nmk / わっふゑ obj:RaiN",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=119",
+            "url_diff": "https://uu.getuploader.com/dpbms/download/1088",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/e09344d51d25f0c4805b98803d608c35"
+        },
+        {
+            "level": "8",
             "md5": "3cb6c673b5527807224c1a63437f9fb2",
             "sha256": "198462f32aab94c138d8074a1f72cb2ddcfebbf210f35cf5c451d12482c2109d",
             "genre": "ELECTROSHOCK",
@@ -6087,6 +6147,18 @@
         },
         {
             "level": "8",
+            "md5": "04f5bb36eb3adc01cc05de8ee8350101",
+            "sha256": "3cd2880d055cc03720a0fe3e7ff142beebc878cd849716ca0e84a208362c8c53",
+            "genre": "casualty eregy",
+            "title": "Heathenism dogma [DP Another]",
+            "artist": "Sakamiya feat.nayuta mov:Nao_AnD img:ttv notes:OSR",
+            "url": "https://mega.nz/folder/BDJAhJDJ#BrSjRbk10U_uFphI7JG_xg/file/QeIgVTSY",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/04f5bb36eb3adc01cc05de8ee8350101"
+        },
+        {
+            "level": "8",
             "md5": "f0b2bacc636002f743bc458ee90b9a5c",
             "sha256": "8babe3996a7319651866da78b59cd914436332293e4530cebb7648b880f457b6",
             "genre": "Hi-tech Fullon",
@@ -6108,6 +6180,18 @@
             "url_diff": "http://cdn8.atwikiimg.com/14key?cmd=upload&act=open&pageid=23&file=kraken_dpha.zip",
             "comment": "2015/03/29本体URLリンク切れにつき、SP★16のページにあったURLを貼り付けておきます。http://onedrive.live.com/?cid=fc95a680740ca8c9&id=FC95A680740CA8C9%21390&ithint=file,zip&authkey=!AGPAXusmRMWjV8s",
             "site_url": "https://ir.stellabms.xyz/charts/e04c43a4b78298fd1aebada6fdf7be4d"
+        },
+        {
+            "level": "8",
+            "md5": "6473ecabd1cd036cb25905716ac01ed1",
+            "sha256": "6f856f412eded958f9545c44ac266e95bdcab94d593a16460810b8a258192781",
+            "genre": "Nostalgic J-POP",
+            "title": "LAST PROPOZE[eternity14]",
+            "artist": "あとぅす feat.橘花音(obj:A-4) BGI:りーふぱいザウルス",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=124&event=133",
+            "url_diff": "https://stellabms.xyz/upload/2991",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/6473ecabd1cd036cb25905716ac01ed1"
         },
         {
             "level": "8",
@@ -7416,6 +7500,18 @@
             "url_diff": "http://ux.getuploader.com/dpbms/download/92/Turndup.zip",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/5443ad1dace97111fc9eaf8b0a4768f6"
+        },
+        {
+            "level": "10",
+            "md5": "6db629a2639dcdc19863cb7bb3d91328",
+            "sha256": "4d575a1a31ed713141da0a616732d79023aaeadedc01b232fa3a052cf456808e",
+            "genre": "METAL TRANCE",
+            "title": "VENUS INVADER [Genesis]",
+            "artist": "STARSTREAK CHAOS-TL12 Illustration by Neru / obj:RaiN",
+            "url": "https://k-bms.com/party_pabat/party2018.jsp?board_num=18&num=1&order=reg&odtype=a&ckattempt=1",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/1224",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/6db629a2639dcdc19863cb7bb3d91328"
         },
         {
             "level": "10",

@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-09-13 16:50:26",
+    "Last Update": "2026-09-20 16:41:22",
     "tables": [
         "satellite",
         "stella",
@@ -6105,6 +6105,32 @@
             ]
         },
         {
+            "md5": "3e0e76988cc6617f6e9c8877f2f80238",
+            "sha256": null,
+            "title": "Abyss Ragnarok [Classics]",
+            "artist": "kohaxy obj:でっていう99",
+            "levels": [
+                {
+                    "level": "乱打3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "f811f9fd340ad8d6f9414372f99578fa",
+            "sha256": null,
+            "title": "Abyss Ragnarok [Classics_forte]",
+            "artist": "kohaxy obj:でっていう99",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "619bb1692637185edab31552bebdf927",
             "sha256": "ccc5a498d2bf2a20fce60cda13c886d7ae4d1694a0e1abaf11bf65b879cad0bc",
             "title": "Abyssal sky of Indicolite [Fallen]",
@@ -9886,7 +9912,7 @@
             "artist": "MisomyL obj:mathath",
             "levels": [
                 {
-                    "level": "7",
+                    "level": "6",
                     "table": "dpinsane",
                     "shortName": "DP★"
                 }
@@ -23130,6 +23156,19 @@
             ]
         },
         {
+            "md5": "783054d8b6c15575d2e5e9a82260585b",
+            "sha256": "93289449e51dff3edd6a25e7a506026d56ec8d98685bb5d7e41c82913cc17e21",
+            "title": "Brodia::K [DP 202THER]",
+            "artist": "白羽 obj:plum",
+            "levels": [
+                {
+                    "level": "7",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                }
+            ]
+        },
+        {
             "md5": "94a6549c8a9a3147357db8051f8ec2f1",
             "sha256": "7d7214ff16416f5ec45ea383334cc095b6e2a6db77ad10eae4389a13e06f89cc",
             "title": "Broken FM [OVERCLOCK]",
@@ -27310,6 +27349,19 @@
                     "level": "重発狂11",
                     "table": "16thranda",
                     "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "e09344d51d25f0c4805b98803d608c35",
+            "sha256": "93d393ba11eb17b1dbf294f6cc113e44ab7882d2a5949a84aafece21f653559f",
+            "title": "Celestial Axes [Trial14]",
+            "artist": "nmk / わっふゑ obj:RaiN",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 }
             ]
         },
@@ -60219,6 +60271,19 @@
             ]
         },
         {
+            "md5": "04f5bb36eb3adc01cc05de8ee8350101",
+            "sha256": "3cd2880d055cc03720a0fe3e7ff142beebc878cd849716ca0e84a208362c8c53",
+            "title": "Heathenism dogma [DP Another]",
+            "artist": "Sakamiya feat.nayuta mov:Nao_AnD img:ttv notes:OSR",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                }
+            ]
+        },
+        {
             "md5": "41b13fce004dd4c10a2359e9443676df",
             "sha256": "7d5a74add979a4e6ba945b15af28dbd7e77e8e1777333c04df1507084380a9be",
             "title": "Heathenism dogma [Insane]",
@@ -61918,6 +61983,19 @@
             ]
         },
         {
+            "md5": "a5337576eb2e807de2f12d3b7086097c",
+            "sha256": "346dff1336c5867886186034c0bdc9890e73597635c174d57f4dcfc32292165b",
+            "title": "Hybrid Galaxy [A14]",
+            "artist": "azu obj:ucc",
+            "levels": [
+                {
+                    "level": "6",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                }
+            ]
+        },
+        {
             "md5": "b920ac8e15cc1e096f023198ec9b65ee",
             "sha256": "4662fb3f6bce7767c67e553aeab13b0a758b7d4d50c90bab3de893021670cbbc",
             "title": "Hybrid Galaxy [Delay Sandbox]",
@@ -62346,6 +62424,11 @@
                     "level": "5",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "sub重発狂5",
+                    "table": "16thranda",
+                    "shortName": ""
                 },
                 {
                     "level": "0",
@@ -70076,6 +70159,19 @@
                     "level": "乱打3",
                     "table": "16thranda",
                     "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "6473ecabd1cd036cb25905716ac01ed1",
+            "sha256": "6f856f412eded958f9545c44ac266e95bdcab94d593a16460810b8a258192781",
+            "title": "LAST PROPOZE[eternity14]",
+            "artist": "あとぅす feat.橘花音(obj:A-4) BGI:りーふぱいザウルス",
+            "levels": [
+                {
+                    "level": "8",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 }
             ]
         },
@@ -91871,6 +91967,11 @@
                     "level": "1",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "sub乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -123344,6 +123445,19 @@
             ]
         },
         {
+            "md5": "32d50bcc4c3cc79f49f2245545993323",
+            "sha256": null,
+            "title": "Trusted Triangle [BEAT PRISONER]",
+            "artist": "MIPSYLE odj.ユ / BGA: ジンジャー塚原",
+            "levels": [
+                {
+                    "level": "重発狂6",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "36dac0136bbbf35115e4a94328137c37",
             "sha256": "1d962d91e6d1c70a8103dc6a497c0768cb35c0277ded0282f315cd611cbf989b",
             "title": "Trusted Triangle [Tribute]",
@@ -123822,6 +123936,11 @@
             "title": "Twilight Observer",
             "artist": "void 鴫野エイカー / dbm",
             "levels": [
+                {
+                    "level": "11",
+                    "table": "delta",
+                    "shortName": "δ"
+                },
                 {
                     "level": "0",
                     "table": "dpsatellite",
@@ -126580,6 +126699,19 @@
             ]
         },
         {
+            "md5": "6db629a2639dcdc19863cb7bb3d91328",
+            "sha256": "4d575a1a31ed713141da0a616732d79023aaeadedc01b232fa3a052cf456808e",
+            "title": "VENUS INVADER [Genesis]",
+            "artist": "STARSTREAK CHAOS-TL12 Illustration by Neru / obj:RaiN",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                }
+            ]
+        },
+        {
             "md5": "bde6e746250d86e04619a5d7f527c4be",
             "sha256": "2934692936c9c1db6f38d34eeda9244adfd702faf9bc7b453a12652bff357486",
             "title": "VENUS INVADER [for A.]",
@@ -128648,6 +128780,11 @@
                     "level": "12",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打12",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -130351,6 +130488,19 @@
                     "level": "8",
                     "table": "dpinsane",
                     "shortName": "DP★"
+                }
+            ]
+        },
+        {
+            "md5": "e9a4f6ac55e665fdb3e59ff780d7ef95",
+            "sha256": null,
+            "title": "World Recreation [Physical Recreation]",
+            "artist": "C-uma obj:sgn",
+            "levels": [
+                {
+                    "level": "重発狂0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -133164,9 +133314,9 @@
             "artist": "sugar BGI : なぎうなぎ / Logo : LOTUS",
             "levels": [
                 {
-                    "level": "11",
-                    "table": "delta",
-                    "shortName": "δ"
+                    "level": "1",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 },
                 {
                     "level": "2",
@@ -133771,6 +133921,19 @@
             ]
         },
         {
+            "md5": "c9d931bd8b32b635a68e73be878b9849",
+            "sha256": null,
+            "title": "aballava(?) [party]",
+            "artist": "Team:SASAKURATION / tarolabo(Goten) obj:syu2",
+            "levels": [
+                {
+                    "level": "sub重発狂10",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "1d043e49e61c6563c776ba50fc8d0c3b",
             "sha256": null,
             "title": "aberrant sorcery -Despair-",
@@ -134250,6 +134413,19 @@
                     "level": "3",
                     "table": "udegachi",
                     "shortName": "腕"
+                }
+            ]
+        },
+        {
+            "md5": "c3bbae7e9ca94e9027f09a22cc708caf",
+            "sha256": null,
+            "title": "aliceblue (Radio Edit) [EUPHORIC]",
+            "artist": "syatten obj.Zink",
+            "levels": [
+                {
+                    "level": "乱打9",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -139392,10 +139568,10 @@
             ]
         },
         {
-            "md5": "6e1000f5611b1ecde548444b9a013eef",
+            "md5": "6ddd04fe5376a56b2556904bdb966ed9",
             "sha256": null,
-            "title": "endemize[EriCore!@#] [EriCore!@#]",
-            "artist": "あとぅす feat.つゆり花鈴 BGI:りーふぱいザウルス",
+            "title": "endemize[EriCore!@#]",
+            "artist": "あとぅす feat.つゆり花鈴 obj : eri",
             "levels": [
                 {
                     "level": "乱打10",
@@ -143521,6 +143697,19 @@
                     "level": "7",
                     "table": "dpsatellite",
                     "shortName": "DPsl"
+                }
+            ]
+        },
+        {
+            "md5": "2a54a81f341a74f73dc32c9856e68e80",
+            "sha256": null,
+            "title": "jus†ice [Ain't too proud to rely on!]",
+            "artist": "るるりえーる obj:IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -147656,6 +147845,19 @@
             ]
         },
         {
+            "md5": "39e1112f221cd157584157f7c0b4697a",
+            "sha256": "77834849124c0773f84f8aaa20ccf39e03e6e8dd58c4fea080ff3a8932710c50",
+            "title": "pretty kitty, yes?",
+            "artist": "Y.W BGA: kotomi",
+            "levels": [
+                {
+                    "level": "4",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                }
+            ]
+        },
+        {
             "md5": "fe7c4eefd61e3c06e63940a34caebd89",
             "sha256": "5ee6050041cf5042055b5afd29d9ca16927290b687db41bdf6fc2ca91b339bbf",
             "title": "prohibition of world",
@@ -149679,7 +149881,7 @@
             "artist": "white crystal",
             "levels": [
                 {
-                    "level": "4",
+                    "level": "3",
                     "table": "dpinsane",
                     "shortName": "DP★"
                 }
@@ -154365,19 +154567,6 @@
                     "level": "5",
                     "table": "insane",
                     "shortName": "★"
-                }
-            ]
-        },
-        {
-            "md5": "6e0eac130ea90b969bc218c68b9494b2",
-            "sha256": "e8157b89e97931a0b097ddc4969bcc7cd21d96846e0e836d9e4f540d8ddc02cb",
-            "title": "volcanic [Another]",
-            "artist": "DETRO / 奈那樹",
-            "levels": [
-                {
-                    "level": "7",
-                    "table": "satellite",
-                    "shortName": "sl"
                 }
             ]
         },
@@ -185263,6 +185452,19 @@
             ]
         },
         {
+            "md5": "156b80838a064866027db92a0617279b",
+            "sha256": null,
+            "title": "妖鬼山脈 [miather]",
+            "artist": "かたぎり BGA: mst",
+            "levels": [
+                {
+                    "level": "重発狂8",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "dd436ecf6db49763dc44fe72b7908e30",
             "sha256": "992281534bb1d68762cdf33f34e9150a9c9427bdb8ecfe752a7c028d344376c2",
             "title": "妖鬼山脈[妖獣絢爛]",
@@ -198023,6 +198225,19 @@
                     "level": "0",
                     "table": "like_st",
                     "shortName": "集"
+                }
+            ]
+        },
+        {
+            "md5": "c24ccf0b50a8ef99afcf67a90186eefa",
+            "sha256": null,
+            "title": "空想☆アウトドアガール [Serenade]",
+            "artist": "さんまのこぼね obj:でっていう99",
+            "levels": [
+                {
+                    "level": "乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },

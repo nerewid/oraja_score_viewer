@@ -8499,6 +8499,18 @@
         },
         {
             "level": "11",
+            "md5": "e693a74865a2f86d15050fc644bcc374",
+            "sha256": "403f9bd00600aeb22a0c8371226d79d2dbac15232ea22a1cf3fca17bd87a8536",
+            "genre": "TRANCE",
+            "title": "Twilight Observer",
+            "artist": "void 鴫野エイカー / dbm",
+            "url": "https://venue.bmssearch.net/vfpq02/25",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/e693a74865a2f86d15050fc644bcc374"
+        },
+        {
+            "level": "11",
             "md5": "975e9718e0f1469dfae5f5398bf10b5b",
             "sha256": "501293dd35ba4ef6882fad5f0dc06536fb0444328ff85c4a1d4603b6f2b71444",
             "genre": "Dubstep",
@@ -8544,18 +8556,6 @@
             "url_diff": "http://web.archive.org/web/20140921042604/http://timetorain.web.fc2.com/sabun/Yummy_anu_YH.zip",
             "comment": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=172&event=88",
             "site_url": "https://ir.stellabms.xyz/charts/08ab55c7341dbd2b84b496b86b169bc1"
-        },
-        {
-            "level": "11",
-            "md5": "71bd48fc050b88d529db151685ab1cc9",
-            "sha256": "ab156b8919fe211ec49196dbc8d8472116fb0fc2399f7ff31acd8cecce329dfd",
-            "genre": "Nostalgia",
-            "title": "Zeitfluss [DP Another]",
-            "artist": "sugar BGI : なぎうなぎ / Logo : LOTUS",
-            "url": "https://venue.bmssearch.net/bmsshuin2/9",
-            "url_diff": "",
-            "comment": "同梱譜面",
-            "site_url": "https://ir.stellabms.xyz/charts/71bd48fc050b88d529db151685ab1cc9"
         },
         {
             "level": "11",
