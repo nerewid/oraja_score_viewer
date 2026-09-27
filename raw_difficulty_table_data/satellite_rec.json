@@ -2,6 +2,17 @@
     "shortName": "sl_rec",
     "songs": [
         {
+            "id": 3413,
+            "md5": "bbf3cfac7d04be5f9632c8eb439989a8",
+            "sha256": "090d94bf516ed49c90b55697d4fbc711b36188c1c0c3adfc560bcddb8509d7ce",
+            "title": "A D D i c T i O N 4 5 0 0 0 0 0 (H)",
+            "artist": "- 4 5",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=121&event=116",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/3413"
+        },
+        {
             "id": 3564,
             "md5": "5be2f2b71443afe72042eeb7437daaa7",
             "sha256": "7cac12496a0171a29fb871867dc56688017cd620cb25f1693c42dee408e058b7",
@@ -88,6 +99,17 @@
             "url_diff": "https://parksu.darksabun.club/sabun/7/subconsciousness_7.zip",
             "level": "0",
             "site_url": "https://stellabms.xyz/song/2477"
+        },
+        {
+            "id": 1004,
+            "md5": "d46e8490a06f725bf67e33af6835c347",
+            "sha256": "903df6911cc65545b64669016aff0f7e63e9a9f05ab318df50d8b58a32847cb5",
+            "title": "Sunny [Charmante]",
+            "artist": "Yu^ta",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=201&event=110",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/1004"
         },
         {
             "id": 4409,

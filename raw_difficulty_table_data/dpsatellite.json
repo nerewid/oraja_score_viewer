@@ -1410,6 +1410,17 @@
             "site_url": "https://stellabms.xyz/song/1807"
         },
         {
+            "id": 9718,
+            "md5": "ab94684845c91cdec597f2d27052b10d",
+            "sha256": "91ce20f805f80707fb01555c9989718785bc97165984bd3773e557dfb6288297",
+            "title": "The Fate of Our World [DP JOURNEY]",
+            "artist": "ryhki/BGI:・ｽ・ｽﾘなゑｿｽ・ｽ/obj.:kirrcat",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=356&event=133",
+            "url_diff": "https://stellabms.xyz/upload/4194",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9718"
+        },
+        {
             "id": 2487,
             "md5": "0f02f3d09fa7218c97d49358b50539e7",
             "sha256": "64f520f8aed0cd0ea61313ab460e015f761bdd52eefecb176efabb399f7f45ff",
@@ -3753,6 +3764,17 @@
             "site_url": "https://stellabms.xyz/song/3468"
         },
         {
+            "id": 9734,
+            "md5": "4823809ede15d9148f16a80da00eff28",
+            "sha256": "5aaa06bf2be824b7de5f946e55c0c508682a9014c2da1288975574c54460d1b3",
+            "title": "The Rebellious Recept",
+            "artist": "0310 / Hyacinith",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=241&event=146",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/9734"
+        },
+        {
             "id": 7026,
             "md5": "02a7aa2050dffe7f6866086794396503",
             "sha256": "a57a7e97b21dbdaa0c1e67c53848fd50e4ba776ff61f1916826643e3253e3f8f",
@@ -4114,6 +4136,17 @@
             "url_diff": "http://objlr.kirara.st/",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/2105"
+        },
+        {
+            "id": 5579,
+            "md5": "049f6faa75f4123b78abdded5603720a",
+            "sha256": "9a91377d781f2c031df4272e65062e88aa6a0bf17a1fde753b1be27e6d4d9553",
+            "title": "Because you like young girls [14key/insane]",
+            "artist": "Ennn^78 & Wusk Lasmine",
+            "url": "https://venue.bmssearch.net/bmstukuru2023/65",
+            "url_diff": "",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/5579"
         },
         {
             "id": 3296,
@@ -5106,17 +5139,6 @@
             "site_url": "https://stellabms.xyz/song/2517"
         },
         {
-            "id": 5579,
-            "md5": "049f6faa75f4123b78abdded5603720a",
-            "sha256": "9a91377d781f2c031df4272e65062e88aa6a0bf17a1fde753b1be27e6d4d9553",
-            "title": "Because you like young girls [14key/insane]",
-            "artist": "Ennn^78 & Wusk Lasmine",
-            "url": "https://venue.bmssearch.net/bmstukuru2023/65",
-            "url_diff": "",
-            "level": "6",
-            "site_url": "https://stellabms.xyz/song/5579"
-        },
-        {
             "id": 1992,
             "md5": "f4c22271fa6556baa900d799df05371c",
             "sha256": "c16a34f9fcfc3f72e302479cc84082fe8f6e28f66b43da33cac18c9ce4cb58ca",
@@ -5599,6 +5621,17 @@
             "url_diff": "https://stellabms.xyz/upload/3535",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/9453"
+        },
+        {
+            "id": 9852,
+            "md5": "011784a872148365ae997b3bac1cc8ef",
+            "sha256": "7c4a879bc0b51d759bd6ab8dddb54e705bd9bff70979e552296b844678ac4f5f",
+            "title": "イルルヤンカシュは神を弑逆する [DP ANOTHER]",
+            "artist": "鈎兎(KagiUsagi) obj:plum",
+            "url": "https://venue.bmssearch.net/bmstukuru2024/45",
+            "url_diff": "",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9852"
         },
         {
             "id": 4651,
@@ -7546,6 +7579,17 @@
             "url_diff": "",
             "level": "9",
             "site_url": "https://stellabms.xyz/song/1966"
+        },
+        {
+            "id": 9735,
+            "md5": "529698033b8e1698b4ca495cad7bc3fc",
+            "sha256": "2d5b2da476b8fc51aae1130a5c1b776ca089e7b15c98d793f5472e81ff38fe56",
+            "title": "TransientTears[DP TridenT]",
+            "artist": "69 de 74 BGA:FanfRS obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=170&event=146",
+            "url_diff": "",
+            "level": "9",
+            "site_url": "https://stellabms.xyz/song/9735"
         },
         {
             "id": 2355,
