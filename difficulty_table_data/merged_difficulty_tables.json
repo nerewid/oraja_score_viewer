@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-09-27 17:29:49",
+    "Last Update": "2026-10-04 17:17:52",
     "tables": [
         "satellite",
         "stella",
@@ -4861,6 +4861,19 @@
             ]
         },
         {
+            "md5": "9a1d0fc6ff1d901717c56e94c288049b",
+            "sha256": null,
+            "title": "AIR nouveau [ZOI]",
+            "artist": "SHIKI remixed by litmus* obj:SUZUKAZEΛ",
+            "levels": [
+                {
+                    "level": "乱打4",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "89817c6b3c77109150745b8f431591c8",
             "sha256": "26143819886e15f7ec34c261b36555fbe1a421ddad212b93cd805104e1e5488d",
             "title": "AIRSHAVER [14key,Another]",
@@ -8108,6 +8121,19 @@
                 },
                 {
                     "level": "乱打12",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "39db3cc2a071471078105ece8a2ec326",
+            "sha256": null,
+            "title": "Air [NOX]",
+            "artist": "SHIKI obj:NOX",
+            "levels": [
+                {
+                    "level": "乱打7",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -11993,6 +12019,19 @@
                     "level": "5",
                     "table": "dpinsane",
                     "shortName": "DP★"
+                }
+            ]
+        },
+        {
+            "md5": "bead41153de2fb93b13ec62a47f77d04",
+            "sha256": null,
+            "title": "Ant1-Dest1ny [Dem1se]",
+            "artist": "SKY. obj:M1CH1",
+            "levels": [
+                {
+                    "level": "重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -16706,6 +16745,11 @@
                     "level": "1",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "sub重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -37784,6 +37828,19 @@
             ]
         },
         {
+            "md5": "de64c6fec82e9c88451a176a283483e6",
+            "sha256": null,
+            "title": "Divisibility [Composite]",
+            "artist": "Lamanya obj:ugd",
+            "levels": [
+                {
+                    "level": "sub重発狂2",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "8adcaa2774d4f9bd0a60323d28ee5c43",
             "sha256": "03de88af276187c7101560eb64d91ecc61e548e5a71d27171ba3a2950b473240",
             "title": "Divisibility [VV]",
@@ -49644,7 +49701,7 @@
                     "shortName": "▼"
                 },
                 {
-                    "level": "乱打4",
+                    "level": "乱打8",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -57667,6 +57724,11 @@
                     "level": "0",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "重発狂0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -60679,6 +60741,19 @@
             ]
         },
         {
+            "md5": "a7669cce0873d01649c706df0df8e24a",
+            "sha256": null,
+            "title": "Here we go！(TM edit) [Scratchless]",
+            "artist": "Awesomeman / obj:SUGAR.",
+            "levels": [
+                {
+                    "level": "乱打5",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "68f565d31be49bf7e7f3ca8238259cee",
             "sha256": "768a59f8c79a107e97640d4aacb053a257bbd3e103ee54952e37d280c7ead1df",
             "title": "Heritage of Ancient [HELL]",
@@ -63259,6 +63334,19 @@
             ]
         },
         {
+            "md5": "5e0de96e28fec73a8ef5c5c1d3f0c473",
+            "sha256": null,
+            "title": "IN (Horsecore Remix) [Ain't too proud to rely on!]",
+            "artist": "Zris Remixed by Daily BG by Rosa1100 / obj:IBARAGI_YOSHIMI",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "d73cdd6d5d1897e2d3052b74263b5283",
             "sha256": "e168590d536011ca96dcf023bf0c818913b0b9cbca7d9efcb71cc315bf8e6fc2",
             "title": "IN [HAORSE MUSIC / DP譜面]",
@@ -63635,6 +63723,19 @@
                     "level": "19",
                     "table": "solomon",
                     "shortName": "✡"
+                }
+            ]
+        },
+        {
+            "md5": "f3fe69cad9a5f578cdcc9de10a8a7c5b",
+            "sha256": null,
+            "title": "Ice Festival[札幌雪祭り]",
+            "artist": "Nota/obj:みあ BGI:雪椿",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -81056,6 +81157,19 @@
             ]
         },
         {
+            "md5": "4229e0cd426ca021d10b6f507fa3aec7",
+            "sha256": null,
+            "title": "Master Spark!!! [かっこいい]",
+            "artist": "remix　itaojirou obj:ROUTE36",
+            "levels": [
+                {
+                    "level": "乱打2",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "fb05cc2e1da34361d75d001590360667",
             "sha256": "b20ca9d45bc7f4559109212720196c182911eff74976768c05a912c866d88a9c",
             "title": "Master of GENOCIDE [ANOTHER7]",
@@ -84287,6 +84401,11 @@
                     "level": "0",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "重発狂0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -88958,6 +89077,19 @@
             ]
         },
         {
+            "md5": "17dca2abfda52124ea388f24b3ef0a3c",
+            "sha256": null,
+            "title": "Now they sing, now they sob [Tyrfing]",
+            "artist": "庭師 BGA : noixy / obj.ユ",
+            "levels": [
+                {
+                    "level": "sub重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "f91b84f955467b31524d64ce4e557857",
             "sha256": "7c35db4df2b745c135dfb7b6413cf76dc104985f6f01ef91bc817dcdeda905c7",
             "title": "Nowhere [if]",
@@ -90471,6 +90603,32 @@
                     "level": "3",
                     "table": "satellite",
                     "shortName": "sl"
+                }
+            ]
+        },
+        {
+            "md5": "e60ec504749e598a77fdcaafedfb5943",
+            "sha256": null,
+            "title": "Open your Parasol [Nightmare--]",
+            "artist": "ふくろうさん obj:PiPiNeko",
+            "levels": [
+                {
+                    "level": "重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "a0cd2082f82ea76b10c0eb1ccef93bde",
+            "sha256": null,
+            "title": "Open your Parasol [Nightmare]",
+            "artist": "ふくろうさん obj:PiPiNeko",
+            "levels": [
+                {
+                    "level": "重発狂10",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -93135,6 +93293,11 @@
                     "level": "1",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -95823,6 +95986,19 @@
                     "level": "11",
                     "table": "dpinsane",
                     "shortName": "DP★"
+                }
+            ]
+        },
+        {
+            "md5": "d9e43926a55f7f06d20522e7c4886328",
+            "sha256": null,
+            "title": "Pluto [miather]",
+            "artist": "TRIAL BGA:ShakeJ/obj:みあ",
+            "levels": [
+                {
+                    "level": "重発狂5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -99374,6 +99550,19 @@
             ]
         },
         {
+            "md5": "311090fd9eb771e4641b1124764eaa2e",
+            "sha256": null,
+            "title": "R.I.P My Pudding! [sbmstyle]",
+            "artist": "MiKaDo feat.GUMI obj. sbs93310",
+            "levels": [
+                {
+                    "level": "乱打10",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "ded1c8b0ebe574a443670e768d4912c5",
             "sha256": "583e5a739aa709e8cb23d9b2455aa5d5d2e8ba882ce0457ce79ce9831f74930d",
             "title": "R.I.P My Pudding! [フィジカル横プリン式]",
@@ -101593,6 +101782,11 @@
                     "level": "10",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打10",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -116480,6 +116674,32 @@
             ]
         },
         {
+            "md5": "176321363633f37189567733d31df82a",
+            "sha256": null,
+            "title": "Synthesized Girl's Heart [DOWNPOUR_f]",
+            "artist": "SHIKI obj:Keysa",
+            "levels": [
+                {
+                    "level": "重発狂4",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "852010c14d800af78a56aea5ced2414b",
+            "sha256": null,
+            "title": "Synthesized Girl's Heart [DRIZZLE]",
+            "artist": "SHIKI obj:Keysa",
+            "levels": [
+                {
+                    "level": "乱打4",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "323f8db6c78c71241c433bf40af45128",
             "sha256": null,
             "title": "Synthesized Girl's Heart [EX]",
@@ -127129,7 +127349,7 @@
             "artist": "freesia obj:Keysa",
             "levels": [
                 {
-                    "level": "重発狂6",
+                    "level": "sub重発狂6",
                     "table": "16thranda",
                     "shortName": ""
                 },
@@ -129501,7 +129721,7 @@
                     "shortName": "sl"
                 },
                 {
-                    "level": "乱打7",
+                    "level": "乱打8",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -136036,6 +136256,19 @@
             "levels": [
                 {
                     "level": "乱打7",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "96ee5bbdb3b4141b01351dafc4b55c42",
+            "sha256": null,
+            "title": "black train [valley]",
+            "artist": "CAELUS obj:吉田",
+            "levels": [
+                {
+                    "level": "乱打5",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -162794,7 +163027,7 @@
                     "shortName": "sl"
                 },
                 {
-                    "level": "乱打8",
+                    "level": "乱打9",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -168903,6 +169136,19 @@
                     "level": "2",
                     "table": "like_st",
                     "shortName": "集"
+                }
+            ]
+        },
+        {
+            "md5": "97090767aada416e85831b1fd432ad2e",
+            "sha256": null,
+            "title": "ステラオーダー[ANGEL]",
+            "artist": "あとぅす // 差分: Eri BGI:りーふぱいザウルス",
+            "levels": [
+                {
+                    "level": "sub乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -185030,7 +185276,7 @@
             "artist": "うえつ氏 / obj:toraji",
             "levels": [
                 {
-                    "level": "乱打4",
+                    "level": "乱打8",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -185769,6 +186015,32 @@
                     "level": "2",
                     "table": "overjoy",
                     "shortName": "★★"
+                }
+            ]
+        },
+        {
+            "md5": "bc44f28ee4b934569b7bc08760268f37",
+            "sha256": null,
+            "title": "妹 [ONICHA & ギルティ炭酸]",
+            "artist": "TRIAL BGA：出前　obj：torisan",
+            "levels": [
+                {
+                    "level": "sub重発狂2",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "741616ccabc3315fbd19868e213fadb7",
+            "sha256": null,
+            "title": "妹 [ONICHA]",
+            "artist": "TRIAL BGA：出前　obj：torisan",
+            "levels": [
+                {
+                    "level": "乱打10",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -201885,6 +202157,32 @@
             ]
         },
         {
+            "md5": "bcf5b06522c7a1f9a878acff27bd9568",
+            "sha256": null,
+            "title": "蘇る幻騒郷のユメ。 [Poltergeist]",
+            "artist": "NASA / BGI:Morph obj:でっていう99",
+            "levels": [
+                {
+                    "level": "重発狂3",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "03b2718e6e83a50d2cc22e4d6e1216cb",
+            "sha256": null,
+            "title": "蘇る幻騒郷のユメ。 [Quicksilver]",
+            "artist": "NASA / BGI:Morph obj:でっていう99",
+            "levels": [
+                {
+                    "level": "乱打8",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "c4c7a626141054d2fe245c98e8727cd7",
             "sha256": "7243bc212b355b174cf2ff06a0511c19d886b560b582727b10805aea1596aabf",
             "title": "虎杖の浜 [RIPPLE]",
@@ -206040,6 +206338,19 @@
                     "level": "2",
                     "table": "dystopia",
                     "shortName": "dy"
+                }
+            ]
+        },
+        {
+            "md5": "b7083d18de3dfcbd70cfcdd2fe83da91",
+            "sha256": null,
+            "title": "風仁雷仁 [四月]",
+            "artist": "カラフル・サウンズ・ポート obj:4",
+            "levels": [
+                {
+                    "level": "乱打5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
