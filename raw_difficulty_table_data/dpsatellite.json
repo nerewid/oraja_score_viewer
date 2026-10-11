@@ -2334,6 +2334,17 @@
             "site_url": "https://stellabms.xyz/song/5001"
         },
         {
+            "id": 9720,
+            "md5": "5159220f2b4e8dee4bba5e3bad80e407",
+            "sha256": "f924bc47a7edd684c3b02a32ab9b6d3bc8a4c8241b6c7c891441534c10e5ef42",
+            "title": "サプレッサ [DP MOLTHER]",
+            "artist": "LisicA vs ルゼ mov:XAIQI / obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=287&event=146",
+            "url_diff": "https://stellabms.xyz/upload/4470",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/9720"
+        },
+        {
             "id": 4637,
             "md5": "9c709acbc81e788da0b5ecc033746635",
             "sha256": "a43a29a7020d7f412b8ef3c11375f002286b86a0a2dd80380d51e05334b7f9ac",

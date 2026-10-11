@@ -57,6 +57,17 @@
             "site_url": "https://stellabms.xyz/song/1577"
         },
         {
+            "id": 5572,
+            "md5": "1c92f941b47220c228b10caa5f54a7c6",
+            "sha256": "4f7e4f4f2563a0b400e7126c13b7829fad08aff6d82479a926aac562cd0c2b83",
+            "title": "Rechronize [ANOTHER]",
+            "artist": "あとぅす feat.咲良ゆの BGI:りーふぱいザウルス",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=21&event=140",
+            "url_diff": "",
+            "level": "0",
+            "site_url": "https://stellabms.xyz/song/5572"
+        },
+        {
             "id": 2980,
             "md5": "c120662343f4a211a71750d491cc56ac",
             "sha256": "923adc2b9efcfb1dc365d880fc215e5b7f7784bd62c26c5e5811fb0ef98825c5",
@@ -726,6 +737,17 @@
             "url_diff": "https://stellabms.xyz/upload/3224",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/5867"
+        },
+        {
+            "id": 8474,
+            "md5": "012c76c8f7b7e84d33803590c0b5a080",
+            "sha256": "b77ed02768f1bcbae5e20b749faaa46cc365479e95de84b678e62c15cdd9ea19",
+            "title": "凍蝶 [SP INSANE]",
+            "artist": "MiKaDo feat. GUMI",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/16",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/8474"
         },
         {
             "id": 1635,
