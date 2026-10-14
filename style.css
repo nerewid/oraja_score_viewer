@@ -287,6 +287,188 @@ a:hover {
 }
 
 /* ============================================
+   Heatmap Summary & Monthly Chart
+   ============================================ */
+/* 見出し行: ラベル / 合計値 / 期間 / 月別トグル */
+.heatmap-head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--space-sm) 0.7rem;
+    position: relative;
+    padding-left: 0.7rem;
+    margin: var(--space-lg) 0 var(--space-sm);
+    line-height: 1.4;
+}
+
+/* 左端のアクセントバーでセクションの始まりを示す */
+.heatmap-head::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.18em;
+    bottom: 0.18em;
+    width: 3px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, var(--accent-primary), var(--color-success));
+}
+
+.heatmap-head-label {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.heatmap-head-total {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--accent-primary);
+}
+
+.heatmap-head-unit {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    margin-left: 0.2em;
+}
+
+.heatmap-head-sub {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* 月別グラフの開閉ボタン */
+.heatmap-monthly-toggle {
+    margin-left: auto;
+    padding: 0.22rem 0.85rem;
+    font-family: var(--font-main);
+    font-size: 0.74rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--text-secondary);
+    background: transparent;
+    border: 1px solid rgba(0, 212, 255, 0.22);
+    border-radius: 999px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: color var(--transition-base), border-color var(--transition-base),
+                background var(--transition-base), box-shadow var(--transition-base);
+}
+
+.heatmap-monthly-toggle:hover {
+    color: var(--accent-primary);
+    border-color: rgba(0, 212, 255, 0.55);
+    background: transparent;
+    box-shadow: 0 0 12px rgba(0, 212, 255, 0.18);
+    transform: none;
+}
+
+.heatmap-monthly-toggle[aria-expanded="true"] {
+    color: var(--accent-primary);
+    border-color: rgba(0, 212, 255, 0.45);
+    background: rgba(0, 212, 255, 0.06);
+}
+
+/* 月別グラフ本体（列幅はJSがヒートマップの月カラムに合わせて指定する） */
+.heatmap-monthly {
+    animation: heatmapMonthlyIn var(--transition-base) ease;
+}
+
+.heatmap-chart {
+    position: relative;
+    margin-top: var(--space-sm);
+    padding-bottom: 0.3rem;
+}
+
+/* 棒の足元をつなぐベースライン */
+.heatmap-chart::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.3rem;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.heatmap-bars {
+    display: grid;
+    align-items: end;
+    height: 64px;
+    position: relative;
+    z-index: 1;
+}
+
+.heatmap-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+    height: 100%;
+}
+
+.heatmap-bar b {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    color: var(--text-secondary);
+}
+
+.heatmap-bar i {
+    display: block;
+    width: 76%;
+    border-radius: 1px;
+    border-top: 1px solid;
+}
+
+/* 月別のプレー日数 */
+.heatmap-days {
+    display: grid;
+    margin-top: 0.25rem;
+}
+
+.heatmap-days span {
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 0.63rem;
+    color: var(--text-muted);
+}
+
+/* 打鍵数は緑、更新数は紫でヒートマップの配色に揃える */
+.heatmap-monthly-notes .heatmap-bar i {
+    background: linear-gradient(180deg, rgba(0, 255, 136, 0.5), rgba(0, 153, 204, 0.08));
+    border-top-color: rgba(0, 255, 136, 0.85);
+}
+
+.heatmap-monthly-progress .heatmap-bar i {
+    background: linear-gradient(180deg, rgba(167, 120, 255, 0.5), rgba(120, 80, 220, 0.08));
+    border-top-color: rgba(185, 140, 255, 0.85);
+}
+
+@keyframes heatmapMonthlyIn {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .heatmap-monthly {
+        animation: none;
+    }
+}
+
+/* ============================================
    Lamp Legend
    ============================================ */
 .lamp-legend {
