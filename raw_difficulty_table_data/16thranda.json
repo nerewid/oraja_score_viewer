@@ -9983,16 +9983,6 @@
         },
         {
             "level": "乱打7",
-            "title": "バベルの塔が崩れても [Polar-Lunar]",
-            "artist": "ROyama vs. 19xx feat.羽累 / obj:kurekoduki",
-            "url": "https://venue.bmssearch.net/bmstukuru2026/5",
-            "url_diff": "https://stellabms.xyz/upload/6911",
-            "md5": "e6be677e70f1f70607c0716409f84f39",
-            "comment": "",
-            "site_url": "https://ir.stellabms.xyz/charts/e6be677e70f1f70607c0716409f84f39"
-        },
-        {
-            "level": "乱打7",
             "title": "ハローワールド [Welcome to Physical World!]",
             "artist": "koushirou（卑屈P） obj:1834356",
             "url": "http://jirai8.web.fc2.com/music.html",
@@ -12123,16 +12113,6 @@
         },
         {
             "level": "乱打9",
-            "title": "Stargaze Station [Septentriones]",
-            "artist": "seatrus obj:toraji",
-            "url": "https://drive.usercontent.google.com/download?id=1wQXUX8nfIS3fN-gh0kB64WVCQR_9HnpL&export=download",
-            "url_diff": "https://stellabms.xyz/upload/5065",
-            "md5": "a89c86a36a02109b8ab06a6deb26be55",
-            "comment": "",
-            "site_url": "https://ir.stellabms.xyz/charts/a89c86a36a02109b8ab06a6deb26be55"
-        },
-        {
-            "level": "乱打9",
             "title": "Start over agaIn [memories]",
             "artist": "Sakamiya feat.一花 img:ttv / obj.ぶんぺ～",
             "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=419&event=133",
@@ -12320,6 +12300,16 @@
             "md5": "ebe7ae691b9cad8ab7b2323e37691f1c",
             "comment": "★12,▼12/179",
             "site_url": "https://ir.stellabms.xyz/charts/ebe7ae691b9cad8ab7b2323e37691f1c"
+        },
+        {
+            "level": "乱打9",
+            "title": "バベルの塔が崩れても [Polar-Lunar]",
+            "artist": "ROyama vs. 19xx feat.羽累 / obj:kurekoduki",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/5",
+            "url_diff": "https://stellabms.xyz/upload/6911",
+            "md5": "e6be677e70f1f70607c0716409f84f39",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/e6be677e70f1f70607c0716409f84f39"
         },
         {
             "level": "乱打9",
@@ -14510,6 +14500,16 @@
             "md5": "5a466754ae1eff3741dcf58b4d22d0a0",
             "comment": "sl11",
             "site_url": "https://ir.stellabms.xyz/charts/5a466754ae1eff3741dcf58b4d22d0a0"
+        },
+        {
+            "level": "乱打11",
+            "title": "Stargaze Station [Septentriones]",
+            "artist": "seatrus obj:toraji",
+            "url": "https://drive.usercontent.google.com/download?id=1wQXUX8nfIS3fN-gh0kB64WVCQR_9HnpL&export=download",
+            "url_diff": "https://stellabms.xyz/upload/5065",
+            "md5": "a89c86a36a02109b8ab06a6deb26be55",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/a89c86a36a02109b8ab06a6deb26be55"
         },
         {
             "level": "乱打11",

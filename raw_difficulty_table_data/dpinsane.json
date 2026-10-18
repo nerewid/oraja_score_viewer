@@ -423,6 +423,18 @@
         },
         {
             "level": "1",
+            "md5": "33dcbf24bf983f3a897ad45220e95754",
+            "sha256": "ca48106f9728157f2b4cd23febe152d812e7dd12a764f85c3690b53fc5ade3ef",
+            "genre": "Nostalgic J-POP",
+            "title": "LAST PROPOZE [DP 202THER]",
+            "artist": "あとぅす feat.橘花音 BGI:りーふぱいザウルス / obj:plum",
+            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=124&event=133",
+            "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpihFu2zv759M_CQdLu?e=Rnw2aA",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/33dcbf24bf983f3a897ad45220e95754"
+        },
+        {
+            "level": "1",
             "md5": "bc386751014decd338694cfa10b75772",
             "sha256": "cc28ddd1acea27e95913d6c6a5215bc935959f14c99e8234eff890d0ec604b74",
             "genre": "House",
@@ -744,6 +756,18 @@
             "url_diff": "https://stellabms.xyz/upload/6754",
             "comment": null,
             "site_url": "https://ir.stellabms.xyz/charts/4bb48230add6a096363f481d6978e377"
+        },
+        {
+            "level": "1",
+            "md5": "e3ca8c0c1f1a412f7824745d4f8e090f",
+            "sha256": "e1614e903cb4d8f9daa86b4d23d68b852597c1ca8f7142ab690534e2e0af84eb",
+            "genre": "KOREAN EUPHORIC TECH DANCE",
+            "title": "新 漢江水打令 (The New Han River Anthem) [DP ANOTHER]",
+            "artist": "Sound piercer feat.ΣX mov.Ratif",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=234&event=133",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/e3ca8c0c1f1a412f7824745d4f8e090f"
         },
         {
             "level": "1",
@@ -1095,15 +1119,15 @@
         },
         {
             "level": "2",
-            "md5": "33dcbf24bf983f3a897ad45220e95754",
-            "sha256": "ca48106f9728157f2b4cd23febe152d812e7dd12a764f85c3690b53fc5ade3ef",
-            "genre": "Nostalgic J-POP",
-            "title": "LAST PROPOZE [DP 202THER]",
-            "artist": "あとぅす feat.橘花音 BGI:りーふぱいザウルス / obj:plum",
-            "url": "http://manbow.nothing.sh/event/event.cgi?action=More_def&num=124&event=133",
-            "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpihFu2zv759M_CQdLu?e=Rnw2aA",
-            "comment": "",
-            "site_url": "https://ir.stellabms.xyz/charts/33dcbf24bf983f3a897ad45220e95754"
+            "md5": "5307d0ab6610ac88e72d30a2048e6333",
+            "sha256": "beab1c8acce5f6ce2db56e0c801f556a00bdab82f8a6da70ae9b9bfb41a43288",
+            "genre": "New Age Lullaby",
+            "title": "Lullaby from the Crescent World [DP CRESMORTA]",
+            "artist": "Kavhoo vs. DreamSilence2y Obj: Z6W2A / Illust: 逆時針 / BGA: Z6W2A",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=88&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/5307d0ab6610ac88e72d30a2048e6333"
         },
         {
             "level": "2",
@@ -1659,6 +1683,18 @@
         },
         {
             "level": "3",
+            "md5": "8d2eb6c0b25c9a663bdd7187eb1616db",
+            "sha256": "ac06a5bc335e8502ed1348511d0611aecae8d5104f88166d5ec03d9da94ced2d",
+            "genre": "Euphoric Uplifting TRANCE",
+            "title": "Beyond The Galaxy [DP ANOTHER]",
+            "artist": "shimizushi BGA:Black obj:フォルティッシモ",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=51&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/8d2eb6c0b25c9a663bdd7187eb1616db"
+        },
+        {
+            "level": "3",
             "md5": "227f0b51c7e0839f6fe843e6d4795edc",
             "sha256": "24e08a633dc490122f7e68030768d5055fc70fe65f0b6b7a696b54bef0d9b585",
             "genre": "European-Latin",
@@ -1812,6 +1848,18 @@
             "url_diff": "http://www.mediafire.com/download/koylo9u8ople2kl/fragments+J-CoreRemix+DPA+DPEX.zip",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/bfe814c85c09348c177159dc0c03cf0a"
+        },
+        {
+            "level": "3",
+            "md5": "eac93c6b7a9fdf6632c1d3aaa2dd1e6d",
+            "sha256": "9f5ff29184e5ffa750002e0ebb7c3f3a88533b1a4cfd0ef13ed53a2759e2f540",
+            "genre": "blue hardcore",
+            "title": "goodbye world [DP INSANE]",
+            "artist": "yeowool obj. Limite",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=110&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/eac93c6b7a9fdf6632c1d3aaa2dd1e6d"
         },
         {
             "level": "3",
@@ -4320,6 +4368,18 @@
             "url_diff": "",
             "comment": null,
             "site_url": "https://ir.stellabms.xyz/charts/341137bab533cc4416531773975ef249"
+        },
+        {
+            "level": "6",
+            "md5": "84fc0cbecd1fa762a2666dccab340f99",
+            "sha256": "a9b077ed4659d87a14735df9c6d0d384ccd158bcbe1b438d55dd1fde2a65fbea",
+            "genre": "Glitch Hop",
+            "title": "Glitcher [DP INSANE]",
+            "artist": "HOUJIROU mov: 1時 / obj: Y.W",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=239&event=149",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/84fc0cbecd1fa762a2666dccab340f99"
         },
         {
             "level": "6",
@@ -6843,18 +6903,6 @@
         },
         {
             "level": "9",
-            "md5": "2f80fc1c5428f5090808c2c2d8cc11f0",
-            "sha256": "a2b9ddd5e8a80b0b50839670458f0ef4d6ce8224b341c089630527f3c487dcdd",
-            "genre": "FREEFORM HARDCORE",
-            "title": "Non Return to Zero [DP ANOTHER]",
-            "artist": "Rakuno.α obj:Watson",
-            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=137",
-            "url_diff": "",
-            "comment": "",
-            "site_url": "https://ir.stellabms.xyz/charts/2f80fc1c5428f5090808c2c2d8cc11f0"
-        },
-        {
-            "level": "9",
             "md5": "88c3f3fb8a5d2587fc78735155e33509",
             "sha256": "b3960857de10269c0b8f498b5d96ac885697173f51041ded6d0defd86d3dab53",
             "genre": "Game Music",
@@ -7020,6 +7068,18 @@
             "url_diff": "https://1drv.ms/f/s!AhTuCFLHGy4lcDKQC1Yl6rV4p40",
             "comment": "",
             "site_url": "https://ir.stellabms.xyz/charts/05d569d03ea95e757d512cf19ba3507d"
+        },
+        {
+            "level": "9",
+            "md5": "11da5082a586c8ad8028824ad75b5fae",
+            "sha256": "3531ddc77f1a4597eb30d1241f6163b98f8fad2d0ad2c47ec9dd60794e946bad",
+            "genre": "ART EMOTION",
+            "title": "ブラーブルー [dpex]",
+            "artist": "Caerula obj.zo",
+            "url": "http://starkey.ivory.ne.jp/mf/mf2/detail/view/12/",
+            "url_diff": "https://uu.getuploader.com/dpbms/edit/1806",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/11da5082a586c8ad8028824ad75b5fae"
         },
         {
             "level": "9",
@@ -8868,6 +8928,18 @@
             "url_diff": "https://docs.google.com/uc?id=0B4Lag8JPHqO3LU1BMnZVMmNhR0k&export=download",
             "comment": "補完→http://sdrv.ms/JvV8Ia14/04/17 差分入手可。",
             "site_url": "https://ir.stellabms.xyz/charts/4d0916ec8afc93e0879829736ef58556"
+        },
+        {
+            "level": "？",
+            "md5": "2f80fc1c5428f5090808c2c2d8cc11f0",
+            "sha256": "a2b9ddd5e8a80b0b50839670458f0ef4d6ce8224b341c089630527f3c487dcdd",
+            "genre": "FREEFORM HARDCORE",
+            "title": "Non Return to Zero [DP ANOTHER]",
+            "artist": "Rakuno.α obj:Watson",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=137",
+            "url_diff": "",
+            "comment": "",
+            "site_url": "https://ir.stellabms.xyz/charts/2f80fc1c5428f5090808c2c2d8cc11f0"
         },
         {
             "level": "？",

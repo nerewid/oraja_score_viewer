@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-10-11 17:54:22",
+    "Last Update": "2026-10-18 16:20:51",
     "tables": [
         "satellite",
         "stella",
@@ -6219,6 +6219,11 @@
             "title": "Acacia [DP ANOTHER]",
             "artist": "Snowyplane",
             "levels": [
+                {
+                    "level": "11",
+                    "table": "delta",
+                    "shortName": "δ"
+                },
                 {
                     "level": "0",
                     "table": "dpsatellite",
@@ -19507,6 +19512,19 @@
                     "level": "3",
                     "table": "gachimijoy",
                     "shortName": "双"
+                }
+            ]
+        },
+        {
+            "md5": "8d2eb6c0b25c9a663bdd7187eb1616db",
+            "sha256": "ac06a5bc335e8502ed1348511d0611aecae8d5104f88166d5ec03d9da94ced2d",
+            "title": "Beyond The Galaxy [DP ANOTHER]",
+            "artist": "shimizushi BGA:Black obj:フォルティッシモ",
+            "levels": [
+                {
+                    "level": "3",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 }
             ]
         },
@@ -56307,6 +56325,19 @@
             ]
         },
         {
+            "md5": "84fc0cbecd1fa762a2666dccab340f99",
+            "sha256": "a9b077ed4659d87a14735df9c6d0d384ccd158bcbe1b438d55dd1fde2a65fbea",
+            "title": "Glitcher [DP INSANE]",
+            "artist": "HOUJIROU mov: 1時 / obj: Y.W",
+            "levels": [
+                {
+                    "level": "6",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                }
+            ]
+        },
+        {
             "md5": "51529eacb82018578bd51d3d80847f4d",
             "sha256": "5d48d49a3255933c2b90b61d796cd17264b3e9225821f7edd60c9ea9ca2fd69e",
             "title": "Gnome",
@@ -70471,7 +70502,7 @@
             "artist": "あとぅす feat.橘花音 BGI:りーふぱいザウルス / obj:plum",
             "levels": [
                 {
-                    "level": "2",
+                    "level": "1",
                     "table": "dpinsane",
                     "shortName": "DP★"
                 },
@@ -78052,6 +78083,19 @@
                     "level": "乱打3",
                     "table": "16thranda",
                     "shortName": ""
+                }
+            ]
+        },
+        {
+            "md5": "5307d0ab6610ac88e72d30a2048e6333",
+            "sha256": "beab1c8acce5f6ce2db56e0c801f556a00bdab82f8a6da70ae9b9bfb41a43288",
+            "title": "Lullaby from the Crescent World [DP CRESMORTA]",
+            "artist": "Kavhoo vs. DreamSilence2y Obj: Z6W2A / Illust: 逆時針 / BGA: Z6W2A",
+            "levels": [
+                {
+                    "level": "2",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 }
             ]
         },
@@ -89135,7 +89179,7 @@
             "artist": "Rakuno.α obj:Watson",
             "levels": [
                 {
-                    "level": "9",
+                    "level": "？",
                     "table": "dpinsane",
                     "shortName": "DP★"
                 },
@@ -108893,6 +108937,19 @@
             ]
         },
         {
+            "md5": "d3bc2f4c3d0a00120fb14c0ffc41e673",
+            "sha256": "b0bf38ab84564be2666799adc89165590e192bce30657d9f30472ed83cc06544",
+            "title": "Saturday in the Park (Love bms mix)",
+            "artist": "roop",
+            "levels": [
+                {
+                    "level": "9",
+                    "table": "delta",
+                    "shortName": "δ"
+                }
+            ]
+        },
+        {
             "md5": "a38fcd8a5d6779fea4de309e8d613bd3",
             "sha256": "1108f0286b36ad2856e60f44a458ef9ff21c1cb5eb8105eb1e4f243fb9f0f63a",
             "title": "Saudade -nostalgia-",
@@ -108971,6 +109028,19 @@
                     "level": "4",
                     "table": "dystopia",
                     "shortName": "dy"
+                }
+            ]
+        },
+        {
+            "md5": "10a552ad20a402d7263a9783163cad1e",
+            "sha256": "c84e640c3f0e4d21cc227216969fe7299570fb75cf88d97bf362180cce63bf62",
+            "title": "Save Yourself [DP Another]",
+            "artist": "litmus* ft. Miori Celesta obj : hi-low",
+            "levels": [
+                {
+                    "level": "10",
+                    "table": "delta",
+                    "shortName": "δ"
                 }
             ]
         },
@@ -114352,7 +114422,7 @@
                     "shortName": "✡"
                 },
                 {
-                    "level": "乱打9",
+                    "level": "乱打11",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -142978,6 +143048,19 @@
                     "level": "8",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "eac93c6b7a9fdf6632c1d3aaa2dd1e6d",
+            "sha256": "9f5ff29184e5ffa750002e0ebb7c3f3a88533b1a4cfd0ef13ed53a2759e2f540",
+            "title": "goodbye world [DP INSANE]",
+            "artist": "yeowool obj. Limite",
+            "levels": [
+                {
+                    "level": "3",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 }
             ]
         },
@@ -173980,19 +174063,6 @@
             ]
         },
         {
-            "md5": "e0c3fdbfc1f7bd71ea15d84ba53a2b4d",
-            "sha256": "17d6993e0790df036f56ada42a0e773c7d4c25d04a65aa9d99b64627e9b8597e",
-            "title": "ハードルネッサンバ -L A S T  B O S S-",
-            "artist": "HARD RENAISSAMBA MASTER 佐藤 -SATOH- obj:七海",
-            "levels": [
-                {
-                    "level": "7",
-                    "table": "stella",
-                    "shortName": "st"
-                }
-            ]
-        },
-        {
             "md5": "d9ef7046e967310fbeeaaf4911acc1b7",
             "sha256": null,
             "title": "ハードルネッサンバ -LAST BOSS-",
@@ -174188,7 +174258,7 @@
                     "shortName": "sl"
                 },
                 {
-                    "level": "乱打7",
+                    "level": "乱打9",
                     "table": "16thranda",
                     "shortName": ""
                 }
@@ -175705,6 +175775,19 @@
                     "level": "1",
                     "table": "dystopia",
                     "shortName": "dy"
+                }
+            ]
+        },
+        {
+            "md5": "11da5082a586c8ad8028824ad75b5fae",
+            "sha256": "3531ddc77f1a4597eb30d1241f6163b98f8fad2d0ad2c47ec9dd60794e946bad",
+            "title": "ブラーブルー [dpex]",
+            "artist": "Caerula obj.zo",
+            "levels": [
+                {
+                    "level": "9",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
                 }
             ]
         },
@@ -190439,9 +190522,14 @@
         {
             "md5": "e3ca8c0c1f1a412f7824745d4f8e090f",
             "sha256": "e1614e903cb4d8f9daa86b4d23d68b852597c1ca8f7142ab690534e2e0af84eb",
-            "title": "新 漢江水打令 [DP ANOTHER]",
+            "title": "新 漢江水打令 (The New Han River Anthem) [DP ANOTHER]",
             "artist": "Sound piercer feat.ΣX mov.Ratif",
             "levels": [
+                {
+                    "level": "1",
+                    "table": "dpinsane",
+                    "shortName": "DP★"
+                },
                 {
                     "level": "1",
                     "table": "dpsatellite",
@@ -191552,6 +191640,11 @@
             "title": "星蝕セクエンス [DP HYPER]",
             "artist": "wa./obj:epics-",
             "levels": [
+                {
+                    "level": "11",
+                    "table": "delta",
+                    "shortName": "δ"
+                },
                 {
                     "level": "0",
                     "table": "dpsatellite",

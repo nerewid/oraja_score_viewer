@@ -5751,6 +5751,18 @@
         },
         {
             "level": "9",
+            "md5": "d3bc2f4c3d0a00120fb14c0ffc41e673",
+            "sha256": "b0bf38ab84564be2666799adc89165590e192bce30657d9f30472ed83cc06544",
+            "genre": "HOUSE",
+            "title": "Saturday in the Park (Love bms mix)",
+            "artist": "roop",
+            "url": "https://web.archive.org/web/20111130114739/http://www.str3.org/data/bms/roop_sitpremix.rar",
+            "url_diff": "https://drive.google.com/file/d/0B4Lag8JPHqO3LU1BMnZVMmNhR0k/view?usp=sharing",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/d3bc2f4c3d0a00120fb14c0ffc41e673"
+        },
+        {
+            "level": "9",
             "md5": "a6b744f6c9a4d33fb4d7e18201af9271",
             "sha256": "6fa31897b8897aeed8034160eb9632e7028b01c57e32ddc8565b8c3c0a5752d7",
             "genre": "R'n'Balkan",
@@ -7107,6 +7119,18 @@
         },
         {
             "level": "10",
+            "md5": "10a552ad20a402d7263a9783163cad1e",
+            "sha256": "c84e640c3f0e4d21cc227216969fe7299570fb75cf88d97bf362180cce63bf62",
+            "genre": "POP",
+            "title": "Save Yourself [DP Another]",
+            "artist": "litmus* ft. Miori Celesta obj : hi-low",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=322&event=146",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/10a552ad20a402d7263a9783163cad1e"
+        },
+        {
+            "level": "10",
             "md5": "f0ec7b1cfe498c44e259ae98da1b61a2",
             "sha256": "e90e18971c44fa50831c9abe55fed1044d75d83b4a787b3fac68af07de7939dc",
             "genre": "PIANO SOLO",
@@ -7668,6 +7692,18 @@
             "url_diff": "http://dpbms.at-ninja.jp/",
             "comment": "発狂難易度変更投票期間 〜2014/09/13δ11→★1",
             "site_url": "https://ir.stellabms.xyz/charts/f350a5a33841917a64b2358296afda1d"
+        },
+        {
+            "level": "11",
+            "md5": "5734e3760fa0f8e5925829d07b639af9",
+            "sha256": "1e913bdf437e4aab29f7d7da1c94cf772d9073c0db9d3fb3eb4cce3b3965c91a",
+            "genre": "Crossover",
+            "title": "Acacia [DP ANOTHER]",
+            "artist": "Snowyplane",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=135",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/5734e3760fa0f8e5925829d07b639af9"
         },
         {
             "level": "11",
@@ -8796,6 +8832,18 @@
             "url_diff": "",
             "comment": "イベントURL:https://venue.bmssearch.net/bmsshuin3/14所属政党「俺の推しを見ろ党」",
             "site_url": "https://ir.stellabms.xyz/charts/60d396dd7a3c3d203854cb088eb95294"
+        },
+        {
+            "level": "11",
+            "md5": "ac667cd75481e28426bfc0af5f430e77",
+            "sha256": "3b059a7d0e9a289a86e993a48a36f6dc77c4bcac6f337a2f0b8f3a69d46534f5",
+            "genre": "XENOVERSE",
+            "title": "星蝕セクエンス [DP HYPER]",
+            "artist": "wa./obj:epics-",
+            "url": "https://bmsdrive.zris.work/BeMusicSeeker%20difficulty%20tables%20BMS%20PACK/BeMusicSeeker%20difficulty%20tables%20BMS%20PACK%20ver.201225/%E6%98%9F%E8%9D%95%E3%82%BB%E3%82%AF%E3%82%A8%E3%83%B3%E3%82%B9.rar?from=search",
+            "url_diff": "",
+            "comment": null,
+            "site_url": "https://ir.stellabms.xyz/charts/ac667cd75481e28426bfc0af5f430e77"
         },
         {
             "level": "11",
