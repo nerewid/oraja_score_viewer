@@ -871,6 +871,17 @@
             "site_url": "https://stellabms.xyz/song/4770"
         },
         {
+            "id": 9995,
+            "md5": "fb10d14c8a8f845b1f2caa652db1d448",
+            "sha256": "166fe9c42d3b7ba23cf3212f28d7230842481de39a182126f8e63e7ed3fe7f4d",
+            "title": "Blah Dha [DP ANOTHER]",
+            "artist": "saaa / obj:marquee",
+            "url": "https://k-bms.com/party_pabat/party.jsp?board_num=21&num=9",
+            "url_diff": "https://hpx.getonpictochat.com/bmss/2021/",
+            "level": "1",
+            "site_url": "https://stellabms.xyz/song/9995"
+        },
+        {
             "id": 2068,
             "md5": "d571d3802ebdeb013d88b1265b1a2552",
             "sha256": "8523af261914396864082d6b3bb061a2ee75f261f215ce3f27379c90ca39e18e",
@@ -1826,6 +1837,17 @@
             "url_diff": "http://epics.client.jp/",
             "level": "2",
             "site_url": "https://stellabms.xyz/song/3519"
+        },
+        {
+            "id": 10169,
+            "md5": "ced96451b9afd9b958c4bc26e8a8b773",
+            "sha256": "94c0f8aa333f986af496e614739f43a128c4ac540e19e724e86adbf2ac4caea8",
+            "title": "Constellation [DP SATELLITE]",
+            "artist": "Constellation",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=87&event=149",
+            "url_diff": "",
+            "level": "2",
+            "site_url": "https://stellabms.xyz/song/10169"
         },
         {
             "id": 5428,
@@ -3786,6 +3808,17 @@
             "site_url": "https://stellabms.xyz/song/9734"
         },
         {
+            "id": 10073,
+            "md5": "af05c3ec1b816b5df71222e672c2b2cf",
+            "sha256": "056fa7052146a565312a7865df66630ff3ba49ecced5d410120d85c2aecad4f9",
+            "title": "The Warden of Ruins [DP INSANE]",
+            "artist": "38k",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=358&event=140",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/10073"
+        },
+        {
             "id": 7026,
             "md5": "02a7aa2050dffe7f6866086794396503",
             "sha256": "a57a7e97b21dbdaa0c1e67c53848fd50e4ba776ff61f1916826643e3253e3f8f",
@@ -5491,6 +5524,17 @@
             "site_url": "https://stellabms.xyz/song/4583"
         },
         {
+            "id": 9994,
+            "md5": "11909907ffdb78c312a5d0e37bfa0b9f",
+            "sha256": "caf6ba2b8deb3373615a86c9481d45d1022cd730171ec90454982eb950890d71",
+            "title": "Rainy Gate [DPI]",
+            "artist": "E0ri4 BGA:GAMEBAKA",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=60&event=127",
+            "url_diff": "https://uu.getuploader.com/dpbms/download/1321",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/9994"
+        },
+        {
             "id": 7058,
             "md5": "6762dcf97a438f22f65aed41300d0b9b",
             "sha256": "12ecf0bc41d8662e450190689eaa6bb4ab503d97e027736b7fd120f93f88df55",
@@ -5500,6 +5544,17 @@
             "url_diff": "https://ux.getuploader.com/dpbms/download/1069",
             "level": "6",
             "site_url": "https://stellabms.xyz/song/7058"
+        },
+        {
+            "id": 10072,
+            "md5": "71548c5dfc5038da3b168601e96be57f",
+            "sha256": "2c17bf6b7b32f33fb8d4d7f7ce835605657877e49ab6494f3049d62102276dbf",
+            "title": "Snow Memories [DP]",
+            "artist": "ohon obj:ka2o",
+            "url": "https://venue.bmssearch.net/bmstukuru2026/45",
+            "url_diff": "https://stellabms.xyz/upload/8371",
+            "level": "6",
+            "site_url": "https://stellabms.xyz/song/10072"
         },
         {
             "id": 2798,
@@ -6789,6 +6844,17 @@
             "site_url": "https://stellabms.xyz/song/2441"
         },
         {
+            "id": 10080,
+            "md5": "e47b8b5f2c09f36d365868d70d849534",
+            "sha256": "8e8f4e71e29c1bb252ff4601c34ed3a3273ba4913b171f96d1ba777fca95a12c",
+            "title": "gazer [DP ☆NOTHER]",
+            "artist": "scytheleg obj:Hersh",
+            "url": "http://scytheleg.sakura.ne.jp/tempyou/release/tempyou/",
+            "url_diff": "https://ux.getuploader.com/dpbms/download/357",
+            "level": "8",
+            "site_url": "https://stellabms.xyz/song/10080"
+        },
+        {
             "id": 4846,
             "md5": "642b677a1deaa16bceb5e64a785f780b",
             "sha256": "3a2dc4eb69911975157cc5c2a68739fa34d2ae273d2b660f3d381a027b915a49",
@@ -7667,6 +7733,17 @@
             "url_diff": "https://1drv.ms/u/s!Aq-fFGVlbdpih2Q-1VYDH5eDAaLR?e=UWdPcQ",
             "level": "10",
             "site_url": "https://stellabms.xyz/song/7610"
+        },
+        {
+            "id": 9462,
+            "md5": "c7b6bd995526f0f1f0ab4d6bccd9f0c2",
+            "sha256": "1136e6043c7f264ad3a7869fb66809c6417ebef9eefe884b92de95f24a4599e7",
+            "title": "Beyond the Solar System [DP INSANE]",
+            "artist": "shimizushi BGA : Black MISS : isz / obj:plum",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=142",
+            "url_diff": "",
+            "level": "10",
+            "site_url": "https://stellabms.xyz/song/9462"
         },
         {
             "id": 7112,
