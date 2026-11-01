@@ -1,5 +1,5 @@
 {
-    "Last Update": "2026-10-25 16:57:46",
+    "Last Update": "2026-11-01 18:15:33",
     "tables": [
         "satellite",
         "stella",
@@ -362,6 +362,11 @@
                     "level": "1",
                     "table": "stella",
                     "shortName": "st"
+                },
+                {
+                    "level": "重発狂1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -3208,6 +3213,19 @@
                     "level": "2",
                     "table": "like_st",
                     "shortName": "集"
+                }
+            ]
+        },
+        {
+            "md5": "4f41f8c40d4d8072c6bac682aa17e91e",
+            "sha256": null,
+            "title": "5億円が欲しいRENAISSANCE -Heaven-",
+            "artist": "69 de 74 // 差分 Eri BGI:れおん/黒鵜織羽",
+            "levels": [
+                {
+                    "level": "重発狂0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -7124,6 +7142,11 @@
                     "level": "1",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打1",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -12788,6 +12811,11 @@
                     "level": "0",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打0",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -74346,6 +74374,11 @@
                     "level": "5",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -90413,6 +90446,11 @@
                     "level": "10",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打10",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -116814,6 +116852,19 @@
             ]
         },
         {
+            "md5": "21dc00f8ad6648af1b29979beb467432",
+            "sha256": null,
+            "title": "Sunlit Scenery [OVERTURE]",
+            "artist": "RNY BGA:斗湖 / obj:Criyajuh",
+            "levels": [
+                {
+                    "level": "重発狂7",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "d2bc63a8bbf82cb72aefa8fa2b2a3b25",
             "sha256": null,
             "title": "Sunny Side Up [SP AMETHER-A]",
@@ -139312,6 +139363,19 @@
                     "level": "16",
                     "table": "new_generation",
                     "shortName": "▼"
+                }
+            ]
+        },
+        {
+            "md5": "89fede27ece4c87110903090f705c9e9",
+            "sha256": null,
+            "title": "cryona [crystalline]",
+            "artist": "42SoL mov. rime / obj:Criyajuh",
+            "levels": [
+                {
+                    "level": "重発狂5",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
@@ -199990,6 +200054,19 @@
             ]
         },
         {
+            "md5": "84c5b42a7958da8572226470d90c2c34",
+            "sha256": null,
+            "title": "私のDeathアニメ愛はお前らなんかに止めらんない！ [フィジカルガキ認識]",
+            "artist": "クソガキ obj:Deathドパガキマスター",
+            "levels": [
+                {
+                    "level": "重発狂8",
+                    "table": "16thranda",
+                    "shortName": ""
+                }
+            ]
+        },
+        {
             "md5": "41eaeec363cc1cb9f6e22cb6d448a597",
             "sha256": "dae1548f14f74cafc9acb748a80e8e17d28296f9b715b27bd7edea6ad09b72c8",
             "title": "私のDeathアニメ愛を止められなかったお前らが悪い！ [フィジカルアニメ認識]",
@@ -208243,6 +208320,11 @@
                     "level": "2",
                     "table": "satellite",
                     "shortName": "sl"
+                },
+                {
+                    "level": "乱打2",
+                    "table": "16thranda",
+                    "shortName": ""
                 }
             ]
         },
