@@ -530,6 +530,17 @@
             "site_url": "https://stellabms.xyz/song/1441"
         },
         {
+            "id": 5295,
+            "md5": "08f6193cce0da133288d4708c941062f",
+            "sha256": "671e2e0475b276b3fc9abac9f7a8e14eb80a254c37ffa539fd66f7af08ab393b",
+            "title": "Baby [Beloved]",
+            "artist": "r / nbunnyuwu",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=109&event=140",
+            "url_diff": "https://stellabms.xyz/upload/2096",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/5295"
+        },
+        {
             "id": 6895,
             "md5": "da589ce8d5e32d5f5154900af3e88329",
             "sha256": "4db2a7040fbac2ab89c141d92eb290e3e02ab131081ab6373f89c0581e2d6105",
@@ -1144,6 +1155,17 @@
             "url_diff": "",
             "level": "7",
             "site_url": "https://stellabms.xyz/song/1029"
+        },
+        {
+            "id": 7879,
+            "md5": "461ca2c494fee8e2ae2b420d06057a8a",
+            "sha256": "f8832f8df0d04e792dc0e4805ebec65f30d9bf65450618eda96313146c4edd1d",
+            "title": "Ray of Moonlight [Rebirth]",
+            "artist": "-RYO- Movie : Limit_cancel / obj : JURUMA",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=354&event=83",
+            "url_diff": "https://stellabms.xyz/upload/6638",
+            "level": "7",
+            "site_url": "https://stellabms.xyz/song/7879"
         },
         {
             "id": 6731,

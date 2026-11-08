@@ -2884,6 +2884,17 @@
             "site_url": "https://stellabms.xyz/song/4195"
         },
         {
+            "id": 10276,
+            "md5": "6430d67026d64dbab1173e3f8cea671e",
+            "sha256": "28daf12e189dbb62fb232726516ddf5ecafc8eb62491930c8a7d0834cde2634c",
+            "title": "PHANTOM KILLER [DP INSANE]",
+            "artist": "q/stol / object by meteor*",
+            "url": "https://qstol.info/BMS/phantom_killer.zip",
+            "url_diff": "https://end2end.tech/57406add2e6c",
+            "level": "3",
+            "site_url": "https://stellabms.xyz/song/10276"
+        },
+        {
             "id": 8115,
             "md5": "35d0b8664805b49ceb88f888081f8c34",
             "sha256": "330715fd7a5683190b63ed3ae44bff4f05f20309d27b3ef880725cc3062d6352",
@@ -3256,6 +3267,17 @@
             "url_diff": "",
             "level": "4",
             "site_url": "https://stellabms.xyz/song/7633"
+        },
+        {
+            "id": 10272,
+            "md5": "be203aa8acdf20a2992d42bc2b60f0e2",
+            "sha256": "6b8841c23436a2ce3b00c02fda8ca1c6418874e764aa00dc610ec2a9ecea8394",
+            "title": "Acromioclavicular [DP ANOTHER]",
+            "artist": "DJ Excuses",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=51&event=141",
+            "url_diff": "",
+            "level": "4",
+            "site_url": "https://stellabms.xyz/song/10272"
         },
         {
             "id": 4213,
@@ -5016,6 +5038,17 @@
             "url_diff": "",
             "level": "5",
             "site_url": "https://stellabms.xyz/song/3037"
+        },
+        {
+            "id": 10271,
+            "md5": "baba001df00f07b21d222e5cf2c48eb2",
+            "sha256": "32ce093d24804fd30b10afb6148be364e70f250ad56bd403cbb0b92d96e60e11",
+            "title": "港町と黒猫のケト[DP EX]",
+            "artist": "しゃのあ / obj:mordy",
+            "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=103&event=133",
+            "url_diff": "https://stellabms.xyz/upload/8472",
+            "level": "5",
+            "site_url": "https://stellabms.xyz/song/10271"
         },
         {
             "id": 4918,
